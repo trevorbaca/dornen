@@ -20,14 +20,14 @@ accumulator(
     design[:1],
     *dornen.forty_eighth_music(),
     baca.markup("LH only until rascado! (RH tacet; encourage whisks) ..."),
-    extend_beam=True,
+    baca.extend_beam(),
 )
 
 accumulator(
     "v4",
     design[1:2],
     *dornen.twentieth_music(),
-    extend_beam=True,
+    baca.extend_beam(),
 )
 
 accumulator(
@@ -71,14 +71,14 @@ accumulator(
     design[:1],
     *dornen.forty_eighth_music(),
     baca.markup("RH reaches for screw ..."),
-    extend_beam=True,
+    baca.extend_beam(),
 )
 
 accumulator(
     "v4",
     design[1:2],
     *dornen.twentieth_music(),
-    extend_beam=True,
+    baca.extend_beam(),
 )
 
 accumulator(
@@ -122,14 +122,14 @@ accumulator(
     design[:1],
     *dornen.forty_eighth_music(),
     baca.markup("RH places screw on string ..."),
-    extend_beam=True,
+    baca.extend_beam(),
 )
 
 accumulator(
     "v4",
     design[1:2],
     *dornen.twentieth_music(),
-    extend_beam=True,
+    baca.extend_beam(),
 )
 
 accumulator(
@@ -172,14 +172,14 @@ accumulator(
     "v1",
     design[:1],
     *dornen.forty_eighth_music(),
-    extend_beam=True,
+    baca.extend_beam(),
 )
 
 accumulator(
     "v4",
     design[1:2],
     *dornen.twentieth_music(),
-    extend_beam=True,
+    baca.extend_beam(),
 )
 
 accumulator(
@@ -222,14 +222,14 @@ accumulator(
     "v1",
     design[:1],
     *dornen.forty_eighth_music(),
-    extend_beam=True,
+    baca.extend_beam(),
 )
 
 accumulator(
     "v4",
     design[1:2],
     *dornen.twentieth_music(),
-    extend_beam=True,
+    baca.extend_beam(),
 )
 
 accumulator(
@@ -278,7 +278,7 @@ accumulator(
     "v4",
     design[1:2],
     *dornen.twentieth_music(),
-    extend_beam=True,
+    baca.extend_beam(),
 )
 
 accumulator(

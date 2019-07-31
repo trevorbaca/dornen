@@ -19,7 +19,7 @@ accumulator(
     *dornen.anchor_music(),
     baca.beam_positions(6),
     baca.register(-8),
-    extend_beam=True,
+    baca.extend_beam(),
     figure_name=1,
 )
 
@@ -30,7 +30,7 @@ accumulator(
     baca.beam_positions(-10),
     baca.time_signature_extra_offset((-2.5, 0)),
     baca.register(-10),
-    extend_beam=True,
+    baca.extend_beam(),
     figure_name=2,
 )
 
@@ -39,7 +39,7 @@ accumulator(
     cursor.next(),
     *dornen.anchor_music(),
     baca.register(-10),
-    extend_beam=True,
+    baca.extend_beam(),
     figure_name=3,
 )
 
@@ -49,7 +49,7 @@ accumulator(
     *dornen.passepied_music(),
     baca.time_signature_extra_offset((-2.5, 0)),
     baca.register(-8),
-    extend_beam=True,
+    baca.extend_beam(),
     figure_name=4,
 )
 
@@ -76,7 +76,7 @@ accumulator(
     *dornen.anchor_music(),
     baca.beam_positions(9),
     baca.register(-14),
-    extend_beam=True,
+    baca.extend_beam(),
     figure_name=7,
 )
 
@@ -87,7 +87,7 @@ accumulator(
     baca.beam_positions(-10),
     baca.time_signature_extra_offset((-2.5, 0)),
     baca.register(-4),
-    extend_beam=True,
+    baca.extend_beam(),
     figure_name=8,
 )
 
@@ -121,7 +121,7 @@ accumulator(
     *dornen.anchor_music(),
     baca.beam_positions(6),
     baca.register(-18),
-    extend_beam=True,
+    baca.extend_beam(),
     figure_name=12,
 )
 
@@ -149,7 +149,7 @@ accumulator(
     baca.beam_positions(-10),
     baca.time_signature_extra_offset((-2.5, 0)),
     baca.register(0),
-    extend_beam=True,
+    baca.extend_beam(),
     figure_name=15,
 )
 

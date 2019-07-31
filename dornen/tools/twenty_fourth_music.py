@@ -9,7 +9,7 @@ def twenty_fourth_music() -> list:
     """
     return [
         baca.pitch_first_assignment(
-            [1], 16, signature=24, time_treatments=[abjad.Multiplier((2, 3))]
+            [1], 16, signature=24, treatments=[abjad.Multiplier((2, 3))]
         ),
         rmakers.beam(baca.select(), beam_lone_notes=True),
     ]

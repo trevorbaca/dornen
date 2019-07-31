@@ -12,12 +12,12 @@ def wave_music(denominator: int = 64, inverted: bool = False) -> list:
     accelerando_rhythm_maker = baca.PitchFirstRhythmMaker(
         rmakers.Talea(counts=[1], denominator=denominator),
         signature=denominator,
-        time_treatments=["accel"],
+        treatments=["accel"],
     )
     ritardando_rhythm_maker = baca.PitchFirstRhythmMaker(
         rmakers.Talea(counts=[1], denominator=denominator),
         signature=denominator,
-        time_treatments=["rit"],
+        treatments=["rit"],
     )
     rhythm_maker_1 = accelerando_rhythm_maker
     rhythm_maker_2 = ritardando_rhythm_maker

@@ -9,7 +9,7 @@ def rest_music(duration=None) -> list:
     """
     duration = duration or abjad.Duration(1, 8)
     return [
-        baca.pitch_first_assignment_command(
+        baca.pfmaker(
             [duration.numerator],
             duration.denominator,
             signature=duration.denominator,

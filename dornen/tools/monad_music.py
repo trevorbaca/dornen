@@ -7,8 +7,4 @@ def monad_music() -> list:
     """
     Makes monad commands.
     """
-    return [
-        baca.pitch_first_assignment_command(
-            [1], 2, signature=5, treatments=["5:4"]
-        )
-    ]
+    return [baca.pfmaker([1], 2, signature=5, treatments=["5:4"])]

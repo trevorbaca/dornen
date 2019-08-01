@@ -8,7 +8,7 @@ def passepied_music() -> list:
     Makes passepied commands.
     """
     return [
-        baca.pitch_first_command(
+        baca.pfcommand(
             baca.pitch_first_assignment([1], 32, acciaccatura=True),
             baca.pitch_first_assignment([1], 16, pattern=~abjad.index([0])),
         ),

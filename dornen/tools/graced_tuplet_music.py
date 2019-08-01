@@ -8,7 +8,7 @@ def graced_tuplet_music() -> list:
     Makes graced tuplet commands.
     """
     return [
-        baca.pitch_first_command(
+        baca.pfcommand(
             baca.pitch_first_assignment(
                 [1],
                 16,

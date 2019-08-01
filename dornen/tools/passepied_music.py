@@ -9,8 +9,8 @@ def passepied_music() -> list:
     """
     return [
         baca.pfcommand(
-            baca.pitch_first_assignment([1], 32, acciaccatura=True),
-            baca.pitch_first_assignment([1], 16, pattern=~abjad.index([0])),
+            baca.pfassignment(baca.pfmaker([1], 16), ~abjad.index([0])),
+            baca.pfassignment(baca.pfmaker([1], 32, acciaccatura=True)),
         ),
         rmakers.beam_groups(beam_lone_notes=True),
     ]

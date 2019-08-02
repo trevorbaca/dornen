@@ -9,10 +9,10 @@ def wave_music(denominator: int = 64, inverted: bool = False) -> list:
     """
     assert abjad.mathtools.is_positive_integer_power_of_two(denominator)
     assert 16 <= denominator, repr(denominator)
-    accelerando_maker = baca.pfmaker(
+    accelerando_maker = baca.figure(
         [1], denominator, signature=denominator, treatments=["accel"]
     )
-    ritardando_maker = baca.pfmaker(
+    ritardando_maker = baca.figure(
         [1], denominator, signature=denominator, treatments=["rit"]
     )
     maker_1 = accelerando_maker
@@ -21,9 +21,9 @@ def wave_music(denominator: int = 64, inverted: bool = False) -> list:
         maker_1 = ritardando_maker
         maker_2 = accelerando_maker
     return [
-        baca.pfcommand(
-            baca.pfassignment(maker_1, pattern=abjad.index([0], 2)),
-            baca.pfassignment(maker_2, pattern=abjad.index([1], 2)),
+        baca.bind(
+            baca.assign(maker_1, pattern=abjad.index([0], 2)),
+            baca.assign(maker_2, pattern=abjad.index([1], 2)),
         ),
         rmakers.beam(baca.select()),
     ]

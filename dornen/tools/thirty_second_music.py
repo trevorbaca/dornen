@@ -6,4 +6,4 @@ def thirty_second_music() -> list:
     """
     Makes thirty-second commands.
     """
-    return [baca.pfmaker([1], 32, signature=32), rmakers.beam_groups()]
+    return [baca.figure([1], 32, signature=32), rmakers.beam_groups()]

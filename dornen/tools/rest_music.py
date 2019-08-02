@@ -9,7 +9,7 @@ def rest_music(duration=None) -> list:
     """
     duration = duration or abjad.Duration(1, 8)
     return [
-        baca.pfmaker(
+        baca.figure(
             [duration.numerator],
             duration.denominator,
             signature=duration.denominator,

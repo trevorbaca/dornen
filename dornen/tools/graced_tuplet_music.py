@@ -8,7 +8,7 @@ def graced_tuplet_music() -> list:
     Makes graced tuplet commands.
     """
 
-    maker_1 = baca.pfmaker(
+    maker_1 = baca.figure(
         [1],
         16,
         acciaccatura=baca.lmr(
@@ -18,7 +18,7 @@ def graced_tuplet_music() -> list:
         treatments=["7:8"],
     )
 
-    maker_2 = baca.pfmaker(
+    maker_2 = baca.figure(
         [1],
         16,
         acciaccatura=baca.lmr(
@@ -28,9 +28,8 @@ def graced_tuplet_music() -> list:
     )
 
     return [
-        baca.pfcommand(
-            baca.pfassignment(maker_1, abjad.index([0], 2)),
-            baca.pfassignment(maker_2),
+        baca.bind(
+            baca.assign(maker_1, abjad.index([0], 2)), baca.assign(maker_2)
         ),
         rmakers.beam_groups(beam_lone_notes=True),
     ]

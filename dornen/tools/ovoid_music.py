@@ -7,6 +7,6 @@ def ovoid_music() -> list:
     Makes ovoid commands.
     """
     return [
-        baca.pfmaker([6, 1], 32, acciaccatura=baca.lmr(left_length=1)),
+        baca.figure([6, 1], 32, acciaccatura=baca.lmr(left_length=1)),
         rmakers.beam_groups(),
     ]

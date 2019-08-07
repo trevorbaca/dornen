@@ -122,7 +122,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                 guitar_music_voice_4,
             ],
             lilypond_type="GuitarMusicStaff",
-            is_simultaneous=True,
+            simultaneous=True,
             name="Guitar_Music_Staff",
             tag=tag,
         )

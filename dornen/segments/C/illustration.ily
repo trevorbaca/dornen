@@ -2037,10 +2037,10 @@ C_Guitar_Music_Voice_II = {                                                    %
 
             \acciaccatura {
 
-                fs'16
+                fs'!16
                 [                                                              %! Acciaccatura
 
-                bf'16
+                bf'!16
                 ]                                                              %! Acciaccatura
 
             }
@@ -2136,10 +2136,10 @@ C_Guitar_Music_Voice_II = {                                                    %
 
             \acciaccatura {
 
-                fs'16
+                fs'!16
                 [                                                              %! Acciaccatura
 
-                bf'16
+                bf'!16
                 ]                                                              %! Acciaccatura
 
             }
@@ -2235,10 +2235,10 @@ C_Guitar_Music_Voice_II = {                                                    %
 
             \acciaccatura {
 
-                fs'16
+                fs'!16
                 [                                                              %! Acciaccatura
 
-                bf'16
+                bf'!16
                 ]                                                              %! Acciaccatura
 
             }
@@ -2280,7 +2280,7 @@ C_Guitar_Music_Voice_II = {                                                    %
 
             \acciaccatura {
 
-                bf'16
+                bf'!16
                 [                                                              %! Acciaccatura
 
                 b'16
@@ -2327,7 +2327,7 @@ C_Guitar_Music_Voice_II = {                                                    %
 
             \acciaccatura {
 
-                ef'16
+                ef'!16
                 [                                                              %! Acciaccatura
 
                 d'16
@@ -2374,7 +2374,7 @@ C_Guitar_Music_Voice_II = {                                                    %
                 a'16
                 [                                                              %! Acciaccatura
 
-                cs''16
+                cs''!16
                 ]                                                              %! Acciaccatura
 
             }
@@ -2459,7 +2459,7 @@ C_Guitar_Music_Voice_II = {                                                    %
 
             \acciaccatura {
 
-                cs'16
+                cs'!16
                 [                                                              %! Acciaccatura
 
                 e'16
@@ -2506,7 +2506,7 @@ C_Guitar_Music_Voice_II = {                                                    %
 
             \acciaccatura {
 
-                fs'16
+                fs'!16
                 [                                                              %! Acciaccatura
 
                 a'16
@@ -2553,7 +2553,7 @@ C_Guitar_Music_Voice_II = {                                                    %
 
             \acciaccatura {
 
-                af'16
+                af'!16
                 [                                                              %! Acciaccatura
 
                 b'16
@@ -3160,7 +3160,7 @@ C_Guitar_Music_Voice_IV = {                                                    %
 
             \acciaccatura {
 
-                ef''16
+                ef''!16
 
             }
 
@@ -3170,7 +3170,7 @@ C_Guitar_Music_Voice_IV = {                                                    %
 
             \acciaccatura {
 
-                fs'16
+                fs'!16
 
             }
 
@@ -3243,7 +3243,7 @@ C_Guitar_Music_Voice_IV = {                                                    %
 
             \acciaccatura {
 
-                ef''16
+                ef''!16
 
             }
 
@@ -3253,7 +3253,7 @@ C_Guitar_Music_Voice_IV = {                                                    %
 
             \acciaccatura {
 
-                fs''16
+                fs''!16
 
             }
 
@@ -3306,7 +3306,7 @@ C_Guitar_Music_Voice_IV = {                                                    %
 
             \acciaccatura {
 
-                ef'16
+                ef'!16
 
             }
 
@@ -3316,7 +3316,7 @@ C_Guitar_Music_Voice_IV = {                                                    %
 
             \acciaccatura {
 
-                fs'16
+                fs'!16
 
             }
 

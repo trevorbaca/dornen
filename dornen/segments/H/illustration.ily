@@ -454,10 +454,10 @@ H_Guitar_Music_Voice_II = {                                                    %
 
             \acciaccatura {
 
-                ef'16
+                ef'!16
                 [                                                              %! Acciaccatura
 
-                fs'16
+                fs'!16
                 ]                                                              %! Acciaccatura
 
             }
@@ -509,9 +509,9 @@ H_Guitar_Music_Voice_II = {                                                    %
 
                 g'16
 
-                bf'16
+                bf'!16
 
-                ef''16
+                ef''!16
                 ]                                                              %! Acciaccatura
 
             }
@@ -555,7 +555,7 @@ H_Guitar_Music_Voice_II = {                                                    %
 
             \acciaccatura {
 
-                ef''16
+                ef''!16
                 [                                                              %! Acciaccatura
 
                 c''16
@@ -972,7 +972,7 @@ H_Guitar_Music_Voice_IV = {                                                    %
 
             \acciaccatura {
 
-                cs'16
+                cs'!16
 
             }
 
@@ -982,7 +982,7 @@ H_Guitar_Music_Voice_IV = {                                                    %
 
             \acciaccatura {
 
-                ef'16
+                ef'!16
 
             }
 
@@ -992,7 +992,7 @@ H_Guitar_Music_Voice_IV = {                                                    %
 
             \acciaccatura {
 
-                af'16
+                af'!16
 
             }
 
@@ -1002,7 +1002,7 @@ H_Guitar_Music_Voice_IV = {                                                    %
 
             \acciaccatura {
 
-                bf'16
+                bf'!16
 
             }
 
@@ -1052,7 +1052,7 @@ H_Guitar_Music_Voice_IV = {                                                    %
 
             \acciaccatura {
 
-                cs''16
+                cs''!16
 
             }
 

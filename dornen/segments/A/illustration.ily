@@ -676,7 +676,7 @@ A_Guitar_Music_Voice_II = {                                                    %
             % [A Guitar_Music_Voice_II measure 2]                              %! _comment_measure_numbers
             \acciaccatura {
 
-                fs'16
+                fs'!16
             %@% ^ \markup {                                                    %! FIGURE_NAME
             %@%     \fontsize                                                  %! FIGURE_NAME
             %@%         #2                                                     %! FIGURE_NAME
@@ -698,13 +698,13 @@ A_Guitar_Music_Voice_II = {                                                    %
 
                 d'16
 
-                ef'16
+                ef'!16
 
                 f'16
 
                 a'16
 
-                af'16
+                af'!16
                 ]                                                              %! Acciaccatura
 
             }
@@ -728,7 +728,7 @@ A_Guitar_Music_Voice_II = {                                                    %
             % [A Guitar_Music_Voice_II measure 4]                              %! _comment_measure_numbers
             \acciaccatura {
 
-                bf'16
+                bf'!16
             %@% ^ \markup {                                                    %! FIGURE_NAME
             %@%     \fontsize                                                  %! FIGURE_NAME
             %@%         #2                                                     %! FIGURE_NAME
@@ -752,7 +752,7 @@ A_Guitar_Music_Voice_II = {                                                    %
 
                 a'16
 
-                af'16
+                af'!16
 
                 c''16
                 ]                                                              %! Acciaccatura
@@ -798,11 +798,11 @@ A_Guitar_Music_Voice_II = {                                                    %
             %@%     }                                                          %! FIGURE_NAME
                 [                                                              %! Acciaccatura
 
-                fs'16
+                fs'!16
 
                 d''16
 
-                ef''16
+                ef''!16
                 ]                                                              %! Acciaccatura
 
             }
@@ -825,7 +825,7 @@ A_Guitar_Music_Voice_II = {                                                    %
             % [A Guitar_Music_Voice_II measure 8]                              %! _comment_measure_numbers
             \acciaccatura {
 
-                bf'16
+                bf'!16
             %@% ^ \markup {                                                    %! FIGURE_NAME
             %@%     \fontsize                                                  %! FIGURE_NAME
             %@%         #2                                                     %! FIGURE_NAME
@@ -847,7 +847,7 @@ A_Guitar_Music_Voice_II = {                                                    %
 
                 d''16
 
-                ef''16
+                ef''!16
 
                 e''16
                 ]                                                              %! Acciaccatura
@@ -893,11 +893,11 @@ A_Guitar_Music_Voice_II = {                                                    %
             %@%     }                                                          %! FIGURE_NAME
                 [                                                              %! Acciaccatura
 
-                cs''16
+                cs''!16
 
                 b'16
 
-                af''16
+                af''!16
 
                 c''16
 
@@ -905,7 +905,7 @@ A_Guitar_Music_Voice_II = {                                                    %
 
                 g''16
 
-                ef''16
+                ef''!16
                 ]                                                              %! Acciaccatura
 
             }
@@ -950,17 +950,17 @@ A_Guitar_Music_Voice_II = {                                                    %
 
                 g''16
 
-                ef''16
+                ef''!16
 
                 e''16
 
                 f''16
 
-                bf''16
+                bf''!16
 
                 a''16
 
-                cs''16
+                cs''!16
                 ]                                                              %! Acciaccatura
 
             }
@@ -981,7 +981,7 @@ A_Guitar_Music_Voice_II = {                                                    %
             % [A Guitar_Music_Voice_II measure 16]                             %! _comment_measure_numbers
             \acciaccatura {
 
-                ef''16
+                ef''!16
             %@% ^ \markup {                                                    %! FIGURE_NAME
             %@%     \fontsize                                                  %! FIGURE_NAME
             %@%         #2                                                     %! FIGURE_NAME

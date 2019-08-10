@@ -1153,7 +1153,7 @@ I_Guitar_Music_Voice_II = {                                                    %
 
             \acciaccatura {
 
-                fs''16
+                fs''!16
 
             }
 
@@ -1177,7 +1177,7 @@ I_Guitar_Music_Voice_II = {                                                    %
 
             \acciaccatura {
 
-                af''16
+                af''!16
 
             }
 

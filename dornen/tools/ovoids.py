@@ -2,7 +2,7 @@ import baca
 from abjadext import rmakers
 
 
-def ovoid_music() -> list:
+def ovoids() -> list:
     """
     Makes ovoid commands.
     """

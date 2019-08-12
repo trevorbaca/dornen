@@ -3,7 +3,7 @@ import baca
 from abjadext import rmakers
 
 
-def graced_tuplet_music() -> list:
+def graced_tuplets() -> list:
     """
     Makes graced tuplet commands.
     """

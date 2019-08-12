@@ -2,11 +2,11 @@ import baca
 from abjadext import rmakers
 
 
-def sixteenth_music() -> list:
+def anchors() -> list:
     """
-    Makes sixteenth commands.
+    Makes anchor commands.
     """
     return [
-        baca.figure([1], 16, signature=16),
+        baca.figure([3], 16, signature=8),
         rmakers.beam(baca.select(), beam_lone_notes=True),
     ]

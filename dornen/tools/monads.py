@@ -3,7 +3,7 @@ import baca
 from abjadext import rmakers
 
 
-def monad_music() -> list:
+def monads() -> list:
     """
     Makes monad commands.
     """

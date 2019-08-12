@@ -3,7 +3,7 @@ import baca
 from abjadext import rmakers
 
 
-def third_music() -> list:
+def thirds() -> list:
     """
     Makes third commands.
     """

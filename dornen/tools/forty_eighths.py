@@ -2,7 +2,7 @@ import baca
 from abjadext import rmakers
 
 
-def forty_eighth_music() -> list:
+def forty_eighths() -> list:
     """
     Makes forty-eighth commands.
     """

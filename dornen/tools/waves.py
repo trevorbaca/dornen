@@ -3,7 +3,7 @@ import baca
 from abjadext import rmakers
 
 
-def wave_music(denominator: int = 64, inverted: bool = False) -> list:
+def waves(denominator: int = 64, inverted: bool = False) -> list:
     """
     Makes wave commands.
     """

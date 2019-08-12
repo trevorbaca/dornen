@@ -3,11 +3,11 @@ import baca
 from abjadext import rmakers
 
 
-def twenty_fourth_music() -> list:
+def twentieths() -> list:
     """
-    Makes twenty-fourth commands.
+    Makes twentieth commands.
     """
     return [
-        baca.figure([1], 16, signature=24, treatments=["3:2"]),
+        baca.figure([1], 16, signature=20, treatments=["5:4"]),
         rmakers.beam(baca.select(), beam_lone_notes=True),
     ]

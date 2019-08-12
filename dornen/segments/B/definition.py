@@ -16,7 +16,7 @@ assert len(design) == 14
 accumulator(
     "v1",
     design[:4],
-    *dornen.wave_music(denominator=64, inverted=True),
+    *dornen.waves(denominator=64, inverted=True),
     baca.beam_positions(8),
     baca.register(0, -14),
     signature=16,
@@ -26,7 +26,7 @@ accumulator(
 accumulator(
     "v2",
     baca.sequence(design[4:5]).reveal(1),
-    *dornen.twentieth_music(),
+    *dornen.twentieths(),
     baca.beam_positions(-8),
     baca.register(6),
     baca.extend_beam(),
@@ -36,7 +36,7 @@ accumulator(
 accumulator(
     "v1",
     design[5:8],
-    *dornen.running_music(),
+    *dornen.running(),
     baca.register(-14, 0),
     baca.extend_beam(),
     figure_name="R1",
@@ -45,7 +45,7 @@ accumulator(
 accumulator(
     "v2",
     baca.sequence(design[4:5]).reveal(2),
-    *dornen.twentieth_music(),
+    *dornen.twentieths(),
     baca.register(6),
     baca.extend_beam(),
     figure_name="F1_2",
@@ -54,7 +54,7 @@ accumulator(
 accumulator(
     "v1",
     design[6:9],
-    *dornen.running_music(),
+    *dornen.running(),
     baca.register(-14, 0),
     baca.extend_beam(),
     figure_name="R2",
@@ -63,7 +63,7 @@ accumulator(
 accumulator(
     "v2",
     baca.sequence(design[4:5]).reveal(3),
-    *dornen.twentieth_music(),
+    *dornen.twentieths(),
     baca.register(6),
     baca.extend_beam(),
     figure_name="F1_3",
@@ -72,7 +72,7 @@ accumulator(
 accumulator(
     "v1",
     design[7:10],
-    *dornen.running_music(),
+    *dornen.running(),
     baca.register(-14, 0),
     baca.extend_beam(),
     figure_name="R3",
@@ -81,7 +81,7 @@ accumulator(
 accumulator(
     "v2",
     baca.sequence(design[4:5]).reveal(4),
-    *dornen.twentieth_music(),
+    *dornen.twentieths(),
     baca.register(6),
     baca.extend_beam(),
     figure_name="F1_4",
@@ -90,7 +90,7 @@ accumulator(
 accumulator(
     "v1",
     design[8:11],
-    *dornen.running_music(),
+    *dornen.running(),
     baca.register(-14, 0),
     baca.extend_beam(),
     figure_name="R4",
@@ -99,7 +99,7 @@ accumulator(
 accumulator(
     "v2",
     baca.sequence(design[4:5]).reveal(5),
-    *dornen.twentieth_music(),
+    *dornen.twentieths(),
     baca.register(6),
     figure_name="F1",
 )
@@ -107,7 +107,7 @@ accumulator(
 accumulator(
     "v1",
     design[9:13],
-    *dornen.running_music(),
+    *dornen.running(),
     baca.register(-14, 6),
     figure_name="R5",
 )
@@ -115,7 +115,7 @@ accumulator(
 accumulator(
     "v2",
     baca.sequence(design[4:5]).reveal(1),
-    *dornen.twentieth_music(),
+    *dornen.twentieths(),
     baca.register(6),
     baca.extend_beam(),
     figure_name="F1_1*",
@@ -124,7 +124,7 @@ accumulator(
 accumulator(
     "v1",
     design[13:],
-    *dornen.delicatissimo_music(),
+    *dornen.delicatissimo(),
     baca.text_script_staff_padding(9),
     baca.register(6, -20),
     baca.extend_beam(),
@@ -134,7 +134,7 @@ accumulator(
 accumulator(
     "v2",
     baca.sequence(design[4:5]).reveal(2),
-    *dornen.twentieth_music(),
+    *dornen.twentieths(),
     baca.register(6),
     figure_name="F1_2*",
 )
@@ -142,7 +142,7 @@ accumulator(
 accumulator(
     "v1",
     design[13:],
-    *dornen.delicatissimo_music(),
+    *dornen.delicatissimo(),
     baca.register(-20, 6),
     figure_name="D2",
 )

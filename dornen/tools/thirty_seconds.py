@@ -2,7 +2,7 @@ import baca
 from abjadext import rmakers
 
 
-def thirty_second_music() -> list:
+def thirty_seconds() -> list:
     """
     Makes thirty-second commands.
     """

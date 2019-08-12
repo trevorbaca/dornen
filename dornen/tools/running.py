@@ -2,7 +2,7 @@ import baca
 from abjadext import rmakers
 
 
-def running_music() -> list:
+def running() -> list:
     """
     Makes running commands.
     """

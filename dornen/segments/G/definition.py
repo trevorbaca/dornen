@@ -25,7 +25,7 @@ middle_register = baca.register(
 accumulator(
     "v1",
     design[:1],
-    *dornen.twentieth_music(),
+    *dornen.twentieths(),
     baca.slur(),
     middle_register,
     baca.extend_beam(),
@@ -35,7 +35,7 @@ accumulator(
 accumulator(
     "v2",
     design[1:2],
-    *dornen.sixteenth_music(),
+    *dornen.sixteenths(),
     baca.markup(
         "dull (but beautiful) thud with RH muting for each red note",
         direction=abjad.Down,
@@ -48,7 +48,7 @@ accumulator(
 accumulator(
     "v3",
     design[2:3],
-    *dornen.twenty_eighth_music(),
+    *dornen.twenty_eighths(),
     baca.stem_up(),
     middle_register,
     figure_name="28_1",
@@ -57,7 +57,7 @@ accumulator(
 accumulator(
     "v2",
     design[3:4],
-    *dornen.sixteenth_music(),
+    *dornen.sixteenths(),
     baca.extend_beam(),
     figure_name="16_2",
 )
@@ -65,7 +65,7 @@ accumulator(
 accumulator(
     "v1",
     design[4:5],
-    *dornen.twentieth_music(),
+    *dornen.twentieths(),
     baca.slur(),
     middle_register,
     baca.extend_beam(),
@@ -75,7 +75,7 @@ accumulator(
 accumulator(
     "v2",
     design[5:6],
-    *dornen.sixteenth_music(),
+    *dornen.sixteenths(),
     baca.extend_beam(),
     figure_name="16_3",
 )
@@ -83,7 +83,7 @@ accumulator(
 accumulator(
     "v3",
     design[6:7],
-    *dornen.twenty_eighth_music(),
+    *dornen.twenty_eighths(),
     baca.stem_up(),
     middle_register,
     figure_name="28_2",
@@ -92,7 +92,7 @@ accumulator(
 accumulator(
     "v2",
     design[7:8],
-    *dornen.sixteenth_music(),
+    *dornen.sixteenths(),
     baca.extend_beam(),
     figure_name="16_4",
 )
@@ -100,7 +100,7 @@ accumulator(
 accumulator(
     "v1",
     design[8:9],
-    *dornen.twentieth_music(),
+    *dornen.twentieths(),
     baca.slur(),
     middle_register,
     figure_name="20_3",
@@ -109,14 +109,14 @@ accumulator(
 accumulator(
     "v2",
     design[9:10],
-    *dornen.sixteenth_music(),
+    *dornen.sixteenths(),
     figure_name="16_5",
 )
 
 accumulator(
     "v2",
     design[10:11],
-    *dornen.twenty_fourth_music(),
+    *dornen.twenty_fourths(),
     baca.extend_beam(),
     figure_name="24_1",
 )
@@ -124,7 +124,7 @@ accumulator(
 accumulator(
     "v1",
     design[11:12],
-    *dornen.thirty_second_music(),
+    *dornen.thirty_seconds(),
     baca.slur(),
     middle_register,
     baca.extend_beam(),
@@ -134,7 +134,7 @@ accumulator(
 accumulator(
     "v2",
     design[12:13],
-    *dornen.twenty_fourth_music(),
+    *dornen.twenty_fourths(),
     baca.extend_beam(),
     figure_name="24_2",
 )
@@ -142,7 +142,7 @@ accumulator(
 accumulator(
     "v3",
     design[13:14],
-    *dornen.twenty_eighth_music(),
+    *dornen.twenty_eighths(),
     baca.stem_up(),
     middle_register,
     figure_name="28_3",
@@ -151,7 +151,7 @@ accumulator(
 accumulator(
     "v2",
     design[14:15],
-    *dornen.twenty_fourth_music(),
+    *dornen.twenty_fourths(),
     baca.extend_beam(),
     figure_name="24_3",
 )
@@ -159,7 +159,7 @@ accumulator(
 accumulator(
     "v1",
     design[15:16],
-    *dornen.thirty_second_music(),
+    *dornen.thirty_seconds(),
     baca.slur(),
     middle_register,
     baca.extend_beam(),
@@ -169,7 +169,7 @@ accumulator(
 accumulator(
     "v2",
     design[16:17],
-    *dornen.twenty_fourth_music(),
+    *dornen.twenty_fourths(),
     baca.extend_beam(),
     figure_name="24_4",
 )
@@ -177,7 +177,7 @@ accumulator(
 accumulator(
     "v1",
     design[17:18],
-    *dornen.thirty_second_music(),
+    *dornen.thirty_seconds(),
     baca.slur(),
     middle_register,
     baca.extend_beam(),
@@ -187,7 +187,7 @@ accumulator(
 accumulator(
     "v2",
     design[18:19],
-    *dornen.twenty_fourth_music(),
+    *dornen.twenty_fourths(),
     baca.extend_beam(),
     figure_name="24_5",
 )
@@ -195,7 +195,7 @@ accumulator(
 accumulator(
     "v3",
     design[19:20],
-    *dornen.twenty_eighth_music(),
+    *dornen.twenty_eighths(),
     baca.stem_up(),
     middle_register,
     figure_name="28_4",
@@ -204,14 +204,14 @@ accumulator(
 accumulator(
     "v2",
     design[20:21],
-    *dornen.twenty_fourth_music(),
+    *dornen.twenty_fourths(),
     figure_name="24_6",
 )
 
 accumulator(
     "v1",
     design[21:],
-    *dornen.thirty_second_music(),
+    *dornen.thirty_seconds(),
     baca.slur(),
     middle_register,
     figure_name="32_4",

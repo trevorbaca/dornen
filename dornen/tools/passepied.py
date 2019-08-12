@@ -3,7 +3,7 @@ import baca
 from abjadext import rmakers
 
 
-def passepied_music() -> list:
+def passepied() -> list:
     """
     Makes passepied commands.
     """

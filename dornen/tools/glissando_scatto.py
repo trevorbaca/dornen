@@ -2,7 +2,7 @@ import baca
 from abjadext import rmakers
 
 
-def glissando_scatto_music() -> list:
+def glissando_scatto() -> list:
     """
     Makes glissando scatto commands.
     """

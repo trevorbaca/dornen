@@ -3,7 +3,7 @@ import baca
 from abjadext import rmakers
 
 
-def rest_music(duration=None) -> list:
+def rests(duration=None) -> list:
     """
     Makes rest commands.
     """

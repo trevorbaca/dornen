@@ -2,12 +2,12 @@ import baca
 from abjadext import rmakers
 
 
-def sixty_fourth_music() -> list:
+def delicatissimo() -> list:
     """
-    Makes sixty-fourth commands.
+    Makes delicatissimo commands.
     """
     return [
-        baca.figure([1], 64, signature=64),
+        baca.figure([1], 32, signature=32),
         rmakers.beam_groups(),
         baca.staccato(selector=baca.pheads()),
     ]

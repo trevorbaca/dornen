@@ -18,7 +18,7 @@ assert len(design) == 14
 accumulator(
     "v1",
     design[:1],
-    *dornen.forty_eighth_music(),
+    *dornen.forty_eighths(),
     baca.markup("LH only until rascado! (RH tacet; encourage whisks) ..."),
     baca.extend_beam(),
 )
@@ -26,20 +26,20 @@ accumulator(
 accumulator(
     "v4",
     design[1:2],
-    *dornen.twentieth_music(),
+    *dornen.twentieths(),
     baca.extend_beam(),
 )
 
 accumulator(
     "v3",
     design[2:3],
-    *dornen.sixteenth_music(),
+    *dornen.sixteenths(),
 )
 
 accumulator(
     "v4",
     design[3:4],
-    *dornen.twentieth_music(),
+    *dornen.twentieths(),
     baca.beam_positions(6),
     baca.stem_up(),
 )
@@ -47,20 +47,20 @@ accumulator(
 accumulator(
     "v2",
     design[4:5],
-    *dornen.thirty_second_music(),
+    *dornen.thirty_seconds(),
     baca.slur(),
 )
 
 accumulator(
     "v1",
     design[5:6],
-    *dornen.forty_eighth_music(),
+    *dornen.forty_eighths(),
 )
 
 accumulator(
     "v1",
     [["C4"]],
-    *dornen.thirty_second_music(),
+    *dornen.thirty_seconds(),
     rmakers.force_rest(baca.lt(0)),
 )
 
@@ -69,7 +69,7 @@ accumulator(
 accumulator(
     "v1",
     design[:1],
-    *dornen.forty_eighth_music(),
+    *dornen.forty_eighths(),
     baca.markup("RH reaches for screw ..."),
     baca.extend_beam(),
 )
@@ -77,20 +77,20 @@ accumulator(
 accumulator(
     "v4",
     design[1:2],
-    *dornen.twentieth_music(),
+    *dornen.twentieths(),
     baca.extend_beam(),
 )
 
 accumulator(
     "v3",
     design[2:3],
-    *dornen.sixteenth_music(),
+    *dornen.sixteenths(),
 )
 
 accumulator(
     "v4",
     design[3:4],
-    *dornen.twentieth_music(),
+    *dornen.twentieths(),
     baca.beam_positions(6),
     baca.stem_up(),
 )
@@ -98,20 +98,20 @@ accumulator(
 accumulator(
     "v2",
     design[4:5],
-    *dornen.thirty_second_music(),
+    *dornen.thirty_seconds(),
     baca.slur(),
 )
 
 accumulator(
     "v1",
     design[5:6],
-    *dornen.forty_eighth_music(),
+    *dornen.forty_eighths(),
 )
 
 accumulator(
     "v1",
     [["C4"]],
-    *dornen.thirty_second_music(),
+    *dornen.thirty_seconds(),
     rmakers.force_rest(baca.lt(0)),
 )
 
@@ -120,7 +120,7 @@ accumulator(
 accumulator(
     "v1",
     design[:1],
-    *dornen.forty_eighth_music(),
+    *dornen.forty_eighths(),
     baca.markup("RH places screw on string ..."),
     baca.extend_beam(),
 )
@@ -128,20 +128,20 @@ accumulator(
 accumulator(
     "v4",
     design[1:2],
-    *dornen.twentieth_music(),
+    *dornen.twentieths(),
     baca.extend_beam(),
 )
 
 accumulator(
     "v3",
     design[2:3],
-    *dornen.sixteenth_music(),
+    *dornen.sixteenths(),
 )
 
 accumulator(
     "v4",
     design[3:4],
-    *dornen.twentieth_music(),
+    *dornen.twentieths(),
     baca.beam_positions(6),
     baca.stem_up(),
 )
@@ -149,20 +149,20 @@ accumulator(
 accumulator(
     "v2",
     design[4:5],
-    *dornen.thirty_second_music(),
+    *dornen.thirty_seconds(),
     baca.slur(),
 )
 
 accumulator(
     "v1",
     design[5:6],
-    *dornen.forty_eighth_music(),
+    *dornen.forty_eighths(),
 )
 
 accumulator(
     "v1",
     [["C4"]],
-    *dornen.thirty_second_music(),
+    *dornen.thirty_seconds(),
     rmakers.force_rest(baca.lt(0)),
 )
 
@@ -171,27 +171,27 @@ accumulator(
 accumulator(
     "v1",
     design[:1],
-    *dornen.forty_eighth_music(),
+    *dornen.forty_eighths(),
     baca.extend_beam(),
 )
 
 accumulator(
     "v4",
     design[1:2],
-    *dornen.twentieth_music(),
+    *dornen.twentieths(),
     baca.extend_beam(),
 )
 
 accumulator(
     "v3",
     design[2:3],
-    *dornen.sixteenth_music(),
+    *dornen.sixteenths(),
 )
 
 accumulator(
     "v4",
     design[3:4],
-    *dornen.twentieth_music(),
+    *dornen.twentieths(),
     baca.beam_positions(6),
     baca.stem_up(),
 )
@@ -199,20 +199,20 @@ accumulator(
 accumulator(
     "v2",
     design[4:5],
-    *dornen.thirty_second_music(),
+    *dornen.thirty_seconds(),
     baca.slur(),
 )
 
 accumulator(
     "v1",
     design[5:6],
-    *dornen.forty_eighth_music(),
+    *dornen.forty_eighths(),
 )
 
 accumulator(
     "v1",
     [["C4"]],
-    *dornen.thirty_second_music(),
+    *dornen.thirty_seconds(),
     rmakers.force_rest(baca.lt(0)),
 )
 
@@ -221,27 +221,27 @@ accumulator(
 accumulator(
     "v1",
     design[:1],
-    *dornen.forty_eighth_music(),
+    *dornen.forty_eighths(),
     baca.extend_beam(),
 )
 
 accumulator(
     "v4",
     design[1:2],
-    *dornen.twentieth_music(),
+    *dornen.twentieths(),
     baca.extend_beam(),
 )
 
 accumulator(
     "v3",
     design[2:3],
-    *dornen.sixteenth_music(),
+    *dornen.sixteenths(),
 )
 
 accumulator(
     "v4",
     design[3:4],
-    *dornen.twentieth_music(),
+    *dornen.twentieths(),
     baca.beam_positions(6),
     baca.stem_up(),
 )
@@ -249,20 +249,20 @@ accumulator(
 accumulator(
     "v2",
     design[4:5],
-    *dornen.thirty_second_music(),
+    *dornen.thirty_seconds(),
     baca.slur(),
 )
 
 accumulator(
     "v1",
     design[5:6],
-    *dornen.forty_eighth_music(),
+    *dornen.forty_eighths(),
 )
 
 accumulator(
     "v1",
     [["C4"]],
-    *dornen.thirty_second_music(),
+    *dornen.thirty_seconds(),
     rmakers.force_rest(baca.lt(0)),
 )
 
@@ -271,26 +271,26 @@ accumulator(
 accumulator(
     "v1",
     design[:1],
-    *dornen.forty_eighth_music(),
+    *dornen.forty_eighths(),
 )
 
 accumulator(
     "v4",
     design[1:2],
-    *dornen.twentieth_music(),
+    *dornen.twentieths(),
     baca.extend_beam(),
 )
 
 accumulator(
     "v3",
     design[2:3],
-    *dornen.sixteenth_music(),
+    *dornen.sixteenths(),
 )
 
 accumulator(
     "v4",
     design[3:4],
-    *dornen.twentieth_music(),
+    *dornen.twentieths(),
     baca.beam_positions(6),
     baca.stem_up(),
 )
@@ -298,7 +298,7 @@ accumulator(
 accumulator(
     "v2",
     design[4:5],
-    *dornen.thirty_second_music(),
+    *dornen.thirty_seconds(),
     baca.slur(),
 )
 
@@ -307,13 +307,13 @@ accumulator(
 accumulator(
     "v1",
     [5 * ["C4"]],
-    *dornen.rest_music(),
+    *dornen.rests(),
 )
 
 accumulator(
     "v1",
     [13 * ["E2"]],
-    *dornen.third_music(),
+    *dornen.thirds(),
     baca.dynamic("p"),
     baca.markup(
         "RASCADO: slowly draw extremely long metal screw over open string;"

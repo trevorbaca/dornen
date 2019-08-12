@@ -15,7 +15,7 @@ assert len(design) == 22
 accumulator(
     "v1",
     design[:1],
-    *dornen.wave_music(denominator=64, inverted=True),
+    *dornen.waves(denominator=64, inverted=True),
     baca.register(0, -14),
     figure_name="W1",
 )
@@ -23,7 +23,7 @@ accumulator(
 accumulator(
     "v4",
     baca.sequence(design[5:6]).reveal(1),
-    *dornen.graced_tuplet_music(),
+    *dornen.graced_tuplets(),
     baca.beam_positions(12),
     baca.stem_up(),
     baca.register(0),
@@ -34,7 +34,7 @@ accumulator(
 accumulator(
     "v2",
     design[1:2],
-    *dornen.ovoid_music(),
+    *dornen.ovoids(),
     baca.beam_positions(-8, baca.pleaf(0)),
     baca.register(-14, -6),
     baca.extend_beam(),
@@ -44,7 +44,7 @@ accumulator(
 accumulator(
     "v4",
     baca.sequence(design[5:6]).reveal(1),
-    *dornen.graced_tuplet_music(),
+    *dornen.graced_tuplets(),
     baca.stem_up(),
     baca.register(0),
     baca.extend_beam(),
@@ -54,7 +54,7 @@ accumulator(
 accumulator(
     "v1",
     baca.sequence(design[2:3]).boustrophedon(count=2),
-    *dornen.wave_music(denominator=64, inverted=True),
+    *dornen.waves(denominator=64, inverted=True),
     baca.beam_positions(7),
     baca.register(0, -14),
     figure_name="W2",
@@ -63,7 +63,7 @@ accumulator(
 accumulator(
     "v4",
     baca.sequence(design[5:6]).reveal(3),
-    *dornen.graced_tuplet_music(),
+    *dornen.graced_tuplets(),
     baca.stem_up(),
     baca.register(0),
     baca.extend_beam(),
@@ -73,7 +73,7 @@ accumulator(
 accumulator(
     "v2",
     design[3:4],
-    *dornen.ovoid_music(),
+    *dornen.ovoids(),
     baca.text_script_color("red"),
     baca.register(-14, -6),
     figure_name="O2",
@@ -82,7 +82,7 @@ accumulator(
 accumulator(
     "v4",
     baca.sequence(design[5:6]).reveal(3),
-    *dornen.graced_tuplet_music(),
+    *dornen.graced_tuplets(),
     baca.stem_up(),
     baca.register(0),
     figure_name="G1_3",
@@ -93,7 +93,7 @@ cell_d1 = [baca.sequence(design[4:5]).boustrophedon(count=4).flatten()]
 accumulator(
     "v1",
     baca.sequence(cell_d1).reveal(4),
-    *dornen.delicatissimo_music(),
+    *dornen.delicatissimo(),
     baca.beam_positions(-6.5),
     baca.stem_down(),
     baca.extend_beam(),
@@ -103,7 +103,7 @@ accumulator(
 accumulator(
     "v4",
     baca.sequence(design[5:6]).reveal(1),
-    *dornen.graced_tuplet_music(),
+    *dornen.graced_tuplets(),
     baca.beam_positions(12),
     baca.stem_up(),
     baca.register(0),
@@ -114,7 +114,7 @@ accumulator(
 accumulator(
     "v1",
     baca.sequence(cell_d1).reveal(3),
-    *dornen.delicatissimo_music(),
+    *dornen.delicatissimo(),
     baca.beam_positions(-6.5),
     baca.stem_down(),
     baca.extend_beam(),
@@ -124,7 +124,7 @@ accumulator(
 accumulator(
     "v4",
     baca.sequence(design[5:6]).reveal(5),
-    *dornen.graced_tuplet_music(),
+    *dornen.graced_tuplets(),
     baca.stem_up(),
     baca.register(0),
     baca.extend_beam(),
@@ -134,7 +134,7 @@ accumulator(
 accumulator(
     "v1",
     baca.sequence(cell_d1).reveal(10),
-    *dornen.delicatissimo_music(),
+    *dornen.delicatissimo(),
     baca.beam_positions(-6.5),
     baca.stem_down(),
     figure_name="D1_3",
@@ -143,7 +143,7 @@ accumulator(
 accumulator(
     "v2",
     design[1:2],
-    *dornen.ovoid_music(),
+    *dornen.ovoids(),
     baca.beam_positions(-8, baca.pleaf(0)),
     baca.register(-14, -6),
     baca.extend_beam(),
@@ -153,7 +153,7 @@ accumulator(
 accumulator(
     "v4",
     baca.sequence(design[5:6]).reveal(3),
-    *dornen.graced_tuplet_music(),
+    *dornen.graced_tuplets(),
     baca.stem_up(),
     baca.register(0),
     baca.extend_beam(),
@@ -163,7 +163,7 @@ accumulator(
 accumulator(
     "v1",
     [baca.sequence(design[2:3]).boustrophedon(count=2).flatten()],
-    *dornen.wave_music(denominator=64),
+    *dornen.waves(denominator=64),
     baca.beam_positions(7),
     baca.stem_up(),
     baca.register(0, -14),
@@ -173,7 +173,7 @@ accumulator(
 accumulator(
     "v1",
     baca.sequence(cell_d1).reveal(15),
-    *dornen.delicatissimo_music(),
+    *dornen.delicatissimo(),
     baca.beam_positions(-6.5),
     baca.stem_down(),
     baca.extend_beam(),
@@ -183,7 +183,7 @@ accumulator(
 accumulator(
     "v4",
     baca.sequence(design[5:6]).reveal(9),
-    *dornen.graced_tuplet_music(),
+    *dornen.graced_tuplets(),
     baca.beam_positions(6),
     baca.stem_up(),
     baca.register(0, -14),
@@ -194,7 +194,7 @@ accumulator(
 accumulator(
     "v1",
     baca.sequence(cell_d1).reveal(6),
-    *dornen.delicatissimo_music(),
+    *dornen.delicatissimo(),
     baca.beam_positions(-6.5),
     baca.stem_down(),
     figure_name="D1_5",
@@ -203,7 +203,7 @@ accumulator(
 accumulator(
     "v2",
     design[3:4],
-    *dornen.ovoid_music(),
+    *dornen.ovoids(),
     baca.text_script_color("red"),
     baca.register(-14, -6),
     figure_name="O2*",
@@ -212,7 +212,7 @@ accumulator(
 accumulator(
     "v4",
     list(baca.sequence(design[5:6]).repeat(n=2).flatten().map(list)),
-    *dornen.graced_tuplet_music(),
+    *dornen.graced_tuplets(),
     baca.beam_positions(6),
     baca.stem_up(),
     baca.register(0, -14),
@@ -222,7 +222,7 @@ accumulator(
 accumulator(
     "v2",
     design[1:2],
-    *dornen.ovoid_music(),
+    *dornen.ovoids(),
     baca.beam_positions(-8, baca.pleaf(0)),
     baca.register(-14, -6),
     baca.extend_beam(),
@@ -232,7 +232,7 @@ accumulator(
 accumulator(
     "v1",
     baca.sequence(cell_d1).reveal(10),
-    *dornen.delicatissimo_music(),
+    *dornen.delicatissimo(),
     baca.beam_positions(-6.5),
     baca.stem_down(),
     figure_name="D1_6",
@@ -241,7 +241,7 @@ accumulator(
 accumulator(
     "v1",
     baca.sequence(cell_d1).reveal(-15),
-    *dornen.delicatissimo_music(),
+    *dornen.delicatissimo(),
     baca.beam_positions(-6.5),
     baca.nest([abjad.Multiplier((2, 3))]),
     baca.stem_down(),
@@ -252,7 +252,7 @@ accumulator(
 accumulator(
     "v1",
     design[6:7],
-    *dornen.delicatissimo_music(),
+    *dornen.delicatissimo(),
     baca.beam_positions(-6.5),
     baca.stem_down(),
     baca.register(6, -20),
@@ -262,7 +262,7 @@ accumulator(
 accumulator(
     "v2",
     design[3:4],
-    *dornen.ovoid_music(),
+    *dornen.ovoids(),
     baca.text_script_color("red"),
     baca.register(-14, -6),
     baca.extend_beam(),
@@ -272,7 +272,7 @@ accumulator(
 accumulator(
     "v2",
     baca.sequence(design[7:9]).join(),
-    *dornen.ovoid_music(),
+    *dornen.ovoids(),
     baca.register(-14, -6),
     figure_name="O3",
 )
@@ -280,7 +280,7 @@ accumulator(
 accumulator(
     "v2",
     baca.sequence(design[9:11]).join(),
-    *dornen.ovoid_music(),
+    *dornen.ovoids(),
     baca.beam_positions(-8, baca.pleaf(0)),
     baca.register(-14, -6),
     baca.extend_beam(),
@@ -290,7 +290,7 @@ accumulator(
 accumulator(
     "v2",
     baca.sequence(design[11:13]).join(),
-    *dornen.ovoid_music(),
+    *dornen.ovoids(),
     baca.register(-14, -6),
     baca.extend_beam(),
     figure_name="O5",
@@ -299,7 +299,7 @@ accumulator(
 accumulator(
     "v2",
     baca.sequence(design[13:15]).join(),
-    *dornen.ovoid_music(),
+    *dornen.ovoids(),
     baca.register(-14, -6),
     baca.extend_beam(),
     figure_name="O6",
@@ -308,7 +308,7 @@ accumulator(
 accumulator(
     "v2",
     baca.sequence(design[15:17]).join(),
-    *dornen.ovoid_music(),
+    *dornen.ovoids(),
     baca.register(-14, -6),
     figure_name="O7",
 )
@@ -316,7 +316,7 @@ accumulator(
 accumulator(
     "v2",
     baca.sequence(design[17:19]).join(),
-    *dornen.ovoid_music(),
+    *dornen.ovoids(),
     baca.beam_positions(-8, baca.pleaf(0)),
     baca.register(-14, -6),
     baca.extend_beam(),
@@ -326,7 +326,7 @@ accumulator(
 accumulator(
     "v1",
     [baca.sequence(design[2:3]).boustrophedon(count=2).flatten()],
-    *dornen.wave_music(denominator=64),
+    *dornen.waves(denominator=64),
     baca.beam_positions(7),
     baca.stem_up(),
     baca.register(0, -14),
@@ -336,7 +336,7 @@ accumulator(
 accumulator(
     "v1",
     design[6:7],
-    *dornen.delicatissimo_music(),
+    *dornen.delicatissimo(),
     baca.beam_positions(-6.5),
     baca.stem_down(),
     baca.register(6, -20),
@@ -346,7 +346,7 @@ accumulator(
 accumulator(
     "v2",
     baca.sequence(design[19:21]).join(),
-    *dornen.ovoid_music(),
+    *dornen.ovoids(),
     baca.register(-14, -6),
     #baca.extend_beam(),
     figure_name="O9",
@@ -355,7 +355,7 @@ accumulator(
 accumulator(
     "v2",
     design[21:22],
-    *dornen.ovoid_music(),
+    *dornen.ovoids(),
     baca.register(-14, -6),
     figure_name="O10",
 )

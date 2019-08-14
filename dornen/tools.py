@@ -7,6 +7,7 @@ from .materials import instruments as dornen_instruments
 
 ### FUNCTIONS ###
 
+
 def anchors() -> list:
     """
     Makes anchor commands.
@@ -1557,8 +1558,9 @@ def design_3(
     pitch_lists = pitch_lists[start:stop]
     return pitch_lists
 
-    
+
 ### CLASSES ###
+
 
 class DesignChecker(object):
     """

@@ -942,7 +942,7 @@ M_Guitar_Music_Voice_I = {                                                     %
         %@%             }                                                      %! FIGURE_NAME
         %@%     }                                                              %! FIGURE_NAME
             \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
-            \stopTextSpan                                                      %! baca.text_spanner:PiecewiseCommand(2)
+            \stopTextSpan                                                      %! STOP_TEXT_SPAN:baca.text_spanner:PiecewiseCommand(2)
 
         }
 
@@ -1027,7 +1027,7 @@ M_Guitar_Music_Voice_I = {                                                     %
         %@%             }                                                      %! FIGURE_NAME
         %@%     }                                                              %! FIGURE_NAME
             \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
-            \stopTextSpan                                                      %! baca.text_spanner:PiecewiseCommand(2)
+            \stopTextSpan                                                      %! STOP_TEXT_SPAN:baca.text_spanner:PiecewiseCommand(2)
 
         }
 
@@ -1154,7 +1154,7 @@ M_Guitar_Music_Voice_I = {                                                     %
         %@%             }                                                      %! FIGURE_NAME
         %@%     }                                                              %! FIGURE_NAME
             \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
-            \stopTextSpan                                                      %! baca.text_spanner:PiecewiseCommand(2)
+            \stopTextSpan                                                      %! STOP_TEXT_SPAN:baca.text_spanner:PiecewiseCommand(2)
 
         }
 
@@ -1239,7 +1239,7 @@ M_Guitar_Music_Voice_I = {                                                     %
         %@%             }                                                      %! FIGURE_NAME
         %@%     }                                                              %! FIGURE_NAME
             \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
-            \stopTextSpan                                                      %! baca.text_spanner:PiecewiseCommand(2)
+            \stopTextSpan                                                      %! STOP_TEXT_SPAN:baca.text_spanner:PiecewiseCommand(2)
 
         }
 
@@ -1366,7 +1366,7 @@ M_Guitar_Music_Voice_I = {                                                     %
         %@%             }                                                      %! FIGURE_NAME
         %@%     }                                                              %! FIGURE_NAME
             \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
-            \stopTextSpan                                                      %! baca.text_spanner:PiecewiseCommand(2)
+            \stopTextSpan                                                      %! STOP_TEXT_SPAN:baca.text_spanner:PiecewiseCommand(2)
 
         }
 
@@ -1529,7 +1529,7 @@ M_Guitar_Music_Voice_I = {                                                     %
         %@%             }                                                      %! FIGURE_NAME
         %@%     }                                                              %! FIGURE_NAME
             \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
-            \stopTextSpan                                                      %! baca.text_spanner:PiecewiseCommand(2)
+            \stopTextSpan                                                      %! STOP_TEXT_SPAN:baca.text_spanner:PiecewiseCommand(2)
 
             e2
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
@@ -1618,7 +1618,7 @@ M_Guitar_Music_Voice_I = {                                                     %
         %@%             }                                                      %! FIGURE_NAME
         %@%     }                                                              %! FIGURE_NAME
             \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
-            \stopTextSpan                                                      %! baca.text_spanner:PiecewiseCommand(2)
+            \stopTextSpan                                                      %! STOP_TEXT_SPAN:baca.text_spanner:PiecewiseCommand(2)
 
         }
 
@@ -1702,7 +1702,7 @@ M_Guitar_Music_Voice_I = {                                                     %
         %@%             }                                                      %! FIGURE_NAME
         %@%     }                                                              %! FIGURE_NAME
             \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
-            \stopTextSpan                                                      %! baca.text_spanner:PiecewiseCommand(2)
+            \stopTextSpan                                                      %! STOP_TEXT_SPAN:baca.text_spanner:PiecewiseCommand(2)
 
             e2
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
@@ -1795,7 +1795,7 @@ M_Guitar_Music_Voice_I = {                                                     %
         %@%             }                                                      %! FIGURE_NAME
         %@%     }                                                              %! FIGURE_NAME
             \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
-            \stopTextSpan                                                      %! baca.text_spanner:PiecewiseCommand(2)
+            \stopTextSpan                                                      %! STOP_TEXT_SPAN:baca.text_spanner:PiecewiseCommand(2)
 
         }
 
@@ -1928,7 +1928,7 @@ M_Guitar_Music_Voice_I = {                                                     %
         %@%             }                                                      %! FIGURE_NAME
         %@%     }                                                              %! FIGURE_NAME
             \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
-            \stopTextSpan                                                      %! baca.text_spanner:PiecewiseCommand(2)
+            \stopTextSpan                                                      %! STOP_TEXT_SPAN:baca.text_spanner:PiecewiseCommand(2)
 
             e2
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
@@ -2472,7 +2472,7 @@ M_Guitar_Music_Voice_I = {                                                     %
             \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
-            \stopTextSpan                                                      %! baca.text_spanner:PiecewiseCommand(2)
+            \stopTextSpan                                                      %! STOP_TEXT_SPAN:baca.text_spanner:PiecewiseCommand(2)
 
             e2
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
@@ -2891,7 +2891,7 @@ M_Guitar_Music_Voice_I = {                                                     %
         %@%                 ]                                                  %! FIGURE_NAME
         %@%             }                                                      %! FIGURE_NAME
         %@%     }                                                              %! FIGURE_NAME
-            \stopTextSpan                                                      %! baca.text_spanner:PiecewiseCommand(2)
+            \stopTextSpan                                                      %! STOP_TEXT_SPAN:baca.text_spanner:PiecewiseCommand(2)
 
             r8
 

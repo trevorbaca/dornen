@@ -960,7 +960,7 @@ K_Guitar_Music_Voice_I = {                                                     %
         %@%             }                                                      %! FIGURE_NAME
         %@%     }                                                              %! FIGURE_NAME
             \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
-            \stopTextSpan                                                      %! baca.text_spanner:PiecewiseCommand(2)
+            \stopTextSpan                                                      %! STOP_TEXT_SPAN:baca.text_spanner:PiecewiseCommand(2)
 
         }
 
@@ -1045,7 +1045,7 @@ K_Guitar_Music_Voice_I = {                                                     %
         %@%             }                                                      %! FIGURE_NAME
         %@%     }                                                              %! FIGURE_NAME
             \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
-            \stopTextSpan                                                      %! baca.text_spanner:PiecewiseCommand(2)
+            \stopTextSpan                                                      %! STOP_TEXT_SPAN:baca.text_spanner:PiecewiseCommand(2)
 
         }
 
@@ -1130,7 +1130,7 @@ K_Guitar_Music_Voice_I = {                                                     %
         %@%             }                                                      %! FIGURE_NAME
         %@%     }                                                              %! FIGURE_NAME
             \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
-            \stopTextSpan                                                      %! baca.text_spanner:PiecewiseCommand(2)
+            \stopTextSpan                                                      %! STOP_TEXT_SPAN:baca.text_spanner:PiecewiseCommand(2)
 
         }
 
@@ -1215,7 +1215,7 @@ K_Guitar_Music_Voice_I = {                                                     %
         %@%             }                                                      %! FIGURE_NAME
         %@%     }                                                              %! FIGURE_NAME
             \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
-            \stopTextSpan                                                      %! baca.text_spanner:PiecewiseCommand(2)
+            \stopTextSpan                                                      %! STOP_TEXT_SPAN:baca.text_spanner:PiecewiseCommand(2)
 
         }
 
@@ -1294,7 +1294,7 @@ K_Guitar_Music_Voice_I = {                                                     %
         %@%             }                                                      %! FIGURE_NAME
         %@%     }                                                              %! FIGURE_NAME
             \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
-            \stopTextSpan                                                      %! baca.text_spanner:PiecewiseCommand(2)
+            \stopTextSpan                                                      %! STOP_TEXT_SPAN:baca.text_spanner:PiecewiseCommand(2)
 
         }
 
@@ -1467,7 +1467,7 @@ K_Guitar_Music_Voice_I = {                                                     %
         %@%             }                                                      %! FIGURE_NAME
         %@%     }                                                              %! FIGURE_NAME
             \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
-            \stopTextSpan                                                      %! baca.text_spanner:PiecewiseCommand(2)
+            \stopTextSpan                                                      %! STOP_TEXT_SPAN:baca.text_spanner:PiecewiseCommand(2)
 
             gtqf!2
             :32                                                                %! baca.stem_tremolo:IndicatorCommand

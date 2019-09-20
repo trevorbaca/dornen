@@ -397,7 +397,7 @@ D_Guitar_Music_Voice_I = {                                                     %
         \scaleDurations #'(1 . 1) {
 
             % [D Guitar_Music_Voice_I measure 71 / measure 1]                  %! baca.SegmentMaker._comment_measure_numbers()
-            \override Beam.positions = #'(9 . 9)                               %! baca.beam_positions:OverrideCommand(1)
+            \override Beam.positions = #'(9 . 9)                               %! baca.beam_positions():OverrideCommand(1)
             \once \override Beam.grow-direction = #right
             \clef "treble"                                                     %! REAPPLIED_CLEF:_set_status_tag:baca.SegmentMaker._reapply_persistent_indicators(3)
             \once \override GuitarMusicStaff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -727,7 +727,7 @@ D_Guitar_Music_Voice_I = {                                                     %
 
             ef''!64 * 640/1024
             ]
-            \revert Beam.positions                                             %! baca.beam_positions:OverrideCommand(2)
+            \revert Beam.positions                                             %! baca.beam_positions():OverrideCommand(2)
 
         }
         \revert TupletNumber.text
@@ -735,7 +735,7 @@ D_Guitar_Music_Voice_I = {                                                     %
     }
 
     % [D Guitar_Music_Voice_I measure 74 / measure 4]                          %! baca.SegmentMaker._comment_measure_numbers()
-    \override Beam.positions = #'(6 . 6)                                       %! baca.beam_positions:OverrideCommand(1)
+    \override Beam.positions = #'(6 . 6)                                       %! baca.beam_positions():OverrideCommand(1)
     s1 * 5/32
 
     {
@@ -1011,7 +1011,7 @@ D_Guitar_Music_Voice_I = {                                                     %
 
     % [D Guitar_Music_Voice_I measure 82 / measure 12]                         %! baca.SegmentMaker._comment_measure_numbers()
     s1 * 1/8
-    \revert Beam.positions                                                     %! baca.beam_positions:OverrideCommand(2)
+    \revert Beam.positions                                                     %! baca.beam_positions():OverrideCommand(2)
 
     {
 
@@ -1275,7 +1275,7 @@ D_Guitar_Music_Voice_II = {                                                    %
             % [D Guitar_Music_Voice_II measure 74 / measure 4]                 %! baca.SegmentMaker._comment_measure_numbers()
             \set stemLeftBeamCount = 0
             \set stemRightBeamCount = 2
-            \override Beam.positions = #'(-12 . -12)                           %! baca.beam_positions:OverrideCommand(1)
+            \override Beam.positions = #'(-12 . -12)                           %! baca.beam_positions():OverrideCommand(1)
             g'16
             ^ \markup { "glissando: attack first note only" }                  %! baca.markup:IndicatorCommand
         %@% ^ \markup {                                                        %! FIGURE_NAME
@@ -1311,7 +1311,7 @@ D_Guitar_Music_Voice_II = {                                                    %
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 1
             cs'''!32
-            \revert Beam.positions                                             %! baca.beam_positions:OverrideCommand(2)
+            \revert Beam.positions                                             %! baca.beam_positions():OverrideCommand(2)
 
         }
 
@@ -2104,10 +2104,10 @@ D_Guitar_Music_Voice_IV = {                                                    %
         \times 4/5 {
 
             % [D Guitar_Music_Voice_IV measure 79 / measure 9]                 %! baca.SegmentMaker._comment_measure_numbers()
-            \override Stem.direction = #up                                     %! baca.stem_up:OverrideCommand(1)
-            \override TupletBracket.staff-padding = #0                         %! baca.tuplet_bracket_staff_padding:OverrideCommand(1)
-            \once \override TupletBracket.extra-offset = #'(0 . -0.5)          %! baca.tuplet_bracket_extra_offset:OverrideCommand(1)
-            \once \override TupletNumber.extra-offset = #'(0 . -0.5)           %! baca.tuplet_number_extra_offset:OverrideCommand(1)
+            \override Stem.direction = #up                                     %! baca.stem_up():OverrideCommand(1)
+            \override TupletBracket.staff-padding = #0                         %! baca.tuplet_bracket_staff_padding():OverrideCommand(1)
+            \once \override TupletBracket.extra-offset = #'(0 . -0.5)          %! baca.tuplet_bracket_extra_offset():OverrideCommand(1)
+            \once \override TupletNumber.extra-offset = #'(0 . -0.5)           %! baca.tuplet_number_extra_offset():OverrideCommand(1)
             gf!2
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             ^ \markup {                                                        %! baca.markup:IndicatorCommand
@@ -2142,8 +2142,8 @@ D_Guitar_Music_Voice_IV = {                                                    %
             gf!2
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
-            \revert Stem.direction                                             %! baca.stem_up:OverrideCommand(2)
-            \revert TupletBracket.staff-padding                                %! baca.tuplet_bracket_staff_padding:OverrideCommand(2)
+            \revert Stem.direction                                             %! baca.stem_up():OverrideCommand(2)
+            \revert TupletBracket.staff-padding                                %! baca.tuplet_bracket_staff_padding():OverrideCommand(2)
 
         }
 
@@ -2190,10 +2190,10 @@ D_Guitar_Music_Voice_IV = {                                                    %
         \times 4/5 {
 
             % [D Guitar_Music_Voice_IV measure 88 / measure 18]                %! baca.SegmentMaker._comment_measure_numbers()
-            \override Stem.direction = #up                                     %! baca.stem_up:OverrideCommand(1)
-            \override TupletBracket.staff-padding = #0                         %! baca.tuplet_bracket_staff_padding:OverrideCommand(1)
-            \once \override TupletBracket.extra-offset = #'(0 . -0.5)          %! baca.tuplet_bracket_extra_offset:OverrideCommand(1)
-            \once \override TupletNumber.extra-offset = #'(0 . -0.5)           %! baca.tuplet_number_extra_offset:OverrideCommand(1)
+            \override Stem.direction = #up                                     %! baca.stem_up():OverrideCommand(1)
+            \override TupletBracket.staff-padding = #0                         %! baca.tuplet_bracket_staff_padding():OverrideCommand(1)
+            \once \override TupletBracket.extra-offset = #'(0 . -0.5)          %! baca.tuplet_bracket_extra_offset():OverrideCommand(1)
+            \once \override TupletNumber.extra-offset = #'(0 . -0.5)           %! baca.tuplet_number_extra_offset():OverrideCommand(1)
             gf!2
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             ^ \markup {                                                        %! baca.markup:IndicatorCommand
@@ -2228,8 +2228,8 @@ D_Guitar_Music_Voice_IV = {                                                    %
             gf!2
             :32                                                                %! baca.stem_tremolo:IndicatorCommand
             \repeatTie                                                         %! baca.repeat_tie:IndicatorCommand
-            \revert Stem.direction                                             %! baca.stem_up:OverrideCommand(2)
-            \revert TupletBracket.staff-padding                                %! baca.tuplet_bracket_staff_padding:OverrideCommand(2)
+            \revert Stem.direction                                             %! baca.stem_up():OverrideCommand(2)
+            \revert TupletBracket.staff-padding                                %! baca.tuplet_bracket_staff_padding():OverrideCommand(2)
 
         }
 

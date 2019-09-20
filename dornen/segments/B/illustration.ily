@@ -336,7 +336,7 @@ B_Guitar_Music_Voice_I = {                                                     %
         \scaleDurations #'(1 . 1) {
 
             % [B Guitar_Music_Voice_I measure 20 / measure 1]                  %! baca.SegmentMaker._comment_measure_numbers()
-            \override Beam.positions = #'(8 . 8)                               %! baca.beam_positions:OverrideCommand(1)
+            \override Beam.positions = #'(8 . 8)                               %! baca.beam_positions():OverrideCommand(1)
             \once \override Beam.grow-direction = #left
             \clef "treble"                                                     %! REAPPLIED_CLEF:_set_status_tag:baca.SegmentMaker._reapply_persistent_indicators(3)
             \once \override GuitarMusicStaff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:baca.SegmentMaker._attach_color_literal(2)
@@ -535,7 +535,7 @@ B_Guitar_Music_Voice_I = {                                                     %
 
             f'64 * 704/1024
             ]
-            \revert Beam.positions                                             %! baca.beam_positions:OverrideCommand(2)
+            \revert Beam.positions                                             %! baca.beam_positions():OverrideCommand(2)
 
         }
         \revert TupletNumber.text
@@ -1145,7 +1145,7 @@ B_Guitar_Music_Voice_I = {                                                     %
             % [B Guitar_Music_Voice_I measure 32 / measure 13]                 %! baca.SegmentMaker._comment_measure_numbers()
             \set stemLeftBeamCount = 0
             \set stemRightBeamCount = 3
-            \override TextScript.staff-padding = #9                            %! baca.text_script_staff_padding:OverrideCommand(1)
+            \override TextScript.staff-padding = #9                            %! baca.text_script_staff_padding():OverrideCommand(1)
             f'''32
             - \staccato                                                        %! baca.staccato:IndicatorCommand
         %@% ^ \markup {                                                        %! FIGURE_NAME
@@ -1271,7 +1271,7 @@ B_Guitar_Music_Voice_I = {                                                     %
             \set stemRightBeamCount = 1
             f'32
             - \staccato                                                        %! baca.staccato:IndicatorCommand
-            \revert TextScript.staff-padding                                   %! baca.text_script_staff_padding:OverrideCommand(2)
+            \revert TextScript.staff-padding                                   %! baca.text_script_staff_padding():OverrideCommand(2)
 
         }
 
@@ -1452,7 +1452,7 @@ B_Guitar_Music_Voice_II = {                                                    %
         \times 4/5 {
 
             % [B Guitar_Music_Voice_II measure 21 / measure 2]                 %! baca.SegmentMaker._comment_measure_numbers()
-            \once \override Beam.positions = #'(-8 . -8)                       %! baca.beam_positions:OverrideCommand(1)
+            \once \override Beam.positions = #'(-8 . -8)                       %! baca.beam_positions():OverrideCommand(1)
             ef'''!16
         %@% ^ \markup {                                                        %! FIGURE_NAME
         %@%     \fontsize                                                      %! FIGURE_NAME

@@ -337,7 +337,7 @@ I_Guitar_Music_Voice_I = {                                                     %
             % [I Guitar_Music_Voice_I measure 167 / measure 1]                 %! baca.SegmentMaker._comment_measure_numbers()
             \set stemLeftBeamCount = 0
             \set stemRightBeamCount = 3
-            \override Beam.positions = #'(6 . 6)                               %! baca.beam_positions:OverrideCommand(1)
+            \override Beam.positions = #'(6 . 6)                               %! baca.beam_positions():OverrideCommand(1)
             \clef "treble"                                                     %! REAPPLIED_CLEF:_set_status_tag:baca.SegmentMaker._reapply_persistent_indicators(3)
             \once \override GuitarMusicStaff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:baca.SegmentMaker._attach_color_literal(2)
         %@% \override GuitarMusicStaff.Clef.color = ##f                        %! REAPPLIED_CLEF_COLOR_CANCELLATION:baca.SegmentMaker._attach_color_literal(1)
@@ -608,7 +608,7 @@ I_Guitar_Music_Voice_I = {                                                     %
 
     % [I Guitar_Music_Voice_I measure 173 / measure 7]                         %! baca.SegmentMaker._comment_measure_numbers()
     s1 * 11/8
-    \revert Beam.positions                                                     %! baca.beam_positions:OverrideCommand(2)
+    \revert Beam.positions                                                     %! baca.beam_positions():OverrideCommand(2)
 
     {
 
@@ -617,7 +617,7 @@ I_Guitar_Music_Voice_I = {                                                     %
             % [I Guitar_Music_Voice_I measure 175 / measure 9]                 %! baca.SegmentMaker._comment_measure_numbers()
             \set stemLeftBeamCount = 0
             \set stemRightBeamCount = 3
-            \override Beam.positions = #'(8 . 8)                               %! baca.beam_positions:OverrideCommand(1)
+            \override Beam.positions = #'(8 . 8)                               %! baca.beam_positions():OverrideCommand(1)
             dqf''!32
         %@% ^ \markup {                                                        %! FIGURE_NAME
         %@%     \fontsize                                                      %! FIGURE_NAME
@@ -874,7 +874,7 @@ I_Guitar_Music_Voice_I = {                                                     %
             a''64
             )                                                                  %! SPANNER_STOP:baca.slur:SpannerIndicatorCommand(2)
             ]
-            \revert Beam.positions                                             %! baca.beam_positions:OverrideCommand(2)
+            \revert Beam.positions                                             %! baca.beam_positions():OverrideCommand(2)
 
         }
 
@@ -936,7 +936,7 @@ I_Guitar_Music_Voice_II = {                                                    %
         \times 4/7 {
 
             % [I Guitar_Music_Voice_II measure 176 / measure 10]               %! baca.SegmentMaker._comment_measure_numbers()
-            \override Beam.positions = #'(-5 . -5)                             %! baca.beam_positions:OverrideCommand(1)
+            \override Beam.positions = #'(-5 . -5)                             %! baca.beam_positions():OverrideCommand(1)
             f''16
         %@% ^ \markup {                                                        %! FIGURE_NAME
         %@%     \fontsize                                                      %! FIGURE_NAME
@@ -971,7 +971,7 @@ I_Guitar_Music_Voice_II = {                                                    %
             \set stemLeftBeamCount = 2
             \set stemRightBeamCount = 1
             cs''!16
-            \revert Beam.positions                                             %! baca.beam_positions:OverrideCommand(2)
+            \revert Beam.positions                                             %! baca.beam_positions():OverrideCommand(2)
 
         }
 
@@ -1268,7 +1268,7 @@ I_Guitar_Music_Voice_II = {                                                    %
 I_Guitar_Music_Voice_III = {                                                   %! abjad.Path.extern
 
     % [I Guitar_Music_Voice_III measure 167 / measure 1]                       %! baca.SegmentMaker._comment_measure_numbers()
-    \override Beam.positions = #'(-4 . -4)                                     %! baca.beam_positions:OverrideCommand(1)
+    \override Beam.positions = #'(-4 . -4)                                     %! baca.beam_positions():OverrideCommand(1)
     s1 * 3/8
 
     {
@@ -1632,7 +1632,7 @@ I_Guitar_Music_Voice_III = {                                                   %
 
     % [I Guitar_Music_Voice_III measure 184 / measure 18]                      %! baca.SegmentMaker._comment_measure_numbers()
     s1 * 1/10                                                                  %! baca.SegmentMaker._make_measure_silences()
-    \revert Beam.positions                                                     %! baca.beam_positions:OverrideCommand(2)
+    \revert Beam.positions                                                     %! baca.beam_positions():OverrideCommand(2)
 
     <<                                                                         %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
 

@@ -329,6 +329,7 @@ accumulator(
 )
 
 maker = baca.SegmentMaker(
+    check_all_are_pitched=True,
     final_markup=(
         ["Cambridge, MA", "Madison, WI", "Palo Alto, CA."],
         ["November 2015", "July 2016."],

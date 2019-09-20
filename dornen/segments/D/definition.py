@@ -187,6 +187,7 @@ accumulator(
 )
 
 maker = baca.SegmentMaker(
+    check_all_are_pitched=True,
     ignore_repeat_pitch_classes=True,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     skips_instead_of_rests=True,

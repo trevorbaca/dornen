@@ -274,7 +274,7 @@ H_Guitar_Music_Voice_I = {                                                     %
         %@%             }                                                      %! FIGURE_NAME
         %@%     }                                                              %! FIGURE_NAME
             [
-            \glissando                                                         %! baca.glissando
+            \glissando                                                         %! baca.glissando()
 
             \set stemLeftBeamCount = 2
             \set stemRightBeamCount = 0
@@ -317,27 +317,27 @@ H_Guitar_Music_Voice_I = {                                                     %
         %@%             }                                                      %! FIGURE_NAME
         %@%     }                                                              %! FIGURE_NAME
             [
-            \glissando                                                         %! baca.glissando
+            \glissando                                                         %! baca.glissando()
 
             \set stemLeftBeamCount = 2
             \set stemRightBeamCount = 2
             f''16
-            \glissando                                                         %! baca.glissando
+            \glissando                                                         %! baca.glissando()
 
             \set stemLeftBeamCount = 2
             \set stemRightBeamCount = 2
             cs''!16
-            \glissando                                                         %! baca.glissando
+            \glissando                                                         %! baca.glissando()
 
             \set stemLeftBeamCount = 2
             \set stemRightBeamCount = 3
             b''32
-            \glissando                                                         %! baca.glissando
+            \glissando                                                         %! baca.glissando()
 
             \set stemLeftBeamCount = 2
             \set stemRightBeamCount = 2
             c''16
-            \glissando                                                         %! baca.glissando
+            \glissando                                                         %! baca.glissando()
 
             \set stemLeftBeamCount = 2
             \set stemRightBeamCount = 1
@@ -377,17 +377,17 @@ H_Guitar_Music_Voice_I = {                                                     %
         %@%                 ]                                                  %! FIGURE_NAME
         %@%             }                                                      %! FIGURE_NAME
         %@%     }                                                              %! FIGURE_NAME
-            \glissando                                                         %! baca.glissando
+            \glissando                                                         %! baca.glissando()
 
             \set stemLeftBeamCount = 2
             \set stemRightBeamCount = 2
             cs'''!16
-            \glissando                                                         %! baca.glissando
+            \glissando                                                         %! baca.glissando()
 
             \set stemLeftBeamCount = 2
             \set stemRightBeamCount = 2
             e'16
-            \glissando                                                         %! baca.glissando
+            \glissando                                                         %! baca.glissando()
 
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 0
@@ -635,7 +635,7 @@ H_Guitar_Music_Voice_III = {                                                   %
             \set stemRightBeamCount = 3
             \override Beam.positions = #'(-7.5 . -7.5)                         %! baca.beam_positions():OverrideCommand(1)
             cs'''!32
-            - \staccato                                                        %! baca.staccato:IndicatorCommand
+            - \staccato                                                        %! baca.staccato():IndicatorCommand
         %@% ^ \markup {                                                        %! FIGURE_NAME
         %@%     \fontsize                                                      %! FIGURE_NAME
         %@%         #2                                                         %! FIGURE_NAME
@@ -658,107 +658,107 @@ H_Guitar_Music_Voice_III = {                                                   %
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 3
             c'''32
-            - \staccato                                                        %! baca.staccato:IndicatorCommand
+            - \staccato                                                        %! baca.staccato():IndicatorCommand
 
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 3
             d''32
-            - \staccato                                                        %! baca.staccato:IndicatorCommand
+            - \staccato                                                        %! baca.staccato():IndicatorCommand
 
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 3
             g''32
-            - \staccato                                                        %! baca.staccato:IndicatorCommand
+            - \staccato                                                        %! baca.staccato():IndicatorCommand
 
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 3
             b''32
-            - \staccato                                                        %! baca.staccato:IndicatorCommand
+            - \staccato                                                        %! baca.staccato():IndicatorCommand
 
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 3
             bf''!32
-            - \staccato                                                        %! baca.staccato:IndicatorCommand
+            - \staccato                                                        %! baca.staccato():IndicatorCommand
 
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 3
             e''32
-            - \staccato                                                        %! baca.staccato:IndicatorCommand
+            - \staccato                                                        %! baca.staccato():IndicatorCommand
 
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 3
             ef''!32
-            - \staccato                                                        %! baca.staccato:IndicatorCommand
+            - \staccato                                                        %! baca.staccato():IndicatorCommand
 
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 3
             f''32
-            - \staccato                                                        %! baca.staccato:IndicatorCommand
+            - \staccato                                                        %! baca.staccato():IndicatorCommand
 
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 3
             af'!32
-            - \staccato                                                        %! baca.staccato:IndicatorCommand
+            - \staccato                                                        %! baca.staccato():IndicatorCommand
 
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 3
             a'32
-            - \staccato                                                        %! baca.staccato:IndicatorCommand
+            - \staccato                                                        %! baca.staccato():IndicatorCommand
 
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 3
             e'32
-            - \staccato                                                        %! baca.staccato:IndicatorCommand
+            - \staccato                                                        %! baca.staccato():IndicatorCommand
 
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 3
             ef'!32
-            - \staccato                                                        %! baca.staccato:IndicatorCommand
+            - \staccato                                                        %! baca.staccato():IndicatorCommand
 
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 3
             f'32
-            - \staccato                                                        %! baca.staccato:IndicatorCommand
+            - \staccato                                                        %! baca.staccato():IndicatorCommand
 
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 3
             af'!32
-            - \staccato                                                        %! baca.staccato:IndicatorCommand
+            - \staccato                                                        %! baca.staccato():IndicatorCommand
 
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 3
             a'32
-            - \staccato                                                        %! baca.staccato:IndicatorCommand
+            - \staccato                                                        %! baca.staccato():IndicatorCommand
 
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 3
             bf'!32
-            - \staccato                                                        %! baca.staccato:IndicatorCommand
+            - \staccato                                                        %! baca.staccato():IndicatorCommand
 
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 3
             c'32
-            - \staccato                                                        %! baca.staccato:IndicatorCommand
+            - \staccato                                                        %! baca.staccato():IndicatorCommand
 
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 3
             d'32
-            - \staccato                                                        %! baca.staccato:IndicatorCommand
+            - \staccato                                                        %! baca.staccato():IndicatorCommand
 
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 3
             g'32
-            - \staccato                                                        %! baca.staccato:IndicatorCommand
+            - \staccato                                                        %! baca.staccato():IndicatorCommand
 
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 3
             b32
-            - \staccato                                                        %! baca.staccato:IndicatorCommand
+            - \staccato                                                        %! baca.staccato():IndicatorCommand
 
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 0
             cs'!32
-            - \staccato                                                        %! baca.staccato:IndicatorCommand
+            - \staccato                                                        %! baca.staccato():IndicatorCommand
             ]
             \revert Beam.positions                                             %! baca.beam_positions():OverrideCommand(2)
 
@@ -778,7 +778,7 @@ H_Guitar_Music_Voice_III = {                                                   %
             \set stemRightBeamCount = 3
             \override Beam.positions = #'(-6 . -6)                             %! baca.beam_positions():OverrideCommand(1)
             af''!32
-            - \staccato                                                        %! baca.staccato:IndicatorCommand
+            - \staccato                                                        %! baca.staccato():IndicatorCommand
         %@% ^ \markup {                                                        %! FIGURE_NAME
         %@%     \fontsize                                                      %! FIGURE_NAME
         %@%         #2                                                         %! FIGURE_NAME
@@ -801,27 +801,27 @@ H_Guitar_Music_Voice_III = {                                                   %
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 3
             bf''!32
-            - \staccato                                                        %! baca.staccato:IndicatorCommand
+            - \staccato                                                        %! baca.staccato():IndicatorCommand
 
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 3
             b'32
-            - \staccato                                                        %! baca.staccato:IndicatorCommand
+            - \staccato                                                        %! baca.staccato():IndicatorCommand
 
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 3
             cs''!32
-            - \staccato                                                        %! baca.staccato:IndicatorCommand
+            - \staccato                                                        %! baca.staccato():IndicatorCommand
 
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 3
             e'32
-            - \staccato                                                        %! baca.staccato:IndicatorCommand
+            - \staccato                                                        %! baca.staccato():IndicatorCommand
 
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 0
             g'32
-            - \staccato                                                        %! baca.staccato:IndicatorCommand
+            - \staccato                                                        %! baca.staccato():IndicatorCommand
             ]
             \revert Beam.positions                                             %! baca.beam_positions():OverrideCommand(2)
 

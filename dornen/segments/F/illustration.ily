@@ -1,217 +1,217 @@
-F_Global_Skips = {                                                             %! abjad.Path.extern
+F_Global_Skips = {                                                             %! abjad.Path.extern()
 
     % [F Global_Skips measure 120 / measure 1]                                 %! baca.SegmentMaker._comment_measure_numbers()
-    \time 3/32                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:baca.SegmentMaker._make_global_skips(2)
+    \time 3/32                                                                 %! EXPLICIT_TIME_SIGNATURE:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._make_global_skips(2)
     \bar ""                                                                    %! baca.SegmentMaker._make_global_skips(4):+SEGMENT:EMPTY_START_BAR
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:baca.SegmentMaker._attach_color_literal(2)
     s1 * 3/32                                                                  %! baca.SegmentMaker._make_global_skips(1)
-%@% - \baca-start-lmn-left-only "1"                                            %! LOCAL_MEASURE_NUMBER
-%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
-%@% - \baca-start-mn-left-only "120"                                           %! MEASURE_NUMBER
-%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER
-%@% - \abjad-invisible-line                                                    %! REAPPLIED_METRONOME_MARK:_set_status_tag:baca.SegmentMaker._reapply_persistent_indicators(2):baca.SegmentMaker._attach_metronome_marks(2)
-%@% - \baca-metronome-mark-spanner-left-text 3 0 1 "66"                        %! REAPPLIED_METRONOME_MARK:_set_status_tag:baca.SegmentMaker._reapply_persistent_indicators(2):baca.SegmentMaker._attach_metronome_marks(2)
-%@% \bacaStartTextSpanMM                                                       %! REAPPLIED_METRONOME_MARK:_set_status_tag:baca.SegmentMaker._reapply_persistent_indicators(2):baca.SegmentMaker._attach_metronome_marks(2)
+%@% - \baca-start-lmn-left-only "1"                                            %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
+%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
+%@% - \baca-start-mn-left-only "120"                                           %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
+%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
+%@% - \abjad-invisible-line                                                    %! REAPPLIED_METRONOME_MARK:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._reapply_persistent_indicators(2):baca.SegmentMaker._attach_metronome_marks(2)
+%@% - \baca-metronome-mark-spanner-left-text 3 0 1 "66"                        %! REAPPLIED_METRONOME_MARK:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._reapply_persistent_indicators(2):baca.SegmentMaker._attach_metronome_marks(2)
+%@% \bacaStartTextSpanMM                                                       %! REAPPLIED_METRONOME_MARK:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._reapply_persistent_indicators(2):baca.SegmentMaker._attach_metronome_marks(2)
     - \abjad-invisible-line                                                    %! REAPPLIED_METRONOME_MARK_WITH_COLOR:baca.SegmentMaker._attach_metronome_marks(3)
     - \baca-metronome-mark-spanner-colored-left-text 3 0 1 "66" #'green4       %! REAPPLIED_METRONOME_MARK_WITH_COLOR:baca.SegmentMaker._attach_metronome_marks(3)
     \bacaStartTextSpanMM                                                       %! REAPPLIED_METRONOME_MARK_WITH_COLOR:baca.SegmentMaker._attach_metronome_marks(3)
-%@% - \baca-start-ct-left-only "[3'59'']"                                      %! CLOCK_TIME
-%@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME
+%@% - \baca-start-ct-left-only "[3'59'']"                                      %! CLOCK_TIME:baca.SegmentMaker._label_clock_time()
+%@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME:baca.SegmentMaker._label_clock_time()
 
     % [F Global_Skips measure 121 / measure 2]                                 %! baca.SegmentMaker._comment_measure_numbers()
-    \time 1/16                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:baca.SegmentMaker._make_global_skips(2)
+    \time 1/16                                                                 %! EXPLICIT_TIME_SIGNATURE:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:baca.SegmentMaker._attach_color_literal(2)
     s1 * 1/16                                                                  %! baca.SegmentMaker._make_global_skips(1)
-%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
-%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
-%@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
-%@% - \baca-start-lmn-left-only "2"                                            %! LOCAL_MEASURE_NUMBER
-%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
-%@% - \baca-start-mn-left-only "121"                                           %! MEASURE_NUMBER
-%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER
-%@% - \baca-start-ct-left-only "[3'59'']"                                      %! CLOCK_TIME
-%@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME
+%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
+%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
+%@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME:baca.SegmentMaker._label_clock_time()
+%@% - \baca-start-lmn-left-only "2"                                            %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
+%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
+%@% - \baca-start-mn-left-only "121"                                           %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
+%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
+%@% - \baca-start-ct-left-only "[3'59'']"                                      %! CLOCK_TIME:baca.SegmentMaker._label_clock_time()
+%@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME:baca.SegmentMaker._label_clock_time()
 
     % [F Global_Skips measure 122 / measure 3]                                 %! baca.SegmentMaker._comment_measure_numbers()
-    \time 3/16                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:baca.SegmentMaker._make_global_skips(2)
+    \time 3/16                                                                 %! EXPLICIT_TIME_SIGNATURE:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:baca.SegmentMaker._attach_color_literal(2)
     s1 * 3/16                                                                  %! baca.SegmentMaker._make_global_skips(1)
-%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
-%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
-%@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
-%@% - \baca-start-lmn-left-only "3"                                            %! LOCAL_MEASURE_NUMBER
-%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
-%@% - \baca-start-mn-left-only "122"                                           %! MEASURE_NUMBER
-%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER
-%@% - \baca-start-ct-left-only "[4'00'']"                                      %! CLOCK_TIME
-%@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME
+%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
+%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
+%@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME:baca.SegmentMaker._label_clock_time()
+%@% - \baca-start-lmn-left-only "3"                                            %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
+%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
+%@% - \baca-start-mn-left-only "122"                                           %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
+%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
+%@% - \baca-start-ct-left-only "[4'00'']"                                      %! CLOCK_TIME:baca.SegmentMaker._label_clock_time()
+%@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME:baca.SegmentMaker._label_clock_time()
 
     % [F Global_Skips measure 123 / measure 4]                                 %! baca.SegmentMaker._comment_measure_numbers()
-    #(ly:expect-warning "strange time signature found")                        %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:baca.SegmentMaker._make_global_skips(2)
-    \time 3/20                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:baca.SegmentMaker._make_global_skips(2)
+    #(ly:expect-warning "strange time signature found")                        %! EXPLICIT_TIME_SIGNATURE:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._make_global_skips(2)
+    \time 3/20                                                                 %! EXPLICIT_TIME_SIGNATURE:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:baca.SegmentMaker._attach_color_literal(2)
     s1 * 3/20                                                                  %! baca.SegmentMaker._make_global_skips(1)
-%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
-%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
-%@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
-%@% - \baca-start-lmn-left-only "4"                                            %! LOCAL_MEASURE_NUMBER
-%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
-%@% - \baca-start-mn-left-only "123"                                           %! MEASURE_NUMBER
-%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER
-%@% - \baca-start-ct-left-only "[4'01'']"                                      %! CLOCK_TIME
-%@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME
+%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
+%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
+%@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME:baca.SegmentMaker._label_clock_time()
+%@% - \baca-start-lmn-left-only "4"                                            %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
+%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
+%@% - \baca-start-mn-left-only "123"                                           %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
+%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
+%@% - \baca-start-ct-left-only "[4'01'']"                                      %! CLOCK_TIME:baca.SegmentMaker._label_clock_time()
+%@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME:baca.SegmentMaker._label_clock_time()
 
     % [F Global_Skips measure 124 / measure 5]                                 %! baca.SegmentMaker._comment_measure_numbers()
-    \time 3/32                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:baca.SegmentMaker._make_global_skips(2)
+    \time 3/32                                                                 %! EXPLICIT_TIME_SIGNATURE:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:baca.SegmentMaker._attach_color_literal(2)
     s1 * 3/32                                                                  %! baca.SegmentMaker._make_global_skips(1)
-%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
-%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
-%@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
-%@% - \baca-start-lmn-left-only "5"                                            %! LOCAL_MEASURE_NUMBER
-%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
-%@% - \baca-start-mn-left-only "124"                                           %! MEASURE_NUMBER
-%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER
-%@% - \baca-start-ct-left-only "[4'02'']"                                      %! CLOCK_TIME
-%@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME
+%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
+%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
+%@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME:baca.SegmentMaker._label_clock_time()
+%@% - \baca-start-lmn-left-only "5"                                            %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
+%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
+%@% - \baca-start-mn-left-only "124"                                           %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
+%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
+%@% - \baca-start-ct-left-only "[4'02'']"                                      %! CLOCK_TIME:baca.SegmentMaker._label_clock_time()
+%@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME:baca.SegmentMaker._label_clock_time()
 
     % [F Global_Skips measure 125 / measure 6]                                 %! baca.SegmentMaker._comment_measure_numbers()
-    \time 1/16                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:baca.SegmentMaker._make_global_skips(2)
+    \time 1/16                                                                 %! EXPLICIT_TIME_SIGNATURE:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:baca.SegmentMaker._attach_color_literal(2)
     s1 * 1/16                                                                  %! baca.SegmentMaker._make_global_skips(1)
-%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
-%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
-%@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
-%@% - \baca-start-lmn-left-only "6"                                            %! LOCAL_MEASURE_NUMBER
-%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
-%@% - \baca-start-mn-left-only "125"                                           %! MEASURE_NUMBER
-%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER
-%@% - \baca-start-ct-left-only "[4'03'']"                                      %! CLOCK_TIME
-%@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME
+%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
+%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
+%@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME:baca.SegmentMaker._label_clock_time()
+%@% - \baca-start-lmn-left-only "6"                                            %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
+%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
+%@% - \baca-start-mn-left-only "125"                                           %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
+%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
+%@% - \baca-start-ct-left-only "[4'03'']"                                      %! CLOCK_TIME:baca.SegmentMaker._label_clock_time()
+%@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME:baca.SegmentMaker._label_clock_time()
 
     % [F Global_Skips measure 126 / measure 7]                                 %! baca.SegmentMaker._comment_measure_numbers()
-    #(ly:expect-warning "strange time signature found")                        %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:baca.SegmentMaker._make_global_skips(2)
-    \time 3/20                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:baca.SegmentMaker._make_global_skips(2)
+    #(ly:expect-warning "strange time signature found")                        %! EXPLICIT_TIME_SIGNATURE:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._make_global_skips(2)
+    \time 3/20                                                                 %! EXPLICIT_TIME_SIGNATURE:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:baca.SegmentMaker._attach_color_literal(2)
     s1 * 3/20                                                                  %! baca.SegmentMaker._make_global_skips(1)
-%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
-%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
-%@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
-%@% - \baca-start-lmn-left-only "7"                                            %! LOCAL_MEASURE_NUMBER
-%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
-%@% - \baca-start-mn-left-only "126"                                           %! MEASURE_NUMBER
-%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER
-%@% - \baca-start-ct-left-only "[4'03'']"                                      %! CLOCK_TIME
-%@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME
+%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
+%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
+%@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME:baca.SegmentMaker._label_clock_time()
+%@% - \baca-start-lmn-left-only "7"                                            %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
+%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
+%@% - \baca-start-mn-left-only "126"                                           %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
+%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
+%@% - \baca-start-ct-left-only "[4'03'']"                                      %! CLOCK_TIME:baca.SegmentMaker._label_clock_time()
+%@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME:baca.SegmentMaker._label_clock_time()
 
     % [F Global_Skips measure 127 / measure 8]                                 %! baca.SegmentMaker._comment_measure_numbers()
-    \time 3/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:baca.SegmentMaker._make_global_skips(2)
+    \time 3/8                                                                  %! EXPLICIT_TIME_SIGNATURE:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:baca.SegmentMaker._attach_color_literal(2)
     s1 * 3/8                                                                   %! baca.SegmentMaker._make_global_skips(1)
-%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
-%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
-%@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
-%@% - \baca-start-lmn-left-only "8"                                            %! LOCAL_MEASURE_NUMBER
-%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
-%@% - \baca-start-mn-left-only "127"                                           %! MEASURE_NUMBER
-%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER
-%@% - \baca-start-ct-left-only "[4'04'']"                                      %! CLOCK_TIME
-%@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME
+%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
+%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
+%@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME:baca.SegmentMaker._label_clock_time()
+%@% - \baca-start-lmn-left-only "8"                                            %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
+%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
+%@% - \baca-start-mn-left-only "127"                                           %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
+%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
+%@% - \baca-start-ct-left-only "[4'04'']"                                      %! CLOCK_TIME:baca.SegmentMaker._label_clock_time()
+%@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME:baca.SegmentMaker._label_clock_time()
 
     % [F Global_Skips measure 128 / measure 9]                                 %! baca.SegmentMaker._comment_measure_numbers()
-    \time 30/64                                                                %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:baca.SegmentMaker._make_global_skips(2)
+    \time 30/64                                                                %! EXPLICIT_TIME_SIGNATURE:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:baca.SegmentMaker._attach_color_literal(2)
     s1 * 15/32                                                                 %! baca.SegmentMaker._make_global_skips(1)
-%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
-%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
+%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
+%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
     \bacaStopTextSpanMM                                                        %! baca.SegmentMaker._attach_metronome_marks(1)
-%@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
-%@% - \baca-start-lmn-left-only "9"                                            %! LOCAL_MEASURE_NUMBER
-%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
-%@% - \baca-start-mn-left-only "128"                                           %! MEASURE_NUMBER
-%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER
-%@% - \abjad-invisible-line                                                    %! EXPLICIT_METRONOME_MARK:_set_status_tag:baca.SegmentMaker._attach_metronome_marks(2)
-%@% - \baca-metronome-mark-spanner-left-text 3 0 1 "44"                        %! EXPLICIT_METRONOME_MARK:_set_status_tag:baca.SegmentMaker._attach_metronome_marks(2)
-%@% \bacaStartTextSpanMM                                                       %! EXPLICIT_METRONOME_MARK:_set_status_tag:baca.SegmentMaker._attach_metronome_marks(2)
+%@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME:baca.SegmentMaker._label_clock_time()
+%@% - \baca-start-lmn-left-only "9"                                            %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
+%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
+%@% - \baca-start-mn-left-only "128"                                           %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
+%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
+%@% - \abjad-invisible-line                                                    %! EXPLICIT_METRONOME_MARK:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._attach_metronome_marks(2)
+%@% - \baca-metronome-mark-spanner-left-text 3 0 1 "44"                        %! EXPLICIT_METRONOME_MARK:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._attach_metronome_marks(2)
+%@% \bacaStartTextSpanMM                                                       %! EXPLICIT_METRONOME_MARK:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._attach_metronome_marks(2)
     - \abjad-invisible-line                                                    %! EXPLICIT_METRONOME_MARK_WITH_COLOR:baca.SegmentMaker._attach_metronome_marks(3)
     - \baca-metronome-mark-spanner-colored-left-text 3 0 1 "44" #'blue         %! EXPLICIT_METRONOME_MARK_WITH_COLOR:baca.SegmentMaker._attach_metronome_marks(3)
     \bacaStartTextSpanMM                                                       %! EXPLICIT_METRONOME_MARK_WITH_COLOR:baca.SegmentMaker._attach_metronome_marks(3)
-%@% - \baca-start-ct-left-only "[4'07'']"                                      %! CLOCK_TIME
-%@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME
+%@% - \baca-start-ct-left-only "[4'07'']"                                      %! CLOCK_TIME:baca.SegmentMaker._label_clock_time()
+%@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME:baca.SegmentMaker._label_clock_time()
 
     % [F Global_Skips measure 129 / measure 10]                                %! baca.SegmentMaker._comment_measure_numbers()
-    \time 40/64                                                                %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:baca.SegmentMaker._make_global_skips(2)
+    \time 40/64                                                                %! EXPLICIT_TIME_SIGNATURE:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:baca.SegmentMaker._attach_color_literal(2)
     s1 * 5/8                                                                   %! baca.SegmentMaker._make_global_skips(1)
-%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
-%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
-%@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
-%@% - \baca-start-lmn-left-only "10"                                           %! LOCAL_MEASURE_NUMBER
-%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
-%@% - \baca-start-mn-left-only "129"                                           %! MEASURE_NUMBER
-%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER
-%@% - \baca-start-ct-left-only "[4'12'']"                                      %! CLOCK_TIME
-%@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME
+%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
+%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
+%@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME:baca.SegmentMaker._label_clock_time()
+%@% - \baca-start-lmn-left-only "10"                                           %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
+%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
+%@% - \baca-start-mn-left-only "129"                                           %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
+%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
+%@% - \baca-start-ct-left-only "[4'12'']"                                      %! CLOCK_TIME:baca.SegmentMaker._label_clock_time()
+%@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME:baca.SegmentMaker._label_clock_time()
 
     % [F Global_Skips measure 130 / measure 11]                                %! baca.SegmentMaker._comment_measure_numbers()
-    \time 50/64                                                                %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:baca.SegmentMaker._make_global_skips(2)
+    \time 50/64                                                                %! EXPLICIT_TIME_SIGNATURE:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:baca.SegmentMaker._attach_color_literal(2)
     s1 * 25/32                                                                 %! baca.SegmentMaker._make_global_skips(1)
-%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
-%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
-%@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
-%@% - \baca-start-lmn-left-only "11"                                           %! LOCAL_MEASURE_NUMBER
-%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
-%@% - \baca-start-mn-left-only "130"                                           %! MEASURE_NUMBER
-%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER
-%@% - \baca-start-ct-left-only "[4'19'']"                                      %! CLOCK_TIME
-%@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME
+%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
+%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
+%@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME:baca.SegmentMaker._label_clock_time()
+%@% - \baca-start-lmn-left-only "11"                                           %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
+%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
+%@% - \baca-start-mn-left-only "130"                                           %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
+%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
+%@% - \baca-start-ct-left-only "[4'19'']"                                      %! CLOCK_TIME:baca.SegmentMaker._label_clock_time()
+%@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME:baca.SegmentMaker._label_clock_time()
 
     % [F Global_Skips measure 131 / measure 12]                                %! baca.SegmentMaker._comment_measure_numbers()
-    \time 60/64                                                                %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:baca.SegmentMaker._make_global_skips(2)
+    \time 60/64                                                                %! EXPLICIT_TIME_SIGNATURE:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:baca.SegmentMaker._attach_color_literal(2)
     s1 * 15/16                                                                 %! baca.SegmentMaker._make_global_skips(1)
-%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
-%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
-%@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
-%@% - \baca-start-lmn-left-only "12"                                           %! LOCAL_MEASURE_NUMBER
-%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
-%@% - \baca-start-mn-left-only "131"                                           %! MEASURE_NUMBER
-%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER
-%@% - \baca-start-ct-left-only "[4'28'']"                                      %! CLOCK_TIME
-%@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME
+%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
+%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
+%@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME:baca.SegmentMaker._label_clock_time()
+%@% - \baca-start-lmn-left-only "12"                                           %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
+%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
+%@% - \baca-start-mn-left-only "131"                                           %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
+%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
+%@% - \baca-start-ct-left-only "[4'28'']"                                      %! CLOCK_TIME:baca.SegmentMaker._label_clock_time()
+%@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME:baca.SegmentMaker._label_clock_time()
 
     % [F Global_Skips measure 132 / measure 13]                                %! baca.SegmentMaker._comment_measure_numbers()
-    \time 125/64                                                               %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:baca.SegmentMaker._make_global_skips(2)
+    \time 125/64                                                               %! EXPLICIT_TIME_SIGNATURE:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:baca.SegmentMaker._attach_color_literal(2)
     s1 * 125/64                                                                %! baca.SegmentMaker._make_global_skips(1)
-%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER
-%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER
-%@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME
-%@% - \baca-start-lmn-left-only "13"                                           %! LOCAL_MEASURE_NUMBER
-%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
-%@% - \baca-start-mn-left-only "132"                                           %! MEASURE_NUMBER
-%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER
-%@% - \baca-start-ct-both "[4'38'']" "[4'59'']"                                %! CLOCK_TIME
-%@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME
+%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
+%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
+%@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME:baca.SegmentMaker._label_clock_time()
+%@% - \baca-start-lmn-left-only "13"                                           %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
+%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
+%@% - \baca-start-mn-left-only "132"                                           %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
+%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
+%@% - \baca-start-ct-both "[4'38'']" "[4'59'']"                                %! CLOCK_TIME:baca.SegmentMaker._label_clock_time()
+%@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME:baca.SegmentMaker._label_clock_time()
     \baca-bar-line-visible                                                     %! baca.SegmentMaker._attach_final_bar_line()
     \bar "|"                                                                   %! baca.SegmentMaker._attach_final_bar_line()
 
     % [F Global_Skips measure 133 / measure 14]                                %! PHANTOM:baca.SegmentMaker._style_phantom_measures(1):baca.SegmentMaker._comment_measure_numbers()
-    \time 1/4                                                                  %! PHANTOM:baca.SegmentMaker._style_phantom_measures(1):EXPLICIT_TIME_SIGNATURE:_set_status_tag:baca.SegmentMaker._make_global_skips(3)
+    \time 1/4                                                                  %! PHANTOM:baca.SegmentMaker._style_phantom_measures(1):EXPLICIT_TIME_SIGNATURE:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._make_global_skips(3)
     \baca-time-signature-transparent                                           %! PHANTOM:baca.SegmentMaker._style_phantom_measures(2)
     s1 * 1/4                                                                   %! PHANTOM:baca.SegmentMaker._make_global_skips(3)
-%@% \bacaStopTextSpanLMN                                                       %! PHANTOM:baca.SegmentMaker._style_phantom_measures(1):LOCAL_MEASURE_NUMBER
-%@% \bacaStopTextSpanMN                                                        %! PHANTOM:baca.SegmentMaker._style_phantom_measures(1):MEASURE_NUMBER
+%@% \bacaStopTextSpanLMN                                                       %! PHANTOM:baca.SegmentMaker._style_phantom_measures(1):LOCAL_MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
+%@% \bacaStopTextSpanMN                                                        %! PHANTOM:baca.SegmentMaker._style_phantom_measures(1):MEASURE_NUMBER:baca.SegmentMaker._label_measure_numbers()
     \bacaStopTextSpanMM                                                        %! PHANTOM:baca.SegmentMaker._style_phantom_measures(1):SEGMENT_FINAL_STOP_MM_SPANNER:baca.SegmentMaker._attach_metronome_marks(4)
-%@% \bacaStopTextSpanCT                                                        %! PHANTOM:baca.SegmentMaker._style_phantom_measures(1):CLOCK_TIME
+%@% \bacaStopTextSpanCT                                                        %! PHANTOM:baca.SegmentMaker._style_phantom_measures(1):CLOCK_TIME:baca.SegmentMaker._label_clock_time()
     \once \override Score.BarLine.transparent = ##t                            %! PHANTOM:baca.SegmentMaker._style_phantom_measures(3)
     \once \override Score.SpanBar.transparent = ##t                            %! PHANTOM:baca.SegmentMaker._style_phantom_measures(3)
 
-}                                                                              %! abjad.Path.extern
+}                                                                              %! abjad.Path.extern()
 
 
-F_Global_Rests = {                                                             %! abjad.Path.extern
+F_Global_Rests = {                                                             %! abjad.Path.extern()
 
     % [F Global_Rests measure 120 / measure 1]                                 %! baca.SegmentMaker._comment_measure_numbers()
     R1 * 3/32                                                                  %! baca.SegmentMaker._make_global_rests(1)
@@ -255,23 +255,23 @@ F_Global_Rests = {                                                             %
     % [F Global_Rests measure 133 / measure 14]                                %! PHANTOM:baca.SegmentMaker._style_phantom_measures(4):baca.SegmentMaker._comment_measure_numbers()
     R1 * 1/4                                                                   %! PHANTOM:baca.SegmentMaker._make_global_rests(2)
 
-}                                                                              %! abjad.Path.extern
+}                                                                              %! abjad.Path.extern()
 
 
-F_Guitar_Music_Voice_I = {                                                     %! abjad.Path.extern
+F_Guitar_Music_Voice_I = {                                                     %! abjad.Path.extern()
 
     {
 
         \scaleDurations #'(1 . 1) {
 
             % [F Guitar_Music_Voice_I measure 120 / measure 1]                 %! baca.SegmentMaker._comment_measure_numbers()
-            \override Beam.positions = #'(10 . 10)                             %! baca.beam_positions():OverrideCommand(1)
-            \clef "treble"                                                     %! REAPPLIED_CLEF:_set_status_tag:baca.SegmentMaker._reapply_persistent_indicators(3)
+            \override Beam.positions = #'(10 . 10)                             %! baca.beam_positions():baca.OverrideCommand._call(1)
+            \clef "treble"                                                     %! REAPPLIED_CLEF:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._reapply_persistent_indicators(3)
             \once \override GuitarMusicStaff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:baca.SegmentMaker._attach_color_literal(2)
         %@% \override GuitarMusicStaff.Clef.color = ##f                        %! REAPPLIED_CLEF_COLOR_CANCELLATION:baca.SegmentMaker._attach_color_literal(1)
-            \set GuitarMusicStaff.forceClef = ##t                              %! REAPPLIED_CLEF:_set_status_tag:baca.SegmentMaker._treat_persistent_wrapper(2):baca.SegmentMaker._reapply_persistent_indicators(3)
+            \set GuitarMusicStaff.forceClef = ##t                              %! REAPPLIED_CLEF:baca.SegmentMaker._set_status_tag():baca.SegmentMaker._treat_persistent_wrapper(2):baca.SegmentMaker._reapply_persistent_indicators(3)
             bf'!32.
-            - \tenuto                                                          %! baca.tenuto():IndicatorCommand
+            - \tenuto                                                          %! baca.tenuto():baca.IndicatorCommand._call()
         %@% ^ \markup {                                                        %! FIGURE_NAME
         %@%     \fontsize                                                      %! FIGURE_NAME
         %@%         #2                                                         %! FIGURE_NAME
@@ -301,8 +301,8 @@ F_Guitar_Music_Voice_I = {                                                     %
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 1
             c'32.
-            - \tenuto                                                          %! baca.tenuto():IndicatorCommand
-            \revert Beam.positions                                             %! baca.beam_positions():OverrideCommand(2)
+            - \tenuto                                                          %! baca.tenuto():baca.IndicatorCommand._call()
+            \revert Beam.positions                                             %! baca.beam_positions():baca.OverrideCommand._call(2)
 
         }
 
@@ -424,7 +424,7 @@ F_Guitar_Music_Voice_I = {                                                     %
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 3
             cs'!32.
-            - \tenuto                                                          %! baca.tenuto():IndicatorCommand
+            - \tenuto                                                          %! baca.tenuto():baca.IndicatorCommand._call()
         %@% ^ \markup {                                                        %! FIGURE_NAME
         %@%     \fontsize                                                      %! FIGURE_NAME
         %@%         #2                                                         %! FIGURE_NAME
@@ -449,7 +449,7 @@ F_Guitar_Music_Voice_I = {                                                     %
         %@%     }                                                              %! FIGURE_NAME
 
             f'32.
-            - \tenuto                                                          %! baca.tenuto():IndicatorCommand
+            - \tenuto                                                          %! baca.tenuto():baca.IndicatorCommand._call()
             ]
 
         }
@@ -465,7 +465,7 @@ F_Guitar_Music_Voice_I = {                                                     %
 
             % [F Guitar_Music_Voice_I measure 127 / measure 8]                 %! baca.SegmentMaker._comment_measure_numbers()
             r8
-            ^ \markup { "raise string 2 one quartertone" }                     %! baca.markup():IndicatorCommand
+            ^ \markup { "raise string 2 one quartertone" }                     %! baca.markup():baca.IndicatorCommand._call()
         %@% ^ \markup {                                                        %! FIGURE_NAME
         %@%     \fontsize                                                      %! FIGURE_NAME
         %@%         #2                                                         %! FIGURE_NAME
@@ -500,7 +500,7 @@ F_Guitar_Music_Voice_I = {                                                     %
             \set stemLeftBeamCount = 0
             \set stemRightBeamCount = 4
             fs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
         %@% ^ \markup {                                                        %! FIGURE_NAME
         %@%     \fontsize                                                      %! FIGURE_NAME
         %@%         #2                                                         %! FIGURE_NAME
@@ -523,12 +523,12 @@ F_Guitar_Music_Voice_I = {                                                     %
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             e''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
             f''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
         }
 
@@ -537,17 +537,17 @@ F_Guitar_Music_Voice_I = {                                                     %
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             fs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             e''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
             f''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
         }
 
@@ -556,17 +556,17 @@ F_Guitar_Music_Voice_I = {                                                     %
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             fs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             e''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
             f''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
         }
 
@@ -575,17 +575,17 @@ F_Guitar_Music_Voice_I = {                                                     %
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             fs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             e''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
             f''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
         }
 
@@ -594,17 +594,17 @@ F_Guitar_Music_Voice_I = {                                                     %
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             fs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             e''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
             f''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
         }
 
@@ -613,17 +613,17 @@ F_Guitar_Music_Voice_I = {                                                     %
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             fs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             e''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
             f''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
         }
 
@@ -632,17 +632,17 @@ F_Guitar_Music_Voice_I = {                                                     %
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             fs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             e''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
             f''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
         }
 
@@ -651,17 +651,17 @@ F_Guitar_Music_Voice_I = {                                                     %
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             fs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             e''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
             f''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
         }
 
@@ -670,17 +670,17 @@ F_Guitar_Music_Voice_I = {                                                     %
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             fs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             e''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
             f''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
         }
 
@@ -689,17 +689,17 @@ F_Guitar_Music_Voice_I = {                                                     %
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             fs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             e''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 0
             f''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
             ]
 
         }
@@ -714,7 +714,7 @@ F_Guitar_Music_Voice_I = {                                                     %
             \set stemLeftBeamCount = 0
             \set stemRightBeamCount = 4
             fs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
         %@% ^ \markup {                                                        %! FIGURE_NAME
         %@%     \fontsize                                                      %! FIGURE_NAME
         %@%         #2                                                         %! FIGURE_NAME
@@ -737,17 +737,17 @@ F_Guitar_Music_Voice_I = {                                                     %
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             e''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             f''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
             fqs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
         }
 
@@ -756,22 +756,22 @@ F_Guitar_Music_Voice_I = {                                                     %
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             fs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             e''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             f''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
             fqs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
         }
 
@@ -780,22 +780,22 @@ F_Guitar_Music_Voice_I = {                                                     %
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             fs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             e''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             f''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
             fqs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
         }
 
@@ -804,22 +804,22 @@ F_Guitar_Music_Voice_I = {                                                     %
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             fs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             e''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             f''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
             fqs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
         }
 
@@ -828,22 +828,22 @@ F_Guitar_Music_Voice_I = {                                                     %
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             fs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             e''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             f''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
             fqs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
         }
 
@@ -852,22 +852,22 @@ F_Guitar_Music_Voice_I = {                                                     %
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             fs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             e''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             f''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
             fqs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
         }
 
@@ -876,22 +876,22 @@ F_Guitar_Music_Voice_I = {                                                     %
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             fs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             e''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             f''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
             fqs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
         }
 
@@ -900,22 +900,22 @@ F_Guitar_Music_Voice_I = {                                                     %
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             fs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             e''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             f''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
             fqs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
         }
 
@@ -924,22 +924,22 @@ F_Guitar_Music_Voice_I = {                                                     %
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             fs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             e''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             f''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
             fqs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
         }
 
@@ -948,22 +948,22 @@ F_Guitar_Music_Voice_I = {                                                     %
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             fs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             e''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             f''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 0
             fqs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
             ]
 
         }
@@ -978,7 +978,7 @@ F_Guitar_Music_Voice_I = {                                                     %
             \set stemLeftBeamCount = 0
             \set stemRightBeamCount = 4
             fs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
         %@% ^ \markup {                                                        %! FIGURE_NAME
         %@%     \fontsize                                                      %! FIGURE_NAME
         %@%         #2                                                         %! FIGURE_NAME
@@ -1001,22 +1001,22 @@ F_Guitar_Music_Voice_I = {                                                     %
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             e''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             f''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             fqs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
             gqf''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
         }
 
@@ -1025,27 +1025,27 @@ F_Guitar_Music_Voice_I = {                                                     %
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             fs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             e''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             f''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             fqs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
             gqf''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
         }
 
@@ -1054,27 +1054,27 @@ F_Guitar_Music_Voice_I = {                                                     %
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             fs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             e''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             f''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             fqs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
             gqf''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
         }
 
@@ -1083,27 +1083,27 @@ F_Guitar_Music_Voice_I = {                                                     %
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             fs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             e''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             f''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             fqs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
             gqf''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
         }
 
@@ -1112,27 +1112,27 @@ F_Guitar_Music_Voice_I = {                                                     %
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             fs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             e''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             f''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             fqs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
             gqf''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
         }
 
@@ -1141,27 +1141,27 @@ F_Guitar_Music_Voice_I = {                                                     %
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             fs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             e''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             f''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             fqs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
             gqf''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
         }
 
@@ -1170,27 +1170,27 @@ F_Guitar_Music_Voice_I = {                                                     %
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             fs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             e''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             f''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             fqs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
             gqf''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
         }
 
@@ -1199,27 +1199,27 @@ F_Guitar_Music_Voice_I = {                                                     %
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             fs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             e''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             f''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             fqs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
             gqf''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
         }
 
@@ -1228,27 +1228,27 @@ F_Guitar_Music_Voice_I = {                                                     %
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             fs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             e''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             f''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             fqs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
             gqf''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
         }
 
@@ -1257,27 +1257,27 @@ F_Guitar_Music_Voice_I = {                                                     %
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             fs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             e''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             f''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             fqs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 0
             gqf''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
             ]
 
         }
@@ -1292,7 +1292,7 @@ F_Guitar_Music_Voice_I = {                                                     %
             \set stemLeftBeamCount = 0
             \set stemRightBeamCount = 4
             fs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
         %@% ^ \markup {                                                        %! FIGURE_NAME
         %@%     \fontsize                                                      %! FIGURE_NAME
         %@%         #2                                                         %! FIGURE_NAME
@@ -1315,27 +1315,27 @@ F_Guitar_Music_Voice_I = {                                                     %
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             e''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             f''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             fqs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             gqf''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
             a''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
         }
 
@@ -1344,32 +1344,32 @@ F_Guitar_Music_Voice_I = {                                                     %
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             fs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             e''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             f''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             fqs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             gqf''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
             a''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
         }
 
@@ -1378,32 +1378,32 @@ F_Guitar_Music_Voice_I = {                                                     %
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             fs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             e''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             f''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             fqs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             gqf''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
             a''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
         }
 
@@ -1412,32 +1412,32 @@ F_Guitar_Music_Voice_I = {                                                     %
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             fs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             e''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             f''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             fqs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             gqf''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
             a''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
         }
 
@@ -1446,32 +1446,32 @@ F_Guitar_Music_Voice_I = {                                                     %
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             fs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             e''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             f''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             fqs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             gqf''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
             a''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
         }
 
@@ -1480,32 +1480,32 @@ F_Guitar_Music_Voice_I = {                                                     %
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             fs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             e''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             f''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             fqs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             gqf''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
             a''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
         }
 
@@ -1514,32 +1514,32 @@ F_Guitar_Music_Voice_I = {                                                     %
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             fs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             e''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             f''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             fqs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             gqf''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
             a''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
         }
 
@@ -1548,32 +1548,32 @@ F_Guitar_Music_Voice_I = {                                                     %
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             fs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             e''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             f''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             fqs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             gqf''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
             a''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
         }
 
@@ -1582,32 +1582,32 @@ F_Guitar_Music_Voice_I = {                                                     %
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             fs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             e''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             f''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             fqs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             gqf''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
             a''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
         }
 
@@ -1616,32 +1616,32 @@ F_Guitar_Music_Voice_I = {                                                     %
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             fs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             e''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             f''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             fqs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             gqf''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 0
             a''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
             ]
 
         }
@@ -1656,7 +1656,7 @@ F_Guitar_Music_Voice_I = {                                                     %
             \set stemLeftBeamCount = 0
             \set stemRightBeamCount = 4
             fs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
         %@% ^ \markup {                                                        %! FIGURE_NAME
         %@%     \fontsize                                                      %! FIGURE_NAME
         %@%         #2                                                         %! FIGURE_NAME
@@ -1679,157 +1679,157 @@ F_Guitar_Music_Voice_I = {                                                     %
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             e''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             f''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             fqs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             gqf''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             a''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             bf''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             g''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             af''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             bqs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             dqs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             eqf''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             b''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             d''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             ef''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             bqf''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             g''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             af''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             bqs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             bf''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             eqf''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             b''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             d''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             ef''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             bqf''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             dqs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             e''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             f''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             fqs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             gqf''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             a''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
             fs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
         }
 
@@ -1838,157 +1838,157 @@ F_Guitar_Music_Voice_I = {                                                     %
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             a''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             gqf''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             fqs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             f''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             e''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             dqs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             bqf''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             ef''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             d''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             b''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             eqf''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             bf''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             bqs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             af''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             g''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             bqf''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             ef''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             d''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             b''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             eqf''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             dqs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             bqs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             af''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             g''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             bf''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             a''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             gqf''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             fqs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             f''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             e''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
             fs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
         }
 
@@ -1997,157 +1997,157 @@ F_Guitar_Music_Voice_I = {                                                     %
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             e''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             f''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             fqs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             gqf''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             a''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             bf''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             g''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             af''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             bqs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             dqs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             eqf''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             b''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             d''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             ef''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             bqf''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             g''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             af''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             bqs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             bf''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             eqf''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             b''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             d''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             ef''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             bqf''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             dqs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             e''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             f''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             fqs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             gqf''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             a''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
             fs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
         }
 
@@ -2156,157 +2156,157 @@ F_Guitar_Music_Voice_I = {                                                     %
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             a''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             gqf''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             fqs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             f''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             e''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             dqs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             bqf''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             ef''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             d''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             b''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             eqf''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             bf''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             bqs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             af''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             g''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             bqf''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             ef''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             d''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             b''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             eqf''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             dqs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             bqs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             af''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             g''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             bf''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             a''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             gqf''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             fqs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             f''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             e''64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 0
             fs''!64
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
             ]
 
         }
@@ -2321,7 +2321,7 @@ F_Guitar_Music_Voice_I = {                                                     %
             % [F Guitar_Music_Voice_I measure 133 / measure 14]                %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._make_multimeasure_rest_container()
             c''1 * 1/4                                                         %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
-        %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_mutlipliers()
+        %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
         }                                                                      %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -2335,10 +2335,10 @@ F_Guitar_Music_Voice_I = {                                                     %
 
     >>                                                                         %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
 
-}                                                                              %! abjad.Path.extern
+}                                                                              %! abjad.Path.extern()
 
 
-F_Guitar_Music_Voice_II = {                                                    %! abjad.Path.extern
+F_Guitar_Music_Voice_II = {                                                    %! abjad.Path.extern()
 
     % [F Guitar_Music_Voice_II measure 120 / measure 1]                        %! baca.SegmentMaker._comment_measure_numbers()
     s1 * 3/32                                                                  %! _call_rhythm_commands
@@ -2387,7 +2387,7 @@ F_Guitar_Music_Voice_II = {                                                    %
             % [F Guitar_Music_Voice_II measure 133 / measure 14]               %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._make_multimeasure_rest_container()
             R1 * 1/4                                                           %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
-        %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_mutlipliers()
+        %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
         }                                                                      %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -2401,13 +2401,13 @@ F_Guitar_Music_Voice_II = {                                                    %
 
     >>                                                                         %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
 
-}                                                                              %! abjad.Path.extern
+}                                                                              %! abjad.Path.extern()
 
 
-F_Guitar_Music_Voice_III = {                                                   %! abjad.Path.extern
+F_Guitar_Music_Voice_III = {                                                   %! abjad.Path.extern()
 
     % [F Guitar_Music_Voice_III measure 120 / measure 1]                       %! baca.SegmentMaker._comment_measure_numbers()
-    \override Script.direction = #down                                         %! baca.script_down():OverrideCommand(1)
+    \override Script.direction = #down                                         %! baca.script_down():baca.OverrideCommand._call(1)
     s1 * 3/32
 
     {
@@ -2416,7 +2416,7 @@ F_Guitar_Music_Voice_III = {                                                   %
 
             % [F Guitar_Music_Voice_III measure 121 / measure 2]               %! baca.SegmentMaker._comment_measure_numbers()
             f16
-            - \accent                                                          %! baca.accent():IndicatorCommand
+            - \accent                                                          %! baca.accent():baca.IndicatorCommand._call()
         %@% ^ \markup {                                                        %! FIGURE_NAME
         %@%     \fontsize                                                      %! FIGURE_NAME
         %@%         #2                                                         %! FIGURE_NAME
@@ -2454,7 +2454,7 @@ F_Guitar_Music_Voice_III = {                                                   %
 
             % [F Guitar_Music_Voice_III measure 125 / measure 6]               %! baca.SegmentMaker._comment_measure_numbers()
             a16
-            - \accent                                                          %! baca.accent():IndicatorCommand
+            - \accent                                                          %! baca.accent():baca.IndicatorCommand._call()
         %@% ^ \markup {                                                        %! FIGURE_NAME
         %@%     \fontsize                                                      %! FIGURE_NAME
         %@%         #2                                                         %! FIGURE_NAME
@@ -2478,7 +2478,7 @@ F_Guitar_Music_Voice_III = {                                                   %
         %@%             }                                                      %! FIGURE_NAME
         %@%     }                                                              %! FIGURE_NAME
             ]
-            \revert Script.direction                                           %! baca.script_down():OverrideCommand(2)
+            \revert Script.direction                                           %! baca.script_down():baca.OverrideCommand._call(2)
 
         }
 
@@ -2492,7 +2492,7 @@ F_Guitar_Music_Voice_III = {                                                   %
             % [F Guitar_Music_Voice_III measure 126 / measure 7]               %! baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! baca.SegmentMaker._make_multimeasure_rest_container()
             c''1 * 3/20                                                        %! baca.SegmentMaker._make_multimeasure_rest_container()
-        %@% ^ \baca-duration-multiplier-markup #"3" #"20"                      %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_mutlipliers()
+        %@% ^ \baca-duration-multiplier-markup #"3" #"20"                      %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
         }                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -2532,7 +2532,7 @@ F_Guitar_Music_Voice_III = {                                                   %
             % [F Guitar_Music_Voice_III measure 133 / measure 14]              %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._make_multimeasure_rest_container()
             c''1 * 1/4                                                         %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
-        %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_mutlipliers()
+        %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
         }                                                                      %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -2546,13 +2546,13 @@ F_Guitar_Music_Voice_III = {                                                   %
 
     >>                                                                         %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
 
-}                                                                              %! abjad.Path.extern
+}                                                                              %! abjad.Path.extern()
 
 
-F_Guitar_Music_Voice_IV = {                                                    %! abjad.Path.extern
+F_Guitar_Music_Voice_IV = {                                                    %! abjad.Path.extern()
 
     % [F Guitar_Music_Voice_IV measure 120 / measure 1]                        %! baca.SegmentMaker._comment_measure_numbers()
-    \override Beam.positions = #'(5.5 . 5.5)                                   %! baca.beam_positions():OverrideCommand(1)
+    \override Beam.positions = #'(5.5 . 5.5)                                   %! baca.beam_positions():baca.OverrideCommand._call(1)
     s1 * 11/32
 
     {
@@ -2562,7 +2562,7 @@ F_Guitar_Music_Voice_IV = {                                                    %
 
             % [F Guitar_Music_Voice_IV measure 123 / measure 4]                %! baca.SegmentMaker._comment_measure_numbers()
             g''16
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
         %@% ^ \markup {                                                        %! FIGURE_NAME
         %@%     \fontsize                                                      %! FIGURE_NAME
         %@%         #2                                                         %! FIGURE_NAME
@@ -2588,10 +2588,10 @@ F_Guitar_Music_Voice_IV = {                                                    %
             [
 
             af'!16
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             d''16
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
             ]
 
         }
@@ -2608,7 +2608,7 @@ F_Guitar_Music_Voice_IV = {                                                    %
 
             % [F Guitar_Music_Voice_IV measure 126 / measure 7]                %! baca.SegmentMaker._comment_measure_numbers()
             b'16
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
         %@% ^ \markup {                                                        %! FIGURE_NAME
         %@%     \fontsize                                                      %! FIGURE_NAME
         %@%         #2                                                         %! FIGURE_NAME
@@ -2634,12 +2634,12 @@ F_Guitar_Music_Voice_IV = {                                                    %
             [
 
             bf'!16
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
 
             c''16
-            - \staccato                                                        %! baca.staccato():IndicatorCommand
+            - \staccato                                                        %! baca.staccato():baca.IndicatorCommand._call()
             ]
-            \revert Beam.positions                                             %! baca.beam_positions():OverrideCommand(2)
+            \revert Beam.positions                                             %! baca.beam_positions():baca.OverrideCommand._call(2)
 
         }
 
@@ -2653,7 +2653,7 @@ F_Guitar_Music_Voice_IV = {                                                    %
             % [F Guitar_Music_Voice_IV measure 127 / measure 8]                %! baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! baca.SegmentMaker._make_multimeasure_rest_container()
             c''1 * 3/8                                                         %! baca.SegmentMaker._make_multimeasure_rest_container()
-        %@% ^ \baca-duration-multiplier-markup #"3" #"8"                       %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_mutlipliers()
+        %@% ^ \baca-duration-multiplier-markup #"3" #"8"                       %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
         }                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -2690,7 +2690,7 @@ F_Guitar_Music_Voice_IV = {                                                    %
             % [F Guitar_Music_Voice_IV measure 133 / measure 14]               %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._make_multimeasure_rest_container()
             c''1 * 1/4                                                         %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
-        %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_mutlipliers()
+        %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_multipliers()
 
         }                                                                      %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -2704,24 +2704,24 @@ F_Guitar_Music_Voice_IV = {                                                    %
 
     >>                                                                         %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
 
-}                                                                              %! abjad.Path.extern
+}                                                                              %! abjad.Path.extern()
 
 
-F_Guitar_Music_Staff = <<                                                      %! abjad.Path.extern
+F_Guitar_Music_Staff = <<                                                      %! abjad.Path.extern()
 
-    \context GlobalRests = "Global_Rests"                                      %! abjad.ScoreTemplate._make_global_context
-    \F_Global_Rests                                                            %! abjad.Path.extern
+    \context GlobalRests = "Global_Rests"                                      %! abjad.ScoreTemplate._make_global_context()
+    \F_Global_Rests                                                            %! abjad.Path.extern()
 
     \context GuitarMusicVoiceI = "Guitar_Music_Voice_I"                        %! dornen.ScoreTemplate.__call__
-    \F_Guitar_Music_Voice_I                                                    %! abjad.Path.extern
+    \F_Guitar_Music_Voice_I                                                    %! abjad.Path.extern()
 
     \context GuitarMusicVoiceII = "Guitar_Music_Voice_II"                      %! dornen.ScoreTemplate.__call__
-    \F_Guitar_Music_Voice_II                                                   %! abjad.Path.extern
+    \F_Guitar_Music_Voice_II                                                   %! abjad.Path.extern()
 
     \context GuitarMusicVoiceIII = "Guitar_Music_Voice_III"                    %! dornen.ScoreTemplate.__call__
-    \F_Guitar_Music_Voice_III                                                  %! abjad.Path.extern
+    \F_Guitar_Music_Voice_III                                                  %! abjad.Path.extern()
 
     \context GuitarMusicVoiceIV = "Guitar_Music_Voice_IV"                      %! dornen.ScoreTemplate.__call__
-    \F_Guitar_Music_Voice_IV                                                   %! abjad.Path.extern
+    \F_Guitar_Music_Voice_IV                                                   %! abjad.Path.extern()
 
->>                                                                             %! abjad.Path.extern
+>>                                                                             %! abjad.Path.extern()

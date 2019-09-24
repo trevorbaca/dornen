@@ -361,14 +361,18 @@ B_Guitar_Music_Voice_I = {                                                     %
         %@%             }                                                      %! FIGURE_NAME
         %@%     }                                                              %! FIGURE_NAME
             ^ \baca-reapplied-indicator-markup "(“Guitar”)"                    %! REAPPLIED_INSTRUMENT_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
+        %@% ^ \baca-duration-multiplier-markup #"448" #"1024"                  %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_mutlipliers()
             [
             \override GuitarMusicStaff.Clef.color = #(x11-color 'OliveDrab)    %! REAPPLIED_CLEF_REDRAW_COLOR:baca.SegmentMaker._attach_color_literal(2)
 
             c''64 * 896/1024
+        %@% ^ \baca-duration-multiplier-markup #"896" #"1024"                  %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_mutlipliers()
 
             bf''!64 * 1216/1024
+        %@% ^ \baca-duration-multiplier-markup #"1216" #"1024"                 %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_mutlipliers()
 
             f''64 * 1536/1024
+        %@% ^ \baca-duration-multiplier-markup #"1536" #"1024"                 %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_mutlipliers()
             ]
 
         }
@@ -417,13 +421,17 @@ B_Guitar_Music_Voice_I = {                                                     %
 
             \once \override Beam.grow-direction = #right
             af''!64 * 1664/1024
+        %@% ^ \baca-duration-multiplier-markup #"1664" #"1024"                 %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_mutlipliers()
             [
 
             fs''!64 * 960/1024
+        %@% ^ \baca-duration-multiplier-markup #"960" #"1024"                  %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_mutlipliers()
 
             b'64 * 768/1024
+        %@% ^ \baca-duration-multiplier-markup #"768" #"1024"                  %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_mutlipliers()
 
             d''64 * 704/1024
+        %@% ^ \baca-duration-multiplier-markup #"704" #"1024"                  %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_mutlipliers()
             ]
 
         }
@@ -472,13 +480,17 @@ B_Guitar_Music_Voice_I = {                                                     %
 
             \once \override Beam.grow-direction = #left
             e''64 * 448/1024
+        %@% ^ \baca-duration-multiplier-markup #"448" #"1024"                  %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_mutlipliers()
             [
 
             ef''!64 * 896/1024
+        %@% ^ \baca-duration-multiplier-markup #"896" #"1024"                  %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_mutlipliers()
 
             a'64 * 1216/1024
+        %@% ^ \baca-duration-multiplier-markup #"1216" #"1024"                 %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_mutlipliers()
 
             af'!64 * 1536/1024
+        %@% ^ \baca-duration-multiplier-markup #"1536" #"1024"                 %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_mutlipliers()
             ]
 
         }
@@ -527,13 +539,17 @@ B_Guitar_Music_Voice_I = {                                                     %
 
             \once \override Beam.grow-direction = #right
             fs'!64 * 1664/1024
+        %@% ^ \baca-duration-multiplier-markup #"1664" #"1024"                 %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_mutlipliers()
             [
 
             b'64 * 960/1024
+        %@% ^ \baca-duration-multiplier-markup #"960" #"1024"                  %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_mutlipliers()
 
             d'64 * 768/1024
+        %@% ^ \baca-duration-multiplier-markup #"768" #"1024"                  %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_mutlipliers()
 
             f'64 * 704/1024
+        %@% ^ \baca-duration-multiplier-markup #"704" #"1024"                  %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_mutlipliers()
             ]
             \revert Beam.positions                                             %! baca.beam_positions():OverrideCommand(2)
 
@@ -1425,6 +1441,7 @@ B_Guitar_Music_Voice_I = {                                                     %
             % [B Guitar_Music_Voice_I measure 35 / measure 16]                 %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._make_multimeasure_rest_container()
             c''1 * 1/4                                                         %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
+        %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_mutlipliers()
 
         }                                                                      %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -1747,6 +1764,7 @@ B_Guitar_Music_Voice_II = {                                                    %
             % [B Guitar_Music_Voice_II measure 34 / measure 15]                %! baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! baca.SegmentMaker._make_multimeasure_rest_container()
             c''1 * 11/16                                                       %! baca.SegmentMaker._make_multimeasure_rest_container()
+        %@% ^ \baca-duration-multiplier-markup #"11" #"16"                     %! DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_mutlipliers()
 
         }                                                                      %! baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -1768,6 +1786,7 @@ B_Guitar_Music_Voice_II = {                                                    %
             % [B Guitar_Music_Voice_II measure 35 / measure 16]                %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._make_multimeasure_rest_container()
             c''1 * 1/4                                                         %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
+        %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_mutlipliers()
 
         }                                                                      %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -1839,6 +1858,7 @@ B_Guitar_Music_Voice_III = {                                                   %
             % [B Guitar_Music_Voice_III measure 35 / measure 16]               %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._make_multimeasure_rest_container()
             R1 * 1/4                                                           %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
+        %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_mutlipliers()
 
         }                                                                      %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -1910,6 +1930,7 @@ B_Guitar_Music_Voice_IV = {                                                    %
             % [B Guitar_Music_Voice_IV measure 35 / measure 16]                %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._comment_measure_numbers()
             \baca-invisible-music                                              %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):baca.SegmentMaker._make_multimeasure_rest_container()
             R1 * 1/4                                                           %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
+        %@% ^ \baca-duration-multiplier-markup #"1" #"4"                       %! PHANTOM:baca.SegmentMaker._style_phantom_measures(5):DURATION_MULTIPLIER:baca.SegmentMaker._label_duration_mutlipliers()
 
         }                                                                      %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
 

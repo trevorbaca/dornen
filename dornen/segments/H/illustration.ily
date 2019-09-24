@@ -1230,16 +1230,16 @@ H_Guitar_Music_Staff = <<                                                      %
     \context GlobalRests = "Global_Rests"                                      %! abjad.ScoreTemplate._make_global_context()
     \H_Global_Rests                                                            %! abjad.Path.extern()
 
-    \context GuitarMusicVoiceI = "Guitar_Music_Voice_I"                        %! dornen.ScoreTemplate.__call__
+    \context GuitarMusicVoiceI = "Guitar_Music_Voice_I"                        %! dornen.ScoreTemplate.__call__()
     \H_Guitar_Music_Voice_I                                                    %! abjad.Path.extern()
 
-    \context GuitarMusicVoiceII = "Guitar_Music_Voice_II"                      %! dornen.ScoreTemplate.__call__
+    \context GuitarMusicVoiceII = "Guitar_Music_Voice_II"                      %! dornen.ScoreTemplate.__call__()
     \H_Guitar_Music_Voice_II                                                   %! abjad.Path.extern()
 
-    \context GuitarMusicVoiceIII = "Guitar_Music_Voice_III"                    %! dornen.ScoreTemplate.__call__
+    \context GuitarMusicVoiceIII = "Guitar_Music_Voice_III"                    %! dornen.ScoreTemplate.__call__()
     \H_Guitar_Music_Voice_III                                                  %! abjad.Path.extern()
 
-    \context GuitarMusicVoiceIV = "Guitar_Music_Voice_IV"                      %! dornen.ScoreTemplate.__call__
+    \context GuitarMusicVoiceIV = "Guitar_Music_Voice_IV"                      %! dornen.ScoreTemplate.__call__()
     \H_Guitar_Music_Voice_IV                                                   %! abjad.Path.extern()
 
 >>                                                                             %! abjad.Path.extern()

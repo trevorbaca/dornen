@@ -456,10 +456,10 @@ H_Guitar_Music_Voice_II = {                                                    %
             \acciaccatura {
 
                 ef'!16
-                [                                                              %! Acciaccatura
+                [                                                              %! baca.Acciaccatura.__call__()
 
                 fs'!16
-                ]                                                              %! Acciaccatura
+                ]                                                              %! baca.Acciaccatura.__call__()
 
             }
 
@@ -506,14 +506,14 @@ H_Guitar_Music_Voice_II = {                                                    %
             \acciaccatura {
 
                 a'16
-                [                                                              %! Acciaccatura
+                [                                                              %! baca.Acciaccatura.__call__()
 
                 g'16
 
                 bf'!16
 
                 ef''!16
-                ]                                                              %! Acciaccatura
+                ]                                                              %! baca.Acciaccatura.__call__()
 
             }
 
@@ -557,14 +557,14 @@ H_Guitar_Music_Voice_II = {                                                    %
             \acciaccatura {
 
                 ef''!16
-                [                                                              %! Acciaccatura
+                [                                                              %! baca.Acciaccatura.__call__()
 
                 c''16
 
                 d''16
 
                 g''16
-                ]                                                              %! Acciaccatura
+                ]                                                              %! baca.Acciaccatura.__call__()
 
             }
 

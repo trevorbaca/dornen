@@ -2341,43 +2341,43 @@ F_Guitar_Music_Voice_I = {                                                     %
 F_Guitar_Music_Voice_II = {                                                    %! abjad.Path.extern()
 
     % [F Guitar_Music_Voice_II measure 120 / measure 1]                        %! baca.SegmentMaker._comment_measure_numbers()
-    s1 * 3/32                                                                  %! _call_rhythm_commands
+    s1 * 3/32                                                                  %! baca.SegmentMaker._call_rhythm_commands()
 
     % [F Guitar_Music_Voice_II measure 121 / measure 2]                        %! baca.SegmentMaker._comment_measure_numbers()
-    s1 * 1/16                                                                  %! _call_rhythm_commands
+    s1 * 1/16                                                                  %! baca.SegmentMaker._call_rhythm_commands()
 
     % [F Guitar_Music_Voice_II measure 122 / measure 3]                        %! baca.SegmentMaker._comment_measure_numbers()
-    s1 * 3/16                                                                  %! _call_rhythm_commands
+    s1 * 3/16                                                                  %! baca.SegmentMaker._call_rhythm_commands()
 
     % [F Guitar_Music_Voice_II measure 123 / measure 4]                        %! baca.SegmentMaker._comment_measure_numbers()
-    s1 * 3/20                                                                  %! _call_rhythm_commands
+    s1 * 3/20                                                                  %! baca.SegmentMaker._call_rhythm_commands()
 
     % [F Guitar_Music_Voice_II measure 124 / measure 5]                        %! baca.SegmentMaker._comment_measure_numbers()
-    s1 * 3/32                                                                  %! _call_rhythm_commands
+    s1 * 3/32                                                                  %! baca.SegmentMaker._call_rhythm_commands()
 
     % [F Guitar_Music_Voice_II measure 125 / measure 6]                        %! baca.SegmentMaker._comment_measure_numbers()
-    s1 * 1/16                                                                  %! _call_rhythm_commands
+    s1 * 1/16                                                                  %! baca.SegmentMaker._call_rhythm_commands()
 
     % [F Guitar_Music_Voice_II measure 126 / measure 7]                        %! baca.SegmentMaker._comment_measure_numbers()
-    s1 * 3/20                                                                  %! _call_rhythm_commands
+    s1 * 3/20                                                                  %! baca.SegmentMaker._call_rhythm_commands()
 
     % [F Guitar_Music_Voice_II measure 127 / measure 8]                        %! baca.SegmentMaker._comment_measure_numbers()
-    s1 * 3/8                                                                   %! _call_rhythm_commands
+    s1 * 3/8                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 
     % [F Guitar_Music_Voice_II measure 128 / measure 9]                        %! baca.SegmentMaker._comment_measure_numbers()
-    s1 * 30/64                                                                 %! _call_rhythm_commands
+    s1 * 30/64                                                                 %! baca.SegmentMaker._call_rhythm_commands()
 
     % [F Guitar_Music_Voice_II measure 129 / measure 10]                       %! baca.SegmentMaker._comment_measure_numbers()
-    s1 * 40/64                                                                 %! _call_rhythm_commands
+    s1 * 40/64                                                                 %! baca.SegmentMaker._call_rhythm_commands()
 
     % [F Guitar_Music_Voice_II measure 130 / measure 11]                       %! baca.SegmentMaker._comment_measure_numbers()
-    s1 * 50/64                                                                 %! _call_rhythm_commands
+    s1 * 50/64                                                                 %! baca.SegmentMaker._call_rhythm_commands()
 
     % [F Guitar_Music_Voice_II measure 131 / measure 12]                       %! baca.SegmentMaker._comment_measure_numbers()
-    s1 * 60/64                                                                 %! _call_rhythm_commands
+    s1 * 60/64                                                                 %! baca.SegmentMaker._call_rhythm_commands()
 
     % [F Guitar_Music_Voice_II measure 132 / measure 13]                       %! baca.SegmentMaker._comment_measure_numbers()
-    s1 * 125/64                                                                %! _call_rhythm_commands
+    s1 * 125/64                                                                %! baca.SegmentMaker._call_rhythm_commands()
 
     <<                                                                         %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
 

@@ -451,7 +451,7 @@ J_Guitar_Music_Voice_I = {                                                     %
             gf!2
             :32                                                                %! baca.stem_tremolo():baca.IndicatorCommand._call()
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-            \ppp                                                               %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(1)
+            \ppp                                                               %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():baca.PiecewiseCommand._call(1)
             ^ \markup {                                                        %! baca.markup():baca.IndicatorCommand._call()
                 \override                                                      %! baca.markup():baca.IndicatorCommand._call()
                     #'(box-padding . 0.5)                                      %! baca.markup():baca.IndicatorCommand._call()
@@ -481,7 +481,7 @@ J_Guitar_Music_Voice_I = {                                                     %
         %@%             }                                                      %! FIGURE_NAME
         %@%     }                                                              %! FIGURE_NAME
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-            \<                                                                 %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.hairpin():PiecewiseCommand(1)
+            \<                                                                 %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.hairpin():baca.PiecewiseCommand._call(1)
 
         }
 
@@ -505,7 +505,7 @@ J_Guitar_Music_Voice_I = {                                                     %
             gf!2
             :32                                                                %! baca.stem_tremolo():baca.IndicatorCommand._call()
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-            \pp                                                                %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(2)
+            \pp                                                                %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():baca.PiecewiseCommand._call(2)
         %@% ^ \markup {                                                        %! FIGURE_NAME
         %@%     \fontsize                                                      %! FIGURE_NAME
         %@%         #2                                                         %! FIGURE_NAME
@@ -543,7 +543,7 @@ J_Guitar_Music_Voice_I = {                                                     %
             gf!2
             :32                                                                %! baca.stem_tremolo():baca.IndicatorCommand._call()
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-            \pp                                                                %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(1)
+            \pp                                                                %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():baca.PiecewiseCommand._call(1)
         %@% ^ \markup {                                                        %! FIGURE_NAME
         %@%     \fontsize                                                      %! FIGURE_NAME
         %@%         #2                                                         %! FIGURE_NAME
@@ -568,7 +568,7 @@ J_Guitar_Music_Voice_I = {                                                     %
         %@%     }                                                              %! FIGURE_NAME
             \repeatTie                                                         %! baca.repeat_tie():baca.IndicatorCommand._call()
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-            \>                                                                 %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.hairpin():PiecewiseCommand(1)
+            \>                                                                 %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.hairpin():baca.PiecewiseCommand._call(1)
 
         }
 
@@ -583,7 +583,7 @@ J_Guitar_Music_Voice_I = {                                                     %
             gf!2
             :32                                                                %! baca.stem_tremolo():baca.IndicatorCommand._call()
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-            \ppp                                                               %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(2)
+            \ppp                                                               %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():baca.PiecewiseCommand._call(2)
         %@% ^ \markup {                                                        %! FIGURE_NAME
         %@%     \fontsize                                                      %! FIGURE_NAME
         %@%         #2                                                         %! FIGURE_NAME
@@ -657,7 +657,7 @@ J_Guitar_Music_Voice_I = {                                                     %
             gf!2
             :32                                                                %! baca.stem_tremolo():baca.IndicatorCommand._call()
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-            \ppp                                                               %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(1)
+            \ppp                                                               %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():baca.PiecewiseCommand._call(1)
             ^ \markup {                                                        %! baca.markup():baca.IndicatorCommand._call()
                 \override                                                      %! baca.markup():baca.IndicatorCommand._call()
                     #'(box-padding . 0.5)                                      %! baca.markup():baca.IndicatorCommand._call()
@@ -688,7 +688,7 @@ J_Guitar_Music_Voice_I = {                                                     %
         %@%     }                                                              %! FIGURE_NAME
             \repeatTie                                                         %! baca.repeat_tie():baca.IndicatorCommand._call()
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-            \<                                                                 %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.hairpin():PiecewiseCommand(1)
+            \<                                                                 %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.hairpin():baca.PiecewiseCommand._call(1)
 
         }
 
@@ -703,7 +703,7 @@ J_Guitar_Music_Voice_I = {                                                     %
             gf!2
             :32                                                                %! baca.stem_tremolo():baca.IndicatorCommand._call()
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-            \p                                                                 %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(2)
+            \p                                                                 %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():baca.PiecewiseCommand._call(2)
         %@% ^ \markup {                                                        %! FIGURE_NAME
         %@%     \fontsize                                                      %! FIGURE_NAME
         %@%         #2                                                         %! FIGURE_NAME
@@ -741,7 +741,7 @@ J_Guitar_Music_Voice_I = {                                                     %
             gf!2
             :32                                                                %! baca.stem_tremolo():baca.IndicatorCommand._call()
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-            \p                                                                 %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(1)
+            \p                                                                 %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():baca.PiecewiseCommand._call(1)
         %@% ^ \markup {                                                        %! FIGURE_NAME
         %@%     \fontsize                                                      %! FIGURE_NAME
         %@%         #2                                                         %! FIGURE_NAME
@@ -766,7 +766,7 @@ J_Guitar_Music_Voice_I = {                                                     %
         %@%     }                                                              %! FIGURE_NAME
             \repeatTie                                                         %! baca.repeat_tie():baca.IndicatorCommand._call()
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-            \>                                                                 %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.hairpin():PiecewiseCommand(1)
+            \>                                                                 %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.hairpin():baca.PiecewiseCommand._call(1)
 
         }
 
@@ -781,7 +781,7 @@ J_Guitar_Music_Voice_I = {                                                     %
             gf!2
             :32                                                                %! baca.stem_tremolo():baca.IndicatorCommand._call()
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-            \ppp                                                               %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(2)
+            \ppp                                                               %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():baca.PiecewiseCommand._call(2)
         %@% ^ \markup {                                                        %! FIGURE_NAME
         %@%     \fontsize                                                      %! FIGURE_NAME
         %@%         #2                                                         %! FIGURE_NAME
@@ -855,7 +855,7 @@ J_Guitar_Music_Voice_I = {                                                     %
             gf!2
             :32                                                                %! baca.stem_tremolo():baca.IndicatorCommand._call()
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-            \ppp                                                               %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(1)
+            \ppp                                                               %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():baca.PiecewiseCommand._call(1)
             ^ \markup {                                                        %! baca.markup():baca.IndicatorCommand._call()
                 \override                                                      %! baca.markup():baca.IndicatorCommand._call()
                     #'(box-padding . 0.5)                                      %! baca.markup():baca.IndicatorCommand._call()
@@ -886,7 +886,7 @@ J_Guitar_Music_Voice_I = {                                                     %
         %@%     }                                                              %! FIGURE_NAME
             \repeatTie                                                         %! baca.repeat_tie():baca.IndicatorCommand._call()
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-            \<                                                                 %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.hairpin():PiecewiseCommand(1)
+            \<                                                                 %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.hairpin():baca.PiecewiseCommand._call(1)
 
         }
 
@@ -901,7 +901,7 @@ J_Guitar_Music_Voice_I = {                                                     %
             gf!2
             :32                                                                %! baca.stem_tremolo():baca.IndicatorCommand._call()
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-            \pp                                                                %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(2)
+            \pp                                                                %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():baca.PiecewiseCommand._call(2)
         %@% ^ \markup {                                                        %! FIGURE_NAME
         %@%     \fontsize                                                      %! FIGURE_NAME
         %@%         #2                                                         %! FIGURE_NAME
@@ -939,7 +939,7 @@ J_Guitar_Music_Voice_I = {                                                     %
             gf!2
             :32                                                                %! baca.stem_tremolo():baca.IndicatorCommand._call()
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-            \pp                                                                %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(1)
+            \pp                                                                %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():baca.PiecewiseCommand._call(1)
         %@% ^ \markup {                                                        %! FIGURE_NAME
         %@%     \fontsize                                                      %! FIGURE_NAME
         %@%         #2                                                         %! FIGURE_NAME
@@ -964,7 +964,7 @@ J_Guitar_Music_Voice_I = {                                                     %
         %@%     }                                                              %! FIGURE_NAME
             \repeatTie                                                         %! baca.repeat_tie():baca.IndicatorCommand._call()
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-            \<                                                                 %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.hairpin():PiecewiseCommand(1)
+            \<                                                                 %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.hairpin():baca.PiecewiseCommand._call(1)
 
         }
 
@@ -979,7 +979,7 @@ J_Guitar_Music_Voice_I = {                                                     %
             gf!2
             :32                                                                %! baca.stem_tremolo():baca.IndicatorCommand._call()
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-            \p                                                                 %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(2)
+            \p                                                                 %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():baca.PiecewiseCommand._call(2)
         %@% ^ \markup {                                                        %! FIGURE_NAME
         %@%     \fontsize                                                      %! FIGURE_NAME
         %@%         #2                                                         %! FIGURE_NAME
@@ -1017,7 +1017,7 @@ J_Guitar_Music_Voice_I = {                                                     %
             gf!2
             :32                                                                %! baca.stem_tremolo():baca.IndicatorCommand._call()
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-            \p                                                                 %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(1)
+            \p                                                                 %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():baca.PiecewiseCommand._call(1)
         %@% ^ \markup {                                                        %! FIGURE_NAME
         %@%     \fontsize                                                      %! FIGURE_NAME
         %@%         #2                                                         %! FIGURE_NAME
@@ -1042,7 +1042,7 @@ J_Guitar_Music_Voice_I = {                                                     %
         %@%     }                                                              %! FIGURE_NAME
             \repeatTie                                                         %! baca.repeat_tie():baca.IndicatorCommand._call()
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-            \<                                                                 %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.hairpin():PiecewiseCommand(1)
+            \<                                                                 %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.hairpin():baca.PiecewiseCommand._call(1)
 
         }
 
@@ -1057,7 +1057,7 @@ J_Guitar_Music_Voice_I = {                                                     %
             gf!2
             :32                                                                %! baca.stem_tremolo():baca.IndicatorCommand._call()
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-            \mp                                                                %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(2)
+            \mp                                                                %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():baca.PiecewiseCommand._call(2)
         %@% ^ \markup {                                                        %! FIGURE_NAME
         %@%     \fontsize                                                      %! FIGURE_NAME
         %@%         #2                                                         %! FIGURE_NAME
@@ -1095,7 +1095,7 @@ J_Guitar_Music_Voice_I = {                                                     %
             gf!2
             :32                                                                %! baca.stem_tremolo():baca.IndicatorCommand._call()
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-            \mp                                                                %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(1)
+            \mp                                                                %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():baca.PiecewiseCommand._call(1)
         %@% ^ \markup {                                                        %! FIGURE_NAME
         %@%     \fontsize                                                      %! FIGURE_NAME
         %@%         #2                                                         %! FIGURE_NAME
@@ -1120,7 +1120,7 @@ J_Guitar_Music_Voice_I = {                                                     %
         %@%     }                                                              %! FIGURE_NAME
             \repeatTie                                                         %! baca.repeat_tie():baca.IndicatorCommand._call()
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-            \>                                                                 %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.hairpin():PiecewiseCommand(1)
+            \>                                                                 %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():baca.hairpin():baca.PiecewiseCommand._call(1)
 
         }
 
@@ -1258,7 +1258,7 @@ J_Guitar_Music_Voice_I = {                                                     %
             gf!2
             :32                                                                %! baca.stem_tremolo():baca.IndicatorCommand._call()
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-            \pp                                                                %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():PiecewiseCommand(2)
+            \pp                                                                %! EXPLICIT_DYNAMIC:baca.SegmentMaker._set_status_tag():SPANNER_STOP:baca.hairpin():baca.PiecewiseCommand._call(2)
             ^ \markup {                                                        %! baca.markup():baca.IndicatorCommand._call()
                 \override                                                      %! baca.markup():baca.IndicatorCommand._call()
                     #'(box-padding . 0.5)                                      %! baca.markup():baca.IndicatorCommand._call()
@@ -1331,70 +1331,70 @@ J_Guitar_Music_Voice_I = {                                                     %
 J_Guitar_Music_Voice_II = {                                                    %! abjad.Path.extern()
 
     % [J Guitar_Music_Voice_II measure 185 / measure 1]                        %! baca.SegmentMaker._comment_measure_numbers()
-    s1 * 3/8                                                                   %! _call_rhythm_commands
+    s1 * 3/8                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 
     % [J Guitar_Music_Voice_II measure 186 / measure 2]                        %! baca.SegmentMaker._comment_measure_numbers()
-    s1 * 4/5                                                                   %! _call_rhythm_commands
+    s1 * 4/5                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 
     % [J Guitar_Music_Voice_II measure 187 / measure 3]                        %! baca.SegmentMaker._comment_measure_numbers()
-    s1 * 2/5                                                                   %! _call_rhythm_commands
+    s1 * 2/5                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 
     % [J Guitar_Music_Voice_II measure 188 / measure 4]                        %! baca.SegmentMaker._comment_measure_numbers()
-    s1 * 1/3                                                                   %! _call_rhythm_commands
+    s1 * 1/3                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 
     % [J Guitar_Music_Voice_II measure 189 / measure 5]                        %! baca.SegmentMaker._comment_measure_numbers()
-    s1 * 1/3                                                                   %! _call_rhythm_commands
+    s1 * 1/3                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 
     % [J Guitar_Music_Voice_II measure 190 / measure 6]                        %! baca.SegmentMaker._comment_measure_numbers()
-    s1 * 1/3                                                                   %! _call_rhythm_commands
+    s1 * 1/3                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 
     % [J Guitar_Music_Voice_II measure 191 / measure 7]                        %! baca.SegmentMaker._comment_measure_numbers()
-    s1 * 2/5                                                                   %! _call_rhythm_commands
+    s1 * 2/5                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 
     % [J Guitar_Music_Voice_II measure 192 / measure 8]                        %! baca.SegmentMaker._comment_measure_numbers()
-    s1 * 2/5                                                                   %! _call_rhythm_commands
+    s1 * 2/5                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 
     % [J Guitar_Music_Voice_II measure 193 / measure 9]                        %! baca.SegmentMaker._comment_measure_numbers()
-    s1 * 1/3                                                                   %! _call_rhythm_commands
+    s1 * 1/3                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 
     % [J Guitar_Music_Voice_II measure 194 / measure 10]                       %! baca.SegmentMaker._comment_measure_numbers()
-    s1 * 1/3                                                                   %! _call_rhythm_commands
+    s1 * 1/3                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 
     % [J Guitar_Music_Voice_II measure 195 / measure 11]                       %! baca.SegmentMaker._comment_measure_numbers()
-    s1 * 1/3                                                                   %! _call_rhythm_commands
+    s1 * 1/3                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 
     % [J Guitar_Music_Voice_II measure 196 / measure 12]                       %! baca.SegmentMaker._comment_measure_numbers()
-    s1 * 2/5                                                                   %! _call_rhythm_commands
+    s1 * 2/5                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 
     % [J Guitar_Music_Voice_II measure 197 / measure 13]                       %! baca.SegmentMaker._comment_measure_numbers()
-    s1 * 2/5                                                                   %! _call_rhythm_commands
+    s1 * 2/5                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 
     % [J Guitar_Music_Voice_II measure 198 / measure 14]                       %! baca.SegmentMaker._comment_measure_numbers()
-    s1 * 1/3                                                                   %! _call_rhythm_commands
+    s1 * 1/3                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 
     % [J Guitar_Music_Voice_II measure 199 / measure 15]                       %! baca.SegmentMaker._comment_measure_numbers()
-    s1 * 2/5                                                                   %! _call_rhythm_commands
+    s1 * 2/5                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 
     % [J Guitar_Music_Voice_II measure 200 / measure 16]                       %! baca.SegmentMaker._comment_measure_numbers()
-    s1 * 1/3                                                                   %! _call_rhythm_commands
+    s1 * 1/3                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 
     % [J Guitar_Music_Voice_II measure 201 / measure 17]                       %! baca.SegmentMaker._comment_measure_numbers()
-    s1 * 2/5                                                                   %! _call_rhythm_commands
+    s1 * 2/5                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 
     % [J Guitar_Music_Voice_II measure 202 / measure 18]                       %! baca.SegmentMaker._comment_measure_numbers()
-    s1 * 1/3                                                                   %! _call_rhythm_commands
+    s1 * 1/3                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 
     % [J Guitar_Music_Voice_II measure 203 / measure 19]                       %! baca.SegmentMaker._comment_measure_numbers()
-    s1 * 1/3                                                                   %! _call_rhythm_commands
+    s1 * 1/3                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 
     % [J Guitar_Music_Voice_II measure 204 / measure 20]                       %! baca.SegmentMaker._comment_measure_numbers()
-    s1 * 1/3                                                                   %! _call_rhythm_commands
+    s1 * 1/3                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 
     % [J Guitar_Music_Voice_II measure 205 / measure 21]                       %! baca.SegmentMaker._comment_measure_numbers()
-    s1 * 4/5                                                                   %! _call_rhythm_commands
+    s1 * 4/5                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 
     % [J Guitar_Music_Voice_II measure 206 / measure 22]                       %! baca.SegmentMaker._comment_measure_numbers()
-    s1 * 4/5                                                                   %! _call_rhythm_commands
+    s1 * 4/5                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 
     <<                                                                         %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -1424,70 +1424,70 @@ J_Guitar_Music_Voice_II = {                                                    %
 J_Guitar_Music_Voice_III = {                                                   %! abjad.Path.extern()
 
     % [J Guitar_Music_Voice_III measure 185 / measure 1]                       %! baca.SegmentMaker._comment_measure_numbers()
-    s1 * 3/8                                                                   %! _call_rhythm_commands
+    s1 * 3/8                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 
     % [J Guitar_Music_Voice_III measure 186 / measure 2]                       %! baca.SegmentMaker._comment_measure_numbers()
-    s1 * 4/5                                                                   %! _call_rhythm_commands
+    s1 * 4/5                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 
     % [J Guitar_Music_Voice_III measure 187 / measure 3]                       %! baca.SegmentMaker._comment_measure_numbers()
-    s1 * 2/5                                                                   %! _call_rhythm_commands
+    s1 * 2/5                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 
     % [J Guitar_Music_Voice_III measure 188 / measure 4]                       %! baca.SegmentMaker._comment_measure_numbers()
-    s1 * 1/3                                                                   %! _call_rhythm_commands
+    s1 * 1/3                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 
     % [J Guitar_Music_Voice_III measure 189 / measure 5]                       %! baca.SegmentMaker._comment_measure_numbers()
-    s1 * 1/3                                                                   %! _call_rhythm_commands
+    s1 * 1/3                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 
     % [J Guitar_Music_Voice_III measure 190 / measure 6]                       %! baca.SegmentMaker._comment_measure_numbers()
-    s1 * 1/3                                                                   %! _call_rhythm_commands
+    s1 * 1/3                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 
     % [J Guitar_Music_Voice_III measure 191 / measure 7]                       %! baca.SegmentMaker._comment_measure_numbers()
-    s1 * 2/5                                                                   %! _call_rhythm_commands
+    s1 * 2/5                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 
     % [J Guitar_Music_Voice_III measure 192 / measure 8]                       %! baca.SegmentMaker._comment_measure_numbers()
-    s1 * 2/5                                                                   %! _call_rhythm_commands
+    s1 * 2/5                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 
     % [J Guitar_Music_Voice_III measure 193 / measure 9]                       %! baca.SegmentMaker._comment_measure_numbers()
-    s1 * 1/3                                                                   %! _call_rhythm_commands
+    s1 * 1/3                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 
     % [J Guitar_Music_Voice_III measure 194 / measure 10]                      %! baca.SegmentMaker._comment_measure_numbers()
-    s1 * 1/3                                                                   %! _call_rhythm_commands
+    s1 * 1/3                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 
     % [J Guitar_Music_Voice_III measure 195 / measure 11]                      %! baca.SegmentMaker._comment_measure_numbers()
-    s1 * 1/3                                                                   %! _call_rhythm_commands
+    s1 * 1/3                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 
     % [J Guitar_Music_Voice_III measure 196 / measure 12]                      %! baca.SegmentMaker._comment_measure_numbers()
-    s1 * 2/5                                                                   %! _call_rhythm_commands
+    s1 * 2/5                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 
     % [J Guitar_Music_Voice_III measure 197 / measure 13]                      %! baca.SegmentMaker._comment_measure_numbers()
-    s1 * 2/5                                                                   %! _call_rhythm_commands
+    s1 * 2/5                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 
     % [J Guitar_Music_Voice_III measure 198 / measure 14]                      %! baca.SegmentMaker._comment_measure_numbers()
-    s1 * 1/3                                                                   %! _call_rhythm_commands
+    s1 * 1/3                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 
     % [J Guitar_Music_Voice_III measure 199 / measure 15]                      %! baca.SegmentMaker._comment_measure_numbers()
-    s1 * 2/5                                                                   %! _call_rhythm_commands
+    s1 * 2/5                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 
     % [J Guitar_Music_Voice_III measure 200 / measure 16]                      %! baca.SegmentMaker._comment_measure_numbers()
-    s1 * 1/3                                                                   %! _call_rhythm_commands
+    s1 * 1/3                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 
     % [J Guitar_Music_Voice_III measure 201 / measure 17]                      %! baca.SegmentMaker._comment_measure_numbers()
-    s1 * 2/5                                                                   %! _call_rhythm_commands
+    s1 * 2/5                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 
     % [J Guitar_Music_Voice_III measure 202 / measure 18]                      %! baca.SegmentMaker._comment_measure_numbers()
-    s1 * 1/3                                                                   %! _call_rhythm_commands
+    s1 * 1/3                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 
     % [J Guitar_Music_Voice_III measure 203 / measure 19]                      %! baca.SegmentMaker._comment_measure_numbers()
-    s1 * 1/3                                                                   %! _call_rhythm_commands
+    s1 * 1/3                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 
     % [J Guitar_Music_Voice_III measure 204 / measure 20]                      %! baca.SegmentMaker._comment_measure_numbers()
-    s1 * 1/3                                                                   %! _call_rhythm_commands
+    s1 * 1/3                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 
     % [J Guitar_Music_Voice_III measure 205 / measure 21]                      %! baca.SegmentMaker._comment_measure_numbers()
-    s1 * 4/5                                                                   %! _call_rhythm_commands
+    s1 * 4/5                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 
     % [J Guitar_Music_Voice_III measure 206 / measure 22]                      %! baca.SegmentMaker._comment_measure_numbers()
-    s1 * 4/5                                                                   %! _call_rhythm_commands
+    s1 * 4/5                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 
     <<                                                                         %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
 
@@ -1517,70 +1517,70 @@ J_Guitar_Music_Voice_III = {                                                   %
 J_Guitar_Music_Voice_IV = {                                                    %! abjad.Path.extern()
 
     % [J Guitar_Music_Voice_IV measure 185 / measure 1]                        %! baca.SegmentMaker._comment_measure_numbers()
-    s1 * 3/8                                                                   %! _call_rhythm_commands
+    s1 * 3/8                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 
     % [J Guitar_Music_Voice_IV measure 186 / measure 2]                        %! baca.SegmentMaker._comment_measure_numbers()
-    s1 * 4/5                                                                   %! _call_rhythm_commands
+    s1 * 4/5                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 
     % [J Guitar_Music_Voice_IV measure 187 / measure 3]                        %! baca.SegmentMaker._comment_measure_numbers()
-    s1 * 2/5                                                                   %! _call_rhythm_commands
+    s1 * 2/5                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 
     % [J Guitar_Music_Voice_IV measure 188 / measure 4]                        %! baca.SegmentMaker._comment_measure_numbers()
-    s1 * 1/3                                                                   %! _call_rhythm_commands
+    s1 * 1/3                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 
     % [J Guitar_Music_Voice_IV measure 189 / measure 5]                        %! baca.SegmentMaker._comment_measure_numbers()
-    s1 * 1/3                                                                   %! _call_rhythm_commands
+    s1 * 1/3                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 
     % [J Guitar_Music_Voice_IV measure 190 / measure 6]                        %! baca.SegmentMaker._comment_measure_numbers()
-    s1 * 1/3                                                                   %! _call_rhythm_commands
+    s1 * 1/3                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 
     % [J Guitar_Music_Voice_IV measure 191 / measure 7]                        %! baca.SegmentMaker._comment_measure_numbers()
-    s1 * 2/5                                                                   %! _call_rhythm_commands
+    s1 * 2/5                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 
     % [J Guitar_Music_Voice_IV measure 192 / measure 8]                        %! baca.SegmentMaker._comment_measure_numbers()
-    s1 * 2/5                                                                   %! _call_rhythm_commands
+    s1 * 2/5                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 
     % [J Guitar_Music_Voice_IV measure 193 / measure 9]                        %! baca.SegmentMaker._comment_measure_numbers()
-    s1 * 1/3                                                                   %! _call_rhythm_commands
+    s1 * 1/3                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 
     % [J Guitar_Music_Voice_IV measure 194 / measure 10]                       %! baca.SegmentMaker._comment_measure_numbers()
-    s1 * 1/3                                                                   %! _call_rhythm_commands
+    s1 * 1/3                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 
     % [J Guitar_Music_Voice_IV measure 195 / measure 11]                       %! baca.SegmentMaker._comment_measure_numbers()
-    s1 * 1/3                                                                   %! _call_rhythm_commands
+    s1 * 1/3                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 
     % [J Guitar_Music_Voice_IV measure 196 / measure 12]                       %! baca.SegmentMaker._comment_measure_numbers()
-    s1 * 2/5                                                                   %! _call_rhythm_commands
+    s1 * 2/5                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 
     % [J Guitar_Music_Voice_IV measure 197 / measure 13]                       %! baca.SegmentMaker._comment_measure_numbers()
-    s1 * 2/5                                                                   %! _call_rhythm_commands
+    s1 * 2/5                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 
     % [J Guitar_Music_Voice_IV measure 198 / measure 14]                       %! baca.SegmentMaker._comment_measure_numbers()
-    s1 * 1/3                                                                   %! _call_rhythm_commands
+    s1 * 1/3                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 
     % [J Guitar_Music_Voice_IV measure 199 / measure 15]                       %! baca.SegmentMaker._comment_measure_numbers()
-    s1 * 2/5                                                                   %! _call_rhythm_commands
+    s1 * 2/5                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 
     % [J Guitar_Music_Voice_IV measure 200 / measure 16]                       %! baca.SegmentMaker._comment_measure_numbers()
-    s1 * 1/3                                                                   %! _call_rhythm_commands
+    s1 * 1/3                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 
     % [J Guitar_Music_Voice_IV measure 201 / measure 17]                       %! baca.SegmentMaker._comment_measure_numbers()
-    s1 * 2/5                                                                   %! _call_rhythm_commands
+    s1 * 2/5                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 
     % [J Guitar_Music_Voice_IV measure 202 / measure 18]                       %! baca.SegmentMaker._comment_measure_numbers()
-    s1 * 1/3                                                                   %! _call_rhythm_commands
+    s1 * 1/3                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 
     % [J Guitar_Music_Voice_IV measure 203 / measure 19]                       %! baca.SegmentMaker._comment_measure_numbers()
-    s1 * 1/3                                                                   %! _call_rhythm_commands
+    s1 * 1/3                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 
     % [J Guitar_Music_Voice_IV measure 204 / measure 20]                       %! baca.SegmentMaker._comment_measure_numbers()
-    s1 * 1/3                                                                   %! _call_rhythm_commands
+    s1 * 1/3                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 
     % [J Guitar_Music_Voice_IV measure 205 / measure 21]                       %! baca.SegmentMaker._comment_measure_numbers()
-    s1 * 4/5                                                                   %! _call_rhythm_commands
+    s1 * 4/5                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 
     % [J Guitar_Music_Voice_IV measure 206 / measure 22]                       %! baca.SegmentMaker._comment_measure_numbers()
-    s1 * 4/5                                                                   %! _call_rhythm_commands
+    s1 * 4/5                                                                   %! baca.SegmentMaker._call_rhythm_commands()
 
     <<                                                                         %! PHANTOM:baca.SegmentMaker._make_multimeasure_rest_container()
 

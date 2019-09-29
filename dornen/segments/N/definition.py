@@ -383,3 +383,8 @@ maker(
         selector=baca.leaves().rleak()[-1],
     ),
 )
+
+maker(
+    ("Global_Skips", -1),
+    baca.bar_line("|.", baca.skip(-1)),
+)

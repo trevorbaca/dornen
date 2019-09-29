@@ -330,11 +330,6 @@ accumulator(
 
 maker = baca.SegmentMaker(
     check_all_are_pitched=True,
-    final_markup=(
-        ["Cambridge, MA", "Madison, WI", "Palo Alto, CA."],
-        ["November 2015", "July 2016."],
-    ),
-    final_markup_extra_offset=(260, 0),
     ignore_repeat_pitch_classes=False,
     final_segment=True,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
@@ -376,4 +371,15 @@ maker(
     baca.beam_positions(5.5),
     baca.register(-4),
     baca.staccato(baca.pheads(exclude=abjad.const.HIDDEN)),
+)
+
+maker(
+    ("v4", -1),
+    baca.chunk(
+        baca.mark(r"\dornen-colophon-markup"),
+        baca.rehearsal_mark_down(),
+        baca.rehearsal_mark_padding(12),
+        baca.rehearsal_mark_self_alignment_x(abjad.Right),
+        selector=baca.leaves().rleak()[-1],
+    ),
 )

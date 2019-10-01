@@ -451,7 +451,7 @@ G_Guitar_Music_Voice_I = {                                                     %
         %@%     }                                                              %! FIGURE_NAME
             ^ \baca-reapplied-indicator-markup "(“Guitar”)"                    %! REAPPLIED_INSTRUMENT_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
             [
-            (                                                                  %! baca.slur():SpannerIndicatorCommand(1)
+            (                                                                  %! baca.slur():baca.SpannerIndicatorCommand._call(1)
             \override GuitarMusicStaff.Clef.color = #(x11-color 'OliveDrab)    %! baca.SegmentMaker._attach_color_literal(2):REAPPLIED_CLEF_REDRAW_COLOR
 
             cs''!16
@@ -459,7 +459,7 @@ G_Guitar_Music_Voice_I = {                                                     %
             \set stemLeftBeamCount = 2
             \set stemRightBeamCount = 1
             g''16
-            )                                                                  %! baca.slur():SpannerIndicatorCommand(2):SPANNER_STOP
+            )                                                                  %! baca.slur():baca.SpannerIndicatorCommand._call(2):SPANNER_STOP
 
         }
 
@@ -499,14 +499,14 @@ G_Guitar_Music_Voice_I = {                                                     %
         %@%                 ]                                                  %! FIGURE_NAME
         %@%             }                                                      %! FIGURE_NAME
         %@%     }                                                              %! FIGURE_NAME
-            (                                                                  %! baca.slur():SpannerIndicatorCommand(1)
+            (                                                                  %! baca.slur():baca.SpannerIndicatorCommand._call(1)
 
             e'16
 
             \set stemLeftBeamCount = 2
             \set stemRightBeamCount = 1
             bf'!16
-            )                                                                  %! baca.slur():SpannerIndicatorCommand(2):SPANNER_STOP
+            )                                                                  %! baca.slur():baca.SpannerIndicatorCommand._call(2):SPANNER_STOP
 
         }
 
@@ -546,12 +546,12 @@ G_Guitar_Music_Voice_I = {                                                     %
         %@%                 ]                                                  %! FIGURE_NAME
         %@%             }                                                      %! FIGURE_NAME
         %@%     }                                                              %! FIGURE_NAME
-            (                                                                  %! baca.slur():SpannerIndicatorCommand(1)
+            (                                                                  %! baca.slur():baca.SpannerIndicatorCommand._call(1)
 
             b'16
 
             fs''!16
-            )                                                                  %! baca.slur():SpannerIndicatorCommand(2):SPANNER_STOP
+            )                                                                  %! baca.slur():baca.SpannerIndicatorCommand._call(2):SPANNER_STOP
             ]
 
         }
@@ -592,7 +592,7 @@ G_Guitar_Music_Voice_I = {                                                     %
         %@%             }                                                      %! FIGURE_NAME
         %@%     }                                                              %! FIGURE_NAME
             [
-            (                                                                  %! baca.slur():SpannerIndicatorCommand(1)
+            (                                                                  %! baca.slur():baca.SpannerIndicatorCommand._call(1)
 
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 3
@@ -605,7 +605,7 @@ G_Guitar_Music_Voice_I = {                                                     %
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 1
             bf'!32
-            )                                                                  %! baca.slur():SpannerIndicatorCommand(2):SPANNER_STOP
+            )                                                                  %! baca.slur():baca.SpannerIndicatorCommand._call(2):SPANNER_STOP
 
         }
 
@@ -644,7 +644,7 @@ G_Guitar_Music_Voice_I = {                                                     %
         %@%                 ]                                                  %! FIGURE_NAME
         %@%             }                                                      %! FIGURE_NAME
         %@%     }                                                              %! FIGURE_NAME
-            (                                                                  %! baca.slur():SpannerIndicatorCommand(1)
+            (                                                                  %! baca.slur():baca.SpannerIndicatorCommand._call(1)
 
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 3
@@ -657,7 +657,7 @@ G_Guitar_Music_Voice_I = {                                                     %
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 1
             b'32
-            )                                                                  %! baca.slur():SpannerIndicatorCommand(2):SPANNER_STOP
+            )                                                                  %! baca.slur():baca.SpannerIndicatorCommand._call(2):SPANNER_STOP
 
         }
 
@@ -696,7 +696,7 @@ G_Guitar_Music_Voice_I = {                                                     %
         %@%                 ]                                                  %! FIGURE_NAME
         %@%             }                                                      %! FIGURE_NAME
         %@%     }                                                              %! FIGURE_NAME
-            (                                                                  %! baca.slur():SpannerIndicatorCommand(1)
+            (                                                                  %! baca.slur():baca.SpannerIndicatorCommand._call(1)
 
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 3
@@ -709,7 +709,7 @@ G_Guitar_Music_Voice_I = {                                                     %
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 1
             g''32
-            )                                                                  %! baca.slur():SpannerIndicatorCommand(2):SPANNER_STOP
+            )                                                                  %! baca.slur():baca.SpannerIndicatorCommand._call(2):SPANNER_STOP
 
         }
 
@@ -748,7 +748,7 @@ G_Guitar_Music_Voice_I = {                                                     %
         %@%                 ]                                                  %! FIGURE_NAME
         %@%             }                                                      %! FIGURE_NAME
         %@%     }                                                              %! FIGURE_NAME
-            (                                                                  %! baca.slur():SpannerIndicatorCommand(1)
+            (                                                                  %! baca.slur():baca.SpannerIndicatorCommand._call(1)
 
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 3
@@ -761,7 +761,7 @@ G_Guitar_Music_Voice_I = {                                                     %
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 0
             e''32
-            )                                                                  %! baca.slur():SpannerIndicatorCommand(2):SPANNER_STOP
+            )                                                                  %! baca.slur():baca.SpannerIndicatorCommand._call(2):SPANNER_STOP
             ]
             \revert Beam.positions                                             %! baca.beam_positions():baca.OverrideCommand._call(2)
 

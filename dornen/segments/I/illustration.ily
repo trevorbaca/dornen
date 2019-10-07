@@ -594,12 +594,12 @@ I_Guitar_Music_Voice_I = {                                                     %
         %@%                 ]                                                  %! FIGURE_NAME
         %@%             }                                                      %! FIGURE_NAME
         %@%     }                                                              %! FIGURE_NAME
-            \glissando                                                         %! baca.glissando()
+            \glissando                                                         %! baca.glissando():abjad.glissando(7)
 
             \set stemLeftBeamCount = 2
             \set stemRightBeamCount = 2
             g'16
-            \glissando                                                         %! baca.glissando()
+            \glissando                                                         %! baca.glissando():abjad.glissando(7)
 
             \set stemLeftBeamCount = 2
             \set stemRightBeamCount = 0

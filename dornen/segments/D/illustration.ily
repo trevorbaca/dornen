@@ -1372,17 +1372,17 @@ D_Guitar_Music_Voice_II = {                                                    %
         %@%             }                                                      %! FIGURE_NAME
         %@%     }                                                              %! FIGURE_NAME
             [
-            \glissando                                                         %! baca.glissando()
+            \glissando                                                         %! baca.glissando():abjad.glissando(7)
 
             \set stemLeftBeamCount = 2
             \set stemRightBeamCount = 2
             af''!16
-            \glissando                                                         %! baca.glissando()
+            \glissando                                                         %! baca.glissando():abjad.glissando(7)
 
             \set stemLeftBeamCount = 2
             \set stemRightBeamCount = 2
             d''16
-            \glissando                                                         %! baca.glissando()
+            \glissando                                                         %! baca.glissando():abjad.glissando(7)
 
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 1
@@ -1421,12 +1421,12 @@ D_Guitar_Music_Voice_II = {                                                    %
         %@%                 ]                                                  %! FIGURE_NAME
         %@%             }                                                      %! FIGURE_NAME
         %@%     }                                                              %! FIGURE_NAME
-            \glissando                                                         %! baca.glissando()
+            \glissando                                                         %! baca.glissando():abjad.glissando(7)
 
             \set stemLeftBeamCount = 2
             \set stemRightBeamCount = 2
             fs''!16
-            \glissando                                                         %! baca.glissando()
+            \glissando                                                         %! baca.glissando():abjad.glissando(7)
 
             \set stemLeftBeamCount = 2
             \set stemRightBeamCount = 1
@@ -1464,7 +1464,7 @@ D_Guitar_Music_Voice_II = {                                                    %
         %@%                 ]                                                  %! FIGURE_NAME
         %@%             }                                                      %! FIGURE_NAME
         %@%     }                                                              %! FIGURE_NAME
-            \glissando                                                         %! baca.glissando()
+            \glissando                                                         %! baca.glissando():abjad.glissando(7)
 
             \set stemLeftBeamCount = 2
             \set stemRightBeamCount = 0

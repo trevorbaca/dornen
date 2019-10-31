@@ -2232,13 +2232,15 @@ D_Guitar_Music_Voice_IV = {                                                    %
         %@%                 ]                                                  %! FIGURE_NAME
         %@%             }                                                      %! FIGURE_NAME
         %@%     }                                                              %! FIGURE_NAME
+            - \tweak stencil ##f                                               %! baca.SegmentMaker._attach_shadow_tie_indicators()
+            ~                                                                  %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
         }
 
         \tweak edge-height #'(0.7 . 0)
         \times 4/5 {
 
-            gf!2
+            gf2
             :32                                                                %! baca.stem_tremolo():baca.IndicatorCommand._call()
             \repeatTie                                                         %! baca.repeat_tie():baca.IndicatorCommand._call()
             \revert Stem.direction                                             %! baca.stem_up():baca.OverrideCommand._call(2)
@@ -2318,13 +2320,15 @@ D_Guitar_Music_Voice_IV = {                                                    %
         %@%                 ]                                                  %! FIGURE_NAME
         %@%             }                                                      %! FIGURE_NAME
         %@%     }                                                              %! FIGURE_NAME
+            - \tweak stencil ##f                                               %! baca.SegmentMaker._attach_shadow_tie_indicators()
+            ~                                                                  %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
         }
 
         \tweak edge-height #'(0.7 . 0)
         \times 4/5 {
 
-            gf!2
+            gf2
             :32                                                                %! baca.stem_tremolo():baca.IndicatorCommand._call()
             \repeatTie                                                         %! baca.repeat_tie():baca.IndicatorCommand._call()
             \revert Stem.direction                                             %! baca.stem_up():baca.OverrideCommand._call(2)

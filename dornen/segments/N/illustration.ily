@@ -1075,50 +1075,74 @@ N_Guitar_Music_Voice_I = {                                                     %
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \p                                                                 %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
             ^ \markup { "RASCADO: slowly draw extremely long metal screw over open string; as close as possible to bridge; only one stroke." } %! baca.markup():baca.IndicatorCommand._call()
+            - \tweak stencil ##f                                               %! baca.SegmentMaker._attach_shadow_tie_indicators()
+            ~                                                                  %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
             e2
             :32                                                                %! baca.stem_tremolo():baca.IndicatorCommand._call()
             \repeatTie                                                         %! baca.repeat_tie():baca.IndicatorCommand._call()
+            - \tweak stencil ##f                                               %! baca.SegmentMaker._attach_shadow_tie_indicators()
+            ~                                                                  %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
             e2
             :32                                                                %! baca.stem_tremolo():baca.IndicatorCommand._call()
             \repeatTie                                                         %! baca.repeat_tie():baca.IndicatorCommand._call()
+            - \tweak stencil ##f                                               %! baca.SegmentMaker._attach_shadow_tie_indicators()
+            ~                                                                  %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
             e2
             :32                                                                %! baca.stem_tremolo():baca.IndicatorCommand._call()
             \repeatTie                                                         %! baca.repeat_tie():baca.IndicatorCommand._call()
+            - \tweak stencil ##f                                               %! baca.SegmentMaker._attach_shadow_tie_indicators()
+            ~                                                                  %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
             e2
             :32                                                                %! baca.stem_tremolo():baca.IndicatorCommand._call()
             \repeatTie                                                         %! baca.repeat_tie():baca.IndicatorCommand._call()
+            - \tweak stencil ##f                                               %! baca.SegmentMaker._attach_shadow_tie_indicators()
+            ~                                                                  %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
             e2
             :32                                                                %! baca.stem_tremolo():baca.IndicatorCommand._call()
             \repeatTie                                                         %! baca.repeat_tie():baca.IndicatorCommand._call()
+            - \tweak stencil ##f                                               %! baca.SegmentMaker._attach_shadow_tie_indicators()
+            ~                                                                  %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
             e2
             :32                                                                %! baca.stem_tremolo():baca.IndicatorCommand._call()
             \repeatTie                                                         %! baca.repeat_tie():baca.IndicatorCommand._call()
+            - \tweak stencil ##f                                               %! baca.SegmentMaker._attach_shadow_tie_indicators()
+            ~                                                                  %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
             e2
             :32                                                                %! baca.stem_tremolo():baca.IndicatorCommand._call()
             \repeatTie                                                         %! baca.repeat_tie():baca.IndicatorCommand._call()
+            - \tweak stencil ##f                                               %! baca.SegmentMaker._attach_shadow_tie_indicators()
+            ~                                                                  %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
             e2
             :32                                                                %! baca.stem_tremolo():baca.IndicatorCommand._call()
             \repeatTie                                                         %! baca.repeat_tie():baca.IndicatorCommand._call()
+            - \tweak stencil ##f                                               %! baca.SegmentMaker._attach_shadow_tie_indicators()
+            ~                                                                  %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
             e2
             :32                                                                %! baca.stem_tremolo():baca.IndicatorCommand._call()
             \repeatTie                                                         %! baca.repeat_tie():baca.IndicatorCommand._call()
+            - \tweak stencil ##f                                               %! baca.SegmentMaker._attach_shadow_tie_indicators()
+            ~                                                                  %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
             e2
             :32                                                                %! baca.stem_tremolo():baca.IndicatorCommand._call()
             \repeatTie                                                         %! baca.repeat_tie():baca.IndicatorCommand._call()
+            - \tweak stencil ##f                                               %! baca.SegmentMaker._attach_shadow_tie_indicators()
+            ~                                                                  %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
             e2
             :32                                                                %! baca.stem_tremolo():baca.IndicatorCommand._call()
             \repeatTie                                                         %! baca.repeat_tie():baca.IndicatorCommand._call()
+            - \tweak stencil ##f                                               %! baca.SegmentMaker._attach_shadow_tie_indicators()
+            ~                                                                  %! baca.SegmentMaker._attach_shadow_tie_indicators()
 
             e2
             :32                                                                %! baca.stem_tremolo():baca.IndicatorCommand._call()

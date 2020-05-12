@@ -19,7 +19,6 @@ from dornen.materials.magenta_pitch_classes.definition import (
     magenta_pitch_classes,
 )
 from dornen.materials.metronome_marks.definition import metronome_marks
-from dornen import segments
 
 """
 [intro]: 40"

@@ -8,6 +8,7 @@ if not (
     raise ImportError("Requires Python 3.7.")
 del distutils
 del platform
+from .ScoreTemplate import ScoreTemplate
 from dornen.tools import *
 from dornen.materials.blue_pitch_classes.definition import blue_pitch_classes
 from dornen.materials.bright_green_pitch_classes.definition import (

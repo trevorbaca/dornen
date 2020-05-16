@@ -1,6 +1,5 @@
 import baca
 
-
 magenta_pitch_classes = baca.sequence(
     [[4, 6, 2, 3], [5, 9, 8, 0], [11, 10, 7]]
 )

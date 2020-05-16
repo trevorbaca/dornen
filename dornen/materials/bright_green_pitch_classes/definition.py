@@ -1,6 +1,5 @@
 import baca
 
-
 bright_green_pitch_classes = baca.sequence(
     [[6, 4, 5, 5.5, 6.5, 9], [10, 7, 8, 11.5], [2.5, 3.5, 11, 2, 3, 10.5]]
 )

@@ -1,9 +1,10 @@
+import typing
+
 import abjad
 import baca
-import typing
 from abjadext import rmakers
-from .materials import instruments as dornen_instruments
 
+from .materials import instruments as dornen_instruments
 
 ### FUNCTIONS ###
 

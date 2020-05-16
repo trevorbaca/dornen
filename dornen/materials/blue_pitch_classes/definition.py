@@ -1,6 +1,5 @@
 import baca
 
-
 blue_pitch_classes = baca.sequence([[1, 0, 10], [5, 8, 6, 11, 2], [4, 3, 9]])
 blue_pitch_classes = blue_pitch_classes.helianthate(-1, -1)
 assert len(blue_pitch_classes) == 45

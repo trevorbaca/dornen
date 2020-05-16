@@ -1,6 +1,5 @@
 import baca
 
-
 # NOTE: LilyPond coredumps when line-breaking this page to three systems.
 #       Unclear why this happens;
 #       Does not appear immediately related to acciaccature.

@@ -348,7 +348,7 @@ accumulator(
     baca.sequence(design[19:21]).join(),
     *dornen.ovoids(),
     baca.register(-14, -6),
-    #baca.extend_beam(),
+    # baca.extend_beam(),
     figure_name="O9",
 )
 

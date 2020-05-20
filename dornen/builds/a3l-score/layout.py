@@ -8,7 +8,7 @@ breaks = baca.breaks(
         [36, 180, (17,)],
         [52, 220, (17,)],
         number=1,
-        ),
+    ),
     baca.page(
         [62, 20, (17,)],
         [73, 60, (17,)],
@@ -17,7 +17,7 @@ breaks = baca.breaks(
         [122, 180, (17,)],
         [130, 220, (17,)],
         number=2,
-        ),
+    ),
     baca.page(
         [132, 20, (17,)],
         [133, 60, (17,)],
@@ -26,7 +26,7 @@ breaks = baca.breaks(
         [185, 180, (17,)],
         [208, 220, (17,)],
         number=3,
-        ),
+    ),
     baca.page(
         [232, 20, (17,)],
         [259, 60, (17,)],
@@ -35,11 +35,11 @@ breaks = baca.breaks(
         [309, 180, (17,)],
         [344, 220, (17,)],
         number=4,
-        ),
-    )
+    ),
+)
 
 spacing = baca.scorewide_spacing(
     __file__,
     breaks=breaks,
     fallback_duration=(1, 28),
-    )
+)

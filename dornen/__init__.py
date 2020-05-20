@@ -1,17 +1,71 @@
 import distutils.version
 import platform
 
-from dornen.materials.blue_pitch_classes.definition import blue_pitch_classes
-from dornen.materials.bright_green_pitch_classes.definition import (
-    bright_green_pitch_classes,
-)
-from dornen.materials.green_pitch_classes.definition import green_pitch_classes
-from dornen.materials.instruments.definition import instruments
-from dornen.materials.magenta_pitch_classes.definition import magenta_pitch_classes
-from dornen.materials.metronome_marks.definition import metronome_marks
-from dornen.tools import *
-
 from .ScoreTemplate import ScoreTemplate
+from .materials import (
+    blue_pitch_classes,
+    bright_green_pitch_classes,
+    green_pitch_classes,
+    instruments,
+    magenta_pitch_classes,
+    metronome_marks,
+)
+from .tools import (
+    DesignChecker,
+    anchors,
+    delicatissimo,
+    design_1,
+    design_2,
+    design_3,
+    forty_eighths,
+    glissando_scatto,
+    graced_tuplets,
+    monads,
+    ovoids,
+    passepied,
+    rests,
+    running,
+    sixteenths,
+    sixty_fourths,
+    thirds,
+    thirty_seconds,
+    twentieths,
+    twenty_eighths,
+    twenty_fourths,
+    waves,
+)
+
+__all__ = [
+    "ScoreTemplate",
+    "blue_pitch_classes",
+    "bright_green_pitch_classes",
+    "green_pitch_classes",
+    "instruments",
+    "magenta_pitch_classes",
+    "metronome_marks",
+    "anchors",
+    "delicatissimo",
+    "forty_eighths",
+    "glissando_scatto",
+    "graced_tuplets",
+    "monads",
+    "ovoids",
+    "passepied",
+    "rests",
+    "running",
+    "sixteenths",
+    "sixty_fourths",
+    "thirds",
+    "thirty_seconds",
+    "twentieths",
+    "twenty_eighths",
+    "twenty_fourths",
+    "waves",
+    "design_1",
+    "design_2",
+    "design_3",
+    "DesignChecker",
+]
 
 if not (
     distutils.version.LooseVersion("3.7")

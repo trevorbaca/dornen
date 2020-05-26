@@ -2,17 +2,11 @@ import distutils.version
 import platform
 
 from .ScoreTemplate import ScoreTemplate
-from .materials import (
-    blue_pitch_classes,
-    bright_green_pitch_classes,
-    green_pitch_classes,
-    instruments,
-    magenta_pitch_classes,
-    metronome_marks,
-)
 from .tools import (
     DesignChecker,
     anchors,
+    blue_pitch_classes,
+    bright_green_pitch_classes,
     delicatissimo,
     design_1,
     design_2,
@@ -20,6 +14,10 @@ from .tools import (
     forty_eighths,
     glissando_scatto,
     graced_tuplets,
+    green_pitch_classes,
+    instruments,
+    magenta_pitch_classes,
+    metronome_marks,
     monads,
     ovoids,
     passepied,

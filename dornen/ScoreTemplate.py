@@ -1,6 +1,6 @@
 import abjad
 import baca
-from dornen.materials import instruments as dornen_instruments
+import dornen
 
 
 class ScoreTemplate(baca.ScoreTemplate):
@@ -11,51 +11,8 @@ class ScoreTemplate(baca.ScoreTemplate):
 
     ..  container:: example
 
-        >>> template = dornen.ScoreTemplate()
-        >>> path = abjad.Path('dornen', 'stylesheets', 'contexts.ily')
-        >>> lilypond_file = template.__illustrate__(
-        ...     global_staff_size=16,
-        ...     includes=[path],
-        ...     )
-        >>> abjad.show(lilypond_file, strict=79) # doctest: +SKIP
-
-        >>> abjad.f(lilypond_file[abjad.Score], strict=79)
-        \context Score = "Score"                                                       %! dornen.ScoreTemplate.__call__()
-        <<                                                                             %! dornen.ScoreTemplate.__call__()
-            \context GlobalContext = "Global_Context"                                  %! abjad.ScoreTemplate._make_global_context()
-            <<                                                                         %! abjad.ScoreTemplate._make_global_context()
-                \context GlobalRests = "Global_Rests"                                  %! abjad.ScoreTemplate._make_global_context()
-                {                                                                      %! abjad.ScoreTemplate._make_global_context()
-                }                                                                      %! abjad.ScoreTemplate._make_global_context()
-                \context GlobalSkips = "Global_Skips"                                  %! abjad.ScoreTemplate._make_global_context()
-                {                                                                      %! abjad.ScoreTemplate._make_global_context()
-                }                                                                      %! abjad.ScoreTemplate._make_global_context()
-            >>                                                                         %! abjad.ScoreTemplate._make_global_context()
-            \context MusicContext = "Music_Context"                                    %! dornen.ScoreTemplate.__call__()
-            {                                                                          %! dornen.ScoreTemplate.__call__()
-                \context GuitarMusicStaff = "Guitar_Music_Staff"                       %! dornen.ScoreTemplate.__call__()
-                <<                                                                     %! dornen.ScoreTemplate.__call__()
-                    \context GuitarMusicVoiceI = "Guitar_Music_Voice_I"                %! dornen.ScoreTemplate.__call__()
-                    {                                                                  %! dornen.ScoreTemplate.__call__()
-                        \clef "treble"                                                 %! abjad.ScoreTemplate.attach_defaults(3)
-                        s1                                                             %! abjad.ScoreTemplate.__illustrate__()
-                    }                                                                  %! dornen.ScoreTemplate.__call__()
-                    \context GuitarMusicVoiceII = "Guitar_Music_Voice_II"              %! dornen.ScoreTemplate.__call__()
-                    {                                                                  %! dornen.ScoreTemplate.__call__()
-                        s1                                                             %! abjad.ScoreTemplate.__illustrate__()
-                    }                                                                  %! dornen.ScoreTemplate.__call__()
-                    \context GuitarMusicVoiceIII = "Guitar_Music_Voice_III"            %! dornen.ScoreTemplate.__call__()
-                    {                                                                  %! dornen.ScoreTemplate.__call__()
-                        s1                                                             %! abjad.ScoreTemplate.__illustrate__()
-                    }                                                                  %! dornen.ScoreTemplate.__call__()
-                    \context GuitarMusicVoiceIV = "Guitar_Music_Voice_IV"              %! dornen.ScoreTemplate.__call__()
-                    {                                                                  %! dornen.ScoreTemplate.__call__()
-                        s1                                                             %! abjad.ScoreTemplate.__illustrate__()
-                    }                                                                  %! dornen.ScoreTemplate.__call__()
-                >>                                                                     %! dornen.ScoreTemplate.__call__()
-            }                                                                          %! dornen.ScoreTemplate.__call__()
-        >>                                                                             %! dornen.ScoreTemplate.__call__()
-
+        >>> dornen.ScoreTemplate()
+        ScoreTemplate()
 
     """
 
@@ -130,7 +87,7 @@ class ScoreTemplate(baca.ScoreTemplate):
         abjad.annotate(
             guitar_music_staff,
             "default_instrument",
-            dornen_instruments["Guitar"],
+            dornen.instruments["Guitar"],
         )
         abjad.annotate(
             guitar_music_staff, "default_clef", abjad.Clef("treble")
@@ -150,39 +107,3 @@ class ScoreTemplate(baca.ScoreTemplate):
         self._assert_unique_context_names(score)
         self._assert_matching_custom_context_names(score)
         return score
-
-    ### PUBLIC PROPERTIES ###
-
-    @property
-    def do_not_require_margin_markup(self):
-        """
-        Does not require margin markup.
-
-        ..  container:: example
-
-            >>> dornen.ScoreTemplate().do_not_require_margin_markup
-            True
-
-        """
-        return super(ScoreTemplate, self).do_not_require_margin_markup
-
-    @property
-    def voice_abbreviations(self):
-        """
-        Gets voice abbreviations.
-
-        ..  container:: example
-
-            >>> score_template = dornen.ScoreTemplate()
-            >>> abjad.f(score_template.voice_abbreviations)
-            abjad.OrderedDict(
-                [
-                    ('v1', 'Guitar_Music_Voice_I'),
-                    ('v2', 'Guitar_Music_Voice_II'),
-                    ('v3', 'Guitar_Music_Voice_III'),
-                    ('v4', 'Guitar_Music_Voice_IV'),
-                    ]
-                )
-
-        """
-        return super(ScoreTemplate, self).voice_abbreviations

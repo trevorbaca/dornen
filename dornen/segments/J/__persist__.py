@@ -1,4 +1,5 @@
 import abjad
+import ide
 
 
 persist = abjad.OrderedDict(
@@ -29,12 +30,12 @@ persist = abjad.OrderedDict(
                     (
                         'Guitar_Music_Staff',
                         [
-                            abjad.Momento(
+                            ide.Momento(
                                 context='Guitar_Music_Voice_I',
                                 manifest='instruments',
                                 value='Guitar',
                                 ),
-                            abjad.Momento(
+                            ide.Momento(
                                 context='Guitar_Music_Voice_I',
                                 prototype='abjad.Clef',
                                 value='treble',
@@ -44,7 +45,7 @@ persist = abjad.OrderedDict(
                     (
                         'Guitar_Music_Voice_I',
                         [
-                            abjad.Momento(
+                            ide.Momento(
                                 context='Guitar_Music_Voice_I',
                                 prototype='abjad.Dynamic',
                                 value='pp',
@@ -54,12 +55,12 @@ persist = abjad.OrderedDict(
                     (
                         'Score',
                         [
-                            abjad.Momento(
+                            ide.Momento(
                                 context='Global_Skips',
                                 manifest='metronome_marks',
                                 value='66',
                                 ),
-                            abjad.Momento(
+                            ide.Momento(
                                 context='Global_Skips',
                                 prototype='abjad.TimeSignature',
                                 value='4/5',

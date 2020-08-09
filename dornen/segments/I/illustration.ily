@@ -1,4 +1,4 @@
-I_Global_Skips = {                                                             %! abjad.Path.extern()
+I_Global_Skips = {                                                             %! ide.Path.extern()
 
     % [I Global_Skips measure 167 / measure 1]                                 %! baca.SegmentMaker._comment_measure_numbers()
     \time 6/32                                                                 %! baca.SegmentMaker._make_global_skips(2):baca.SegmentMaker._set_status_tag():EXPLICIT_TIME_SIGNATURE
@@ -261,10 +261,10 @@ I_Global_Skips = {                                                             %
     \once \override Score.BarLine.transparent = ##t                            %! baca.SegmentMaker._style_phantom_measures(3):PHANTOM
     \once \override Score.SpanBar.transparent = ##t                            %! baca.SegmentMaker._style_phantom_measures(3):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-I_Global_Rests = {                                                             %! abjad.Path.extern()
+I_Global_Rests = {                                                             %! ide.Path.extern()
 
     % [I Global_Rests measure 167 / measure 1]                                 %! baca.SegmentMaker._comment_measure_numbers()
     R1 * 3/16                                                                  %! baca.SegmentMaker._make_global_rests(1)
@@ -323,10 +323,10 @@ I_Global_Rests = {                                                             %
     % [I Global_Rests measure 185 / measure 19]                                %! baca.SegmentMaker._comment_measure_numbers():baca.SegmentMaker._style_phantom_measures(4):PHANTOM
     R1 * 1/4                                                                   %! baca.SegmentMaker._make_global_rests(2):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-I_Guitar_Music_Voice_I = {                                                     %! abjad.Path.extern()
+I_Guitar_Music_Voice_I = {                                                     %! ide.Path.extern()
 
     {
 
@@ -933,10 +933,10 @@ I_Guitar_Music_Voice_I = {                                                     %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-I_Guitar_Music_Voice_II = {                                                    %! abjad.Path.extern()
+I_Guitar_Music_Voice_II = {                                                    %! ide.Path.extern()
 
     % [I Guitar_Music_Voice_II measure 167 / measure 1]                        %! baca.SegmentMaker._comment_measure_numbers()
     s1 * 83/32
@@ -1283,10 +1283,10 @@ I_Guitar_Music_Voice_II = {                                                    %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-I_Guitar_Music_Voice_III = {                                                   %! abjad.Path.extern()
+I_Guitar_Music_Voice_III = {                                                   %! ide.Path.extern()
 
     % [I Guitar_Music_Voice_III measure 167 / measure 1]                       %! baca.SegmentMaker._comment_measure_numbers()
     \override Beam.positions = #'(-4 . -4)                                     %! baca.beam_positions():baca.OverrideCommand._call(1)
@@ -1739,10 +1739,10 @@ I_Guitar_Music_Voice_III = {                                                   %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-I_Guitar_Music_Voice_IV = {                                                    %! abjad.Path.extern()
+I_Guitar_Music_Voice_IV = {                                                    %! ide.Path.extern()
 
     % [I Guitar_Music_Voice_IV measure 167 / measure 1]                        %! baca.SegmentMaker._comment_measure_numbers()
     s1 * 6/32                                                                  %! baca.SegmentMaker._call_rhythm_commands()
@@ -1821,24 +1821,24 @@ I_Guitar_Music_Voice_IV = {                                                    %
 
     >>                                                                         %! baca.SegmentMaker._make_multimeasure_rest_container(7):PHANTOM
 
-}                                                                              %! abjad.Path.extern()
+}                                                                              %! ide.Path.extern()
 
 
-I_Guitar_Music_Staff = <<                                                      %! abjad.Path.extern()
+I_Guitar_Music_Staff = <<                                                      %! ide.Path.extern()
 
     \context GlobalRests = "Global_Rests"                                      %! abjad.ScoreTemplate._make_global_context()
-    \I_Global_Rests                                                            %! abjad.Path.extern()
+    \I_Global_Rests                                                            %! ide.Path.extern()
 
     \context GuitarMusicVoiceI = "Guitar_Music_Voice_I"                        %! dornen.ScoreTemplate.__call__()
-    \I_Guitar_Music_Voice_I                                                    %! abjad.Path.extern()
+    \I_Guitar_Music_Voice_I                                                    %! ide.Path.extern()
 
     \context GuitarMusicVoiceII = "Guitar_Music_Voice_II"                      %! dornen.ScoreTemplate.__call__()
-    \I_Guitar_Music_Voice_II                                                   %! abjad.Path.extern()
+    \I_Guitar_Music_Voice_II                                                   %! ide.Path.extern()
 
     \context GuitarMusicVoiceIII = "Guitar_Music_Voice_III"                    %! dornen.ScoreTemplate.__call__()
-    \I_Guitar_Music_Voice_III                                                  %! abjad.Path.extern()
+    \I_Guitar_Music_Voice_III                                                  %! ide.Path.extern()
 
     \context GuitarMusicVoiceIV = "Guitar_Music_Voice_IV"                      %! dornen.ScoreTemplate.__call__()
-    \I_Guitar_Music_Voice_IV                                                   %! abjad.Path.extern()
+    \I_Guitar_Music_Voice_IV                                                   %! ide.Path.extern()
 
->>                                                                             %! abjad.Path.extern()
+>>                                                                             %! ide.Path.extern()

@@ -186,7 +186,7 @@ maker(
 
 maker(
     ("v1", (9, 18)),
-    baca.beam_positions(8, baca.leaves(exclude=abjad.const.HIDDEN)),
+    baca.beam_positions(8, baca.leaves(exclude=baca.const.HIDDEN)),
 )
 
 maker(

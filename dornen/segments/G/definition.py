@@ -12,12 +12,12 @@ assert len(design) == 22, len(design)
 
 lower_register = baca.register(
     -18,
-    selector=baca.plts(exclude=abjad.const.HIDDEN),
+    selector=baca.plts(exclude=baca.const.HIDDEN),
 )
 middle_register = baca.register(
     -12,
     0,
-    selector=baca.plts(exclude=abjad.const.HIDDEN),
+    selector=baca.plts(exclude=baca.const.HIDDEN),
 )
 
 accumulator(
@@ -233,7 +233,7 @@ maker(
 
 maker(
     ("v2", (1, 10)),
-    baca.beam_positions(-7, baca.leaves(exclude=abjad.const.HIDDEN)),
+    baca.beam_positions(-7, baca.leaves(exclude=baca.const.HIDDEN)),
     lower_register,
 )
 
@@ -246,5 +246,5 @@ maker(
 maker(
     ("v3", (1, 22)),
     baca.beam_positions(4),
-    baca.staccato(baca.pheads(exclude=abjad.const.HIDDEN)),
+    baca.staccato(baca.pheads(exclude=baca.const.HIDDEN)),
 )

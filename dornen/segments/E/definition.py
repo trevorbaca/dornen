@@ -266,11 +266,11 @@ accumulator.populate_segment_maker(maker)
 
 maker(
     "v1",
-    baca.tenuto(baca.pheads(exclude=abjad.const.HIDDEN)),
+    baca.tenuto(baca.pheads(exclude=baca.const.HIDDEN)),
     baca.beam_positions(10),
     baca.register(
         -12,
-        selector=baca.plts(exclude=abjad.const.HIDDEN),
+        selector=baca.plts(exclude=baca.const.HIDDEN),
     ),
 )
 
@@ -279,7 +279,7 @@ maker(
     baca.beam_positions(-5.5),
     baca.register(
         4,
-        selector=baca.plts(exclude=abjad.const.HIDDEN),
+        selector=baca.plts(exclude=baca.const.HIDDEN),
     ),
 )
 
@@ -288,26 +288,26 @@ maker(
     baca.beam_positions(-5.5),
     baca.register(
         4,
-        selector=baca.plts(exclude=abjad.const.HIDDEN),
+        selector=baca.plts(exclude=baca.const.HIDDEN),
     ),
 )
 
 maker(
     "v3",
-    baca.accent(baca.pheads(exclude=abjad.const.HIDDEN)),
-    baca.script_down(baca.leaves(exclude=abjad.const.HIDDEN)),
+    baca.accent(baca.pheads(exclude=baca.const.HIDDEN)),
+    baca.script_down(baca.leaves(exclude=baca.const.HIDDEN)),
     baca.register(
         -20,
-        selector=baca.plts(exclude=abjad.const.HIDDEN),
+        selector=baca.plts(exclude=baca.const.HIDDEN),
     ),
 )
 
 maker(
     "v4",
-    baca.staccato(baca.pheads(exclude=abjad.const.HIDDEN)),
+    baca.staccato(baca.pheads(exclude=baca.const.HIDDEN)),
     baca.beam_positions(5.5),
     baca.register(
         -4,
-        selector=baca.plts(exclude=abjad.const.HIDDEN),
+        selector=baca.plts(exclude=baca.const.HIDDEN),
     ),
 )

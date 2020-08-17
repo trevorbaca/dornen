@@ -456,12 +456,7 @@ J_Guitar_Music_Voice_I = {                                                     %
             :32                                                                %! baca.stem_tremolo():baca.IndicatorCommand._call()
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \ppp                                                               %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
-            ^ \markup {                                                        %! baca.markup():baca.IndicatorCommand._call()
-                \override                                                      %! baca.markup():baca.IndicatorCommand._call()
-                    #'(box-padding . 0.5)                                      %! baca.markup():baca.IndicatorCommand._call()
-                    \box                                                       %! baca.markup():baca.IndicatorCommand._call()
-                        "2-finger tamb. trill"                                 %! baca.markup():baca.IndicatorCommand._call()
-                }                                                              %! baca.markup():baca.IndicatorCommand._call()
+            ^ \baca-boxed-markup "2-finger tamb. trill"                        %! baca.markup():baca.IndicatorCommand._call()
         %@% ^ \markup {                                                        %! FIGURE_NAME
         %@%     \fontsize                                                      %! FIGURE_NAME
         %@%         #2                                                         %! FIGURE_NAME
@@ -674,12 +669,7 @@ J_Guitar_Music_Voice_I = {                                                     %
             :32                                                                %! baca.stem_tremolo():baca.IndicatorCommand._call()
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \ppp                                                               %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
-            ^ \markup {                                                        %! baca.markup():baca.IndicatorCommand._call()
-                \override                                                      %! baca.markup():baca.IndicatorCommand._call()
-                    #'(box-padding . 0.5)                                      %! baca.markup():baca.IndicatorCommand._call()
-                    \box                                                       %! baca.markup():baca.IndicatorCommand._call()
-                        "3 fingers"                                            %! baca.markup():baca.IndicatorCommand._call()
-                }                                                              %! baca.markup():baca.IndicatorCommand._call()
+            ^ \baca-boxed-markup "3 fingers"                                   %! baca.markup():baca.IndicatorCommand._call()
         %@% ^ \markup {                                                        %! FIGURE_NAME
         %@%     \fontsize                                                      %! FIGURE_NAME
         %@%         #2                                                         %! FIGURE_NAME
@@ -882,12 +872,7 @@ J_Guitar_Music_Voice_I = {                                                     %
             :32                                                                %! baca.stem_tremolo():baca.IndicatorCommand._call()
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \ppp                                                               %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
-            ^ \markup {                                                        %! baca.markup():baca.IndicatorCommand._call()
-                \override                                                      %! baca.markup():baca.IndicatorCommand._call()
-                    #'(box-padding . 0.5)                                      %! baca.markup():baca.IndicatorCommand._call()
-                    \box                                                       %! baca.markup():baca.IndicatorCommand._call()
-                        "4 fingers"                                            %! baca.markup():baca.IndicatorCommand._call()
-                }                                                              %! baca.markup():baca.IndicatorCommand._call()
+            ^ \baca-boxed-markup "4 fingers"                                   %! baca.markup():baca.IndicatorCommand._call()
         %@% ^ \markup {                                                        %! FIGURE_NAME
         %@%     \fontsize                                                      %! FIGURE_NAME
         %@%         #2                                                         %! FIGURE_NAME
@@ -1250,12 +1235,7 @@ J_Guitar_Music_Voice_I = {                                                     %
             % [J Guitar_Music_Voice_I measure 205 / measure 21]                %! baca.SegmentMaker._comment_measure_numbers()
             gf2
             :32                                                                %! baca.stem_tremolo():baca.IndicatorCommand._call()
-            ^ \markup {                                                        %! baca.markup():baca.IndicatorCommand._call()
-                \override                                                      %! baca.markup():baca.IndicatorCommand._call()
-                    #'(box-padding . 0.5)                                      %! baca.markup():baca.IndicatorCommand._call()
-                    \box                                                       %! baca.markup():baca.IndicatorCommand._call()
-                        "3 fingers"                                            %! baca.markup():baca.IndicatorCommand._call()
-                }                                                              %! baca.markup():baca.IndicatorCommand._call()
+            ^ \baca-boxed-markup "3 fingers"                                   %! baca.markup():baca.IndicatorCommand._call()
         %@% ^ \markup {                                                        %! FIGURE_NAME
         %@%     \fontsize                                                      %! FIGURE_NAME
         %@%         #2                                                         %! FIGURE_NAME
@@ -1307,12 +1287,7 @@ J_Guitar_Music_Voice_I = {                                                     %
             :32                                                                %! baca.stem_tremolo():baca.IndicatorCommand._call()
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \pp                                                                %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
-            ^ \markup {                                                        %! baca.markup():baca.IndicatorCommand._call()
-                \override                                                      %! baca.markup():baca.IndicatorCommand._call()
-                    #'(box-padding . 0.5)                                      %! baca.markup():baca.IndicatorCommand._call()
-                    \box                                                       %! baca.markup():baca.IndicatorCommand._call()
-                        "2 fingers"                                            %! baca.markup():baca.IndicatorCommand._call()
-                }                                                              %! baca.markup():baca.IndicatorCommand._call()
+            ^ \baca-boxed-markup "2 fingers"                                   %! baca.markup():baca.IndicatorCommand._call()
         %@% ^ \markup {                                                        %! FIGURE_NAME
         %@%     \fontsize                                                      %! FIGURE_NAME
         %@%         #2                                                         %! FIGURE_NAME

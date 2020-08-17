@@ -198,7 +198,7 @@ accumulator(
     "v2",
     [["Gb2"]],
     *dornen.monads(),
-    baca.markup("2-finger tamb. trill", boxed=True),
+    baca.markup(r'\baca-boxed-markup "2-finger tamb. trill"', literal=True),
     baca.stem_tremolo(baca.pleaves()),
     baca.stem_up(),
     baca.tuplet_bracket_staff_padding(0),

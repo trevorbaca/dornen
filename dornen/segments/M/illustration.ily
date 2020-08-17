@@ -1055,12 +1055,7 @@ M_Guitar_Music_Voice_I = {                                                     %
             % [M Guitar_Music_Voice_I measure 262 / measure 6]                 %! baca.SegmentMaker._comment_measure_numbers()
             e2
             :32                                                                %! baca.stem_tremolo():baca.IndicatorCommand._call()
-            ^ \markup {                                                        %! baca.markup():baca.IndicatorCommand._call()
-                \override                                                      %! baca.markup():baca.IndicatorCommand._call()
-                    #'(box-padding . 0.5)                                      %! baca.markup():baca.IndicatorCommand._call()
-                    \box                                                       %! baca.markup():baca.IndicatorCommand._call()
-                        "3 fingers"                                            %! baca.markup():baca.IndicatorCommand._call()
-                }                                                              %! baca.markup():baca.IndicatorCommand._call()
+            ^ \baca-boxed-markup "3 fingers"                                   %! baca.markup():baca.IndicatorCommand._call()
         %@% ^ \markup {                                                        %! FIGURE_NAME
         %@%     \fontsize                                                      %! FIGURE_NAME
         %@%         #2                                                         %! FIGURE_NAME
@@ -1277,12 +1272,7 @@ M_Guitar_Music_Voice_I = {                                                     %
             % [M Guitar_Music_Voice_I measure 267 / measure 11]                %! baca.SegmentMaker._comment_measure_numbers()
             e2
             :32                                                                %! baca.stem_tremolo():baca.IndicatorCommand._call()
-            ^ \markup {                                                        %! baca.markup():baca.IndicatorCommand._call()
-                \override                                                      %! baca.markup():baca.IndicatorCommand._call()
-                    #'(box-padding . 0.5)                                      %! baca.markup():baca.IndicatorCommand._call()
-                    \box                                                       %! baca.markup():baca.IndicatorCommand._call()
-                        "4 fingers"                                            %! baca.markup():baca.IndicatorCommand._call()
-                }                                                              %! baca.markup():baca.IndicatorCommand._call()
+            ^ \baca-boxed-markup "4 fingers"                                   %! baca.markup():baca.IndicatorCommand._call()
         %@% ^ \markup {                                                        %! FIGURE_NAME
         %@%     \fontsize                                                      %! FIGURE_NAME
         %@%         #2                                                         %! FIGURE_NAME

@@ -48,7 +48,7 @@ accumulator(
     "v1",
     [["Gb~2"]],
     *dornen.monads(),
-    baca.markup("3 fingers", boxed=True),
+    baca.markup(r'\baca-boxed-markup "3 fingers"', literal=True),
     figure_name="3_1",
 )
 
@@ -86,7 +86,7 @@ accumulator(
     "v1",
     [["Gb~2"]],
     *dornen.monads(),
-    baca.markup("4 fingers", boxed=True),
+    baca.markup(r'\baca-boxed-markup "4 fingers"', literal=True),
     figure_name="4_1",
 )
 
@@ -178,7 +178,7 @@ accumulator(
     "v1",
     [2 * ["Gb~2"]],
     *dornen.monads(),
-    baca.markup("3 fingers", boxed=True),
+    baca.markup(r'\baca-boxed-markup "3 fingers"', literal=True),
     figure_name="4_14",
 )
 
@@ -186,7 +186,7 @@ accumulator(
     "v1",
     [2 * ["Gb~2"]],
     *dornen.monads(),
-    baca.markup("2 fingers", boxed=True),
+    baca.markup(r'\baca-boxed-markup "2 fingers"', literal=True),
     figure_name="4_15",
 )
 

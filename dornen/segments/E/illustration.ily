@@ -1099,12 +1099,7 @@ E_Guitar_Music_Voice_II = {                                                    %
             \once \override TupletNumber.extra-offset = #'(0 . -0.5)           %! baca.tuplet_number_extra_offset():baca.OverrideCommand._call(1)
             gf!2
             :32                                                                %! baca.stem_tremolo():baca.IndicatorCommand._call()
-            ^ \markup {                                                        %! baca.markup():baca.IndicatorCommand._call()
-                \override                                                      %! baca.markup():baca.IndicatorCommand._call()
-                    #'(box-padding . 0.5)                                      %! baca.markup():baca.IndicatorCommand._call()
-                    \box                                                       %! baca.markup():baca.IndicatorCommand._call()
-                        "2-finger tamb. trill"                                 %! baca.markup():baca.IndicatorCommand._call()
-                }                                                              %! baca.markup():baca.IndicatorCommand._call()
+            ^ \baca-boxed-markup "2-finger tamb. trill"                        %! baca.markup():baca.IndicatorCommand._call()
         %@% ^ \markup {                                                        %! FIGURE_NAME
         %@%     \fontsize                                                      %! FIGURE_NAME
         %@%         #2                                                         %! FIGURE_NAME

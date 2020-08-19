@@ -359,23 +359,7 @@ A_Guitar_Music_Voice_I = {                                                     %
         %@% \override GuitarMusicStaff.Clef.color = ##f                        %! baca.SegmentMaker._attach_color_literal(1):DEFAULT_CLEF_COLOR_CANCELLATION
             \set GuitarMusicStaff.forceClef = ##t                              %! abjad.ScoreTemplate.attach_defaults(3):baca.SegmentMaker._treat_persistent_wrapper(2):baca.SegmentMaker._set_status_tag():DEFAULT_CLEF
             e'8.
-        %@% ^ \markup {                                                        %! FIGURE_NAME
-        %@%     \fontsize                                                      %! FIGURE_NAME
-        %@%         #2                                                         %! FIGURE_NAME
-        %@%         \concat                                                    %! FIGURE_NAME
-        %@%             {                                                      %! FIGURE_NAME
-        %@%                 [                                                  %! FIGURE_NAME
-        %@%                 0                                                  %! FIGURE_NAME
-        %@%                 \hspace                                            %! FIGURE_NAME
-        %@%                     #1                                             %! FIGURE_NAME
-        %@%                 \raise                                             %! FIGURE_NAME
-        %@%                     #0.25                                          %! FIGURE_NAME
-        %@%                     \fontsize                                      %! FIGURE_NAME
-        %@%                         #-2                                        %! FIGURE_NAME
-        %@%                         (0)                                        %! FIGURE_NAME
-        %@%                 ]                                                  %! FIGURE_NAME
-        %@%             }                                                      %! FIGURE_NAME
-        %@%     }                                                              %! FIGURE_NAME
+        %@% ^ \markup \fontsize #2 \concat { [ 0 \hspace #1 \raise #0.25 \fontsize #-2 (0) ] } %! FIGURE_NAME
             ^ \baca-default-indicator-markup "(“Guitar”)"                      %! DEFAULT_INSTRUMENT_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
             [
             - \abjad-dashed-line-with-hook                                     %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
@@ -401,23 +385,7 @@ A_Guitar_Music_Voice_I = {                                                     %
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 1
             b'8.
-        %@% ^ \markup {                                                        %! FIGURE_NAME
-        %@%     \fontsize                                                      %! FIGURE_NAME
-        %@%         #2                                                         %! FIGURE_NAME
-        %@%         \concat                                                    %! FIGURE_NAME
-        %@%             {                                                      %! FIGURE_NAME
-        %@%                 [                                                  %! FIGURE_NAME
-        %@%                 2                                                  %! FIGURE_NAME
-        %@%                 \hspace                                            %! FIGURE_NAME
-        %@%                     #1                                             %! FIGURE_NAME
-        %@%                 \raise                                             %! FIGURE_NAME
-        %@%                     #0.25                                          %! FIGURE_NAME
-        %@%                     \fontsize                                      %! FIGURE_NAME
-        %@%                         #-2                                        %! FIGURE_NAME
-        %@%                         (2)                                        %! FIGURE_NAME
-        %@%                 ]                                                  %! FIGURE_NAME
-        %@%             }                                                      %! FIGURE_NAME
-        %@%     }                                                              %! FIGURE_NAME
+        %@% ^ \markup \fontsize #2 \concat { [ 2 \hspace #1 \raise #0.25 \fontsize #-2 (2) ] } %! FIGURE_NAME
 
         }
 
@@ -434,23 +402,7 @@ A_Guitar_Music_Voice_I = {                                                     %
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 1
             bf'!8.
-        %@% ^ \markup {                                                        %! FIGURE_NAME
-        %@%     \fontsize                                                      %! FIGURE_NAME
-        %@%         #2                                                         %! FIGURE_NAME
-        %@%         \concat                                                    %! FIGURE_NAME
-        %@%             {                                                      %! FIGURE_NAME
-        %@%                 [                                                  %! FIGURE_NAME
-        %@%                 4                                                  %! FIGURE_NAME
-        %@%                 \hspace                                            %! FIGURE_NAME
-        %@%                     #1                                             %! FIGURE_NAME
-        %@%                 \raise                                             %! FIGURE_NAME
-        %@%                     #0.25                                          %! FIGURE_NAME
-        %@%                     \fontsize                                      %! FIGURE_NAME
-        %@%                         #-2                                        %! FIGURE_NAME
-        %@%                         (4)                                        %! FIGURE_NAME
-        %@%                 ]                                                  %! FIGURE_NAME
-        %@%             }                                                      %! FIGURE_NAME
-        %@%     }                                                              %! FIGURE_NAME
+        %@% ^ \markup \fontsize #2 \concat { [ 4 \hspace #1 \raise #0.25 \fontsize #-2 (4) ] } %! FIGURE_NAME
 
             g'8.
             ]
@@ -469,23 +421,7 @@ A_Guitar_Music_Voice_I = {                                                     %
             % [A Guitar_Music_Voice_I measure 7]                               %! baca.SegmentMaker._comment_measure_numbers()
             \override Beam.positions = #'(9 . 9)                               %! baca.beam_positions():baca.OverrideCommand._call(1)
             g'8.
-        %@% ^ \markup {                                                        %! FIGURE_NAME
-        %@%     \fontsize                                                      %! FIGURE_NAME
-        %@%         #2                                                         %! FIGURE_NAME
-        %@%         \concat                                                    %! FIGURE_NAME
-        %@%             {                                                      %! FIGURE_NAME
-        %@%                 [                                                  %! FIGURE_NAME
-        %@%                 6                                                  %! FIGURE_NAME
-        %@%                 \hspace                                            %! FIGURE_NAME
-        %@%                     #1                                             %! FIGURE_NAME
-        %@%                 \raise                                             %! FIGURE_NAME
-        %@%                     #0.25                                          %! FIGURE_NAME
-        %@%                     \fontsize                                      %! FIGURE_NAME
-        %@%                         #-2                                        %! FIGURE_NAME
-        %@%                         (6)                                        %! FIGURE_NAME
-        %@%                 ]                                                  %! FIGURE_NAME
-        %@%             }                                                      %! FIGURE_NAME
-        %@%     }                                                              %! FIGURE_NAME
+        %@% ^ \markup \fontsize #2 \concat { [ 6 \hspace #1 \raise #0.25 \fontsize #-2 (6) ] } %! FIGURE_NAME
             [
 
             \set stemLeftBeamCount = 1
@@ -508,23 +444,7 @@ A_Guitar_Music_Voice_I = {                                                     %
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 1
             c'8.
-        %@% ^ \markup {                                                        %! FIGURE_NAME
-        %@%     \fontsize                                                      %! FIGURE_NAME
-        %@%         #2                                                         %! FIGURE_NAME
-        %@%         \concat                                                    %! FIGURE_NAME
-        %@%             {                                                      %! FIGURE_NAME
-        %@%                 [                                                  %! FIGURE_NAME
-        %@%                 9                                                  %! FIGURE_NAME
-        %@%                 \hspace                                            %! FIGURE_NAME
-        %@%                     #1                                             %! FIGURE_NAME
-        %@%                 \raise                                             %! FIGURE_NAME
-        %@%                     #0.25                                          %! FIGURE_NAME
-        %@%                     \fontsize                                      %! FIGURE_NAME
-        %@%                         #-2                                        %! FIGURE_NAME
-        %@%                         (9)                                        %! FIGURE_NAME
-        %@%                 ]                                                  %! FIGURE_NAME
-        %@%             }                                                      %! FIGURE_NAME
-        %@%     }                                                              %! FIGURE_NAME
+        %@% ^ \markup \fontsize #2 \concat { [ 9 \hspace #1 \raise #0.25 \fontsize #-2 (9) ] } %! FIGURE_NAME
 
             f'8.
 
@@ -547,23 +467,7 @@ A_Guitar_Music_Voice_I = {                                                     %
             % [A Guitar_Music_Voice_I measure 12]                              %! baca.SegmentMaker._comment_measure_numbers()
             \override Beam.positions = #'(6 . 6)                               %! baca.beam_positions():baca.OverrideCommand._call(1)
             fs!8.
-        %@% ^ \markup {                                                        %! FIGURE_NAME
-        %@%     \fontsize                                                      %! FIGURE_NAME
-        %@%         #2                                                         %! FIGURE_NAME
-        %@%         \concat                                                    %! FIGURE_NAME
-        %@%             {                                                      %! FIGURE_NAME
-        %@%                 [                                                  %! FIGURE_NAME
-        %@%                 11                                                 %! FIGURE_NAME
-        %@%                 \hspace                                            %! FIGURE_NAME
-        %@%                     #1                                             %! FIGURE_NAME
-        %@%                 \raise                                             %! FIGURE_NAME
-        %@%                     #0.25                                          %! FIGURE_NAME
-        %@%                     \fontsize                                      %! FIGURE_NAME
-        %@%                         #-2                                        %! FIGURE_NAME
-        %@%                         (11)                                       %! FIGURE_NAME
-        %@%                 ]                                                  %! FIGURE_NAME
-        %@%             }                                                      %! FIGURE_NAME
-        %@%     }                                                              %! FIGURE_NAME
+        %@% ^ \markup \fontsize #2 \concat { [ 11 \hspace #1 \raise #0.25 \fontsize #-2 (11) ] } %! FIGURE_NAME
             [
 
             \set stemLeftBeamCount = 1
@@ -586,23 +490,7 @@ A_Guitar_Music_Voice_I = {                                                     %
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 1
             af!8.
-        %@% ^ \markup {                                                        %! FIGURE_NAME
-        %@%     \fontsize                                                      %! FIGURE_NAME
-        %@%         #2                                                         %! FIGURE_NAME
-        %@%         \concat                                                    %! FIGURE_NAME
-        %@%             {                                                      %! FIGURE_NAME
-        %@%                 [                                                  %! FIGURE_NAME
-        %@%                 13                                                 %! FIGURE_NAME
-        %@%                 \hspace                                            %! FIGURE_NAME
-        %@%                     #1                                             %! FIGURE_NAME
-        %@%                 \raise                                             %! FIGURE_NAME
-        %@%                     #0.25                                          %! FIGURE_NAME
-        %@%                     \fontsize                                      %! FIGURE_NAME
-        %@%                         #-2                                        %! FIGURE_NAME
-        %@%                         (13)                                       %! FIGURE_NAME
-        %@%                 ]                                                  %! FIGURE_NAME
-        %@%             }                                                      %! FIGURE_NAME
-        %@%     }                                                              %! FIGURE_NAME
+        %@% ^ \markup \fontsize #2 \concat { [ 13 \hspace #1 \raise #0.25 \fontsize #-2 (13) ] } %! FIGURE_NAME
 
             c'8.
             ]
@@ -694,23 +582,7 @@ A_Guitar_Music_Voice_II = {                                                    %
             \acciaccatura {
 
                 fs'!16
-            %@% ^ \markup {                                                    %! FIGURE_NAME
-            %@%     \fontsize                                                  %! FIGURE_NAME
-            %@%         #2                                                     %! FIGURE_NAME
-            %@%         \concat                                                %! FIGURE_NAME
-            %@%             {                                                  %! FIGURE_NAME
-            %@%                 [                                              %! FIGURE_NAME
-            %@%                 1                                              %! FIGURE_NAME
-            %@%                 \hspace                                        %! FIGURE_NAME
-            %@%                     #1                                         %! FIGURE_NAME
-            %@%                 \raise                                         %! FIGURE_NAME
-            %@%                     #0.25                                      %! FIGURE_NAME
-            %@%                     \fontsize                                  %! FIGURE_NAME
-            %@%                         #-2                                    %! FIGURE_NAME
-            %@%                         (1)                                    %! FIGURE_NAME
-            %@%                 ]                                              %! FIGURE_NAME
-            %@%             }                                                  %! FIGURE_NAME
-            %@%     }                                                          %! FIGURE_NAME
+            %@% ^ \markup \fontsize #2 \concat { [ 1 \hspace #1 \raise #0.25 \fontsize #-2 (1) ] } %! FIGURE_NAME
                 [                                                              %! baca.Acciaccatura.__call__()
 
                 d'16
@@ -746,23 +618,7 @@ A_Guitar_Music_Voice_II = {                                                    %
             \acciaccatura {
 
                 bf'!16
-            %@% ^ \markup {                                                    %! FIGURE_NAME
-            %@%     \fontsize                                                  %! FIGURE_NAME
-            %@%         #2                                                     %! FIGURE_NAME
-            %@%         \concat                                                %! FIGURE_NAME
-            %@%             {                                                  %! FIGURE_NAME
-            %@%                 [                                              %! FIGURE_NAME
-            %@%                 3                                              %! FIGURE_NAME
-            %@%                 \hspace                                        %! FIGURE_NAME
-            %@%                     #1                                         %! FIGURE_NAME
-            %@%                 \raise                                         %! FIGURE_NAME
-            %@%                     #0.25                                      %! FIGURE_NAME
-            %@%                     \fontsize                                  %! FIGURE_NAME
-            %@%                         #-2                                    %! FIGURE_NAME
-            %@%                         (3)                                    %! FIGURE_NAME
-            %@%                 ]                                              %! FIGURE_NAME
-            %@%             }                                                  %! FIGURE_NAME
-            %@%     }                                                          %! FIGURE_NAME
+            %@% ^ \markup \fontsize #2 \concat { [ 3 \hspace #1 \raise #0.25 \fontsize #-2 (3) ] } %! FIGURE_NAME
                 [                                                              %! baca.Acciaccatura.__call__()
 
                 g'16
@@ -796,23 +652,7 @@ A_Guitar_Music_Voice_II = {                                                    %
             \acciaccatura {
 
                 b'16
-            %@% ^ \markup {                                                    %! FIGURE_NAME
-            %@%     \fontsize                                                  %! FIGURE_NAME
-            %@%         #2                                                     %! FIGURE_NAME
-            %@%         \concat                                                %! FIGURE_NAME
-            %@%             {                                                  %! FIGURE_NAME
-            %@%                 [                                              %! FIGURE_NAME
-            %@%                 5                                              %! FIGURE_NAME
-            %@%                 \hspace                                        %! FIGURE_NAME
-            %@%                     #1                                         %! FIGURE_NAME
-            %@%                 \raise                                         %! FIGURE_NAME
-            %@%                     #0.25                                      %! FIGURE_NAME
-            %@%                     \fontsize                                  %! FIGURE_NAME
-            %@%                         #-2                                    %! FIGURE_NAME
-            %@%                         (5)                                    %! FIGURE_NAME
-            %@%                 ]                                              %! FIGURE_NAME
-            %@%             }                                                  %! FIGURE_NAME
-            %@%     }                                                          %! FIGURE_NAME
+            %@% ^ \markup \fontsize #2 \concat { [ 5 \hspace #1 \raise #0.25 \fontsize #-2 (5) ] } %! FIGURE_NAME
                 [                                                              %! baca.Acciaccatura.__call__()
 
                 fs'!16
@@ -843,23 +683,7 @@ A_Guitar_Music_Voice_II = {                                                    %
             \acciaccatura {
 
                 bf'!16
-            %@% ^ \markup {                                                    %! FIGURE_NAME
-            %@%     \fontsize                                                  %! FIGURE_NAME
-            %@%         #2                                                     %! FIGURE_NAME
-            %@%         \concat                                                %! FIGURE_NAME
-            %@%             {                                                  %! FIGURE_NAME
-            %@%                 [                                              %! FIGURE_NAME
-            %@%                 7                                              %! FIGURE_NAME
-            %@%                 \hspace                                        %! FIGURE_NAME
-            %@%                     #1                                         %! FIGURE_NAME
-            %@%                 \raise                                         %! FIGURE_NAME
-            %@%                     #0.25                                      %! FIGURE_NAME
-            %@%                     \fontsize                                  %! FIGURE_NAME
-            %@%                         #-2                                    %! FIGURE_NAME
-            %@%                         (7)                                    %! FIGURE_NAME
-            %@%                 ]                                              %! FIGURE_NAME
-            %@%             }                                                  %! FIGURE_NAME
-            %@%     }                                                          %! FIGURE_NAME
+            %@% ^ \markup \fontsize #2 \concat { [ 7 \hspace #1 \raise #0.25 \fontsize #-2 (7) ] } %! FIGURE_NAME
                 [                                                              %! baca.Acciaccatura.__call__()
 
                 d''16
@@ -891,23 +715,7 @@ A_Guitar_Music_Voice_II = {                                                    %
             \acciaccatura {
 
                 a''16
-            %@% ^ \markup {                                                    %! FIGURE_NAME
-            %@%     \fontsize                                                  %! FIGURE_NAME
-            %@%         #2                                                     %! FIGURE_NAME
-            %@%         \concat                                                %! FIGURE_NAME
-            %@%             {                                                  %! FIGURE_NAME
-            %@%                 [                                              %! FIGURE_NAME
-            %@%                 12                                             %! FIGURE_NAME
-            %@%                 \hspace                                        %! FIGURE_NAME
-            %@%                     #1                                         %! FIGURE_NAME
-            %@%                 \raise                                         %! FIGURE_NAME
-            %@%                     #0.25                                      %! FIGURE_NAME
-            %@%                     \fontsize                                  %! FIGURE_NAME
-            %@%                         #-2                                    %! FIGURE_NAME
-            %@%                         (12)                                   %! FIGURE_NAME
-            %@%                 ]                                              %! FIGURE_NAME
-            %@%             }                                                  %! FIGURE_NAME
-            %@%     }                                                          %! FIGURE_NAME
+            %@% ^ \markup \fontsize #2 \concat { [ 12 \hspace #1 \raise #0.25 \fontsize #-2 (12) ] } %! FIGURE_NAME
                 [                                                              %! baca.Acciaccatura.__call__()
 
                 cs''!16
@@ -946,23 +754,7 @@ A_Guitar_Music_Voice_II = {                                                    %
             \acciaccatura {
 
                 b''16
-            %@% ^ \markup {                                                    %! FIGURE_NAME
-            %@%     \fontsize                                                  %! FIGURE_NAME
-            %@%         #2                                                     %! FIGURE_NAME
-            %@%         \concat                                                %! FIGURE_NAME
-            %@%             {                                                  %! FIGURE_NAME
-            %@%                 [                                              %! FIGURE_NAME
-            %@%                 14                                             %! FIGURE_NAME
-            %@%                 \hspace                                        %! FIGURE_NAME
-            %@%                     #1                                         %! FIGURE_NAME
-            %@%                 \raise                                         %! FIGURE_NAME
-            %@%                     #0.25                                      %! FIGURE_NAME
-            %@%                     \fontsize                                  %! FIGURE_NAME
-            %@%                         #-2                                    %! FIGURE_NAME
-            %@%                         (14)                                   %! FIGURE_NAME
-            %@%                 ]                                              %! FIGURE_NAME
-            %@%             }                                                  %! FIGURE_NAME
-            %@%     }                                                          %! FIGURE_NAME
+            %@% ^ \markup \fontsize #2 \concat { [ 14 \hspace #1 \raise #0.25 \fontsize #-2 (14) ] } %! FIGURE_NAME
                 [                                                              %! baca.Acciaccatura.__call__()
 
                 g''16
@@ -999,23 +791,7 @@ A_Guitar_Music_Voice_II = {                                                    %
             \acciaccatura {
 
                 ef''!16
-            %@% ^ \markup {                                                    %! FIGURE_NAME
-            %@%     \fontsize                                                  %! FIGURE_NAME
-            %@%         #2                                                     %! FIGURE_NAME
-            %@%         \concat                                                %! FIGURE_NAME
-            %@%             {                                                  %! FIGURE_NAME
-            %@%                 [                                              %! FIGURE_NAME
-            %@%                 15                                             %! FIGURE_NAME
-            %@%                 \hspace                                        %! FIGURE_NAME
-            %@%                     #1                                         %! FIGURE_NAME
-            %@%                 \raise                                         %! FIGURE_NAME
-            %@%                     #0.25                                      %! FIGURE_NAME
-            %@%                     \fontsize                                  %! FIGURE_NAME
-            %@%                         #-2                                    %! FIGURE_NAME
-            %@%                         (15)                                   %! FIGURE_NAME
-            %@%                 ]                                              %! FIGURE_NAME
-            %@%             }                                                  %! FIGURE_NAME
-            %@%     }                                                          %! FIGURE_NAME
+            %@% ^ \markup \fontsize #2 \concat { [ 15 \hspace #1 \raise #0.25 \fontsize #-2 (15) ] } %! FIGURE_NAME
                 [                                                              %! baca.Acciaccatura.__call__()
 
                 e''16
@@ -1149,23 +925,7 @@ A_Guitar_Music_Voice_III = {                                                   %
             \override Beam.positions = #'(-6 . -6)                             %! baca.beam_positions():baca.OverrideCommand._call(1)
             \once \override Beam.grow-direction = #left
             b''64 * 320/1024
-        %@% ^ \markup {                                                        %! FIGURE_NAME
-        %@%     \fontsize                                                      %! FIGURE_NAME
-        %@%         #2                                                         %! FIGURE_NAME
-        %@%         \concat                                                    %! FIGURE_NAME
-        %@%             {                                                      %! FIGURE_NAME
-        %@%                 [                                                  %! FIGURE_NAME
-        %@%                 17                                                 %! FIGURE_NAME
-        %@%                 \hspace                                            %! FIGURE_NAME
-        %@%                     #1                                             %! FIGURE_NAME
-        %@%                 \raise                                             %! FIGURE_NAME
-        %@%                     #0.25                                          %! FIGURE_NAME
-        %@%                     \fontsize                                      %! FIGURE_NAME
-        %@%                         #-2                                        %! FIGURE_NAME
-        %@%                         (17)                                       %! FIGURE_NAME
-        %@%                 ]                                                  %! FIGURE_NAME
-        %@%             }                                                      %! FIGURE_NAME
-        %@%     }                                                              %! FIGURE_NAME
+        %@% ^ \markup \fontsize #2 \concat { [ 17 \hspace #1 \raise #0.25 \fontsize #-2 (17) ] } %! FIGURE_NAME
         %@% ^ \baca-duration-multiplier-markup #"320" #"1024"                  %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
             [
 
@@ -1241,23 +1001,7 @@ A_Guitar_Music_Voice_III = {                                                   %
             \override Beam.positions = #'(-6 . -6)                             %! baca.beam_positions():baca.OverrideCommand._call(1)
             \once \override Beam.grow-direction = #left
             f''64 * 192/1024
-        %@% ^ \markup {                                                        %! FIGURE_NAME
-        %@%     \fontsize                                                      %! FIGURE_NAME
-        %@%         #2                                                         %! FIGURE_NAME
-        %@%         \concat                                                    %! FIGURE_NAME
-        %@%             {                                                      %! FIGURE_NAME
-        %@%                 [                                                  %! FIGURE_NAME
-        %@%                 18                                                 %! FIGURE_NAME
-        %@%                 \hspace                                            %! FIGURE_NAME
-        %@%                     #1                                             %! FIGURE_NAME
-        %@%                 \raise                                             %! FIGURE_NAME
-        %@%                     #0.25                                          %! FIGURE_NAME
-        %@%                     \fontsize                                      %! FIGURE_NAME
-        %@%                         #-2                                        %! FIGURE_NAME
-        %@%                         (18)                                       %! FIGURE_NAME
-        %@%                 ]                                                  %! FIGURE_NAME
-        %@%             }                                                      %! FIGURE_NAME
-        %@%     }                                                              %! FIGURE_NAME
+        %@% ^ \markup \fontsize #2 \concat { [ 18 \hspace #1 \raise #0.25 \fontsize #-2 (18) ] } %! FIGURE_NAME
         %@% ^ \baca-duration-multiplier-markup #"192" #"1024"                  %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER
             [
 
@@ -1349,23 +1093,7 @@ A_Guitar_Music_Voice_IV = {                                                    %
             \set stemLeftBeamCount = 0
             \set stemRightBeamCount = 4
             af'!64
-        %@% ^ \markup {                                                        %! FIGURE_NAME
-        %@%     \fontsize                                                      %! FIGURE_NAME
-        %@%         #2                                                         %! FIGURE_NAME
-        %@%         \concat                                                    %! FIGURE_NAME
-        %@%             {                                                      %! FIGURE_NAME
-        %@%                 [                                                  %! FIGURE_NAME
-        %@%                 8                                                  %! FIGURE_NAME
-        %@%                 \hspace                                            %! FIGURE_NAME
-        %@%                     #1                                             %! FIGURE_NAME
-        %@%                 \raise                                             %! FIGURE_NAME
-        %@%                     #0.25                                          %! FIGURE_NAME
-        %@%                     \fontsize                                      %! FIGURE_NAME
-        %@%                         #-2                                        %! FIGURE_NAME
-        %@%                         (8)                                        %! FIGURE_NAME
-        %@%                 ]                                                  %! FIGURE_NAME
-        %@%             }                                                      %! FIGURE_NAME
-        %@%     }                                                              %! FIGURE_NAME
+        %@% ^ \markup \fontsize #2 \concat { [ 8 \hspace #1 \raise #0.25 \fontsize #-2 (8) ] } %! FIGURE_NAME
             [
             (                                                                  %! baca.slur():baca.SpannerIndicatorCommand._call(2):SPANNER_START
 
@@ -1421,23 +1149,7 @@ A_Guitar_Music_Voice_IV = {                                                    %
             \set stemLeftBeamCount = 0
             \set stemRightBeamCount = 4
             b'64
-        %@% ^ \markup {                                                        %! FIGURE_NAME
-        %@%     \fontsize                                                      %! FIGURE_NAME
-        %@%         #2                                                         %! FIGURE_NAME
-        %@%         \concat                                                    %! FIGURE_NAME
-        %@%             {                                                      %! FIGURE_NAME
-        %@%                 [                                                  %! FIGURE_NAME
-        %@%                 10                                                 %! FIGURE_NAME
-        %@%                 \hspace                                            %! FIGURE_NAME
-        %@%                     #1                                             %! FIGURE_NAME
-        %@%                 \raise                                             %! FIGURE_NAME
-        %@%                     #0.25                                          %! FIGURE_NAME
-        %@%                     \fontsize                                      %! FIGURE_NAME
-        %@%                         #-2                                        %! FIGURE_NAME
-        %@%                         (10)                                       %! FIGURE_NAME
-        %@%                 ]                                                  %! FIGURE_NAME
-        %@%             }                                                      %! FIGURE_NAME
-        %@%     }                                                              %! FIGURE_NAME
+        %@% ^ \markup \fontsize #2 \concat { [ 10 \hspace #1 \raise #0.25 \fontsize #-2 (10) ] } %! FIGURE_NAME
             [
             (                                                                  %! baca.slur():baca.SpannerIndicatorCommand._call(2):SPANNER_START
 
@@ -1538,23 +1250,7 @@ A_Guitar_Music_Voice_IV = {                                                    %
             \set stemLeftBeamCount = 0
             \set stemRightBeamCount = 4
             a'64
-        %@% ^ \markup {                                                        %! FIGURE_NAME
-        %@%     \fontsize                                                      %! FIGURE_NAME
-        %@%         #2                                                         %! FIGURE_NAME
-        %@%         \concat                                                    %! FIGURE_NAME
-        %@%             {                                                      %! FIGURE_NAME
-        %@%                 [                                                  %! FIGURE_NAME
-        %@%                 16                                                 %! FIGURE_NAME
-        %@%                 \hspace                                            %! FIGURE_NAME
-        %@%                     #1                                             %! FIGURE_NAME
-        %@%                 \raise                                             %! FIGURE_NAME
-        %@%                     #0.25                                          %! FIGURE_NAME
-        %@%                     \fontsize                                      %! FIGURE_NAME
-        %@%                         #-2                                        %! FIGURE_NAME
-        %@%                         (16)                                       %! FIGURE_NAME
-        %@%                 ]                                                  %! FIGURE_NAME
-        %@%             }                                                      %! FIGURE_NAME
-        %@%     }                                                              %! FIGURE_NAME
+        %@% ^ \markup \fontsize #2 \concat { [ 16 \hspace #1 \raise #0.25 \fontsize #-2 (16) ] } %! FIGURE_NAME
             [
             (                                                                  %! baca.slur():baca.SpannerIndicatorCommand._call(2):SPANNER_START
 

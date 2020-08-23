@@ -18,7 +18,10 @@ accumulator(
     "v1",
     2 * [["Gb2"]],
     *dornen.monads(),
-    baca.markup(r'\baca-boxed-markup "2-finger tamb. trill"', literal=True),
+    baca.markup(
+        r"\dornen-two-finger-tamb-trill-markup",
+        literal=True,
+    ),
     figure_name="2_1",
 )
 
@@ -56,7 +59,10 @@ accumulator(
     "v1",
     [["Gb2"]],
     *dornen.monads(),
-    baca.markup(r'\baca-boxed-markup "3 fingers"', literal=True),
+    baca.markup(
+        r"\dornen-three-fingers-markup",
+        literal=True,
+    ),
     figure_name="3_1",
 )
 
@@ -94,7 +100,10 @@ accumulator(
     "v1",
     [["Gb2"]],
     *dornen.monads(),
-    baca.markup(r'\baca-boxed-markup "4 fingers"', literal=True),
+    baca.markup(
+        r"\dornen-four-fingers-markup",
+        literal=True,
+    ),
     figure_name="4_1",
 )
 
@@ -158,7 +167,10 @@ accumulator(
     "v1",
     2 * [["Gb2"]],
     *dornen.monads(),
-    baca.markup(r'\baca-boxed-markup "3 fingers"', literal=True),
+    baca.markup(
+        r"\dornen-three-fingers-markup",
+        literal=True,
+    ),
     figure_name="4_10",
 )
 
@@ -166,7 +178,10 @@ accumulator(
     "v1",
     2 * [["Gb2"]],
     *dornen.monads(),
-    baca.markup(r'\baca-boxed-markup "2 fingers"', literal=True),
+    baca.markup(
+        r"\dornen-two-fingers-markup",
+        literal=True,
+    ),
     figure_name="4_11",
 )
 

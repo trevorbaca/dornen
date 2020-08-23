@@ -676,7 +676,7 @@ G_Guitar_Music_Voice_II = {                                                    %
             \once \override TextScript.direction = #down                       %! baca.text_script_down():baca.OverrideCommand._call(1)
             ef'!16
         %@% ^ \markup \fontsize #2 \concat { [ \markup \concat { 16 \sub 1 } \hspace #1 \raise #0.25 \fontsize #-2 (1) ] } %! FIGURE_NAME
-            _ \markup { "dull (but beautiful) thud with RH muting for each red note" } %! baca.markup():baca.IndicatorCommand._call()
+            _ \dornen-dull-but-beautiful-markup                                %! baca.markup():baca.IndicatorCommand._call()
             [
 
         }

@@ -770,7 +770,7 @@ N_Guitar_Music_Voice_I = {                                                     %
             - \tweak color #(x11-color 'green4)                                %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_DYNAMIC
             - \tenuto                                                          %! baca.tenuto():baca.IndicatorCommand._call()
-            ^ \markup { "LH only until rascado! (RH tacet; encourage whisks) ..." } %! baca.markup():baca.IndicatorCommand._call()
+            ^ \dornen-lh-only-until-rascado-markup                             %! baca.markup():baca.IndicatorCommand._call()
             ^ \baca-reapplied-indicator-markup "(“Guitar”)"                    %! REAPPLIED_INSTRUMENT_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
             [
             - \abjad-dashed-line-with-hook                                     %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
@@ -829,7 +829,7 @@ N_Guitar_Music_Voice_I = {                                                     %
             % [N Guitar_Music_Voice_I measure 310 / measure 8]                 %! baca.SegmentMaker._comment_measure_numbers()
             d'32.
             - \tenuto                                                          %! baca.tenuto():baca.IndicatorCommand._call()
-            ^ \markup { "RH reaches for screw ..." }                           %! baca.markup():baca.IndicatorCommand._call()
+            ^ \dornen-rh-reaches-for-screw-markup                              %! baca.markup():baca.IndicatorCommand._call()
             [
 
             \set stemLeftBeamCount = 3
@@ -880,7 +880,7 @@ N_Guitar_Music_Voice_I = {                                                     %
             % [N Guitar_Music_Voice_I measure 317 / measure 15]                %! baca.SegmentMaker._comment_measure_numbers()
             d'32.
             - \tenuto                                                          %! baca.tenuto():baca.IndicatorCommand._call()
-            ^ \markup { "RH places screw on string ..." }                      %! baca.markup():baca.IndicatorCommand._call()
+            ^ \dornen-rh-places-screw-on-string-markup                         %! baca.markup():baca.IndicatorCommand._call()
             [
 
             \set stemLeftBeamCount = 3
@@ -1074,7 +1074,7 @@ N_Guitar_Music_Voice_I = {                                                     %
             :32                                                                %! baca.stem_tremolo():baca.IndicatorCommand._call()
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \p                                                                 %! baca.dynamic():baca.IndicatorCommand._call():baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
-            ^ \markup { "RASCADO: slowly draw extremely long metal screw over open string; as close as possible to bridge; only one stroke." } %! baca.markup():baca.IndicatorCommand._call()
+            ^ \dornen-rascado-explanation-markup                               %! baca.markup():baca.IndicatorCommand._call()
             - \tweak stencil ##f                                               %! baca.SegmentMaker._attach_shadow_tie_indicators()
             ~                                                                  %! baca.SegmentMaker._attach_shadow_tie_indicators()
 

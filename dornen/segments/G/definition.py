@@ -35,7 +35,8 @@ accumulator(
     design[1:2],
     *dornen.sixteenths(),
     baca.markup(
-        "dull (but beautiful) thud with RH muting for each red note",
+        r"\dornen-dull-but-beautiful-markup",
+        literal=True,
         direction=abjad.Down,
     ),
     baca.text_script_down(),

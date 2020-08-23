@@ -72,7 +72,8 @@ accumulator(
     [3 * ["C4"]],
     *dornen.rests(),
     baca.markup(
-        "raise string 2 one quartertone",
+        r"\dornen-raise-string-two-one-quartertone-markup",
+        literal=True,
         selector=baca.leaf(0),
     ),
     figure_name="S1",

@@ -555,7 +555,7 @@ K_Guitar_Music_Voice_I = {                                                     %
             % [K Guitar_Music_Voice_I measure 212 / measure 6]                 %! baca.SegmentMaker._comment_measure_numbers()
             gtqf2
             :32                                                                %! baca.stem_tremolo():baca.IndicatorCommand._call()
-            ^ \baca-boxed-markup "3 fingers"                                   %! baca.markup():baca.IndicatorCommand._call()
+            ^ \dornen-three-fingers-markup                                     %! baca.markup():baca.IndicatorCommand._call()
         %@% ^ \markup \fontsize #2 \concat { [ \markup \concat { 3 \sub 1 } \hspace #1 \raise #0.25 \fontsize #-2 (5) ] } %! FIGURE_NAME
             \repeatTie                                                         %! baca.repeat_tie():baca.IndicatorCommand._call()
             - \tweak stencil ##f                                               %! baca.SegmentMaker._attach_shadow_tie_indicators()
@@ -653,7 +653,7 @@ K_Guitar_Music_Voice_I = {                                                     %
             % [K Guitar_Music_Voice_I measure 217 / measure 11]                %! baca.SegmentMaker._comment_measure_numbers()
             gtqf2
             :32                                                                %! baca.stem_tremolo():baca.IndicatorCommand._call()
-            ^ \baca-boxed-markup "4 fingers"                                   %! baca.markup():baca.IndicatorCommand._call()
+            ^ \dornen-four-fingers-markup                                      %! baca.markup():baca.IndicatorCommand._call()
         %@% ^ \markup \fontsize #2 \concat { [ \markup \concat { 4 \sub 1 } \hspace #1 \raise #0.25 \fontsize #-2 (10) ] } %! FIGURE_NAME
             \repeatTie                                                         %! baca.repeat_tie():baca.IndicatorCommand._call()
             - \tweak stencil ##f                                               %! baca.SegmentMaker._attach_shadow_tie_indicators()
@@ -947,7 +947,7 @@ K_Guitar_Music_Voice_I = {                                                     %
             % [K Guitar_Music_Voice_I measure 230 / measure 24]                %! baca.SegmentMaker._comment_measure_numbers()
             gtqf2
             :32                                                                %! baca.stem_tremolo():baca.IndicatorCommand._call()
-            ^ \baca-boxed-markup "3 fingers"                                   %! baca.markup():baca.IndicatorCommand._call()
+            ^ \dornen-three-fingers-markup                                     %! baca.markup():baca.IndicatorCommand._call()
         %@% ^ \markup \fontsize #2 \concat { [ \markup \concat { 4 \sub 14 } \hspace #1 \raise #0.25 \fontsize #-2 (23) ] } %! FIGURE_NAME
             \repeatTie                                                         %! baca.repeat_tie():baca.IndicatorCommand._call()
             - \tweak stencil ##f                                               %! baca.SegmentMaker._attach_shadow_tie_indicators()
@@ -973,7 +973,7 @@ K_Guitar_Music_Voice_I = {                                                     %
             :32                                                                %! baca.stem_tremolo():baca.IndicatorCommand._call()
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \p                                                                 %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
-            ^ \baca-boxed-markup "2 fingers"                                   %! baca.markup():baca.IndicatorCommand._call()
+            ^ \dornen-two-fingers-markup                                       %! baca.markup():baca.IndicatorCommand._call()
         %@% ^ \markup \fontsize #2 \concat { [ \markup \concat { 4 \sub 15 } \hspace #1 \raise #0.25 \fontsize #-2 (24) ] } %! FIGURE_NAME
             \repeatTie                                                         %! baca.repeat_tie():baca.IndicatorCommand._call()
             \stopTextSpan                                                      %! baca.text_spanner():baca.PiecewiseCommand._call(3):SPANNER_STOP

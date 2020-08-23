@@ -411,7 +411,7 @@ F_Guitar_Music_Voice_I = {                                                     %
 
             % [F Guitar_Music_Voice_I measure 127 / measure 8]                 %! baca.SegmentMaker._comment_measure_numbers()
             r8
-            ^ \markup { "raise string 2 one quartertone" }                     %! baca.markup():baca.IndicatorCommand._call()
+            ^ \dornen-raise-string-two-one-quartertone-markup                  %! baca.markup():baca.IndicatorCommand._call()
         %@% ^ \markup \fontsize #2 \concat { [ S1 \hspace #1 \raise #0.25 \fontsize #-2 (7) ] } %! FIGURE_NAME
 
             r8

@@ -435,7 +435,7 @@ J_Guitar_Music_Voice_I = {                                                     %
             :32                                                                %! baca.stem_tremolo():baca.IndicatorCommand._call()
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \ppp                                                               %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
-            ^ \baca-boxed-markup "2-finger tamb. trill"                        %! baca.markup():baca.IndicatorCommand._call()
+            ^ \dornen-two-finger-tamb-trill-markup                             %! baca.markup():baca.IndicatorCommand._call()
         %@% ^ \markup \fontsize #2 \concat { [ \markup \concat { 2 \sub 1 } \hspace #1 \raise #0.25 \fontsize #-2 (1) ] } %! FIGURE_NAME
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \<                                                                 %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_START:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
@@ -543,7 +543,7 @@ J_Guitar_Music_Voice_I = {                                                     %
             :32                                                                %! baca.stem_tremolo():baca.IndicatorCommand._call()
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \ppp                                                               %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
-            ^ \baca-boxed-markup "3 fingers"                                   %! baca.markup():baca.IndicatorCommand._call()
+            ^ \dornen-three-fingers-markup                                     %! baca.markup():baca.IndicatorCommand._call()
         %@% ^ \markup \fontsize #2 \concat { [ \markup \concat { 3 \sub 1 } \hspace #1 \raise #0.25 \fontsize #-2 (6) ] } %! FIGURE_NAME
             \repeatTie                                                         %! baca.repeat_tie():baca.IndicatorCommand._call()
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -641,7 +641,7 @@ J_Guitar_Music_Voice_I = {                                                     %
             :32                                                                %! baca.stem_tremolo():baca.IndicatorCommand._call()
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \ppp                                                               %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
-            ^ \baca-boxed-markup "4 fingers"                                   %! baca.markup():baca.IndicatorCommand._call()
+            ^ \dornen-four-fingers-markup                                      %! baca.markup():baca.IndicatorCommand._call()
         %@% ^ \markup \fontsize #2 \concat { [ \markup \concat { 4 \sub 1 } \hspace #1 \raise #0.25 \fontsize #-2 (11) ] } %! FIGURE_NAME
             \repeatTie                                                         %! baca.repeat_tie():baca.IndicatorCommand._call()
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -815,7 +815,7 @@ J_Guitar_Music_Voice_I = {                                                     %
             % [J Guitar_Music_Voice_I measure 205 / measure 21]                %! baca.SegmentMaker._comment_measure_numbers()
             gf2
             :32                                                                %! baca.stem_tremolo():baca.IndicatorCommand._call()
-            ^ \baca-boxed-markup "3 fingers"                                   %! baca.markup():baca.IndicatorCommand._call()
+            ^ \dornen-three-fingers-markup                                     %! baca.markup():baca.IndicatorCommand._call()
         %@% ^ \markup \fontsize #2 \concat { [ \markup \concat { 4 \sub 10 } \hspace #1 \raise #0.25 \fontsize #-2 (20) ] } %! FIGURE_NAME
             \repeatTie                                                         %! baca.repeat_tie():baca.IndicatorCommand._call()
             - \tweak stencil ##f                                               %! baca.SegmentMaker._attach_shadow_tie_indicators()
@@ -846,7 +846,7 @@ J_Guitar_Music_Voice_I = {                                                     %
             :32                                                                %! baca.stem_tremolo():baca.IndicatorCommand._call()
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \pp                                                                %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
-            ^ \baca-boxed-markup "2 fingers"                                   %! baca.markup():baca.IndicatorCommand._call()
+            ^ \dornen-two-fingers-markup                                       %! baca.markup():baca.IndicatorCommand._call()
         %@% ^ \markup \fontsize #2 \concat { [ \markup \concat { 4 \sub 11 } \hspace #1 \raise #0.25 \fontsize #-2 (21) ] } %! FIGURE_NAME
             \repeatTie                                                         %! baca.repeat_tie():baca.IndicatorCommand._call()
             - \tweak stencil ##f                                               %! baca.SegmentMaker._attach_shadow_tie_indicators()

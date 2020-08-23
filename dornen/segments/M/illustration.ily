@@ -950,7 +950,7 @@ M_Guitar_Music_Voice_I = {                                                     %
             % [M Guitar_Music_Voice_I measure 262 / measure 6]                 %! baca.SegmentMaker._comment_measure_numbers()
             e2
             :32                                                                %! baca.stem_tremolo():baca.IndicatorCommand._call()
-            ^ \baca-boxed-markup "3 fingers"                                   %! baca.markup():baca.IndicatorCommand._call()
+            ^ \dornen-three-fingers-markup                                     %! baca.markup():baca.IndicatorCommand._call()
         %@% ^ \markup \fontsize #2 \concat { [ \markup \concat { 3 \sub 1 } \hspace #1 \raise #0.25 \fontsize #-2 (5) ] } %! FIGURE_NAME
             \repeatTie                                                         %! baca.repeat_tie():baca.IndicatorCommand._call()
             - \tweak stencil ##f                                               %! baca.SegmentMaker._attach_shadow_tie_indicators()
@@ -1062,7 +1062,7 @@ M_Guitar_Music_Voice_I = {                                                     %
             % [M Guitar_Music_Voice_I measure 267 / measure 11]                %! baca.SegmentMaker._comment_measure_numbers()
             e2
             :32                                                                %! baca.stem_tremolo():baca.IndicatorCommand._call()
-            ^ \baca-boxed-markup "4 fingers"                                   %! baca.markup():baca.IndicatorCommand._call()
+            ^ \dornen-four-fingers-markup                                      %! baca.markup():baca.IndicatorCommand._call()
         %@% ^ \markup \fontsize #2 \concat { [ \markup \concat { 4 \sub 1 } \hspace #1 \raise #0.25 \fontsize #-2 (10) ] } %! FIGURE_NAME
             \repeatTie                                                         %! baca.repeat_tie():baca.IndicatorCommand._call()
             - \tweak stencil ##f                                               %! baca.SegmentMaker._attach_shadow_tie_indicators()

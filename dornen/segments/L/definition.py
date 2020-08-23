@@ -46,7 +46,10 @@ accumulator(
     "v1",
     [["F2"]],
     *dornen.monads(),
-    baca.markup(r'\baca-boxed-markup "3 fingers"', literal=True),
+    baca.markup(
+        r"\dornen-three-fingers-markup",
+        literal=True,
+    ),
     figure_name="3_1",
 )
 
@@ -84,7 +87,10 @@ accumulator(
     "v1",
     [["F2"]],
     *dornen.monads(),
-    baca.markup(r'\baca-boxed-markup "4 fingers"', literal=True),
+    baca.markup(
+        r"\dornen-four-fingers-markup",
+        literal=True,
+    ),
     figure_name="4_1",
 )
 
@@ -176,7 +182,10 @@ accumulator(
     "v1",
     [2 * ["F2"]],
     *dornen.monads(),
-    baca.markup(r'\baca-boxed-markup "3 fingers"', literal=True),
+    baca.markup(
+        r"\dornen-three-fingers-markup",
+        literal=True,
+    ),
     figure_name="4_14",
 )
 
@@ -184,7 +193,10 @@ accumulator(
     "v1",
     [2 * ["F2"]],
     *dornen.monads(),
-    baca.markup(r'\baca-boxed-markup "2 fingers"', literal=True),
+    baca.markup(
+        r"\dornen-two-fingers-markup",
+        literal=True,
+    ),
     figure_name="4_15",
 )
 

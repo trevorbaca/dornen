@@ -564,7 +564,7 @@ E_Guitar_Music_Voice_I = {                                                     %
             \set GuitarMusicStaff.forceClef = ##t                              %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._treat_persistent_wrapper(2):baca.SegmentMaker._set_status_tag():REAPPLIED_CLEF
             d'32.
             - \tenuto                                                          %! baca.tenuto():baca.IndicatorCommand._call()
-            ^ \markup { "slurs fluid; all other parts mechanically precise" }  %! baca.markup():baca.IndicatorCommand._call()
+            ^ \dornen-slurs-fluid-all-other-parts-markup                       %! baca.markup():baca.IndicatorCommand._call()
         %@% ^ \markup \fontsize #2 \concat { [ \markup \concat { 48 \sub 1 } \hspace #1 \raise #0.25 \fontsize #-2 (0) ] } %! FIGURE_NAME
             ^ \baca-reapplied-indicator-markup "(“Guitar”)"                    %! REAPPLIED_INSTRUMENT_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
             [
@@ -894,7 +894,7 @@ E_Guitar_Music_Voice_II = {                                                    %
             \once \override TupletNumber.extra-offset = #'(0 . -0.5)           %! baca.tuplet_number_extra_offset():baca.OverrideCommand._call(1)
             gf!2
             :32                                                                %! baca.stem_tremolo():baca.IndicatorCommand._call()
-            ^ \baca-boxed-markup "2-finger tamb. trill"                        %! baca.markup():baca.IndicatorCommand._call()
+            ^ \dornen-two-finger-tamb-trill-markup                             %! baca.markup():baca.IndicatorCommand._call()
         %@% ^ \markup \fontsize #2 \concat { [ \markup \concat { 2 \sub 1 } \hspace #1 \raise #0.25 \fontsize #-2 (23) ] } %! FIGURE_NAME
 
         }

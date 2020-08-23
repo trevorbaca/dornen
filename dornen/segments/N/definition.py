@@ -17,7 +17,10 @@ accumulator(
     "v1",
     design[:1],
     *dornen.forty_eighths(),
-    baca.markup("LH only until rascado! (RH tacet; encourage whisks) ..."),
+    baca.markup(
+        r"\dornen-lh-only-until-rascado-markup",
+        literal=True,
+    ),
     baca.extend_beam(),
 )
 
@@ -68,7 +71,10 @@ accumulator(
     "v1",
     design[:1],
     *dornen.forty_eighths(),
-    baca.markup("RH reaches for screw ..."),
+    baca.markup(
+        r"\dornen-rh-reaches-for-screw-markup",
+        literal=True,
+    ),
     baca.extend_beam(),
 )
 
@@ -119,7 +125,10 @@ accumulator(
     "v1",
     design[:1],
     *dornen.forty_eighths(),
-    baca.markup("RH places screw on string ..."),
+    baca.markup(
+        r"\dornen-rh-places-screw-on-string-markup",
+        literal=True,
+    ),
     baca.extend_beam(),
 )
 
@@ -314,9 +323,9 @@ accumulator(
     *dornen.thirds(),
     baca.dynamic("p"),
     baca.markup(
-        "RASCADO: slowly draw extremely long metal screw over open string;"
-        " as close as possible to bridge; only one stroke.",
+        r"\dornen-rascado-explanation-markup",
         direction=abjad.Up,
+        literal=True,
     ),
     baca.register(-20),
     baca.new(

@@ -14,7 +14,10 @@ accumulator(
     "v1",
     design[:1],
     *dornen.forty_eighths(),
-    baca.markup("slurs fluid; all other parts mechanically precise"),
+    baca.markup(
+        r"\dornen-slurs-fluid-all-other-parts-markup",
+        literal=True,
+    ),
     baca.literal(string),
     baca.extend_beam(),
     figure_name="48_1",
@@ -198,7 +201,10 @@ accumulator(
     "v2",
     [["Gb2"]],
     *dornen.monads(),
-    baca.markup(r'\baca-boxed-markup "2-finger tamb. trill"', literal=True),
+    baca.markup(
+        r"\dornen-two-finger-tamb-trill-markup",
+        literal=True,
+    ),
     baca.stem_tremolo(baca.pleaves()),
     baca.stem_up(),
     baca.tuplet_bracket_staff_padding(0),

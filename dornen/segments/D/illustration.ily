@@ -1209,7 +1209,7 @@ D_Guitar_Music_Voice_II = {                                                    %
             \set stemRightBeamCount = 2
             \override Beam.positions = #'(-12 . -12)                           %! baca.beam_positions():baca.OverrideCommand._call(1)
             g'16
-            ^ \markup { "glissando: attack first note only" }                  %! baca.markup():baca.IndicatorCommand._call()
+            ^ \dornen-glissando-attack-first-note-only-markup                  %! baca.markup():baca.IndicatorCommand._call()
         %@% ^ \markup \fontsize #2 \concat { [ G1 \hspace #1 \raise #0.25 \fontsize #-2 (3) ] } %! FIGURE_NAME
             [
             \glissando                                                         %! baca.glissando():abjad.glissando(7)
@@ -1905,7 +1905,7 @@ D_Guitar_Music_Voice_IV = {                                                    %
             \once \override TupletNumber.extra-offset = #'(0 . -0.5)           %! baca.tuplet_number_extra_offset():baca.OverrideCommand._call(1)
             gf!2
             :32                                                                %! baca.stem_tremolo():baca.IndicatorCommand._call()
-            ^ \baca-boxed-markup "2-finger tamb. trill"                        %! baca.markup():baca.IndicatorCommand._call()
+            ^ \dornen-two-finger-tamb-trill-markup                             %! baca.markup():baca.IndicatorCommand._call()
         %@% ^ \markup \fontsize #2 \concat { [ T1 \hspace #1 \raise #0.25 \fontsize #-2 (8) ] } %! FIGURE_NAME
             - \tweak stencil ##f                                               %! baca.SegmentMaker._attach_shadow_tie_indicators()
             ~                                                                  %! baca.SegmentMaker._attach_shadow_tie_indicators()
@@ -1956,7 +1956,7 @@ D_Guitar_Music_Voice_IV = {                                                    %
             \once \override TupletNumber.extra-offset = #'(0 . -0.5)           %! baca.tuplet_number_extra_offset():baca.OverrideCommand._call(1)
             gf!2
             :32                                                                %! baca.stem_tremolo():baca.IndicatorCommand._call()
-            ^ \baca-boxed-markup "2-finger tamb. trill"                        %! baca.markup():baca.IndicatorCommand._call()
+            ^ \dornen-two-finger-tamb-trill-markup                             %! baca.markup():baca.IndicatorCommand._call()
         %@% ^ \markup \fontsize #2 \concat { [ T2 \hspace #1 \raise #0.25 \fontsize #-2 (17) ] } %! FIGURE_NAME
             - \tweak stencil ##f                                               %! baca.SegmentMaker._attach_shadow_tie_indicators()
             ~                                                                  %! baca.SegmentMaker._attach_shadow_tie_indicators()

@@ -89,9 +89,7 @@ class ScoreTemplate(baca.ScoreTemplate):
             "default_instrument",
             dornen.instruments["Guitar"],
         )
-        abjad.annotate(
-            guitar_music_staff, "default_clef", abjad.Clef("treble")
-        )
+        abjad.annotate(guitar_music_staff, "default_clef", abjad.Clef("treble"))
 
         # SCORE
         music_context = abjad.Context(
@@ -100,9 +98,7 @@ class ScoreTemplate(baca.ScoreTemplate):
             name="Music_Context",
             tag=tag,
         )
-        score = abjad.Score(
-            [global_context, music_context], name="Score", tag=tag
-        )
+        score = abjad.Score([global_context, music_context], name="Score", tag=tag)
         self._assert_lilypond_identifiers(score)
         self._assert_unique_context_names(score)
         self._assert_matching_custom_context_names(score)

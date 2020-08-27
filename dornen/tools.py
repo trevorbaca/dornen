@@ -6,9 +6,7 @@ from abjadext import rmakers
 
 # instruments & margin markups
 
-instruments = abjad.OrderedDict(
-    [("Guitar", abjad.Guitar(pitch_range="[E2, F5]"))]
-)
+instruments = abjad.OrderedDict([("Guitar", abjad.Guitar(pitch_range="[E2, F5]"))])
 
 # metronome marks
 
@@ -183,9 +181,7 @@ assert len(green_pitch_classes) == 60
 (59, [0, 5, 9, 11, 10])
 """
 
-magenta_pitch_classes = baca.sequence(
-    [[4, 6, 2, 3], [5, 9, 8, 0], [11, 10, 7]]
-)
+magenta_pitch_classes = baca.sequence([[4, 6, 2, 3], [5, 9, 8, 0], [11, 10, 7]])
 magenta_pitch_classes = magenta_pitch_classes.helianthate(-1, -1)
 assert len(magenta_pitch_classes) == 36
 """
@@ -277,9 +273,7 @@ def graced_tuplets() -> list:
     maker_1 = baca.figure(
         [1],
         16,
-        acciaccatura=baca.lmr(
-            left_length=1, right_counts=[2], right_cyclic=True
-        ),
+        acciaccatura=baca.lmr(left_length=1, right_counts=[2], right_cyclic=True),
         signature=14,
         treatments=["7:8"],
     )
@@ -287,16 +281,12 @@ def graced_tuplets() -> list:
     maker_2 = baca.figure(
         [1],
         16,
-        acciaccatura=baca.lmr(
-            left_length=1, right_counts=[2], right_cyclic=True
-        ),
+        acciaccatura=baca.lmr(left_length=1, right_counts=[2], right_cyclic=True),
         treatments=["7:5"],
     )
 
     return [
-        baca.bind(
-            baca.assign(maker_1, abjad.index([0], 2)), baca.assign(maker_2)
-        ),
+        baca.bind(baca.assign(maker_1, abjad.index([0], 2)), baca.assign(maker_2)),
         rmakers.beam_groups(beam_lone_notes=True),
     ]
 
@@ -879,9 +869,7 @@ def design_1(
 
     design_maker = baca.DesignMaker()
     magenta_pitch_classes = dornen.magenta_pitch_classes
-    magenta_cursor = baca.Cursor.from_pitch_class_segments(
-        magenta_pitch_classes
-    )
+    magenta_cursor = baca.Cursor.from_pitch_class_segments(magenta_pitch_classes)
     blue_pitch_classes = dornen.blue_pitch_classes
     blue_cursor = baca.Cursor.from_pitch_class_segments(blue_pitch_classes)
     design_maker.partition(magenta_cursor, 2, [1])

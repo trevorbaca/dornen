@@ -416,7 +416,7 @@ def waves(denominator: int = 64, inverted: bool = False) -> list:
     """
     Makes wave commands.
     """
-    assert abjad.mathx.is_positive_integer_power_of_two(denominator)
+    assert abjad.math.is_positive_integer_power_of_two(denominator)
     assert 16 <= denominator, repr(denominator)
     accelerando_maker = baca.figure(
         [1], denominator, signature=denominator, treatments=["accel"]

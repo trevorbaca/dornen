@@ -676,7 +676,7 @@ c_Guitar_Music_Voice_I = {                                                     %
                     }
                 >>
                 \layout {
-                    indent = #0
+                    indent = 0
                     ragged-right = ##t
                 }
             }
@@ -767,7 +767,7 @@ c_Guitar_Music_Voice_I = {                                                     %
                     }
                 >>
                 \layout {
-                    indent = #0
+                    indent = 0
                     ragged-right = ##t
                 }
             }
@@ -834,7 +834,7 @@ c_Guitar_Music_Voice_I = {                                                     %
                     }
                 >>
                 \layout {
-                    indent = #0
+                    indent = 0
                     ragged-right = ##t
                 }
             }
@@ -1043,7 +1043,7 @@ c_Guitar_Music_Voice_I = {                                                     %
                     }
                 >>
                 \layout {
-                    indent = #0
+                    indent = 0
                     ragged-right = ##t
                 }
             }
@@ -1540,7 +1540,7 @@ c_Guitar_Music_Voice_I = {                                                     %
                     }
                 >>
                 \layout {
-                    indent = #0
+                    indent = 0
                     ragged-right = ##t
                 }
             }

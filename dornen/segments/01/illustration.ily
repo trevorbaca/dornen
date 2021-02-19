@@ -911,7 +911,7 @@ a_Guitar_Music_Voice_III = {                                                   %
                     }
                 >>
                 \layout {
-                    indent = #0
+                    indent = 0
                     ragged-right = ##t
                 }
             }
@@ -983,7 +983,7 @@ a_Guitar_Music_Voice_III = {                                                   %
                     }
                 >>
                 \layout {
-                    indent = #0
+                    indent = 0
                     ragged-right = ##t
                 }
             }

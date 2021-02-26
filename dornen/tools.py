@@ -459,7 +459,9 @@ def design_1(
         ..  docs::
 
             >>> lilypond_file = design_1.__illustrate__()
-            >>> abjad.f(lilypond_file[abjad.Voice])
+            >>> voice = lilypond_file[abjad.Score][0][0]
+            >>> string = abjad.lilypond(voice)
+            >>> print(string)
             \new Voice
             \with
             {
@@ -860,7 +862,7 @@ def design_1(
                 e'8
                 \stopGroup
                 s8
-                \bar "|." %! SCORE_1
+                \bar "|."
                 \override Score.BarLine.transparent = ##f
             }
 
@@ -918,7 +920,9 @@ def design_2(
         ..  docs::
 
             >>> lilypond_file = design_2.__illustrate__()
-            >>> abjad.f(lilypond_file[abjad.Voice])
+            >>> voice = lilypond_file[abjad.Score][0][0]
+            >>> string = abjad.lilypond(voice)
+            >>> print(string)
             \new Voice
             \with
             {
@@ -1298,7 +1302,7 @@ def design_2(
                 af'8
                 \stopGroup
                 s8
-                \bar "|." %! SCORE_1
+                \bar "|."
                 \override Score.BarLine.transparent = ##f
             }
 
@@ -1350,7 +1354,9 @@ def design_3(
         ..  docs::
 
             >>> lilypond_file = design_3.__illustrate__()
-            >>> abjad.f(lilypond_file[abjad.Voice])
+            >>> voice = lilypond_file[abjad.Score][0][0]
+            >>> string = abjad.lilypond(voice)
+            >>> print(string)
             \new Voice
             \with
             {
@@ -1735,7 +1741,7 @@ def design_3(
                 b'8
                 \stopGroup
                 s8
-                \bar "|." %! SCORE_1
+                \bar "|."
                 \override Score.BarLine.transparent = ##f
             }
 

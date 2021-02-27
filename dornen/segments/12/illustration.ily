@@ -442,8 +442,8 @@ l_Guitar_Music_Voice_I = {                                                     %
         \times 4/5 {
 
             % [12 Guitar_Music_Voice_I measure 232 / measure 1]                %! baca.SegmentMaker._comment_measure_numbers()
-            \override TextSpanner.staff-padding = #5                           %! baca.text_spanner_staff_padding():baca.OverrideCommand._call(1)
-            \override TextScript.staff-padding = #8                            %! baca.text_script_staff_padding():baca.OverrideCommand._call(1)
+            \override TextSpanner.staff-padding = 5                            %! baca.text_spanner_staff_padding():baca.OverrideCommand._call(1)
+            \override TextScript.staff-padding = 8                             %! baca.text_script_staff_padding():baca.OverrideCommand._call(1)
             \clef "treble"                                                     %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_CLEF
             \once \override GuitarMusicStaff.Clef.color = #(x11-color 'green4) %! baca.SegmentMaker._attach_color_literal(2):REAPPLIED_CLEF_COLOR
         %@% \override GuitarMusicStaff.Clef.color = ##f                        %! baca.SegmentMaker._attach_color_literal(1):REAPPLIED_CLEF_COLOR_CANCELLATION
@@ -456,9 +456,9 @@ l_Guitar_Music_Voice_I = {                                                     %
             ^ \baca-reapplied-indicator-markup "(“Guitar”)"                    %! REAPPLIED_INSTRUMENT_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
             - \abjad-dashed-line-with-hook                                     %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
             - \baca-text-spanner-left-text "baca.music()"                      %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
-            - \tweak bound-details.right.padding #2.75                         %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):AUTODETECT:SPANNER_START
+            - \tweak bound-details.right.padding 2.75                          %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):AUTODETECT:SPANNER_START
             - \tweak color #darkcyan                                           %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
-            - \tweak staff-padding #8                                          %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
+            - \tweak staff-padding 8                                           %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
             \bacaStartTextSpanRhythmAnnotation                                 %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
             - \tweak stencil ##f                                               %! baca.SegmentMaker._attach_shadow_tie_indicators()
             ~                                                                  %! baca.SegmentMaker._attach_shadow_tie_indicators()
@@ -485,7 +485,7 @@ l_Guitar_Music_Voice_I = {                                                     %
             - \abjad-dashed-line-with-arrow                                    %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_START
             - \baca-text-spanner-left-text "tamb. tr."                         %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_START
             - \baca-text-spanner-right-text "kn. rasg."                        %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_START
-            - \tweak bound-details.right.padding #0.5                          %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_START
+            - \tweak bound-details.right.padding 0.5                           %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_START
             - \tweak bound-details.right.stencil-align-dir-y #center           %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_START
             \startTextSpan                                                     %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_START
             - \tweak stencil ##f                                               %! baca.SegmentMaker._attach_shadow_tie_indicators()
@@ -532,7 +532,7 @@ l_Guitar_Music_Voice_I = {                                                     %
             - \abjad-dashed-line-with-arrow                                    %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_START
             - \baca-text-spanner-left-text "trans."                            %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_START
             - \baca-text-spanner-right-text "tamb. tr."                        %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_START
-            - \tweak bound-details.right.padding #0.5                          %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_START
+            - \tweak bound-details.right.padding 0.5                           %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_START
             - \tweak bound-details.right.stencil-align-dir-y #center           %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_START
             \startTextSpan                                                     %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_START
             - \tweak stencil ##f                                               %! baca.SegmentMaker._attach_shadow_tie_indicators()
@@ -597,7 +597,7 @@ l_Guitar_Music_Voice_I = {                                                     %
             - \abjad-dashed-line-with-arrow                                    %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_START
             - \baca-text-spanner-left-text "trans."                            %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_START
             - \baca-text-spanner-right-text "kn. rasg."                        %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_START
-            - \tweak bound-details.right.padding #0.5                          %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_START
+            - \tweak bound-details.right.padding 0.5                           %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_START
             - \tweak bound-details.right.stencil-align-dir-y #center           %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_START
             \startTextSpan                                                     %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_START
             - \tweak stencil ##f                                               %! baca.SegmentMaker._attach_shadow_tie_indicators()
@@ -644,7 +644,7 @@ l_Guitar_Music_Voice_I = {                                                     %
             - \abjad-dashed-line-with-arrow                                    %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_START
             - \baca-text-spanner-left-text "trans."                            %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_START
             - \baca-text-spanner-right-text "tamb. tr."                        %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_START
-            - \tweak bound-details.right.padding #0.5                          %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_START
+            - \tweak bound-details.right.padding 0.5                           %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_START
             - \tweak bound-details.right.stencil-align-dir-y #center           %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_START
             \startTextSpan                                                     %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_START
             - \tweak stencil ##f                                               %! baca.SegmentMaker._attach_shadow_tie_indicators()
@@ -709,7 +709,7 @@ l_Guitar_Music_Voice_I = {                                                     %
             - \abjad-dashed-line-with-arrow                                    %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_START
             - \baca-text-spanner-left-text "trans."                            %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_START
             - \baca-text-spanner-right-text "kn. rasg."                        %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_START
-            - \tweak bound-details.right.padding #0.5                          %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_START
+            - \tweak bound-details.right.padding 0.5                           %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_START
             - \tweak bound-details.right.stencil-align-dir-y #center           %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_START
             \startTextSpan                                                     %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_START
             - \tweak stencil ##f                                               %! baca.SegmentMaker._attach_shadow_tie_indicators()
@@ -756,7 +756,7 @@ l_Guitar_Music_Voice_I = {                                                     %
             - \abjad-dashed-line-with-arrow                                    %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_START
             - \baca-text-spanner-left-text "trans."                            %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_START
             - \baca-text-spanner-right-text "tamb. tr."                        %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_START
-            - \tweak bound-details.right.padding #0.5                          %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_START
+            - \tweak bound-details.right.padding 0.5                           %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_START
             - \tweak bound-details.right.stencil-align-dir-y #center           %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_START
             \startTextSpan                                                     %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_START
             - \tweak stencil ##f                                               %! baca.SegmentMaker._attach_shadow_tie_indicators()
@@ -803,7 +803,7 @@ l_Guitar_Music_Voice_I = {                                                     %
             - \abjad-dashed-line-with-arrow                                    %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_START
             - \baca-text-spanner-left-text "trans."                            %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_START
             - \baca-text-spanner-right-text "kn. rasg."                        %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_START
-            - \tweak bound-details.right.padding #0.5                          %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_START
+            - \tweak bound-details.right.padding 0.5                           %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_START
             - \tweak bound-details.right.stencil-align-dir-y #center           %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_START
             \startTextSpan                                                     %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_START
             - \tweak stencil ##f                                               %! baca.SegmentMaker._attach_shadow_tie_indicators()
@@ -850,7 +850,7 @@ l_Guitar_Music_Voice_I = {                                                     %
             - \abjad-dashed-line-with-arrow                                    %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_START
             - \baca-text-spanner-left-text "trans."                            %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_START
             - \baca-text-spanner-right-text "tamb. tr."                        %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_START
-            - \tweak bound-details.right.padding #0.5                          %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_START
+            - \tweak bound-details.right.padding 0.5                           %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_START
             - \tweak bound-details.right.stencil-align-dir-y #center           %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_START
             \startTextSpan                                                     %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_START
             - \tweak stencil ##f                                               %! baca.SegmentMaker._attach_shadow_tie_indicators()
@@ -897,7 +897,7 @@ l_Guitar_Music_Voice_I = {                                                     %
             - \abjad-dashed-line-with-arrow                                    %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_START
             - \baca-text-spanner-left-text "trans."                            %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_START
             - \baca-text-spanner-right-text "kn. rasg."                        %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_START
-            - \tweak bound-details.right.padding #0.5                          %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_START
+            - \tweak bound-details.right.padding 0.5                           %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_START
             - \tweak bound-details.right.stencil-align-dir-y #center           %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_START
             \startTextSpan                                                     %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_START
             - \tweak stencil ##f                                               %! baca.SegmentMaker._attach_shadow_tie_indicators()
@@ -944,7 +944,7 @@ l_Guitar_Music_Voice_I = {                                                     %
             - \abjad-dashed-line-with-arrow                                    %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_START
             - \baca-text-spanner-left-text "trans."                            %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_START
             - \baca-text-spanner-right-text "tamb. tr."                        %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_START
-            - \tweak bound-details.right.padding #0.5                          %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_START
+            - \tweak bound-details.right.padding 0.5                           %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_START
             - \tweak bound-details.right.stencil-align-dir-y #center           %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_START
             \startTextSpan                                                     %! baca.text_spanner():baca.PiecewiseCommand._call(2):SPANNER_START
             - \tweak stencil ##f                                               %! baca.SegmentMaker._attach_shadow_tie_indicators()

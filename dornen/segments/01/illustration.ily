@@ -364,9 +364,9 @@ a_Guitar_Music_Voice_I = {                                                     %
             [
             - \abjad-dashed-line-with-hook                                     %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
             - \baca-text-spanner-left-text "baca.music()"                      %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
-            - \tweak bound-details.right.padding #2.75                         %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):AUTODETECT:SPANNER_START
+            - \tweak bound-details.right.padding 2.75                          %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):AUTODETECT:SPANNER_START
             - \tweak color #darkcyan                                           %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
-            - \tweak staff-padding #8                                          %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
+            - \tweak staff-padding 8                                           %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
             \bacaStartTextSpanRhythmAnnotation                                 %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
             \override GuitarMusicStaff.Clef.color = #(x11-color 'violet)       %! baca.SegmentMaker._attach_color_literal(2):DEFAULT_CLEF_REDRAW_COLOR
 
@@ -569,9 +569,9 @@ a_Guitar_Music_Voice_II = {                                                    %
     s1 * 3/16
     - \abjad-dashed-line-with-hook                                             %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     - \baca-text-spanner-left-text "baca.music()"                              %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
-    - \tweak bound-details.right.padding #2.75                                 %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):AUTODETECT:SPANNER_START
+    - \tweak bound-details.right.padding 2.75                                  %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):AUTODETECT:SPANNER_START
     - \tweak color #darkcyan                                                   %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
-    - \tweak staff-padding #8                                                  %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
+    - \tweak staff-padding 8                                                   %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     \bacaStartTextSpanRhythmAnnotation                                         %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
 
     {
@@ -873,9 +873,9 @@ a_Guitar_Music_Voice_III = {                                                   %
     s1 * 107/32
     - \abjad-dashed-line-with-hook                                             %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     - \baca-text-spanner-left-text "baca.music()"                              %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
-    - \tweak bound-details.right.padding #2.75                                 %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):AUTODETECT:SPANNER_START
+    - \tweak bound-details.right.padding 2.75                                  %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):AUTODETECT:SPANNER_START
     - \tweak color #darkcyan                                                   %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
-    - \tweak staff-padding #8                                                  %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
+    - \tweak staff-padding 8                                                   %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     \bacaStartTextSpanRhythmAnnotation                                         %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
 
     {
@@ -885,7 +885,7 @@ a_Guitar_Music_Voice_III = {                                                   %
                 \new Score
                 \with
                 {
-                    \override SpacingSpanner.spacing-increment = #0.5
+                    \override SpacingSpanner.spacing-increment = 0.5
                     proportionalNotationDuration = ##f
                 }
                 <<
@@ -895,14 +895,14 @@ a_Guitar_Music_Voice_III = {                                                   %
                         \remove Time_signature_engraver
                         \remove Staff_symbol_engraver
                         \override Stem.direction = #up
-                        \override Stem.length = #5
+                        \override Stem.length = 5
                         \override TupletBracket.bracket-visibility = ##t
                         \override TupletBracket.direction = #up
-                        \override TupletBracket.minimum-length = #4
-                        \override TupletBracket.padding = #1.25
+                        \override TupletBracket.minimum-length = 4
+                        \override TupletBracket.padding = 1.25
                         \override TupletBracket.shorten-pair = #'(-1 . -1.5)
                         \override TupletBracket.springs-and-rods = #ly:spanner::set-spacing-rods
-                        \override TupletNumber.font-size = #0
+                        \override TupletNumber.font-size = 0
                         \override TupletNumber.text = #tuplet-number::calc-fraction-text
                         tupletFullLength = ##t
                     }
@@ -957,7 +957,7 @@ a_Guitar_Music_Voice_III = {                                                   %
                 \new Score
                 \with
                 {
-                    \override SpacingSpanner.spacing-increment = #0.5
+                    \override SpacingSpanner.spacing-increment = 0.5
                     proportionalNotationDuration = ##f
                 }
                 <<
@@ -967,14 +967,14 @@ a_Guitar_Music_Voice_III = {                                                   %
                         \remove Time_signature_engraver
                         \remove Staff_symbol_engraver
                         \override Stem.direction = #up
-                        \override Stem.length = #5
+                        \override Stem.length = 5
                         \override TupletBracket.bracket-visibility = ##t
                         \override TupletBracket.direction = #up
-                        \override TupletBracket.minimum-length = #4
-                        \override TupletBracket.padding = #1.25
+                        \override TupletBracket.minimum-length = 4
+                        \override TupletBracket.padding = 1.25
                         \override TupletBracket.shorten-pair = #'(-1 . -1.5)
                         \override TupletBracket.springs-and-rods = #ly:spanner::set-spacing-rods
-                        \override TupletNumber.font-size = #0
+                        \override TupletNumber.font-size = 0
                         \override TupletNumber.text = #tuplet-number::calc-fraction-text
                         tupletFullLength = ##t
                     }
@@ -1071,9 +1071,9 @@ a_Guitar_Music_Voice_IV = {                                                    %
     s1 * 5/4
     - \abjad-dashed-line-with-hook                                             %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     - \baca-text-spanner-left-text "baca.music()"                              %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
-    - \tweak bound-details.right.padding #2.75                                 %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):AUTODETECT:SPANNER_START
+    - \tweak bound-details.right.padding 2.75                                  %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):AUTODETECT:SPANNER_START
     - \tweak color #darkcyan                                                   %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
-    - \tweak staff-padding #8                                                  %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
+    - \tweak staff-padding 8                                                   %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
     \bacaStartTextSpanRhythmAnnotation                                         %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
 
     {

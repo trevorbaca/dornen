@@ -73,7 +73,7 @@ accumulator(
     "v2",
     design[3:4],
     *dornen.ovoids(),
-    baca.text_script_color("red"),
+    baca.text_script_color("#red"),
     baca.register(-14, -6),
     figure_name="O2",
 )
@@ -203,7 +203,7 @@ accumulator(
     "v2",
     design[3:4],
     *dornen.ovoids(),
-    baca.text_script_color("red"),
+    baca.text_script_color("#red"),
     baca.register(-14, -6),
     figure_name="O2*",
 )
@@ -262,7 +262,7 @@ accumulator(
     "v2",
     design[3:4],
     *dornen.ovoids(),
-    baca.text_script_color("red"),
+    baca.text_script_color("#red"),
     baca.register(-14, -6),
     baca.extend_beam(),
     figure_name="O2**",

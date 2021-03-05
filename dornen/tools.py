@@ -1778,7 +1778,7 @@ def design_3(
 ### CLASSES ###
 
 
-class DesignChecker(object):
+class DesignChecker:
     """
     Design-checker.
     """

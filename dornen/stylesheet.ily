@@ -1,6 +1,77 @@
-% Spiel der Dornen (2016)
+#(set-default-paper-size "a3landscape")
+#(set-global-staff-size 12)
+
 \include "/Users/trevorbaca/baca/lilypond/baca.ily"
 
+\paper {
+    bottom-margin = 0.5\in
+    evenFooterMarkup = \markup
+        \on-the-fly #print-page-number-check-first
+        \fill-line {
+            " "
+            \bold
+            \fontsize #3
+            \override #'(font-name . "Palatino")
+            \concat {
+                Spiel \hspace #1.5 der \hspace #1.5 Dornen
+                \hspace #3
+                —
+                \hspace #3
+                \on-the-fly #print-page-number-check-first
+                \fromproperty #'page:page-number-string
+                \hspace #3
+                —
+                \hspace #3
+                Bača
+            }
+            " "
+    }
+    evenHeaderMarkup = \markup \null
+    left-margin = 1\in
+    oddFooterMarkup = \evenFooterMarkup
+    oddHeaderMarkup = \markup \null
+    print-first-page-number = ##f
+    print-page-number = ##t
+    ragged-bottom = ##t
+    ragged-last-bottom = ##t
+    right-margin = 1\in
+    markup-system-spacing.minimum-distance = 48
+    system-system-spacing.minimum-distance = 24
+    top-markup-spacing.minimum-distance = 18
+    top-margin = 0\in
+}
+
+\header {
+    composer = \markup {
+        \override #'(font-name . "Palatino")
+        \fontsize #5
+        \line { Trevor Bača (*1975) }
+    }
+    tagline = \markup \null
+    title = \markup \column {
+        \center-align {
+            \override #'(font-name . "Palatino")
+            \fontsize #14 {
+               \line { SPIEL \hspace #4 DER \hspace #4 DORNEN }
+            }
+            \null
+            \override #'(font-name . "Palatino Italic")
+            \fontsize #3 {
+               " for Nico Couck "
+            }
+        }
+    }
+}
+
+\layout {
+    \accidentalStyle neo-modern
+    indent = 0
+    ragged-bottom = ##t
+    ragged-last = ##t
+    ragged-right = ##t
+}
+
+%%% CONTEXTS
 
 \layout {
 
@@ -242,3 +313,52 @@
     }
 
 }
+
+%%% MARKUP
+
+dornen-glissando-attack-first-note-only-markup = \markup
+    "glissando: attack first note only"
+
+dornen-colophon-markup = \markup
+  \override #'(font-name . "Palatino")
+  \with-color #black
+  \override #'(baseline-skip . 4)
+  \right-column {
+    \line {
+      Cambridge, Mass. \hspace #0.75 – \hspace #0.75
+      Madison, Wisc. \hspace #0.75 – \hspace #0.75
+      Palo Alto, Calif. }
+    \line { Nov. 2015 \hspace #0.75 – \hspace #0.75 Jul. 2016. }
+    }
+
+dornen-dull-but-beautiful-markup = \markup
+  "dull (but beautiful) thud with RH muting for each red note"
+
+dornen-four-fingers-markup = \markup "4 fingers"
+
+dornen-lh-only-until-rascado-markup = \markup
+  "LH only until rascado! (RH tacet; encourage whisks) ..."
+
+dornen-raise-string-two-one-quartertone-markup = \markup
+  "raise string 2 one quartertone"
+
+dornen-rascado-explanation-markup = \markup
+  \column {
+    "RASCADO: slowly draw extremely long metal screw over open string;"
+    " as close as possible to bridge; only one stroke.",
+  }
+
+dornen-rh-places-screw-on-string-markup = \markup
+    "RH places screw on string ..."
+
+dornen-rh-reaches-for-screw-markup = \markup
+    "RH reaches for screw ..."
+
+dornen-slurs-fluid-all-other-parts-markup = \markup
+  "slurs fluid; all other parts mechanically precise"
+
+dornen-three-fingers-markup = \markup "3 fingers"
+
+dornen-two-finger-tamb-trill-markup = \baca-boxed-markup "2-finger tamb. trill"
+
+dornen-two-fingers-markup = \markup "2 fingers"

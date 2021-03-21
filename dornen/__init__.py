@@ -1,9 +1,9 @@
 import distutils.version
 import platform
 
-from .ScoreTemplate import ScoreTemplate
 from .tools import (
     DesignChecker,
+    ScoreTemplate,
     anchors,
     blue_pitch_classes,
     bright_green_pitch_classes,

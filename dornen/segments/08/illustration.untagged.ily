@@ -141,7 +141,8 @@ h_Guitar_Music_Voice_I = {
 
     {
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             % [08 Guitar_Music_Voice_I measure 156 / measure 2]
             \set stemLeftBeamCount = 0
@@ -167,7 +168,8 @@ h_Guitar_Music_Voice_I = {
     {
 
         \tweak text #tuplet-number::calc-fraction-text
-        \times 9/11 {
+        \times 9/11
+        {
 
             % [08 Guitar_Music_Voice_I measure 161 / measure 7]
             \set stemLeftBeamCount = 0
@@ -212,7 +214,8 @@ h_Guitar_Music_Voice_I = {
     {
 
         \tweak text #tuplet-number::calc-fraction-text
-        \times 5/7 {
+        \times 5/7
+        {
 
             % [08 Guitar_Music_Voice_I measure 166 / measure 12]
             \set stemLeftBeamCount = 1
@@ -269,7 +272,8 @@ h_Guitar_Music_Voice_II = {
 
     {
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             % [08 Guitar_Music_Voice_II measure 155 / measure 1]
             \set stemLeftBeamCount = 0
@@ -308,7 +312,8 @@ h_Guitar_Music_Voice_II = {
 
     {
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             % [08 Guitar_Music_Voice_II measure 160 / measure 6]
             \set stemLeftBeamCount = 0
@@ -344,7 +349,8 @@ h_Guitar_Music_Voice_II = {
 
     {
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             % [08 Guitar_Music_Voice_II measure 165 / measure 11]
             \set stemLeftBeamCount = 1
@@ -435,7 +441,8 @@ h_Guitar_Music_Voice_III = {
 
     {
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             % [08 Guitar_Music_Voice_III measure 158 / measure 4]
             \set stemLeftBeamCount = 0
@@ -561,7 +568,8 @@ h_Guitar_Music_Voice_III = {
 
     {
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             % [08 Guitar_Music_Voice_III measure 163 / measure 9]
             \set stemLeftBeamCount = 0
@@ -672,7 +680,8 @@ h_Guitar_Music_Voice_IV = {
 
         \tweak text #tuplet-number::calc-fraction-text
         \tweak edge-height #'(0.7 . 0)
-        \times 8/7 {
+        \times 8/7
+        {
 
             % [08 Guitar_Music_Voice_IV measure 157 / measure 3]
             \set stemLeftBeamCount = 0
@@ -701,7 +710,8 @@ h_Guitar_Music_Voice_IV = {
 
         \tweak text #tuplet-number::calc-fraction-text
         \tweak edge-height #'(0.7 . 0)
-        \times 8/7 {
+        \times 8/7
+        {
 
             % [08 Guitar_Music_Voice_IV measure 159 / measure 5]
             \set stemLeftBeamCount = 1
@@ -824,7 +834,8 @@ h_Guitar_Music_Voice_IV = {
 
         \tweak text #tuplet-number::calc-fraction-text
         \tweak edge-height #'(0.7 . 0)
-        \times 8/7 {
+        \times 8/7
+        {
 
             % [08 Guitar_Music_Voice_IV measure 162 / measure 8]
             \set stemLeftBeamCount = 0
@@ -847,7 +858,8 @@ h_Guitar_Music_Voice_IV = {
 
         \tweak text #tuplet-number::calc-fraction-text
         \tweak edge-height #'(0.7 . 0)
-        \times 8/7 {
+        \times 8/7
+        {
 
             % [08 Guitar_Music_Voice_IV measure 164 / measure 10]
             \set stemLeftBeamCount = 1

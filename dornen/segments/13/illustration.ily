@@ -819,7 +819,8 @@ m_Guitar_Music_Voice_I = {                                                     %
     {
 
         \tweak edge-height #'(0.7 . 0)
-        \times 4/5 {
+        \times 4/5
+        {
 
             % [13 Guitar_Music_Voice_I measure 257 / measure 1]                %! baca.SegmentMaker._comment_measure_numbers()
             \override TextSpanner.staff-padding = 5                            %! baca.text_spanner_staff_padding():baca.OverrideCommand._call(1)
@@ -851,7 +852,8 @@ m_Guitar_Music_Voice_I = {                                                     %
     {
 
         \tweak edge-height #'(0.7 . 0)
-        \times 4/5 {
+        \times 4/5
+        {
 
             % [13 Guitar_Music_Voice_I measure 258 / measure 2]                %! baca.SegmentMaker._comment_measure_numbers()
             e2
@@ -878,7 +880,8 @@ m_Guitar_Music_Voice_I = {                                                     %
     {
 
         \tweak edge-height #'(0.7 . 0)
-        \times 2/3 {
+        \times 2/3
+        {
 
             % [13 Guitar_Music_Voice_I measure 259 / measure 3]                %! baca.SegmentMaker._comment_measure_numbers()
             e2
@@ -898,7 +901,8 @@ m_Guitar_Music_Voice_I = {                                                     %
     {
 
         \tweak edge-height #'(0.7 . 0)
-        \times 2/3 {
+        \times 2/3
+        {
 
             % [13 Guitar_Music_Voice_I measure 260 / measure 4]                %! baca.SegmentMaker._comment_measure_numbers()
             e2
@@ -925,7 +929,8 @@ m_Guitar_Music_Voice_I = {                                                     %
     {
 
         \tweak edge-height #'(0.7 . 0)
-        \times 2/3 {
+        \times 2/3
+        {
 
             % [13 Guitar_Music_Voice_I measure 261 / measure 5]                %! baca.SegmentMaker._comment_measure_numbers()
             e2
@@ -945,7 +950,8 @@ m_Guitar_Music_Voice_I = {                                                     %
     {
 
         \tweak edge-height #'(0.7 . 0)
-        \times 4/5 {
+        \times 4/5
+        {
 
             % [13 Guitar_Music_Voice_I measure 262 / measure 6]                %! baca.SegmentMaker._comment_measure_numbers()
             e2
@@ -963,7 +969,8 @@ m_Guitar_Music_Voice_I = {                                                     %
     {
 
         \tweak edge-height #'(0.7 . 0)
-        \times 4/5 {
+        \times 4/5
+        {
 
             % [13 Guitar_Music_Voice_I measure 263 / measure 7]                %! baca.SegmentMaker._comment_measure_numbers()
             e2
@@ -990,7 +997,8 @@ m_Guitar_Music_Voice_I = {                                                     %
     {
 
         \tweak edge-height #'(0.7 . 0)
-        \times 2/3 {
+        \times 2/3
+        {
 
             % [13 Guitar_Music_Voice_I measure 264 / measure 8]                %! baca.SegmentMaker._comment_measure_numbers()
             e2
@@ -1010,7 +1018,8 @@ m_Guitar_Music_Voice_I = {                                                     %
     {
 
         \tweak edge-height #'(0.7 . 0)
-        \times 2/3 {
+        \times 2/3
+        {
 
             % [13 Guitar_Music_Voice_I measure 265 / measure 9]                %! baca.SegmentMaker._comment_measure_numbers()
             e2
@@ -1037,7 +1046,8 @@ m_Guitar_Music_Voice_I = {                                                     %
     {
 
         \tweak edge-height #'(0.7 . 0)
-        \times 2/3 {
+        \times 2/3
+        {
 
             % [13 Guitar_Music_Voice_I measure 266 / measure 10]               %! baca.SegmentMaker._comment_measure_numbers()
             e2
@@ -1057,7 +1067,8 @@ m_Guitar_Music_Voice_I = {                                                     %
     {
 
         \tweak edge-height #'(0.7 . 0)
-        \times 4/5 {
+        \times 4/5
+        {
 
             % [13 Guitar_Music_Voice_I measure 267 / measure 11]               %! baca.SegmentMaker._comment_measure_numbers()
             e2
@@ -1075,7 +1086,8 @@ m_Guitar_Music_Voice_I = {                                                     %
     {
 
         \tweak edge-height #'(0.7 . 0)
-        \times 4/5 {
+        \times 4/5
+        {
 
             % [13 Guitar_Music_Voice_I measure 268 / measure 12]               %! baca.SegmentMaker._comment_measure_numbers()
             e2
@@ -1102,7 +1114,8 @@ m_Guitar_Music_Voice_I = {                                                     %
     {
 
         \tweak edge-height #'(0.7 . 0)
-        \times 2/3 {
+        \times 2/3
+        {
 
             % [13 Guitar_Music_Voice_I measure 269 / measure 13]               %! baca.SegmentMaker._comment_measure_numbers()
             e2
@@ -1122,7 +1135,8 @@ m_Guitar_Music_Voice_I = {                                                     %
     {
 
         \tweak edge-height #'(0.7 . 0)
-        \times 2/3 {
+        \times 2/3
+        {
 
             % [13 Guitar_Music_Voice_I measure 270 / measure 14]               %! baca.SegmentMaker._comment_measure_numbers()
             e2
@@ -1143,7 +1157,8 @@ m_Guitar_Music_Voice_I = {                                                     %
     {
 
         \tweak edge-height #'(0.7 . 0)
-        \times 2/3 {
+        \times 2/3
+        {
 
             % [13 Guitar_Music_Voice_I measure 271 / measure 15]               %! baca.SegmentMaker._comment_measure_numbers()
             e2
@@ -1162,7 +1177,8 @@ m_Guitar_Music_Voice_I = {                                                     %
     {
 
         \tweak edge-height #'(0.7 . 0)
-        \times 4/5 {
+        \times 4/5
+        {
 
             % [13 Guitar_Music_Voice_I measure 272 / measure 16]               %! baca.SegmentMaker._comment_measure_numbers()
             e2
@@ -1189,7 +1205,8 @@ m_Guitar_Music_Voice_I = {                                                     %
     {
 
         \tweak edge-height #'(0.7 . 0)
-        \times 2/3 {
+        \times 2/3
+        {
 
             % [13 Guitar_Music_Voice_I measure 273 / measure 17]               %! baca.SegmentMaker._comment_measure_numbers()
             e2
@@ -1215,7 +1232,8 @@ m_Guitar_Music_Voice_I = {                                                     %
     {
 
         \tweak edge-height #'(0.7 . 0)
-        \times 4/5 {
+        \times 4/5
+        {
 
             % [13 Guitar_Music_Voice_I measure 274 / measure 18]               %! baca.SegmentMaker._comment_measure_numbers()
             e2
@@ -1242,7 +1260,8 @@ m_Guitar_Music_Voice_I = {                                                     %
     {
 
         \tweak edge-height #'(0.7 . 0)
-        \times 4/5 {
+        \times 4/5
+        {
 
             % [13 Guitar_Music_Voice_I measure 275 / measure 19]               %! baca.SegmentMaker._comment_measure_numbers()
             e2
@@ -1262,7 +1281,8 @@ m_Guitar_Music_Voice_I = {                                                     %
     {
 
         \tweak edge-height #'(0.7 . 0)
-        \times 4/5 {
+        \times 4/5
+        {
 
             % [13 Guitar_Music_Voice_I measure 276 / measure 20]               %! baca.SegmentMaker._comment_measure_numbers()
             e2
@@ -1288,7 +1308,8 @@ m_Guitar_Music_Voice_I = {                                                     %
 
     {
 
-        \times 2/3 {
+        \times 2/3
+        {
 
             % [13 Guitar_Music_Voice_I measure 277 / measure 21]               %! baca.SegmentMaker._comment_measure_numbers()
             e2
@@ -1320,7 +1341,8 @@ m_Guitar_Music_Voice_I = {                                                     %
     {
 
         \tweak edge-height #'(0.7 . 0)
-        \times 4/5 {
+        \times 4/5
+        {
 
             % [13 Guitar_Music_Voice_I measure 278 / measure 22]               %! baca.SegmentMaker._comment_measure_numbers()
             e2
@@ -1347,7 +1369,8 @@ m_Guitar_Music_Voice_I = {                                                     %
     {
 
         \tweak edge-height #'(0.7 . 0)
-        \times 4/5 {
+        \times 4/5
+        {
 
             % [13 Guitar_Music_Voice_I measure 279 / measure 23]               %! baca.SegmentMaker._comment_measure_numbers()
             e2
@@ -1367,7 +1390,8 @@ m_Guitar_Music_Voice_I = {                                                     %
     {
 
         \tweak edge-height #'(0.7 . 0)
-        \times 4/5 {
+        \times 4/5
+        {
 
             % [13 Guitar_Music_Voice_I measure 280 / measure 24]               %! baca.SegmentMaker._comment_measure_numbers()
             e2
@@ -1394,7 +1418,8 @@ m_Guitar_Music_Voice_I = {                                                     %
     {
 
         \tweak edge-height #'(0.7 . 0)
-        \times 2/3 {
+        \times 2/3
+        {
 
             % [13 Guitar_Music_Voice_I measure 281 / measure 25]               %! baca.SegmentMaker._comment_measure_numbers()
             e2
@@ -1429,7 +1454,8 @@ m_Guitar_Music_Voice_I = {                                                     %
     {
 
         \tweak edge-height #'(0.7 . 0)
-        \times 2/3 {
+        \times 2/3
+        {
 
             % [13 Guitar_Music_Voice_I measure 282 / measure 26]               %! baca.SegmentMaker._comment_measure_numbers()
             e2
@@ -1473,7 +1499,8 @@ m_Guitar_Music_Voice_I = {                                                     %
     {
 
         \tweak edge-height #'(0.7 . 0)
-        \times 2/3 {
+        \times 2/3
+        {
 
             % [13 Guitar_Music_Voice_I measure 283 / measure 27]               %! baca.SegmentMaker._comment_measure_numbers()
             e2
@@ -1517,7 +1544,8 @@ m_Guitar_Music_Voice_I = {                                                     %
 
     {
 
-        \times 2/3 {
+        \times 2/3
+        {
 
             % [13 Guitar_Music_Voice_I measure 284 / measure 28]               %! baca.SegmentMaker._comment_measure_numbers()
             e2
@@ -1550,7 +1578,8 @@ m_Guitar_Music_Voice_I = {                                                     %
     {
 
         \tweak edge-height #'(0.7 . 0)
-        \times 2/3 {
+        \times 2/3
+        {
 
             % [13 Guitar_Music_Voice_I measure 285 / measure 29]               %! baca.SegmentMaker._comment_measure_numbers()
             e2
@@ -1577,7 +1606,8 @@ m_Guitar_Music_Voice_I = {                                                     %
     {
 
         \tweak edge-height #'(0.7 . 0)
-        \times 2/3 {
+        \times 2/3
+        {
 
             % [13 Guitar_Music_Voice_I measure 286 / measure 30]               %! baca.SegmentMaker._comment_measure_numbers()
             e2
@@ -1598,7 +1628,8 @@ m_Guitar_Music_Voice_I = {                                                     %
     {
 
         \tweak edge-height #'(0.7 . 0)
-        \times 2/3 {
+        \times 2/3
+        {
 
             % [13 Guitar_Music_Voice_I measure 287 / measure 31]               %! baca.SegmentMaker._comment_measure_numbers()
             e2
@@ -1624,7 +1655,8 @@ m_Guitar_Music_Voice_I = {                                                     %
 
     {
 
-        \times 2/3 {
+        \times 2/3
+        {
 
             % [13 Guitar_Music_Voice_I measure 288 / measure 32]               %! baca.SegmentMaker._comment_measure_numbers()
             e2
@@ -1657,7 +1689,8 @@ m_Guitar_Music_Voice_I = {                                                     %
     {
 
         \tweak edge-height #'(0.7 . 0)
-        \times 2/3 {
+        \times 2/3
+        {
 
             % [13 Guitar_Music_Voice_I measure 289 / measure 33]               %! baca.SegmentMaker._comment_measure_numbers()
             e2
@@ -1696,7 +1729,8 @@ m_Guitar_Music_Voice_I = {                                                     %
     {
 
         \tweak edge-height #'(0.7 . 0)
-        \times 2/3 {
+        \times 2/3
+        {
 
             % [13 Guitar_Music_Voice_I measure 290 / measure 34]               %! baca.SegmentMaker._comment_measure_numbers()
             e2
@@ -1741,7 +1775,8 @@ m_Guitar_Music_Voice_I = {                                                     %
     {
 
         \tweak edge-height #'(0.7 . 0)
-        \times 2/3 {
+        \times 2/3
+        {
 
             % [13 Guitar_Music_Voice_I measure 291 / measure 35]               %! baca.SegmentMaker._comment_measure_numbers()
             e2
@@ -1779,7 +1814,8 @@ m_Guitar_Music_Voice_I = {                                                     %
 
     {
 
-        \times 2/3 {
+        \times 2/3
+        {
 
             % [13 Guitar_Music_Voice_I measure 292 / measure 36]               %! baca.SegmentMaker._comment_measure_numbers()
             e2
@@ -1812,7 +1848,8 @@ m_Guitar_Music_Voice_I = {                                                     %
     {
 
         \tweak edge-height #'(0.7 . 0)
-        \times 2/3 {
+        \times 2/3
+        {
 
             % [13 Guitar_Music_Voice_I measure 293 / measure 37]               %! baca.SegmentMaker._comment_measure_numbers()
             e2
@@ -1840,7 +1877,8 @@ m_Guitar_Music_Voice_I = {                                                     %
     {
 
         \tweak edge-height #'(0.7 . 0)
-        \times 2/3 {
+        \times 2/3
+        {
 
             % [13 Guitar_Music_Voice_I measure 294 / measure 38]               %! baca.SegmentMaker._comment_measure_numbers()
             e2
@@ -1861,7 +1899,8 @@ m_Guitar_Music_Voice_I = {                                                     %
     {
 
         \tweak edge-height #'(0.7 . 0)
-        \times 2/3 {
+        \times 2/3
+        {
 
             % [13 Guitar_Music_Voice_I measure 295 / measure 39]               %! baca.SegmentMaker._comment_measure_numbers()
             e2
@@ -1887,7 +1926,8 @@ m_Guitar_Music_Voice_I = {                                                     %
 
     {
 
-        \times 2/3 {
+        \times 2/3
+        {
 
             % [13 Guitar_Music_Voice_I measure 296 / measure 40]               %! baca.SegmentMaker._comment_measure_numbers()
             e2
@@ -1920,7 +1960,8 @@ m_Guitar_Music_Voice_I = {                                                     %
     {
 
         \tweak edge-height #'(0.7 . 0)
-        \times 2/3 {
+        \times 2/3
+        {
 
             % [13 Guitar_Music_Voice_I measure 297 / measure 41]               %! baca.SegmentMaker._comment_measure_numbers()
             e2
@@ -1965,7 +2006,8 @@ m_Guitar_Music_Voice_I = {                                                     %
     {
 
         \tweak edge-height #'(0.7 . 0)
-        \times 2/3 {
+        \times 2/3
+        {
 
             % [13 Guitar_Music_Voice_I measure 298 / measure 42]               %! baca.SegmentMaker._comment_measure_numbers()
             e2
@@ -2009,7 +2051,8 @@ m_Guitar_Music_Voice_I = {                                                     %
 
     {
 
-        \times 2/3 {
+        \times 2/3
+        {
 
             % [13 Guitar_Music_Voice_I measure 299 / measure 43]               %! baca.SegmentMaker._comment_measure_numbers()
             e2
@@ -2042,7 +2085,8 @@ m_Guitar_Music_Voice_I = {                                                     %
     {
 
         \tweak edge-height #'(0.7 . 0)
-        \times 2/3 {
+        \times 2/3
+        {
 
             % [13 Guitar_Music_Voice_I measure 300 / measure 44]               %! baca.SegmentMaker._comment_measure_numbers()
             e2
@@ -2069,7 +2113,8 @@ m_Guitar_Music_Voice_I = {                                                     %
     {
 
         \tweak edge-height #'(0.7 . 0)
-        \times 2/3 {
+        \times 2/3
+        {
 
             % [13 Guitar_Music_Voice_I measure 301 / measure 45]               %! baca.SegmentMaker._comment_measure_numbers()
             e2
@@ -2089,7 +2134,8 @@ m_Guitar_Music_Voice_I = {                                                     %
 
     {
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             % [13 Guitar_Music_Voice_I measure 302 / measure 46]               %! baca.SegmentMaker._comment_measure_numbers()
             \once \override TextScript.staff-padding = 5.5                     %! baca.text_script_staff_padding():baca.OverrideCommand._call(1)

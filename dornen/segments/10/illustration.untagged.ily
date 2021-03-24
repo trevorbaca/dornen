@@ -197,7 +197,8 @@ j_Guitar_Music_Voice_I = {
 
     {
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             % [10 Guitar_Music_Voice_I measure 185 / measure 1]
             \override TextScript.staff-padding = 5
@@ -225,7 +226,8 @@ j_Guitar_Music_Voice_I = {
     {
 
         \tweak edge-height #'(0.7 . 0)
-        \times 4/5 {
+        \times 4/5
+        {
 
             % [10 Guitar_Music_Voice_I measure 186 / measure 2]
             gf!2
@@ -241,7 +243,8 @@ j_Guitar_Music_Voice_I = {
         }
 
         \tweak edge-height #'(0.7 . 0)
-        \times 4/5 {
+        \times 4/5
+        {
 
             gf2
             :32
@@ -256,7 +259,8 @@ j_Guitar_Music_Voice_I = {
     {
 
         \tweak edge-height #'(0.7 . 0)
-        \times 4/5 {
+        \times 4/5
+        {
 
             % [10 Guitar_Music_Voice_I measure 187 / measure 3]
             gf2
@@ -274,7 +278,8 @@ j_Guitar_Music_Voice_I = {
     {
 
         \tweak edge-height #'(0.7 . 0)
-        \times 2/3 {
+        \times 2/3
+        {
 
             % [10 Guitar_Music_Voice_I measure 188 / measure 4]
             gf2
@@ -294,7 +299,8 @@ j_Guitar_Music_Voice_I = {
     {
 
         \tweak edge-height #'(0.7 . 0)
-        \times 2/3 {
+        \times 2/3
+        {
 
             % [10 Guitar_Music_Voice_I measure 189 / measure 5]
             gf2
@@ -312,7 +318,8 @@ j_Guitar_Music_Voice_I = {
     {
 
         \tweak edge-height #'(0.7 . 0)
-        \times 2/3 {
+        \times 2/3
+        {
 
             % [10 Guitar_Music_Voice_I measure 190 / measure 6]
             gf2
@@ -328,7 +335,8 @@ j_Guitar_Music_Voice_I = {
     {
 
         \tweak edge-height #'(0.7 . 0)
-        \times 4/5 {
+        \times 4/5
+        {
 
             % [10 Guitar_Music_Voice_I measure 191 / measure 7]
             gf2
@@ -349,7 +357,8 @@ j_Guitar_Music_Voice_I = {
     {
 
         \tweak edge-height #'(0.7 . 0)
-        \times 4/5 {
+        \times 4/5
+        {
 
             % [10 Guitar_Music_Voice_I measure 192 / measure 8]
             gf2
@@ -367,7 +376,8 @@ j_Guitar_Music_Voice_I = {
     {
 
         \tweak edge-height #'(0.7 . 0)
-        \times 2/3 {
+        \times 2/3
+        {
 
             % [10 Guitar_Music_Voice_I measure 193 / measure 9]
             gf2
@@ -387,7 +397,8 @@ j_Guitar_Music_Voice_I = {
     {
 
         \tweak edge-height #'(0.7 . 0)
-        \times 2/3 {
+        \times 2/3
+        {
 
             % [10 Guitar_Music_Voice_I measure 194 / measure 10]
             gf2
@@ -405,7 +416,8 @@ j_Guitar_Music_Voice_I = {
     {
 
         \tweak edge-height #'(0.7 . 0)
-        \times 2/3 {
+        \times 2/3
+        {
 
             % [10 Guitar_Music_Voice_I measure 195 / measure 11]
             gf2
@@ -421,7 +433,8 @@ j_Guitar_Music_Voice_I = {
     {
 
         \tweak edge-height #'(0.7 . 0)
-        \times 4/5 {
+        \times 4/5
+        {
 
             % [10 Guitar_Music_Voice_I measure 196 / measure 12]
             gf2
@@ -442,7 +455,8 @@ j_Guitar_Music_Voice_I = {
     {
 
         \tweak edge-height #'(0.7 . 0)
-        \times 4/5 {
+        \times 4/5
+        {
 
             % [10 Guitar_Music_Voice_I measure 197 / measure 13]
             gf2
@@ -460,7 +474,8 @@ j_Guitar_Music_Voice_I = {
     {
 
         \tweak edge-height #'(0.7 . 0)
-        \times 2/3 {
+        \times 2/3
+        {
 
             % [10 Guitar_Music_Voice_I measure 198 / measure 14]
             gf2
@@ -480,7 +495,8 @@ j_Guitar_Music_Voice_I = {
     {
 
         \tweak edge-height #'(0.7 . 0)
-        \times 4/5 {
+        \times 4/5
+        {
 
             % [10 Guitar_Music_Voice_I measure 199 / measure 15]
             gf2
@@ -498,7 +514,8 @@ j_Guitar_Music_Voice_I = {
     {
 
         \tweak edge-height #'(0.7 . 0)
-        \times 2/3 {
+        \times 2/3
+        {
 
             % [10 Guitar_Music_Voice_I measure 200 / measure 16]
             gf2
@@ -518,7 +535,8 @@ j_Guitar_Music_Voice_I = {
     {
 
         \tweak edge-height #'(0.7 . 0)
-        \times 4/5 {
+        \times 4/5
+        {
 
             % [10 Guitar_Music_Voice_I measure 201 / measure 17]
             gf2
@@ -536,7 +554,8 @@ j_Guitar_Music_Voice_I = {
     {
 
         \tweak edge-height #'(0.7 . 0)
-        \times 2/3 {
+        \times 2/3
+        {
 
             % [10 Guitar_Music_Voice_I measure 202 / measure 18]
             gf2
@@ -556,7 +575,8 @@ j_Guitar_Music_Voice_I = {
     {
 
         \tweak edge-height #'(0.7 . 0)
-        \times 2/3 {
+        \times 2/3
+        {
 
             % [10 Guitar_Music_Voice_I measure 203 / measure 19]
             gf2
@@ -572,7 +592,8 @@ j_Guitar_Music_Voice_I = {
     {
 
         \tweak edge-height #'(0.7 . 0)
-        \times 2/3 {
+        \times 2/3
+        {
 
             % [10 Guitar_Music_Voice_I measure 204 / measure 20]
             gf2
@@ -588,7 +609,8 @@ j_Guitar_Music_Voice_I = {
     {
 
         \tweak edge-height #'(0.7 . 0)
-        \times 4/5 {
+        \times 4/5
+        {
 
             % [10 Guitar_Music_Voice_I measure 205 / measure 21]
             gf2
@@ -601,7 +623,8 @@ j_Guitar_Music_Voice_I = {
         }
 
         \tweak edge-height #'(0.7 . 0)
-        \times 4/5 {
+        \times 4/5
+        {
 
             gf2
             :32
@@ -616,7 +639,8 @@ j_Guitar_Music_Voice_I = {
     {
 
         \tweak edge-height #'(0.7 . 0)
-        \times 4/5 {
+        \times 4/5
+        {
 
             % [10 Guitar_Music_Voice_I measure 206 / measure 22]
             gf2
@@ -631,7 +655,8 @@ j_Guitar_Music_Voice_I = {
         }
 
         \tweak edge-height #'(0.7 . 0)
-        \times 4/5 {
+        \times 4/5
+        {
 
             gf2
             :32

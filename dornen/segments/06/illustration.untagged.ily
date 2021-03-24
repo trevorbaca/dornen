@@ -137,7 +137,8 @@ f_Guitar_Music_Voice_I = {
 
     {
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             % [06 Guitar_Music_Voice_I measure 120 / measure 1]
             \override Beam.positions = #'(10 . 10)
@@ -172,7 +173,8 @@ f_Guitar_Music_Voice_I = {
     {
 
         \tweak text #tuplet-number::calc-fraction-text
-        \times 5/6 {
+        \times 5/6
+        {
 
             % [06 Guitar_Music_Voice_I measure 122 / measure 3]
             \set stemLeftBeamCount = 1
@@ -203,7 +205,8 @@ f_Guitar_Music_Voice_I = {
 
         }
 
-        \times 4/5 {
+        \times 4/5
+        {
 
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
@@ -230,7 +233,8 @@ f_Guitar_Music_Voice_I = {
         }
 
         \tweak text #tuplet-number::calc-fraction-text
-        \times 3/4 {
+        \times 3/4
+        {
 
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
@@ -259,7 +263,8 @@ f_Guitar_Music_Voice_I = {
 
     {
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             % [06 Guitar_Music_Voice_I measure 124 / measure 5]
             \set stemLeftBeamCount = 1
@@ -280,7 +285,8 @@ f_Guitar_Music_Voice_I = {
 
     {
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             % [06 Guitar_Music_Voice_I measure 127 / measure 8]
             r8
@@ -296,7 +302,8 @@ f_Guitar_Music_Voice_I = {
 
     {
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             % [06 Guitar_Music_Voice_I measure 128 / measure 9]
             \set stemLeftBeamCount = 0
@@ -317,7 +324,8 @@ f_Guitar_Music_Voice_I = {
 
         }
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
@@ -336,7 +344,8 @@ f_Guitar_Music_Voice_I = {
 
         }
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
@@ -355,7 +364,8 @@ f_Guitar_Music_Voice_I = {
 
         }
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
@@ -374,7 +384,8 @@ f_Guitar_Music_Voice_I = {
 
         }
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
@@ -393,7 +404,8 @@ f_Guitar_Music_Voice_I = {
 
         }
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
@@ -412,7 +424,8 @@ f_Guitar_Music_Voice_I = {
 
         }
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
@@ -431,7 +444,8 @@ f_Guitar_Music_Voice_I = {
 
         }
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
@@ -450,7 +464,8 @@ f_Guitar_Music_Voice_I = {
 
         }
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
@@ -469,7 +484,8 @@ f_Guitar_Music_Voice_I = {
 
         }
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
@@ -493,7 +509,8 @@ f_Guitar_Music_Voice_I = {
 
     {
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             % [06 Guitar_Music_Voice_I measure 129 / measure 10]
             \set stemLeftBeamCount = 0
@@ -519,7 +536,8 @@ f_Guitar_Music_Voice_I = {
 
         }
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
@@ -543,7 +561,8 @@ f_Guitar_Music_Voice_I = {
 
         }
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
@@ -567,7 +586,8 @@ f_Guitar_Music_Voice_I = {
 
         }
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
@@ -591,7 +611,8 @@ f_Guitar_Music_Voice_I = {
 
         }
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
@@ -615,7 +636,8 @@ f_Guitar_Music_Voice_I = {
 
         }
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
@@ -639,7 +661,8 @@ f_Guitar_Music_Voice_I = {
 
         }
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
@@ -663,7 +686,8 @@ f_Guitar_Music_Voice_I = {
 
         }
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
@@ -687,7 +711,8 @@ f_Guitar_Music_Voice_I = {
 
         }
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
@@ -711,7 +736,8 @@ f_Guitar_Music_Voice_I = {
 
         }
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
@@ -740,7 +766,8 @@ f_Guitar_Music_Voice_I = {
 
     {
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             % [06 Guitar_Music_Voice_I measure 130 / measure 11]
             \set stemLeftBeamCount = 0
@@ -771,7 +798,8 @@ f_Guitar_Music_Voice_I = {
 
         }
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
@@ -800,7 +828,8 @@ f_Guitar_Music_Voice_I = {
 
         }
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
@@ -829,7 +858,8 @@ f_Guitar_Music_Voice_I = {
 
         }
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
@@ -858,7 +888,8 @@ f_Guitar_Music_Voice_I = {
 
         }
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
@@ -887,7 +918,8 @@ f_Guitar_Music_Voice_I = {
 
         }
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
@@ -916,7 +948,8 @@ f_Guitar_Music_Voice_I = {
 
         }
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
@@ -945,7 +978,8 @@ f_Guitar_Music_Voice_I = {
 
         }
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
@@ -974,7 +1008,8 @@ f_Guitar_Music_Voice_I = {
 
         }
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
@@ -1003,7 +1038,8 @@ f_Guitar_Music_Voice_I = {
 
         }
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
@@ -1037,7 +1073,8 @@ f_Guitar_Music_Voice_I = {
 
     {
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             % [06 Guitar_Music_Voice_I measure 131 / measure 12]
             \set stemLeftBeamCount = 0
@@ -1073,7 +1110,8 @@ f_Guitar_Music_Voice_I = {
 
         }
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
@@ -1107,7 +1145,8 @@ f_Guitar_Music_Voice_I = {
 
         }
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
@@ -1141,7 +1180,8 @@ f_Guitar_Music_Voice_I = {
 
         }
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
@@ -1175,7 +1215,8 @@ f_Guitar_Music_Voice_I = {
 
         }
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
@@ -1209,7 +1250,8 @@ f_Guitar_Music_Voice_I = {
 
         }
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
@@ -1243,7 +1285,8 @@ f_Guitar_Music_Voice_I = {
 
         }
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
@@ -1277,7 +1320,8 @@ f_Guitar_Music_Voice_I = {
 
         }
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
@@ -1311,7 +1355,8 @@ f_Guitar_Music_Voice_I = {
 
         }
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
@@ -1345,7 +1390,8 @@ f_Guitar_Music_Voice_I = {
 
         }
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
@@ -1384,7 +1430,8 @@ f_Guitar_Music_Voice_I = {
 
     {
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             % [06 Guitar_Music_Voice_I measure 132 / measure 13]
             \set stemLeftBeamCount = 0
@@ -1550,7 +1597,8 @@ f_Guitar_Music_Voice_I = {
 
         }
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
@@ -1709,7 +1757,8 @@ f_Guitar_Music_Voice_I = {
 
         }
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
@@ -1868,7 +1917,8 @@ f_Guitar_Music_Voice_I = {
 
         }
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
@@ -2135,7 +2185,8 @@ f_Guitar_Music_Voice_III = {
 
     {
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             % [06 Guitar_Music_Voice_III measure 121 / measure 2]
             f16
@@ -2151,7 +2202,8 @@ f_Guitar_Music_Voice_III = {
 
     {
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             % [06 Guitar_Music_Voice_III measure 125 / measure 6]
             a16
@@ -2244,7 +2296,8 @@ f_Guitar_Music_Voice_IV = {
     {
 
         \tweak edge-height #'(0.7 . 0)
-        \times 4/5 {
+        \times 4/5
+        {
 
             % [06 Guitar_Music_Voice_IV measure 123 / measure 4]
             g''16
@@ -2268,7 +2321,8 @@ f_Guitar_Music_Voice_IV = {
     {
 
         \tweak edge-height #'(0.7 . 0)
-        \times 4/5 {
+        \times 4/5
+        {
 
             % [06 Guitar_Music_Voice_IV measure 126 / measure 7]
             b'16

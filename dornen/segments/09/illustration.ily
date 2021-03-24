@@ -1050,7 +1050,8 @@ i_Guitar_Music_Voice_III = {                                                   %
                         c'8.
                     }
                 >>
-                \layout {
+                \layout
+                {
                     indent = 0
                     ragged-right = ##t
                 }
@@ -1122,7 +1123,8 @@ i_Guitar_Music_Voice_III = {                                                   %
                         c'8.
                     }
                 >>
-                \layout {
+                \layout
+                {
                     indent = 0
                     ragged-right = ##t
                 }
@@ -1239,7 +1241,8 @@ i_Guitar_Music_Voice_III = {                                                   %
                         c'8.
                     }
                 >>
-                \layout {
+                \layout
+                {
                     indent = 0
                     ragged-right = ##t
                 }

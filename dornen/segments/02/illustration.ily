@@ -322,7 +322,8 @@ b_Guitar_Music_Voice_I = {                                                     %
                         c'16
                     }
                 >>
-                \layout {
+                \layout
+                {
                     indent = 0
                     ragged-right = ##t
                 }
@@ -392,7 +393,8 @@ b_Guitar_Music_Voice_I = {                                                     %
                         c'16
                     }
                 >>
-                \layout {
+                \layout
+                {
                     indent = 0
                     ragged-right = ##t
                 }
@@ -447,7 +449,8 @@ b_Guitar_Music_Voice_I = {                                                     %
                         c'16
                     }
                 >>
-                \layout {
+                \layout
+                {
                     indent = 0
                     ragged-right = ##t
                 }
@@ -502,7 +505,8 @@ b_Guitar_Music_Voice_I = {                                                     %
                         c'16
                     }
                 >>
-                \layout {
+                \layout
+                {
                     indent = 0
                     ragged-right = ##t
                 }

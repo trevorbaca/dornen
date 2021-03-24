@@ -713,7 +713,8 @@ a_Guitar_Music_Voice_III = {
                         c'16..
                     }
                 >>
-                \layout {
+                \layout
+                {
                     indent = 0
                     ragged-right = ##t
                 }
@@ -777,7 +778,8 @@ a_Guitar_Music_Voice_III = {
                         c'8.
                     }
                 >>
-                \layout {
+                \layout
+                {
                     indent = 0
                     ragged-right = ##t
                 }

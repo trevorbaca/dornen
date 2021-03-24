@@ -553,7 +553,8 @@ e_Guitar_Music_Voice_I = {                                                     %
 
     {
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             % [05 Guitar_Music_Voice_I measure 90 / measure 1]                 %! baca.SegmentMaker._comment_measure_numbers()
             \override Score.RehearsalMark.extra-offset = #'(-10 . -10)         %! baca.literal():baca.IndicatorCommand._call()
@@ -590,7 +591,8 @@ e_Guitar_Music_Voice_I = {                                                     %
 
     {
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             % [05 Guitar_Music_Voice_I measure 95 / measure 6]                 %! baca.SegmentMaker._comment_measure_numbers()
             \set stemLeftBeamCount = 1
@@ -612,7 +614,8 @@ e_Guitar_Music_Voice_I = {                                                     %
 
     {
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             % [05 Guitar_Music_Voice_I measure 100 / measure 11]               %! baca.SegmentMaker._comment_measure_numbers()
             d'32.
@@ -634,7 +637,8 @@ e_Guitar_Music_Voice_I = {                                                     %
 
     {
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             % [05 Guitar_Music_Voice_I measure 104 / measure 15]               %! baca.SegmentMaker._comment_measure_numbers()
             \set stemLeftBeamCount = 1
@@ -656,7 +660,8 @@ e_Guitar_Music_Voice_I = {                                                     %
 
     {
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             % [05 Guitar_Music_Voice_I measure 109 / measure 20]               %! baca.SegmentMaker._comment_measure_numbers()
             ef'!32.
@@ -678,7 +683,8 @@ e_Guitar_Music_Voice_I = {                                                     %
 
     {
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             % [05 Guitar_Music_Voice_I measure 116 / measure 27]               %! baca.SegmentMaker._comment_measure_numbers()
             \set stemLeftBeamCount = 1
@@ -768,7 +774,8 @@ e_Guitar_Music_Voice_II = {                                                    %
 
     {
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             % [05 Guitar_Music_Voice_II measure 94 / measure 5]                %! baca.SegmentMaker._comment_measure_numbers()
             \set stemLeftBeamCount = 0
@@ -801,7 +808,8 @@ e_Guitar_Music_Voice_II = {                                                    %
 
     {
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             % [05 Guitar_Music_Voice_II measure 99 / measure 10]               %! baca.SegmentMaker._comment_measure_numbers()
             \set stemLeftBeamCount = 0
@@ -834,7 +842,8 @@ e_Guitar_Music_Voice_II = {                                                    %
 
     {
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             % [05 Guitar_Music_Voice_II measure 108 / measure 19]              %! baca.SegmentMaker._comment_measure_numbers()
             \set stemLeftBeamCount = 0
@@ -868,7 +877,8 @@ e_Guitar_Music_Voice_II = {                                                    %
 
     {
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             % [05 Guitar_Music_Voice_II measure 112 / measure 23]              %! baca.SegmentMaker._comment_measure_numbers()
             r8
@@ -885,7 +895,8 @@ e_Guitar_Music_Voice_II = {                                                    %
     {
 
         \tweak edge-height #'(0.7 . 0)
-        \times 4/5 {
+        \times 4/5
+        {
 
             % [05 Guitar_Music_Voice_II measure 113 / measure 24]              %! baca.SegmentMaker._comment_measure_numbers()
             \once \override Stem.direction = #up                               %! baca.stem_up():baca.OverrideCommand._call(1)
@@ -907,7 +918,8 @@ e_Guitar_Music_Voice_II = {                                                    %
 
     {
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             % [05 Guitar_Music_Voice_II measure 115 / measure 26]              %! baca.SegmentMaker._comment_measure_numbers()
             \set stemLeftBeamCount = 0
@@ -1011,7 +1023,8 @@ e_Guitar_Music_Voice_III = {                                                   %
 
     {
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             % [05 Guitar_Music_Voice_III measure 92 / measure 3]               %! baca.SegmentMaker._comment_measure_numbers()
             c'16
@@ -1028,7 +1041,8 @@ e_Guitar_Music_Voice_III = {                                                   %
 
     {
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             % [05 Guitar_Music_Voice_III measure 97 / measure 8]               %! baca.SegmentMaker._comment_measure_numbers()
             \set stemLeftBeamCount = 2
@@ -1046,7 +1060,8 @@ e_Guitar_Music_Voice_III = {                                                   %
 
     {
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             % [05 Guitar_Music_Voice_III measure 102 / measure 13]             %! baca.SegmentMaker._comment_measure_numbers()
             a16
@@ -1063,7 +1078,8 @@ e_Guitar_Music_Voice_III = {                                                   %
 
     {
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             % [05 Guitar_Music_Voice_III measure 106 / measure 17]             %! baca.SegmentMaker._comment_measure_numbers()
             c'16
@@ -1080,7 +1096,8 @@ e_Guitar_Music_Voice_III = {                                                   %
 
     {
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             % [05 Guitar_Music_Voice_III measure 111 / measure 22]             %! baca.SegmentMaker._comment_measure_numbers()
             \set stemLeftBeamCount = 2
@@ -1098,7 +1115,8 @@ e_Guitar_Music_Voice_III = {                                                   %
 
     {
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             % [05 Guitar_Music_Voice_III measure 118 / measure 29]             %! baca.SegmentMaker._comment_measure_numbers()
             a16
@@ -1178,7 +1196,8 @@ e_Guitar_Music_Voice_IV = {                                                    %
     {
 
         \tweak edge-height #'(0.7 . 0)
-        \times 4/5 {
+        \times 4/5
+        {
 
             % [05 Guitar_Music_Voice_IV measure 91 / measure 2]                %! baca.SegmentMaker._comment_measure_numbers()
             b'16
@@ -1204,7 +1223,8 @@ e_Guitar_Music_Voice_IV = {                                                    %
     {
 
         \tweak edge-height #'(0.7 . 0)
-        \times 4/5 {
+        \times 4/5
+        {
 
             % [05 Guitar_Music_Voice_IV measure 93 / measure 4]                %! baca.SegmentMaker._comment_measure_numbers()
             \set stemLeftBeamCount = 1
@@ -1234,7 +1254,8 @@ e_Guitar_Music_Voice_IV = {                                                    %
     {
 
         \tweak edge-height #'(0.7 . 0)
-        \times 4/5 {
+        \times 4/5
+        {
 
             % [05 Guitar_Music_Voice_IV measure 96 / measure 7]                %! baca.SegmentMaker._comment_measure_numbers()
             a'16
@@ -1260,7 +1281,8 @@ e_Guitar_Music_Voice_IV = {                                                    %
     {
 
         \tweak edge-height #'(0.7 . 0)
-        \times 4/5 {
+        \times 4/5
+        {
 
             % [05 Guitar_Music_Voice_IV measure 98 / measure 9]                %! baca.SegmentMaker._comment_measure_numbers()
             \set stemLeftBeamCount = 1
@@ -1286,7 +1308,8 @@ e_Guitar_Music_Voice_IV = {                                                    %
     {
 
         \tweak edge-height #'(0.7 . 0)
-        \times 4/5 {
+        \times 4/5
+        {
 
             % [05 Guitar_Music_Voice_IV measure 101 / measure 12]              %! baca.SegmentMaker._comment_measure_numbers()
             c''16
@@ -1312,7 +1335,8 @@ e_Guitar_Music_Voice_IV = {                                                    %
     {
 
         \tweak edge-height #'(0.7 . 0)
-        \times 4/5 {
+        \times 4/5
+        {
 
             % [05 Guitar_Music_Voice_IV measure 103 / measure 14]              %! baca.SegmentMaker._comment_measure_numbers()
             \set stemLeftBeamCount = 1
@@ -1338,7 +1362,8 @@ e_Guitar_Music_Voice_IV = {                                                    %
     {
 
         \tweak edge-height #'(0.7 . 0)
-        \times 4/5 {
+        \times 4/5
+        {
 
             % [05 Guitar_Music_Voice_IV measure 105 / measure 16]              %! baca.SegmentMaker._comment_measure_numbers()
             b'16
@@ -1364,7 +1389,8 @@ e_Guitar_Music_Voice_IV = {                                                    %
     {
 
         \tweak edge-height #'(0.7 . 0)
-        \times 4/5 {
+        \times 4/5
+        {
 
             % [05 Guitar_Music_Voice_IV measure 107 / measure 18]              %! baca.SegmentMaker._comment_measure_numbers()
             \set stemLeftBeamCount = 1
@@ -1394,7 +1420,8 @@ e_Guitar_Music_Voice_IV = {                                                    %
     {
 
         \tweak edge-height #'(0.7 . 0)
-        \times 4/5 {
+        \times 4/5
+        {
 
             % [05 Guitar_Music_Voice_IV measure 110 / measure 21]              %! baca.SegmentMaker._comment_measure_numbers()
             a'16
@@ -1420,7 +1447,8 @@ e_Guitar_Music_Voice_IV = {                                                    %
     {
 
         \tweak edge-height #'(0.7 . 0)
-        \times 4/5 {
+        \times 4/5
+        {
 
             % [05 Guitar_Music_Voice_IV measure 114 / measure 25]              %! baca.SegmentMaker._comment_measure_numbers()
             \set stemLeftBeamCount = 1
@@ -1446,7 +1474,8 @@ e_Guitar_Music_Voice_IV = {                                                    %
     {
 
         \tweak edge-height #'(0.7 . 0)
-        \times 4/5 {
+        \times 4/5
+        {
 
             % [05 Guitar_Music_Voice_IV measure 117 / measure 28]              %! baca.SegmentMaker._comment_measure_numbers()
             c''16
@@ -1472,7 +1501,8 @@ e_Guitar_Music_Voice_IV = {                                                    %
     {
 
         \tweak edge-height #'(0.7 . 0)
-        \times 4/5 {
+        \times 4/5
+        {
 
             % [05 Guitar_Music_Voice_IV measure 119 / measure 30]              %! baca.SegmentMaker._comment_measure_numbers()
             \set stemLeftBeamCount = 1

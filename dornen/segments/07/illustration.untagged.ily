@@ -217,7 +217,8 @@ g_Guitar_Music_Voice_I = {
     {
 
         \tweak edge-height #'(0.7 . 0)
-        \times 4/5 {
+        \times 4/5
+        {
 
             % [07 Guitar_Music_Voice_I measure 133 / measure 1]
             \override Beam.positions = #'(8 . 8)
@@ -253,7 +254,8 @@ g_Guitar_Music_Voice_I = {
     {
 
         \tweak edge-height #'(0.7 . 0)
-        \times 4/5 {
+        \times 4/5
+        {
 
             % [07 Guitar_Music_Voice_I measure 137 / measure 5]
             \set stemLeftBeamCount = 1
@@ -278,7 +280,8 @@ g_Guitar_Music_Voice_I = {
     {
 
         \tweak edge-height #'(0.7 . 0)
-        \times 4/5 {
+        \times 4/5
+        {
 
             % [07 Guitar_Music_Voice_I measure 141 / measure 9]
             \set stemLeftBeamCount = 1
@@ -301,7 +304,8 @@ g_Guitar_Music_Voice_I = {
 
     {
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             % [07 Guitar_Music_Voice_I measure 144 / measure 12]
             \set stemLeftBeamCount = 0
@@ -332,7 +336,8 @@ g_Guitar_Music_Voice_I = {
 
     {
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             % [07 Guitar_Music_Voice_I measure 148 / measure 16]
             \set stemLeftBeamCount = 1
@@ -362,7 +367,8 @@ g_Guitar_Music_Voice_I = {
 
     {
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             % [07 Guitar_Music_Voice_I measure 150 / measure 18]
             \set stemLeftBeamCount = 1
@@ -392,7 +398,8 @@ g_Guitar_Music_Voice_I = {
 
     {
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             % [07 Guitar_Music_Voice_I measure 154 / measure 22]
             \set stemLeftBeamCount = 1
@@ -459,7 +466,8 @@ g_Guitar_Music_Voice_II = {
 
     {
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             % [07 Guitar_Music_Voice_II measure 134 / measure 2]
             \once \override TextScript.direction = #down
@@ -476,7 +484,8 @@ g_Guitar_Music_Voice_II = {
 
     {
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             % [07 Guitar_Music_Voice_II measure 136 / measure 4]
             \set stemLeftBeamCount = 2
@@ -492,7 +501,8 @@ g_Guitar_Music_Voice_II = {
 
     {
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             % [07 Guitar_Music_Voice_II measure 138 / measure 6]
             \set stemLeftBeamCount = 2
@@ -508,7 +518,8 @@ g_Guitar_Music_Voice_II = {
 
     {
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             % [07 Guitar_Music_Voice_II measure 140 / measure 8]
             \set stemLeftBeamCount = 2
@@ -524,7 +535,8 @@ g_Guitar_Music_Voice_II = {
 
     {
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             % [07 Guitar_Music_Voice_II measure 142 / measure 10]
             bf!16
@@ -538,7 +550,8 @@ g_Guitar_Music_Voice_II = {
     {
 
         \tweak edge-height #'(0.7 . 0)
-        \times 2/3 {
+        \times 2/3
+        {
 
             % [07 Guitar_Music_Voice_II measure 143 / measure 11]
             \override Beam.positions = #'(-7 . -7)
@@ -555,7 +568,8 @@ g_Guitar_Music_Voice_II = {
     {
 
         \tweak edge-height #'(0.7 . 0)
-        \times 2/3 {
+        \times 2/3
+        {
 
             % [07 Guitar_Music_Voice_II measure 145 / measure 13]
             \set stemLeftBeamCount = 2
@@ -572,7 +586,8 @@ g_Guitar_Music_Voice_II = {
     {
 
         \tweak edge-height #'(0.7 . 0)
-        \times 2/3 {
+        \times 2/3
+        {
 
             % [07 Guitar_Music_Voice_II measure 147 / measure 15]
             \set stemLeftBeamCount = 2
@@ -589,7 +604,8 @@ g_Guitar_Music_Voice_II = {
     {
 
         \tweak edge-height #'(0.7 . 0)
-        \times 2/3 {
+        \times 2/3
+        {
 
             % [07 Guitar_Music_Voice_II measure 149 / measure 17]
             \set stemLeftBeamCount = 2
@@ -606,7 +622,8 @@ g_Guitar_Music_Voice_II = {
     {
 
         \tweak edge-height #'(0.7 . 0)
-        \times 2/3 {
+        \times 2/3
+        {
 
             % [07 Guitar_Music_Voice_II measure 151 / measure 19]
             \set stemLeftBeamCount = 2
@@ -623,7 +640,8 @@ g_Guitar_Music_Voice_II = {
     {
 
         \tweak edge-height #'(0.7 . 0)
-        \times 2/3 {
+        \times 2/3
+        {
 
             % [07 Guitar_Music_Voice_II measure 153 / measure 21]
             a16
@@ -697,7 +715,8 @@ g_Guitar_Music_Voice_III = {
     {
 
         \tweak edge-height #'(0.7 . 0)
-        \times 4/7 {
+        \times 4/7
+        {
 
             % [07 Guitar_Music_Voice_III measure 135 / measure 3]
             \override Stem.direction = #up
@@ -723,7 +742,8 @@ g_Guitar_Music_Voice_III = {
     {
 
         \tweak edge-height #'(0.7 . 0)
-        \times 4/7 {
+        \times 4/7
+        {
 
             % [07 Guitar_Music_Voice_III measure 139 / measure 7]
             \override Stem.direction = #up
@@ -749,7 +769,8 @@ g_Guitar_Music_Voice_III = {
     {
 
         \tweak edge-height #'(0.7 . 0)
-        \times 4/7 {
+        \times 4/7
+        {
 
             % [07 Guitar_Music_Voice_III measure 146 / measure 14]
             \override Stem.direction = #up
@@ -778,7 +799,8 @@ g_Guitar_Music_Voice_III = {
     {
 
         \tweak edge-height #'(0.7 . 0)
-        \times 4/7 {
+        \times 4/7
+        {
 
             % [07 Guitar_Music_Voice_III measure 152 / measure 20]
             \override Stem.direction = #up

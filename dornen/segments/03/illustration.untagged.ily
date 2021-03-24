@@ -351,7 +351,8 @@ c_Guitar_Music_Voice_I = {
                     ragged-right = ##t
                 }
             }
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             % [03 Guitar_Music_Voice_I measure 35 / measure 1]
             \once \override Beam.grow-direction = #left
@@ -432,7 +433,8 @@ c_Guitar_Music_Voice_I = {
                     ragged-right = ##t
                 }
             }
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             % [03 Guitar_Music_Voice_I measure 39 / measure 5]
             \override Beam.positions = #'(7 . 7)
@@ -492,7 +494,8 @@ c_Guitar_Music_Voice_I = {
                     ragged-right = ##t
                 }
             }
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             \once \override Beam.grow-direction = #right
             b'64 * 2048/1024
@@ -520,7 +523,8 @@ c_Guitar_Music_Voice_I = {
 
     {
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             % [03 Guitar_Music_Voice_I measure 43 / measure 9]
             \set stemLeftBeamCount = 0
@@ -557,7 +561,8 @@ c_Guitar_Music_Voice_I = {
 
     {
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             % [03 Guitar_Music_Voice_I measure 45 / measure 11]
             \set stemLeftBeamCount = 1
@@ -588,7 +593,8 @@ c_Guitar_Music_Voice_I = {
 
     {
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             % [03 Guitar_Music_Voice_I measure 47 / measure 13]
             \set stemLeftBeamCount = 1
@@ -693,7 +699,8 @@ c_Guitar_Music_Voice_I = {
                     ragged-right = ##t
                 }
             }
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             % [03 Guitar_Music_Voice_I measure 50 / measure 16]
             \override Beam.positions = #'(7 . 7)
@@ -736,7 +743,8 @@ c_Guitar_Music_Voice_I = {
 
     {
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             % [03 Guitar_Music_Voice_I measure 51 / measure 17]
             \set stemLeftBeamCount = 0
@@ -828,7 +836,8 @@ c_Guitar_Music_Voice_I = {
 
     {
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             % [03 Guitar_Music_Voice_I measure 53 / measure 19]
             \set stemLeftBeamCount = 1
@@ -875,7 +884,8 @@ c_Guitar_Music_Voice_I = {
 
     {
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             % [03 Guitar_Music_Voice_I measure 57 / measure 23]
             \set stemLeftBeamCount = 0
@@ -940,9 +950,11 @@ c_Guitar_Music_Voice_I = {
 
     {
 
-        \times 2/3 {
+        \times 2/3
+        {
 
-            \scaleDurations #'(1 . 1) {
+            \scaleDurations #'(1 . 1)
+            {
 
                 % [03 Guitar_Music_Voice_I measure 58 / measure 24]
                 \set stemLeftBeamCount = 0
@@ -1036,7 +1048,8 @@ c_Guitar_Music_Voice_I = {
 
     {
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             % [03 Guitar_Music_Voice_I measure 59 / measure 25]
             \set stemLeftBeamCount = 0
@@ -1172,7 +1185,8 @@ c_Guitar_Music_Voice_I = {
                     ragged-right = ##t
                 }
             }
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             % [03 Guitar_Music_Voice_I measure 67 / measure 33]
             \override Beam.positions = #'(7 . 7)
@@ -1215,7 +1229,8 @@ c_Guitar_Music_Voice_I = {
 
     {
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             % [03 Guitar_Music_Voice_I measure 68 / measure 34]
             \set stemLeftBeamCount = 0
@@ -1372,7 +1387,8 @@ c_Guitar_Music_Voice_II = {
 
     {
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             % [03 Guitar_Music_Voice_II measure 37 / measure 3]
             \set stemLeftBeamCount = 0
@@ -1404,7 +1420,8 @@ c_Guitar_Music_Voice_II = {
 
     {
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             % [03 Guitar_Music_Voice_II measure 41 / measure 7]
             \set stemLeftBeamCount = 1
@@ -1437,7 +1454,8 @@ c_Guitar_Music_Voice_II = {
 
     {
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             % [03 Guitar_Music_Voice_II measure 48 / measure 14]
             \set stemLeftBeamCount = 0
@@ -1469,7 +1487,8 @@ c_Guitar_Music_Voice_II = {
 
     {
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             % [03 Guitar_Music_Voice_II measure 54 / measure 20]
             \set stemLeftBeamCount = 1
@@ -1502,7 +1521,8 @@ c_Guitar_Music_Voice_II = {
 
     {
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             % [03 Guitar_Music_Voice_II measure 56 / measure 22]
             \set stemLeftBeamCount = 0
@@ -1534,7 +1554,8 @@ c_Guitar_Music_Voice_II = {
 
     {
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             % [03 Guitar_Music_Voice_II measure 60 / measure 26]
             \set stemLeftBeamCount = 1
@@ -1563,7 +1584,8 @@ c_Guitar_Music_Voice_II = {
 
     {
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             % [03 Guitar_Music_Voice_II measure 61 / measure 27]
             \set stemLeftBeamCount = 1
@@ -1591,7 +1613,8 @@ c_Guitar_Music_Voice_II = {
 
     {
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             % [03 Guitar_Music_Voice_II measure 62 / measure 28]
             \set stemLeftBeamCount = 0
@@ -1620,7 +1643,8 @@ c_Guitar_Music_Voice_II = {
 
     {
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             % [03 Guitar_Music_Voice_II measure 63 / measure 29]
             \set stemLeftBeamCount = 1
@@ -1647,7 +1671,8 @@ c_Guitar_Music_Voice_II = {
 
     {
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             % [03 Guitar_Music_Voice_II measure 64 / measure 30]
             \set stemLeftBeamCount = 1
@@ -1674,7 +1699,8 @@ c_Guitar_Music_Voice_II = {
 
     {
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             % [03 Guitar_Music_Voice_II measure 65 / measure 31]
             \set stemLeftBeamCount = 1
@@ -1702,7 +1728,8 @@ c_Guitar_Music_Voice_II = {
 
     {
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             % [03 Guitar_Music_Voice_II measure 66 / measure 32]
             \set stemLeftBeamCount = 0
@@ -1734,7 +1761,8 @@ c_Guitar_Music_Voice_II = {
 
     {
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             % [03 Guitar_Music_Voice_II measure 69 / measure 35]
             \set stemLeftBeamCount = 1
@@ -1762,7 +1790,8 @@ c_Guitar_Music_Voice_II = {
 
     {
 
-        \scaleDurations #'(1 . 1) {
+        \scaleDurations #'(1 . 1)
+        {
 
             % [03 Guitar_Music_Voice_II measure 70 / measure 36]
             bf!8.
@@ -1946,7 +1975,8 @@ c_Guitar_Music_Voice_IV = {
 
         \tweak text #tuplet-number::calc-fraction-text
         \tweak edge-height #'(0.7 . 0)
-        \times 8/7 {
+        \times 8/7
+        {
 
             % [03 Guitar_Music_Voice_IV measure 36 / measure 2]
             \once \override Beam.positions = #'(12 . 12)
@@ -1965,7 +1995,8 @@ c_Guitar_Music_Voice_IV = {
 
         \tweak text #tuplet-number::calc-fraction-text
         \tweak edge-height #'(0.7 . 0)
-        \times 8/7 {
+        \times 8/7
+        {
 
             % [03 Guitar_Music_Voice_IV measure 38 / measure 4]
             \set stemLeftBeamCount = 2
@@ -1984,7 +2015,8 @@ c_Guitar_Music_Voice_IV = {
 
         \tweak text #tuplet-number::calc-fraction-text
         \tweak edge-height #'(0.7 . 0)
-        \times 8/7 {
+        \times 8/7
+        {
 
             % [03 Guitar_Music_Voice_IV measure 40 / measure 6]
             \set stemLeftBeamCount = 1
@@ -2014,7 +2046,8 @@ c_Guitar_Music_Voice_IV = {
 
         \tweak text #tuplet-number::calc-fraction-text
         \tweak edge-height #'(0.7 . 0)
-        \times 8/7 {
+        \times 8/7
+        {
 
             % [03 Guitar_Music_Voice_IV measure 42 / measure 8]
             \set stemLeftBeamCount = 1
@@ -2045,7 +2078,8 @@ c_Guitar_Music_Voice_IV = {
 
         \tweak text #tuplet-number::calc-fraction-text
         \tweak edge-height #'(0.7 . 0)
-        \times 8/7 {
+        \times 8/7
+        {
 
             % [03 Guitar_Music_Voice_IV measure 44 / measure 10]
             \once \override Beam.positions = #'(12 . 12)
@@ -2064,7 +2098,8 @@ c_Guitar_Music_Voice_IV = {
 
         \tweak text #tuplet-number::calc-fraction-text
         \tweak edge-height #'(0.7 . 0)
-        \times 8/7 {
+        \times 8/7
+        {
 
             % [03 Guitar_Music_Voice_IV measure 46 / measure 12]
             \set stemLeftBeamCount = 1
@@ -2104,7 +2139,8 @@ c_Guitar_Music_Voice_IV = {
 
         \tweak text #tuplet-number::calc-fraction-text
         \tweak edge-height #'(0.7 . 0)
-        \times 8/7 {
+        \times 8/7
+        {
 
             % [03 Guitar_Music_Voice_IV measure 49 / measure 15]
             \set stemLeftBeamCount = 1
@@ -2134,7 +2170,8 @@ c_Guitar_Music_Voice_IV = {
 
         \tweak text #tuplet-number::calc-fraction-text
         \tweak edge-height #'(0.7 . 0)
-        \times 8/7 {
+        \times 8/7
+        {
 
             % [03 Guitar_Music_Voice_IV measure 52 / measure 18]
             \set stemLeftBeamCount = 1
@@ -2195,7 +2232,8 @@ c_Guitar_Music_Voice_IV = {
     {
 
         \tweak text #tuplet-number::calc-fraction-text
-        \times 8/7 {
+        \times 8/7
+        {
 
             % [03 Guitar_Music_Voice_IV measure 55 / measure 21]
             \set stemLeftBeamCount = 1
@@ -2261,7 +2299,8 @@ c_Guitar_Music_Voice_IV = {
         }
 
         \tweak text #tuplet-number::calc-fraction-text
-        \times 5/7 {
+        \times 5/7
+        {
 
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 2

@@ -1161,6 +1161,8 @@ l_Guitar_Music_Voice_I = { %! ide.Path.extern()
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
             :32 %! baca.stem_tremolo():baca.IndicatorCommand._call()
+            %! REAPPLIED_DYNAMIC_COLOR
+            %! _treat_persistent_wrapper(1)
             %! baca.SegmentMaker._reapply_persistent_indicators(3)
             %! baca.SegmentMaker._set_status_tag()
             %! REAPPLIED_DYNAMIC
@@ -1169,7 +1171,10 @@ l_Guitar_Music_Voice_I = { %! ide.Path.extern()
             %! baca.SegmentMaker._set_status_tag()
             %! REAPPLIED_DYNAMIC
             \p %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._set_status_tag():REAPPLIED_DYNAMIC
+            %! FIGURE_NAME
         %@% ^ \markup \fontsize #2 \concat { [ \markup \concat { 2 \sub 1 } \hspace #1 \raise #0.25 \fontsize #-2 (0) ] }     %! FIGURE_NAME
+            %! REAPPLIED_INSTRUMENT_ALERT
+            %! baca.SegmentMaker._attach_latent_indicator_alert()
             ^ \baca-reapplied-indicator-markup "(“Guitar”)" %! REAPPLIED_INSTRUMENT_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
             %! baca.rhythm_annotation_spanner()
             %! RHYTHM_ANNOTATION_SPANNER
@@ -1181,6 +1186,11 @@ l_Guitar_Music_Voice_I = { %! ide.Path.extern()
             %! baca.PiecewiseCommand._call(2)
             %! SPANNER_START
             - \baca-text-spanner-left-text "baca.music()" %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
+            %! baca.rhythm_annotation_spanner()
+            %! RHYTHM_ANNOTATION_SPANNER
+            %! baca.PiecewiseCommand._call(2)
+            %! AUTODETECT
+            %! SPANNER_START
             %! baca.rhythm_annotation_spanner()
             %! RHYTHM_ANNOTATION_SPANNER
             %! baca.PiecewiseCommand._call(2)
@@ -1225,6 +1235,8 @@ l_Guitar_Music_Voice_I = { %! ide.Path.extern()
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
             :32 %! baca.stem_tremolo():baca.IndicatorCommand._call()
+            %! EXPLICIT_DYNAMIC_COLOR
+            %! _treat_persistent_wrapper(1)
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(2)
             %! SPANNER_STOP
@@ -1237,10 +1249,13 @@ l_Guitar_Music_Voice_I = { %! ide.Path.extern()
             %! baca.SegmentMaker._set_status_tag()
             %! EXPLICIT_DYNAMIC
             \p %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
+            %! FIGURE_NAME
         %@% ^ \markup \fontsize #2 \concat { [ \markup \concat { 2 \sub 2 } \hspace #1 \raise #0.25 \fontsize #-2 (1) ] }     %! FIGURE_NAME
             %! baca.repeat_tie()
             %! baca.IndicatorCommand._call()
             \repeatTie %! baca.repeat_tie():baca.IndicatorCommand._call()
+            %! EXPLICIT_DYNAMIC_COLOR
+            %! _treat_persistent_wrapper(1)
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(2)
             %! SPANNER_START
@@ -1298,6 +1313,8 @@ l_Guitar_Music_Voice_I = { %! ide.Path.extern()
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
             :32 %! baca.stem_tremolo():baca.IndicatorCommand._call()
+            %! EXPLICIT_DYNAMIC_COLOR
+            %! _treat_persistent_wrapper(1)
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(3)
             %! SPANNER_STOP
@@ -1310,6 +1327,7 @@ l_Guitar_Music_Voice_I = { %! ide.Path.extern()
             %! baca.SegmentMaker._set_status_tag()
             %! EXPLICIT_DYNAMIC
             \mp %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
+            %! FIGURE_NAME
         %@% ^ \markup \fontsize #2 \concat { [ \markup \concat { 2 \sub 3 } \hspace #1 \raise #0.25 \fontsize #-2 (2) ] }     %! FIGURE_NAME
             %! baca.repeat_tie()
             %! baca.IndicatorCommand._call()
@@ -1339,6 +1357,8 @@ l_Guitar_Music_Voice_I = { %! ide.Path.extern()
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
             :32 %! baca.stem_tremolo():baca.IndicatorCommand._call()
+            %! EXPLICIT_DYNAMIC_COLOR
+            %! _treat_persistent_wrapper(1)
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(2)
             %! SPANNER_STOP
@@ -1351,10 +1371,13 @@ l_Guitar_Music_Voice_I = { %! ide.Path.extern()
             %! baca.SegmentMaker._set_status_tag()
             %! EXPLICIT_DYNAMIC
             \mp %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
+            %! FIGURE_NAME
         %@% ^ \markup \fontsize #2 \concat { [ \markup \concat { 2 \sub 4 } \hspace #1 \raise #0.25 \fontsize #-2 (3) ] }     %! FIGURE_NAME
             %! baca.repeat_tie()
             %! baca.IndicatorCommand._call()
             \repeatTie %! baca.repeat_tie():baca.IndicatorCommand._call()
+            %! EXPLICIT_DYNAMIC_COLOR
+            %! _treat_persistent_wrapper(1)
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(2)
             %! SPANNER_START
@@ -1412,6 +1435,8 @@ l_Guitar_Music_Voice_I = { %! ide.Path.extern()
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
             :32 %! baca.stem_tremolo():baca.IndicatorCommand._call()
+            %! EXPLICIT_DYNAMIC_COLOR
+            %! _treat_persistent_wrapper(1)
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(3)
             %! SPANNER_STOP
@@ -1424,6 +1449,7 @@ l_Guitar_Music_Voice_I = { %! ide.Path.extern()
             %! baca.SegmentMaker._set_status_tag()
             %! EXPLICIT_DYNAMIC
             \p %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
+            %! FIGURE_NAME
         %@% ^ \markup \fontsize #2 \concat { [ \markup \concat { 2 \sub 5 } \hspace #1 \raise #0.25 \fontsize #-2 (4) ] }     %! FIGURE_NAME
             %! baca.repeat_tie()
             %! baca.IndicatorCommand._call()
@@ -1453,7 +1479,10 @@ l_Guitar_Music_Voice_I = { %! ide.Path.extern()
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
             :32 %! baca.stem_tremolo():baca.IndicatorCommand._call()
+            %! baca.markup()
+            %! baca.IndicatorCommand._call()
             ^ \dornen-three-fingers-markup %! baca.markup():baca.IndicatorCommand._call()
+            %! FIGURE_NAME
         %@% ^ \markup \fontsize #2 \concat { [ \markup \concat { 3 \sub 1 } \hspace #1 \raise #0.25 \fontsize #-2 (5) ] }     %! FIGURE_NAME
             %! baca.repeat_tie()
             %! baca.IndicatorCommand._call()
@@ -1479,6 +1508,8 @@ l_Guitar_Music_Voice_I = { %! ide.Path.extern()
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
             :32 %! baca.stem_tremolo():baca.IndicatorCommand._call()
+            %! EXPLICIT_DYNAMIC_COLOR
+            %! _treat_persistent_wrapper(1)
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(2)
             %! SPANNER_STOP
@@ -1491,10 +1522,13 @@ l_Guitar_Music_Voice_I = { %! ide.Path.extern()
             %! baca.SegmentMaker._set_status_tag()
             %! EXPLICIT_DYNAMIC
             \p %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
+            %! FIGURE_NAME
         %@% ^ \markup \fontsize #2 \concat { [ \markup \concat { 3 \sub 2 } \hspace #1 \raise #0.25 \fontsize #-2 (6) ] }     %! FIGURE_NAME
             %! baca.repeat_tie()
             %! baca.IndicatorCommand._call()
             \repeatTie %! baca.repeat_tie():baca.IndicatorCommand._call()
+            %! EXPLICIT_DYNAMIC_COLOR
+            %! _treat_persistent_wrapper(1)
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(2)
             %! SPANNER_START
@@ -1552,6 +1586,8 @@ l_Guitar_Music_Voice_I = { %! ide.Path.extern()
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
             :32 %! baca.stem_tremolo():baca.IndicatorCommand._call()
+            %! EXPLICIT_DYNAMIC_COLOR
+            %! _treat_persistent_wrapper(1)
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(3)
             %! SPANNER_STOP
@@ -1564,6 +1600,7 @@ l_Guitar_Music_Voice_I = { %! ide.Path.extern()
             %! baca.SegmentMaker._set_status_tag()
             %! EXPLICIT_DYNAMIC
             \mf %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
+            %! FIGURE_NAME
         %@% ^ \markup \fontsize #2 \concat { [ \markup \concat { 3 \sub 3 } \hspace #1 \raise #0.25 \fontsize #-2 (7) ] }     %! FIGURE_NAME
             %! baca.repeat_tie()
             %! baca.IndicatorCommand._call()
@@ -1593,6 +1630,8 @@ l_Guitar_Music_Voice_I = { %! ide.Path.extern()
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
             :32 %! baca.stem_tremolo():baca.IndicatorCommand._call()
+            %! EXPLICIT_DYNAMIC_COLOR
+            %! _treat_persistent_wrapper(1)
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(2)
             %! SPANNER_STOP
@@ -1605,10 +1644,13 @@ l_Guitar_Music_Voice_I = { %! ide.Path.extern()
             %! baca.SegmentMaker._set_status_tag()
             %! EXPLICIT_DYNAMIC
             \mf %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
+            %! FIGURE_NAME
         %@% ^ \markup \fontsize #2 \concat { [ \markup \concat { 3 \sub 4 } \hspace #1 \raise #0.25 \fontsize #-2 (8) ] }     %! FIGURE_NAME
             %! baca.repeat_tie()
             %! baca.IndicatorCommand._call()
             \repeatTie %! baca.repeat_tie():baca.IndicatorCommand._call()
+            %! EXPLICIT_DYNAMIC_COLOR
+            %! _treat_persistent_wrapper(1)
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(2)
             %! SPANNER_START
@@ -1666,6 +1708,8 @@ l_Guitar_Music_Voice_I = { %! ide.Path.extern()
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
             :32 %! baca.stem_tremolo():baca.IndicatorCommand._call()
+            %! EXPLICIT_DYNAMIC_COLOR
+            %! _treat_persistent_wrapper(1)
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(3)
             %! SPANNER_STOP
@@ -1678,6 +1722,7 @@ l_Guitar_Music_Voice_I = { %! ide.Path.extern()
             %! baca.SegmentMaker._set_status_tag()
             %! EXPLICIT_DYNAMIC
             \p %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
+            %! FIGURE_NAME
         %@% ^ \markup \fontsize #2 \concat { [ \markup \concat { 3 \sub 5 } \hspace #1 \raise #0.25 \fontsize #-2 (9) ] }     %! FIGURE_NAME
             %! baca.repeat_tie()
             %! baca.IndicatorCommand._call()
@@ -1707,7 +1752,10 @@ l_Guitar_Music_Voice_I = { %! ide.Path.extern()
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
             :32 %! baca.stem_tremolo():baca.IndicatorCommand._call()
+            %! baca.markup()
+            %! baca.IndicatorCommand._call()
             ^ \dornen-four-fingers-markup %! baca.markup():baca.IndicatorCommand._call()
+            %! FIGURE_NAME
         %@% ^ \markup \fontsize #2 \concat { [ \markup \concat { 4 \sub 1 } \hspace #1 \raise #0.25 \fontsize #-2 (10) ] }     %! FIGURE_NAME
             %! baca.repeat_tie()
             %! baca.IndicatorCommand._call()
@@ -1733,6 +1781,8 @@ l_Guitar_Music_Voice_I = { %! ide.Path.extern()
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
             :32 %! baca.stem_tremolo():baca.IndicatorCommand._call()
+            %! EXPLICIT_DYNAMIC_COLOR
+            %! _treat_persistent_wrapper(1)
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(2)
             %! SPANNER_STOP
@@ -1745,10 +1795,13 @@ l_Guitar_Music_Voice_I = { %! ide.Path.extern()
             %! baca.SegmentMaker._set_status_tag()
             %! EXPLICIT_DYNAMIC
             \p %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
+            %! FIGURE_NAME
         %@% ^ \markup \fontsize #2 \concat { [ \markup \concat { 4 \sub 2 } \hspace #1 \raise #0.25 \fontsize #-2 (11) ] }     %! FIGURE_NAME
             %! baca.repeat_tie()
             %! baca.IndicatorCommand._call()
             \repeatTie %! baca.repeat_tie():baca.IndicatorCommand._call()
+            %! EXPLICIT_DYNAMIC_COLOR
+            %! _treat_persistent_wrapper(1)
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(2)
             %! SPANNER_START
@@ -1806,6 +1859,8 @@ l_Guitar_Music_Voice_I = { %! ide.Path.extern()
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
             :32 %! baca.stem_tremolo():baca.IndicatorCommand._call()
+            %! EXPLICIT_DYNAMIC_COLOR
+            %! _treat_persistent_wrapper(1)
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(3)
             %! SPANNER_STOP
@@ -1818,6 +1873,7 @@ l_Guitar_Music_Voice_I = { %! ide.Path.extern()
             %! baca.SegmentMaker._set_status_tag()
             %! EXPLICIT_DYNAMIC
             \mp %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
+            %! FIGURE_NAME
         %@% ^ \markup \fontsize #2 \concat { [ \markup \concat { 4 \sub 3 } \hspace #1 \raise #0.25 \fontsize #-2 (12) ] }     %! FIGURE_NAME
             %! baca.repeat_tie()
             %! baca.IndicatorCommand._call()
@@ -1847,6 +1903,8 @@ l_Guitar_Music_Voice_I = { %! ide.Path.extern()
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
             :32 %! baca.stem_tremolo():baca.IndicatorCommand._call()
+            %! EXPLICIT_DYNAMIC_COLOR
+            %! _treat_persistent_wrapper(1)
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(2)
             %! SPANNER_STOP
@@ -1859,10 +1917,13 @@ l_Guitar_Music_Voice_I = { %! ide.Path.extern()
             %! baca.SegmentMaker._set_status_tag()
             %! EXPLICIT_DYNAMIC
             \mp %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
+            %! FIGURE_NAME
         %@% ^ \markup \fontsize #2 \concat { [ \markup \concat { 4 \sub 4 } \hspace #1 \raise #0.25 \fontsize #-2 (13) ] }     %! FIGURE_NAME
             %! baca.repeat_tie()
             %! baca.IndicatorCommand._call()
             \repeatTie %! baca.repeat_tie():baca.IndicatorCommand._call()
+            %! EXPLICIT_DYNAMIC_COLOR
+            %! _treat_persistent_wrapper(1)
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(2)
             %! SPANNER_START
@@ -1920,6 +1981,8 @@ l_Guitar_Music_Voice_I = { %! ide.Path.extern()
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
             :32 %! baca.stem_tremolo():baca.IndicatorCommand._call()
+            %! EXPLICIT_DYNAMIC_COLOR
+            %! _treat_persistent_wrapper(1)
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(3)
             %! SPANNER_STOP
@@ -1932,6 +1995,7 @@ l_Guitar_Music_Voice_I = { %! ide.Path.extern()
             %! baca.SegmentMaker._set_status_tag()
             %! EXPLICIT_DYNAMIC
             \p %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
+            %! FIGURE_NAME
         %@% ^ \markup \fontsize #2 \concat { [ \markup \concat { 4 \sub 5 } \hspace #1 \raise #0.25 \fontsize #-2 (14) ] }     %! FIGURE_NAME
             %! baca.repeat_tie()
             %! baca.IndicatorCommand._call()
@@ -1961,6 +2025,8 @@ l_Guitar_Music_Voice_I = { %! ide.Path.extern()
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
             :32 %! baca.stem_tremolo():baca.IndicatorCommand._call()
+            %! EXPLICIT_DYNAMIC_COLOR
+            %! _treat_persistent_wrapper(1)
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(2)
             %! SPANNER_STOP
@@ -1973,10 +2039,13 @@ l_Guitar_Music_Voice_I = { %! ide.Path.extern()
             %! baca.SegmentMaker._set_status_tag()
             %! EXPLICIT_DYNAMIC
             \p %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
+            %! FIGURE_NAME
         %@% ^ \markup \fontsize #2 \concat { [ \markup \concat { 4 \sub 6 } \hspace #1 \raise #0.25 \fontsize #-2 (15) ] }     %! FIGURE_NAME
             %! baca.repeat_tie()
             %! baca.IndicatorCommand._call()
             \repeatTie %! baca.repeat_tie():baca.IndicatorCommand._call()
+            %! EXPLICIT_DYNAMIC_COLOR
+            %! _treat_persistent_wrapper(1)
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(2)
             %! SPANNER_START
@@ -2034,6 +2103,8 @@ l_Guitar_Music_Voice_I = { %! ide.Path.extern()
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
             :32 %! baca.stem_tremolo():baca.IndicatorCommand._call()
+            %! EXPLICIT_DYNAMIC_COLOR
+            %! _treat_persistent_wrapper(1)
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(3)
             %! SPANNER_STOP
@@ -2046,6 +2117,7 @@ l_Guitar_Music_Voice_I = { %! ide.Path.extern()
             %! baca.SegmentMaker._set_status_tag()
             %! EXPLICIT_DYNAMIC
             \mf %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
+            %! FIGURE_NAME
         %@% ^ \markup \fontsize #2 \concat { [ \markup \concat { 4 \sub 7 } \hspace #1 \raise #0.25 \fontsize #-2 (16) ] }     %! FIGURE_NAME
             %! baca.repeat_tie()
             %! baca.IndicatorCommand._call()
@@ -2075,6 +2147,8 @@ l_Guitar_Music_Voice_I = { %! ide.Path.extern()
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
             :32 %! baca.stem_tremolo():baca.IndicatorCommand._call()
+            %! EXPLICIT_DYNAMIC_COLOR
+            %! _treat_persistent_wrapper(1)
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(2)
             %! SPANNER_STOP
@@ -2087,10 +2161,13 @@ l_Guitar_Music_Voice_I = { %! ide.Path.extern()
             %! baca.SegmentMaker._set_status_tag()
             %! EXPLICIT_DYNAMIC
             \mf %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
+            %! FIGURE_NAME
         %@% ^ \markup \fontsize #2 \concat { [ \markup \concat { 4 \sub 8 } \hspace #1 \raise #0.25 \fontsize #-2 (17) ] }     %! FIGURE_NAME
             %! baca.repeat_tie()
             %! baca.IndicatorCommand._call()
             \repeatTie %! baca.repeat_tie():baca.IndicatorCommand._call()
+            %! EXPLICIT_DYNAMIC_COLOR
+            %! _treat_persistent_wrapper(1)
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(2)
             %! SPANNER_START
@@ -2148,6 +2225,8 @@ l_Guitar_Music_Voice_I = { %! ide.Path.extern()
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
             :32 %! baca.stem_tremolo():baca.IndicatorCommand._call()
+            %! EXPLICIT_DYNAMIC_COLOR
+            %! _treat_persistent_wrapper(1)
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(3)
             %! SPANNER_STOP
@@ -2160,6 +2239,7 @@ l_Guitar_Music_Voice_I = { %! ide.Path.extern()
             %! baca.SegmentMaker._set_status_tag()
             %! EXPLICIT_DYNAMIC
             \p %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
+            %! FIGURE_NAME
         %@% ^ \markup \fontsize #2 \concat { [ \markup \concat { 4 \sub 9 } \hspace #1 \raise #0.25 \fontsize #-2 (18) ] }     %! FIGURE_NAME
             %! baca.repeat_tie()
             %! baca.IndicatorCommand._call()
@@ -2189,6 +2269,8 @@ l_Guitar_Music_Voice_I = { %! ide.Path.extern()
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
             :32 %! baca.stem_tremolo():baca.IndicatorCommand._call()
+            %! EXPLICIT_DYNAMIC_COLOR
+            %! _treat_persistent_wrapper(1)
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(2)
             %! SPANNER_STOP
@@ -2201,10 +2283,13 @@ l_Guitar_Music_Voice_I = { %! ide.Path.extern()
             %! baca.SegmentMaker._set_status_tag()
             %! EXPLICIT_DYNAMIC
             \p %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
+            %! FIGURE_NAME
         %@% ^ \markup \fontsize #2 \concat { [ \markup \concat { 4 \sub 10 } \hspace #1 \raise #0.25 \fontsize #-2 (19) ] }     %! FIGURE_NAME
             %! baca.repeat_tie()
             %! baca.IndicatorCommand._call()
             \repeatTie %! baca.repeat_tie():baca.IndicatorCommand._call()
+            %! EXPLICIT_DYNAMIC_COLOR
+            %! _treat_persistent_wrapper(1)
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(2)
             %! SPANNER_START
@@ -2262,6 +2347,8 @@ l_Guitar_Music_Voice_I = { %! ide.Path.extern()
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
             :32 %! baca.stem_tremolo():baca.IndicatorCommand._call()
+            %! EXPLICIT_DYNAMIC_COLOR
+            %! _treat_persistent_wrapper(1)
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(3)
             %! SPANNER_STOP
@@ -2274,6 +2361,7 @@ l_Guitar_Music_Voice_I = { %! ide.Path.extern()
             %! baca.SegmentMaker._set_status_tag()
             %! EXPLICIT_DYNAMIC
             \f %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
+            %! FIGURE_NAME
         %@% ^ \markup \fontsize #2 \concat { [ \markup \concat { 4 \sub 11 } \hspace #1 \raise #0.25 \fontsize #-2 (20) ] }     %! FIGURE_NAME
             %! baca.repeat_tie()
             %! baca.IndicatorCommand._call()
@@ -2303,6 +2391,8 @@ l_Guitar_Music_Voice_I = { %! ide.Path.extern()
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
             :32 %! baca.stem_tremolo():baca.IndicatorCommand._call()
+            %! EXPLICIT_DYNAMIC_COLOR
+            %! _treat_persistent_wrapper(1)
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(2)
             %! SPANNER_STOP
@@ -2315,10 +2405,13 @@ l_Guitar_Music_Voice_I = { %! ide.Path.extern()
             %! baca.SegmentMaker._set_status_tag()
             %! EXPLICIT_DYNAMIC
             \f %! baca.hairpin():baca.PiecewiseCommand._call(2):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
+            %! FIGURE_NAME
         %@% ^ \markup \fontsize #2 \concat { [ \markup \concat { 4 \sub 12 } \hspace #1 \raise #0.25 \fontsize #-2 (21) ] }     %! FIGURE_NAME
             %! baca.repeat_tie()
             %! baca.IndicatorCommand._call()
             \repeatTie %! baca.repeat_tie():baca.IndicatorCommand._call()
+            %! EXPLICIT_DYNAMIC_COLOR
+            %! _treat_persistent_wrapper(1)
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(2)
             %! SPANNER_START
@@ -2376,6 +2469,7 @@ l_Guitar_Music_Voice_I = { %! ide.Path.extern()
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
             :32 %! baca.stem_tremolo():baca.IndicatorCommand._call()
+            %! FIGURE_NAME
         %@% ^ \markup \fontsize #2 \concat { [ \markup \concat { 4 \sub 13 } \hspace #1 \raise #0.25 \fontsize #-2 (22) ] }     %! FIGURE_NAME
             %! baca.repeat_tie()
             %! baca.IndicatorCommand._call()
@@ -2401,7 +2495,10 @@ l_Guitar_Music_Voice_I = { %! ide.Path.extern()
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
             :32 %! baca.stem_tremolo():baca.IndicatorCommand._call()
+            %! baca.markup()
+            %! baca.IndicatorCommand._call()
             ^ \dornen-three-fingers-markup %! baca.markup():baca.IndicatorCommand._call()
+            %! FIGURE_NAME
         %@% ^ \markup \fontsize #2 \concat { [ \markup \concat { 4 \sub 14 } \hspace #1 \raise #0.25 \fontsize #-2 (23) ] }     %! FIGURE_NAME
             %! baca.repeat_tie()
             %! baca.IndicatorCommand._call()
@@ -2439,6 +2536,8 @@ l_Guitar_Music_Voice_I = { %! ide.Path.extern()
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
             :32 %! baca.stem_tremolo():baca.IndicatorCommand._call()
+            %! EXPLICIT_DYNAMIC_COLOR
+            %! _treat_persistent_wrapper(1)
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(3)
             %! SPANNER_STOP
@@ -2451,7 +2550,10 @@ l_Guitar_Music_Voice_I = { %! ide.Path.extern()
             %! baca.SegmentMaker._set_status_tag()
             %! EXPLICIT_DYNAMIC
             \mp %! baca.hairpin():baca.PiecewiseCommand._call(3):SPANNER_STOP:baca.SegmentMaker._set_status_tag():EXPLICIT_DYNAMIC
+            %! baca.markup()
+            %! baca.IndicatorCommand._call()
             ^ \dornen-two-fingers-markup %! baca.markup():baca.IndicatorCommand._call()
+            %! FIGURE_NAME
         %@% ^ \markup \fontsize #2 \concat { [ \markup \concat { 4 \sub 15 } \hspace #1 \raise #0.25 \fontsize #-2 (24) ] }     %! FIGURE_NAME
             %! baca.repeat_tie()
             %! baca.IndicatorCommand._call()
@@ -2527,6 +2629,12 @@ l_Guitar_Music_Voice_I = { %! ide.Path.extern()
             %! HIDDEN
             %! NOTE
             b'1 * 1/4 %! baca.SegmentMaker._make_multimeasure_rest_container(1):PHANTOM:HIDDEN:NOTE
+            %! baca.SegmentMaker._label_duration_multipliers()
+            %! DURATION_MULTIPLIER
+            %! HIDDEN
+            %! NOTE
+            %! PHANTOM
+            %! baca.SegmentMaker._style_phantom_measures(5)
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"     %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:HIDDEN:NOTE:PHANTOM:baca.SegmentMaker._style_phantom_measures(5)
 
         %! baca.SegmentMaker._make_multimeasure_rest_container(4)
@@ -2721,6 +2829,12 @@ l_Guitar_Music_Voice_II = { %! ide.Path.extern()
             %! HIDDEN
             %! MULTIMEASURE_REST
             R1 * 1/4 %! baca.SegmentMaker._make_multimeasure_rest_container(1):PHANTOM:HIDDEN:MULTIMEASURE_REST
+            %! baca.SegmentMaker._label_duration_multipliers()
+            %! DURATION_MULTIPLIER
+            %! HIDDEN
+            %! MULTIMEASURE_REST
+            %! PHANTOM
+            %! baca.SegmentMaker._style_phantom_measures(5)
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"     %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:HIDDEN:MULTIMEASURE_REST:PHANTOM:baca.SegmentMaker._style_phantom_measures(5)
 
         %! baca.SegmentMaker._make_multimeasure_rest_container(4)
@@ -2915,6 +3029,12 @@ l_Guitar_Music_Voice_III = { %! ide.Path.extern()
             %! HIDDEN
             %! MULTIMEASURE_REST
             R1 * 1/4 %! baca.SegmentMaker._make_multimeasure_rest_container(1):PHANTOM:HIDDEN:MULTIMEASURE_REST
+            %! baca.SegmentMaker._label_duration_multipliers()
+            %! DURATION_MULTIPLIER
+            %! HIDDEN
+            %! MULTIMEASURE_REST
+            %! PHANTOM
+            %! baca.SegmentMaker._style_phantom_measures(5)
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"     %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:HIDDEN:MULTIMEASURE_REST:PHANTOM:baca.SegmentMaker._style_phantom_measures(5)
 
         %! baca.SegmentMaker._make_multimeasure_rest_container(4)
@@ -3109,6 +3229,12 @@ l_Guitar_Music_Voice_IV = { %! ide.Path.extern()
             %! HIDDEN
             %! MULTIMEASURE_REST
             R1 * 1/4 %! baca.SegmentMaker._make_multimeasure_rest_container(1):PHANTOM:HIDDEN:MULTIMEASURE_REST
+            %! baca.SegmentMaker._label_duration_multipliers()
+            %! DURATION_MULTIPLIER
+            %! HIDDEN
+            %! MULTIMEASURE_REST
+            %! PHANTOM
+            %! baca.SegmentMaker._style_phantom_measures(5)
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"     %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:HIDDEN:MULTIMEASURE_REST:PHANTOM:baca.SegmentMaker._style_phantom_measures(5)
 
         %! baca.SegmentMaker._make_multimeasure_rest_container(4)

@@ -641,6 +641,8 @@ h_Guitar_Music_Voice_I = { %! ide.Path.extern()
     %! REAPPLIED_CLEF
     \set GuitarMusicStaff.forceClef = ##t %! baca.SegmentMaker._reapply_persistent_indicators(3):baca.SegmentMaker._treat_persistent_wrapper(2):baca.SegmentMaker._set_status_tag():REAPPLIED_CLEF
     s1 * 7/32
+    %! REAPPLIED_INSTRUMENT_ALERT
+    %! baca.SegmentMaker._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Guitar”)" %! REAPPLIED_INSTRUMENT_ALERT:baca.SegmentMaker._attach_latent_indicator_alert()
     %! baca.rhythm_annotation_spanner()
     %! RHYTHM_ANNOTATION_SPANNER
@@ -652,6 +654,11 @@ h_Guitar_Music_Voice_I = { %! ide.Path.extern()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
     - \baca-text-spanner-left-text "baca.music()" %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
+    %! baca.rhythm_annotation_spanner()
+    %! RHYTHM_ANNOTATION_SPANNER
+    %! baca.PiecewiseCommand._call(2)
+    %! AUTODETECT
+    %! SPANNER_START
     %! baca.rhythm_annotation_spanner()
     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(2)
@@ -689,6 +696,7 @@ h_Guitar_Music_Voice_I = { %! ide.Path.extern()
             %! baca.OverrideCommand._call(1)
             \override Beam.positions = #'(8 . 8) %! baca.beam_positions():baca.OverrideCommand._call(1)
             g'16
+            %! FIGURE_NAME
         %@% ^ \markup \fontsize #2 \concat { [ L1 \hspace #1 \raise #0.25 \fontsize #-2 (1) ] }     %! FIGURE_NAME
             [
             %! baca.glissando()
@@ -725,6 +733,7 @@ h_Guitar_Music_Voice_I = { %! ide.Path.extern()
             %! baca.OverrideCommand._call(1)
             \override Beam.positions = #'(12 . 12) %! baca.beam_positions():baca.OverrideCommand._call(1)
             af'!16
+            %! FIGURE_NAME
         %@% ^ \markup \fontsize #2 \concat { [ L2 \hspace #1 \raise #0.25 \fontsize #-2 (6) ] }     %! FIGURE_NAME
             [
             %! baca.glissando()
@@ -785,6 +794,7 @@ h_Guitar_Music_Voice_I = { %! ide.Path.extern()
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 2
             b'16
+            %! FIGURE_NAME
         %@% ^ \markup \fontsize #2 \concat { [ L3 \hspace #1 \raise #0.25 \fontsize #-2 (11) ] }     %! FIGURE_NAME
             %! baca.glissando()
             %! abjad.glissando(7)
@@ -857,6 +867,12 @@ h_Guitar_Music_Voice_I = { %! ide.Path.extern()
             %! HIDDEN
             %! NOTE
             b'1 * 1/4 %! baca.SegmentMaker._make_multimeasure_rest_container(1):PHANTOM:HIDDEN:NOTE
+            %! baca.SegmentMaker._label_duration_multipliers()
+            %! DURATION_MULTIPLIER
+            %! HIDDEN
+            %! NOTE
+            %! PHANTOM
+            %! baca.SegmentMaker._style_phantom_measures(5)
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"     %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:HIDDEN:NOTE:PHANTOM:baca.SegmentMaker._style_phantom_measures(5)
 
         %! baca.SegmentMaker._make_multimeasure_rest_container(4)
@@ -907,6 +923,7 @@ h_Guitar_Music_Voice_II = { %! ide.Path.extern()
             %! baca.OverrideCommand._call(1)
             \once \override Beam.positions = #'(-7.5 . -7.5) %! baca.beam_positions():baca.OverrideCommand._call(1)
             b8.
+            %! FIGURE_NAME
         %@% ^ \markup \fontsize #2 \concat { [ O1 \hspace #1 \raise #0.25 \fontsize #-2 (0) ] }     %! FIGURE_NAME
             [
             %! baca.rhythm_annotation_spanner()
@@ -919,6 +936,11 @@ h_Guitar_Music_Voice_II = { %! ide.Path.extern()
             %! baca.PiecewiseCommand._call(2)
             %! SPANNER_START
             - \baca-text-spanner-left-text "baca.music()" %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):SPANNER_START
+            %! baca.rhythm_annotation_spanner()
+            %! RHYTHM_ANNOTATION_SPANNER
+            %! baca.PiecewiseCommand._call(2)
+            %! AUTODETECT
+            %! SPANNER_START
             %! baca.rhythm_annotation_spanner()
             %! RHYTHM_ANNOTATION_SPANNER
             %! baca.PiecewiseCommand._call(2)
@@ -978,6 +1000,7 @@ h_Guitar_Music_Voice_II = { %! ide.Path.extern()
             %! baca.OverrideCommand._call(1)
             \once \override Beam.positions = #'(-7.5 . -7.5) %! baca.beam_positions():baca.OverrideCommand._call(1)
             e'8.
+            %! FIGURE_NAME
         %@% ^ \markup \fontsize #2 \concat { [ O2 \hspace #1 \raise #0.25 \fontsize #-2 (5) ] }     %! FIGURE_NAME
             [
 
@@ -1019,6 +1042,7 @@ h_Guitar_Music_Voice_II = { %! ide.Path.extern()
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 1
             a'8.
+            %! FIGURE_NAME
         %@% ^ \markup \fontsize #2 \concat { [ O3 \hspace #1 \raise #0.25 \fontsize #-2 (10) ] }     %! FIGURE_NAME
 
             \acciaccatura {
@@ -1078,6 +1102,10 @@ h_Guitar_Music_Voice_II = { %! ide.Path.extern()
             %! HIDDEN
             %! NOTE
             b'1 * 5/32 %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
+            %! baca.SegmentMaker._label_duration_multipliers()
+            %! DURATION_MULTIPLIER
+            %! HIDDEN
+            %! NOTE
         %@% ^ \baca-duration-multiplier-markup #"5" #"32"     %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:HIDDEN:NOTE
 
         %! baca.SegmentMaker._make_multimeasure_rest_container(4)
@@ -1140,6 +1168,12 @@ h_Guitar_Music_Voice_II = { %! ide.Path.extern()
             %! HIDDEN
             %! NOTE
             b'1 * 1/4 %! baca.SegmentMaker._make_multimeasure_rest_container(1):PHANTOM:HIDDEN:NOTE
+            %! baca.SegmentMaker._label_duration_multipliers()
+            %! DURATION_MULTIPLIER
+            %! HIDDEN
+            %! NOTE
+            %! PHANTOM
+            %! baca.SegmentMaker._style_phantom_measures(5)
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"     %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:HIDDEN:NOTE:PHANTOM:baca.SegmentMaker._style_phantom_measures(5)
 
         %! baca.SegmentMaker._make_multimeasure_rest_container(4)
@@ -1193,6 +1227,11 @@ h_Guitar_Music_Voice_III = { %! ide.Path.extern()
     %! baca.rhythm_annotation_spanner()
     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(2)
+    %! AUTODETECT
+    %! SPANNER_START
+    %! baca.rhythm_annotation_spanner()
+    %! RHYTHM_ANNOTATION_SPANNER
+    %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
     - \tweak bound-details.right.padding 2.75 %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):AUTODETECT:SPANNER_START
     %! baca.rhythm_annotation_spanner()
@@ -1227,6 +1266,7 @@ h_Guitar_Music_Voice_III = { %! ide.Path.extern()
             %! baca.staccato()
             %! baca.IndicatorCommand._call()
             - \staccato %! baca.staccato():baca.IndicatorCommand._call()
+            %! FIGURE_NAME
         %@% ^ \markup \fontsize #2 \concat { [ D1 \hspace #1 \raise #0.25 \fontsize #-2 (3) ] }     %! FIGURE_NAME
             [
 
@@ -1405,6 +1445,7 @@ h_Guitar_Music_Voice_III = { %! ide.Path.extern()
             %! baca.staccato()
             %! baca.IndicatorCommand._call()
             - \staccato %! baca.staccato():baca.IndicatorCommand._call()
+            %! FIGURE_NAME
         %@% ^ \markup \fontsize #2 \concat { [ D2 \hspace #1 \raise #0.25 \fontsize #-2 (8) ] }     %! FIGURE_NAME
             [
 
@@ -1483,6 +1524,10 @@ h_Guitar_Music_Voice_III = { %! ide.Path.extern()
             %! HIDDEN
             %! NOTE
             b'1 * 2/7 %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
+            %! baca.SegmentMaker._label_duration_multipliers()
+            %! DURATION_MULTIPLIER
+            %! HIDDEN
+            %! NOTE
         %@% ^ \baca-duration-multiplier-markup #"2" #"7"     %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:HIDDEN:NOTE
 
         %! baca.SegmentMaker._make_multimeasure_rest_container(4)
@@ -1555,6 +1600,12 @@ h_Guitar_Music_Voice_III = { %! ide.Path.extern()
             %! HIDDEN
             %! NOTE
             b'1 * 1/4 %! baca.SegmentMaker._make_multimeasure_rest_container(1):PHANTOM:HIDDEN:NOTE
+            %! baca.SegmentMaker._label_duration_multipliers()
+            %! DURATION_MULTIPLIER
+            %! HIDDEN
+            %! NOTE
+            %! PHANTOM
+            %! baca.SegmentMaker._style_phantom_measures(5)
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"     %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:HIDDEN:NOTE:PHANTOM:baca.SegmentMaker._style_phantom_measures(5)
 
         %! baca.SegmentMaker._make_multimeasure_rest_container(4)
@@ -1611,6 +1662,11 @@ h_Guitar_Music_Voice_IV = { %! ide.Path.extern()
     %! baca.rhythm_annotation_spanner()
     %! RHYTHM_ANNOTATION_SPANNER
     %! baca.PiecewiseCommand._call(2)
+    %! AUTODETECT
+    %! SPANNER_START
+    %! baca.rhythm_annotation_spanner()
+    %! RHYTHM_ANNOTATION_SPANNER
+    %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
     - \tweak bound-details.right.padding 2.75 %! baca.rhythm_annotation_spanner():RHYTHM_ANNOTATION_SPANNER:baca.PiecewiseCommand._call(2):AUTODETECT:SPANNER_START
     %! baca.rhythm_annotation_spanner()
@@ -1641,6 +1697,7 @@ h_Guitar_Music_Voice_IV = { %! ide.Path.extern()
             \set stemLeftBeamCount = 0
             \set stemRightBeamCount = 2
             f'16
+            %! FIGURE_NAME
         %@% ^ \markup \fontsize #2 \concat { [ G1 \hspace #1 \raise #0.25 \fontsize #-2 (2) ] }     %! FIGURE_NAME
             [
 
@@ -1674,6 +1731,7 @@ h_Guitar_Music_Voice_IV = { %! ide.Path.extern()
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 2
             d'16
+            %! FIGURE_NAME
         %@% ^ \markup \fontsize #2 \concat { [ G2 \hspace #1 \raise #0.25 \fontsize #-2 (4) ] }     %! FIGURE_NAME
 
             \acciaccatura {
@@ -1801,6 +1859,7 @@ h_Guitar_Music_Voice_IV = { %! ide.Path.extern()
             \set stemLeftBeamCount = 0
             \set stemRightBeamCount = 2
             f''16
+            %! FIGURE_NAME
         %@% ^ \markup \fontsize #2 \concat { [ G3 \hspace #1 \raise #0.25 \fontsize #-2 (7) ] }     %! FIGURE_NAME
             [
 
@@ -1828,6 +1887,7 @@ h_Guitar_Music_Voice_IV = { %! ide.Path.extern()
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 2
             fs''!16
+            %! FIGURE_NAME
         %@% ^ \markup \fontsize #2 \concat { [ G4 \hspace #1 \raise #0.25 \fontsize #-2 (9) ] }     %! FIGURE_NAME
 
             \acciaccatura {
@@ -1891,6 +1951,10 @@ h_Guitar_Music_Voice_IV = { %! ide.Path.extern()
             %! HIDDEN
             %! NOTE
             b'1 * 7/32 %! baca.SegmentMaker._make_multimeasure_rest_container(1):HIDDEN:NOTE
+            %! baca.SegmentMaker._label_duration_multipliers()
+            %! DURATION_MULTIPLIER
+            %! HIDDEN
+            %! NOTE
         %@% ^ \baca-duration-multiplier-markup #"7" #"32"     %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:HIDDEN:NOTE
 
         %! baca.SegmentMaker._make_multimeasure_rest_container(4)
@@ -1961,6 +2025,12 @@ h_Guitar_Music_Voice_IV = { %! ide.Path.extern()
             %! HIDDEN
             %! NOTE
             b'1 * 1/4 %! baca.SegmentMaker._make_multimeasure_rest_container(1):PHANTOM:HIDDEN:NOTE
+            %! baca.SegmentMaker._label_duration_multipliers()
+            %! DURATION_MULTIPLIER
+            %! HIDDEN
+            %! NOTE
+            %! PHANTOM
+            %! baca.SegmentMaker._style_phantom_measures(5)
         %@% ^ \baca-duration-multiplier-markup #"1" #"4"     %! baca.SegmentMaker._label_duration_multipliers():DURATION_MULTIPLIER:HIDDEN:NOTE:PHANTOM:baca.SegmentMaker._style_phantom_measures(5)
 
         %! baca.SegmentMaker._make_multimeasure_rest_container(4)

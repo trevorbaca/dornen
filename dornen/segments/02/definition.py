@@ -23,7 +23,7 @@ accumulator(
 
 accumulator(
     "v2",
-    baca.sequence(design[4:5]).reveal(1),
+    baca.Sequence(design[4:5]).reveal(1),
     *dornen.twentieths(),
     baca.beam_positions(-8),
     baca.register(6),
@@ -42,7 +42,7 @@ accumulator(
 
 accumulator(
     "v2",
-    baca.sequence(design[4:5]).reveal(2),
+    baca.Sequence(design[4:5]).reveal(2),
     *dornen.twentieths(),
     baca.register(6),
     baca.extend_beam(),
@@ -60,7 +60,7 @@ accumulator(
 
 accumulator(
     "v2",
-    baca.sequence(design[4:5]).reveal(3),
+    baca.Sequence(design[4:5]).reveal(3),
     *dornen.twentieths(),
     baca.register(6),
     baca.extend_beam(),
@@ -78,7 +78,7 @@ accumulator(
 
 accumulator(
     "v2",
-    baca.sequence(design[4:5]).reveal(4),
+    baca.Sequence(design[4:5]).reveal(4),
     *dornen.twentieths(),
     baca.register(6),
     baca.extend_beam(),
@@ -96,7 +96,7 @@ accumulator(
 
 accumulator(
     "v2",
-    baca.sequence(design[4:5]).reveal(5),
+    baca.Sequence(design[4:5]).reveal(5),
     *dornen.twentieths(),
     baca.register(6),
     figure_name="F1",
@@ -112,7 +112,7 @@ accumulator(
 
 accumulator(
     "v2",
-    baca.sequence(design[4:5]).reveal(1),
+    baca.Sequence(design[4:5]).reveal(1),
     *dornen.twentieths(),
     baca.register(6),
     baca.extend_beam(),
@@ -131,7 +131,7 @@ accumulator(
 
 accumulator(
     "v2",
-    baca.sequence(design[4:5]).reveal(2),
+    baca.Sequence(design[4:5]).reveal(2),
     *dornen.twentieths(),
     baca.register(6),
     figure_name="F1_2*",

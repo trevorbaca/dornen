@@ -82,7 +82,7 @@ accumulator(
 
 accumulator(
     "v1",
-    baca.sequence(design[9:10]).reveal(3).repeat(10).flatten(),
+    baca.Sequence(design[9:10]).reveal(3).repeat(10).flatten(),
     *dornen.sixty_fourths(),
     baca.register(0),
     figure_name="D1",
@@ -90,7 +90,7 @@ accumulator(
 
 accumulator(
     "v1",
-    baca.sequence(design[9:10]).reveal(4).repeat(10).flatten(),
+    baca.Sequence(design[9:10]).reveal(4).repeat(10).flatten(),
     *dornen.sixty_fourths(),
     baca.register(0),
     figure_name="D2",
@@ -98,7 +98,7 @@ accumulator(
 
 accumulator(
     "v1",
-    baca.sequence(design[9:10]).reveal(5).repeat(10).flatten(),
+    baca.Sequence(design[9:10]).reveal(5).repeat(10).flatten(),
     *dornen.sixty_fourths(),
     baca.register(0),
     figure_name="D3",
@@ -106,7 +106,7 @@ accumulator(
 
 accumulator(
     "v1",
-    baca.sequence(design[9:10]).reveal(6).repeat(10).flatten(),
+    baca.Sequence(design[9:10]).reveal(6).repeat(10).flatten(),
     *dornen.sixty_fourths(),
     baca.register(0),
     figure_name="D4",
@@ -114,7 +114,7 @@ accumulator(
 
 accumulator(
     "v1",
-    baca.sequence(design[9:10]).boustrophedon(count=4),
+    baca.Sequence(design[9:10]).boustrophedon(count=4),
     *dornen.sixty_fourths(),
     baca.register(0),
     figure_name="D5",

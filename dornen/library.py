@@ -19,7 +19,7 @@ metronome_marks = abjad.OrderedDict(
 
 # pitch-classes
 
-blue_pitch_classes = baca.sequence([[1, 0, 10], [5, 8, 6, 11, 2], [4, 3, 9]])
+blue_pitch_classes = baca.Sequence([[1, 0, 10], [5, 8, 6, 11, 2], [4, 3, 9]])
 blue_pitch_classes = blue_pitch_classes.helianthate(-1, -1)
 assert len(blue_pitch_classes) == 45
 """
@@ -71,7 +71,7 @@ assert len(blue_pitch_classes) == 45
 """
 
 
-bright_green_pitch_classes = baca.sequence(
+bright_green_pitch_classes = baca.Sequence(
     [[6, 4, 5, 5.5, 6.5, 9], [10, 7, 8, 11.5], [2.5, 3.5, 11, 2, 3, 10.5]]
 )
 bright_green_pitch_classes = bright_green_pitch_classes.helianthate(-1, -1)
@@ -115,7 +115,7 @@ assert len(bright_green_pitch_classes) == 36
 (35, [11.5, 10, 7, 8])
 """
 
-green_pitch_classes = baca.sequence([[5, 9, 11, 10, 0], [6, 7, 8, 2, 1, 3]])
+green_pitch_classes = baca.Sequence([[5, 9, 11, 10, 0], [6, 7, 8, 2, 1, 3]])
 green_pitch_classes = green_pitch_classes.helianthate(-1, -1)
 assert len(green_pitch_classes) == 60
 """
@@ -181,7 +181,7 @@ assert len(green_pitch_classes) == 60
 (59, [0, 5, 9, 11, 10])
 """
 
-magenta_pitch_classes = baca.sequence([[4, 6, 2, 3], [5, 9, 8, 0], [11, 10, 7]])
+magenta_pitch_classes = baca.Sequence([[4, 6, 2, 3], [5, 9, 8, 0], [11, 10, 7]])
 magenta_pitch_classes = magenta_pitch_classes.helianthate(-1, -1)
 assert len(magenta_pitch_classes) == 36
 """

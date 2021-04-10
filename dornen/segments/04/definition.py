@@ -26,7 +26,7 @@ accumulator(
 
 accumulator(
     "v1",
-    [baca.sequence(design[:2]).flatten()],
+    [baca.Sequence(design[:2]).flatten()],
     *dornen.waves(denominator=64),
     figure_name="W3",
 )

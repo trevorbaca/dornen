@@ -365,7 +365,7 @@ maker(
     baca.new(
         baca.hairpin("mp < mf"),
         baca.text_spanner("tamb. tr. => kn. rasg."),
-        map=baca.rleaves().group(),
+        map=lambda _: baca.Selection(_).rleaves().group(),
     ),
 )
 
@@ -374,7 +374,7 @@ maker(
     baca.new(
         baca.hairpin("mf > mp"),
         baca.text_spanner("trans. => tamb. tr."),
-        map=baca.rleaves().group(),
+        map=lambda _: baca.Selection(_).rleaves().group(),
     ),
 )
 
@@ -383,7 +383,7 @@ maker(
     baca.new(
         baca.hairpin("mp < f"),
         baca.text_spanner("trans. => kn. rasg."),
-        map=baca.rleaves().group(),
+        map=lambda _: baca.Selection(_).rleaves().group(),
     ),
 )
 
@@ -392,7 +392,7 @@ maker(
     baca.new(
         baca.hairpin("f > mp"),
         baca.text_spanner("trans. => tamb. tr."),
-        map=baca.rleaves().group(),
+        map=lambda _: baca.Selection(_).rleaves().group(),
     ),
 )
 
@@ -401,7 +401,7 @@ maker(
     baca.new(
         baca.hairpin("mp < ff"),
         baca.text_spanner("trans. => kn. rasg."),
-        map=baca.rleaves().group(),
+        map=lambda _: baca.Selection(_).rleaves().group(),
     ),
 )
 
@@ -409,7 +409,7 @@ maker(
     ("v1", 14),
     baca.new(
         baca.hairpin("ff > mf"),
-        map=baca.rleaves().group(),
+        map=lambda _: baca.Selection(_).rleaves().group(),
     ),
 )
 
@@ -418,7 +418,7 @@ maker(
     baca.new(
         baca.hairpin("mf < f"),
         baca.text_spanner("trans. => nail rasg."),
-        map=baca.rleaves().group(),
+        map=lambda _: baca.Selection(_).rleaves().group(),
     ),
 )
 
@@ -427,7 +427,7 @@ maker(
     baca.new(
         baca.hairpin("f > mf"),
         baca.text_spanner("trans. => kn. rasg."),
-        map=baca.rleaves().group(),
+        map=lambda _: baca.Selection(_).rleaves().group(),
     ),
 )
 
@@ -436,7 +436,7 @@ maker(
     baca.new(
         baca.hairpin("mf < ff"),
         baca.text_spanner("trans. => nail. rasg."),
-        map=baca.rleaves().group(),
+        map=lambda _: baca.Selection(_).rleaves().group(),
     ),
 )
 
@@ -445,7 +445,7 @@ maker(
     baca.new(
         baca.hairpin("ff > mf"),
         baca.text_spanner("trans. => kn. rasg."),
-        map=baca.rleaves().group(),
+        map=lambda _: baca.Selection(_).rleaves().group(),
     ),
 )
 
@@ -454,7 +454,7 @@ maker(
     baca.new(
         baca.hairpin("mf < ffff"),
         baca.text_spanner("trans. => nail rasg."),
-        map=baca.rleaves().group(),
+        map=lambda _: baca.Selection(_).rleaves().group(),
     ),
 )
 

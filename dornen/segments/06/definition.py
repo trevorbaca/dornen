@@ -14,7 +14,7 @@ accumulator(
     "v1",
     design[:1],
     *dornen.forty_eighths(),
-    baca.tenuto(baca.pheads()),
+    baca.tenuto(baca.selectors.pheads()),
     baca.beam_positions(10),
     baca.register(-12),
     baca.extend_beam(),
@@ -49,7 +49,7 @@ accumulator(
     "v1",
     design[6:7],
     *dornen.forty_eighths(),
-    baca.tenuto(baca.pheads()),
+    baca.tenuto(baca.selectors.pheads()),
     baca.register(-12),
     figure_name="48_2",
 )
@@ -138,7 +138,7 @@ maker(
 
 maker(
     ("v3", (1, 7)),
-    baca.accent(baca.pheads(exclude=baca.const.HIDDEN)),
+    baca.accent(baca.selectors.pheads(exclude=baca.const.HIDDEN)),
     baca.new(
         baca.script_down(),
         baca.register(-20),
@@ -148,7 +148,7 @@ maker(
 
 maker(
     ("v4", (1, 7)),
-    baca.staccato(baca.pheads()),
+    baca.staccato(baca.selectors.pheads()),
     baca.beam_positions(5.5),
     baca.register(-4),
 )

@@ -248,5 +248,5 @@ maker(
 maker(
     ("v3", (1, 22)),
     baca.beam_positions(4),
-    baca.staccato(baca.pheads(exclude=baca.const.HIDDEN)),
+    baca.staccato(baca.selectors.pheads(exclude=baca.const.HIDDEN)),
 )

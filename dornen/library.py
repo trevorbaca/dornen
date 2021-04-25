@@ -243,7 +243,7 @@ def delicatissimo() -> list:
     return [
         baca.figure([1], 32, signature=32),
         rmakers.beam_groups(),
-        baca.staccato(selector=baca.pheads()),
+        baca.staccato(selector=baca.selectors.pheads()),
     ]
 
 
@@ -366,7 +366,7 @@ def sixty_fourths() -> list:
     return [
         baca.figure([1], 64, signature=64),
         rmakers.beam_groups(),
-        baca.staccato(selector=baca.pheads()),
+        baca.staccato(selector=baca.selectors.pheads()),
     ]
 
 

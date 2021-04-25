@@ -550,14 +550,14 @@ maker(
 
 maker(
     ("v1", 45),
-    baca.hairpin("pppp >o niente", selector=baca.rleaves()),
+    baca.hairpin("pppp >o niente", selector=baca.selectors.rleaves()),
 )
 
 maker(
     ("v1", (27, 36)),
     baca.text_spanner(
         "trans. => ponticello",
-        selector=baca.rleaves(),
+        selector=baca.selectors.rleaves(),
     ),
 )
 
@@ -565,11 +565,11 @@ maker(
     ("v1", (41, 45)),
     baca.text_spanner(
         "gradually slow rasgueado => still",
-        selector=baca.rleaves(),
+        selector=baca.selectors.rleaves(),
     ),
     baca.text_script_staff_padding(
         5.5,
-        selector=baca.rleaves()[-1],
+        selector=baca.selectors.rleaf(-1),
     ),
 )
 

@@ -332,7 +332,9 @@ def rests(duration=None) -> list:
             duration.denominator,
             signature=duration.denominator,
         ),
-        rmakers.force_rest(baca.lts()),
+        rmakers.force_rest(
+            baca.lts(),
+        ),
     ]
 
 
@@ -343,7 +345,7 @@ def running() -> list:
     return [
         baca.figure([1], 64, treatments=[-1]),
         rmakers.beam_groups(),
-        baca.slur(map=baca.tuplets().nontrivial()),
+        baca.slur(map=lambda _: baca.Selection(_).tuplets().nontrivial()),
     ]
 
 

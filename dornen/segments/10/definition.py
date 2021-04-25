@@ -208,42 +208,42 @@ maker(
 
 maker(
     ("v1", 2),
-    baca.hairpin("ppp < pp", selector=baca.rleaves()),
+    baca.hairpin("ppp < pp", selector=baca.selectors.rleaves()),
 )
 
 maker(
     ("v1", 4),
-    baca.hairpin("pp > ppp", selector=baca.rleaves()),
+    baca.hairpin("pp > ppp", selector=baca.selectors.rleaves()),
 )
 
 maker(
     ("v1", 7),
-    baca.hairpin("ppp < p", selector=baca.rleaves()),
+    baca.hairpin("ppp < p", selector=baca.selectors.rleaves()),
 )
 
 maker(
     ("v1", 9),
-    baca.hairpin("p > ppp", selector=baca.rleaves()),
+    baca.hairpin("p > ppp", selector=baca.selectors.rleaves()),
 )
 
 maker(
     ("v1", 12),
-    baca.hairpin("ppp < pp", selector=baca.rleaves()),
+    baca.hairpin("ppp < pp", selector=baca.selectors.rleaves()),
 )
 
 maker(
     ("v1", 14),
-    baca.hairpin("pp < p", selector=baca.rleaves()),
+    baca.hairpin("pp < p", selector=baca.selectors.rleaves()),
 )
 
 maker(
     ("v1", 16),
-    baca.hairpin("p < mp", selector=baca.rleaves()),
+    baca.hairpin("p < mp", selector=baca.selectors.rleaves()),
 )
 
 maker(
     ("v1", (18, 21)),
-    baca.hairpin("mp > pp", selector=baca.rleaves()),
+    baca.hairpin("mp > pp", selector=baca.selectors.rleaves()),
 )
 
 maker(

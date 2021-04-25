@@ -75,7 +75,7 @@ accumulator(
     baca.markup(
         r"\dornen-raise-string-two-one-quartertone-markup",
         literal=True,
-        selector=baca.leaf(0),
+        selector=baca.selectors.leaf(0),
     ),
     figure_name="S1",
 )
@@ -133,7 +133,7 @@ accumulator.populate_segment_maker(maker)
 
 maker(
     "Global_Skips",
-    baca.metronome_mark("44", baca.leaf(9 - 1)),
+    baca.metronome_mark("44", baca.selectors.leaf(9 - 1)),
 )
 
 maker(

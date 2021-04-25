@@ -126,7 +126,7 @@ accumulator.populate_segment_maker(maker)
 
 maker(
     "Global_Skips",
-    baca.metronome_mark("66", baca.leaf(1 - 1)),
+    baca.metronome_mark("66", baca.selectors.leaf(1 - 1)),
 )
 
 # glissando scatto

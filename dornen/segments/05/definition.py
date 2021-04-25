@@ -206,7 +206,7 @@ accumulator(
         r"\dornen-two-finger-tamb-trill-markup",
         literal=True,
     ),
-    baca.stem_tremolo(baca.pleaves()),
+    baca.stem_tremolo(baca.selectors.pleaves()),
     baca.stem_up(),
     baca.tuplet_bracket_staff_padding(0),
     baca.tuplet_bracket_extra_offset((0, -0.5)),
@@ -272,7 +272,7 @@ accumulator.populate_segment_maker(maker)
 
 maker(
     "v1",
-    baca.tenuto(baca.pheads(exclude=baca.const.HIDDEN)),
+    baca.tenuto(baca.selectors.pheads(exclude=baca.const.HIDDEN)),
     baca.beam_positions(10),
     baca.register(
         -12,
@@ -300,7 +300,7 @@ maker(
 
 maker(
     "v3",
-    baca.accent(baca.pheads(exclude=baca.const.HIDDEN)),
+    baca.accent(baca.selectors.pheads(exclude=baca.const.HIDDEN)),
     baca.script_down(baca.leaves(exclude=baca.const.HIDDEN)),
     baca.register(
         -20,
@@ -310,7 +310,7 @@ maker(
 
 maker(
     "v4",
-    baca.staccato(baca.pheads(exclude=baca.const.HIDDEN)),
+    baca.staccato(baca.selectors.pheads(exclude=baca.const.HIDDEN)),
     baca.beam_positions(5.5),
     baca.register(
         -4,

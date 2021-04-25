@@ -14,7 +14,10 @@ accumulator(
     "v2",
     design[:1],
     *dornen.ovoids(),
-    baca.beam_positions(-7.5, baca.pleaf(0)),
+    baca.beam_positions(
+        -7.5,
+        baca.selectors.pleaf(0),
+    ),
     baca.register(-20, -8),
     figure_name="O1",
 )
@@ -55,7 +58,10 @@ accumulator(
     "v2",
     design[5:6],
     *dornen.ovoids(),
-    baca.beam_positions(-7.5, baca.pleaf(0)),
+    baca.beam_positions(
+        -7.5,
+        baca.selectors.pleaf(0),
+    ),
     baca.extend_beam(),
     figure_name="O2",
 )

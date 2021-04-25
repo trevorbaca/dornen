@@ -330,10 +330,12 @@ accumulator(
     ),
     baca.register(-20),
     baca.new(
-        baca.repeat_tie(baca.pleaves()[1:]),
+        baca.repeat_tie(
+            baca.selectors.pleaves((1, None)),
+        ),
         map=baca.selectors.qruns(),
     ),
-    baca.stem_tremolo(baca.pleaves()),
+    baca.stem_tremolo(baca.selectors.pleaves()),
 )
 
 maker = baca.SegmentMaker(
@@ -353,7 +355,7 @@ maker(
     ("v1", (1, 41)),
     baca.beam_positions(10),
     baca.register(-12),
-    baca.tenuto(baca.pheads()),
+    baca.tenuto(baca.selectors.pheads()),
 )
 
 maker(
@@ -367,7 +369,7 @@ maker(
 
 maker(
     ("v3", (1, 41)),
-    baca.accent(baca.pheads(exclude=baca.const.HIDDEN)),
+    baca.accent(baca.selectors.pheads(exclude=baca.const.HIDDEN)),
     baca.register(
         -20,
         selector=baca.plts(exclude=baca.const.HIDDEN),
@@ -379,7 +381,7 @@ maker(
     ("v4", (1, 41)),
     baca.beam_positions(5.5),
     baca.register(-4),
-    baca.staccato(baca.pheads(exclude=baca.const.HIDDEN)),
+    baca.staccato(baca.selectors.pheads(exclude=baca.const.HIDDEN)),
 )
 
 maker(

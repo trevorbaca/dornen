@@ -63,7 +63,7 @@ accumulator(
     "v1",
     [["C4"]],
     *dornen.thirty_seconds(),
-    rmakers.force_rest(baca.lt(0)),
+    rmakers.force_rest(baca.selectors.lt(0)),
 )
 
 ### 2 ###
@@ -117,7 +117,7 @@ accumulator(
     "v1",
     [["C4"]],
     *dornen.thirty_seconds(),
-    rmakers.force_rest(baca.lt(0)),
+    rmakers.force_rest(baca.selectors.lt(0)),
 )
 
 ### 3 ###
@@ -171,7 +171,7 @@ accumulator(
     "v1",
     [["C4"]],
     *dornen.thirty_seconds(),
-    rmakers.force_rest(baca.lt(0)),
+    rmakers.force_rest(baca.selectors.lt(0)),
 )
 
 ### 4 ###
@@ -221,7 +221,7 @@ accumulator(
     "v1",
     [["C4"]],
     *dornen.thirty_seconds(),
-    rmakers.force_rest(baca.lt(0)),
+    rmakers.force_rest(baca.selectors.lt(0)),
 )
 
 ### 5 ###
@@ -271,7 +271,7 @@ accumulator(
     "v1",
     [["C4"]],
     *dornen.thirty_seconds(),
-    rmakers.force_rest(baca.lt(0)),
+    rmakers.force_rest(baca.selectors.lt(0)),
 )
 
 ### 6 ###

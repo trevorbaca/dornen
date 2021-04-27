@@ -300,8 +300,12 @@ maker(
 
 maker(
     "v3",
-    baca.accent(baca.selectors.pheads(exclude=baca.const.HIDDEN)),
-    baca.script_down(baca.leaves(exclude=baca.const.HIDDEN)),
+    baca.accent(
+        baca.selectors.pheads(exclude=baca.const.HIDDEN),
+    ),
+    baca.script_down(
+        baca.selectors.leaves(exclude=baca.const.HIDDEN),
+    ),
     baca.register(
         -20,
         selector=baca.plts(exclude=baca.const.HIDDEN),

@@ -15,7 +15,10 @@ accumulator(
     "v1",
     cursor.next(),
     *dornen.anchors(),
-    baca.beam_positions(6, baca.leaves(grace=False)),
+    baca.beam_positions(
+        6,
+        baca.selectors.leaves(grace=False),
+    ),
     baca.register(-8),
     baca.extend_beam(),
     figure_name="0",
@@ -25,7 +28,10 @@ accumulator(
     "v2",
     cursor.next(),
     *dornen.passepied(),
-    baca.beam_positions(-10, baca.leaves(grace=False)),
+    baca.beam_positions(
+        -10,
+        baca.selectors.leaves(grace=False),
+    ),
     baca.time_signature_extra_offset((-2.5, 0)),
     baca.register(-10),
     baca.extend_beam(),
@@ -72,7 +78,10 @@ accumulator(
     "v1",
     cursor.next(),
     *dornen.anchors(),
-    baca.beam_positions(9, baca.leaves(grace=False)),
+    baca.beam_positions(
+        9,
+        baca.selectors.leaves(grace=False),
+    ),
     baca.register(-14),
     baca.extend_beam(),
     figure_name="6",
@@ -82,7 +91,10 @@ accumulator(
     "v2",
     cursor.next(),
     *dornen.passepied(),
-    baca.beam_positions(-10, baca.leaves(grace=False)),
+    baca.beam_positions(
+        -10,
+        baca.selectors.leaves(grace=False),
+    ),
     baca.time_signature_extra_offset((-2.5, 0)),
     baca.register(-4),
     baca.extend_beam(),
@@ -117,7 +129,10 @@ accumulator(
     "v1",
     cursor.next(),
     *dornen.anchors(),
-    baca.beam_positions(6, baca.leaves(grace=False)),
+    baca.beam_positions(
+        6,
+        baca.selectors.leaves(grace=False),
+    ),
     baca.register(-18),
     baca.extend_beam(),
     figure_name="11",
@@ -144,7 +159,10 @@ accumulator(
     "v2",
     cursor.next(),
     *dornen.passepied(),
-    baca.beam_positions(-10, baca.leaves(grace=False)),
+    baca.beam_positions(
+        -10,
+        baca.selectors.leaves(grace=False),
+    ),
     baca.time_signature_extra_offset((-2.5, 0)),
     baca.register(0),
     baca.extend_beam(),
@@ -172,7 +190,10 @@ accumulator(
     "v3",
     cursor.next(),
     *dornen.waves(denominator=64, inverted=True),
-    baca.beam_positions(-6, baca.leaves(grace=False)),
+    baca.beam_positions(
+        -6,
+        baca.selectors.leaves(grace=False),
+    ),
     figure_name="17",
 )
 
@@ -180,7 +201,10 @@ accumulator(
     "v3",
     cursor.next(),
     *dornen.waves(denominator=64, inverted=True),
-    baca.beam_positions(-6, baca.leaves(grace=False)),
+    baca.beam_positions(
+        -6,
+        baca.selectors.leaves(grace=False),
+    ),
     figure_name="18",
 )
 

@@ -360,7 +360,10 @@ maker(
 
 maker(
     ("v2", (1, 41)),
-    baca.beam_positions(-5.5, baca.leaves(exclude=baca.const.HIDDEN)),
+    baca.beam_positions(
+        -5.5,
+        baca.leaves(exclude=baca.const.HIDDEN),
+    ),
     baca.register(
         4,
         selector=baca.plts(exclude=baca.const.HIDDEN),
@@ -391,7 +394,7 @@ maker(
         baca.rehearsal_mark_down(),
         baca.rehearsal_mark_padding(12),
         baca.rehearsal_mark_self_alignment_x(abjad.Right),
-        selector=baca.leaves().rleak()[-1],
+        selector=baca.selectors.rleaf(-1),
     ),
 )
 

@@ -362,7 +362,7 @@ maker(
     ("v2", (1, 41)),
     baca.beam_positions(
         -5.5,
-        baca.leaves(exclude=baca.const.HIDDEN),
+        baca.selectors.leaves(exclude=baca.const.HIDDEN),
     ),
     baca.register(
         4,

@@ -333,7 +333,7 @@ def rests(duration=None) -> list:
             signature=duration.denominator,
         ),
         rmakers.force_rest(
-            baca.lts(),
+            baca.selectors.lts(),
         ),
     ]
 

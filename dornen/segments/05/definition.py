@@ -276,7 +276,7 @@ maker(
     baca.beam_positions(10),
     baca.register(
         -12,
-        selector=baca.plts(exclude=baca.const.HIDDEN),
+        selector=baca.selectors.plts(exclude=baca.const.HIDDEN),
     ),
 )
 
@@ -285,7 +285,7 @@ maker(
     baca.beam_positions(-5.5),
     baca.register(
         4,
-        selector=baca.plts(exclude=baca.const.HIDDEN),
+        selector=baca.selectors.plts(exclude=baca.const.HIDDEN),
     ),
 )
 
@@ -294,7 +294,7 @@ maker(
     baca.beam_positions(-5.5),
     baca.register(
         4,
-        selector=baca.plts(exclude=baca.const.HIDDEN),
+        selector=baca.selectors.plts(exclude=baca.const.HIDDEN),
     ),
 )
 
@@ -308,7 +308,7 @@ maker(
     ),
     baca.register(
         -20,
-        selector=baca.plts(exclude=baca.const.HIDDEN),
+        selector=baca.selectors.plts(exclude=baca.const.HIDDEN),
     ),
 )
 
@@ -318,6 +318,6 @@ maker(
     baca.beam_positions(5.5),
     baca.register(
         -4,
-        selector=baca.plts(exclude=baca.const.HIDDEN),
+        selector=baca.selectors.plts(exclude=baca.const.HIDDEN),
     ),
 )

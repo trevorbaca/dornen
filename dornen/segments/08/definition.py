@@ -142,7 +142,7 @@ maker(
     baca.register(
         -20,
         4,
-        selector=baca.plts(exclude=baca.const.HIDDEN),
+        selector=baca.selectors.plts(exclude=baca.const.HIDDEN),
     ),
 )
 
@@ -158,6 +158,6 @@ maker(
     baca.register(
         -18,
         6,
-        selector=baca.plts(exclude=baca.const.HIDDEN),
+        selector=baca.selectors.plts(exclude=baca.const.HIDDEN),
     ),
 )

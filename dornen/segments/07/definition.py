@@ -13,12 +13,12 @@ assert len(design) == 22, len(design)
 
 lower_register = baca.register(
     -18,
-    selector=baca.plts(exclude=baca.const.HIDDEN),
+    selector=baca.selectors.plts(exclude=baca.const.HIDDEN),
 )
 middle_register = baca.register(
     -12,
     0,
-    selector=baca.plts(exclude=baca.const.HIDDEN),
+    selector=baca.selectors.plts(exclude=baca.const.HIDDEN),
 )
 
 accumulator(

@@ -1,4 +1,4 @@
-%! ide.Path.extern()
+%! baca.Path.extern()
 h_Global_Skips = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
@@ -545,11 +545,11 @@ h_Global_Skips = {
     \once \override Score.SpanBar.transparent = ##t
 
 %! abjad.ScoreTemplate._make_global_context()
-%! ide.Path.extern()
+%! baca.Path.extern()
 }
 
 
-%! ide.Path.extern()
+%! baca.Path.extern()
 h_Global_Rests = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
@@ -621,11 +621,11 @@ h_Global_Rests = {
     R1 * 1/4
 
 %! abjad.ScoreTemplate._make_global_context()
-%! ide.Path.extern()
+%! baca.Path.extern()
 }
 
 
-%! ide.Path.extern()
+%! baca.Path.extern()
 h_Guitar_Music_Voice_I = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
@@ -910,11 +910,11 @@ h_Guitar_Music_Voice_I = {
     >>
 
 %! dornen.ScoreTemplate.__call__()
-%! ide.Path.extern()
+%! baca.Path.extern()
 }
 
 
-%! ide.Path.extern()
+%! baca.Path.extern()
 h_Guitar_Music_Voice_II = {
 
     {
@@ -1213,11 +1213,11 @@ h_Guitar_Music_Voice_II = {
     >>
 
 %! dornen.ScoreTemplate.__call__()
-%! ide.Path.extern()
+%! baca.Path.extern()
 }
 
 
-%! ide.Path.extern()
+%! baca.Path.extern()
 h_Guitar_Music_Voice_III = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
@@ -1647,11 +1647,11 @@ h_Guitar_Music_Voice_III = {
     >>
 
 %! dornen.ScoreTemplate.__call__()
-%! ide.Path.extern()
+%! baca.Path.extern()
 }
 
 
-%! ide.Path.extern()
+%! baca.Path.extern()
 h_Guitar_Music_Voice_IV = {
 
     %! baca.SegmentMaker._comment_measure_numbers()
@@ -2074,43 +2074,43 @@ h_Guitar_Music_Voice_IV = {
     >>
 
 %! dornen.ScoreTemplate.__call__()
-%! ide.Path.extern()
+%! baca.Path.extern()
 }
 
 
-%! ide.Path.extern()
+%! baca.Path.extern()
 h_Guitar_Music_Staff = <<
 
     %! abjad.ScoreTemplate._make_global_context()
     \context GlobalRests = "Global_Rests"
     %! abjad.ScoreTemplate._make_global_context()
-    %! ide.Path.extern()
+    %! baca.Path.extern()
     \h_Global_Rests
 
     %! dornen.ScoreTemplate.__call__()
     \context GuitarMusicVoiceI = "Guitar_Music_Voice_I"
     %! dornen.ScoreTemplate.__call__()
-    %! ide.Path.extern()
+    %! baca.Path.extern()
     \h_Guitar_Music_Voice_I
 
     %! dornen.ScoreTemplate.__call__()
     \context GuitarMusicVoiceII = "Guitar_Music_Voice_II"
     %! dornen.ScoreTemplate.__call__()
-    %! ide.Path.extern()
+    %! baca.Path.extern()
     \h_Guitar_Music_Voice_II
 
     %! dornen.ScoreTemplate.__call__()
     \context GuitarMusicVoiceIII = "Guitar_Music_Voice_III"
     %! dornen.ScoreTemplate.__call__()
-    %! ide.Path.extern()
+    %! baca.Path.extern()
     \h_Guitar_Music_Voice_III
 
     %! dornen.ScoreTemplate.__call__()
     \context GuitarMusicVoiceIV = "Guitar_Music_Voice_IV"
     %! dornen.ScoreTemplate.__call__()
-    %! ide.Path.extern()
+    %! baca.Path.extern()
     \h_Guitar_Music_Voice_IV
 
 %! dornen.ScoreTemplate.__call__()
-%! ide.Path.extern()
+%! baca.Path.extern()
 >>

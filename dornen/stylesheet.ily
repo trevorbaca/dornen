@@ -1,7 +1,7 @@
 #(set-default-paper-size "a3landscape")
 #(set-global-staff-size 12)
 
-\include "/Users/trevorbaca/baca/lilypond/baca.ily"
+\include "baca.ily"
 
 \paper {
     bottom-margin = 0.5\in

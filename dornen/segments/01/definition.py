@@ -230,3 +230,6 @@ maker(
     ("v3", (18, 19)),
     baca.register(0, -12),
 )
+
+if __name__ == "__main__":
+    baca.build.make_segment_pdf(maker)

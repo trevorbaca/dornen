@@ -323,3 +323,6 @@ maker(
         selector=baca.selectors.plts(exclude=baca.const.HIDDEN),
     ),
 )
+
+if __name__ == "__main__":
+    baca.build.make_segment_pdf(maker)

@@ -198,3 +198,6 @@ maker(
     ("v3", (1, 18)),
     baca.beam_positions(-4),
 )
+
+if __name__ == "__main__":
+    baca.build.make_segment_pdf(maker)

@@ -320,3 +320,6 @@ maker(
     baca.text_spanner_staff_padding(5),
     baca.text_script_staff_padding(8),
 )
+
+if __name__ == "__main__":
+    baca.build.make_segment_pdf(maker)

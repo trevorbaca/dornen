@@ -255,3 +255,6 @@ maker(
     baca.beam_positions(4),
     baca.staccato(baca.selectors.pheads(exclude=baca.const.HIDDEN)),
 )
+
+if __name__ == "__main__":
+    baca.build.make_segment_pdf(maker)

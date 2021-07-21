@@ -399,3 +399,6 @@ maker(
     baca.register(-12),
     baca.displacement([0, 0, 0, 0, 1, 1, 1, 1]),
 )
+
+if __name__ == "__main__":
+    baca.build.make_segment_pdf(maker)

@@ -278,3 +278,6 @@ maker(
     "v1",
     baca.text_script_staff_padding(5),
 )
+
+if __name__ == "__main__":
+    baca.build.make_segment_pdf(maker)

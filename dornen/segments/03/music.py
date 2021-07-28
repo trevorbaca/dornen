@@ -3,7 +3,7 @@ import pathlib
 import abjad
 import baca
 
-import dornen
+from dornen import library as dornen
 
 ###############################################################################
 ##################################### [C] #####################################

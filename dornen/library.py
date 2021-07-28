@@ -455,7 +455,7 @@ def design_1(
 
         Makes design I:
 
-        >>> design_1 = dornen.design_1()
+        >>> design_1 = dornen.library.design_1()
         >>> abjad.show(design_1) # doctest: +SKIP
 
         ..  docs::
@@ -869,12 +869,8 @@ def design_1(
             }
 
     """
-    import dornen
-
     design_maker = baca.DesignMaker()
-    magenta_pitch_classes = dornen.magenta_pitch_classes
     magenta_cursor = baca.Cursor.from_pitch_class_segments(magenta_pitch_classes)
-    blue_pitch_classes = dornen.blue_pitch_classes
     blue_cursor = baca.Cursor.from_pitch_class_segments(blue_pitch_classes)
     design_maker.partition(magenta_cursor, 2, [1])
     design_maker.partition(magenta_cursor, 2, [1])
@@ -916,7 +912,7 @@ def design_2(
 
         Makes design II:
 
-        >>> design_2 = dornen.design_2()
+        >>> design_2 = dornen.library.design_2()
         >>> abjad.show(design_2) # doctest: +SKIP
 
         ..  docs::
@@ -1309,11 +1305,7 @@ def design_2(
             }
 
     """
-    import dornen
-
-    blue_pitch_classes = dornen.blue_pitch_classes
     blue_cursor = baca.Cursor.from_pitch_class_segments(blue_pitch_classes)
-    green_pitch_classes = dornen.green_pitch_classes
     green_cursor = baca.Cursor.from_pitch_class_segments(green_pitch_classes)
     design_maker = baca.DesignMaker()
     design_maker.partition_cyclic(blue_cursor, 4, [4])
@@ -1350,7 +1342,7 @@ def design_3(
 
         Makes design III:
 
-        >>> design_3 = dornen.design_3()
+        >>> design_3 = dornen.library.design_3()
         >>> abjad.show(design_3) # doctest: +SKIP
 
         ..  docs::
@@ -1748,11 +1740,7 @@ def design_3(
             }
 
     """
-    import dornen
-
-    green_pitch_classes = dornen.green_pitch_classes
     green_cursor = baca.Cursor.from_pitch_class_segments(green_pitch_classes)
-    bright_green_pitch_classes = dornen.bright_green_pitch_classes
     bright_green_cursor = baca.Cursor.from_pitch_class_segments(
         bright_green_pitch_classes
     )

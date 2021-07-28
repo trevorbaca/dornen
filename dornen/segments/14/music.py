@@ -4,7 +4,7 @@ import abjad
 import baca
 from abjadext import rmakers
 
-import dornen
+from dornen import library as dornen
 
 ###############################################################################
 ##################################### [N] #####################################

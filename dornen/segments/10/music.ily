@@ -1,6 +1,6 @@
 j_Global_Skips = {
 
-    % [10 Global_Skips measure 185 / measure 1]
+    % [Global_Skips measure 185 / measure 1]
     \time 3/8
     \bar ""
     \baca-time-signature-color #'blue
@@ -9,106 +9,106 @@ j_Global_Skips = {
     - \baca-metronome-mark-spanner-colored-left-text 3 0 1 "66" #'green4
     \bacaStartTextSpanMM
 
-    % [10 Global_Skips measure 186 / measure 2]
+    % [Global_Skips measure 186 / measure 2]
     #(ly:expect-warning "strange time signature found")
     \time 4/5
     \baca-time-signature-color #'blue
     s1 * 4/5
 
-    % [10 Global_Skips measure 187 / measure 3]
+    % [Global_Skips measure 187 / measure 3]
     #(ly:expect-warning "strange time signature found")
     \time 2/5
     \baca-time-signature-color #'blue
     s1 * 2/5
 
-    % [10 Global_Skips measure 188 / measure 4]
+    % [Global_Skips measure 188 / measure 4]
     #(ly:expect-warning "strange time signature found")
     \time 1/3
     \baca-time-signature-color #'blue
     s1 * 1/3
 
-    % [10 Global_Skips measure 189 / measure 5]
+    % [Global_Skips measure 189 / measure 5]
     s1 * 1/3
 
-    % [10 Global_Skips measure 190 / measure 6]
+    % [Global_Skips measure 190 / measure 6]
     s1 * 1/3
 
-    % [10 Global_Skips measure 191 / measure 7]
+    % [Global_Skips measure 191 / measure 7]
     #(ly:expect-warning "strange time signature found")
     \time 2/5
     \baca-time-signature-color #'blue
     s1 * 2/5
 
-    % [10 Global_Skips measure 192 / measure 8]
+    % [Global_Skips measure 192 / measure 8]
     s1 * 2/5
 
-    % [10 Global_Skips measure 193 / measure 9]
+    % [Global_Skips measure 193 / measure 9]
     #(ly:expect-warning "strange time signature found")
     \time 1/3
     \baca-time-signature-color #'blue
     s1 * 1/3
 
-    % [10 Global_Skips measure 194 / measure 10]
+    % [Global_Skips measure 194 / measure 10]
     s1 * 1/3
 
-    % [10 Global_Skips measure 195 / measure 11]
+    % [Global_Skips measure 195 / measure 11]
     s1 * 1/3
 
-    % [10 Global_Skips measure 196 / measure 12]
+    % [Global_Skips measure 196 / measure 12]
     #(ly:expect-warning "strange time signature found")
     \time 2/5
     \baca-time-signature-color #'blue
     s1 * 2/5
 
-    % [10 Global_Skips measure 197 / measure 13]
+    % [Global_Skips measure 197 / measure 13]
     s1 * 2/5
 
-    % [10 Global_Skips measure 198 / measure 14]
+    % [Global_Skips measure 198 / measure 14]
     #(ly:expect-warning "strange time signature found")
     \time 1/3
     \baca-time-signature-color #'blue
     s1 * 1/3
 
-    % [10 Global_Skips measure 199 / measure 15]
+    % [Global_Skips measure 199 / measure 15]
     #(ly:expect-warning "strange time signature found")
     \time 2/5
     \baca-time-signature-color #'blue
     s1 * 2/5
 
-    % [10 Global_Skips measure 200 / measure 16]
+    % [Global_Skips measure 200 / measure 16]
     #(ly:expect-warning "strange time signature found")
     \time 1/3
     \baca-time-signature-color #'blue
     s1 * 1/3
 
-    % [10 Global_Skips measure 201 / measure 17]
+    % [Global_Skips measure 201 / measure 17]
     #(ly:expect-warning "strange time signature found")
     \time 2/5
     \baca-time-signature-color #'blue
     s1 * 2/5
 
-    % [10 Global_Skips measure 202 / measure 18]
+    % [Global_Skips measure 202 / measure 18]
     #(ly:expect-warning "strange time signature found")
     \time 1/3
     \baca-time-signature-color #'blue
     s1 * 1/3
 
-    % [10 Global_Skips measure 203 / measure 19]
+    % [Global_Skips measure 203 / measure 19]
     s1 * 1/3
 
-    % [10 Global_Skips measure 204 / measure 20]
+    % [Global_Skips measure 204 / measure 20]
     s1 * 1/3
 
-    % [10 Global_Skips measure 205 / measure 21]
+    % [Global_Skips measure 205 / measure 21]
     #(ly:expect-warning "strange time signature found")
     \time 4/5
     \baca-time-signature-color #'blue
     s1 * 4/5
 
-    % [10 Global_Skips measure 206 / measure 22]
+    % [Global_Skips measure 206 / measure 22]
     s1 * 4/5
 
-    % [10 Global_Skips measure 207 / measure 23]
+    % [Global_Skips measure 207 / measure 23]
     \time 1/4
     \baca-time-signature-transparent
     s1 * 1/4
@@ -121,73 +121,73 @@ j_Global_Skips = {
 
 j_Global_Rests = {
 
-    % [10 Global_Rests measure 185 / measure 1]
+    % [Global_Rests measure 185 / measure 1]
     R1 * 3/8
 
-    % [10 Global_Rests measure 186 / measure 2]
+    % [Global_Rests measure 186 / measure 2]
     R1 * 4/5
 
-    % [10 Global_Rests measure 187 / measure 3]
+    % [Global_Rests measure 187 / measure 3]
     R1 * 2/5
 
-    % [10 Global_Rests measure 188 / measure 4]
+    % [Global_Rests measure 188 / measure 4]
     R1 * 1/3
 
-    % [10 Global_Rests measure 189 / measure 5]
+    % [Global_Rests measure 189 / measure 5]
     R1 * 1/3
 
-    % [10 Global_Rests measure 190 / measure 6]
+    % [Global_Rests measure 190 / measure 6]
     R1 * 1/3
 
-    % [10 Global_Rests measure 191 / measure 7]
+    % [Global_Rests measure 191 / measure 7]
     R1 * 2/5
 
-    % [10 Global_Rests measure 192 / measure 8]
+    % [Global_Rests measure 192 / measure 8]
     R1 * 2/5
 
-    % [10 Global_Rests measure 193 / measure 9]
+    % [Global_Rests measure 193 / measure 9]
     R1 * 1/3
 
-    % [10 Global_Rests measure 194 / measure 10]
+    % [Global_Rests measure 194 / measure 10]
     R1 * 1/3
 
-    % [10 Global_Rests measure 195 / measure 11]
+    % [Global_Rests measure 195 / measure 11]
     R1 * 1/3
 
-    % [10 Global_Rests measure 196 / measure 12]
+    % [Global_Rests measure 196 / measure 12]
     R1 * 2/5
 
-    % [10 Global_Rests measure 197 / measure 13]
+    % [Global_Rests measure 197 / measure 13]
     R1 * 2/5
 
-    % [10 Global_Rests measure 198 / measure 14]
+    % [Global_Rests measure 198 / measure 14]
     R1 * 1/3
 
-    % [10 Global_Rests measure 199 / measure 15]
+    % [Global_Rests measure 199 / measure 15]
     R1 * 2/5
 
-    % [10 Global_Rests measure 200 / measure 16]
+    % [Global_Rests measure 200 / measure 16]
     R1 * 1/3
 
-    % [10 Global_Rests measure 201 / measure 17]
+    % [Global_Rests measure 201 / measure 17]
     R1 * 2/5
 
-    % [10 Global_Rests measure 202 / measure 18]
+    % [Global_Rests measure 202 / measure 18]
     R1 * 1/3
 
-    % [10 Global_Rests measure 203 / measure 19]
+    % [Global_Rests measure 203 / measure 19]
     R1 * 1/3
 
-    % [10 Global_Rests measure 204 / measure 20]
+    % [Global_Rests measure 204 / measure 20]
     R1 * 1/3
 
-    % [10 Global_Rests measure 205 / measure 21]
+    % [Global_Rests measure 205 / measure 21]
     R1 * 4/5
 
-    % [10 Global_Rests measure 206 / measure 22]
+    % [Global_Rests measure 206 / measure 22]
     R1 * 4/5
 
-    % [10 Global_Rests measure 207 / measure 23]
+    % [Global_Rests measure 207 / measure 23]
     R1 * 1/4
 
 }
@@ -200,7 +200,7 @@ j_Guitar_Music_Voice_I = {
         \scaleDurations #'(1 . 1)
         {
 
-            % [10 Guitar_Music_Voice_I measure 185 / measure 1]
+            % [Guitar_Music_Voice_I measure 185 / measure 1]
             \override TextScript.staff-padding = 5
             \clef "treble"
             \once \override GuitarMusicStaff.Clef.color = #(x11-color 'green4)
@@ -229,7 +229,7 @@ j_Guitar_Music_Voice_I = {
         \times 4/5
         {
 
-            % [10 Guitar_Music_Voice_I measure 186 / measure 2]
+            % [Guitar_Music_Voice_I measure 186 / measure 2]
             gf!2
             :32
             - \tweak color #(x11-color 'blue)
@@ -262,7 +262,7 @@ j_Guitar_Music_Voice_I = {
         \times 4/5
         {
 
-            % [10 Guitar_Music_Voice_I measure 187 / measure 3]
+            % [Guitar_Music_Voice_I measure 187 / measure 3]
             gf2
             :32
             - \tweak color #(x11-color 'blue)
@@ -281,7 +281,7 @@ j_Guitar_Music_Voice_I = {
         \times 2/3
         {
 
-            % [10 Guitar_Music_Voice_I measure 188 / measure 4]
+            % [Guitar_Music_Voice_I measure 188 / measure 4]
             gf2
             :32
             - \tweak color #(x11-color 'blue)
@@ -302,7 +302,7 @@ j_Guitar_Music_Voice_I = {
         \times 2/3
         {
 
-            % [10 Guitar_Music_Voice_I measure 189 / measure 5]
+            % [Guitar_Music_Voice_I measure 189 / measure 5]
             gf2
             :32
             - \tweak color #(x11-color 'blue)
@@ -321,7 +321,7 @@ j_Guitar_Music_Voice_I = {
         \times 2/3
         {
 
-            % [10 Guitar_Music_Voice_I measure 190 / measure 6]
+            % [Guitar_Music_Voice_I measure 190 / measure 6]
             gf2
             :32
             \repeatTie
@@ -338,7 +338,7 @@ j_Guitar_Music_Voice_I = {
         \times 4/5
         {
 
-            % [10 Guitar_Music_Voice_I measure 191 / measure 7]
+            % [Guitar_Music_Voice_I measure 191 / measure 7]
             gf2
             :32
             - \tweak color #(x11-color 'blue)
@@ -360,7 +360,7 @@ j_Guitar_Music_Voice_I = {
         \times 4/5
         {
 
-            % [10 Guitar_Music_Voice_I measure 192 / measure 8]
+            % [Guitar_Music_Voice_I measure 192 / measure 8]
             gf2
             :32
             - \tweak color #(x11-color 'blue)
@@ -379,7 +379,7 @@ j_Guitar_Music_Voice_I = {
         \times 2/3
         {
 
-            % [10 Guitar_Music_Voice_I measure 193 / measure 9]
+            % [Guitar_Music_Voice_I measure 193 / measure 9]
             gf2
             :32
             - \tweak color #(x11-color 'blue)
@@ -400,7 +400,7 @@ j_Guitar_Music_Voice_I = {
         \times 2/3
         {
 
-            % [10 Guitar_Music_Voice_I measure 194 / measure 10]
+            % [Guitar_Music_Voice_I measure 194 / measure 10]
             gf2
             :32
             - \tweak color #(x11-color 'blue)
@@ -419,7 +419,7 @@ j_Guitar_Music_Voice_I = {
         \times 2/3
         {
 
-            % [10 Guitar_Music_Voice_I measure 195 / measure 11]
+            % [Guitar_Music_Voice_I measure 195 / measure 11]
             gf2
             :32
             \repeatTie
@@ -436,7 +436,7 @@ j_Guitar_Music_Voice_I = {
         \times 4/5
         {
 
-            % [10 Guitar_Music_Voice_I measure 196 / measure 12]
+            % [Guitar_Music_Voice_I measure 196 / measure 12]
             gf2
             :32
             - \tweak color #(x11-color 'blue)
@@ -458,7 +458,7 @@ j_Guitar_Music_Voice_I = {
         \times 4/5
         {
 
-            % [10 Guitar_Music_Voice_I measure 197 / measure 13]
+            % [Guitar_Music_Voice_I measure 197 / measure 13]
             gf2
             :32
             - \tweak color #(x11-color 'blue)
@@ -477,7 +477,7 @@ j_Guitar_Music_Voice_I = {
         \times 2/3
         {
 
-            % [10 Guitar_Music_Voice_I measure 198 / measure 14]
+            % [Guitar_Music_Voice_I measure 198 / measure 14]
             gf2
             :32
             - \tweak color #(x11-color 'blue)
@@ -498,7 +498,7 @@ j_Guitar_Music_Voice_I = {
         \times 4/5
         {
 
-            % [10 Guitar_Music_Voice_I measure 199 / measure 15]
+            % [Guitar_Music_Voice_I measure 199 / measure 15]
             gf2
             :32
             - \tweak color #(x11-color 'blue)
@@ -517,7 +517,7 @@ j_Guitar_Music_Voice_I = {
         \times 2/3
         {
 
-            % [10 Guitar_Music_Voice_I measure 200 / measure 16]
+            % [Guitar_Music_Voice_I measure 200 / measure 16]
             gf2
             :32
             - \tweak color #(x11-color 'blue)
@@ -538,7 +538,7 @@ j_Guitar_Music_Voice_I = {
         \times 4/5
         {
 
-            % [10 Guitar_Music_Voice_I measure 201 / measure 17]
+            % [Guitar_Music_Voice_I measure 201 / measure 17]
             gf2
             :32
             - \tweak color #(x11-color 'blue)
@@ -557,7 +557,7 @@ j_Guitar_Music_Voice_I = {
         \times 2/3
         {
 
-            % [10 Guitar_Music_Voice_I measure 202 / measure 18]
+            % [Guitar_Music_Voice_I measure 202 / measure 18]
             gf2
             :32
             - \tweak color #(x11-color 'blue)
@@ -578,7 +578,7 @@ j_Guitar_Music_Voice_I = {
         \times 2/3
         {
 
-            % [10 Guitar_Music_Voice_I measure 203 / measure 19]
+            % [Guitar_Music_Voice_I measure 203 / measure 19]
             gf2
             :32
             \repeatTie
@@ -595,7 +595,7 @@ j_Guitar_Music_Voice_I = {
         \times 2/3
         {
 
-            % [10 Guitar_Music_Voice_I measure 204 / measure 20]
+            % [Guitar_Music_Voice_I measure 204 / measure 20]
             gf2
             :32
             \repeatTie
@@ -612,7 +612,7 @@ j_Guitar_Music_Voice_I = {
         \times 4/5
         {
 
-            % [10 Guitar_Music_Voice_I measure 205 / measure 21]
+            % [Guitar_Music_Voice_I measure 205 / measure 21]
             gf2
             :32
             ^ \dornen-three-fingers-markup
@@ -642,7 +642,7 @@ j_Guitar_Music_Voice_I = {
         \times 4/5
         {
 
-            % [10 Guitar_Music_Voice_I measure 206 / measure 22]
+            % [Guitar_Music_Voice_I measure 206 / measure 22]
             gf2
             :32
             - \tweak color #(x11-color 'blue)
@@ -673,7 +673,7 @@ j_Guitar_Music_Voice_I = {
         \context Voice = "Guitar_Music_Voice_I"
         {
 
-            % [10 Guitar_Music_Voice_I measure 207 / measure 23]
+            % [Guitar_Music_Voice_I measure 207 / measure 23]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             b'1 * 1/4
@@ -683,7 +683,7 @@ j_Guitar_Music_Voice_I = {
         \context Voice = "Guitar_Rest_Voice_I"
         {
 
-            % [10 Guitar_Rest_Voice_I measure 207 / measure 23]
+            % [Guitar_Rest_Voice_I measure 207 / measure 23]
             s1 * 1/4
 
         }
@@ -695,70 +695,70 @@ j_Guitar_Music_Voice_I = {
 
 j_Guitar_Music_Voice_II = {
 
-    % [10 Guitar_Music_Voice_II measure 185 / measure 1]
+    % [Guitar_Music_Voice_II measure 185 / measure 1]
     s1 * 3/8
 
-    % [10 Guitar_Music_Voice_II measure 186 / measure 2]
+    % [Guitar_Music_Voice_II measure 186 / measure 2]
     s1 * 4/5
 
-    % [10 Guitar_Music_Voice_II measure 187 / measure 3]
+    % [Guitar_Music_Voice_II measure 187 / measure 3]
     s1 * 2/5
 
-    % [10 Guitar_Music_Voice_II measure 188 / measure 4]
+    % [Guitar_Music_Voice_II measure 188 / measure 4]
     s1 * 1/3
 
-    % [10 Guitar_Music_Voice_II measure 189 / measure 5]
+    % [Guitar_Music_Voice_II measure 189 / measure 5]
     s1 * 1/3
 
-    % [10 Guitar_Music_Voice_II measure 190 / measure 6]
+    % [Guitar_Music_Voice_II measure 190 / measure 6]
     s1 * 1/3
 
-    % [10 Guitar_Music_Voice_II measure 191 / measure 7]
+    % [Guitar_Music_Voice_II measure 191 / measure 7]
     s1 * 2/5
 
-    % [10 Guitar_Music_Voice_II measure 192 / measure 8]
+    % [Guitar_Music_Voice_II measure 192 / measure 8]
     s1 * 2/5
 
-    % [10 Guitar_Music_Voice_II measure 193 / measure 9]
+    % [Guitar_Music_Voice_II measure 193 / measure 9]
     s1 * 1/3
 
-    % [10 Guitar_Music_Voice_II measure 194 / measure 10]
+    % [Guitar_Music_Voice_II measure 194 / measure 10]
     s1 * 1/3
 
-    % [10 Guitar_Music_Voice_II measure 195 / measure 11]
+    % [Guitar_Music_Voice_II measure 195 / measure 11]
     s1 * 1/3
 
-    % [10 Guitar_Music_Voice_II measure 196 / measure 12]
+    % [Guitar_Music_Voice_II measure 196 / measure 12]
     s1 * 2/5
 
-    % [10 Guitar_Music_Voice_II measure 197 / measure 13]
+    % [Guitar_Music_Voice_II measure 197 / measure 13]
     s1 * 2/5
 
-    % [10 Guitar_Music_Voice_II measure 198 / measure 14]
+    % [Guitar_Music_Voice_II measure 198 / measure 14]
     s1 * 1/3
 
-    % [10 Guitar_Music_Voice_II measure 199 / measure 15]
+    % [Guitar_Music_Voice_II measure 199 / measure 15]
     s1 * 2/5
 
-    % [10 Guitar_Music_Voice_II measure 200 / measure 16]
+    % [Guitar_Music_Voice_II measure 200 / measure 16]
     s1 * 1/3
 
-    % [10 Guitar_Music_Voice_II measure 201 / measure 17]
+    % [Guitar_Music_Voice_II measure 201 / measure 17]
     s1 * 2/5
 
-    % [10 Guitar_Music_Voice_II measure 202 / measure 18]
+    % [Guitar_Music_Voice_II measure 202 / measure 18]
     s1 * 1/3
 
-    % [10 Guitar_Music_Voice_II measure 203 / measure 19]
+    % [Guitar_Music_Voice_II measure 203 / measure 19]
     s1 * 1/3
 
-    % [10 Guitar_Music_Voice_II measure 204 / measure 20]
+    % [Guitar_Music_Voice_II measure 204 / measure 20]
     s1 * 1/3
 
-    % [10 Guitar_Music_Voice_II measure 205 / measure 21]
+    % [Guitar_Music_Voice_II measure 205 / measure 21]
     s1 * 4/5
 
-    % [10 Guitar_Music_Voice_II measure 206 / measure 22]
+    % [Guitar_Music_Voice_II measure 206 / measure 22]
     s1 * 4/5
 
     <<
@@ -766,7 +766,7 @@ j_Guitar_Music_Voice_II = {
         \context Voice = "Guitar_Music_Voice_II"
         {
 
-            % [10 Guitar_Music_Voice_II measure 207 / measure 23]
+            % [Guitar_Music_Voice_II measure 207 / measure 23]
             \abjad-invisible-music-coloring
             R1 * 1/4
 
@@ -775,7 +775,7 @@ j_Guitar_Music_Voice_II = {
         \context Voice = "Guitar_Rest_Voice_II"
         {
 
-            % [10 Guitar_Rest_Voice_II measure 207 / measure 23]
+            % [Guitar_Rest_Voice_II measure 207 / measure 23]
             s1 * 1/4
 
         }
@@ -787,70 +787,70 @@ j_Guitar_Music_Voice_II = {
 
 j_Guitar_Music_Voice_III = {
 
-    % [10 Guitar_Music_Voice_III measure 185 / measure 1]
+    % [Guitar_Music_Voice_III measure 185 / measure 1]
     s1 * 3/8
 
-    % [10 Guitar_Music_Voice_III measure 186 / measure 2]
+    % [Guitar_Music_Voice_III measure 186 / measure 2]
     s1 * 4/5
 
-    % [10 Guitar_Music_Voice_III measure 187 / measure 3]
+    % [Guitar_Music_Voice_III measure 187 / measure 3]
     s1 * 2/5
 
-    % [10 Guitar_Music_Voice_III measure 188 / measure 4]
+    % [Guitar_Music_Voice_III measure 188 / measure 4]
     s1 * 1/3
 
-    % [10 Guitar_Music_Voice_III measure 189 / measure 5]
+    % [Guitar_Music_Voice_III measure 189 / measure 5]
     s1 * 1/3
 
-    % [10 Guitar_Music_Voice_III measure 190 / measure 6]
+    % [Guitar_Music_Voice_III measure 190 / measure 6]
     s1 * 1/3
 
-    % [10 Guitar_Music_Voice_III measure 191 / measure 7]
+    % [Guitar_Music_Voice_III measure 191 / measure 7]
     s1 * 2/5
 
-    % [10 Guitar_Music_Voice_III measure 192 / measure 8]
+    % [Guitar_Music_Voice_III measure 192 / measure 8]
     s1 * 2/5
 
-    % [10 Guitar_Music_Voice_III measure 193 / measure 9]
+    % [Guitar_Music_Voice_III measure 193 / measure 9]
     s1 * 1/3
 
-    % [10 Guitar_Music_Voice_III measure 194 / measure 10]
+    % [Guitar_Music_Voice_III measure 194 / measure 10]
     s1 * 1/3
 
-    % [10 Guitar_Music_Voice_III measure 195 / measure 11]
+    % [Guitar_Music_Voice_III measure 195 / measure 11]
     s1 * 1/3
 
-    % [10 Guitar_Music_Voice_III measure 196 / measure 12]
+    % [Guitar_Music_Voice_III measure 196 / measure 12]
     s1 * 2/5
 
-    % [10 Guitar_Music_Voice_III measure 197 / measure 13]
+    % [Guitar_Music_Voice_III measure 197 / measure 13]
     s1 * 2/5
 
-    % [10 Guitar_Music_Voice_III measure 198 / measure 14]
+    % [Guitar_Music_Voice_III measure 198 / measure 14]
     s1 * 1/3
 
-    % [10 Guitar_Music_Voice_III measure 199 / measure 15]
+    % [Guitar_Music_Voice_III measure 199 / measure 15]
     s1 * 2/5
 
-    % [10 Guitar_Music_Voice_III measure 200 / measure 16]
+    % [Guitar_Music_Voice_III measure 200 / measure 16]
     s1 * 1/3
 
-    % [10 Guitar_Music_Voice_III measure 201 / measure 17]
+    % [Guitar_Music_Voice_III measure 201 / measure 17]
     s1 * 2/5
 
-    % [10 Guitar_Music_Voice_III measure 202 / measure 18]
+    % [Guitar_Music_Voice_III measure 202 / measure 18]
     s1 * 1/3
 
-    % [10 Guitar_Music_Voice_III measure 203 / measure 19]
+    % [Guitar_Music_Voice_III measure 203 / measure 19]
     s1 * 1/3
 
-    % [10 Guitar_Music_Voice_III measure 204 / measure 20]
+    % [Guitar_Music_Voice_III measure 204 / measure 20]
     s1 * 1/3
 
-    % [10 Guitar_Music_Voice_III measure 205 / measure 21]
+    % [Guitar_Music_Voice_III measure 205 / measure 21]
     s1 * 4/5
 
-    % [10 Guitar_Music_Voice_III measure 206 / measure 22]
+    % [Guitar_Music_Voice_III measure 206 / measure 22]
     s1 * 4/5
 
     <<
@@ -858,7 +858,7 @@ j_Guitar_Music_Voice_III = {
         \context Voice = "Guitar_Music_Voice_III"
         {
 
-            % [10 Guitar_Music_Voice_III measure 207 / measure 23]
+            % [Guitar_Music_Voice_III measure 207 / measure 23]
             \abjad-invisible-music-coloring
             R1 * 1/4
 
@@ -867,7 +867,7 @@ j_Guitar_Music_Voice_III = {
         \context Voice = "Guitar_Rest_Voice_III"
         {
 
-            % [10 Guitar_Rest_Voice_III measure 207 / measure 23]
+            % [Guitar_Rest_Voice_III measure 207 / measure 23]
             s1 * 1/4
 
         }
@@ -879,70 +879,70 @@ j_Guitar_Music_Voice_III = {
 
 j_Guitar_Music_Voice_IV = {
 
-    % [10 Guitar_Music_Voice_IV measure 185 / measure 1]
+    % [Guitar_Music_Voice_IV measure 185 / measure 1]
     s1 * 3/8
 
-    % [10 Guitar_Music_Voice_IV measure 186 / measure 2]
+    % [Guitar_Music_Voice_IV measure 186 / measure 2]
     s1 * 4/5
 
-    % [10 Guitar_Music_Voice_IV measure 187 / measure 3]
+    % [Guitar_Music_Voice_IV measure 187 / measure 3]
     s1 * 2/5
 
-    % [10 Guitar_Music_Voice_IV measure 188 / measure 4]
+    % [Guitar_Music_Voice_IV measure 188 / measure 4]
     s1 * 1/3
 
-    % [10 Guitar_Music_Voice_IV measure 189 / measure 5]
+    % [Guitar_Music_Voice_IV measure 189 / measure 5]
     s1 * 1/3
 
-    % [10 Guitar_Music_Voice_IV measure 190 / measure 6]
+    % [Guitar_Music_Voice_IV measure 190 / measure 6]
     s1 * 1/3
 
-    % [10 Guitar_Music_Voice_IV measure 191 / measure 7]
+    % [Guitar_Music_Voice_IV measure 191 / measure 7]
     s1 * 2/5
 
-    % [10 Guitar_Music_Voice_IV measure 192 / measure 8]
+    % [Guitar_Music_Voice_IV measure 192 / measure 8]
     s1 * 2/5
 
-    % [10 Guitar_Music_Voice_IV measure 193 / measure 9]
+    % [Guitar_Music_Voice_IV measure 193 / measure 9]
     s1 * 1/3
 
-    % [10 Guitar_Music_Voice_IV measure 194 / measure 10]
+    % [Guitar_Music_Voice_IV measure 194 / measure 10]
     s1 * 1/3
 
-    % [10 Guitar_Music_Voice_IV measure 195 / measure 11]
+    % [Guitar_Music_Voice_IV measure 195 / measure 11]
     s1 * 1/3
 
-    % [10 Guitar_Music_Voice_IV measure 196 / measure 12]
+    % [Guitar_Music_Voice_IV measure 196 / measure 12]
     s1 * 2/5
 
-    % [10 Guitar_Music_Voice_IV measure 197 / measure 13]
+    % [Guitar_Music_Voice_IV measure 197 / measure 13]
     s1 * 2/5
 
-    % [10 Guitar_Music_Voice_IV measure 198 / measure 14]
+    % [Guitar_Music_Voice_IV measure 198 / measure 14]
     s1 * 1/3
 
-    % [10 Guitar_Music_Voice_IV measure 199 / measure 15]
+    % [Guitar_Music_Voice_IV measure 199 / measure 15]
     s1 * 2/5
 
-    % [10 Guitar_Music_Voice_IV measure 200 / measure 16]
+    % [Guitar_Music_Voice_IV measure 200 / measure 16]
     s1 * 1/3
 
-    % [10 Guitar_Music_Voice_IV measure 201 / measure 17]
+    % [Guitar_Music_Voice_IV measure 201 / measure 17]
     s1 * 2/5
 
-    % [10 Guitar_Music_Voice_IV measure 202 / measure 18]
+    % [Guitar_Music_Voice_IV measure 202 / measure 18]
     s1 * 1/3
 
-    % [10 Guitar_Music_Voice_IV measure 203 / measure 19]
+    % [Guitar_Music_Voice_IV measure 203 / measure 19]
     s1 * 1/3
 
-    % [10 Guitar_Music_Voice_IV measure 204 / measure 20]
+    % [Guitar_Music_Voice_IV measure 204 / measure 20]
     s1 * 1/3
 
-    % [10 Guitar_Music_Voice_IV measure 205 / measure 21]
+    % [Guitar_Music_Voice_IV measure 205 / measure 21]
     s1 * 4/5
 
-    % [10 Guitar_Music_Voice_IV measure 206 / measure 22]
+    % [Guitar_Music_Voice_IV measure 206 / measure 22]
     s1 * 4/5
 
     <<
@@ -950,7 +950,7 @@ j_Guitar_Music_Voice_IV = {
         \context Voice = "Guitar_Music_Voice_IV"
         {
 
-            % [10 Guitar_Music_Voice_IV measure 207 / measure 23]
+            % [Guitar_Music_Voice_IV measure 207 / measure 23]
             \abjad-invisible-music-coloring
             R1 * 1/4
 
@@ -959,7 +959,7 @@ j_Guitar_Music_Voice_IV = {
         \context Voice = "Guitar_Rest_Voice_IV"
         {
 
-            % [10 Guitar_Rest_Voice_IV measure 207 / measure 23]
+            % [Guitar_Rest_Voice_IV measure 207 / measure 23]
             s1 * 1/4
 
         }

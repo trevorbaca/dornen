@@ -1,5 +1,3 @@
-import typing
-
 import abjad
 import baca
 from abjadext import rmakers
@@ -443,9 +441,7 @@ def waves(denominator: int = 64, inverted: bool = False) -> list:
 ### DESIGNS ###
 
 
-def design_1(
-    start: int = None, stop: int = None
-) -> typing.Union[baca.PitchTree, typing.List[typing.List[abjad.Pitch]]]:
+def design_1(start=None, stop=None):
     r"""
     Makes design I.
 
@@ -900,9 +896,7 @@ def design_1(
     return pitch_lists
 
 
-def design_2(
-    start: int = None, stop: int = None
-) -> typing.Union[baca.PitchTree, typing.List[typing.List[abjad.Pitch]]]:
+def design_2(start=None, stop=None):
     r"""
     Makes design II.
 
@@ -1330,9 +1324,7 @@ def design_2(
     return pitch_lists
 
 
-def design_3(
-    start: int = None, stop: int = None
-) -> typing.Union[baca.PitchTree, typing.List[typing.List[abjad.Pitch]]]:
+def design_3(start=None, stop=None):
     r"""
     Makes design III.
 

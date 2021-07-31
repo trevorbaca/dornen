@@ -1,6 +1,6 @@
 c_Global_Skips = {
 
-    % [03 Global_Skips measure 35 / measure 1]
+    % [Global_Skips measure 35 / measure 1]
     \time 9/64
     \bar ""
     \baca-time-signature-color #'blue
@@ -9,128 +9,128 @@ c_Global_Skips = {
     - \baca-metronome-mark-spanner-colored-left-text 3 0 1 "44" #'green4
     \bacaStartTextSpanMM
 
-    % [03 Global_Skips measure 36 / measure 2]
+    % [Global_Skips measure 36 / measure 2]
     #(ly:expect-warning "strange time signature found")
     \time 1/14
     \baca-time-signature-color #'blue
     s1 * 1/14
 
-    % [03 Global_Skips measure 37 / measure 3]
+    % [Global_Skips measure 37 / measure 3]
     \time 7/32
     \baca-time-signature-color #'blue
     s1 * 7/32
 
-    % [03 Global_Skips measure 38 / measure 4]
+    % [Global_Skips measure 38 / measure 4]
     #(ly:expect-warning "strange time signature found")
     \time 1/14
     \baca-time-signature-color #'blue
     s1 * 1/14
 
-    % [03 Global_Skips measure 39 / measure 5]
+    % [Global_Skips measure 39 / measure 5]
     \time 13/64
     \baca-time-signature-color #'blue
     s1 * 13/64
 
-    % [03 Global_Skips measure 40 / measure 6]
+    % [Global_Skips measure 40 / measure 6]
     #(ly:expect-warning "strange time signature found")
     \time 2/14
     \baca-time-signature-color #'blue
     s1 * 1/7
 
-    % [03 Global_Skips measure 41 / measure 7]
+    % [Global_Skips measure 41 / measure 7]
     \time 7/32
     \baca-time-signature-color #'blue
     s1 * 7/32
 
-    % [03 Global_Skips measure 42 / measure 8]
+    % [Global_Skips measure 42 / measure 8]
     #(ly:expect-warning "strange time signature found")
     \time 2/14
     \baca-time-signature-color #'blue
     s1 * 1/7
 
-    % [03 Global_Skips measure 43 / measure 9]
+    % [Global_Skips measure 43 / measure 9]
     \time 4/32
     \baca-time-signature-color #'blue
     s1 * 1/8
 
-    % [03 Global_Skips measure 44 / measure 10]
+    % [Global_Skips measure 44 / measure 10]
     #(ly:expect-warning "strange time signature found")
     \time 1/14
     \baca-time-signature-color #'blue
     s1 * 1/14
 
-    % [03 Global_Skips measure 45 / measure 11]
+    % [Global_Skips measure 45 / measure 11]
     \time 3/32
     \baca-time-signature-color #'blue
     s1 * 3/32
 
-    % [03 Global_Skips measure 46 / measure 12]
+    % [Global_Skips measure 46 / measure 12]
     #(ly:expect-warning "strange time signature found")
     \time 3/14
     \baca-time-signature-color #'blue
     s1 * 3/14
 
-    % [03 Global_Skips measure 47 / measure 13]
+    % [Global_Skips measure 47 / measure 13]
     \time 10/32
     \baca-time-signature-color #'blue
     s1 * 5/16
 
-    % [03 Global_Skips measure 48 / measure 14]
+    % [Global_Skips measure 48 / measure 14]
     \time 7/32
     \baca-time-signature-color #'blue
     s1 * 7/32
 
-    % [03 Global_Skips measure 49 / measure 15]
+    % [Global_Skips measure 49 / measure 15]
     #(ly:expect-warning "strange time signature found")
     \time 2/14
     \baca-time-signature-color #'blue
     s1 * 1/7
 
-    % [03 Global_Skips measure 50 / measure 16]
+    % [Global_Skips measure 50 / measure 16]
     \time 13/64
     \baca-time-signature-color #'blue
     s1 * 13/64
 
-    % [03 Global_Skips measure 51 / measure 17]
+    % [Global_Skips measure 51 / measure 17]
     \time 15/32
     \baca-time-signature-color #'blue
     s1 * 15/32
 
-    % [03 Global_Skips measure 52 / measure 18]
+    % [Global_Skips measure 52 / measure 18]
     #(ly:expect-warning "strange time signature found")
     \time 5/14
     \baca-time-signature-color #'blue
     s1 * 5/14
 
-    % [03 Global_Skips measure 53 / measure 19]
+    % [Global_Skips measure 53 / measure 19]
     \time 6/32
     \baca-time-signature-color #'blue
     s1 * 3/16
 
-    % [03 Global_Skips measure 54 / measure 20]
+    % [Global_Skips measure 54 / measure 20]
     \time 7/32
     \baca-time-signature-color #'blue
     s1 * 7/32
 
-    % [03 Global_Skips measure 55 / measure 21]
+    % [Global_Skips measure 55 / measure 21]
     \time 13/16
     \baca-time-signature-color #'blue
     s1 * 13/16
 
-    % [03 Global_Skips measure 56 / measure 22]
+    % [Global_Skips measure 56 / measure 22]
     \time 7/32
     \baca-time-signature-color #'blue
     s1 * 7/32
 
-    % [03 Global_Skips measure 57 / measure 23]
+    % [Global_Skips measure 57 / measure 23]
     \time 10/32
     \baca-time-signature-color #'blue
     s1 * 5/16
 
-    % [03 Global_Skips measure 58 / measure 24]
+    % [Global_Skips measure 58 / measure 24]
     s1 * 5/16
 
-    % [03 Global_Skips measure 59 / measure 25]
+    % [Global_Skips measure 59 / measure 25]
     \time 16/32
     \baca-time-signature-color #'blue
     s1 * 1/2
@@ -139,50 +139,50 @@ c_Global_Skips = {
     - \baca-metronome-mark-spanner-colored-left-text 3 0 1 "66" #'blue
     \bacaStartTextSpanMM
 
-    % [03 Global_Skips measure 60 / measure 26]
+    % [Global_Skips measure 60 / measure 26]
     \time 7/32
     \baca-time-signature-color #'blue
     s1 * 7/32
 
-    % [03 Global_Skips measure 61 / measure 27]
+    % [Global_Skips measure 61 / measure 27]
     s1 * 7/32
 
-    % [03 Global_Skips measure 62 / measure 28]
+    % [Global_Skips measure 62 / measure 28]
     s1 * 7/32
 
-    % [03 Global_Skips measure 63 / measure 29]
+    % [Global_Skips measure 63 / measure 29]
     s1 * 7/32
 
-    % [03 Global_Skips measure 64 / measure 30]
+    % [Global_Skips measure 64 / measure 30]
     s1 * 7/32
 
-    % [03 Global_Skips measure 65 / measure 31]
+    % [Global_Skips measure 65 / measure 31]
     s1 * 7/32
 
-    % [03 Global_Skips measure 66 / measure 32]
+    % [Global_Skips measure 66 / measure 32]
     s1 * 7/32
 
-    % [03 Global_Skips measure 67 / measure 33]
+    % [Global_Skips measure 67 / measure 33]
     \time 13/64
     \baca-time-signature-color #'blue
     s1 * 13/64
 
-    % [03 Global_Skips measure 68 / measure 34]
+    % [Global_Skips measure 68 / measure 34]
     \time 16/32
     \baca-time-signature-color #'blue
     s1 * 1/2
 
-    % [03 Global_Skips measure 69 / measure 35]
+    % [Global_Skips measure 69 / measure 35]
     \time 7/32
     \baca-time-signature-color #'blue
     s1 * 7/32
 
-    % [03 Global_Skips measure 70 / measure 36]
+    % [Global_Skips measure 70 / measure 36]
     \time 3/16
     \baca-time-signature-color #'blue
     s1 * 3/16
 
-    % [03 Global_Skips measure 71 / measure 37]
+    % [Global_Skips measure 71 / measure 37]
     \time 1/4
     \baca-time-signature-transparent
     s1 * 1/4
@@ -195,115 +195,115 @@ c_Global_Skips = {
 
 c_Global_Rests = {
 
-    % [03 Global_Rests measure 35 / measure 1]
+    % [Global_Rests measure 35 / measure 1]
     R1 * 9/64
 
-    % [03 Global_Rests measure 36 / measure 2]
+    % [Global_Rests measure 36 / measure 2]
     R1 * 1/14
 
-    % [03 Global_Rests measure 37 / measure 3]
+    % [Global_Rests measure 37 / measure 3]
     R1 * 7/32
 
-    % [03 Global_Rests measure 38 / measure 4]
+    % [Global_Rests measure 38 / measure 4]
     R1 * 1/14
 
-    % [03 Global_Rests measure 39 / measure 5]
+    % [Global_Rests measure 39 / measure 5]
     R1 * 13/64
 
-    % [03 Global_Rests measure 40 / measure 6]
+    % [Global_Rests measure 40 / measure 6]
     R1 * 1/7
 
-    % [03 Global_Rests measure 41 / measure 7]
+    % [Global_Rests measure 41 / measure 7]
     R1 * 7/32
 
-    % [03 Global_Rests measure 42 / measure 8]
+    % [Global_Rests measure 42 / measure 8]
     R1 * 1/7
 
-    % [03 Global_Rests measure 43 / measure 9]
+    % [Global_Rests measure 43 / measure 9]
     R1 * 1/8
 
-    % [03 Global_Rests measure 44 / measure 10]
+    % [Global_Rests measure 44 / measure 10]
     R1 * 1/14
 
-    % [03 Global_Rests measure 45 / measure 11]
+    % [Global_Rests measure 45 / measure 11]
     R1 * 3/32
 
-    % [03 Global_Rests measure 46 / measure 12]
+    % [Global_Rests measure 46 / measure 12]
     R1 * 3/14
 
-    % [03 Global_Rests measure 47 / measure 13]
+    % [Global_Rests measure 47 / measure 13]
     R1 * 5/16
 
-    % [03 Global_Rests measure 48 / measure 14]
+    % [Global_Rests measure 48 / measure 14]
     R1 * 7/32
 
-    % [03 Global_Rests measure 49 / measure 15]
+    % [Global_Rests measure 49 / measure 15]
     R1 * 1/7
 
-    % [03 Global_Rests measure 50 / measure 16]
+    % [Global_Rests measure 50 / measure 16]
     R1 * 13/64
 
-    % [03 Global_Rests measure 51 / measure 17]
+    % [Global_Rests measure 51 / measure 17]
     R1 * 15/32
 
-    % [03 Global_Rests measure 52 / measure 18]
+    % [Global_Rests measure 52 / measure 18]
     R1 * 5/14
 
-    % [03 Global_Rests measure 53 / measure 19]
+    % [Global_Rests measure 53 / measure 19]
     R1 * 3/16
 
-    % [03 Global_Rests measure 54 / measure 20]
+    % [Global_Rests measure 54 / measure 20]
     R1 * 7/32
 
-    % [03 Global_Rests measure 55 / measure 21]
+    % [Global_Rests measure 55 / measure 21]
     R1 * 13/16
 
-    % [03 Global_Rests measure 56 / measure 22]
+    % [Global_Rests measure 56 / measure 22]
     R1 * 7/32
 
-    % [03 Global_Rests measure 57 / measure 23]
+    % [Global_Rests measure 57 / measure 23]
     R1 * 5/16
 
-    % [03 Global_Rests measure 58 / measure 24]
+    % [Global_Rests measure 58 / measure 24]
     R1 * 5/16
 
-    % [03 Global_Rests measure 59 / measure 25]
+    % [Global_Rests measure 59 / measure 25]
     R1 * 1/2
 
-    % [03 Global_Rests measure 60 / measure 26]
+    % [Global_Rests measure 60 / measure 26]
     R1 * 7/32
 
-    % [03 Global_Rests measure 61 / measure 27]
+    % [Global_Rests measure 61 / measure 27]
     R1 * 7/32
 
-    % [03 Global_Rests measure 62 / measure 28]
+    % [Global_Rests measure 62 / measure 28]
     R1 * 7/32
 
-    % [03 Global_Rests measure 63 / measure 29]
+    % [Global_Rests measure 63 / measure 29]
     R1 * 7/32
 
-    % [03 Global_Rests measure 64 / measure 30]
+    % [Global_Rests measure 64 / measure 30]
     R1 * 7/32
 
-    % [03 Global_Rests measure 65 / measure 31]
+    % [Global_Rests measure 65 / measure 31]
     R1 * 7/32
 
-    % [03 Global_Rests measure 66 / measure 32]
+    % [Global_Rests measure 66 / measure 32]
     R1 * 7/32
 
-    % [03 Global_Rests measure 67 / measure 33]
+    % [Global_Rests measure 67 / measure 33]
     R1 * 13/64
 
-    % [03 Global_Rests measure 68 / measure 34]
+    % [Global_Rests measure 68 / measure 34]
     R1 * 1/2
 
-    % [03 Global_Rests measure 69 / measure 35]
+    % [Global_Rests measure 69 / measure 35]
     R1 * 7/32
 
-    % [03 Global_Rests measure 70 / measure 36]
+    % [Global_Rests measure 70 / measure 36]
     R1 * 3/16
 
-    % [03 Global_Rests measure 71 / measure 37]
+    % [Global_Rests measure 71 / measure 37]
     R1 * 1/4
 
 }
@@ -354,7 +354,7 @@ c_Guitar_Music_Voice_I = {
         \scaleDurations #'(1 . 1)
         {
 
-            % [03 Guitar_Music_Voice_I measure 35 / measure 1]
+            % [Guitar_Music_Voice_I measure 35 / measure 1]
             \once \override Beam.grow-direction = #left
             \clef "treble"
             \once \override GuitarMusicStaff.Clef.color = #(x11-color 'green4)
@@ -392,7 +392,7 @@ c_Guitar_Music_Voice_I = {
 
     }
 
-    % [03 Guitar_Music_Voice_I measure 36 / measure 2]
+    % [Guitar_Music_Voice_I measure 36 / measure 2]
     s1 * 81/224
 
     {
@@ -436,7 +436,7 @@ c_Guitar_Music_Voice_I = {
         \scaleDurations #'(1 . 1)
         {
 
-            % [03 Guitar_Music_Voice_I measure 39 / measure 5]
+            % [Guitar_Music_Voice_I measure 39 / measure 5]
             \override Beam.positions = #'(7 . 7)
             \once \override Beam.grow-direction = #left
             a''64 * 320/1024
@@ -518,7 +518,7 @@ c_Guitar_Music_Voice_I = {
 
     }
 
-    % [03 Guitar_Music_Voice_I measure 40 / measure 6]
+    % [Guitar_Music_Voice_I measure 40 / measure 6]
     s1 * 113/224
 
     {
@@ -526,7 +526,7 @@ c_Guitar_Music_Voice_I = {
         \scaleDurations #'(1 . 1)
         {
 
-            % [03 Guitar_Music_Voice_I measure 43 / measure 9]
+            % [Guitar_Music_Voice_I measure 43 / measure 9]
             \set stemLeftBeamCount = 0
             \set stemRightBeamCount = 3
             \override Beam.positions = #'(-6.5 . -6.5)
@@ -556,7 +556,7 @@ c_Guitar_Music_Voice_I = {
 
     }
 
-    % [03 Guitar_Music_Voice_I measure 44 / measure 10]
+    % [Guitar_Music_Voice_I measure 44 / measure 10]
     s1 * 1/14
 
     {
@@ -564,7 +564,7 @@ c_Guitar_Music_Voice_I = {
         \scaleDurations #'(1 . 1)
         {
 
-            % [03 Guitar_Music_Voice_I measure 45 / measure 11]
+            % [Guitar_Music_Voice_I measure 45 / measure 11]
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 3
             \override Beam.positions = #'(-6.5 . -6.5)
@@ -588,7 +588,7 @@ c_Guitar_Music_Voice_I = {
 
     }
 
-    % [03 Guitar_Music_Voice_I measure 46 / measure 12]
+    % [Guitar_Music_Voice_I measure 46 / measure 12]
     s1 * 3/14
 
     {
@@ -596,7 +596,7 @@ c_Guitar_Music_Voice_I = {
         \scaleDurations #'(1 . 1)
         {
 
-            % [03 Guitar_Music_Voice_I measure 47 / measure 13]
+            % [Guitar_Music_Voice_I measure 47 / measure 13]
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 3
             \override Beam.positions = #'(-6.5 . -6.5)
@@ -656,7 +656,7 @@ c_Guitar_Music_Voice_I = {
 
     }
 
-    % [03 Guitar_Music_Voice_I measure 48 / measure 14]
+    % [Guitar_Music_Voice_I measure 48 / measure 14]
     s1 * 81/224
 
     {
@@ -702,7 +702,7 @@ c_Guitar_Music_Voice_I = {
         \scaleDurations #'(1 . 1)
         {
 
-            % [03 Guitar_Music_Voice_I measure 50 / measure 16]
+            % [Guitar_Music_Voice_I measure 50 / measure 16]
             \override Beam.positions = #'(7 . 7)
             \override Stem.direction = #up
             \once \override Beam.grow-direction = #right
@@ -746,7 +746,7 @@ c_Guitar_Music_Voice_I = {
         \scaleDurations #'(1 . 1)
         {
 
-            % [03 Guitar_Music_Voice_I measure 51 / measure 17]
+            % [Guitar_Music_Voice_I measure 51 / measure 17]
             \set stemLeftBeamCount = 0
             \set stemRightBeamCount = 3
             \override Beam.positions = #'(-6.5 . -6.5)
@@ -831,7 +831,7 @@ c_Guitar_Music_Voice_I = {
 
     }
 
-    % [03 Guitar_Music_Voice_I measure 52 / measure 18]
+    % [Guitar_Music_Voice_I measure 52 / measure 18]
     s1 * 5/14
 
     {
@@ -839,7 +839,7 @@ c_Guitar_Music_Voice_I = {
         \scaleDurations #'(1 . 1)
         {
 
-            % [03 Guitar_Music_Voice_I measure 53 / measure 19]
+            % [Guitar_Music_Voice_I measure 53 / measure 19]
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 3
             \override Beam.positions = #'(-6.5 . -6.5)
@@ -879,7 +879,7 @@ c_Guitar_Music_Voice_I = {
 
     }
 
-    % [03 Guitar_Music_Voice_I measure 54 / measure 20]
+    % [Guitar_Music_Voice_I measure 54 / measure 20]
     s1 * 5/4
 
     {
@@ -887,7 +887,7 @@ c_Guitar_Music_Voice_I = {
         \scaleDurations #'(1 . 1)
         {
 
-            % [03 Guitar_Music_Voice_I measure 57 / measure 23]
+            % [Guitar_Music_Voice_I measure 57 / measure 23]
             \set stemLeftBeamCount = 0
             \set stemRightBeamCount = 3
             \override Beam.positions = #'(-6.5 . -6.5)
@@ -956,7 +956,7 @@ c_Guitar_Music_Voice_I = {
             \scaleDurations #'(1 . 1)
             {
 
-                % [03 Guitar_Music_Voice_I measure 58 / measure 24]
+                % [Guitar_Music_Voice_I measure 58 / measure 24]
                 \set stemLeftBeamCount = 0
                 \set stemRightBeamCount = 3
                 \override Beam.positions = #'(-6.5 . -6.5)
@@ -1051,7 +1051,7 @@ c_Guitar_Music_Voice_I = {
         \scaleDurations #'(1 . 1)
         {
 
-            % [03 Guitar_Music_Voice_I measure 59 / measure 25]
+            % [Guitar_Music_Voice_I measure 59 / measure 25]
             \set stemLeftBeamCount = 0
             \set stemRightBeamCount = 3
             \override Beam.positions = #'(-6.5 . -6.5)
@@ -1142,7 +1142,7 @@ c_Guitar_Music_Voice_I = {
 
     }
 
-    % [03 Guitar_Music_Voice_I measure 60 / measure 26]
+    % [Guitar_Music_Voice_I measure 60 / measure 26]
     s1 * 49/32
 
     {
@@ -1188,7 +1188,7 @@ c_Guitar_Music_Voice_I = {
         \scaleDurations #'(1 . 1)
         {
 
-            % [03 Guitar_Music_Voice_I measure 67 / measure 33]
+            % [Guitar_Music_Voice_I measure 67 / measure 33]
             \override Beam.positions = #'(7 . 7)
             \override Stem.direction = #up
             \once \override Beam.grow-direction = #right
@@ -1232,7 +1232,7 @@ c_Guitar_Music_Voice_I = {
         \scaleDurations #'(1 . 1)
         {
 
-            % [03 Guitar_Music_Voice_I measure 68 / measure 34]
+            % [Guitar_Music_Voice_I measure 68 / measure 34]
             \set stemLeftBeamCount = 0
             \set stemRightBeamCount = 3
             \override Beam.positions = #'(-6.5 . -6.5)
@@ -1329,7 +1329,7 @@ c_Guitar_Music_Voice_I = {
         \context Voice = "Guitar_Music_Voice_I"
         {
 
-            % [03 Guitar_Music_Voice_I measure 69 / measure 35]
+            % [Guitar_Music_Voice_I measure 69 / measure 35]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             b'1 * 7/32
@@ -1339,14 +1339,14 @@ c_Guitar_Music_Voice_I = {
         \context Voice = "Guitar_Rest_Voice_I"
         {
 
-            % [03 Guitar_Rest_Voice_I measure 69 / measure 35]
+            % [Guitar_Rest_Voice_I measure 69 / measure 35]
             s1 * 7/32
 
         }
 
     >>
 
-    % [03 Guitar_Music_Voice_I measure 70 / measure 36]
+    % [Guitar_Music_Voice_I measure 70 / measure 36]
     s1 * 3/16
 
     <<
@@ -1354,7 +1354,7 @@ c_Guitar_Music_Voice_I = {
         \context Voice = "Guitar_Music_Voice_I"
         {
 
-            % [03 Guitar_Music_Voice_I measure 71 / measure 37]
+            % [Guitar_Music_Voice_I measure 71 / measure 37]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             b'1 * 1/4
@@ -1364,7 +1364,7 @@ c_Guitar_Music_Voice_I = {
         \context Voice = "Guitar_Rest_Voice_I"
         {
 
-            % [03 Guitar_Rest_Voice_I measure 71 / measure 37]
+            % [Guitar_Rest_Voice_I measure 71 / measure 37]
             s1 * 1/4
 
         }
@@ -1376,7 +1376,7 @@ c_Guitar_Music_Voice_I = {
 
 c_Guitar_Music_Voice_II = {
 
-    % [03 Guitar_Music_Voice_II measure 35 / measure 1]
+    % [Guitar_Music_Voice_II measure 35 / measure 1]
     s1 * 95/448
     - \abjad-dashed-line-with-hook
     - \baca-text-spanner-left-text "baca.music()"
@@ -1390,7 +1390,7 @@ c_Guitar_Music_Voice_II = {
         \scaleDurations #'(1 . 1)
         {
 
-            % [03 Guitar_Music_Voice_II measure 37 / measure 3]
+            % [Guitar_Music_Voice_II measure 37 / measure 3]
             \set stemLeftBeamCount = 0
             \set stemRightBeamCount = 1
             \once \override Beam.positions = #'(-8 . -8)
@@ -1415,7 +1415,7 @@ c_Guitar_Music_Voice_II = {
 
     }
 
-    % [03 Guitar_Music_Voice_II measure 38 / measure 4]
+    % [Guitar_Music_Voice_II measure 38 / measure 4]
     s1 * 187/448
 
     {
@@ -1423,7 +1423,7 @@ c_Guitar_Music_Voice_II = {
         \scaleDurations #'(1 . 1)
         {
 
-            % [03 Guitar_Music_Voice_II measure 41 / measure 7]
+            % [Guitar_Music_Voice_II measure 41 / measure 7]
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 1
             \override TextScript.color = #red
@@ -1449,7 +1449,7 @@ c_Guitar_Music_Voice_II = {
 
     }
 
-    % [03 Guitar_Music_Voice_II measure 42 / measure 8]
+    % [Guitar_Music_Voice_II measure 42 / measure 8]
     s1 * 215/224
 
     {
@@ -1457,7 +1457,7 @@ c_Guitar_Music_Voice_II = {
         \scaleDurations #'(1 . 1)
         {
 
-            % [03 Guitar_Music_Voice_II measure 48 / measure 14]
+            % [Guitar_Music_Voice_II measure 48 / measure 14]
             \set stemLeftBeamCount = 0
             \set stemRightBeamCount = 1
             \once \override Beam.positions = #'(-8 . -8)
@@ -1482,7 +1482,7 @@ c_Guitar_Music_Voice_II = {
 
     }
 
-    % [03 Guitar_Music_Voice_II measure 49 / measure 15]
+    % [Guitar_Music_Voice_II measure 49 / measure 15]
     s1 * 87/64
 
     {
@@ -1490,7 +1490,7 @@ c_Guitar_Music_Voice_II = {
         \scaleDurations #'(1 . 1)
         {
 
-            % [03 Guitar_Music_Voice_II measure 54 / measure 20]
+            % [Guitar_Music_Voice_II measure 54 / measure 20]
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 1
             \override TextScript.color = #red
@@ -1516,7 +1516,7 @@ c_Guitar_Music_Voice_II = {
 
     }
 
-    % [03 Guitar_Music_Voice_II measure 55 / measure 21]
+    % [Guitar_Music_Voice_II measure 55 / measure 21]
     s1 * 13/16
 
     {
@@ -1524,7 +1524,7 @@ c_Guitar_Music_Voice_II = {
         \scaleDurations #'(1 . 1)
         {
 
-            % [03 Guitar_Music_Voice_II measure 56 / measure 22]
+            % [Guitar_Music_Voice_II measure 56 / measure 22]
             \set stemLeftBeamCount = 0
             \set stemRightBeamCount = 1
             \once \override Beam.positions = #'(-8 . -8)
@@ -1549,7 +1549,7 @@ c_Guitar_Music_Voice_II = {
 
     }
 
-    % [03 Guitar_Music_Voice_II measure 57 / measure 23]
+    % [Guitar_Music_Voice_II measure 57 / measure 23]
     s1 * 9/8
 
     {
@@ -1557,7 +1557,7 @@ c_Guitar_Music_Voice_II = {
         \scaleDurations #'(1 . 1)
         {
 
-            % [03 Guitar_Music_Voice_II measure 60 / measure 26]
+            % [Guitar_Music_Voice_II measure 60 / measure 26]
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 1
             \override TextScript.color = #red
@@ -1587,7 +1587,7 @@ c_Guitar_Music_Voice_II = {
         \scaleDurations #'(1 . 1)
         {
 
-            % [03 Guitar_Music_Voice_II measure 61 / measure 27]
+            % [Guitar_Music_Voice_II measure 61 / measure 27]
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 1
             fs'!8.
@@ -1616,7 +1616,7 @@ c_Guitar_Music_Voice_II = {
         \scaleDurations #'(1 . 1)
         {
 
-            % [03 Guitar_Music_Voice_II measure 62 / measure 28]
+            % [Guitar_Music_Voice_II measure 62 / measure 28]
             \set stemLeftBeamCount = 0
             \set stemRightBeamCount = 1
             \once \override Beam.positions = #'(-8 . -8)
@@ -1646,7 +1646,7 @@ c_Guitar_Music_Voice_II = {
         \scaleDurations #'(1 . 1)
         {
 
-            % [03 Guitar_Music_Voice_II measure 63 / measure 29]
+            % [Guitar_Music_Voice_II measure 63 / measure 29]
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 1
             af'!8.
@@ -1674,7 +1674,7 @@ c_Guitar_Music_Voice_II = {
         \scaleDurations #'(1 . 1)
         {
 
-            % [03 Guitar_Music_Voice_II measure 64 / measure 30]
+            % [Guitar_Music_Voice_II measure 64 / measure 30]
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 1
             ef'!8.
@@ -1702,7 +1702,7 @@ c_Guitar_Music_Voice_II = {
         \scaleDurations #'(1 . 1)
         {
 
-            % [03 Guitar_Music_Voice_II measure 65 / measure 31]
+            % [Guitar_Music_Voice_II measure 65 / measure 31]
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 1
             a'8.
@@ -1731,7 +1731,7 @@ c_Guitar_Music_Voice_II = {
         \scaleDurations #'(1 . 1)
         {
 
-            % [03 Guitar_Music_Voice_II measure 66 / measure 32]
+            % [Guitar_Music_Voice_II measure 66 / measure 32]
             \set stemLeftBeamCount = 0
             \set stemRightBeamCount = 1
             \once \override Beam.positions = #'(-8 . -8)
@@ -1756,7 +1756,7 @@ c_Guitar_Music_Voice_II = {
 
     }
 
-    % [03 Guitar_Music_Voice_II measure 67 / measure 33]
+    % [Guitar_Music_Voice_II measure 67 / measure 33]
     s1 * 45/64
 
     {
@@ -1764,7 +1764,7 @@ c_Guitar_Music_Voice_II = {
         \scaleDurations #'(1 . 1)
         {
 
-            % [03 Guitar_Music_Voice_II measure 69 / measure 35]
+            % [Guitar_Music_Voice_II measure 69 / measure 35]
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 1
             e'8.
@@ -1793,7 +1793,7 @@ c_Guitar_Music_Voice_II = {
         \scaleDurations #'(1 . 1)
         {
 
-            % [03 Guitar_Music_Voice_II measure 70 / measure 36]
+            % [Guitar_Music_Voice_II measure 70 / measure 36]
             bf!8.
             <> \bacaStopTextSpanRhythmAnnotation
 
@@ -1806,7 +1806,7 @@ c_Guitar_Music_Voice_II = {
         \context Voice = "Guitar_Music_Voice_II"
         {
 
-            % [03 Guitar_Music_Voice_II measure 71 / measure 37]
+            % [Guitar_Music_Voice_II measure 71 / measure 37]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             b'1 * 1/4
@@ -1816,7 +1816,7 @@ c_Guitar_Music_Voice_II = {
         \context Voice = "Guitar_Rest_Voice_II"
         {
 
-            % [03 Guitar_Rest_Voice_II measure 71 / measure 37]
+            % [Guitar_Rest_Voice_II measure 71 / measure 37]
             s1 * 1/4
 
         }
@@ -1828,112 +1828,112 @@ c_Guitar_Music_Voice_II = {
 
 c_Guitar_Music_Voice_III = {
 
-    % [03 Guitar_Music_Voice_III measure 35 / measure 1]
+    % [Guitar_Music_Voice_III measure 35 / measure 1]
     s1 * 9/64
 
-    % [03 Guitar_Music_Voice_III measure 36 / measure 2]
+    % [Guitar_Music_Voice_III measure 36 / measure 2]
     s1 * 1/14
 
-    % [03 Guitar_Music_Voice_III measure 37 / measure 3]
+    % [Guitar_Music_Voice_III measure 37 / measure 3]
     s1 * 7/32
 
-    % [03 Guitar_Music_Voice_III measure 38 / measure 4]
+    % [Guitar_Music_Voice_III measure 38 / measure 4]
     s1 * 1/14
 
-    % [03 Guitar_Music_Voice_III measure 39 / measure 5]
+    % [Guitar_Music_Voice_III measure 39 / measure 5]
     s1 * 13/64
 
-    % [03 Guitar_Music_Voice_III measure 40 / measure 6]
+    % [Guitar_Music_Voice_III measure 40 / measure 6]
     s1 * 2/14
 
-    % [03 Guitar_Music_Voice_III measure 41 / measure 7]
+    % [Guitar_Music_Voice_III measure 41 / measure 7]
     s1 * 7/32
 
-    % [03 Guitar_Music_Voice_III measure 42 / measure 8]
+    % [Guitar_Music_Voice_III measure 42 / measure 8]
     s1 * 2/14
 
-    % [03 Guitar_Music_Voice_III measure 43 / measure 9]
+    % [Guitar_Music_Voice_III measure 43 / measure 9]
     s1 * 4/32
 
-    % [03 Guitar_Music_Voice_III measure 44 / measure 10]
+    % [Guitar_Music_Voice_III measure 44 / measure 10]
     s1 * 1/14
 
-    % [03 Guitar_Music_Voice_III measure 45 / measure 11]
+    % [Guitar_Music_Voice_III measure 45 / measure 11]
     s1 * 3/32
 
-    % [03 Guitar_Music_Voice_III measure 46 / measure 12]
+    % [Guitar_Music_Voice_III measure 46 / measure 12]
     s1 * 3/14
 
-    % [03 Guitar_Music_Voice_III measure 47 / measure 13]
+    % [Guitar_Music_Voice_III measure 47 / measure 13]
     s1 * 10/32
 
-    % [03 Guitar_Music_Voice_III measure 48 / measure 14]
+    % [Guitar_Music_Voice_III measure 48 / measure 14]
     s1 * 7/32
 
-    % [03 Guitar_Music_Voice_III measure 49 / measure 15]
+    % [Guitar_Music_Voice_III measure 49 / measure 15]
     s1 * 2/14
 
-    % [03 Guitar_Music_Voice_III measure 50 / measure 16]
+    % [Guitar_Music_Voice_III measure 50 / measure 16]
     s1 * 13/64
 
-    % [03 Guitar_Music_Voice_III measure 51 / measure 17]
+    % [Guitar_Music_Voice_III measure 51 / measure 17]
     s1 * 15/32
 
-    % [03 Guitar_Music_Voice_III measure 52 / measure 18]
+    % [Guitar_Music_Voice_III measure 52 / measure 18]
     s1 * 5/14
 
-    % [03 Guitar_Music_Voice_III measure 53 / measure 19]
+    % [Guitar_Music_Voice_III measure 53 / measure 19]
     s1 * 6/32
 
-    % [03 Guitar_Music_Voice_III measure 54 / measure 20]
+    % [Guitar_Music_Voice_III measure 54 / measure 20]
     s1 * 7/32
 
-    % [03 Guitar_Music_Voice_III measure 55 / measure 21]
+    % [Guitar_Music_Voice_III measure 55 / measure 21]
     s1 * 13/16
 
-    % [03 Guitar_Music_Voice_III measure 56 / measure 22]
+    % [Guitar_Music_Voice_III measure 56 / measure 22]
     s1 * 7/32
 
-    % [03 Guitar_Music_Voice_III measure 57 / measure 23]
+    % [Guitar_Music_Voice_III measure 57 / measure 23]
     s1 * 10/32
 
-    % [03 Guitar_Music_Voice_III measure 58 / measure 24]
+    % [Guitar_Music_Voice_III measure 58 / measure 24]
     s1 * 10/32
 
-    % [03 Guitar_Music_Voice_III measure 59 / measure 25]
+    % [Guitar_Music_Voice_III measure 59 / measure 25]
     s1 * 16/32
 
-    % [03 Guitar_Music_Voice_III measure 60 / measure 26]
+    % [Guitar_Music_Voice_III measure 60 / measure 26]
     s1 * 7/32
 
-    % [03 Guitar_Music_Voice_III measure 61 / measure 27]
+    % [Guitar_Music_Voice_III measure 61 / measure 27]
     s1 * 7/32
 
-    % [03 Guitar_Music_Voice_III measure 62 / measure 28]
+    % [Guitar_Music_Voice_III measure 62 / measure 28]
     s1 * 7/32
 
-    % [03 Guitar_Music_Voice_III measure 63 / measure 29]
+    % [Guitar_Music_Voice_III measure 63 / measure 29]
     s1 * 7/32
 
-    % [03 Guitar_Music_Voice_III measure 64 / measure 30]
+    % [Guitar_Music_Voice_III measure 64 / measure 30]
     s1 * 7/32
 
-    % [03 Guitar_Music_Voice_III measure 65 / measure 31]
+    % [Guitar_Music_Voice_III measure 65 / measure 31]
     s1 * 7/32
 
-    % [03 Guitar_Music_Voice_III measure 66 / measure 32]
+    % [Guitar_Music_Voice_III measure 66 / measure 32]
     s1 * 7/32
 
-    % [03 Guitar_Music_Voice_III measure 67 / measure 33]
+    % [Guitar_Music_Voice_III measure 67 / measure 33]
     s1 * 13/64
 
-    % [03 Guitar_Music_Voice_III measure 68 / measure 34]
+    % [Guitar_Music_Voice_III measure 68 / measure 34]
     s1 * 16/32
 
-    % [03 Guitar_Music_Voice_III measure 69 / measure 35]
+    % [Guitar_Music_Voice_III measure 69 / measure 35]
     s1 * 7/32
 
-    % [03 Guitar_Music_Voice_III measure 70 / measure 36]
+    % [Guitar_Music_Voice_III measure 70 / measure 36]
     s1 * 3/16
 
     <<
@@ -1941,7 +1941,7 @@ c_Guitar_Music_Voice_III = {
         \context Voice = "Guitar_Music_Voice_III"
         {
 
-            % [03 Guitar_Music_Voice_III measure 71 / measure 37]
+            % [Guitar_Music_Voice_III measure 71 / measure 37]
             \abjad-invisible-music-coloring
             R1 * 1/4
 
@@ -1950,7 +1950,7 @@ c_Guitar_Music_Voice_III = {
         \context Voice = "Guitar_Rest_Voice_III"
         {
 
-            % [03 Guitar_Rest_Voice_III measure 71 / measure 37]
+            % [Guitar_Rest_Voice_III measure 71 / measure 37]
             s1 * 1/4
 
         }
@@ -1962,7 +1962,7 @@ c_Guitar_Music_Voice_III = {
 
 c_Guitar_Music_Voice_IV = {
 
-    % [03 Guitar_Music_Voice_IV measure 35 / measure 1]
+    % [Guitar_Music_Voice_IV measure 35 / measure 1]
     s1 * 9/64
     - \abjad-dashed-line-with-hook
     - \baca-text-spanner-left-text "baca.music()"
@@ -1978,7 +1978,7 @@ c_Guitar_Music_Voice_IV = {
         \times 8/7
         {
 
-            % [03 Guitar_Music_Voice_IV measure 36 / measure 2]
+            % [Guitar_Music_Voice_IV measure 36 / measure 2]
             \once \override Beam.positions = #'(12 . 12)
             \once \override Stem.direction = #up
             f''16
@@ -1988,7 +1988,7 @@ c_Guitar_Music_Voice_IV = {
 
     }
 
-    % [03 Guitar_Music_Voice_IV measure 37 / measure 3]
+    % [Guitar_Music_Voice_IV measure 37 / measure 3]
     s1 * 7/32
 
     {
@@ -1998,7 +1998,7 @@ c_Guitar_Music_Voice_IV = {
         \times 8/7
         {
 
-            % [03 Guitar_Music_Voice_IV measure 38 / measure 4]
+            % [Guitar_Music_Voice_IV measure 38 / measure 4]
             \set stemLeftBeamCount = 2
             \set stemRightBeamCount = 1
             \once \override Stem.direction = #up
@@ -2008,7 +2008,7 @@ c_Guitar_Music_Voice_IV = {
 
     }
 
-    % [03 Guitar_Music_Voice_IV measure 39 / measure 5]
+    % [Guitar_Music_Voice_IV measure 39 / measure 5]
     s1 * 13/64
 
     {
@@ -2018,7 +2018,7 @@ c_Guitar_Music_Voice_IV = {
         \times 8/7
         {
 
-            % [03 Guitar_Music_Voice_IV measure 40 / measure 6]
+            % [Guitar_Music_Voice_IV measure 40 / measure 6]
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 2
             \override Stem.direction = #up
@@ -2039,7 +2039,7 @@ c_Guitar_Music_Voice_IV = {
 
     }
 
-    % [03 Guitar_Music_Voice_IV measure 41 / measure 7]
+    % [Guitar_Music_Voice_IV measure 41 / measure 7]
     s1 * 7/32
 
     {
@@ -2049,7 +2049,7 @@ c_Guitar_Music_Voice_IV = {
         \times 8/7
         {
 
-            % [03 Guitar_Music_Voice_IV measure 42 / measure 8]
+            % [Guitar_Music_Voice_IV measure 42 / measure 8]
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 2
             \override Stem.direction = #up
@@ -2071,7 +2071,7 @@ c_Guitar_Music_Voice_IV = {
 
     }
 
-    % [03 Guitar_Music_Voice_IV measure 43 / measure 9]
+    % [Guitar_Music_Voice_IV measure 43 / measure 9]
     s1 * 1/8
 
     {
@@ -2081,7 +2081,7 @@ c_Guitar_Music_Voice_IV = {
         \times 8/7
         {
 
-            % [03 Guitar_Music_Voice_IV measure 44 / measure 10]
+            % [Guitar_Music_Voice_IV measure 44 / measure 10]
             \once \override Beam.positions = #'(12 . 12)
             \once \override Stem.direction = #up
             f''16
@@ -2091,7 +2091,7 @@ c_Guitar_Music_Voice_IV = {
 
     }
 
-    % [03 Guitar_Music_Voice_IV measure 45 / measure 11]
+    % [Guitar_Music_Voice_IV measure 45 / measure 11]
     s1 * 3/32
 
     {
@@ -2101,7 +2101,7 @@ c_Guitar_Music_Voice_IV = {
         \times 8/7
         {
 
-            % [03 Guitar_Music_Voice_IV measure 46 / measure 12]
+            % [Guitar_Music_Voice_IV measure 46 / measure 12]
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 2
             \override Stem.direction = #up
@@ -2132,7 +2132,7 @@ c_Guitar_Music_Voice_IV = {
 
     }
 
-    % [03 Guitar_Music_Voice_IV measure 47 / measure 13]
+    % [Guitar_Music_Voice_IV measure 47 / measure 13]
     s1 * 17/32
 
     {
@@ -2142,7 +2142,7 @@ c_Guitar_Music_Voice_IV = {
         \times 8/7
         {
 
-            % [03 Guitar_Music_Voice_IV measure 49 / measure 15]
+            % [Guitar_Music_Voice_IV measure 49 / measure 15]
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 2
             \override Stem.direction = #up
@@ -2163,7 +2163,7 @@ c_Guitar_Music_Voice_IV = {
 
     }
 
-    % [03 Guitar_Music_Voice_IV measure 50 / measure 16]
+    % [Guitar_Music_Voice_IV measure 50 / measure 16]
     s1 * 43/64
 
     {
@@ -2173,7 +2173,7 @@ c_Guitar_Music_Voice_IV = {
         \times 8/7
         {
 
-            % [03 Guitar_Music_Voice_IV measure 52 / measure 18]
+            % [Guitar_Music_Voice_IV measure 52 / measure 18]
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 2
             \override Beam.positions = #'(6 . 6)
@@ -2226,7 +2226,7 @@ c_Guitar_Music_Voice_IV = {
 
     }
 
-    % [03 Guitar_Music_Voice_IV measure 53 / measure 19]
+    % [Guitar_Music_Voice_IV measure 53 / measure 19]
     s1 * 13/32
 
     {
@@ -2235,7 +2235,7 @@ c_Guitar_Music_Voice_IV = {
         \times 8/7
         {
 
-            % [03 Guitar_Music_Voice_IV measure 55 / measure 21]
+            % [Guitar_Music_Voice_IV measure 55 / measure 21]
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 2
             \override Beam.positions = #'(6 . 6)
@@ -2373,7 +2373,7 @@ c_Guitar_Music_Voice_IV = {
         \context Voice = "Guitar_Music_Voice_IV"
         {
 
-            % [03 Guitar_Music_Voice_IV measure 56 / measure 22]
+            % [Guitar_Music_Voice_IV measure 56 / measure 22]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             b'1 * 7/32
@@ -2383,53 +2383,53 @@ c_Guitar_Music_Voice_IV = {
         \context Voice = "Guitar_Rest_Voice_IV"
         {
 
-            % [03 Guitar_Rest_Voice_IV measure 56 / measure 22]
+            % [Guitar_Rest_Voice_IV measure 56 / measure 22]
             s1 * 7/32
 
         }
 
     >>
 
-    % [03 Guitar_Music_Voice_IV measure 57 / measure 23]
+    % [Guitar_Music_Voice_IV measure 57 / measure 23]
     s1 * 5/16
 
-    % [03 Guitar_Music_Voice_IV measure 58 / measure 24]
+    % [Guitar_Music_Voice_IV measure 58 / measure 24]
     s1 * 5/16
 
-    % [03 Guitar_Music_Voice_IV measure 59 / measure 25]
+    % [Guitar_Music_Voice_IV measure 59 / measure 25]
     s1 * 1/2
 
-    % [03 Guitar_Music_Voice_IV measure 60 / measure 26]
+    % [Guitar_Music_Voice_IV measure 60 / measure 26]
     s1 * 7/32
 
-    % [03 Guitar_Music_Voice_IV measure 61 / measure 27]
+    % [Guitar_Music_Voice_IV measure 61 / measure 27]
     s1 * 7/32
 
-    % [03 Guitar_Music_Voice_IV measure 62 / measure 28]
+    % [Guitar_Music_Voice_IV measure 62 / measure 28]
     s1 * 7/32
 
-    % [03 Guitar_Music_Voice_IV measure 63 / measure 29]
+    % [Guitar_Music_Voice_IV measure 63 / measure 29]
     s1 * 7/32
 
-    % [03 Guitar_Music_Voice_IV measure 64 / measure 30]
+    % [Guitar_Music_Voice_IV measure 64 / measure 30]
     s1 * 7/32
 
-    % [03 Guitar_Music_Voice_IV measure 65 / measure 31]
+    % [Guitar_Music_Voice_IV measure 65 / measure 31]
     s1 * 7/32
 
-    % [03 Guitar_Music_Voice_IV measure 66 / measure 32]
+    % [Guitar_Music_Voice_IV measure 66 / measure 32]
     s1 * 7/32
 
-    % [03 Guitar_Music_Voice_IV measure 67 / measure 33]
+    % [Guitar_Music_Voice_IV measure 67 / measure 33]
     s1 * 13/64
 
-    % [03 Guitar_Music_Voice_IV measure 68 / measure 34]
+    % [Guitar_Music_Voice_IV measure 68 / measure 34]
     s1 * 1/2
 
-    % [03 Guitar_Music_Voice_IV measure 69 / measure 35]
+    % [Guitar_Music_Voice_IV measure 69 / measure 35]
     s1 * 7/32
 
-    % [03 Guitar_Music_Voice_IV measure 70 / measure 36]
+    % [Guitar_Music_Voice_IV measure 70 / measure 36]
     s1 * 3/16
 
     <<
@@ -2437,7 +2437,7 @@ c_Guitar_Music_Voice_IV = {
         \context Voice = "Guitar_Music_Voice_IV"
         {
 
-            % [03 Guitar_Music_Voice_IV measure 71 / measure 37]
+            % [Guitar_Music_Voice_IV measure 71 / measure 37]
             \abjad-invisible-music-coloring
             \baca-not-yet-pitched-coloring
             b'1 * 1/4
@@ -2447,7 +2447,7 @@ c_Guitar_Music_Voice_IV = {
         \context Voice = "Guitar_Rest_Voice_IV"
         {
 
-            % [03 Guitar_Rest_Voice_IV measure 71 / measure 37]
+            % [Guitar_Rest_Voice_IV measure 71 / measure 37]
             s1 * 1/4
 
         }

@@ -26,12 +26,12 @@ abjad.OrderedDict(
                     (
                         "Guitar_Music_Staff",
                         [
-                            baca.Momento(
+                            baca.Memento(
                                 context="Guitar_Music_Voice_I",
                                 manifest="instruments",
                                 value="Guitar",
                             ),
-                            baca.Momento(
+                            baca.Memento(
                                 context="Guitar_Music_Voice_I",
                                 prototype="abjad.Clef",
                                 value="treble",
@@ -41,7 +41,7 @@ abjad.OrderedDict(
                     (
                         "Guitar_Music_Voice_I",
                         [
-                            baca.Momento(
+                            baca.Memento(
                                 context="Guitar_Music_Voice_I",
                                 prototype="abjad.Dynamic",
                                 value="p",
@@ -51,12 +51,12 @@ abjad.OrderedDict(
                     (
                         "Score",
                         [
-                            baca.Momento(
+                            baca.Memento(
                                 context="Global_Skips",
                                 manifest="metronome_marks",
                                 value="66",
                             ),
-                            baca.Momento(
+                            baca.Memento(
                                 context="Global_Skips",
                                 prototype="abjad.TimeSignature",
                                 value="13/3",

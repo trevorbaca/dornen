@@ -1,4 +1,4 @@
-j_Global_Skips = {
+segment.10.Global.Skips = {
 
     % [Global_Skips measure 185 / measure 1]
     \time 3/8
@@ -119,7 +119,7 @@ j_Global_Skips = {
 }
 
 
-j_Global_Rests = {
+segment.10.Global.Rests = {
 
     % [Global_Rests measure 185 / measure 1]
     R1 * 3/8
@@ -193,7 +193,7 @@ j_Global_Rests = {
 }
 
 
-j_Guitar_Music_Voice_I = {
+segment.10.Guitar.Music.Voice.I = {
 
     {
 
@@ -693,7 +693,7 @@ j_Guitar_Music_Voice_I = {
 }
 
 
-j_Guitar_Music_Voice_II = {
+segment.10.Guitar.Music.Voice.II = {
 
     % [Guitar_Music_Voice_II measure 185 / measure 1]
     s1 * 3/8
@@ -785,7 +785,7 @@ j_Guitar_Music_Voice_II = {
 }
 
 
-j_Guitar_Music_Voice_III = {
+segment.10.Guitar.Music.Voice.III = {
 
     % [Guitar_Music_Voice_III measure 185 / measure 1]
     s1 * 3/8
@@ -877,7 +877,7 @@ j_Guitar_Music_Voice_III = {
 }
 
 
-j_Guitar_Music_Voice_IV = {
+segment.10.Guitar.Music.Voice.IV = {
 
     % [Guitar_Music_Voice_IV measure 185 / measure 1]
     s1 * 3/8
@@ -969,21 +969,21 @@ j_Guitar_Music_Voice_IV = {
 }
 
 
-j_Guitar_Music_Staff = <<
+segment.10.Guitar.Music.Staff = <<
 
     \context GlobalRests = "Global_Rests"
-    \j_Global_Rests
+    { \segment.10.Global.Rests }
 
     \context GuitarMusicVoiceI = "Guitar_Music_Voice_I"
-    \j_Guitar_Music_Voice_I
+    { \segment.10.Guitar.Music.Voice.I }
 
     \context GuitarMusicVoiceII = "Guitar_Music_Voice_II"
-    \j_Guitar_Music_Voice_II
+    { \segment.10.Guitar.Music.Voice.II }
 
     \context GuitarMusicVoiceIII = "Guitar_Music_Voice_III"
-    \j_Guitar_Music_Voice_III
+    { \segment.10.Guitar.Music.Voice.III }
 
     \context GuitarMusicVoiceIV = "Guitar_Music_Voice_IV"
-    \j_Guitar_Music_Voice_IV
+    { \segment.10.Guitar.Music.Voice.IV }
 
 >>

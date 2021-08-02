@@ -1,4 +1,4 @@
-h_Global_Skips = {
+segment.08.Global.Skips = {
 
     % [Global_Skips measure 155 / measure 1]
     \time 7/32
@@ -79,7 +79,7 @@ h_Global_Skips = {
 }
 
 
-h_Global_Rests = {
+segment.08.Global.Rests = {
 
     % [Global_Rests measure 155 / measure 1]
     R1 * 7/32
@@ -123,7 +123,7 @@ h_Global_Rests = {
 }
 
 
-h_Guitar_Music_Voice_I = {
+segment.08.Guitar.Music.Voice.I = {
 
     % [Guitar_Music_Voice_I measure 155 / measure 1]
     \clef "treble"
@@ -268,7 +268,7 @@ h_Guitar_Music_Voice_I = {
 }
 
 
-h_Guitar_Music_Voice_II = {
+segment.08.Guitar.Music.Voice.II = {
 
     {
 
@@ -428,7 +428,7 @@ h_Guitar_Music_Voice_II = {
 }
 
 
-h_Guitar_Music_Voice_III = {
+segment.08.Guitar.Music.Voice.III = {
 
     % [Guitar_Music_Voice_III measure 155 / measure 1]
     s1 * 109/224
@@ -664,7 +664,7 @@ h_Guitar_Music_Voice_III = {
 }
 
 
-h_Guitar_Music_Voice_IV = {
+segment.08.Guitar.Music.Voice.IV = {
 
     % [Guitar_Music_Voice_IV measure 155 / measure 1]
     \override Beam.positions = #'(8 . 8)
@@ -947,21 +947,21 @@ h_Guitar_Music_Voice_IV = {
 }
 
 
-h_Guitar_Music_Staff = <<
+segment.08.Guitar.Music.Staff = <<
 
     \context GlobalRests = "Global_Rests"
-    \h_Global_Rests
+    { \segment.08.Global.Rests }
 
     \context GuitarMusicVoiceI = "Guitar_Music_Voice_I"
-    \h_Guitar_Music_Voice_I
+    { \segment.08.Guitar.Music.Voice.I }
 
     \context GuitarMusicVoiceII = "Guitar_Music_Voice_II"
-    \h_Guitar_Music_Voice_II
+    { \segment.08.Guitar.Music.Voice.II }
 
     \context GuitarMusicVoiceIII = "Guitar_Music_Voice_III"
-    \h_Guitar_Music_Voice_III
+    { \segment.08.Guitar.Music.Voice.III }
 
     \context GuitarMusicVoiceIV = "Guitar_Music_Voice_IV"
-    \h_Guitar_Music_Voice_IV
+    { \segment.08.Guitar.Music.Voice.IV }
 
 >>

@@ -1,4 +1,4 @@
-m_Global_Skips = {
+segment.13.Global.Skips = {
 
     % [Global_Skips measure 257 / measure 1]
     #(ly:expect-warning "strange time signature found")
@@ -251,7 +251,7 @@ m_Global_Skips = {
 }
 
 
-m_Global_Rests = {
+segment.13.Global.Rests = {
 
     % [Global_Rests measure 257 / measure 1]
     R1 * 2/5
@@ -397,7 +397,7 @@ m_Global_Rests = {
 }
 
 
-m_Guitar_Music_Voice_I = {
+segment.13.Guitar.Music.Voice.I = {
 
     {
 
@@ -1721,7 +1721,7 @@ m_Guitar_Music_Voice_I = {
 }
 
 
-m_Guitar_Music_Voice_II = {
+segment.13.Guitar.Music.Voice.II = {
 
     % [Guitar_Music_Voice_II measure 257 / measure 1]
     s1 * 2/5
@@ -1885,7 +1885,7 @@ m_Guitar_Music_Voice_II = {
 }
 
 
-m_Guitar_Music_Voice_III = {
+segment.13.Guitar.Music.Voice.III = {
 
     % [Guitar_Music_Voice_III measure 257 / measure 1]
     s1 * 2/5
@@ -2049,7 +2049,7 @@ m_Guitar_Music_Voice_III = {
 }
 
 
-m_Guitar_Music_Voice_IV = {
+segment.13.Guitar.Music.Voice.IV = {
 
     % [Guitar_Music_Voice_IV measure 257 / measure 1]
     s1 * 2/5
@@ -2213,21 +2213,21 @@ m_Guitar_Music_Voice_IV = {
 }
 
 
-m_Guitar_Music_Staff = <<
+segment.13.Guitar.Music.Staff = <<
 
     \context GlobalRests = "Global_Rests"
-    \m_Global_Rests
+    { \segment.13.Global.Rests }
 
     \context GuitarMusicVoiceI = "Guitar_Music_Voice_I"
-    \m_Guitar_Music_Voice_I
+    { \segment.13.Guitar.Music.Voice.I }
 
     \context GuitarMusicVoiceII = "Guitar_Music_Voice_II"
-    \m_Guitar_Music_Voice_II
+    { \segment.13.Guitar.Music.Voice.II }
 
     \context GuitarMusicVoiceIII = "Guitar_Music_Voice_III"
-    \m_Guitar_Music_Voice_III
+    { \segment.13.Guitar.Music.Voice.III }
 
     \context GuitarMusicVoiceIV = "Guitar_Music_Voice_IV"
-    \m_Guitar_Music_Voice_IV
+    { \segment.13.Guitar.Music.Voice.IV }
 
 >>

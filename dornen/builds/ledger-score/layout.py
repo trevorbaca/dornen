@@ -3,6 +3,7 @@ import baca
 spacing = baca.SpacingSpecifier(
     breaks=baca.breaks(
         baca.page(
+            1,
             baca.system(measure=1, y_offset=60, distances=(17,)),
             baca.system(measure=15, y_offset=100, distances=(17,)),
             baca.system(measure=27, y_offset=140, distances=(17,)),
@@ -11,6 +12,7 @@ spacing = baca.SpacingSpecifier(
             number=1,
         ),
         baca.page(
+            2,
             baca.system(measure=62, y_offset=20, distances=(17,)),
             baca.system(measure=73, y_offset=60, distances=(17,)),
             baca.system(measure=83, y_offset=100, distances=(17,)),
@@ -20,6 +22,7 @@ spacing = baca.SpacingSpecifier(
             number=2,
         ),
         baca.page(
+            3,
             baca.system(measure=132, y_offset=20, distances=(17,)),
             baca.system(measure=133, y_offset=60, distances=(17,)),
             baca.system(measure=159, y_offset=100, distances=(17,)),
@@ -29,6 +32,7 @@ spacing = baca.SpacingSpecifier(
             number=3,
         ),
         baca.page(
+            4,
             baca.system(measure=232, y_offset=20, distances=(17,)),
             baca.system(measure=259, y_offset=60, distances=(17,)),
             baca.system(measure=282, y_offset=100, distances=(17,)),

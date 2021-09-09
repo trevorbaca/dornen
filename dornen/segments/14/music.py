@@ -8,7 +8,10 @@ from dornen import library as dornen
 ##################################### [N] #####################################
 ###############################################################################
 
-accumulator = baca.Accumulator(dornen.ScoreTemplate())
+accumulator = baca.Accumulator(
+    dornen.ScoreTemplate()(),
+    voice_abbreviations=dornen.ScoreTemplate().voice_abbreviations,
+)
 design = dornen.design_2(start=14, stop=28)
 assert len(design) == 14
 

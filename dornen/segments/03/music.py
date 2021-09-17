@@ -380,7 +380,7 @@ accumulator(
 assert len(design) == 22
 
 maker = baca.SegmentMaker(
-    check_all_are_pitched=True,
+    error_on_not_yet_pitched=True,
     do_not_check_beamed_long_notes=True,
     instruments=dornen.instruments,
     metronome_marks=dornen.metronome_marks,

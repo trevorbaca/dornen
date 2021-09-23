@@ -342,6 +342,7 @@ accumulator(
 )
 
 maker = baca.SegmentMaker(
+    **baca.segments(),
     error_on_not_yet_pitched=True,
     do_not_check_beamed_long_notes=True,
     final_segment=True,

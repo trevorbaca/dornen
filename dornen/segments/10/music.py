@@ -190,6 +190,7 @@ accumulator(
 )
 
 maker = baca.SegmentMaker(
+    **baca.segments(),
     error_on_not_yet_pitched=True,
     instruments=dornen.instruments,
     metronome_marks=dornen.metronome_marks,

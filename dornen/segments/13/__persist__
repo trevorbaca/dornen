@@ -21,50 +21,39 @@ abjad.OrderedDict(
         ),
         (
             "persistent_indicators",
-            abjad.OrderedDict(
-                [
-                    (
-                        "Guitar_Music_Staff",
-                        [
-                            baca.Memento(
-                                context="Guitar_Music_Voice_I",
-                                manifest="instruments",
-                                value="Guitar",
-                            ),
-                            baca.Memento(
-                                context="Guitar_Music_Voice_I",
-                                prototype="abjad.Clef",
-                                value="treble",
-                            ),
-                        ],
+            {
+                "Guitar_Music_Staff": [
+                    baca.Memento(
+                        context="Guitar_Music_Voice_I",
+                        manifest="instruments",
+                        value="Guitar",
                     ),
-                    (
-                        "Guitar_Music_Voice_I",
-                        [
-                            baca.Memento(
-                                context="Guitar_Music_Voice_I",
-                                prototype="abjad.Dynamic",
-                                value="niente",
-                            ),
-                        ],
+                    baca.Memento(
+                        context="Guitar_Music_Voice_I",
+                        prototype="abjad.Clef",
+                        value="treble",
                     ),
-                    (
-                        "Score",
-                        [
-                            baca.Memento(
-                                context="Global_Skips",
-                                manifest="metronome_marks",
-                                value="66",
-                            ),
-                            baca.Memento(
-                                context="Global_Skips",
-                                prototype="abjad.TimeSignature",
-                                value="5/8",
-                            ),
-                        ],
+                ],
+                "Guitar_Music_Voice_I": [
+                    baca.Memento(
+                        context="Guitar_Music_Voice_I",
+                        prototype="abjad.Dynamic",
+                        value="niente",
                     ),
-                ]
-            ),
+                ],
+                "Score": [
+                    baca.Memento(
+                        context="Global_Skips",
+                        manifest="metronome_marks",
+                        value="66",
+                    ),
+                    baca.Memento(
+                        context="Global_Skips",
+                        prototype="abjad.TimeSignature",
+                        value="5/8",
+                    ),
+                ],
+            },
         ),
     ]
 )

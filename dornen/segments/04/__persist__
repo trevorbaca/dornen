@@ -21,40 +21,32 @@ abjad.OrderedDict(
         ),
         (
             "persistent_indicators",
-            abjad.OrderedDict(
-                [
-                    (
-                        "Guitar_Music_Staff",
-                        [
-                            baca.Memento(
-                                context="Guitar_Music_Voice_I",
-                                manifest="instruments",
-                                value="Guitar",
-                            ),
-                            baca.Memento(
-                                context="Guitar_Music_Voice_I",
-                                prototype="abjad.Clef",
-                                value="treble",
-                            ),
-                        ],
+            {
+                "Guitar_Music_Staff": [
+                    baca.Memento(
+                        context="Guitar_Music_Voice_I",
+                        manifest="instruments",
+                        value="Guitar",
                     ),
-                    (
-                        "Score",
-                        [
-                            baca.Memento(
-                                context="Global_Skips",
-                                manifest="metronome_marks",
-                                value="66",
-                            ),
-                            baca.Memento(
-                                context="Global_Skips",
-                                prototype="abjad.TimeSignature",
-                                value="9/64",
-                            ),
-                        ],
+                    baca.Memento(
+                        context="Guitar_Music_Voice_I",
+                        prototype="abjad.Clef",
+                        value="treble",
                     ),
-                ]
-            ),
+                ],
+                "Score": [
+                    baca.Memento(
+                        context="Global_Skips",
+                        manifest="metronome_marks",
+                        value="66",
+                    ),
+                    baca.Memento(
+                        context="Global_Skips",
+                        prototype="abjad.TimeSignature",
+                        value="9/64",
+                    ),
+                ],
+            },
         ),
     ]
 )

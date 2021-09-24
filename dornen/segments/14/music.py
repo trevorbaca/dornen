@@ -343,16 +343,11 @@ accumulator(
 
 maker = baca.SegmentMaker(
     **baca.segments(),
-    error_on_not_yet_pitched=True,
-    do_not_check_beamed_long_notes=True,
-    final_segment=True,
-    ignore_repeat_pitch_classes=False,
     instruments=dornen.instruments,
     metronome_marks=dornen.metronome_marks,
     score_template=dornen.ScoreTemplate(),
     skips_instead_of_rests=True,
     time_signatures=accumulator.time_signatures,
-    transpose_score=True,
 )
 
 accumulator.populate_segment_maker(maker)
@@ -413,4 +408,8 @@ if __name__ == "__main__":
     baca.build.make_segment_pdf(
         maker,
         **baca.segments(runtime=True),
+        do_not_check_beamed_long_notes=True,
+        error_on_not_yet_pitched=True,
+        final_segment=True,
+        transpose_score=True,
     )

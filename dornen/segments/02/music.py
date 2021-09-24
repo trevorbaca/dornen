@@ -163,4 +163,7 @@ maker = baca.SegmentMaker(
 accumulator.populate_segment_maker(maker)
 
 if __name__ == "__main__":
-    baca.build.make_segment_pdf(maker, runtime=baca.segments(runtime=True))
+    baca.build.make_segment_pdf(
+        maker,
+        **baca.segments(runtime=True),
+    )

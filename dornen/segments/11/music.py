@@ -6,40 +6,40 @@ from dornen import library as dornen
 ##################################### [K] #####################################
 ###############################################################################
 
-accumulator = baca.Accumulator(
+figures = baca.FigureAccumulator(
     dornen.ScoreTemplate()(),
     voice_abbreviations=dornen.ScoreTemplate().voice_abbreviations,
 )
 
-accumulator(
+figures(
     "v1",
     [["Gb~2"]],
     *dornen.monads(),
     figure_name="2_1",
 )
 
-accumulator(
+figures(
     "v1",
     [["Gb~2"]],
     *dornen.monads(),
     figure_name="2_2",
 )
 
-accumulator(
+figures(
     "v1",
     [["Gb~2"]],
     *dornen.thirds(),
     figure_name="2_3",
 )
 
-accumulator(
+figures(
     "v1",
     [["Gb~2"]],
     *dornen.thirds(),
     figure_name="2_4",
 )
 
-accumulator(
+figures(
     "v1",
     [["Gb~2"]],
     *dornen.thirds(),
@@ -48,7 +48,7 @@ accumulator(
 
 ###
 
-accumulator(
+figures(
     "v1",
     [["Gb~2"]],
     *dornen.monads(),
@@ -59,28 +59,28 @@ accumulator(
     figure_name="3_1",
 )
 
-accumulator(
+figures(
     "v1",
     [["Gb~2"]],
     *dornen.monads(),
     figure_name="3_2",
 )
 
-accumulator(
+figures(
     "v1",
     [["Gb~2"]],
     *dornen.thirds(),
     figure_name="3_3",
 )
 
-accumulator(
+figures(
     "v1",
     [["Gb~2"]],
     *dornen.thirds(),
     figure_name="3_4",
 )
 
-accumulator(
+figures(
     "v1",
     [["Gb~2"]],
     *dornen.thirds(),
@@ -89,7 +89,7 @@ accumulator(
 
 ###
 
-accumulator(
+figures(
     "v1",
     [["Gb~2"]],
     *dornen.monads(),
@@ -100,91 +100,91 @@ accumulator(
     figure_name="4_1",
 )
 
-accumulator(
+figures(
     "v1",
     [["Gb~2"]],
     *dornen.monads(),
     figure_name="4_2",
 )
 
-accumulator(
+figures(
     "v1",
     [["Gb~2"]],
     *dornen.thirds(),
     figure_name="4_3",
 )
 
-accumulator(
+figures(
     "v1",
     [["Gb~2"]],
     *dornen.thirds(),
     figure_name="4_4",
 )
 
-accumulator(
+figures(
     "v1",
     [["Gb~2"]],
     *dornen.thirds(),
     figure_name="4_5",
 )
 
-accumulator(
+figures(
     "v1",
     [["Gb~2"]],
     *dornen.monads(),
     figure_name="4_6",
 )
 
-accumulator(
+figures(
     "v1",
     [["Gb~2"]],
     *dornen.thirds(),
     figure_name="4_7",
 )
 
-accumulator(
+figures(
     "v1",
     [["Gb~2"]],
     *dornen.thirds(),
     figure_name="4_8",
 )
 
-accumulator(
+figures(
     "v1",
     [["Gb~2"]],
     *dornen.thirds(),
     figure_name="4_9",
 )
 
-accumulator(
+figures(
     "v1",
     [["Gb~2"]],
     *dornen.monads(),
     figure_name="4_10",
 )
 
-accumulator(
+figures(
     "v1",
     [["Gb~2"]],
     *dornen.thirds(),
     figure_name="4_11",
 )
 
-accumulator(
+figures(
     "v1",
     [["Gb~2"]],
     *dornen.thirds(),
     figure_name="4_12",
 )
 
-accumulator(
+figures(
     "v1",
     [["Gb~2"]],
     *dornen.thirds(),
     figure_name="4_13",
 )
 
-accumulator(
+figures(
     "v1",
     [2 * ["Gb~2"]],
     *dornen.monads(),
@@ -195,7 +195,7 @@ accumulator(
     figure_name="4_14",
 )
 
-accumulator(
+figures(
     "v1",
     [2 * ["Gb~2"]],
     *dornen.monads(),
@@ -212,10 +212,10 @@ maker = baca.CommandAccumulator(
     metronome_marks=dornen.metronome_marks,
     score_template=dornen.ScoreTemplate(),
     skips_instead_of_rests=True,
-    time_signatures=accumulator.time_signatures,
+    time_signatures=figures.time_signatures,
 )
 
-accumulator.populate_segment_maker(maker)
+figures.populate_segment_maker(maker)
 
 maker(
     "v1",

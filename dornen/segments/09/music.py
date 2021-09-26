@@ -6,14 +6,14 @@ from dornen import library as dornen
 ##################################### [I] #####################################
 ###############################################################################
 
-accumulator = baca.Accumulator(
+figures = baca.FigureAccumulator(
     dornen.ScoreTemplate()(),
     voice_abbreviations=dornen.ScoreTemplate().voice_abbreviations,
 )
 design = dornen.design_3(start=20)
 assert len(design) == 20, (repr(design), len(design))
 
-accumulator(
+figures(
     "v1",
     design[:1],
     *dornen.delicatissimo(),
@@ -22,7 +22,7 @@ accumulator(
     figure_name="D1",
 )
 
-accumulator(
+figures(
     "v1",
     design[1:2],
     *dornen.delicatissimo(),
@@ -31,7 +31,7 @@ accumulator(
     figure_name="D2",
 )
 
-accumulator(
+figures(
     "v3",
     design[2:3],
     *dornen.waves(denominator=32),
@@ -39,7 +39,7 @@ accumulator(
     figure_name="W1",
 )
 
-accumulator(
+figures(
     "v1",
     design[3:4],
     *dornen.delicatissimo(),
@@ -48,7 +48,7 @@ accumulator(
     figure_name="D3",
 )
 
-accumulator(
+figures(
     "v1",
     design[4:5],
     *dornen.delicatissimo(),
@@ -57,7 +57,7 @@ accumulator(
     figure_name="D4",
 )
 
-accumulator(
+figures(
     "v1",
     design[5:6],
     *dornen.glissando_scatto(),
@@ -66,7 +66,7 @@ accumulator(
     figure_name="L1",
 )
 
-accumulator(
+figures(
     "v3",
     design[6:7],
     *dornen.waves(denominator=32),
@@ -74,7 +74,7 @@ accumulator(
     figure_name="W2",
 )
 
-accumulator(
+figures(
     "v3",
     design[6:7],
     *dornen.waves(denominator=32),
@@ -82,7 +82,7 @@ accumulator(
     figure_name="W3",
 )
 
-accumulator(
+figures(
     "v1",
     design[7:8],
     *dornen.thirty_seconds(),
@@ -91,7 +91,7 @@ accumulator(
     figure_name="32_1",
 )
 
-accumulator(
+figures(
     "v2",
     design[8:9],
     *dornen.twenty_eighths(),
@@ -101,7 +101,7 @@ accumulator(
     figure_name="28_1",
 )
 
-accumulator(
+figures(
     "v2",
     design[9:10],
     *dornen.forty_eighths(),
@@ -110,7 +110,7 @@ accumulator(
     figure_name="48_1",
 )
 
-accumulator(
+figures(
     "v1",
     design[10:11],
     *dornen.thirty_seconds(),
@@ -119,7 +119,7 @@ accumulator(
     figure_name="32_2",
 )
 
-accumulator(
+figures(
     "v2",
     design[11:12],
     *dornen.twenty_eighths(),
@@ -128,7 +128,7 @@ accumulator(
     figure_name="28_2",
 )
 
-accumulator(
+figures(
     "v2",
     design[12:13],
     *dornen.forty_eighths(),
@@ -137,7 +137,7 @@ accumulator(
     figure_name="48_2",
 )
 
-accumulator(
+figures(
     "v1",
     design[13:14],
     *dornen.thirty_seconds(),
@@ -146,7 +146,7 @@ accumulator(
     figure_name="32_3",
 )
 
-accumulator(
+figures(
     "v2",
     design[14:16],
     *dornen.graced_tuplets(),
@@ -155,7 +155,7 @@ accumulator(
     figure_name="G1",
 )
 
-accumulator(
+figures(
     "v1",
     design[16:19],
     *dornen.running(),
@@ -163,7 +163,7 @@ accumulator(
     figure_name="R1",
 )
 
-accumulator(
+figures(
     "v2",
     design[19:20],
     *dornen.twentieths(),
@@ -177,10 +177,10 @@ maker = baca.CommandAccumulator(
     metronome_marks=dornen.metronome_marks,
     score_template=dornen.ScoreTemplate(),
     skips_instead_of_rests=True,
-    time_signatures=accumulator.time_signatures,
+    time_signatures=figures.time_signatures,
 )
 
-accumulator.populate_segment_maker(maker)
+figures.populate_segment_maker(maker)
 
 maker(
     ("v1", (1, 8)),

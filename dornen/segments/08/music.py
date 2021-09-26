@@ -6,14 +6,14 @@ from dornen import library as dornen
 ##################################### [H] #####################################
 ###############################################################################
 
-accumulator = baca.Accumulator(
+figures = baca.FigureAccumulator(
     dornen.ScoreTemplate()(),
     voice_abbreviations=dornen.ScoreTemplate().voice_abbreviations,
 )
 design = dornen.design_2(start=28)
 assert len(design) == 12, (repr(design), len(design))
 
-accumulator(
+figures(
     "v2",
     design[:1],
     *dornen.ovoids(),
@@ -25,7 +25,7 @@ accumulator(
     figure_name="O1",
 )
 
-accumulator(
+figures(
     "v1",
     design[1:2],
     *dornen.glissando_scatto(),
@@ -33,7 +33,7 @@ accumulator(
     figure_name="L1",
 )
 
-accumulator(
+figures(
     "v4",
     design[2:3],
     *dornen.graced_tuplets(),
@@ -41,7 +41,7 @@ accumulator(
     figure_name="G1",
 )
 
-accumulator(
+figures(
     "v3",
     design[3:4],
     *dornen.delicatissimo(),
@@ -50,14 +50,14 @@ accumulator(
     figure_name="D1",
 )
 
-accumulator(
+figures(
     "v4",
     design[4:5],
     *dornen.graced_tuplets(),
     figure_name="G2",
 )
 
-accumulator(
+figures(
     "v2",
     design[5:6],
     *dornen.ovoids(),
@@ -69,7 +69,7 @@ accumulator(
     figure_name="O2",
 )
 
-accumulator(
+figures(
     "v1",
     design[6:7],
     *dornen.glissando_scatto(),
@@ -78,7 +78,7 @@ accumulator(
     figure_name="L2",
 )
 
-accumulator(
+figures(
     "v4",
     design[7:8],
     *dornen.graced_tuplets(),
@@ -86,7 +86,7 @@ accumulator(
     figure_name="G3",
 )
 
-accumulator(
+figures(
     "v3",
     design[8:9],
     *dornen.delicatissimo(),
@@ -95,21 +95,21 @@ accumulator(
     figure_name="D2",
 )
 
-accumulator(
+figures(
     "v4",
     design[9:10],
     *dornen.graced_tuplets(),
     figure_name="G4",
 )
 
-accumulator(
+figures(
     "v2",
     design[10:11],
     *dornen.ovoids(),
     figure_name="O3",
 )
 
-accumulator(
+figures(
     "v1",
     design[11:12],
     *dornen.glissando_scatto(),
@@ -122,10 +122,10 @@ maker = baca.CommandAccumulator(
     metronome_marks=dornen.metronome_marks,
     score_template=dornen.ScoreTemplate(),
     skips_instead_of_rests=True,
-    time_signatures=accumulator.time_signatures,
+    time_signatures=figures.time_signatures,
 )
 
-accumulator.populate_segment_maker(maker)
+figures.populate_segment_maker(maker)
 
 maker(
     "Global_Skips",

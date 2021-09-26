@@ -6,7 +6,7 @@ from dornen import library as dornen
 ##################################### [B] #####################################
 ###############################################################################
 
-accumulator = baca.Accumulator(
+figures = baca.FigureAccumulator(
     dornen.ScoreTemplate()(),
     voice_abbreviations=dornen.ScoreTemplate().voice_abbreviations,
 )
@@ -14,7 +14,7 @@ design_2 = dornen.design_2(stop=14)
 design = design_2[:14]
 assert len(design) == 14
 
-accumulator(
+figures(
     "v1",
     design[:4],
     *dornen.waves(denominator=64, inverted=True),
@@ -24,7 +24,7 @@ accumulator(
     figure_name="W1",
 )
 
-accumulator(
+figures(
     "v2",
     baca.Sequence(design[4:5]).reveal(1),
     *dornen.twentieths(),
@@ -34,7 +34,7 @@ accumulator(
     figure_name="F1_1",
 )
 
-accumulator(
+figures(
     "v1",
     design[5:8],
     *dornen.running(),
@@ -43,7 +43,7 @@ accumulator(
     figure_name="R1",
 )
 
-accumulator(
+figures(
     "v2",
     baca.Sequence(design[4:5]).reveal(2),
     *dornen.twentieths(),
@@ -52,7 +52,7 @@ accumulator(
     figure_name="F1_2",
 )
 
-accumulator(
+figures(
     "v1",
     design[6:9],
     *dornen.running(),
@@ -61,7 +61,7 @@ accumulator(
     figure_name="R2",
 )
 
-accumulator(
+figures(
     "v2",
     baca.Sequence(design[4:5]).reveal(3),
     *dornen.twentieths(),
@@ -70,7 +70,7 @@ accumulator(
     figure_name="F1_3",
 )
 
-accumulator(
+figures(
     "v1",
     design[7:10],
     *dornen.running(),
@@ -79,7 +79,7 @@ accumulator(
     figure_name="R3",
 )
 
-accumulator(
+figures(
     "v2",
     baca.Sequence(design[4:5]).reveal(4),
     *dornen.twentieths(),
@@ -88,7 +88,7 @@ accumulator(
     figure_name="F1_4",
 )
 
-accumulator(
+figures(
     "v1",
     design[8:11],
     *dornen.running(),
@@ -97,7 +97,7 @@ accumulator(
     figure_name="R4",
 )
 
-accumulator(
+figures(
     "v2",
     baca.Sequence(design[4:5]).reveal(5),
     *dornen.twentieths(),
@@ -105,7 +105,7 @@ accumulator(
     figure_name="F1",
 )
 
-accumulator(
+figures(
     "v1",
     design[9:13],
     *dornen.running(),
@@ -113,7 +113,7 @@ accumulator(
     figure_name="R5",
 )
 
-accumulator(
+figures(
     "v2",
     baca.Sequence(design[4:5]).reveal(1),
     *dornen.twentieths(),
@@ -122,7 +122,7 @@ accumulator(
     figure_name="F1_1*",
 )
 
-accumulator(
+figures(
     "v1",
     design[13:],
     *dornen.delicatissimo(),
@@ -132,7 +132,7 @@ accumulator(
     figure_name="D1",
 )
 
-accumulator(
+figures(
     "v2",
     baca.Sequence(design[4:5]).reveal(2),
     *dornen.twentieths(),
@@ -140,7 +140,7 @@ accumulator(
     figure_name="F1_2*",
 )
 
-accumulator(
+figures(
     "v1",
     design[13:],
     *dornen.delicatissimo(),
@@ -154,10 +154,10 @@ maker = baca.CommandAccumulator(
     metronome_marks=dornen.metronome_marks,
     score_template=dornen.ScoreTemplate(),
     skips_instead_of_rests=True,
-    time_signatures=accumulator.time_signatures,
+    time_signatures=figures.time_signatures,
 )
 
-accumulator.populate_segment_maker(maker)
+figures.populate_segment_maker(maker)
 
 if __name__ == "__main__":
     baca.build.make_segment_pdf(

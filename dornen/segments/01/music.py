@@ -6,7 +6,7 @@ from dornen import library as dornen
 ##################################### [A] #####################################
 ###############################################################################
 
-accumulator = baca.Accumulator(
+figures = baca.FigureAccumulator(
     dornen.ScoreTemplate()(),
     voice_abbreviations=dornen.ScoreTemplate().voice_abbreviations,
 )
@@ -14,7 +14,7 @@ design = dornen.design_1(stop=22)
 assert len(design) == 22
 cursor = baca.Cursor(design)
 
-accumulator(
+figures(
     "v1",
     cursor.next(),
     *dornen.anchors(),
@@ -27,7 +27,7 @@ accumulator(
     figure_name="0",
 )
 
-accumulator(
+figures(
     "v2",
     cursor.next(),
     *dornen.passepied(),
@@ -41,7 +41,7 @@ accumulator(
     figure_name="1",
 )
 
-accumulator(
+figures(
     "v1",
     cursor.next(),
     *dornen.anchors(),
@@ -50,7 +50,7 @@ accumulator(
     figure_name="2",
 )
 
-accumulator(
+figures(
     "v2",
     cursor.next(),
     *dornen.passepied(),
@@ -60,7 +60,7 @@ accumulator(
     figure_name="3",
 )
 
-accumulator(
+figures(
     "v1",
     cursor.next(),
     *dornen.anchors(),
@@ -68,7 +68,7 @@ accumulator(
     figure_name="4",
 )
 
-accumulator(
+figures(
     "v2",
     cursor.next(),
     *dornen.passepied(),
@@ -77,7 +77,7 @@ accumulator(
     figure_name="5",
 )
 
-accumulator(
+figures(
     "v1",
     cursor.next(),
     *dornen.anchors(),
@@ -90,7 +90,7 @@ accumulator(
     figure_name="6",
 )
 
-accumulator(
+figures(
     "v2",
     cursor.next(),
     *dornen.passepied(),
@@ -104,7 +104,7 @@ accumulator(
     figure_name="7",
 )
 
-accumulator(
+figures(
     "v4",
     cursor.next(2),
     *dornen.running(),
@@ -112,7 +112,7 @@ accumulator(
     figure_name="8",
 )
 
-accumulator(
+figures(
     "v1",
     cursor.next(),
     *dornen.anchors(),
@@ -120,7 +120,7 @@ accumulator(
     figure_name="9",
 )
 
-accumulator(
+figures(
     "v4",
     cursor.next(2),
     *dornen.running(),
@@ -128,7 +128,7 @@ accumulator(
     figure_name="10",
 )
 
-accumulator(
+figures(
     "v1",
     cursor.next(),
     *dornen.anchors(),
@@ -141,7 +141,7 @@ accumulator(
     figure_name="11",
 )
 
-accumulator(
+figures(
     "v2",
     cursor.next(),
     *dornen.passepied(),
@@ -150,7 +150,7 @@ accumulator(
     figure_name="12",
 )
 
-accumulator(
+figures(
     "v1",
     cursor.next(),
     *dornen.anchors(),
@@ -158,7 +158,7 @@ accumulator(
     figure_name="13",
 )
 
-accumulator(
+figures(
     "v2",
     cursor.next(),
     *dornen.passepied(),
@@ -172,7 +172,7 @@ accumulator(
     figure_name="14",
 )
 
-accumulator(
+figures(
     "v2",
     cursor.next(),
     *dornen.passepied(),
@@ -181,7 +181,7 @@ accumulator(
     figure_name="15",
 )
 
-accumulator(
+figures(
     "v4",
     cursor.next(2),
     *dornen.running(),
@@ -189,7 +189,7 @@ accumulator(
     figure_name="16",
 )
 
-accumulator(
+figures(
     "v3",
     cursor.next(),
     *dornen.waves(denominator=64, inverted=True),
@@ -200,7 +200,7 @@ accumulator(
     figure_name="17",
 )
 
-accumulator(
+figures(
     "v3",
     cursor.next(),
     *dornen.waves(denominator=64, inverted=True),
@@ -217,10 +217,10 @@ maker = baca.CommandAccumulator(
     metronome_marks=dornen.metronome_marks,
     score_template=dornen.ScoreTemplate(),
     skips_instead_of_rests=True,
-    time_signatures=accumulator.time_signatures,
+    time_signatures=figures.time_signatures,
 )
 
-accumulator.populate_segment_maker(maker)
+figures.populate_segment_maker(maker)
 
 maker(
     "Global_Skips",

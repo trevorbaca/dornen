@@ -7,14 +7,14 @@ from dornen import library as dornen
 ##################################### [C] #####################################
 ###############################################################################
 
-accumulator = baca.Accumulator(
+figures = baca.FigureAccumulator(
     dornen.ScoreTemplate()(),
     voice_abbreviations=dornen.ScoreTemplate().voice_abbreviations,
 )
 design = dornen.design_1(start=16, stop=38)
 assert len(design) == 22
 
-accumulator(
+figures(
     "v1",
     design[:1],
     *dornen.waves(denominator=64, inverted=True),
@@ -22,7 +22,7 @@ accumulator(
     figure_name="W1",
 )
 
-accumulator(
+figures(
     "v4",
     baca.Sequence(design[5:6]).reveal(1),
     *dornen.graced_tuplets(),
@@ -33,7 +33,7 @@ accumulator(
     figure_name="G1_1",
 )
 
-accumulator(
+figures(
     "v2",
     design[1:2],
     *dornen.ovoids(),
@@ -46,7 +46,7 @@ accumulator(
     figure_name="O1",
 )
 
-accumulator(
+figures(
     "v4",
     baca.Sequence(design[5:6]).reveal(1),
     *dornen.graced_tuplets(),
@@ -56,7 +56,7 @@ accumulator(
     figure_name="G1_1*",
 )
 
-accumulator(
+figures(
     "v1",
     baca.Sequence(design[2:3]).boustrophedon(count=2),
     *dornen.waves(denominator=64, inverted=True),
@@ -65,7 +65,7 @@ accumulator(
     figure_name="W2",
 )
 
-accumulator(
+figures(
     "v4",
     baca.Sequence(design[5:6]).reveal(3),
     *dornen.graced_tuplets(),
@@ -75,7 +75,7 @@ accumulator(
     figure_name="G1_2",
 )
 
-accumulator(
+figures(
     "v2",
     design[3:4],
     *dornen.ovoids(),
@@ -84,7 +84,7 @@ accumulator(
     figure_name="O2",
 )
 
-accumulator(
+figures(
     "v4",
     baca.Sequence(design[5:6]).reveal(3),
     *dornen.graced_tuplets(),
@@ -95,7 +95,7 @@ accumulator(
 
 cell_d1 = [baca.Sequence(design[4:5]).boustrophedon(count=4).flatten()]
 
-accumulator(
+figures(
     "v1",
     baca.Sequence(cell_d1).reveal(4),
     *dornen.delicatissimo(),
@@ -105,7 +105,7 @@ accumulator(
     figure_name="D1_1",
 )
 
-accumulator(
+figures(
     "v4",
     baca.Sequence(design[5:6]).reveal(1),
     *dornen.graced_tuplets(),
@@ -116,7 +116,7 @@ accumulator(
     figure_name="G1_4",
 )
 
-accumulator(
+figures(
     "v1",
     baca.Sequence(cell_d1).reveal(3),
     *dornen.delicatissimo(),
@@ -126,7 +126,7 @@ accumulator(
     figure_name="D1_2",
 )
 
-accumulator(
+figures(
     "v4",
     baca.Sequence(design[5:6]).reveal(5),
     *dornen.graced_tuplets(),
@@ -136,7 +136,7 @@ accumulator(
     figure_name="G1_5",
 )
 
-accumulator(
+figures(
     "v1",
     baca.Sequence(cell_d1).reveal(10),
     *dornen.delicatissimo(),
@@ -145,7 +145,7 @@ accumulator(
     figure_name="D1_3",
 )
 
-accumulator(
+figures(
     "v2",
     design[1:2],
     *dornen.ovoids(),
@@ -158,7 +158,7 @@ accumulator(
     figure_name="O1*",
 )
 
-accumulator(
+figures(
     "v4",
     baca.Sequence(design[5:6]).reveal(3),
     *dornen.graced_tuplets(),
@@ -168,7 +168,7 @@ accumulator(
     figure_name="G1_6",
 )
 
-accumulator(
+figures(
     "v1",
     [baca.Sequence(design[2:3]).boustrophedon(count=2).flatten()],
     *dornen.waves(denominator=64),
@@ -178,7 +178,7 @@ accumulator(
     figure_name="W2*",
 )
 
-accumulator(
+figures(
     "v1",
     baca.Sequence(cell_d1).reveal(15),
     *dornen.delicatissimo(),
@@ -188,7 +188,7 @@ accumulator(
     figure_name="D1_4",
 )
 
-accumulator(
+figures(
     "v4",
     baca.Sequence(design[5:6]).reveal(9),
     *dornen.graced_tuplets(),
@@ -199,7 +199,7 @@ accumulator(
     figure_name="G1_7",
 )
 
-accumulator(
+figures(
     "v1",
     baca.Sequence(cell_d1).reveal(6),
     *dornen.delicatissimo(),
@@ -208,7 +208,7 @@ accumulator(
     figure_name="D1_5",
 )
 
-accumulator(
+figures(
     "v2",
     design[3:4],
     *dornen.ovoids(),
@@ -217,7 +217,7 @@ accumulator(
     figure_name="O2*",
 )
 
-accumulator(
+figures(
     "v4",
     list(baca.Sequence(design[5:6]).repeat(n=2).flatten().map(list)),
     *dornen.graced_tuplets(),
@@ -227,7 +227,7 @@ accumulator(
     figure_name="G1_8",
 )
 
-accumulator(
+figures(
     "v2",
     design[1:2],
     *dornen.ovoids(),
@@ -240,7 +240,7 @@ accumulator(
     figure_name="O1**",
 )
 
-accumulator(
+figures(
     "v1",
     baca.Sequence(cell_d1).reveal(10),
     *dornen.delicatissimo(),
@@ -249,7 +249,7 @@ accumulator(
     figure_name="D1_6",
 )
 
-accumulator(
+figures(
     "v1",
     baca.Sequence(cell_d1).reveal(-15),
     *dornen.delicatissimo(),
@@ -260,7 +260,7 @@ accumulator(
     figure_name="D1_7",
 )
 
-accumulator(
+figures(
     "v1",
     design[6:7],
     *dornen.delicatissimo(),
@@ -270,7 +270,7 @@ accumulator(
     figure_name="D2",
 )
 
-accumulator(
+figures(
     "v2",
     design[3:4],
     *dornen.ovoids(),
@@ -280,7 +280,7 @@ accumulator(
     figure_name="O2**",
 )
 
-accumulator(
+figures(
     "v2",
     baca.Sequence(design[7:9]).join(),
     *dornen.ovoids(),
@@ -288,7 +288,7 @@ accumulator(
     figure_name="O3",
 )
 
-accumulator(
+figures(
     "v2",
     baca.Sequence(design[9:11]).join(),
     *dornen.ovoids(),
@@ -301,7 +301,7 @@ accumulator(
     figure_name="O4",
 )
 
-accumulator(
+figures(
     "v2",
     baca.Sequence(design[11:13]).join(),
     *dornen.ovoids(),
@@ -310,7 +310,7 @@ accumulator(
     figure_name="O5",
 )
 
-accumulator(
+figures(
     "v2",
     baca.Sequence(design[13:15]).join(),
     *dornen.ovoids(),
@@ -319,7 +319,7 @@ accumulator(
     figure_name="O6",
 )
 
-accumulator(
+figures(
     "v2",
     baca.Sequence(design[15:17]).join(),
     *dornen.ovoids(),
@@ -327,7 +327,7 @@ accumulator(
     figure_name="O7",
 )
 
-accumulator(
+figures(
     "v2",
     baca.Sequence(design[17:19]).join(),
     *dornen.ovoids(),
@@ -340,7 +340,7 @@ accumulator(
     figure_name="O8",
 )
 
-accumulator(
+figures(
     "v1",
     [baca.Sequence(design[2:3]).boustrophedon(count=2).flatten()],
     *dornen.waves(denominator=64),
@@ -350,7 +350,7 @@ accumulator(
     figure_name="W2**",
 )
 
-accumulator(
+figures(
     "v1",
     design[6:7],
     *dornen.delicatissimo(),
@@ -360,7 +360,7 @@ accumulator(
     figure_name="D2*",
 )
 
-accumulator(
+figures(
     "v2",
     baca.Sequence(design[19:21]).join(),
     *dornen.ovoids(),
@@ -369,7 +369,7 @@ accumulator(
     figure_name="O9",
 )
 
-accumulator(
+figures(
     "v2",
     design[21:22],
     *dornen.ovoids(),
@@ -385,10 +385,10 @@ maker = baca.CommandAccumulator(
     metronome_marks=dornen.metronome_marks,
     score_template=dornen.ScoreTemplate(),
     skips_instead_of_rests=True,
-    time_signatures=accumulator.time_signatures,
+    time_signatures=figures.time_signatures,
 )
 
-accumulator.populate_segment_maker(maker)
+figures.populate_segment_maker(maker)
 
 maker(
     "Global_Skips",

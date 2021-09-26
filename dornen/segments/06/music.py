@@ -6,14 +6,14 @@ from dornen import library as dornen
 ##################################### [F] #####################################
 ###############################################################################
 
-accumulator = baca.Accumulator(
+figures = baca.FigureAccumulator(
     dornen.ScoreTemplate()(),
     voice_abbreviations=dornen.ScoreTemplate().voice_abbreviations,
 )
 design = dornen.design_3(start=10, stop=30)
 assert len(design) == 20
 
-accumulator(
+figures(
     "v1",
     design[:1],
     *dornen.forty_eighths(),
@@ -24,7 +24,7 @@ accumulator(
     figure_name="48_1",
 )
 
-accumulator(
+figures(
     "v3",
     design[1:2],
     *dornen.sixteenths(),
@@ -32,7 +32,7 @@ accumulator(
     figure_name="16_1",
 )
 
-accumulator(
+figures(
     "v1",
     design[2:5],
     *dornen.running(),
@@ -41,14 +41,14 @@ accumulator(
     figure_name="R1",
 )
 
-accumulator(
+figures(
     "v4",
     design[5:6],
     *dornen.twentieths(),
     figure_name="20_1",
 )
 
-accumulator(
+figures(
     "v1",
     design[6:7],
     *dornen.forty_eighths(),
@@ -57,21 +57,21 @@ accumulator(
     figure_name="48_2",
 )
 
-accumulator(
+figures(
     "v3",
     design[7:8],
     *dornen.sixteenths(),
     figure_name="16_2",
 )
 
-accumulator(
+figures(
     "v4",
     design[8:9],
     *dornen.twentieths(),
     figure_name="20_2",
 )
 
-accumulator(
+figures(
     "v1",
     [3 * ["C4"]],
     *dornen.rests(),
@@ -83,7 +83,7 @@ accumulator(
     figure_name="S1",
 )
 
-accumulator(
+figures(
     "v1",
     baca.Sequence(design[9:10]).reveal(3).repeat(10).flatten(),
     *dornen.sixty_fourths(),
@@ -91,7 +91,7 @@ accumulator(
     figure_name="D1",
 )
 
-accumulator(
+figures(
     "v1",
     baca.Sequence(design[9:10]).reveal(4).repeat(10).flatten(),
     *dornen.sixty_fourths(),
@@ -99,7 +99,7 @@ accumulator(
     figure_name="D2",
 )
 
-accumulator(
+figures(
     "v1",
     baca.Sequence(design[9:10]).reveal(5).repeat(10).flatten(),
     *dornen.sixty_fourths(),
@@ -107,7 +107,7 @@ accumulator(
     figure_name="D3",
 )
 
-accumulator(
+figures(
     "v1",
     baca.Sequence(design[9:10]).reveal(6).repeat(10).flatten(),
     *dornen.sixty_fourths(),
@@ -115,7 +115,7 @@ accumulator(
     figure_name="D4",
 )
 
-accumulator(
+figures(
     "v1",
     baca.Sequence(design[9:10]).boustrophedon(count=4),
     *dornen.sixty_fourths(),
@@ -129,10 +129,10 @@ maker = baca.CommandAccumulator(
     metronome_marks=dornen.metronome_marks,
     score_template=dornen.ScoreTemplate(),
     skips_instead_of_rests=True,
-    time_signatures=accumulator.time_signatures,
+    time_signatures=figures.time_signatures,
 )
 
-accumulator.populate_segment_maker(maker)
+figures.populate_segment_maker(maker)
 
 maker(
     "Global_Skips",

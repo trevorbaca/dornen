@@ -8,7 +8,7 @@ from dornen import library as dornen
 ##################################### [N] #####################################
 ###############################################################################
 
-accumulator = baca.Accumulator(
+figures = baca.FigureAccumulator(
     dornen.ScoreTemplate()(),
     voice_abbreviations=dornen.ScoreTemplate().voice_abbreviations,
 )
@@ -17,7 +17,7 @@ assert len(design) == 14
 
 ### 1 ###
 
-accumulator(
+figures(
     "v1",
     design[:1],
     *dornen.forty_eighths(),
@@ -28,20 +28,20 @@ accumulator(
     baca.extend_beam(),
 )
 
-accumulator(
+figures(
     "v4",
     design[1:2],
     *dornen.twentieths(),
     baca.extend_beam(),
 )
 
-accumulator(
+figures(
     "v3",
     design[2:3],
     *dornen.sixteenths(),
 )
 
-accumulator(
+figures(
     "v4",
     design[3:4],
     *dornen.twentieths(),
@@ -49,20 +49,20 @@ accumulator(
     baca.stem_up(),
 )
 
-accumulator(
+figures(
     "v2",
     design[4:5],
     *dornen.thirty_seconds(),
     baca.slur(),
 )
 
-accumulator(
+figures(
     "v1",
     design[5:6],
     *dornen.forty_eighths(),
 )
 
-accumulator(
+figures(
     "v1",
     [["C4"]],
     *dornen.thirty_seconds(),
@@ -71,7 +71,7 @@ accumulator(
 
 ### 2 ###
 
-accumulator(
+figures(
     "v1",
     design[:1],
     *dornen.forty_eighths(),
@@ -82,20 +82,20 @@ accumulator(
     baca.extend_beam(),
 )
 
-accumulator(
+figures(
     "v4",
     design[1:2],
     *dornen.twentieths(),
     baca.extend_beam(),
 )
 
-accumulator(
+figures(
     "v3",
     design[2:3],
     *dornen.sixteenths(),
 )
 
-accumulator(
+figures(
     "v4",
     design[3:4],
     *dornen.twentieths(),
@@ -103,20 +103,20 @@ accumulator(
     baca.stem_up(),
 )
 
-accumulator(
+figures(
     "v2",
     design[4:5],
     *dornen.thirty_seconds(),
     baca.slur(),
 )
 
-accumulator(
+figures(
     "v1",
     design[5:6],
     *dornen.forty_eighths(),
 )
 
-accumulator(
+figures(
     "v1",
     [["C4"]],
     *dornen.thirty_seconds(),
@@ -125,7 +125,7 @@ accumulator(
 
 ### 3 ###
 
-accumulator(
+figures(
     "v1",
     design[:1],
     *dornen.forty_eighths(),
@@ -136,20 +136,20 @@ accumulator(
     baca.extend_beam(),
 )
 
-accumulator(
+figures(
     "v4",
     design[1:2],
     *dornen.twentieths(),
     baca.extend_beam(),
 )
 
-accumulator(
+figures(
     "v3",
     design[2:3],
     *dornen.sixteenths(),
 )
 
-accumulator(
+figures(
     "v4",
     design[3:4],
     *dornen.twentieths(),
@@ -157,20 +157,20 @@ accumulator(
     baca.stem_up(),
 )
 
-accumulator(
+figures(
     "v2",
     design[4:5],
     *dornen.thirty_seconds(),
     baca.slur(),
 )
 
-accumulator(
+figures(
     "v1",
     design[5:6],
     *dornen.forty_eighths(),
 )
 
-accumulator(
+figures(
     "v1",
     [["C4"]],
     *dornen.thirty_seconds(),
@@ -179,27 +179,27 @@ accumulator(
 
 ### 4 ###
 
-accumulator(
+figures(
     "v1",
     design[:1],
     *dornen.forty_eighths(),
     baca.extend_beam(),
 )
 
-accumulator(
+figures(
     "v4",
     design[1:2],
     *dornen.twentieths(),
     baca.extend_beam(),
 )
 
-accumulator(
+figures(
     "v3",
     design[2:3],
     *dornen.sixteenths(),
 )
 
-accumulator(
+figures(
     "v4",
     design[3:4],
     *dornen.twentieths(),
@@ -207,20 +207,20 @@ accumulator(
     baca.stem_up(),
 )
 
-accumulator(
+figures(
     "v2",
     design[4:5],
     *dornen.thirty_seconds(),
     baca.slur(),
 )
 
-accumulator(
+figures(
     "v1",
     design[5:6],
     *dornen.forty_eighths(),
 )
 
-accumulator(
+figures(
     "v1",
     [["C4"]],
     *dornen.thirty_seconds(),
@@ -229,27 +229,27 @@ accumulator(
 
 ### 5 ###
 
-accumulator(
+figures(
     "v1",
     design[:1],
     *dornen.forty_eighths(),
     baca.extend_beam(),
 )
 
-accumulator(
+figures(
     "v4",
     design[1:2],
     *dornen.twentieths(),
     baca.extend_beam(),
 )
 
-accumulator(
+figures(
     "v3",
     design[2:3],
     *dornen.sixteenths(),
 )
 
-accumulator(
+figures(
     "v4",
     design[3:4],
     *dornen.twentieths(),
@@ -257,20 +257,20 @@ accumulator(
     baca.stem_up(),
 )
 
-accumulator(
+figures(
     "v2",
     design[4:5],
     *dornen.thirty_seconds(),
     baca.slur(),
 )
 
-accumulator(
+figures(
     "v1",
     design[5:6],
     *dornen.forty_eighths(),
 )
 
-accumulator(
+figures(
     "v1",
     [["C4"]],
     *dornen.thirty_seconds(),
@@ -279,26 +279,26 @@ accumulator(
 
 ### 6 ###
 
-accumulator(
+figures(
     "v1",
     design[:1],
     *dornen.forty_eighths(),
 )
 
-accumulator(
+figures(
     "v4",
     design[1:2],
     *dornen.twentieths(),
     baca.extend_beam(),
 )
 
-accumulator(
+figures(
     "v3",
     design[2:3],
     *dornen.sixteenths(),
 )
 
-accumulator(
+figures(
     "v4",
     design[3:4],
     *dornen.twentieths(),
@@ -306,7 +306,7 @@ accumulator(
     baca.stem_up(),
 )
 
-accumulator(
+figures(
     "v2",
     design[4:5],
     *dornen.thirty_seconds(),
@@ -315,13 +315,13 @@ accumulator(
 
 ### rascado ###
 
-accumulator(
+figures(
     "v1",
     [5 * ["C4"]],
     *dornen.rests(),
 )
 
-accumulator(
+figures(
     "v1",
     [13 * ["E2"]],
     *dornen.thirds(),
@@ -347,10 +347,10 @@ maker = baca.CommandAccumulator(
     metronome_marks=dornen.metronome_marks,
     score_template=dornen.ScoreTemplate(),
     skips_instead_of_rests=True,
-    time_signatures=accumulator.time_signatures,
+    time_signatures=figures.time_signatures,
 )
 
-accumulator.populate_segment_maker(maker)
+figures.populate_segment_maker(maker)
 
 maker(
     ("v1", (1, 41)),

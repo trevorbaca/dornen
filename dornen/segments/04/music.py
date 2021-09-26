@@ -6,28 +6,28 @@ from dornen import library as dornen
 ##################################### [D] #####################################
 ###############################################################################
 
-accumulator = baca.Accumulator(
+figures = baca.FigureAccumulator(
     dornen.ScoreTemplate()(),
     voice_abbreviations=dornen.ScoreTemplate().voice_abbreviations,
 )
 design = dornen.design_3(stop=10)
 assert len(design) == 10
 
-accumulator(
+figures(
     "v1",
     design[:2],
     *dornen.waves(denominator=32),
     figure_name="W1",
 )
 
-accumulator(
+figures(
     "v1",
     design[:2],
     *dornen.waves(denominator=64),
     figure_name="W2",
 )
 
-accumulator(
+figures(
     "v1",
     [baca.Sequence(design[:2]).flatten()],
     *dornen.waves(denominator=64),
@@ -35,7 +35,7 @@ accumulator(
 )
 
 
-accumulator(
+figures(
     "v2",
     design[2:3],
     *dornen.glissando_scatto(),
@@ -50,7 +50,7 @@ accumulator(
     figure_name="G1",
 )
 
-accumulator(
+figures(
     "v1",
     design[3:6],
     *dornen.waves(denominator=32, inverted=True),
@@ -58,7 +58,7 @@ accumulator(
     figure_name="W4",
 )
 
-accumulator(
+figures(
     "v3",
     design[6:9],
     *dornen.running(),
@@ -67,7 +67,7 @@ accumulator(
     figure_name="R1",
 )
 
-accumulator(
+figures(
     "v3",
     design[7:10],
     *dornen.running(),
@@ -76,14 +76,14 @@ accumulator(
     figure_name="R2",
 )
 
-accumulator(
+figures(
     "v4",
     [3 * ["C4"]],
     *dornen.rests(),
     figure_name="S1",
 )
 
-accumulator(
+figures(
     "v4",
     2 * [["Gb2"]],
     *dornen.monads(),
@@ -101,7 +101,7 @@ accumulator(
     figure_name="T1",
 )
 
-accumulator(
+figures(
     "v3",
     design[8:] + design[:1],
     *dornen.running(),
@@ -109,7 +109,7 @@ accumulator(
     figure_name="R3",
 )
 
-accumulator(
+figures(
     "v1",
     design[1:3],
     *dornen.waves(denominator=32),
@@ -117,7 +117,7 @@ accumulator(
     figure_name="W5",
 )
 
-accumulator(
+figures(
     "v2",
     design[3:4],
     *dornen.glissando_scatto(),
@@ -127,7 +127,7 @@ accumulator(
     figure_name="G2",
 )
 
-accumulator(
+figures(
     "v1",
     design[1:4],
     *dornen.waves(denominator=32),
@@ -135,7 +135,7 @@ accumulator(
     figure_name="W6",
 )
 
-accumulator(
+figures(
     "v2",
     design[4:5],
     *dornen.glissando_scatto(),
@@ -144,7 +144,7 @@ accumulator(
     figure_name="G3",
 )
 
-accumulator(
+figures(
     "v3",
     design[5:8],
     *dornen.running(),
@@ -153,7 +153,7 @@ accumulator(
     figure_name="R4",
 )
 
-accumulator(
+figures(
     "v3",
     design[6:9],
     *dornen.running(),
@@ -162,14 +162,14 @@ accumulator(
     figure_name="R5",
 )
 
-accumulator(
+figures(
     "v4",
     [3 * ["C4"]],
     *dornen.rests(),
     figure_name="S2",
 )
 
-accumulator(
+figures(
     "v4",
     2 * [["Gb2"]],
     *dornen.monads(),
@@ -187,7 +187,7 @@ accumulator(
     figure_name="T2",
 )
 
-accumulator(
+figures(
     "v3",
     design[7:10],
     *dornen.running(),
@@ -201,10 +201,10 @@ maker = baca.CommandAccumulator(
     metronome_marks=dornen.metronome_marks,
     score_template=dornen.ScoreTemplate(),
     skips_instead_of_rests=True,
-    time_signatures=accumulator.time_signatures,
+    time_signatures=figures.time_signatures,
 )
 
-accumulator.populate_segment_maker(maker)
+figures.populate_segment_maker(maker)
 
 maker(
     ("v1", (1, 3)),

@@ -341,7 +341,7 @@ accumulator(
     baca.stem_tremolo(baca.selectors.pleaves()),
 )
 
-maker = baca.SegmentMaker(
+maker = baca.CommandAccumulator(
     **baca.segments(),
     instruments=dornen.instruments,
     metronome_marks=dornen.metronome_marks,

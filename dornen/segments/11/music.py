@@ -206,7 +206,7 @@ figures(
     figure_name="4_15",
 )
 
-maker = baca.CommandAccumulator(
+commands = baca.CommandAccumulator(
     **baca.segments(),
     instruments=dornen.instruments,
     metronome_marks=dornen.metronome_marks,
@@ -215,9 +215,9 @@ maker = baca.CommandAccumulator(
     time_signatures=figures.time_signatures,
 )
 
-figures.populate_segment_maker(maker)
+figures.populate_segment_maker(commands)
 
-maker(
+commands(
     "v1",
     baca.register(-20),
     baca.new(
@@ -229,27 +229,27 @@ maker(
     baca.stem_tremolo(baca.selectors.pleaves()),
 )
 
-maker(
+commands(
     ("v1", (2, 3)),
     baca.hairpin("pp < p"),
 )
 
-maker(
+commands(
     ("v1", (4, 5)),
     baca.hairpin("p > pp"),
 )
 
-maker(
+commands(
     ("v1", (7, 8)),
     baca.hairpin("pp < mp"),
 )
 
-maker(
+commands(
     ("v1", (9, 10)),
     baca.hairpin("mp > pp"),
 )
 
-maker(
+commands(
     ("v1", 12),
     baca.new(
         baca.hairpin("pp < p"),
@@ -258,7 +258,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v1", 14),
     baca.new(
         baca.hairpin("p > pp"),
@@ -267,7 +267,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v1", 16),
     baca.new(
         baca.hairpin("pp < mp"),
@@ -276,7 +276,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v1", 18),
     baca.new(
         baca.hairpin("mp > pp"),
@@ -285,7 +285,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v1", 20),
     baca.new(
         baca.text_spanner("trans. => kn. rasg."),
@@ -293,7 +293,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v1", (22, 24)),
     baca.new(
         baca.hairpin("mf > p"),
@@ -302,7 +302,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     "v1",
     baca.new(
         baca.text_script_staff_padding(5),
@@ -317,7 +317,7 @@ maker(
 
 if __name__ == "__main__":
     baca.build.make_segment_pdf(
-        maker,
+        commands,
         **baca.segments(runtime=True),
         error_on_not_yet_pitched=True,
         transpose_score=True,

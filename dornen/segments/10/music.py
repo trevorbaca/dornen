@@ -189,7 +189,7 @@ figures(
     figure_name="4_11",
 )
 
-maker = baca.CommandAccumulator(
+commands = baca.CommandAccumulator(
     **baca.segments(),
     instruments=dornen.instruments,
     metronome_marks=dornen.metronome_marks,
@@ -198,9 +198,9 @@ maker = baca.CommandAccumulator(
     time_signatures=figures.time_signatures,
 )
 
-figures.populate_segment_maker(maker)
+figures.populate_segment_maker(commands)
 
-maker(
+commands(
     "v1",
     baca.register(-20),
     baca.new(
@@ -212,7 +212,7 @@ maker(
     baca.stem_tremolo(baca.selectors.pleaves()),
 )
 
-maker(
+commands(
     ("v1", 2),
     baca.hairpin(
         "ppp < pp",
@@ -220,7 +220,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v1", 4),
     baca.hairpin(
         "pp > ppp",
@@ -228,7 +228,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v1", 7),
     baca.hairpin(
         "ppp < p",
@@ -236,7 +236,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v1", 9),
     baca.hairpin(
         "p > ppp",
@@ -244,7 +244,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v1", 12),
     baca.hairpin(
         "ppp < pp",
@@ -252,7 +252,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v1", 14),
     baca.hairpin(
         "pp < p",
@@ -260,7 +260,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v1", 16),
     baca.hairpin(
         "p < mp",
@@ -268,7 +268,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v1", (18, 21)),
     baca.hairpin(
         "mp > pp",
@@ -276,14 +276,14 @@ maker(
     ),
 )
 
-maker(
+commands(
     "v1",
     baca.text_script_staff_padding(5),
 )
 
 if __name__ == "__main__":
     baca.build.make_segment_pdf(
-        maker,
+        commands,
         **baca.segments(runtime=True),
         error_on_not_yet_pitched=True,
         transpose_score=True,

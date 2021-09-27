@@ -220,7 +220,7 @@ figures(
     figure_name="32_4",
 )
 
-maker = baca.CommandAccumulator(
+commands = baca.CommandAccumulator(
     **baca.segments(),
     instruments=dornen.instruments,
     metronome_marks=dornen.metronome_marks,
@@ -229,14 +229,14 @@ maker = baca.CommandAccumulator(
     time_signatures=figures.time_signatures,
 )
 
-figures.populate_segment_maker(maker)
+figures.populate_segment_maker(commands)
 
-maker(
+commands(
     ("v1", (1, 22)),
     baca.beam_positions(8),
 )
 
-maker(
+commands(
     ("v2", (1, 10)),
     baca.beam_positions(
         -7,
@@ -245,13 +245,13 @@ maker(
     lower_register,
 )
 
-maker(
+commands(
     ("v2", (11, 22)),
     baca.beam_positions(-7),
     lower_register,
 )
 
-maker(
+commands(
     ("v3", (1, 22)),
     baca.beam_positions(4),
     baca.staccato(baca.selectors.pheads(exclude=baca.const.HIDDEN)),
@@ -259,7 +259,7 @@ maker(
 
 if __name__ == "__main__":
     baca.build.make_segment_pdf(
-        maker,
+        commands,
         **baca.segments(runtime=True),
         do_not_check_beamed_long_notes=True,
         error_on_not_yet_pitched=True,

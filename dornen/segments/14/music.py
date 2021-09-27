@@ -341,7 +341,7 @@ figures(
     baca.stem_tremolo(baca.selectors.pleaves()),
 )
 
-maker = baca.CommandAccumulator(
+commands = baca.CommandAccumulator(
     **baca.segments(),
     instruments=dornen.instruments,
     metronome_marks=dornen.metronome_marks,
@@ -350,16 +350,16 @@ maker = baca.CommandAccumulator(
     time_signatures=figures.time_signatures,
 )
 
-figures.populate_segment_maker(maker)
+figures.populate_segment_maker(commands)
 
-maker(
+commands(
     ("v1", (1, 41)),
     baca.beam_positions(10),
     baca.register(-12),
     baca.tenuto(baca.selectors.pheads()),
 )
 
-maker(
+commands(
     ("v2", (1, 41)),
     baca.beam_positions(
         -5.5,
@@ -371,7 +371,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v3", (1, 41)),
     baca.accent(baca.selectors.pheads(exclude=baca.const.HIDDEN)),
     baca.register(
@@ -381,14 +381,14 @@ maker(
     baca.script_down(),
 )
 
-maker(
+commands(
     ("v4", (1, 41)),
     baca.beam_positions(5.5),
     baca.register(-4),
     baca.staccato(baca.selectors.pheads(exclude=baca.const.HIDDEN)),
 )
 
-maker(
+commands(
     ("v4", -1),
     baca.chunk(
         baca.mark(r"\dornen-colophon-markup"),
@@ -399,14 +399,14 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("Global_Skips", -1),
     baca.bar_line("|.", baca.selectors.skip(-1)),
 )
 
 if __name__ == "__main__":
     baca.build.make_segment_pdf(
-        maker,
+        commands,
         **baca.segments(runtime=True),
         do_not_check_beamed_long_notes=True,
         error_on_not_yet_pitched=True,

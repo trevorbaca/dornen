@@ -343,7 +343,7 @@ figures(
     figure_name="4_36",
 )
 
-maker = baca.CommandAccumulator(
+commands = baca.CommandAccumulator(
     **baca.segments(),
     instruments=dornen.instruments,
     metronome_marks=dornen.metronome_marks,
@@ -352,9 +352,9 @@ maker = baca.CommandAccumulator(
     time_signatures=figures.time_signatures,
 )
 
-figures.populate_segment_maker(maker)
+figures.populate_segment_maker(commands)
 
-maker(
+commands(
     "v1",
     baca.register(-20),
     baca.new(
@@ -366,7 +366,7 @@ maker(
     baca.stem_tremolo(baca.selectors.pleaves()),
 )
 
-maker(
+commands(
     ("v1", 2),
     baca.new(
         baca.hairpin("mp < mf"),
@@ -375,7 +375,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v1", 4),
     baca.new(
         baca.hairpin("mf > mp"),
@@ -384,7 +384,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v1", 7),
     baca.new(
         baca.hairpin("mp < f"),
@@ -393,7 +393,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v1", 9),
     baca.new(
         baca.hairpin("f > mp"),
@@ -402,7 +402,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v1", 12),
     baca.new(
         baca.hairpin("mp < ff"),
@@ -411,7 +411,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v1", 14),
     baca.new(
         baca.hairpin("ff > mf"),
@@ -419,7 +419,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v1", 16),
     baca.new(
         baca.hairpin("mf < f"),
@@ -428,7 +428,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v1", 18),
     baca.new(
         baca.hairpin("f > mf"),
@@ -437,7 +437,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v1", 20),
     baca.new(
         baca.hairpin("mf < ff"),
@@ -446,7 +446,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v1", 22),
     baca.new(
         baca.hairpin("ff > mf"),
@@ -455,7 +455,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v1", (24, 25)),
     baca.new(
         baca.hairpin("mf < ffff"),
@@ -464,97 +464,97 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v1", 27),
     baca.hairpin("ffff >", bookend=False),
 )
 
-maker(
+commands(
     ("v1", 28),
     baca.hairpin("ff <", bookend=False),
 )
 
-maker(
+commands(
     ("v1", 29),
     baca.hairpin("fff >", bookend=False),
 )
 
-maker(
+commands(
     ("v1", 30),
     baca.hairpin("f <", bookend=False),
 )
 
-maker(
+commands(
     ("v1", 31),
     baca.hairpin("ff >", bookend=False),
 )
 
-maker(
+commands(
     ("v1", 32),
     baca.hairpin("mf <", bookend=False),
 )
 
-maker(
+commands(
     ("v1", 33),
     baca.hairpin("f >", bookend=False),
 )
 
-maker(
+commands(
     ("v1", 34),
     baca.hairpin("mp <", bookend=False),
 )
 
-maker(
+commands(
     ("v1", 35),
     baca.hairpin("mf >", bookend=False),
 )
 
-maker(
+commands(
     ("v1", 36),
     baca.hairpin("p <", bookend=False),
 )
 
-maker(
+commands(
     ("v1", 37),
     baca.hairpin("mp >", bookend=False),
 )
 
-maker(
+commands(
     ("v1", 38),
     baca.hairpin("pp <", bookend=False),
 )
 
-maker(
+commands(
     ("v1", 39),
     baca.hairpin("p >", bookend=False),
 )
 
-maker(
+commands(
     ("v1", 40),
     baca.hairpin("ppp <", bookend=False),
 )
 
-maker(
+commands(
     ("v1", 41),
     baca.hairpin("pp >", bookend=False),
 )
 
-maker(
+commands(
     ("v1", 42),
     baca.hairpin("pppp <", bookend=False),
 )
 
-maker(
+commands(
     ("v1", 43),
     baca.hairpin("ppp >", bookend=False),
 )
 
-maker(
+commands(
     ("v1", 44),
     baca.hairpin("ppppp <", bookend=False),
 )
 
-maker(
+commands(
     ("v1", 45),
     baca.hairpin(
         "pppp >o niente",
@@ -562,7 +562,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v1", (27, 36)),
     baca.text_spanner(
         "trans. => ponticello",
@@ -570,7 +570,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v1", (41, 45)),
     baca.text_spanner(
         "gradually slow rasgueado => still",
@@ -582,7 +582,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     "v1",
     baca.text_spanner_staff_padding(5),
     baca.text_script_staff_padding(8),
@@ -590,7 +590,7 @@ maker(
 
 if __name__ == "__main__":
     baca.build.make_segment_pdf(
-        maker,
+        commands,
         **baca.segments(runtime=True),
         error_on_not_yet_pitched=True,
         transpose_score=True,

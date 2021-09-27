@@ -116,7 +116,7 @@ figures(
     figure_name="L3",
 )
 
-maker = baca.CommandAccumulator(
+commands = baca.CommandAccumulator(
     **baca.segments(),
     instruments=dornen.instruments,
     metronome_marks=dornen.metronome_marks,
@@ -125,22 +125,22 @@ maker = baca.CommandAccumulator(
     time_signatures=figures.time_signatures,
 )
 
-figures.populate_segment_maker(maker)
+figures.populate_segment_maker(commands)
 
-maker(
+commands(
     "Global_Skips",
     baca.metronome_mark("66", baca.selectors.leaf(1 - 1)),
 )
 
 # glissando scatto
-maker(
+commands(
     ("v1", (1, 12)),
     baca.register(-8),
     baca.displacement([0, 1]),
 )
 
 # ovoid
-maker(
+commands(
     ("v2", (1, 12)),
     baca.register(
         -20,
@@ -150,12 +150,12 @@ maker(
 )
 
 # delicatissimo
-maker(
+commands(
     ("v3", (1, 12)),
 )
 
 # graced tuplet
-maker(
+commands(
     ("v4", (1, 12)),
     baca.beam_positions(8),
     baca.register(
@@ -167,7 +167,7 @@ maker(
 
 if __name__ == "__main__":
     baca.build.make_segment_pdf(
-        maker,
+        commands,
         **baca.segments(runtime=True),
         do_not_check_beamed_long_notes=True,
         error_on_not_yet_pitched=True,

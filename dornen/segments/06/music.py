@@ -123,7 +123,7 @@ figures(
     figure_name="D5",
 )
 
-maker = baca.CommandAccumulator(
+commands = baca.CommandAccumulator(
     **baca.segments(),
     instruments=dornen.instruments,
     metronome_marks=dornen.metronome_marks,
@@ -132,14 +132,14 @@ maker = baca.CommandAccumulator(
     time_signatures=figures.time_signatures,
 )
 
-figures.populate_segment_maker(maker)
+figures.populate_segment_maker(commands)
 
-maker(
+commands(
     "Global_Skips",
     baca.metronome_mark("44", baca.selectors.leaf(9 - 1)),
 )
 
-maker(
+commands(
     ("v3", (1, 7)),
     baca.accent(
         baca.selectors.pheads(exclude=baca.const.HIDDEN),
@@ -151,7 +151,7 @@ maker(
     ),
 )
 
-maker(
+commands(
     ("v4", (1, 7)),
     baca.staccato(baca.selectors.pheads()),
     baca.beam_positions(5.5),
@@ -160,7 +160,7 @@ maker(
 
 if __name__ == "__main__":
     baca.build.make_segment_pdf(
-        maker,
+        commands,
         **baca.segments(runtime=True),
         do_not_check_beamed_long_notes=True,
         error_on_not_yet_pitched=True,

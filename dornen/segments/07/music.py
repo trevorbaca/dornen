@@ -257,11 +257,13 @@ commands(
     baca.staccato(baca.selectors.pheads(exclude=baca.const.HIDDEN)),
 )
 
+defaults = baca.segment_interpretation_defaults()
+del defaults["check_wellformedness"]
+
 if __name__ == "__main__":
     baca.build.make_segment_pdf(
         commands,
-        **baca.segment_interpretation_defaults(),
-        do_not_check_beamed_long_notes=True,
+        **defaults,
         error_on_not_yet_pitched=True,
         transpose_score=True,
     )

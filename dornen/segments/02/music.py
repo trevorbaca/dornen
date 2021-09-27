@@ -157,7 +157,7 @@ commands = baca.CommandAccumulator(
     time_signatures=figures.time_signatures,
 )
 
-figures.populate_segment_maker(commands)
+figures.populate_commands(commands)
 
 defaults = baca.segment_interpretation_defaults()
 del defaults["check_wellformedness"]

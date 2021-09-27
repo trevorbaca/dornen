@@ -207,7 +207,7 @@ figures(
 )
 
 commands = baca.CommandAccumulator(
-    **baca.segments(),
+    **baca.segment_accumulation_defaults(),
     instruments=dornen.instruments,
     metronome_marks=dornen.metronome_marks,
     score_template=dornen.ScoreTemplate(),
@@ -318,7 +318,7 @@ commands(
 if __name__ == "__main__":
     baca.build.make_segment_pdf(
         commands,
-        **baca.segments(runtime=True),
+        **baca.segment_interpretation_defaults(),
         error_on_not_yet_pitched=True,
         transpose_score=True,
     )

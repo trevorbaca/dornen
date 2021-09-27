@@ -352,7 +352,7 @@ commands = baca.CommandAccumulator(
     time_signatures=figures.time_signatures,
 )
 
-figures.populate_segment_maker(commands)
+figures.populate_commands(commands)
 
 commands(
     "v1",

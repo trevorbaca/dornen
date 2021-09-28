@@ -7,8 +7,8 @@ from dornen import library as dornen
 ###############################################################################
 
 figures = baca.FigureAccumulator(
-    dornen.ScoreTemplate()(),
-    voice_abbreviations=dornen.ScoreTemplate().voice_abbreviations,
+    dornen.make_empty_score(),
+    voice_abbreviations=dornen.voice_abbreviations,
 )
 design = dornen.design_3(start=10, stop=30)
 assert len(design) == 20
@@ -127,9 +127,10 @@ commands = baca.CommandAccumulator(
     **baca.segment_accumulation_defaults(),
     instruments=dornen.instruments,
     metronome_marks=dornen.metronome_marks,
-    score_template=dornen.ScoreTemplate(),
+    score_template=dornen.make_empty_score,
     skips_instead_of_rests=True,
     time_signatures=figures.time_signatures,
+    voice_abbreviations=dornen.voice_abbreviations,
 )
 
 figures.populate_commands(commands)
@@ -165,6 +166,9 @@ if __name__ == "__main__":
     baca.build.make_segment_pdf(
         commands,
         **defaults,
+        always_make_global_rests=True,
+        do_not_require_margin_markup=True,
         error_on_not_yet_pitched=True,
+        global_rests_in_topmost_staff=True,
         transpose_score=True,
     )

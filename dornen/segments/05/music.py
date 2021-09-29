@@ -2,12 +2,14 @@ import baca
 
 from dornen import library as dornen
 
-###############################################################################
-##################################### [E] #####################################
-###############################################################################
+#########################################################################################
+########################################### 05 ##########################################
+#########################################################################################
+
+score = dornen.make_empty_score()
 
 figures = baca.FigureAccumulator(
-    dornen.make_empty_score(),
+    score,
     voice_abbreviations=dornen.voice_abbreviations,
 )
 design = dornen.design_2(start=14, stop=28)
@@ -262,14 +264,16 @@ figures(
     figure_name="20_6*",
 )
 
+voice_names = baca.accumulator.get_voice_names(score)
+
 commands = baca.CommandAccumulator(
     **baca.segment_accumulation_defaults(),
     instruments=dornen.instruments,
     metronome_marks=dornen.metronome_marks,
-    score_template=dornen.make_empty_score,
     skips_instead_of_rests=True,
     time_signatures=figures.time_signatures,
     voice_abbreviations=dornen.voice_abbreviations,
+    voice_names=voice_names,
 )
 
 figures.populate_commands(commands)
@@ -337,5 +341,6 @@ if __name__ == "__main__":
         do_not_require_margin_markup=True,
         error_on_not_yet_pitched=True,
         global_rests_in_topmost_staff=True,
+        score=score,
         transpose_score=True,
     )

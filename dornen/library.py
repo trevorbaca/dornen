@@ -1857,7 +1857,7 @@ voice_abbreviations = {
 def make_empty_score():
     site = "dornen.ScoreTemplate.__call__()"
     tag = abjad.Tag(site)
-    global_context = baca.templates.make_global_context()
+    global_context = baca.score.make_global_context()
     guitar_music_voice_1 = abjad.Voice(
         lilypond_type="GuitarMusicVoiceI",
         name="Guitar_Music_Voice_I",
@@ -1903,7 +1903,7 @@ def make_empty_score():
         tag=tag,
     )
     score = abjad.Score([global_context, music_context], name="Score", tag=tag)
-    baca.templates.assert_lilypond_identifiers(score)
-    baca.templates.assert_unique_context_names(score)
-    baca.templates.assert_matching_custom_context_names(score)
+    baca.score.assert_lilypond_identifiers(score)
+    baca.score.assert_unique_context_names(score)
+    baca.score.assert_matching_custom_context_names(score)
     return score

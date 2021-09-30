@@ -2148,10 +2148,14 @@ segment.13.Global.Rests = {
 %! baca.path.extern()
 segment.13.Guitar.Music.Voice.I = {
 
+    %! baca.music()
     {
 
+        %! baca.music()
         \tweak edge-height #'(0.7 . 0)
+        %! baca.music()
         \times 4/5
+        %! baca.music()
         {
 
             %! baca._comment_measure_numbers()
@@ -2177,6 +2181,7 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._set_status_tag()
             %! REAPPLIED_CLEF
             \set GuitarMusicStaff.forceClef = ##t
+            %! baca.music()
             e2
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
@@ -2239,18 +2244,25 @@ segment.13.Guitar.Music.Voice.I = {
             %! REAPPLIED_CLEF_REDRAW_COLOR
             \override GuitarMusicStaff.Clef.color = #(x11-color 'OliveDrab)
 
+        %! baca.music()
         }
 
+    %! baca.music()
     }
 
+    %! baca.music()
     {
 
+        %! baca.music()
         \tweak edge-height #'(0.7 . 0)
+        %! baca.music()
         \times 4/5
+        %! baca.music()
         {
 
             %! baca._comment_measure_numbers()
             % [Guitar_Music_Voice_I measure 2]
+            %! baca.music()
             e2
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
@@ -2317,18 +2329,25 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._attach_shadow_tie_indicators()
             ~
 
+        %! baca.music()
         }
 
+    %! baca.music()
     }
 
+    %! baca.music()
     {
 
+        %! baca.music()
         \tweak edge-height #'(0.7 . 0)
+        %! baca.music()
         \times 2/3
+        %! baca.music()
         {
 
             %! baca._comment_measure_numbers()
             % [Guitar_Music_Voice_I measure 3]
+            %! baca.music()
             e2
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
@@ -2361,18 +2380,25 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._attach_shadow_tie_indicators()
             ~
 
+        %! baca.music()
         }
 
+    %! baca.music()
     }
 
+    %! baca.music()
     {
 
+        %! baca.music()
         \tweak edge-height #'(0.7 . 0)
+        %! baca.music()
         \times 2/3
+        %! baca.music()
         {
 
             %! baca._comment_measure_numbers()
             % [Guitar_Music_Voice_I measure 4]
+            %! baca.music()
             e2
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
@@ -2439,18 +2465,25 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._attach_shadow_tie_indicators()
             ~
 
+        %! baca.music()
         }
 
+    %! baca.music()
     }
 
+    %! baca.music()
     {
 
+        %! baca.music()
         \tweak edge-height #'(0.7 . 0)
+        %! baca.music()
         \times 2/3
+        %! baca.music()
         {
 
             %! baca._comment_measure_numbers()
             % [Guitar_Music_Voice_I measure 5]
+            %! baca.music()
             e2
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
@@ -2483,18 +2516,25 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._attach_shadow_tie_indicators()
             ~
 
+        %! baca.music()
         }
 
+    %! baca.music()
     }
 
+    %! baca.music()
     {
 
+        %! baca.music()
         \tweak edge-height #'(0.7 . 0)
+        %! baca.music()
         \times 4/5
+        %! baca.music()
         {
 
             %! baca._comment_measure_numbers()
             % [Guitar_Music_Voice_I measure 6]
+            %! baca.music()
             e2
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
@@ -2512,18 +2552,25 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._attach_shadow_tie_indicators()
             ~
 
+        %! baca.music()
         }
 
+    %! baca.music()
     }
 
+    %! baca.music()
     {
 
+        %! baca.music()
         \tweak edge-height #'(0.7 . 0)
+        %! baca.music()
         \times 4/5
+        %! baca.music()
         {
 
             %! baca._comment_measure_numbers()
             % [Guitar_Music_Voice_I measure 7]
+            %! baca.music()
             e2
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
@@ -2590,18 +2637,25 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._attach_shadow_tie_indicators()
             ~
 
+        %! baca.music()
         }
 
+    %! baca.music()
     }
 
+    %! baca.music()
     {
 
+        %! baca.music()
         \tweak edge-height #'(0.7 . 0)
+        %! baca.music()
         \times 2/3
+        %! baca.music()
         {
 
             %! baca._comment_measure_numbers()
             % [Guitar_Music_Voice_I measure 8]
+            %! baca.music()
             e2
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
@@ -2634,18 +2688,25 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._attach_shadow_tie_indicators()
             ~
 
+        %! baca.music()
         }
 
+    %! baca.music()
     }
 
+    %! baca.music()
     {
 
+        %! baca.music()
         \tweak edge-height #'(0.7 . 0)
+        %! baca.music()
         \times 2/3
+        %! baca.music()
         {
 
             %! baca._comment_measure_numbers()
             % [Guitar_Music_Voice_I measure 9]
+            %! baca.music()
             e2
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
@@ -2712,18 +2773,25 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._attach_shadow_tie_indicators()
             ~
 
+        %! baca.music()
         }
 
+    %! baca.music()
     }
 
+    %! baca.music()
     {
 
+        %! baca.music()
         \tweak edge-height #'(0.7 . 0)
+        %! baca.music()
         \times 2/3
+        %! baca.music()
         {
 
             %! baca._comment_measure_numbers()
             % [Guitar_Music_Voice_I measure 10]
+            %! baca.music()
             e2
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
@@ -2756,18 +2824,25 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._attach_shadow_tie_indicators()
             ~
 
+        %! baca.music()
         }
 
+    %! baca.music()
     }
 
+    %! baca.music()
     {
 
+        %! baca.music()
         \tweak edge-height #'(0.7 . 0)
+        %! baca.music()
         \times 4/5
+        %! baca.music()
         {
 
             %! baca._comment_measure_numbers()
             % [Guitar_Music_Voice_I measure 11]
+            %! baca.music()
             e2
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
@@ -2785,18 +2860,25 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._attach_shadow_tie_indicators()
             ~
 
+        %! baca.music()
         }
 
+    %! baca.music()
     }
 
+    %! baca.music()
     {
 
+        %! baca.music()
         \tweak edge-height #'(0.7 . 0)
+        %! baca.music()
         \times 4/5
+        %! baca.music()
         {
 
             %! baca._comment_measure_numbers()
             % [Guitar_Music_Voice_I measure 12]
+            %! baca.music()
             e2
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
@@ -2863,18 +2945,25 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._attach_shadow_tie_indicators()
             ~
 
+        %! baca.music()
         }
 
+    %! baca.music()
     }
 
+    %! baca.music()
     {
 
+        %! baca.music()
         \tweak edge-height #'(0.7 . 0)
+        %! baca.music()
         \times 2/3
+        %! baca.music()
         {
 
             %! baca._comment_measure_numbers()
             % [Guitar_Music_Voice_I measure 13]
+            %! baca.music()
             e2
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
@@ -2907,18 +2996,25 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._attach_shadow_tie_indicators()
             ~
 
+        %! baca.music()
         }
 
+    %! baca.music()
     }
 
+    %! baca.music()
     {
 
+        %! baca.music()
         \tweak edge-height #'(0.7 . 0)
+        %! baca.music()
         \times 2/3
+        %! baca.music()
         {
 
             %! baca._comment_measure_numbers()
             % [Guitar_Music_Voice_I measure 14]
+            %! baca.music()
             e2
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
@@ -2961,18 +3057,25 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._attach_shadow_tie_indicators()
             ~
 
+        %! baca.music()
         }
 
+    %! baca.music()
     }
 
+    %! baca.music()
     {
 
+        %! baca.music()
         \tweak edge-height #'(0.7 . 0)
+        %! baca.music()
         \times 2/3
+        %! baca.music()
         {
 
             %! baca._comment_measure_numbers()
             % [Guitar_Music_Voice_I measure 15]
+            %! baca.music()
             e2
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
@@ -3001,18 +3104,25 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._attach_shadow_tie_indicators()
             ~
 
+        %! baca.music()
         }
 
+    %! baca.music()
     }
 
+    %! baca.music()
     {
 
+        %! baca.music()
         \tweak edge-height #'(0.7 . 0)
+        %! baca.music()
         \times 4/5
+        %! baca.music()
         {
 
             %! baca._comment_measure_numbers()
             % [Guitar_Music_Voice_I measure 16]
+            %! baca.music()
             e2
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
@@ -3079,18 +3189,25 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._attach_shadow_tie_indicators()
             ~
 
+        %! baca.music()
         }
 
+    %! baca.music()
     }
 
+    %! baca.music()
     {
 
+        %! baca.music()
         \tweak edge-height #'(0.7 . 0)
+        %! baca.music()
         \times 2/3
+        %! baca.music()
         {
 
             %! baca._comment_measure_numbers()
             % [Guitar_Music_Voice_I measure 17]
+            %! baca.music()
             e2
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
@@ -3123,6 +3240,7 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._attach_shadow_tie_indicators()
             ~
 
+            %! baca.music()
             e2
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
@@ -3135,18 +3253,25 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._attach_shadow_tie_indicators()
             ~
 
+        %! baca.music()
         }
 
+    %! baca.music()
     }
 
+    %! baca.music()
     {
 
+        %! baca.music()
         \tweak edge-height #'(0.7 . 0)
+        %! baca.music()
         \times 4/5
+        %! baca.music()
         {
 
             %! baca._comment_measure_numbers()
             % [Guitar_Music_Voice_I measure 18]
+            %! baca.music()
             e2
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
@@ -3213,18 +3338,25 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._attach_shadow_tie_indicators()
             ~
 
+        %! baca.music()
         }
 
+    %! baca.music()
     }
 
+    %! baca.music()
     {
 
+        %! baca.music()
         \tweak edge-height #'(0.7 . 0)
+        %! baca.music()
         \times 4/5
+        %! baca.music()
         {
 
             %! baca._comment_measure_numbers()
             % [Guitar_Music_Voice_I measure 19]
+            %! baca.music()
             e2
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
@@ -3257,18 +3389,25 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._attach_shadow_tie_indicators()
             ~
 
+        %! baca.music()
         }
 
+    %! baca.music()
     }
 
+    %! baca.music()
     {
 
+        %! baca.music()
         \tweak edge-height #'(0.7 . 0)
+        %! baca.music()
         \times 4/5
+        %! baca.music()
         {
 
             %! baca._comment_measure_numbers()
             % [Guitar_Music_Voice_I measure 20]
+            %! baca.music()
             e2
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
@@ -3335,17 +3474,23 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._attach_shadow_tie_indicators()
             ~
 
+        %! baca.music()
         }
 
+    %! baca.music()
     }
 
+    %! baca.music()
     {
 
+        %! baca.music()
         \times 2/3
+        %! baca.music()
         {
 
             %! baca._comment_measure_numbers()
             % [Guitar_Music_Voice_I measure 21]
+            %! baca.music()
             e2
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
@@ -3378,6 +3523,7 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._attach_shadow_tie_indicators()
             ~
 
+            %! baca.music()
             e2
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
@@ -3390,6 +3536,7 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._attach_shadow_tie_indicators()
             ~
 
+            %! baca.music()
             e2
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
@@ -3402,18 +3549,25 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._attach_shadow_tie_indicators()
             ~
 
+        %! baca.music()
         }
 
+    %! baca.music()
     }
 
+    %! baca.music()
     {
 
+        %! baca.music()
         \tweak edge-height #'(0.7 . 0)
+        %! baca.music()
         \times 4/5
+        %! baca.music()
         {
 
             %! baca._comment_measure_numbers()
             % [Guitar_Music_Voice_I measure 22]
+            %! baca.music()
             e2
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
@@ -3480,18 +3634,25 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._attach_shadow_tie_indicators()
             ~
 
+        %! baca.music()
         }
 
+    %! baca.music()
     }
 
+    %! baca.music()
     {
 
+        %! baca.music()
         \tweak edge-height #'(0.7 . 0)
+        %! baca.music()
         \times 4/5
+        %! baca.music()
         {
 
             %! baca._comment_measure_numbers()
             % [Guitar_Music_Voice_I measure 23]
+            %! baca.music()
             e2
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
@@ -3524,18 +3685,25 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._attach_shadow_tie_indicators()
             ~
 
+        %! baca.music()
         }
 
+    %! baca.music()
     }
 
+    %! baca.music()
     {
 
+        %! baca.music()
         \tweak edge-height #'(0.7 . 0)
+        %! baca.music()
         \times 4/5
+        %! baca.music()
         {
 
             %! baca._comment_measure_numbers()
             % [Guitar_Music_Voice_I measure 24]
+            %! baca.music()
             e2
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
@@ -3602,18 +3770,25 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._attach_shadow_tie_indicators()
             ~
 
+        %! baca.music()
         }
 
+    %! baca.music()
     }
 
+    %! baca.music()
     {
 
+        %! baca.music()
         \tweak edge-height #'(0.7 . 0)
+        %! baca.music()
         \times 2/3
+        %! baca.music()
         {
 
             %! baca._comment_measure_numbers()
             % [Guitar_Music_Voice_I measure 25]
+            %! baca.music()
             e2
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
@@ -3628,6 +3803,7 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._attach_shadow_tie_indicators()
             ~
 
+            %! baca.music()
             e2
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
@@ -3640,6 +3816,7 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._attach_shadow_tie_indicators()
             ~
 
+            %! baca.music()
             e2
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
@@ -3652,6 +3829,7 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._attach_shadow_tie_indicators()
             ~
 
+            %! baca.music()
             e2
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
@@ -3664,18 +3842,25 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._attach_shadow_tie_indicators()
             ~
 
+        %! baca.music()
         }
 
+    %! baca.music()
     }
 
+    %! baca.music()
     {
 
+        %! baca.music()
         \tweak edge-height #'(0.7 . 0)
+        %! baca.music()
         \times 2/3
+        %! baca.music()
         {
 
             %! baca._comment_measure_numbers()
             % [Guitar_Music_Voice_I measure 26]
+            %! baca.music()
             e2
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
@@ -3708,6 +3893,7 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._attach_shadow_tie_indicators()
             ~
 
+            %! baca.music()
             e2
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
@@ -3720,6 +3906,7 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._attach_shadow_tie_indicators()
             ~
 
+            %! baca.music()
             e2
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
@@ -3732,6 +3919,7 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._attach_shadow_tie_indicators()
             ~
 
+            %! baca.music()
             e2
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
@@ -3744,6 +3932,7 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._attach_shadow_tie_indicators()
             ~
 
+            %! baca.music()
             e2
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
@@ -3756,18 +3945,25 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._attach_shadow_tie_indicators()
             ~
 
+        %! baca.music()
         }
 
+    %! baca.music()
     }
 
+    %! baca.music()
     {
 
+        %! baca.music()
         \tweak edge-height #'(0.7 . 0)
+        %! baca.music()
         \times 2/3
+        %! baca.music()
         {
 
             %! baca._comment_measure_numbers()
             % [Guitar_Music_Voice_I measure 27]
+            %! baca.music()
             e2
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
@@ -3834,6 +4030,7 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._attach_shadow_tie_indicators()
             ~
 
+            %! baca.music()
             e2
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
@@ -3846,6 +4043,7 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._attach_shadow_tie_indicators()
             ~
 
+            %! baca.music()
             e2
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
@@ -3858,6 +4056,7 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._attach_shadow_tie_indicators()
             ~
 
+            %! baca.music()
             e2
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
@@ -3870,17 +4069,23 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._attach_shadow_tie_indicators()
             ~
 
+        %! baca.music()
         }
 
+    %! baca.music()
     }
 
+    %! baca.music()
     {
 
+        %! baca.music()
         \times 2/3
+        %! baca.music()
         {
 
             %! baca._comment_measure_numbers()
             % [Guitar_Music_Voice_I measure 28]
+            %! baca.music()
             e2
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
@@ -3923,6 +4128,7 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._attach_shadow_tie_indicators()
             ~
 
+            %! baca.music()
             e2
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
@@ -3935,6 +4141,7 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._attach_shadow_tie_indicators()
             ~
 
+            %! baca.music()
             e2
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
@@ -3947,18 +4154,25 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._attach_shadow_tie_indicators()
             ~
 
+        %! baca.music()
         }
 
+    %! baca.music()
     }
 
+    %! baca.music()
     {
 
+        %! baca.music()
         \tweak edge-height #'(0.7 . 0)
+        %! baca.music()
         \times 2/3
+        %! baca.music()
         {
 
             %! baca._comment_measure_numbers()
             % [Guitar_Music_Voice_I measure 29]
+            %! baca.music()
             e2
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
@@ -4001,6 +4215,7 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._attach_shadow_tie_indicators()
             ~
 
+            %! baca.music()
             e2
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
@@ -4013,18 +4228,25 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._attach_shadow_tie_indicators()
             ~
 
+        %! baca.music()
         }
 
+    %! baca.music()
     }
 
+    %! baca.music()
     {
 
+        %! baca.music()
         \tweak edge-height #'(0.7 . 0)
+        %! baca.music()
         \times 2/3
+        %! baca.music()
         {
 
             %! baca._comment_measure_numbers()
             % [Guitar_Music_Voice_I measure 30]
+            %! baca.music()
             e2
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
@@ -4067,18 +4289,25 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._attach_shadow_tie_indicators()
             ~
 
+        %! baca.music()
         }
 
+    %! baca.music()
     }
 
+    %! baca.music()
     {
 
+        %! baca.music()
         \tweak edge-height #'(0.7 . 0)
+        %! baca.music()
         \times 2/3
+        %! baca.music()
         {
 
             %! baca._comment_measure_numbers()
             % [Guitar_Music_Voice_I measure 31]
+            %! baca.music()
             e2
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
@@ -4121,6 +4350,7 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._attach_shadow_tie_indicators()
             ~
 
+            %! baca.music()
             e2
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
@@ -4133,17 +4363,23 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._attach_shadow_tie_indicators()
             ~
 
+        %! baca.music()
         }
 
+    %! baca.music()
     }
 
+    %! baca.music()
     {
 
+        %! baca.music()
         \times 2/3
+        %! baca.music()
         {
 
             %! baca._comment_measure_numbers()
             % [Guitar_Music_Voice_I measure 32]
+            %! baca.music()
             e2
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
@@ -4186,6 +4422,7 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._attach_shadow_tie_indicators()
             ~
 
+            %! baca.music()
             e2
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
@@ -4198,6 +4435,7 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._attach_shadow_tie_indicators()
             ~
 
+            %! baca.music()
             e2
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
@@ -4210,18 +4448,25 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._attach_shadow_tie_indicators()
             ~
 
+        %! baca.music()
         }
 
+    %! baca.music()
     }
 
+    %! baca.music()
     {
 
+        %! baca.music()
         \tweak edge-height #'(0.7 . 0)
+        %! baca.music()
         \times 2/3
+        %! baca.music()
         {
 
             %! baca._comment_measure_numbers()
             % [Guitar_Music_Voice_I measure 33]
+            %! baca.music()
             e2
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
@@ -4264,6 +4509,7 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._attach_shadow_tie_indicators()
             ~
 
+            %! baca.music()
             e2
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
@@ -4276,6 +4522,7 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._attach_shadow_tie_indicators()
             ~
 
+            %! baca.music()
             e2
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
@@ -4288,6 +4535,7 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._attach_shadow_tie_indicators()
             ~
 
+            %! baca.music()
             e2
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
@@ -4300,18 +4548,25 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._attach_shadow_tie_indicators()
             ~
 
+        %! baca.music()
         }
 
+    %! baca.music()
     }
 
+    %! baca.music()
     {
 
+        %! baca.music()
         \tweak edge-height #'(0.7 . 0)
+        %! baca.music()
         \times 2/3
+        %! baca.music()
         {
 
             %! baca._comment_measure_numbers()
             % [Guitar_Music_Voice_I measure 34]
+            %! baca.music()
             e2
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
@@ -4354,6 +4609,7 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._attach_shadow_tie_indicators()
             ~
 
+            %! baca.music()
             e2
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
@@ -4366,6 +4622,7 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._attach_shadow_tie_indicators()
             ~
 
+            %! baca.music()
             e2
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
@@ -4378,6 +4635,7 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._attach_shadow_tie_indicators()
             ~
 
+            %! baca.music()
             e2
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
@@ -4390,6 +4648,7 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._attach_shadow_tie_indicators()
             ~
 
+            %! baca.music()
             e2
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
@@ -4402,18 +4661,25 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._attach_shadow_tie_indicators()
             ~
 
+        %! baca.music()
         }
 
+    %! baca.music()
     }
 
+    %! baca.music()
     {
 
+        %! baca.music()
         \tweak edge-height #'(0.7 . 0)
+        %! baca.music()
         \times 2/3
+        %! baca.music()
         {
 
             %! baca._comment_measure_numbers()
             % [Guitar_Music_Voice_I measure 35]
+            %! baca.music()
             e2
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
@@ -4456,6 +4722,7 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._attach_shadow_tie_indicators()
             ~
 
+            %! baca.music()
             e2
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
@@ -4468,6 +4735,7 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._attach_shadow_tie_indicators()
             ~
 
+            %! baca.music()
             e2
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
@@ -4480,6 +4748,7 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._attach_shadow_tie_indicators()
             ~
 
+            %! baca.music()
             e2
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
@@ -4492,17 +4761,23 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._attach_shadow_tie_indicators()
             ~
 
+        %! baca.music()
         }
 
+    %! baca.music()
     }
 
+    %! baca.music()
     {
 
+        %! baca.music()
         \times 2/3
+        %! baca.music()
         {
 
             %! baca._comment_measure_numbers()
             % [Guitar_Music_Voice_I measure 36]
+            %! baca.music()
             e2
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
@@ -4545,6 +4820,7 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._attach_shadow_tie_indicators()
             ~
 
+            %! baca.music()
             e2
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
@@ -4557,6 +4833,7 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._attach_shadow_tie_indicators()
             ~
 
+            %! baca.music()
             e2
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
@@ -4569,18 +4846,25 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._attach_shadow_tie_indicators()
             ~
 
+        %! baca.music()
         }
 
+    %! baca.music()
     }
 
+    %! baca.music()
     {
 
+        %! baca.music()
         \tweak edge-height #'(0.7 . 0)
+        %! baca.music()
         \times 2/3
+        %! baca.music()
         {
 
             %! baca._comment_measure_numbers()
             % [Guitar_Music_Voice_I measure 37]
+            %! baca.music()
             e2
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
@@ -4627,6 +4911,7 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._attach_shadow_tie_indicators()
             ~
 
+            %! baca.music()
             e2
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
@@ -4639,18 +4924,25 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._attach_shadow_tie_indicators()
             ~
 
+        %! baca.music()
         }
 
+    %! baca.music()
     }
 
+    %! baca.music()
     {
 
+        %! baca.music()
         \tweak edge-height #'(0.7 . 0)
+        %! baca.music()
         \times 2/3
+        %! baca.music()
         {
 
             %! baca._comment_measure_numbers()
             % [Guitar_Music_Voice_I measure 38]
+            %! baca.music()
             e2
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
@@ -4693,18 +4985,25 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._attach_shadow_tie_indicators()
             ~
 
+        %! baca.music()
         }
 
+    %! baca.music()
     }
 
+    %! baca.music()
     {
 
+        %! baca.music()
         \tweak edge-height #'(0.7 . 0)
+        %! baca.music()
         \times 2/3
+        %! baca.music()
         {
 
             %! baca._comment_measure_numbers()
             % [Guitar_Music_Voice_I measure 39]
+            %! baca.music()
             e2
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
@@ -4747,6 +5046,7 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._attach_shadow_tie_indicators()
             ~
 
+            %! baca.music()
             e2
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
@@ -4759,17 +5059,23 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._attach_shadow_tie_indicators()
             ~
 
+        %! baca.music()
         }
 
+    %! baca.music()
     }
 
+    %! baca.music()
     {
 
+        %! baca.music()
         \times 2/3
+        %! baca.music()
         {
 
             %! baca._comment_measure_numbers()
             % [Guitar_Music_Voice_I measure 40]
+            %! baca.music()
             e2
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
@@ -4812,6 +5118,7 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._attach_shadow_tie_indicators()
             ~
 
+            %! baca.music()
             e2
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
@@ -4824,6 +5131,7 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._attach_shadow_tie_indicators()
             ~
 
+            %! baca.music()
             e2
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
@@ -4836,18 +5144,25 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._attach_shadow_tie_indicators()
             ~
 
+        %! baca.music()
         }
 
+    %! baca.music()
     }
 
+    %! baca.music()
     {
 
+        %! baca.music()
         \tweak edge-height #'(0.7 . 0)
+        %! baca.music()
         \times 2/3
+        %! baca.music()
         {
 
             %! baca._comment_measure_numbers()
             % [Guitar_Music_Voice_I measure 41]
+            %! baca.music()
             e2
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
@@ -4914,6 +5229,7 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._attach_shadow_tie_indicators()
             ~
 
+            %! baca.music()
             e2
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
@@ -4926,6 +5242,7 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._attach_shadow_tie_indicators()
             ~
 
+            %! baca.music()
             e2
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
@@ -4938,6 +5255,7 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._attach_shadow_tie_indicators()
             ~
 
+            %! baca.music()
             e2
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
@@ -4950,18 +5268,25 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._attach_shadow_tie_indicators()
             ~
 
+        %! baca.music()
         }
 
+    %! baca.music()
     }
 
+    %! baca.music()
     {
 
+        %! baca.music()
         \tweak edge-height #'(0.7 . 0)
+        %! baca.music()
         \times 2/3
+        %! baca.music()
         {
 
             %! baca._comment_measure_numbers()
             % [Guitar_Music_Voice_I measure 42]
+            %! baca.music()
             e2
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
@@ -5004,6 +5329,7 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._attach_shadow_tie_indicators()
             ~
 
+            %! baca.music()
             e2
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
@@ -5016,6 +5342,7 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._attach_shadow_tie_indicators()
             ~
 
+            %! baca.music()
             e2
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
@@ -5028,6 +5355,7 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._attach_shadow_tie_indicators()
             ~
 
+            %! baca.music()
             e2
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
@@ -5040,6 +5368,7 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._attach_shadow_tie_indicators()
             ~
 
+            %! baca.music()
             e2
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
@@ -5052,17 +5381,23 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._attach_shadow_tie_indicators()
             ~
 
+        %! baca.music()
         }
 
+    %! baca.music()
     }
 
+    %! baca.music()
     {
 
+        %! baca.music()
         \times 2/3
+        %! baca.music()
         {
 
             %! baca._comment_measure_numbers()
             % [Guitar_Music_Voice_I measure 43]
+            %! baca.music()
             e2
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
@@ -5105,6 +5440,7 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._attach_shadow_tie_indicators()
             ~
 
+            %! baca.music()
             e2
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
@@ -5117,6 +5453,7 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._attach_shadow_tie_indicators()
             ~
 
+            %! baca.music()
             e2
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
@@ -5129,18 +5466,25 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._attach_shadow_tie_indicators()
             ~
 
+        %! baca.music()
         }
 
+    %! baca.music()
     }
 
+    %! baca.music()
     {
 
+        %! baca.music()
         \tweak edge-height #'(0.7 . 0)
+        %! baca.music()
         \times 2/3
+        %! baca.music()
         {
 
             %! baca._comment_measure_numbers()
             % [Guitar_Music_Voice_I measure 44]
+            %! baca.music()
             e2
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
@@ -5183,6 +5527,7 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._attach_shadow_tie_indicators()
             ~
 
+            %! baca.music()
             e2
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
@@ -5195,18 +5540,25 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._attach_shadow_tie_indicators()
             ~
 
+        %! baca.music()
         }
 
+    %! baca.music()
     }
 
+    %! baca.music()
     {
 
+        %! baca.music()
         \tweak edge-height #'(0.7 . 0)
+        %! baca.music()
         \times 2/3
+        %! baca.music()
         {
 
             %! baca._comment_measure_numbers()
             % [Guitar_Music_Voice_I measure 45]
+            %! baca.music()
             e2
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
@@ -5257,13 +5609,18 @@ segment.13.Guitar.Music.Voice.I = {
             %! EXPLICIT_DYNAMIC
             \>
 
+        %! baca.music()
         }
 
+    %! baca.music()
     }
 
+    %! baca.music()
     {
 
+        %! baca.music()
         \scaleDurations #'(1 . 1)
+        %! baca.music()
         {
 
             %! baca._comment_measure_numbers()
@@ -5271,6 +5628,7 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca.text_script_staff_padding()
             %! baca.OverrideCommand._call(1)
             \once \override TextScript.staff-padding = 5.5
+            %! baca.music()
             r8
             %! EXPLICIT_DYNAMIC_COLOR
             %! _treat_persistent_wrapper(1)
@@ -5293,12 +5651,16 @@ segment.13.Guitar.Music.Voice.I = {
             %! SPANNER_STOP
             \stopTextSpan
 
+            %! baca.music()
             r8
 
+            %! baca.music()
             r8
 
+            %! baca.music()
             r8
 
+            %! baca.music()
             r8
             %! baca.text_spanner_staff_padding()
             %! baca.OverrideCommand._call(2)
@@ -5312,8 +5674,10 @@ segment.13.Guitar.Music.Voice.I = {
             %! SPANNER_STOP
             <> \bacaStopTextSpanRhythmAnnotation
 
+        %! baca.music()
         }
 
+    %! baca.music()
     }
 
     %! baca._make_multimeasure_rest_container(7)

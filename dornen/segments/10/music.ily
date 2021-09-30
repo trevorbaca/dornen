@@ -2139,7 +2139,7 @@ segment.10.Guitar.Music.Voice.I = {
     %! PHANTOM
     >>
 
-%! dornen.ScoreTemplate.__call__()
+%! dornen.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -2326,7 +2326,7 @@ segment.10.Guitar.Music.Voice.II = {
     %! PHANTOM
     >>
 
-%! dornen.ScoreTemplate.__call__()
+%! dornen.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -2513,7 +2513,7 @@ segment.10.Guitar.Music.Voice.III = {
     %! PHANTOM
     >>
 
-%! dornen.ScoreTemplate.__call__()
+%! dornen.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -2700,7 +2700,7 @@ segment.10.Guitar.Music.Voice.IV = {
     %! PHANTOM
     >>
 
-%! dornen.ScoreTemplate.__call__()
+%! dornen.make_empty_score()
 %! baca.path.extern()
 }
 
@@ -2714,30 +2714,30 @@ segment.10.Guitar.Music.Staff = <<
     %! baca.path.extern()
     { \segment.10.Global.Rests }
 
-    %! dornen.ScoreTemplate.__call__()
+    %! dornen.make_empty_score()
     \context GuitarMusicVoiceI = "Guitar_Music_Voice_I"
-    %! dornen.ScoreTemplate.__call__()
+    %! dornen.make_empty_score()
     %! baca.path.extern()
     { \segment.10.Guitar.Music.Voice.I }
 
-    %! dornen.ScoreTemplate.__call__()
+    %! dornen.make_empty_score()
     \context GuitarMusicVoiceII = "Guitar_Music_Voice_II"
-    %! dornen.ScoreTemplate.__call__()
+    %! dornen.make_empty_score()
     %! baca.path.extern()
     { \segment.10.Guitar.Music.Voice.II }
 
-    %! dornen.ScoreTemplate.__call__()
+    %! dornen.make_empty_score()
     \context GuitarMusicVoiceIII = "Guitar_Music_Voice_III"
-    %! dornen.ScoreTemplate.__call__()
+    %! dornen.make_empty_score()
     %! baca.path.extern()
     { \segment.10.Guitar.Music.Voice.III }
 
-    %! dornen.ScoreTemplate.__call__()
+    %! dornen.make_empty_score()
     \context GuitarMusicVoiceIV = "Guitar_Music_Voice_IV"
-    %! dornen.ScoreTemplate.__call__()
+    %! dornen.make_empty_score()
     %! baca.path.extern()
     { \segment.10.Guitar.Music.Voice.IV }
 
-%! dornen.ScoreTemplate.__call__()
+%! dornen.make_empty_score()
 %! baca.path.extern()
 >>

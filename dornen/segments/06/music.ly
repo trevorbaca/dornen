@@ -33,9 +33,9 @@
         %! baca._make_lilypond_file()
         }
 
-        %! dornen.ScoreTemplate.__call__()
+        %! dornen.make_empty_score()
         \context Score = "Score"
-        %! dornen.ScoreTemplate.__call__()
+        %! dornen.make_empty_score()
         <<
 
             %! abjad.ScoreTemplate._make_global_context()
@@ -52,21 +52,21 @@
             %! abjad.ScoreTemplate._make_global_context()
             >>
 
-            %! dornen.ScoreTemplate.__call__()
+            %! dornen.make_empty_score()
             \context MusicContext = "Music_Context"
-            %! dornen.ScoreTemplate.__call__()
+            %! dornen.make_empty_score()
             {
 
-                %! dornen.ScoreTemplate.__call__()
+                %! dornen.make_empty_score()
                 \context GuitarMusicStaff = "Guitar_Music_Staff"
-                %! dornen.ScoreTemplate.__call__()
+                %! dornen.make_empty_score()
                 %! baca.path.extern()
                 { \segment.06.Guitar.Music.Staff }
 
-            %! dornen.ScoreTemplate.__call__()
+            %! dornen.make_empty_score()
             }
 
-        %! dornen.ScoreTemplate.__call__()
+        %! dornen.make_empty_score()
         >>
 
     %! baca._make_lilypond_file()

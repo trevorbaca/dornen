@@ -4,11 +4,7 @@ import abjad
 import baca
 from abjadext import rmakers
 
-# instruments & margin markups
-
 instruments = abjad.OrderedDict([("Guitar", abjad.Guitar(pitch_range="[E2, F5]"))])
-
-# metronome marks
 
 metronome_marks = abjad.OrderedDict(
     [
@@ -16,8 +12,6 @@ metronome_marks = abjad.OrderedDict(
         ("66", abjad.MetronomeMark((1, 8), 66)),
     ]
 )
-
-# pitch-classes
 
 blue_pitch_classes = baca.Sequence([[1, 0, 10], [5, 8, 6, 11, 2], [4, 3, 9]])
 blue_pitch_classes = blue_pitch_classes.helianthate(-1, -1)
@@ -223,20 +217,18 @@ assert len(magenta_pitch_classes) == 36
 (35, [0, 5, 9, 8])
 """
 
-# functions
 
-
-def anchors() -> list:
+def anchors():
     """
     Makes anchor commands.
     """
     return [
         baca.figure([3], 16, signature=8),
-        rmakers.beam(baca.select(), beam_lone_notes=True),
+        rmakers.beam(beam_lone_notes=True),
     ]
 
 
-def delicatissimo() -> list:
+def delicatissimo():
     """
     Makes delicatissimo commands.
     """
@@ -247,14 +239,14 @@ def delicatissimo() -> list:
     ]
 
 
-def forty_eighths() -> list:
+def forty_eighths():
     """
     Makes forty-eighth commands.
     """
-    return [baca.figure([3], 64, signature=32), rmakers.beam(baca.select())]
+    return [baca.figure([3], 64, signature=32), rmakers.beam()]
 
 
-def glissando_scatto() -> list:
+def glissando_scatto():
     """
     Makes glissando scatto commands.
     """
@@ -265,7 +257,7 @@ def glissando_scatto() -> list:
     ]
 
 
-def graced_tuplets() -> list:
+def graced_tuplets():
     """
     Makes graced tuplet commands.
     """
@@ -291,14 +283,14 @@ def graced_tuplets() -> list:
     ]
 
 
-def monads() -> list:
+def monads():
     """
     Makes monad commands.
     """
     return [baca.figure([1], 2, signature=5, treatments=["5:4"])]
 
 
-def ovoids() -> list:
+def ovoids():
     """
     Makes ovoid commands.
     """
@@ -308,7 +300,7 @@ def ovoids() -> list:
     ]
 
 
-def passepied() -> list:
+def passepied():
     """
     Makes passepied commands.
     """
@@ -321,7 +313,7 @@ def passepied() -> list:
     ]
 
 
-def rests(duration=None) -> list:
+def rests(duration=None):
     """
     Makes rest commands.
     """
@@ -338,7 +330,7 @@ def rests(duration=None) -> list:
     ]
 
 
-def running() -> list:
+def running():
     """
     Makes running commands.
     """
@@ -349,17 +341,17 @@ def running() -> list:
     ]
 
 
-def sixteenths() -> list:
+def sixteenths():
     """
     Makes sixteenth commands.
     """
     return [
         baca.figure([1], 16, signature=16),
-        rmakers.beam(baca.select(), beam_lone_notes=True),
+        rmakers.beam(beam_lone_notes=True),
     ]
 
 
-def sixty_fourths() -> list:
+def sixty_fourths():
     """
     Makes sixty-fourth commands.
     """
@@ -370,51 +362,51 @@ def sixty_fourths() -> list:
     ]
 
 
-def thirds() -> list:
+def thirds():
     """
     Makes third commands.
     """
     return [baca.figure([1], 2, signature=3, treatments=["3:2"])]
 
 
-def thirty_seconds() -> list:
+def thirty_seconds():
     """
     Makes thirty-second commands.
     """
     return [baca.figure([1], 32, signature=32), rmakers.beam_groups()]
 
 
-def twentieths() -> list:
+def twentieths():
     """
     Makes twentieth commands.
     """
     return [
         baca.figure([1], 16, signature=20, treatments=["5:4"]),
-        rmakers.beam(baca.select(), beam_lone_notes=True),
+        rmakers.beam(beam_lone_notes=True),
     ]
 
 
-def twenty_eighths() -> list:
+def twenty_eighths():
     """
     Makes twenty-eighth commands.
     """
     return [
         baca.figure([1], 16, signature=28, treatments=["7:4"]),
-        rmakers.beam(baca.select()),
+        rmakers.beam(),
     ]
 
 
-def twenty_fourths() -> list:
+def twenty_fourths():
     """
     Makes twenty-fourth commands.
     """
     return [
         baca.figure([1], 16, signature=24, treatments=["3:2"]),
-        rmakers.beam(baca.select(), beam_lone_notes=True),
+        rmakers.beam(beam_lone_notes=True),
     ]
 
 
-def waves(denominator: int = 64, inverted: bool = False) -> list:
+def waves(denominator: int = 64, inverted: bool = False):
     """
     Makes wave commands.
     """
@@ -436,11 +428,8 @@ def waves(denominator: int = 64, inverted: bool = False) -> list:
             baca.assign(maker_1, pattern=abjad.index([0], 2)),
             baca.assign(maker_2, pattern=abjad.index([1], 2)),
         ),
-        rmakers.beam(baca.select()),
+        rmakers.beam(),
     ]
-
-
-### DESIGNS ###
 
 
 def design_1(start=None, stop=None):
@@ -1757,9 +1746,6 @@ def design_3(start=None, stop=None):
         pitch_lists.append(pitch_list)
     pitch_lists = pitch_lists[start:stop]
     return pitch_lists
-
-
-### CLASSES ###
 
 
 class DesignChecker:

@@ -4,9 +4,9 @@ import abjad
 import baca
 from abjadext import rmakers
 
-instruments = abjad.OrderedDict([("Guitar", abjad.Guitar(pitch_range="[E2, F5]"))])
+instruments = dict([("Guitar", abjad.Guitar(pitch_range="[E2, F5]"))])
 
-metronome_marks = abjad.OrderedDict(
+metronome_marks = dict(
     [
         ("44", abjad.MetronomeMark((1, 8), 44)),
         ("66", abjad.MetronomeMark((1, 8), 66)),

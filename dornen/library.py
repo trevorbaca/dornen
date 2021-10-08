@@ -460,12 +460,12 @@ def design_1(start=None, stop=None):
                 \time 1/8
                 \abjad-color-music #'red
                 e'8
-                ^ \markup { 0 }
+                ^ \markup 0
                 \stopGroup
                 \startGroup
                 s8
                 fs'8
-                ^ \markup { 1 }
+                ^ \markup 1
                 \startGroup
                 d'8
                 ef'8
@@ -476,12 +476,12 @@ def design_1(start=None, stop=None):
                 \stopGroup
                 s8
                 b'8
-                ^ \markup { 2 }
+                ^ \markup 2
                 \stopGroup
                 \startGroup
                 s8
                 bf'8
-                ^ \markup { 3 }
+                ^ \markup 3
                 \startGroup
                 g'8
                 a'8
@@ -491,13 +491,13 @@ def design_1(start=None, stop=None):
                 \stopGroup
                 s8
                 bf'8
-                ^ \markup { 4 }
+                ^ \markup 4
                 \startGroup
                 g'8
                 \stopGroup
                 s8
                 b'8
-                ^ \markup { 5 }
+                ^ \markup 5
                 \startGroup
                 fs'8
                 d'8
@@ -506,13 +506,13 @@ def design_1(start=None, stop=None):
                 \stopGroup
                 s8
                 g'8
-                ^ \markup { 6 }
+                ^ \markup 6
                 \startGroup
                 b'8
                 \stopGroup
                 s8
                 bf'8
-                ^ \markup { 7 }
+                ^ \markup 7
                 \startGroup
                 d'8
                 ef'8
@@ -521,7 +521,7 @@ def design_1(start=None, stop=None):
                 \stopGroup
                 s8
                 af'8
-                ^ \markup { 8 }
+                ^ \markup 8
                 \startGroup
                 c'8
                 f'8
@@ -529,7 +529,7 @@ def design_1(start=None, stop=None):
                 \stopGroup
                 s8
                 ef'8
-                ^ \markup { 9 }
+                ^ \markup 9
                 \startGroup
                 e'8
                 fs'8
@@ -537,7 +537,7 @@ def design_1(start=None, stop=None):
                 \stopGroup
                 s8
                 c'8
-                ^ \markup { 10 }
+                ^ \markup 10
                 \startGroup
                 f'8
                 a'8
@@ -545,14 +545,14 @@ def design_1(start=None, stop=None):
                 \stopGroup
                 s8
                 b'8
-                ^ \markup { 11 }
+                ^ \markup 11
                 \startGroup
                 bf'8
                 g'8
                 \stopGroup
                 s8
                 cs'8
-                ^ \markup { 12 }
+                ^ \markup 12
                 \startGroup
                 c'8
                 bf'8
@@ -572,13 +572,13 @@ def design_1(start=None, stop=None):
                 \stopGroup
                 s8
                 fs'8
-                ^ \markup { 13 }
+                ^ \markup 13
                 \startGroup
                 bf'8
                 \stopGroup
                 s8
                 a'8
-                ^ \markup { 14 }
+                ^ \markup 14
                 \startGroup
                 cs'8
                 b'8
@@ -591,13 +591,13 @@ def design_1(start=None, stop=None):
                 \stopGroup
                 s8
                 af'8
-                ^ \markup { 15 }
+                ^ \markup 15
                 \startGroup
                 c'8
                 \stopGroup
                 s8
                 b'8
-                ^ \markup { 16 }
+                ^ \markup 16
                 \startGroup
                 g'8
                 ef'8
@@ -605,23 +605,23 @@ def design_1(start=None, stop=None):
                 f'8
                 bf'8
                 a'8
-                cs'8
-                fs'8
-                \stopGroup
-                s8
-                ef'8
-                ^ \markup { 17 }
-                \startGroup
-                e'8
-                f'8
-                g'8
-                \stopGroup
-                s8
-                a'8
-                ^ \markup { 18 }
-                \startGroup
                 cs'8
                 fs'8
+                \stopGroup
+                s8
+                ef'8
+                ^ \markup 17
+                \startGroup
+                e'8
+                f'8
+                g'8
+                \stopGroup
+                s8
+                a'8
+                ^ \markup 18
+                \startGroup
+                cs'8
+                fs'8
                 bf'8
                 c'8
                 b'8
@@ -629,7 +629,7 @@ def design_1(start=None, stop=None):
                 \stopGroup
                 s8
                 cs'8
-                ^ \markup { 19 }
+                ^ \markup 19
                 \startGroup
                 fs'8
                 bf'8
@@ -637,7 +637,7 @@ def design_1(start=None, stop=None):
                 \stopGroup
                 s8
                 b'8
-                ^ \markup { 20 }
+                ^ \markup 20
                 \startGroup
                 af'8
                 c'8
@@ -648,7 +648,7 @@ def design_1(start=None, stop=None):
                 \stopGroup
                 s8
                 f'8
-                ^ \markup { 21 }
+                ^ \markup 21
                 \startGroup
                 b'8
                 fs'8
@@ -664,7 +664,7 @@ def design_1(start=None, stop=None):
                 \stopGroup
                 s8
                 af'8
-                ^ \markup { 22 }
+                ^ \markup 22
                 \startGroup
                 cs'8
                 e'8
@@ -684,101 +684,101 @@ def design_1(start=None, stop=None):
                 \stopGroup
                 s8
                 fs'8
-                ^ \markup { 23 }
+                ^ \markup 23
                 \stopGroup
                 \startGroup
                 s8
                 bf'8
-                ^ \markup { 24 }
+                ^ \markup 24
                 \startGroup
                 b'8
                 f'8
                 \stopGroup
                 s8
                 g'8
-                ^ \markup { 25 }
+                ^ \markup 25
                 \stopGroup
                 \startGroup
                 s8
                 ef'8
-                ^ \markup { 26 }
+                ^ \markup 26
                 \startGroup
                 d'8
                 e'8
                 \stopGroup
                 s8
                 af'8
-                ^ \markup { 27 }
+                ^ \markup 27
                 \stopGroup
                 \startGroup
                 s8
                 a'8
-                ^ \markup { 28 }
+                ^ \markup 28
                 \startGroup
                 cs'8
                 g'8
                 \stopGroup
                 s8
                 ef'8
-                ^ \markup { 29 }
+                ^ \markup 29
                 \stopGroup
                 \startGroup
                 s8
                 d'8
-                ^ \markup { 30 }
+                ^ \markup 30
                 \startGroup
                 f'8
                 af'8
                 \stopGroup
                 s8
                 a'8
-                ^ \markup { 31 }
+                ^ \markup 31
                 \stopGroup
                 \startGroup
                 s8
                 cs'8
-                ^ \markup { 32 }
+                ^ \markup 32
                 \startGroup
                 e'8
                 bf'8
                 \stopGroup
                 s8
                 b'8
-                ^ \markup { 33 }
+                ^ \markup 33
                 \stopGroup
                 \startGroup
                 s8
                 fs'8
-                ^ \markup { 34 }
+                ^ \markup 34
                 \startGroup
                 a'8
                 cs'8
                 \stopGroup
                 s8
                 e'8
-                ^ \markup { 35 }
+                ^ \markup 35
                 \stopGroup
                 \startGroup
                 s8
                 af'8
-                ^ \markup { 36 }
+                ^ \markup 36
                 \startGroup
                 b'8
                 fs'8
                 \stopGroup
                 s8
                 bf'8
-                ^ \markup { 37 }
+                ^ \markup 37
                 \stopGroup
                 \startGroup
                 s8
                 ef'8
-                ^ \markup { 38 }
+                ^ \markup 38
                 \stopGroup
                 \startGroup
                 s8
                 e'8
-                ^ \markup { 39 }
+                ^ \markup 39
                 \startGroup
                 a'8
                 g'8
@@ -786,12 +786,12 @@ def design_1(start=None, stop=None):
                 \stopGroup
                 s8
                 d'8
-                ^ \markup { 40 }
+                ^ \markup 40
                 \stopGroup
                 \startGroup
                 s8
                 af'8
-                ^ \markup { 41 }
+                ^ \markup 41
                 \startGroup
                 f'8
                 cs'8
@@ -799,12 +799,12 @@ def design_1(start=None, stop=None):
                 \stopGroup
                 s8
                 c'8
-                ^ \markup { 42 }
+                ^ \markup 42
                 \stopGroup
                 \startGroup
                 s8
                 af'8
-                ^ \markup { 43 }
+                ^ \markup 43
                 \startGroup
                 f'8
                 d'8
@@ -812,12 +812,12 @@ def design_1(start=None, stop=None):
                 \stopGroup
                 s8
                 c'8
-                ^ \markup { 44 }
+                ^ \markup 44
                 \stopGroup
                 \startGroup
                 s8
                 cs'8
-                ^ \markup { 45 }
+                ^ \markup 45
                 \startGroup
                 e'8
                 a'8
@@ -825,12 +825,12 @@ def design_1(start=None, stop=None):
                 \stopGroup
                 s8
                 bf'8
-                ^ \markup { 46 }
+                ^ \markup 46
                 \stopGroup
                 \startGroup
                 s8
                 ef'8
-                ^ \markup { 47 }
+                ^ \markup 47
                 \startGroup
                 c'8
                 cs'8
@@ -838,12 +838,12 @@ def design_1(start=None, stop=None):
                 \stopGroup
                 s8
                 a'8
-                ^ \markup { 48 }
+                ^ \markup 48
                 \stopGroup
                 \startGroup
                 s8
                 g'8
-                ^ \markup { 49 }
+                ^ \markup 49
                 \startGroup
                 bf'8
                 ef'8
@@ -914,7 +914,7 @@ def design_2(start=None, stop=None):
             {
                 \time 1/8
                 cs'8
-                ^ \markup { 0 }
+                ^ \markup 0
                 \startGroup
                 c'8
                 bf'8
@@ -922,7 +922,7 @@ def design_2(start=None, stop=None):
                 \stopGroup
                 s8
                 af'8
-                ^ \markup { 1 }
+                ^ \markup 1
                 \startGroup
                 fs'8
                 b'8
@@ -930,7 +930,7 @@ def design_2(start=None, stop=None):
                 \stopGroup
                 s8
                 e'8
-                ^ \markup { 2 }
+                ^ \markup 2
                 \startGroup
                 ef'8
                 a'8
@@ -938,7 +938,7 @@ def design_2(start=None, stop=None):
                 \stopGroup
                 s8
                 fs'8
-                ^ \markup { 3 }
+                ^ \markup 3
                 \startGroup
                 b'8
                 d'8
@@ -946,65 +946,8 @@ def design_2(start=None, stop=None):
                 \stopGroup
                 s8
                 ef'8
-                ^ \markup { 4 }
+                ^ \markup 4
                 \startGroup
-                a'8
-                e'8
-                c'8
-                bf'8
-                \stopGroup
-                s8
-                cs'8
-                ^ \markup { 5 }
-                \startGroup
-                a'8
-                e'8
-                ef'8
-                bf'8
-                \stopGroup
-                s8
-                cs'8
-                ^ \markup { 6 }
-                \startGroup
-                c'8
-                fs'8
-                b'8
-                d'8
-                \stopGroup
-                s8
-                f'8
-                ^ \markup { 7 }
-                \startGroup
-                af'8
-                cs'8
-                c'8
-                bf'8
-                \stopGroup
-                s8
-                b'8
-                ^ \markup { 8 }
-                \startGroup
-                d'8
-                f'8
-                af'8
-                fs'8
-                e'8
-                \stopGroup
-                s8
-                ef'8
-                ^ \markup { 9 }
-                \startGroup
-                a'8
-                d'8
-                f'8
-                af'8
-                fs'8
-                \stopGroup
-                s8
-                b'8
-                ^ \markup { 10 }
-                \startGroup
-                ef'8
                 a'8
                 e'8
                 c'8
@@ -1012,7 +955,64 @@ def design_2(start=None, stop=None):
                 \stopGroup
                 s8
                 cs'8
-                ^ \markup { 11 }
+                ^ \markup 5
+                \startGroup
+                a'8
+                e'8
+                ef'8
+                bf'8
+                \stopGroup
+                s8
+                cs'8
+                ^ \markup 6
+                \startGroup
+                c'8
+                fs'8
+                b'8
+                d'8
+                \stopGroup
+                s8
+                f'8
+                ^ \markup 7
+                \startGroup
+                af'8
+                cs'8
+                c'8
+                bf'8
+                \stopGroup
+                s8
+                b'8
+                ^ \markup 8
+                \startGroup
+                d'8
+                f'8
+                af'8
+                fs'8
+                e'8
+                \stopGroup
+                s8
+                ef'8
+                ^ \markup 9
+                \startGroup
+                a'8
+                d'8
+                f'8
+                af'8
+                fs'8
+                \stopGroup
+                s8
+                b'8
+                ^ \markup 10
+                \startGroup
+                ef'8
+                a'8
+                e'8
+                c'8
+                bf'8
+                \stopGroup
+                s8
+                cs'8
+                ^ \markup 11
                 \startGroup
                 a'8
                 e'8
@@ -1022,7 +1022,7 @@ def design_2(start=None, stop=None):
                 \stopGroup
                 s8
                 c'8
-                ^ \markup { 12 }
+                ^ \markup 12
                 \startGroup
                 f'8
                 af'8
@@ -1032,7 +1032,7 @@ def design_2(start=None, stop=None):
                 \stopGroup
                 s8
                 f'8
-                ^ \markup { 13 }
+                ^ \markup 13
                 \startGroup
                 a'8
                 b'8
@@ -1058,32 +1058,32 @@ def design_2(start=None, stop=None):
                 \stopGroup
                 s8
                 d'8
-                ^ \markup { 14 }
+                ^ \markup 14
                 \startGroup
                 cs'8
                 \stopGroup
                 s8
                 b'8
-                ^ \markup { 15 }
+                ^ \markup 15
                 \startGroup
                 a'8
                 g'8
                 \stopGroup
                 s8
                 c'8
-                ^ \markup { 16 }
+                ^ \markup 16
                 \stopGroup
                 \startGroup
                 s8
                 ef'8
-                ^ \markup { 17 }
+                ^ \markup 17
                 \startGroup
                 fs'8
                 f'8
                 \stopGroup
                 s8
                 e'8
-                ^ \markup { 18 }
+                ^ \markup 18
                 \startGroup
                 bf'8
                 g'8
@@ -1091,32 +1091,32 @@ def design_2(start=None, stop=None):
                 \stopGroup
                 s8
                 ef'8
-                ^ \markup { 19 }
+                ^ \markup 19
                 \startGroup
                 fs'8
                 \stopGroup
                 s8
                 a'8
-                ^ \markup { 20 }
+                ^ \markup 20
                 \startGroup
                 e'8
                 bf'8
                 \stopGroup
                 s8
                 f'8
-                ^ \markup { 21 }
+                ^ \markup 21
                 \stopGroup
                 \startGroup
                 s8
                 cs'8
-                ^ \markup { 22 }
+                ^ \markup 22
                 \startGroup
                 b'8
                 d'8
                 \stopGroup
                 s8
                 bf'8
-                ^ \markup { 23 }
+                ^ \markup 23
                 \startGroup
                 f'8
                 e'8
@@ -1124,32 +1124,32 @@ def design_2(start=None, stop=None):
                 \stopGroup
                 s8
                 d'8
-                ^ \markup { 24 }
+                ^ \markup 24
                 \startGroup
                 cs'8
                 \stopGroup
                 s8
                 c'8
-                ^ \markup { 25 }
+                ^ \markup 25
                 \startGroup
                 ef'8
                 fs'8
                 \stopGroup
                 s8
                 a'8
-                ^ \markup { 26 }
+                ^ \markup 26
                 \stopGroup
                 \startGroup
                 s8
                 g'8
-                ^ \markup { 27 }
+                ^ \markup 27
                 \startGroup
                 d'8
                 cs'8
                 \stopGroup
                 s8
                 b'8
-                ^ \markup { 28 }
+                ^ \markup 28
                 \startGroup
                 ef'8
                 fs'8
@@ -1157,20 +1157,20 @@ def design_2(start=None, stop=None):
                 \stopGroup
                 s8
                 g'8
-                ^ \markup { 29 }
+                ^ \markup 29
                 \startGroup
                 c'8
                 \stopGroup
                 s8
                 f'8
-                ^ \markup { 30 }
+                ^ \markup 30
                 \startGroup
                 e'8
                 bf'8
                 \stopGroup
                 s8
                 cs'8
-                ^ \markup { 31 }
+                ^ \markup 31
                 \startGroup
                 c'8
                 d'8
@@ -1196,7 +1196,7 @@ def design_2(start=None, stop=None):
                 \stopGroup
                 s8
                 d'8
-                ^ \markup { 32 }
+                ^ \markup 32
                 \startGroup
                 g'8
                 b'8
@@ -1222,7 +1222,7 @@ def design_2(start=None, stop=None):
                 \stopGroup
                 s8
                 e'8
-                ^ \markup { 33 }
+                ^ \markup 33
                 \startGroup
                 a'8
                 g'8
@@ -1232,7 +1232,7 @@ def design_2(start=None, stop=None):
                 \stopGroup
                 s8
                 af'8
-                ^ \markup { 34 }
+                ^ \markup 34
                 \startGroup
                 f'8
                 cs'8
@@ -1242,13 +1242,13 @@ def design_2(start=None, stop=None):
                 \stopGroup
                 s8
                 f'8
-                ^ \markup { 35 }
+                ^ \markup 35
                 \startGroup
                 d'8
                 \stopGroup
                 s8
                 af'8
-                ^ \markup { 36 }
+                ^ \markup 36
                 \startGroup
                 bf'8
                 b'8
@@ -1258,7 +1258,7 @@ def design_2(start=None, stop=None):
                 \stopGroup
                 s8
                 fs'8
-                ^ \markup { 37 }
+                ^ \markup 37
                 \startGroup
                 a'8
                 ef'8
@@ -1268,7 +1268,7 @@ def design_2(start=None, stop=None):
                 \stopGroup
                 s8
                 a'8
-                ^ \markup { 38 }
+                ^ \markup 38
                 \startGroup
                 ef'8
                 c'8
@@ -1278,7 +1278,7 @@ def design_2(start=None, stop=None):
                 \stopGroup
                 s8
                 b'8
-                ^ \markup { 39 }
+                ^ \markup 39
                 \startGroup
                 cs'8
                 e'8
@@ -1342,7 +1342,7 @@ def design_3(start=None, stop=None):
             {
                 \time 1/8
                 f'8
-                ^ \markup { 0 }
+                ^ \markup 0
                 \startGroup
                 a'8
                 b'8
@@ -1352,7 +1352,7 @@ def design_3(start=None, stop=None):
                 \stopGroup
                 s8
                 g'8
-                ^ \markup { 1 }
+                ^ \markup 1
                 \startGroup
                 af'8
                 d'8
@@ -1361,7 +1361,7 @@ def design_3(start=None, stop=None):
                 \stopGroup
                 s8
                 g'8
-                ^ \markup { 2 }
+                ^ \markup 2
                 \startGroup
                 af'8
                 d'8
@@ -1369,25 +1369,25 @@ def design_3(start=None, stop=None):
                 \stopGroup
                 s8
                 ef'8
-                ^ \markup { 3 }
+                ^ \markup 3
                 \startGroup
                 fs'8
                 a'8
                 \stopGroup
                 s8
                 b'8
-                ^ \markup { 4 }
+                ^ \markup 4
                 \startGroup
                 bf'8
                 \stopGroup
                 s8
                 c'8
-                ^ \markup { 5 }
+                ^ \markup 5
                 \stopGroup
                 \startGroup
                 s8
                 f'8
-                ^ \markup { 6 }
+                ^ \markup 6
                 \startGroup
                 b'8
                 bf'8
@@ -1397,7 +1397,7 @@ def design_3(start=None, stop=None):
                 \stopGroup
                 s8
                 af'8
-                ^ \markup { 7 }
+                ^ \markup 7
                 \startGroup
                 d'8
                 cs'8
@@ -1406,7 +1406,7 @@ def design_3(start=None, stop=None):
                 \stopGroup
                 s8
                 g'8
-                ^ \markup { 8 }
+                ^ \markup 8
                 \startGroup
                 d'8
                 cs'8
@@ -1414,25 +1414,25 @@ def design_3(start=None, stop=None):
                 \stopGroup
                 s8
                 fs'8
-                ^ \markup { 9 }
+                ^ \markup 9
                 \startGroup
                 g'8
                 af'8
                 \stopGroup
                 s8
                 bf'8
-                ^ \markup { 10 }
+                ^ \markup 10
                 \startGroup
                 c'8
                 \stopGroup
                 s8
                 f'8
-                ^ \markup { 11 }
+                ^ \markup 11
                 \stopGroup
                 \startGroup
                 s8
                 a'8
-                ^ \markup { 12 }
+                ^ \markup 12
                 \startGroup
                 b'8
                 c'8
@@ -1442,7 +1442,7 @@ def design_3(start=None, stop=None):
                 \stopGroup
                 s8
                 bf'8
-                ^ \markup { 13 }
+                ^ \markup 13
                 \startGroup
                 cs'8
                 ef'8
@@ -1451,7 +1451,7 @@ def design_3(start=None, stop=None):
                 \stopGroup
                 s8
                 af'8
-                ^ \markup { 14 }
+                ^ \markup 14
                 \startGroup
                 d'8
                 ef'8
@@ -1459,32 +1459,32 @@ def design_3(start=None, stop=None):
                 \stopGroup
                 s8
                 g'8
-                ^ \markup { 15 }
+                ^ \markup 15
                 \startGroup
                 af'8
                 d'8
                 \stopGroup
                 s8
                 cs'8
-                ^ \markup { 16 }
+                ^ \markup 16
                 \startGroup
                 f'8
                 \stopGroup
                 s8
                 a'8
-                ^ \markup { 17 }
+                ^ \markup 17
                 \stopGroup
                 \startGroup
                 s8
                 b'8
-                ^ \markup { 18 }
+                ^ \markup 18
                 \startGroup
                 bf'8
                 c'8
                 \stopGroup
                 s8
                 fs'8
-                ^ \markup { 19 }
+                ^ \markup 19
                 \startGroup
                 e'8
                 f'8
@@ -1520,7 +1520,7 @@ def design_3(start=None, stop=None):
                 \stopGroup
                 s8
                 bf'8
-                ^ \markup { 20 }
+                ^ \markup 20
                 \startGroup
                 c'8
                 b'8
@@ -1530,7 +1530,7 @@ def design_3(start=None, stop=None):
                 \stopGroup
                 s8
                 af'8
-                ^ \markup { 21 }
+                ^ \markup 21
                 \startGroup
                 a'8
                 ef'8
@@ -1540,7 +1540,7 @@ def design_3(start=None, stop=None):
                 \stopGroup
                 s8
                 a'8
-                ^ \markup { 22 }
+                ^ \markup 22
                 \startGroup
                 ef'8
                 d'8
@@ -1550,7 +1550,7 @@ def design_3(start=None, stop=None):
                 \stopGroup
                 s8
                 b'8
-                ^ \markup { 23 }
+                ^ \markup 23
                 \startGroup
                 cs'8
                 fs'8
@@ -1560,7 +1560,7 @@ def design_3(start=None, stop=None):
                 \stopGroup
                 s8
                 fs'8
-                ^ \markup { 24 }
+                ^ \markup 24
                 \startGroup
                 bf'8
                 c'8
@@ -1570,14 +1570,14 @@ def design_3(start=None, stop=None):
                 \stopGroup
                 s8
                 e'8
-                ^ \markup { 25 }
+                ^ \markup 25
                 \startGroup
                 g'8
                 af'8
                 \stopGroup
                 s8
                 cs'8
-                ^ \markup { 26 }
+                ^ \markup 26
                 \startGroup
                 e'8
                 f'8
@@ -1603,7 +1603,7 @@ def design_3(start=None, stop=None):
                 \stopGroup
                 s8
                 dqf'8
-                ^ \markup { 27 }
+                ^ \markup 27
                 \startGroup
                 c'8
                 a'8
@@ -1612,7 +1612,7 @@ def design_3(start=None, stop=None):
                 \stopGroup
                 s8
                 f'8
-                ^ \markup { 28 }
+                ^ \markup 28
                 \startGroup
                 cqs'8
                 eqs'8
@@ -1621,7 +1621,7 @@ def design_3(start=None, stop=None):
                 \stopGroup
                 s8
                 c'8
-                ^ \markup { 29 }
+                ^ \markup 29
                 \startGroup
                 a'8
                 bf'8
@@ -1630,7 +1630,7 @@ def design_3(start=None, stop=None):
                 \stopGroup
                 s8
                 cqs'8
-                ^ \markup { 30 }
+                ^ \markup 30
                 \startGroup
                 eqs'8
                 fqs'8
@@ -1639,7 +1639,7 @@ def design_3(start=None, stop=None):
                 \stopGroup
                 s8
                 ef'8
-                ^ \markup { 31 }
+                ^ \markup 31
                 \startGroup
                 c'8
                 d'8
@@ -1649,7 +1649,7 @@ def design_3(start=None, stop=None):
                 \stopGroup
                 s8
                 cs'8
-                ^ \markup { 32 }
+                ^ \markup 32
                 \startGroup
                 e'8
                 af'8
@@ -1659,7 +1659,7 @@ def design_3(start=None, stop=None):
                 \stopGroup
                 s8
                 af'8
-                ^ \markup { 33 }
+                ^ \markup 33
                 \startGroup
                 bf'8
                 b'8
@@ -1669,7 +1669,7 @@ def design_3(start=None, stop=None):
                 \stopGroup
                 s8
                 g'8
-                ^ \markup { 34 }
+                ^ \markup 34
                 \startGroup
                 fs'8
                 a'8
@@ -1677,7 +1677,7 @@ def design_3(start=None, stop=None):
                 \stopGroup
                 s8
                 gqs'8
-                ^ \markup { 35 }
+                ^ \markup 35
                 \startGroup
                 af'8
                 g'8
@@ -1686,7 +1686,7 @@ def design_3(start=None, stop=None):
                 \stopGroup
                 s8
                 eqs'8
-                ^ \markup { 36 }
+                ^ \markup 36
                 \startGroup
                 bqs'8
                 eqf'8
@@ -1695,7 +1695,7 @@ def design_3(start=None, stop=None):
                 \stopGroup
                 s8
                 ef'8
-                ^ \markup { 37 }
+                ^ \markup 37
                 \startGroup
                 d'8
                 af'8
@@ -1704,7 +1704,7 @@ def design_3(start=None, stop=None):
                 \stopGroup
                 s8
                 e'8
-                ^ \markup { 38 }
+                ^ \markup 38
                 \startGroup
                 eqs'8
                 gqs'8
@@ -1713,7 +1713,7 @@ def design_3(start=None, stop=None):
                 \stopGroup
                 s8
                 bqf'8
-                ^ \markup { 39 }
+                ^ \markup 39
                 \startGroup
                 b'8
                 \stopGroup

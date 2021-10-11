@@ -2484,7 +2484,7 @@ segment.02.Guitar.Music.Voice.II = {
             %! baca.music()
             ef'''!16
             %! FIGURE_NAME
-            %@% ^ \markup \fontsize #2 \concat { [ \markup \concat { F1 \sub 1 } \hspace #1 \raise #0.25 \fontsize #-2 (1) ] }
+            %@% ^ \markup \fontsize #2 \concat { [ \concat { F1 \sub 1 } \hspace #1 \raise #0.25 \fontsize #-2 (1) ] }
             [
 
         %! baca.music()
@@ -2515,7 +2515,7 @@ segment.02.Guitar.Music.Voice.II = {
             %! baca.music()
             ef'''!16
             %! FIGURE_NAME
-            %@% ^ \markup \fontsize #2 \concat { [ \markup \concat { F1 \sub 2 } \hspace #1 \raise #0.25 \fontsize #-2 (3) ] }
+            %@% ^ \markup \fontsize #2 \concat { [ \concat { F1 \sub 2 } \hspace #1 \raise #0.25 \fontsize #-2 (3) ] }
 
             \set stemLeftBeamCount = 2
             \set stemRightBeamCount = 1
@@ -2550,7 +2550,7 @@ segment.02.Guitar.Music.Voice.II = {
             %! baca.music()
             ef'''!16
             %! FIGURE_NAME
-            %@% ^ \markup \fontsize #2 \concat { [ \markup \concat { F1 \sub 3 } \hspace #1 \raise #0.25 \fontsize #-2 (5) ] }
+            %@% ^ \markup \fontsize #2 \concat { [ \concat { F1 \sub 3 } \hspace #1 \raise #0.25 \fontsize #-2 (5) ] }
 
             %! baca.music()
             a''16
@@ -2588,7 +2588,7 @@ segment.02.Guitar.Music.Voice.II = {
             %! baca.music()
             ef'''!16
             %! FIGURE_NAME
-            %@% ^ \markup \fontsize #2 \concat { [ \markup \concat { F1 \sub 4 } \hspace #1 \raise #0.25 \fontsize #-2 (7) ] }
+            %@% ^ \markup \fontsize #2 \concat { [ \concat { F1 \sub 4 } \hspace #1 \raise #0.25 \fontsize #-2 (7) ] }
 
             %! baca.music()
             a''16
@@ -2668,7 +2668,7 @@ segment.02.Guitar.Music.Voice.II = {
             %! baca.music()
             ef'''!16
             %! FIGURE_NAME
-            %@% ^ \markup \fontsize #2 \concat { [ \markup \concat { F1 \sub 1* } \hspace #1 \raise #0.25 \fontsize #-2 (11) ] }
+            %@% ^ \markup \fontsize #2 \concat { [ \concat { F1 \sub 1* } \hspace #1 \raise #0.25 \fontsize #-2 (11) ] }
             [
 
         %! baca.music()
@@ -2699,7 +2699,7 @@ segment.02.Guitar.Music.Voice.II = {
             %! baca.music()
             ef'''!16
             %! FIGURE_NAME
-            %@% ^ \markup \fontsize #2 \concat { [ \markup \concat { F1 \sub 2* } \hspace #1 \raise #0.25 \fontsize #-2 (13) ] }
+            %@% ^ \markup \fontsize #2 \concat { [ \concat { F1 \sub 2* } \hspace #1 \raise #0.25 \fontsize #-2 (13) ] }
 
             %! baca.music()
             a''16

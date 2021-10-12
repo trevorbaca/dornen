@@ -52,10 +52,7 @@ figures(
     "v1",
     [["F2"]],
     *dornen.monads(),
-    baca.markup(
-        r"\dornen-three-fingers-markup",
-        literal=True,
-    ),
+    baca.markup(r"\dornen-three-fingers-markup"),
     figure_name="3_1",
 )
 
@@ -93,10 +90,7 @@ figures(
     "v1",
     [["F2"]],
     *dornen.monads(),
-    baca.markup(
-        r"\dornen-four-fingers-markup",
-        literal=True,
-    ),
+    baca.markup(r"\dornen-four-fingers-markup"),
     figure_name="4_1",
 )
 
@@ -188,10 +182,7 @@ figures(
     "v1",
     [2 * ["F2"]],
     *dornen.monads(),
-    baca.markup(
-        r"\dornen-three-fingers-markup",
-        literal=True,
-    ),
+    baca.markup(r"\dornen-three-fingers-markup"),
     figure_name="4_14",
 )
 
@@ -199,10 +190,7 @@ figures(
     "v1",
     [2 * ["F2"]],
     *dornen.monads(),
-    baca.markup(
-        r"\dornen-two-fingers-markup",
-        literal=True,
-    ),
+    baca.markup(r"\dornen-two-fingers-markup"),
     figure_name="4_15",
 )
 

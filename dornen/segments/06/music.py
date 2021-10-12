@@ -79,7 +79,6 @@ figures(
     *dornen.rests(),
     baca.markup(
         r"\dornen-raise-string-two-one-quartertone-markup",
-        literal=True,
         selector=baca.selectors.leaf(0),
     ),
     figure_name="S1",

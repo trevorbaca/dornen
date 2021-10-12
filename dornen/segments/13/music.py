@@ -54,10 +54,7 @@ figures(
     "v1",
     [["E2"]],
     *dornen.monads(),
-    baca.markup(
-        r"\dornen-three-fingers-markup",
-        literal=True,
-    ),
+    baca.markup(r"\dornen-three-fingers-markup"),
     figure_name="3_1",
 )
 
@@ -93,10 +90,7 @@ figures(
     "v1",
     [["E2"]],
     *dornen.monads(),
-    baca.markup(
-        r"\dornen-four-fingers-markup",
-        literal=True,
-    ),
+    baca.markup(r"\dornen-four-fingers-markup"),
     figure_name="4_1",
 )
 

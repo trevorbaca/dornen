@@ -20,10 +20,7 @@ figures(
     "v1",
     design[:1],
     *dornen.forty_eighths(),
-    baca.markup(
-        r"\dornen-slurs-fluid-all-other-parts-markup",
-        literal=True,
-    ),
+    baca.markup(r"\dornen-slurs-fluid-all-other-parts-markup"),
     baca.literal(string),
     baca.extend_beam(),
     figure_name="48_1",
@@ -207,10 +204,7 @@ figures(
     "v2",
     [["Gb2"]],
     *dornen.monads(),
-    baca.markup(
-        r"\dornen-two-finger-tamb-trill-markup",
-        literal=True,
-    ),
+    baca.markup(r"\dornen-two-finger-tamb-trill-markup"),
     baca.stem_tremolo(baca.selectors.pleaves()),
     baca.stem_up(),
     baca.tuplet_bracket_staff_padding(0),

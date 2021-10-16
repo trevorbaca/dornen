@@ -448,10 +448,10 @@ def design_1(start=None, stop=None):
         ..  docs::
 
             >>> lilypond_file = design_1.__illustrate__()
-            >>> voice = lilypond_file[abjad.Score][0][0]
+            >>> voice = lilypond_file["Voice"]
             >>> string = abjad.lilypond(voice)
             >>> print(string)
-            \new Voice
+            \context Voice = "Voice"
             \with
             {
                 \consists Horizontal_bracket_engraver
@@ -903,10 +903,10 @@ def design_2(start=None, stop=None):
         ..  docs::
 
             >>> lilypond_file = design_2.__illustrate__()
-            >>> voice = lilypond_file[abjad.Score][0][0]
+            >>> voice = lilypond_file["Voice"]
             >>> string = abjad.lilypond(voice)
             >>> print(string)
-            \new Voice
+            \context Voice = "Voice"
             \with
             {
                 \consists Horizontal_bracket_engraver
@@ -1331,10 +1331,10 @@ def design_3(start=None, stop=None):
         ..  docs::
 
             >>> lilypond_file = design_3.__illustrate__()
-            >>> voice = lilypond_file[abjad.Score][0][0]
+            >>> voice = lilypond_file["Voice"]
             >>> string = abjad.lilypond(voice)
             >>> print(string)
-            \new Voice
+            \context Voice = "Voice"
             \with
             {
                 \consists Horizontal_bracket_engraver

@@ -447,7 +447,7 @@ def design_1(start=None, stop=None):
 
         ..  docs::
 
-            >>> lilypond_file = design_1.__illustrate__()
+            >>> lilypond_file = baca.pitchclasses.illustrate_pitch_tree(design_1)
             >>> voice = lilypond_file["Voice"]
             >>> string = abjad.lilypond(voice)
             >>> print(string)
@@ -902,7 +902,7 @@ def design_2(start=None, stop=None):
 
         ..  docs::
 
-            >>> lilypond_file = design_2.__illustrate__()
+            >>> lilypond_file = baca.pitchclasses.illustrate_pitch_tree(design_2)
             >>> voice = lilypond_file["Voice"]
             >>> string = abjad.lilypond(voice)
             >>> print(string)
@@ -1330,7 +1330,7 @@ def design_3(start=None, stop=None):
 
         ..  docs::
 
-            >>> lilypond_file = design_3.__illustrate__()
+            >>> lilypond_file = baca.pitchclasses.illustrate_pitch_tree(design_3)
             >>> voice = lilypond_file["Voice"]
             >>> string = abjad.lilypond(voice)
             >>> print(string)

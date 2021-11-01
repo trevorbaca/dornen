@@ -25,8 +25,5 @@ dict(
             309,
             344,
         ],
-        "catalog_number_suffix": "LED",
-        "paper_size": "ledger",
-        "price": "\\$52 / \\euro 52",
     }
 )

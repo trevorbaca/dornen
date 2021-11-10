@@ -1,7 +1,6 @@
 % Spiel der Dornen (2016) for guitar
 
 \version "2.19.84"
-\language "english"
 
 \include "stylesheet.ily"
 \include "_segments/01.ily"

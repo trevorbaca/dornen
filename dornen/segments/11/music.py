@@ -1,50 +1,50 @@
 import baca
 
-from dornen import library as dornen
+from dornen import library
 
 #########################################################################################
 ########################################### 11 ##########################################
 #########################################################################################
 
-score = dornen.make_empty_score()
+score = library.make_empty_score()
 
 figures = baca.FigureAccumulator(
     score,
-    voice_abbreviations=dornen.voice_abbreviations,
+    voice_abbreviations=library.voice_abbreviations,
 )
 
 figures(
     "v1",
     [["Gb~2"]],
-    *dornen.monads(),
+    *library.monads(),
     figure_name="2_1",
 )
 
 figures(
     "v1",
     [["Gb~2"]],
-    *dornen.monads(),
+    *library.monads(),
     figure_name="2_2",
 )
 
 figures(
     "v1",
     [["Gb~2"]],
-    *dornen.thirds(),
+    *library.thirds(),
     figure_name="2_3",
 )
 
 figures(
     "v1",
     [["Gb~2"]],
-    *dornen.thirds(),
+    *library.thirds(),
     figure_name="2_4",
 )
 
 figures(
     "v1",
     [["Gb~2"]],
-    *dornen.thirds(),
+    *library.thirds(),
     figure_name="2_5",
 )
 
@@ -53,7 +53,7 @@ figures(
 figures(
     "v1",
     [["Gb~2"]],
-    *dornen.monads(),
+    *library.monads(),
     baca.markup(r"\dornen-three-fingers-markup"),
     figure_name="3_1",
 )
@@ -61,28 +61,28 @@ figures(
 figures(
     "v1",
     [["Gb~2"]],
-    *dornen.monads(),
+    *library.monads(),
     figure_name="3_2",
 )
 
 figures(
     "v1",
     [["Gb~2"]],
-    *dornen.thirds(),
+    *library.thirds(),
     figure_name="3_3",
 )
 
 figures(
     "v1",
     [["Gb~2"]],
-    *dornen.thirds(),
+    *library.thirds(),
     figure_name="3_4",
 )
 
 figures(
     "v1",
     [["Gb~2"]],
-    *dornen.thirds(),
+    *library.thirds(),
     figure_name="3_5",
 )
 
@@ -91,7 +91,7 @@ figures(
 figures(
     "v1",
     [["Gb~2"]],
-    *dornen.monads(),
+    *library.monads(),
     baca.markup(r"\dornen-four-fingers-markup"),
     figure_name="4_1",
 )
@@ -99,91 +99,91 @@ figures(
 figures(
     "v1",
     [["Gb~2"]],
-    *dornen.monads(),
+    *library.monads(),
     figure_name="4_2",
 )
 
 figures(
     "v1",
     [["Gb~2"]],
-    *dornen.thirds(),
+    *library.thirds(),
     figure_name="4_3",
 )
 
 figures(
     "v1",
     [["Gb~2"]],
-    *dornen.thirds(),
+    *library.thirds(),
     figure_name="4_4",
 )
 
 figures(
     "v1",
     [["Gb~2"]],
-    *dornen.thirds(),
+    *library.thirds(),
     figure_name="4_5",
 )
 
 figures(
     "v1",
     [["Gb~2"]],
-    *dornen.monads(),
+    *library.monads(),
     figure_name="4_6",
 )
 
 figures(
     "v1",
     [["Gb~2"]],
-    *dornen.thirds(),
+    *library.thirds(),
     figure_name="4_7",
 )
 
 figures(
     "v1",
     [["Gb~2"]],
-    *dornen.thirds(),
+    *library.thirds(),
     figure_name="4_8",
 )
 
 figures(
     "v1",
     [["Gb~2"]],
-    *dornen.thirds(),
+    *library.thirds(),
     figure_name="4_9",
 )
 
 figures(
     "v1",
     [["Gb~2"]],
-    *dornen.monads(),
+    *library.monads(),
     figure_name="4_10",
 )
 
 figures(
     "v1",
     [["Gb~2"]],
-    *dornen.thirds(),
+    *library.thirds(),
     figure_name="4_11",
 )
 
 figures(
     "v1",
     [["Gb~2"]],
-    *dornen.thirds(),
+    *library.thirds(),
     figure_name="4_12",
 )
 
 figures(
     "v1",
     [["Gb~2"]],
-    *dornen.thirds(),
+    *library.thirds(),
     figure_name="4_13",
 )
 
 figures(
     "v1",
     [2 * ["Gb~2"]],
-    *dornen.monads(),
+    *library.monads(),
     baca.markup(r"\dornen-three-fingers-markup"),
     figure_name="4_14",
 )
@@ -191,7 +191,7 @@ figures(
 figures(
     "v1",
     [2 * ["Gb~2"]],
-    *dornen.monads(),
+    *library.monads(),
     baca.markup(r"\dornen-two-fingers-markup"),
     figure_name="4_15",
 )
@@ -200,11 +200,11 @@ voice_names = baca.accumulator.get_voice_names(score)
 
 commands = baca.CommandAccumulator(
     **baca.segment_accumulation_defaults(),
-    instruments=dornen.instruments,
-    metronome_marks=dornen.metronome_marks,
+    instruments=library.instruments,
+    metronome_marks=library.metronome_marks,
     skips_instead_of_rests=True,
     time_signatures=figures.time_signatures,
-    voice_abbreviations=dornen.voice_abbreviations,
+    voice_abbreviations=library.voice_abbreviations,
     voice_names=voice_names,
 )
 

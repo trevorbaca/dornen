@@ -1,25 +1,25 @@
 import abjad
 import baca
 
-from dornen import library as dornen
+from dornen import library
 
 #########################################################################################
 ########################################### 03 ##########################################
 #########################################################################################
 
-score = dornen.make_empty_score()
+score = library.make_empty_score()
 
 figures = baca.FigureAccumulator(
     score,
-    voice_abbreviations=dornen.voice_abbreviations,
+    voice_abbreviations=library.voice_abbreviations,
 )
-design = dornen.design_1(start=16, stop=38)
+design = library.design_1(start=16, stop=38)
 assert len(design) == 22
 
 figures(
     "v1",
     design[:1],
-    *dornen.waves(denominator=64, inverted=True),
+    *library.waves(denominator=64, inverted=True),
     baca.register(0, -14),
     figure_name="W1",
 )
@@ -27,7 +27,7 @@ figures(
 figures(
     "v4",
     baca.Sequence(design[5:6]).reveal(1),
-    *dornen.graced_tuplets(),
+    *library.graced_tuplets(),
     baca.beam_positions(12),
     baca.stem_up(),
     baca.register(0),
@@ -38,7 +38,7 @@ figures(
 figures(
     "v2",
     design[1:2],
-    *dornen.ovoids(),
+    *library.ovoids(),
     baca.beam_positions(
         -8,
         baca.selectors.pleaf(0),
@@ -51,7 +51,7 @@ figures(
 figures(
     "v4",
     baca.Sequence(design[5:6]).reveal(1),
-    *dornen.graced_tuplets(),
+    *library.graced_tuplets(),
     baca.stem_up(),
     baca.register(0),
     baca.extend_beam(),
@@ -61,7 +61,7 @@ figures(
 figures(
     "v1",
     baca.Sequence(design[2:3]).boustrophedon(count=2),
-    *dornen.waves(denominator=64, inverted=True),
+    *library.waves(denominator=64, inverted=True),
     baca.beam_positions(7),
     baca.register(0, -14),
     figure_name="W2",
@@ -70,7 +70,7 @@ figures(
 figures(
     "v4",
     baca.Sequence(design[5:6]).reveal(3),
-    *dornen.graced_tuplets(),
+    *library.graced_tuplets(),
     baca.stem_up(),
     baca.register(0),
     baca.extend_beam(),
@@ -80,7 +80,7 @@ figures(
 figures(
     "v2",
     design[3:4],
-    *dornen.ovoids(),
+    *library.ovoids(),
     baca.text_script_color("#red"),
     baca.register(-14, -6),
     figure_name="O2",
@@ -89,7 +89,7 @@ figures(
 figures(
     "v4",
     baca.Sequence(design[5:6]).reveal(3),
-    *dornen.graced_tuplets(),
+    *library.graced_tuplets(),
     baca.stem_up(),
     baca.register(0),
     figure_name="G1_3",
@@ -100,7 +100,7 @@ cell_d1 = [baca.Sequence(design[4:5]).boustrophedon(count=4).flatten()]
 figures(
     "v1",
     baca.Sequence(cell_d1).reveal(4),
-    *dornen.delicatissimo(),
+    *library.delicatissimo(),
     baca.beam_positions(-6.5),
     baca.stem_down(),
     baca.extend_beam(),
@@ -110,7 +110,7 @@ figures(
 figures(
     "v4",
     baca.Sequence(design[5:6]).reveal(1),
-    *dornen.graced_tuplets(),
+    *library.graced_tuplets(),
     baca.beam_positions(12),
     baca.stem_up(),
     baca.register(0),
@@ -121,7 +121,7 @@ figures(
 figures(
     "v1",
     baca.Sequence(cell_d1).reveal(3),
-    *dornen.delicatissimo(),
+    *library.delicatissimo(),
     baca.beam_positions(-6.5),
     baca.stem_down(),
     baca.extend_beam(),
@@ -131,7 +131,7 @@ figures(
 figures(
     "v4",
     baca.Sequence(design[5:6]).reveal(5),
-    *dornen.graced_tuplets(),
+    *library.graced_tuplets(),
     baca.stem_up(),
     baca.register(0),
     baca.extend_beam(),
@@ -141,7 +141,7 @@ figures(
 figures(
     "v1",
     baca.Sequence(cell_d1).reveal(10),
-    *dornen.delicatissimo(),
+    *library.delicatissimo(),
     baca.beam_positions(-6.5),
     baca.stem_down(),
     figure_name="D1_3",
@@ -150,7 +150,7 @@ figures(
 figures(
     "v2",
     design[1:2],
-    *dornen.ovoids(),
+    *library.ovoids(),
     baca.beam_positions(
         -8,
         baca.selectors.pleaf(0),
@@ -163,7 +163,7 @@ figures(
 figures(
     "v4",
     baca.Sequence(design[5:6]).reveal(3),
-    *dornen.graced_tuplets(),
+    *library.graced_tuplets(),
     baca.stem_up(),
     baca.register(0),
     baca.extend_beam(),
@@ -173,7 +173,7 @@ figures(
 figures(
     "v1",
     [baca.Sequence(design[2:3]).boustrophedon(count=2).flatten()],
-    *dornen.waves(denominator=64),
+    *library.waves(denominator=64),
     baca.beam_positions(7),
     baca.stem_up(),
     baca.register(0, -14),
@@ -183,7 +183,7 @@ figures(
 figures(
     "v1",
     baca.Sequence(cell_d1).reveal(15),
-    *dornen.delicatissimo(),
+    *library.delicatissimo(),
     baca.beam_positions(-6.5),
     baca.stem_down(),
     baca.extend_beam(),
@@ -193,7 +193,7 @@ figures(
 figures(
     "v4",
     baca.Sequence(design[5:6]).reveal(9),
-    *dornen.graced_tuplets(),
+    *library.graced_tuplets(),
     baca.beam_positions(6),
     baca.stem_up(),
     baca.register(0, -14),
@@ -204,7 +204,7 @@ figures(
 figures(
     "v1",
     baca.Sequence(cell_d1).reveal(6),
-    *dornen.delicatissimo(),
+    *library.delicatissimo(),
     baca.beam_positions(-6.5),
     baca.stem_down(),
     figure_name="D1_5",
@@ -213,7 +213,7 @@ figures(
 figures(
     "v2",
     design[3:4],
-    *dornen.ovoids(),
+    *library.ovoids(),
     baca.text_script_color("#red"),
     baca.register(-14, -6),
     figure_name="O2*",
@@ -222,7 +222,7 @@ figures(
 figures(
     "v4",
     list(baca.Sequence(design[5:6]).repeat(n=2).flatten().map(list)),
-    *dornen.graced_tuplets(),
+    *library.graced_tuplets(),
     baca.beam_positions(6),
     baca.stem_up(),
     baca.register(0, -14),
@@ -232,7 +232,7 @@ figures(
 figures(
     "v2",
     design[1:2],
-    *dornen.ovoids(),
+    *library.ovoids(),
     baca.beam_positions(
         -8,
         baca.selectors.pleaf(0),
@@ -245,7 +245,7 @@ figures(
 figures(
     "v1",
     baca.Sequence(cell_d1).reveal(10),
-    *dornen.delicatissimo(),
+    *library.delicatissimo(),
     baca.beam_positions(-6.5),
     baca.stem_down(),
     figure_name="D1_6",
@@ -254,7 +254,7 @@ figures(
 figures(
     "v1",
     baca.Sequence(cell_d1).reveal(-15),
-    *dornen.delicatissimo(),
+    *library.delicatissimo(),
     baca.beam_positions(-6.5),
     baca.nest([abjad.Multiplier((2, 3))]),
     baca.stem_down(),
@@ -265,7 +265,7 @@ figures(
 figures(
     "v1",
     design[6:7],
-    *dornen.delicatissimo(),
+    *library.delicatissimo(),
     baca.beam_positions(-6.5),
     baca.stem_down(),
     baca.register(6, -20),
@@ -275,7 +275,7 @@ figures(
 figures(
     "v2",
     design[3:4],
-    *dornen.ovoids(),
+    *library.ovoids(),
     baca.text_script_color("#red"),
     baca.register(-14, -6),
     baca.extend_beam(),
@@ -285,7 +285,7 @@ figures(
 figures(
     "v2",
     baca.Sequence(design[7:9]).join(),
-    *dornen.ovoids(),
+    *library.ovoids(),
     baca.register(-14, -6),
     figure_name="O3",
 )
@@ -293,7 +293,7 @@ figures(
 figures(
     "v2",
     baca.Sequence(design[9:11]).join(),
-    *dornen.ovoids(),
+    *library.ovoids(),
     baca.beam_positions(
         -8,
         baca.selectors.pleaf(0),
@@ -306,7 +306,7 @@ figures(
 figures(
     "v2",
     baca.Sequence(design[11:13]).join(),
-    *dornen.ovoids(),
+    *library.ovoids(),
     baca.register(-14, -6),
     baca.extend_beam(),
     figure_name="O5",
@@ -315,7 +315,7 @@ figures(
 figures(
     "v2",
     baca.Sequence(design[13:15]).join(),
-    *dornen.ovoids(),
+    *library.ovoids(),
     baca.register(-14, -6),
     baca.extend_beam(),
     figure_name="O6",
@@ -324,7 +324,7 @@ figures(
 figures(
     "v2",
     baca.Sequence(design[15:17]).join(),
-    *dornen.ovoids(),
+    *library.ovoids(),
     baca.register(-14, -6),
     figure_name="O7",
 )
@@ -332,7 +332,7 @@ figures(
 figures(
     "v2",
     baca.Sequence(design[17:19]).join(),
-    *dornen.ovoids(),
+    *library.ovoids(),
     baca.beam_positions(
         -8,
         baca.selectors.pleaf(0),
@@ -345,7 +345,7 @@ figures(
 figures(
     "v1",
     [baca.Sequence(design[2:3]).boustrophedon(count=2).flatten()],
-    *dornen.waves(denominator=64),
+    *library.waves(denominator=64),
     baca.beam_positions(7),
     baca.stem_up(),
     baca.register(0, -14),
@@ -355,7 +355,7 @@ figures(
 figures(
     "v1",
     design[6:7],
-    *dornen.delicatissimo(),
+    *library.delicatissimo(),
     baca.beam_positions(-6.5),
     baca.stem_down(),
     baca.register(6, -20),
@@ -365,7 +365,7 @@ figures(
 figures(
     "v2",
     baca.Sequence(design[19:21]).join(),
-    *dornen.ovoids(),
+    *library.ovoids(),
     baca.register(-14, -6),
     # baca.extend_beam(),
     figure_name="O9",
@@ -374,7 +374,7 @@ figures(
 figures(
     "v2",
     design[21:22],
-    *dornen.ovoids(),
+    *library.ovoids(),
     baca.register(-14, -6),
     figure_name="O10",
 )
@@ -385,11 +385,11 @@ voice_names = baca.accumulator.get_voice_names(score)
 
 commands = baca.CommandAccumulator(
     **baca.segment_accumulation_defaults(),
-    instruments=dornen.instruments,
-    metronome_marks=dornen.metronome_marks,
+    instruments=library.instruments,
+    metronome_marks=library.metronome_marks,
     skips_instead_of_rests=True,
     time_signatures=figures.time_signatures,
-    voice_abbreviations=dornen.voice_abbreviations,
+    voice_abbreviations=library.voice_abbreviations,
     voice_names=voice_names,
 )
 

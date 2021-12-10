@@ -1,38 +1,38 @@
 import baca
 
-from dornen import library as dornen
+from dornen import library
 
 #########################################################################################
 ########################################### 04 ##########################################
 #########################################################################################
 
-score = dornen.make_empty_score()
+score = library.make_empty_score()
 
 figures = baca.FigureAccumulator(
     score,
-    voice_abbreviations=dornen.voice_abbreviations,
+    voice_abbreviations=library.voice_abbreviations,
 )
-design = dornen.design_3(stop=10)
+design = library.design_3(stop=10)
 assert len(design) == 10
 
 figures(
     "v1",
     design[:2],
-    *dornen.waves(denominator=32),
+    *library.waves(denominator=32),
     figure_name="W1",
 )
 
 figures(
     "v1",
     design[:2],
-    *dornen.waves(denominator=64),
+    *library.waves(denominator=64),
     figure_name="W2",
 )
 
 figures(
     "v1",
     [baca.Sequence(design[:2]).flatten()],
-    *dornen.waves(denominator=64),
+    *library.waves(denominator=64),
     figure_name="W3",
 )
 
@@ -40,7 +40,7 @@ figures(
 figures(
     "v2",
     design[2:3],
-    *dornen.glissando_scatto(),
+    *library.glissando_scatto(),
     baca.markup(r"\dornen-glissando-attack-first-note-only-markup"),
     baca.beam_positions(-12),
     baca.register(-8),
@@ -52,7 +52,7 @@ figures(
 figures(
     "v1",
     design[3:6],
-    *dornen.waves(denominator=32, inverted=True),
+    *library.waves(denominator=32, inverted=True),
     baca.register(-8),
     figure_name="W4",
 )
@@ -60,7 +60,7 @@ figures(
 figures(
     "v3",
     design[6:9],
-    *dornen.running(),
+    *library.running(),
     baca.register(0, -14),
     baca.extend_beam(),
     figure_name="R1",
@@ -69,7 +69,7 @@ figures(
 figures(
     "v3",
     design[7:10],
-    *dornen.running(),
+    *library.running(),
     baca.register(-14, 0),
     baca.extend_beam(),
     figure_name="R2",
@@ -78,14 +78,14 @@ figures(
 figures(
     "v4",
     [3 * ["C4"]],
-    *dornen.rests(),
+    *library.rests(),
     figure_name="S1",
 )
 
 figures(
     "v4",
     2 * [["Gb2"]],
-    *dornen.monads(),
+    *library.monads(),
     baca.markup(r"\dornen-two-finger-tamb-trill-markup"),
     baca.repeat_tie(baca.selectors.phead(1)),
     baca.stem_tremolo(baca.selectors.pleaves()),
@@ -100,7 +100,7 @@ figures(
 figures(
     "v3",
     design[8:] + design[:1],
-    *dornen.running(),
+    *library.running(),
     baca.register(-14, 0),
     figure_name="R3",
 )
@@ -108,7 +108,7 @@ figures(
 figures(
     "v1",
     design[1:3],
-    *dornen.waves(denominator=32),
+    *library.waves(denominator=32),
     baca.register(-20),
     figure_name="W5",
 )
@@ -116,7 +116,7 @@ figures(
 figures(
     "v2",
     design[3:4],
-    *dornen.glissando_scatto(),
+    *library.glissando_scatto(),
     baca.register(-8),
     baca.displacement([0, 1]),
     baca.extend_beam(),
@@ -126,7 +126,7 @@ figures(
 figures(
     "v1",
     design[1:4],
-    *dornen.waves(denominator=32),
+    *library.waves(denominator=32),
     baca.register(-20, -4),
     figure_name="W6",
 )
@@ -134,7 +134,7 @@ figures(
 figures(
     "v2",
     design[4:5],
-    *dornen.glissando_scatto(),
+    *library.glissando_scatto(),
     baca.register(-8),
     baca.displacement([0, 1]),
     figure_name="G3",
@@ -143,7 +143,7 @@ figures(
 figures(
     "v3",
     design[5:8],
-    *dornen.running(),
+    *library.running(),
     baca.register(0, -14),
     baca.extend_beam(),
     figure_name="R4",
@@ -152,7 +152,7 @@ figures(
 figures(
     "v3",
     design[6:9],
-    *dornen.running(),
+    *library.running(),
     baca.register(-14, 0),
     baca.extend_beam(),
     figure_name="R5",
@@ -161,14 +161,14 @@ figures(
 figures(
     "v4",
     [3 * ["C4"]],
-    *dornen.rests(),
+    *library.rests(),
     figure_name="S2",
 )
 
 figures(
     "v4",
     2 * [["Gb2"]],
-    *dornen.monads(),
+    *library.monads(),
     baca.markup(r"\dornen-two-finger-tamb-trill-markup"),
     baca.repeat_tie(baca.selectors.phead(1)),
     baca.stem_tremolo(baca.selectors.pleaves()),
@@ -183,7 +183,7 @@ figures(
 figures(
     "v3",
     design[7:10],
-    *dornen.running(),
+    *library.running(),
     baca.register(-14, 0),
     figure_name="R6",
 )
@@ -192,11 +192,11 @@ voice_names = baca.accumulator.get_voice_names(score)
 
 commands = baca.CommandAccumulator(
     **baca.segment_accumulation_defaults(),
-    instruments=dornen.instruments,
-    metronome_marks=dornen.metronome_marks,
+    instruments=library.instruments,
+    metronome_marks=library.metronome_marks,
     skips_instead_of_rests=True,
     time_signatures=figures.time_signatures,
-    voice_abbreviations=dornen.voice_abbreviations,
+    voice_abbreviations=library.voice_abbreviations,
     voice_names=voice_names,
 )
 

@@ -1,25 +1,25 @@
 import baca
 
-from dornen import library as dornen
+from dornen import library
 
 #########################################################################################
 ########################################### 01 ##########################################
 #########################################################################################
 
-score = dornen.make_empty_score()
+score = library.make_empty_score()
 
 figures = baca.FigureAccumulator(
     score,
-    voice_abbreviations=dornen.voice_abbreviations,
+    voice_abbreviations=library.voice_abbreviations,
 )
-design = dornen.design_1(stop=22)
+design = library.design_1(stop=22)
 assert len(design) == 22
 cursor = baca.Cursor(design)
 
 figures(
     "v1",
     cursor.next(),
-    *dornen.anchors(),
+    *library.anchors(),
     baca.beam_positions(
         6,
         baca.selectors.leaves(grace=False),
@@ -32,7 +32,7 @@ figures(
 figures(
     "v2",
     cursor.next(),
-    *dornen.passepied(),
+    *library.passepied(),
     baca.beam_positions(
         -10,
         baca.selectors.leaves(grace=False),
@@ -46,7 +46,7 @@ figures(
 figures(
     "v1",
     cursor.next(),
-    *dornen.anchors(),
+    *library.anchors(),
     baca.register(-10),
     baca.extend_beam(),
     figure_name="2",
@@ -55,7 +55,7 @@ figures(
 figures(
     "v2",
     cursor.next(),
-    *dornen.passepied(),
+    *library.passepied(),
     baca.time_signature_extra_offset((-2.5, 0)),
     baca.register(-8),
     baca.extend_beam(),
@@ -65,7 +65,7 @@ figures(
 figures(
     "v1",
     cursor.next(),
-    *dornen.anchors(),
+    *library.anchors(),
     baca.register(-12),
     figure_name="4",
 )
@@ -73,7 +73,7 @@ figures(
 figures(
     "v2",
     cursor.next(),
-    *dornen.passepied(),
+    *library.passepied(),
     baca.time_signature_extra_offset((-2.5, 0)),
     baca.register(-6),
     figure_name="5",
@@ -82,7 +82,7 @@ figures(
 figures(
     "v1",
     cursor.next(),
-    *dornen.anchors(),
+    *library.anchors(),
     baca.beam_positions(
         9,
         baca.selectors.leaves(grace=False),
@@ -95,7 +95,7 @@ figures(
 figures(
     "v2",
     cursor.next(),
-    *dornen.passepied(),
+    *library.passepied(),
     baca.beam_positions(
         -10,
         baca.selectors.leaves(grace=False),
@@ -109,7 +109,7 @@ figures(
 figures(
     "v4",
     cursor.next(2),
-    *dornen.running(),
+    *library.running(),
     baca.register(-12),
     figure_name="8",
 )
@@ -117,7 +117,7 @@ figures(
 figures(
     "v1",
     cursor.next(),
-    *dornen.anchors(),
+    *library.anchors(),
     baca.register(-16),
     figure_name="9",
 )
@@ -125,7 +125,7 @@ figures(
 figures(
     "v4",
     cursor.next(2),
-    *dornen.running(),
+    *library.running(),
     baca.register(-6),
     figure_name="10",
 )
@@ -133,7 +133,7 @@ figures(
 figures(
     "v1",
     cursor.next(),
-    *dornen.anchors(),
+    *library.anchors(),
     baca.beam_positions(
         6,
         baca.selectors.leaves(grace=False),
@@ -146,7 +146,7 @@ figures(
 figures(
     "v2",
     cursor.next(),
-    *dornen.passepied(),
+    *library.passepied(),
     baca.time_signature_extra_offset((-2.5, 0)),
     baca.register(-2),
     figure_name="12",
@@ -155,7 +155,7 @@ figures(
 figures(
     "v1",
     cursor.next(),
-    *dornen.anchors(),
+    *library.anchors(),
     baca.register(-20),
     figure_name="13",
 )
@@ -163,7 +163,7 @@ figures(
 figures(
     "v2",
     cursor.next(),
-    *dornen.passepied(),
+    *library.passepied(),
     baca.beam_positions(
         -10,
         baca.selectors.leaves(grace=False),
@@ -177,7 +177,7 @@ figures(
 figures(
     "v2",
     cursor.next(),
-    *dornen.passepied(),
+    *library.passepied(),
     baca.time_signature_extra_offset((-2.5, 0)),
     baca.register(2),
     figure_name="15",
@@ -186,7 +186,7 @@ figures(
 figures(
     "v4",
     cursor.next(2),
-    *dornen.running(),
+    *library.running(),
     baca.register(-12, 0),
     figure_name="16",
 )
@@ -194,7 +194,7 @@ figures(
 figures(
     "v3",
     cursor.next(),
-    *dornen.waves(denominator=64, inverted=True),
+    *library.waves(denominator=64, inverted=True),
     baca.beam_positions(
         -6,
         baca.selectors.leaves(grace=False),
@@ -205,7 +205,7 @@ figures(
 figures(
     "v3",
     cursor.next(),
-    *dornen.waves(denominator=64, inverted=True),
+    *library.waves(denominator=64, inverted=True),
     baca.beam_positions(
         -6,
         baca.selectors.leaves(grace=False),
@@ -217,11 +217,11 @@ voice_names = baca.accumulator.get_voice_names(score)
 
 commands = baca.CommandAccumulator(
     **baca.segment_accumulation_defaults(),
-    instruments=dornen.instruments,
-    metronome_marks=dornen.metronome_marks,
+    instruments=library.instruments,
+    metronome_marks=library.metronome_marks,
     skips_instead_of_rests=True,
     time_signatures=figures.time_signatures,
-    voice_abbreviations=dornen.voice_abbreviations,
+    voice_abbreviations=library.voice_abbreviations,
     voice_names=voice_names,
 )
 

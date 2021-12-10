@@ -1,25 +1,25 @@
 import baca
 
-from dornen import library as dornen
+from dornen import library
 
 #########################################################################################
 ########################################### 02 ##########################################
 #########################################################################################
 
-score = dornen.make_empty_score()
+score = library.make_empty_score()
 
 figures = baca.FigureAccumulator(
     score,
-    voice_abbreviations=dornen.voice_abbreviations,
+    voice_abbreviations=library.voice_abbreviations,
 )
-design_2 = dornen.design_2(stop=14)
+design_2 = library.design_2(stop=14)
 design = design_2[:14]
 assert len(design) == 14
 
 figures(
     "v1",
     design[:4],
-    *dornen.waves(denominator=64, inverted=True),
+    *library.waves(denominator=64, inverted=True),
     baca.beam_positions(8),
     baca.register(0, -14),
     signature=16,
@@ -29,7 +29,7 @@ figures(
 figures(
     "v2",
     baca.Sequence(design[4:5]).reveal(1),
-    *dornen.twentieths(),
+    *library.twentieths(),
     baca.beam_positions(-8),
     baca.register(6),
     baca.extend_beam(),
@@ -39,7 +39,7 @@ figures(
 figures(
     "v1",
     design[5:8],
-    *dornen.running(),
+    *library.running(),
     baca.register(-14, 0),
     baca.extend_beam(),
     figure_name="R1",
@@ -48,7 +48,7 @@ figures(
 figures(
     "v2",
     baca.Sequence(design[4:5]).reveal(2),
-    *dornen.twentieths(),
+    *library.twentieths(),
     baca.register(6),
     baca.extend_beam(),
     figure_name="F1_2",
@@ -57,7 +57,7 @@ figures(
 figures(
     "v1",
     design[6:9],
-    *dornen.running(),
+    *library.running(),
     baca.register(-14, 0),
     baca.extend_beam(),
     figure_name="R2",
@@ -66,7 +66,7 @@ figures(
 figures(
     "v2",
     baca.Sequence(design[4:5]).reveal(3),
-    *dornen.twentieths(),
+    *library.twentieths(),
     baca.register(6),
     baca.extend_beam(),
     figure_name="F1_3",
@@ -75,7 +75,7 @@ figures(
 figures(
     "v1",
     design[7:10],
-    *dornen.running(),
+    *library.running(),
     baca.register(-14, 0),
     baca.extend_beam(),
     figure_name="R3",
@@ -84,7 +84,7 @@ figures(
 figures(
     "v2",
     baca.Sequence(design[4:5]).reveal(4),
-    *dornen.twentieths(),
+    *library.twentieths(),
     baca.register(6),
     baca.extend_beam(),
     figure_name="F1_4",
@@ -93,7 +93,7 @@ figures(
 figures(
     "v1",
     design[8:11],
-    *dornen.running(),
+    *library.running(),
     baca.register(-14, 0),
     baca.extend_beam(),
     figure_name="R4",
@@ -102,7 +102,7 @@ figures(
 figures(
     "v2",
     baca.Sequence(design[4:5]).reveal(5),
-    *dornen.twentieths(),
+    *library.twentieths(),
     baca.register(6),
     figure_name="F1",
 )
@@ -110,7 +110,7 @@ figures(
 figures(
     "v1",
     design[9:13],
-    *dornen.running(),
+    *library.running(),
     baca.register(-14, 6),
     figure_name="R5",
 )
@@ -118,7 +118,7 @@ figures(
 figures(
     "v2",
     baca.Sequence(design[4:5]).reveal(1),
-    *dornen.twentieths(),
+    *library.twentieths(),
     baca.register(6),
     baca.extend_beam(),
     figure_name="F1_1*",
@@ -127,7 +127,7 @@ figures(
 figures(
     "v1",
     design[13:],
-    *dornen.delicatissimo(),
+    *library.delicatissimo(),
     baca.text_script_staff_padding(9),
     baca.register(6, -20),
     baca.extend_beam(),
@@ -137,7 +137,7 @@ figures(
 figures(
     "v2",
     baca.Sequence(design[4:5]).reveal(2),
-    *dornen.twentieths(),
+    *library.twentieths(),
     baca.register(6),
     figure_name="F1_2*",
 )
@@ -145,7 +145,7 @@ figures(
 figures(
     "v1",
     design[13:],
-    *dornen.delicatissimo(),
+    *library.delicatissimo(),
     baca.register(-20, 6),
     figure_name="D2",
 )
@@ -154,11 +154,11 @@ voice_names = baca.accumulator.get_voice_names(score)
 
 commands = baca.CommandAccumulator(
     **baca.segment_accumulation_defaults(),
-    instruments=dornen.instruments,
-    metronome_marks=dornen.metronome_marks,
+    instruments=library.instruments,
+    metronome_marks=library.metronome_marks,
     skips_instead_of_rests=True,
     time_signatures=figures.time_signatures,
-    voice_abbreviations=dornen.voice_abbreviations,
+    voice_abbreviations=library.voice_abbreviations,
     voice_names=voice_names,
 )
 

@@ -1,24 +1,24 @@
 import baca
 
-from dornen import library as dornen
+from dornen import library
 
 #########################################################################################
 ########################################### 08 ##########################################
 #########################################################################################
 
-score = dornen.make_empty_score()
+score = library.make_empty_score()
 
 figures = baca.FigureAccumulator(
     score,
-    voice_abbreviations=dornen.voice_abbreviations,
+    voice_abbreviations=library.voice_abbreviations,
 )
-design = dornen.design_2(start=28)
+design = library.design_2(start=28)
 assert len(design) == 12, (repr(design), len(design))
 
 figures(
     "v2",
     design[:1],
-    *dornen.ovoids(),
+    *library.ovoids(),
     baca.beam_positions(
         -7.5,
         baca.selectors.pleaf(0),
@@ -30,7 +30,7 @@ figures(
 figures(
     "v1",
     design[1:2],
-    *dornen.glissando_scatto(),
+    *library.glissando_scatto(),
     baca.beam_positions(8),
     figure_name="L1",
 )
@@ -38,7 +38,7 @@ figures(
 figures(
     "v4",
     design[2:3],
-    *dornen.graced_tuplets(),
+    *library.graced_tuplets(),
     baca.extend_beam(),
     figure_name="G1",
 )
@@ -46,7 +46,7 @@ figures(
 figures(
     "v3",
     design[3:4],
-    *dornen.delicatissimo(),
+    *library.delicatissimo(),
     baca.beam_positions(-7.5),
     baca.register(4, -20),
     figure_name="D1",
@@ -55,14 +55,14 @@ figures(
 figures(
     "v4",
     design[4:5],
-    *dornen.graced_tuplets(),
+    *library.graced_tuplets(),
     figure_name="G2",
 )
 
 figures(
     "v2",
     design[5:6],
-    *dornen.ovoids(),
+    *library.ovoids(),
     baca.beam_positions(
         -7.5,
         baca.selectors.pleaf(0),
@@ -74,7 +74,7 @@ figures(
 figures(
     "v1",
     design[6:7],
-    *dornen.glissando_scatto(),
+    *library.glissando_scatto(),
     baca.beam_positions(12),
     baca.extend_beam(),
     figure_name="L2",
@@ -83,7 +83,7 @@ figures(
 figures(
     "v4",
     design[7:8],
-    *dornen.graced_tuplets(),
+    *library.graced_tuplets(),
     baca.extend_beam(),
     figure_name="G3",
 )
@@ -91,7 +91,7 @@ figures(
 figures(
     "v3",
     design[8:9],
-    *dornen.delicatissimo(),
+    *library.delicatissimo(),
     baca.beam_positions(-6),
     baca.register(4, -20),
     figure_name="D2",
@@ -100,21 +100,21 @@ figures(
 figures(
     "v4",
     design[9:10],
-    *dornen.graced_tuplets(),
+    *library.graced_tuplets(),
     figure_name="G4",
 )
 
 figures(
     "v2",
     design[10:11],
-    *dornen.ovoids(),
+    *library.ovoids(),
     figure_name="O3",
 )
 
 figures(
     "v1",
     design[11:12],
-    *dornen.glissando_scatto(),
+    *library.glissando_scatto(),
     figure_name="L3",
 )
 
@@ -122,11 +122,11 @@ voice_names = baca.accumulator.get_voice_names(score)
 
 commands = baca.CommandAccumulator(
     **baca.segment_accumulation_defaults(),
-    instruments=dornen.instruments,
-    metronome_marks=dornen.metronome_marks,
+    instruments=library.instruments,
+    metronome_marks=library.metronome_marks,
     skips_instead_of_rests=True,
     time_signatures=figures.time_signatures,
-    voice_abbreviations=dornen.voice_abbreviations,
+    voice_abbreviations=library.voice_abbreviations,
     voice_names=voice_names,
 )
 

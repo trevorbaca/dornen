@@ -2,19 +2,19 @@ import abjad
 import baca
 from abjadext import rmakers
 
-from dornen import library as dornen
+from dornen import library
 
 #########################################################################################
 ########################################### 14 ##########################################
 #########################################################################################
 
-score = dornen.make_empty_score()
+score = library.make_empty_score()
 
 figures = baca.FigureAccumulator(
     score,
-    voice_abbreviations=dornen.voice_abbreviations,
+    voice_abbreviations=library.voice_abbreviations,
 )
-design = dornen.design_2(start=14, stop=28)
+design = library.design_2(start=14, stop=28)
 assert len(design) == 14
 
 ### 1 ###
@@ -22,7 +22,7 @@ assert len(design) == 14
 figures(
     "v1",
     design[:1],
-    *dornen.forty_eighths(),
+    *library.forty_eighths(),
     baca.markup(r"\dornen-lh-only-until-rascado-markup"),
     baca.extend_beam(),
 )
@@ -30,20 +30,20 @@ figures(
 figures(
     "v4",
     design[1:2],
-    *dornen.twentieths(),
+    *library.twentieths(),
     baca.extend_beam(),
 )
 
 figures(
     "v3",
     design[2:3],
-    *dornen.sixteenths(),
+    *library.sixteenths(),
 )
 
 figures(
     "v4",
     design[3:4],
-    *dornen.twentieths(),
+    *library.twentieths(),
     baca.beam_positions(6),
     baca.stem_up(),
 )
@@ -51,20 +51,20 @@ figures(
 figures(
     "v2",
     design[4:5],
-    *dornen.thirty_seconds(),
+    *library.thirty_seconds(),
     baca.slur(),
 )
 
 figures(
     "v1",
     design[5:6],
-    *dornen.forty_eighths(),
+    *library.forty_eighths(),
 )
 
 figures(
     "v1",
     [["C4"]],
-    *dornen.thirty_seconds(),
+    *library.thirty_seconds(),
     rmakers.force_rest(baca.selectors.lt(0)),
 )
 
@@ -73,7 +73,7 @@ figures(
 figures(
     "v1",
     design[:1],
-    *dornen.forty_eighths(),
+    *library.forty_eighths(),
     baca.markup(r"\dornen-rh-reaches-for-screw-markup"),
     baca.extend_beam(),
 )
@@ -81,20 +81,20 @@ figures(
 figures(
     "v4",
     design[1:2],
-    *dornen.twentieths(),
+    *library.twentieths(),
     baca.extend_beam(),
 )
 
 figures(
     "v3",
     design[2:3],
-    *dornen.sixteenths(),
+    *library.sixteenths(),
 )
 
 figures(
     "v4",
     design[3:4],
-    *dornen.twentieths(),
+    *library.twentieths(),
     baca.beam_positions(6),
     baca.stem_up(),
 )
@@ -102,20 +102,20 @@ figures(
 figures(
     "v2",
     design[4:5],
-    *dornen.thirty_seconds(),
+    *library.thirty_seconds(),
     baca.slur(),
 )
 
 figures(
     "v1",
     design[5:6],
-    *dornen.forty_eighths(),
+    *library.forty_eighths(),
 )
 
 figures(
     "v1",
     [["C4"]],
-    *dornen.thirty_seconds(),
+    *library.thirty_seconds(),
     rmakers.force_rest(baca.selectors.lt(0)),
 )
 
@@ -124,7 +124,7 @@ figures(
 figures(
     "v1",
     design[:1],
-    *dornen.forty_eighths(),
+    *library.forty_eighths(),
     baca.markup(r"\dornen-rh-places-screw-on-string-markup"),
     baca.extend_beam(),
 )
@@ -132,20 +132,20 @@ figures(
 figures(
     "v4",
     design[1:2],
-    *dornen.twentieths(),
+    *library.twentieths(),
     baca.extend_beam(),
 )
 
 figures(
     "v3",
     design[2:3],
-    *dornen.sixteenths(),
+    *library.sixteenths(),
 )
 
 figures(
     "v4",
     design[3:4],
-    *dornen.twentieths(),
+    *library.twentieths(),
     baca.beam_positions(6),
     baca.stem_up(),
 )
@@ -153,20 +153,20 @@ figures(
 figures(
     "v2",
     design[4:5],
-    *dornen.thirty_seconds(),
+    *library.thirty_seconds(),
     baca.slur(),
 )
 
 figures(
     "v1",
     design[5:6],
-    *dornen.forty_eighths(),
+    *library.forty_eighths(),
 )
 
 figures(
     "v1",
     [["C4"]],
-    *dornen.thirty_seconds(),
+    *library.thirty_seconds(),
     rmakers.force_rest(baca.selectors.lt(0)),
 )
 
@@ -175,27 +175,27 @@ figures(
 figures(
     "v1",
     design[:1],
-    *dornen.forty_eighths(),
+    *library.forty_eighths(),
     baca.extend_beam(),
 )
 
 figures(
     "v4",
     design[1:2],
-    *dornen.twentieths(),
+    *library.twentieths(),
     baca.extend_beam(),
 )
 
 figures(
     "v3",
     design[2:3],
-    *dornen.sixteenths(),
+    *library.sixteenths(),
 )
 
 figures(
     "v4",
     design[3:4],
-    *dornen.twentieths(),
+    *library.twentieths(),
     baca.beam_positions(6),
     baca.stem_up(),
 )
@@ -203,20 +203,20 @@ figures(
 figures(
     "v2",
     design[4:5],
-    *dornen.thirty_seconds(),
+    *library.thirty_seconds(),
     baca.slur(),
 )
 
 figures(
     "v1",
     design[5:6],
-    *dornen.forty_eighths(),
+    *library.forty_eighths(),
 )
 
 figures(
     "v1",
     [["C4"]],
-    *dornen.thirty_seconds(),
+    *library.thirty_seconds(),
     rmakers.force_rest(baca.selectors.lt(0)),
 )
 
@@ -225,27 +225,27 @@ figures(
 figures(
     "v1",
     design[:1],
-    *dornen.forty_eighths(),
+    *library.forty_eighths(),
     baca.extend_beam(),
 )
 
 figures(
     "v4",
     design[1:2],
-    *dornen.twentieths(),
+    *library.twentieths(),
     baca.extend_beam(),
 )
 
 figures(
     "v3",
     design[2:3],
-    *dornen.sixteenths(),
+    *library.sixteenths(),
 )
 
 figures(
     "v4",
     design[3:4],
-    *dornen.twentieths(),
+    *library.twentieths(),
     baca.beam_positions(6),
     baca.stem_up(),
 )
@@ -253,20 +253,20 @@ figures(
 figures(
     "v2",
     design[4:5],
-    *dornen.thirty_seconds(),
+    *library.thirty_seconds(),
     baca.slur(),
 )
 
 figures(
     "v1",
     design[5:6],
-    *dornen.forty_eighths(),
+    *library.forty_eighths(),
 )
 
 figures(
     "v1",
     [["C4"]],
-    *dornen.thirty_seconds(),
+    *library.thirty_seconds(),
     rmakers.force_rest(baca.selectors.lt(0)),
 )
 
@@ -275,26 +275,26 @@ figures(
 figures(
     "v1",
     design[:1],
-    *dornen.forty_eighths(),
+    *library.forty_eighths(),
 )
 
 figures(
     "v4",
     design[1:2],
-    *dornen.twentieths(),
+    *library.twentieths(),
     baca.extend_beam(),
 )
 
 figures(
     "v3",
     design[2:3],
-    *dornen.sixteenths(),
+    *library.sixteenths(),
 )
 
 figures(
     "v4",
     design[3:4],
-    *dornen.twentieths(),
+    *library.twentieths(),
     baca.beam_positions(6),
     baca.stem_up(),
 )
@@ -302,7 +302,7 @@ figures(
 figures(
     "v2",
     design[4:5],
-    *dornen.thirty_seconds(),
+    *library.thirty_seconds(),
     baca.slur(),
 )
 
@@ -311,13 +311,13 @@ figures(
 figures(
     "v1",
     [5 * ["C4"]],
-    *dornen.rests(),
+    *library.rests(),
 )
 
 figures(
     "v1",
     [13 * ["E2"]],
-    *dornen.thirds(),
+    *library.thirds(),
     baca.dynamic("p"),
     baca.markup(
         r"\dornen-rascado-explanation-markup",
@@ -337,11 +337,11 @@ voice_names = baca.accumulator.get_voice_names(score)
 
 commands = baca.CommandAccumulator(
     **baca.segment_accumulation_defaults(),
-    instruments=dornen.instruments,
-    metronome_marks=dornen.metronome_marks,
+    instruments=library.instruments,
+    metronome_marks=library.metronome_marks,
     skips_instead_of_rests=True,
     time_signatures=figures.time_signatures,
-    voice_abbreviations=dornen.voice_abbreviations,
+    voice_abbreviations=library.voice_abbreviations,
     voice_names=voice_names,
 )
 

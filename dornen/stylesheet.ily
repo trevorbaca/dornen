@@ -41,28 +41,6 @@
     top-margin = 0\in
 }
 
-\header {
-    composer = \markup {
-        \override #'(font-name . "Palatino")
-        \fontsize #5
-        \line { Trevor Bača (*1975) }
-    }
-    tagline = \markup \null
-    title = \markup \column {
-        \center-align {
-            \override #'(font-name . "Palatino")
-            \fontsize #14 {
-               \line { SPIEL \hspace #4 DER \hspace #4 DORNEN }
-            }
-            \null
-            \override #'(font-name . "Palatino Italic")
-            \fontsize #3 {
-               " for Nico Couck "
-            }
-        }
-    }
-}
-
 \layout {
     \accidentalStyle neo-modern
     indent = 0

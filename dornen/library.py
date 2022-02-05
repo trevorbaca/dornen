@@ -278,7 +278,7 @@ def graced_tuplets():
     )
 
     return [
-        baca.bind(baca.assign(maker_1, abjad.index([0], 2)), baca.assign(maker_2)),
+        baca.bind([baca.assign(maker_1, abjad.index([0], 2)), baca.assign(maker_2)]),
         rmakers.beam_groups(beam_lone_notes=True),
     ]
 
@@ -306,8 +306,10 @@ def passepied():
     """
     return [
         baca.bind(
-            baca.assign(baca.figure([1], 16), ~abjad.index([0])),
-            baca.assign(baca.figure([1], 32, acciaccatura=True)),
+            [
+                baca.assign(baca.figure([1], 16), ~abjad.index([0])),
+                baca.assign(baca.figure([1], 32, acciaccatura=True)),
+            ]
         ),
         rmakers.beam_groups(beam_lone_notes=True),
     ]
@@ -425,8 +427,10 @@ def waves(denominator: int = 64, inverted: bool = False):
         maker_2 = accelerando_maker
     return [
         baca.bind(
-            baca.assign(maker_1, pattern=abjad.index([0], 2)),
-            baca.assign(maker_2, pattern=abjad.index([1], 2)),
+            [
+                baca.assign(maker_1, pattern=abjad.index([0], 2)),
+                baca.assign(maker_2, pattern=abjad.index([1], 2)),
+            ]
         ),
         rmakers.beam(),
     ]

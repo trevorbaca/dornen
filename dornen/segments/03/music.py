@@ -221,7 +221,7 @@ figures(
 
 figures(
     "v4",
-    list(baca.Sequence(design[5:6]).repeat(n=2).flatten().map(list)),
+    list(abjad.Sequence(design[5:6]).repeat(n=2).flatten().map(list)),
     *library.graced_tuplets(),
     baca.beam_positions(6),
     baca.stem_up(),
@@ -284,7 +284,7 @@ figures(
 
 figures(
     "v2",
-    baca.Sequence(design[7:9]).join(),
+    abjad.Sequence(design[7:9]).join(),
     *library.ovoids(),
     baca.register(-14, -6),
     figure_name="O3",
@@ -292,7 +292,7 @@ figures(
 
 figures(
     "v2",
-    baca.Sequence(design[9:11]).join(),
+    abjad.Sequence(design[9:11]).join(),
     *library.ovoids(),
     baca.beam_positions(
         -8,
@@ -305,7 +305,7 @@ figures(
 
 figures(
     "v2",
-    baca.Sequence(design[11:13]).join(),
+    abjad.Sequence(design[11:13]).join(),
     *library.ovoids(),
     baca.register(-14, -6),
     baca.extend_beam(),
@@ -314,7 +314,7 @@ figures(
 
 figures(
     "v2",
-    baca.Sequence(design[13:15]).join(),
+    abjad.Sequence(design[13:15]).join(),
     *library.ovoids(),
     baca.register(-14, -6),
     baca.extend_beam(),
@@ -323,7 +323,7 @@ figures(
 
 figures(
     "v2",
-    baca.Sequence(design[15:17]).join(),
+    abjad.Sequence(design[15:17]).join(),
     *library.ovoids(),
     baca.register(-14, -6),
     figure_name="O7",
@@ -331,7 +331,7 @@ figures(
 
 figures(
     "v2",
-    baca.Sequence(design[17:19]).join(),
+    abjad.Sequence(design[17:19]).join(),
     *library.ovoids(),
     baca.beam_positions(
         -8,
@@ -364,7 +364,7 @@ figures(
 
 figures(
     "v2",
-    baca.Sequence(design[19:21]).join(),
+    abjad.Sequence(design[19:21]).join(),
     *library.ovoids(),
     baca.register(-14, -6),
     # baca.extend_beam(),

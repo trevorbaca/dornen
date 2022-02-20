@@ -26,7 +26,7 @@ figures(
 
 figures(
     "v4",
-    baca.Sequence(design[5:6]).reveal(1),
+    baca.sequence.reveal(design[5:6], 1),
     *library.graced_tuplets(),
     baca.beam_positions(12),
     baca.stem_up(),
@@ -50,7 +50,7 @@ figures(
 
 figures(
     "v4",
-    baca.Sequence(design[5:6]).reveal(1),
+    baca.sequence.reveal(design[5:6], 1),
     *library.graced_tuplets(),
     baca.stem_up(),
     baca.register(0),
@@ -60,7 +60,7 @@ figures(
 
 figures(
     "v1",
-    baca.Sequence(design[2:3]).boustrophedon(count=2),
+    baca.sequence.boustrophedon(design[2:3], count=2),
     *library.waves(denominator=64, inverted=True),
     baca.beam_positions(7),
     baca.register(0, -14),
@@ -69,7 +69,7 @@ figures(
 
 figures(
     "v4",
-    baca.Sequence(design[5:6]).reveal(3),
+    baca.sequence.reveal(design[5:6], 3),
     *library.graced_tuplets(),
     baca.stem_up(),
     baca.register(0),
@@ -88,18 +88,18 @@ figures(
 
 figures(
     "v4",
-    baca.Sequence(design[5:6]).reveal(3),
+    baca.sequence.reveal(design[5:6], 3),
     *library.graced_tuplets(),
     baca.stem_up(),
     baca.register(0),
     figure_name="G1_3",
 )
 
-cell_d1 = [baca.Sequence(design[4:5]).boustrophedon(count=4).flatten()]
+cell_d1 = [abjad.Sequence(baca.sequence.boustrophedon(design[4:5], count=4)).flatten()]
 
 figures(
     "v1",
-    baca.Sequence(cell_d1).reveal(4),
+    baca.sequence.reveal(cell_d1, 4),
     *library.delicatissimo(),
     baca.beam_positions(-6.5),
     baca.stem_down(),
@@ -109,7 +109,7 @@ figures(
 
 figures(
     "v4",
-    baca.Sequence(design[5:6]).reveal(1),
+    baca.sequence.reveal(design[5:6], 1),
     *library.graced_tuplets(),
     baca.beam_positions(12),
     baca.stem_up(),
@@ -120,7 +120,7 @@ figures(
 
 figures(
     "v1",
-    baca.Sequence(cell_d1).reveal(3),
+    baca.sequence.reveal(cell_d1, 3),
     *library.delicatissimo(),
     baca.beam_positions(-6.5),
     baca.stem_down(),
@@ -130,7 +130,7 @@ figures(
 
 figures(
     "v4",
-    baca.Sequence(design[5:6]).reveal(5),
+    baca.sequence.reveal(design[5:6], 5),
     *library.graced_tuplets(),
     baca.stem_up(),
     baca.register(0),
@@ -140,7 +140,7 @@ figures(
 
 figures(
     "v1",
-    baca.Sequence(cell_d1).reveal(10),
+    baca.sequence.reveal(cell_d1, 10),
     *library.delicatissimo(),
     baca.beam_positions(-6.5),
     baca.stem_down(),
@@ -162,7 +162,7 @@ figures(
 
 figures(
     "v4",
-    baca.Sequence(design[5:6]).reveal(3),
+    baca.sequence.reveal(design[5:6], 3),
     *library.graced_tuplets(),
     baca.stem_up(),
     baca.register(0),
@@ -172,7 +172,7 @@ figures(
 
 figures(
     "v1",
-    [baca.Sequence(design[2:3]).boustrophedon(count=2).flatten()],
+    [abjad.Sequence(baca.sequence.boustrophedon(design[2:3], count=2)).flatten()],
     *library.waves(denominator=64),
     baca.beam_positions(7),
     baca.stem_up(),
@@ -182,7 +182,7 @@ figures(
 
 figures(
     "v1",
-    baca.Sequence(cell_d1).reveal(15),
+    baca.sequence.reveal(cell_d1, 15),
     *library.delicatissimo(),
     baca.beam_positions(-6.5),
     baca.stem_down(),
@@ -192,7 +192,7 @@ figures(
 
 figures(
     "v4",
-    baca.Sequence(design[5:6]).reveal(9),
+    baca.sequence.reveal(design[5:6], 9),
     *library.graced_tuplets(),
     baca.beam_positions(6),
     baca.stem_up(),
@@ -203,7 +203,7 @@ figures(
 
 figures(
     "v1",
-    baca.Sequence(cell_d1).reveal(6),
+    baca.sequence.reveal(cell_d1, 6),
     *library.delicatissimo(),
     baca.beam_positions(-6.5),
     baca.stem_down(),
@@ -244,7 +244,7 @@ figures(
 
 figures(
     "v1",
-    baca.Sequence(cell_d1).reveal(10),
+    baca.sequence.reveal(cell_d1, 10),
     *library.delicatissimo(),
     baca.beam_positions(-6.5),
     baca.stem_down(),
@@ -253,7 +253,7 @@ figures(
 
 figures(
     "v1",
-    baca.Sequence(cell_d1).reveal(-15),
+    baca.sequence.reveal(cell_d1, -15),
     *library.delicatissimo(),
     baca.beam_positions(-6.5),
     baca.nest([abjad.Multiplier((2, 3))]),
@@ -344,7 +344,7 @@ figures(
 
 figures(
     "v1",
-    [baca.Sequence(design[2:3]).boustrophedon(count=2).flatten()],
+    [abjad.Sequence(baca.sequence.boustrophedon(design[2:3], count=2)).flatten()],
     *library.waves(denominator=64),
     baca.beam_positions(7),
     baca.stem_up(),

@@ -1,3 +1,4 @@
+import abjad
 import baca
 
 from dornen import library
@@ -86,7 +87,7 @@ figures(
 
 figures(
     "v1",
-    baca.Sequence(design[9:10]).reveal(3).repeat(10).flatten(),
+    abjad.Sequence(baca.sequence.reveal(design[9:10], 3)).repeat(10).flatten(),
     *library.sixty_fourths(),
     baca.register(0),
     figure_name="D1",
@@ -94,7 +95,7 @@ figures(
 
 figures(
     "v1",
-    baca.Sequence(design[9:10]).reveal(4).repeat(10).flatten(),
+    abjad.Sequence(baca.sequence.reveal(design[9:10], 4)).repeat(10).flatten(),
     *library.sixty_fourths(),
     baca.register(0),
     figure_name="D2",
@@ -102,7 +103,7 @@ figures(
 
 figures(
     "v1",
-    baca.Sequence(design[9:10]).reveal(5).repeat(10).flatten(),
+    abjad.Sequence(baca.sequence.reveal(design[9:10], 5)).repeat(10).flatten(),
     *library.sixty_fourths(),
     baca.register(0),
     figure_name="D3",
@@ -110,7 +111,7 @@ figures(
 
 figures(
     "v1",
-    baca.Sequence(design[9:10]).reveal(6).repeat(10).flatten(),
+    abjad.Sequence(baca.sequence.reveal(design[9:10], 6)).repeat(10).flatten(),
     *library.sixty_fourths(),
     baca.register(0),
     figure_name="D4",
@@ -118,7 +119,7 @@ figures(
 
 figures(
     "v1",
-    baca.Sequence(design[9:10]).boustrophedon(count=4),
+    baca.sequence.boustrophedon(design[9:10], count=4),
     *library.sixty_fourths(),
     baca.register(0),
     figure_name="D5",

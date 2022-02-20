@@ -28,7 +28,7 @@ figures(
 
 figures(
     "v2",
-    baca.Sequence(design[4:5]).reveal(1),
+    baca.sequence.reveal(design[4:5], 1),
     *library.twentieths(),
     baca.beam_positions(-8),
     baca.register(6),
@@ -47,7 +47,7 @@ figures(
 
 figures(
     "v2",
-    baca.Sequence(design[4:5]).reveal(2),
+    baca.sequence.reveal(design[4:5], 2),
     *library.twentieths(),
     baca.register(6),
     baca.extend_beam(),
@@ -65,7 +65,7 @@ figures(
 
 figures(
     "v2",
-    baca.Sequence(design[4:5]).reveal(3),
+    baca.sequence.reveal(design[4:5], 3),
     *library.twentieths(),
     baca.register(6),
     baca.extend_beam(),
@@ -83,7 +83,7 @@ figures(
 
 figures(
     "v2",
-    baca.Sequence(design[4:5]).reveal(4),
+    baca.sequence.reveal(design[4:5], 4),
     *library.twentieths(),
     baca.register(6),
     baca.extend_beam(),
@@ -101,7 +101,7 @@ figures(
 
 figures(
     "v2",
-    baca.Sequence(design[4:5]).reveal(5),
+    baca.sequence.reveal(design[4:5], 5),
     *library.twentieths(),
     baca.register(6),
     figure_name="F1",
@@ -117,7 +117,7 @@ figures(
 
 figures(
     "v2",
-    baca.Sequence(design[4:5]).reveal(1),
+    baca.sequence.reveal(design[4:5], 1),
     *library.twentieths(),
     baca.register(6),
     baca.extend_beam(),
@@ -136,7 +136,7 @@ figures(
 
 figures(
     "v2",
-    baca.Sequence(design[4:5]).reveal(2),
+    baca.sequence.reveal(design[4:5], 2),
     *library.twentieths(),
     baca.register(6),
     figure_name="F1_2*",

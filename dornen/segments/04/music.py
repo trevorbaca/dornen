@@ -1,3 +1,4 @@
+import abjad
 import baca
 
 from dornen import library
@@ -31,7 +32,7 @@ figures(
 
 figures(
     "v1",
-    [baca.Sequence(design[:2]).flatten()],
+    [abjad.Sequence(design[:2]).flatten()],
     *library.waves(denominator=64),
     figure_name="W3",
 )

@@ -87,9 +87,9 @@ figures(
 
 figures(
     "v1",
-    abjad.Sequence(
+    abjad.sequence.flatten(
         abjad.sequence.repeat(baca.sequence.reveal(design[9:10], 3), 10)
-    ).flatten(),
+    ),
     *library.sixty_fourths(),
     baca.register(0),
     figure_name="D1",
@@ -97,9 +97,9 @@ figures(
 
 figures(
     "v1",
-    abjad.Sequence(
+    abjad.sequence.flatten(
         abjad.sequence.repeat(baca.sequence.reveal(design[9:10], 4), 10)
-    ).flatten(),
+    ),
     *library.sixty_fourths(),
     baca.register(0),
     figure_name="D2",
@@ -107,9 +107,9 @@ figures(
 
 figures(
     "v1",
-    abjad.Sequence(
+    abjad.sequence.flatten(
         abjad.sequence.repeat(baca.sequence.reveal(design[9:10], 5), 10)
-    ).flatten(),
+    ),
     *library.sixty_fourths(),
     baca.register(0),
     figure_name="D3",
@@ -117,9 +117,9 @@ figures(
 
 figures(
     "v1",
-    abjad.Sequence(
+    abjad.sequence.flatten(
         abjad.sequence.repeat(baca.sequence.reveal(design[9:10], 6), 10)
-    ).flatten(),
+    ),
     *library.sixty_fourths(),
     baca.register(0),
     figure_name="D4",

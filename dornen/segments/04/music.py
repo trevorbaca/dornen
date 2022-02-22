@@ -32,7 +32,7 @@ figures(
 
 figures(
     "v1",
-    [abjad.Sequence(design[:2]).flatten()],
+    [abjad.sequence.flatten(design[:2])],
     *library.waves(denominator=64),
     figure_name="W3",
 )

@@ -95,7 +95,7 @@ figures(
     figure_name="G1_3",
 )
 
-cell_d1 = [abjad.Sequence(baca.sequence.boustrophedon(design[4:5], count=4)).flatten()]
+cell_d1 = [abjad.sequence.flatten(baca.sequence.boustrophedon(design[4:5], count=4))]
 
 figures(
     "v1",
@@ -172,7 +172,7 @@ figures(
 
 figures(
     "v1",
-    [abjad.Sequence(baca.sequence.boustrophedon(design[2:3], count=2)).flatten()],
+    [abjad.sequence.flatten(baca.sequence.boustrophedon(design[2:3], count=2))],
     *library.waves(denominator=64),
     baca.beam_positions(7),
     baca.stem_up(),
@@ -221,10 +221,7 @@ figures(
 
 figures(
     "v4",
-    [
-        list(_) for _ in
-        abjad.Sequence(abjad.sequence.repeat(design[5:6], n=2)).flatten()
-    ],
+    [list(_) for _ in abjad.sequence.flatten(abjad.sequence.repeat(design[5:6], n=2))],
     *library.graced_tuplets(),
     baca.beam_positions(6),
     baca.stem_up(),
@@ -347,7 +344,7 @@ figures(
 
 figures(
     "v1",
-    [abjad.Sequence(baca.sequence.boustrophedon(design[2:3], count=2)).flatten()],
+    [abjad.sequence.flatten(baca.sequence.boustrophedon(design[2:3], count=2))],
     *library.waves(denominator=64),
     baca.beam_positions(7),
     baca.stem_up(),

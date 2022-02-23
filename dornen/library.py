@@ -13,6 +13,85 @@ metronome_marks = dict(
     ]
 )
 
+
+def _apply_operator(segment, operator):
+    assert isinstance(segment, baca.PitchClassSegment)
+    assert isinstance(operator, str), repr(operator)
+    if operator.startswith("T"):
+        index = int(operator[1:])
+        segment = segment.transpose(index)
+    elif operator == "I":
+        segment = segment.invert()
+    elif operator.startswith("M"):
+        index = int(operator[1:])
+        segment = segment.multiply(index)
+    elif operator == "alpha":
+        segment = segment.alpha()
+    else:
+        raise Exception(f"unrecognized operator: {operator!r}.")
+    return segment
+
+
+def _check_duplicate_pitch_classes(design):
+    leaves = design.get_payload()
+    for leaf_1, leaf_2 in abjad.sequence.nwise(leaves):
+        if leaf_1 == leaf_2:
+            raise Exception(f"duplicate {leaf_1!r}.")
+
+
+class DesignMaker:
+    def __init__(self):
+        self._result = []
+
+    def __call__(self) -> baca.PitchTree:
+        design = baca.PitchTree(items=self._result)
+        _check_duplicate_pitch_classes(design)
+        return design
+
+    def __repr__(self):
+        return f"{type(self).__name__}()"
+
+    def partition(self, cursor, number, counts, operators=None) -> None:
+        """
+        Partitions next ``number`` cells in ``cursor`` by ``counts``.
+
+        Appies optional ``operators`` to resulting parts of partition.
+        """
+        cells = cursor.next(number)
+        list_ = []
+        for cell in cells:
+            list_.extend(cell)
+        segment = baca.PitchClassSegment(items=list_)
+        operators = operators or []
+        for operator in operators:
+            segment = _apply_operator(segment, operator)
+        sequence = list(segment)
+        parts = abjad.sequence.partition_by_counts(sequence, counts, overhang=True)
+        parts_ = [baca.PitchClassSegment(_) for _ in parts]
+        self._result.extend(parts_)
+
+    def partition_cyclic(self, cursor, number, counts, operators=None):
+        """
+        Partitions next ``number`` cells in ``cursor`` cyclically by ``counts``
+
+        Applies optional ``operators`` to parts in resulting partition.
+        """
+        cells = cursor.next(number)
+        list_ = []
+        for cell in cells:
+            list_.extend(cell)
+        segment = baca.PitchClassSegment(items=list_)
+        operators = operators or []
+        for operator in operators:
+            segment = _apply_operator(segment, operator)
+        sequence = list(segment)
+        parts = abjad.sequence.partition_by_counts(
+            sequence, counts, cyclic=True, overhang=True
+        )
+        parts = [baca.PitchClassSegment(_) for _ in parts]
+        self._result.extend(parts)
+
+
 blue_pitch_classes = [[1, 0, 10], [5, 8, 6, 11, 2], [4, 3, 9]]
 blue_pitch_classes = baca.sequence.helianthate(blue_pitch_classes, -1, -1)
 assert len(blue_pitch_classes) == 45
@@ -864,7 +943,7 @@ def design_1(start=None, stop=None):
             }
 
     """
-    design_maker = baca.DesignMaker()
+    design_maker = DesignMaker()
     magenta_cursor = baca.Cursor.from_pitch_class_segments(magenta_pitch_classes)
     blue_cursor = baca.Cursor.from_pitch_class_segments(blue_pitch_classes)
     design_maker.partition(magenta_cursor, 2, [1])
@@ -1300,7 +1379,7 @@ def design_2(start=None, stop=None):
     """
     blue_cursor = baca.Cursor.from_pitch_class_segments(blue_pitch_classes)
     green_cursor = baca.Cursor.from_pitch_class_segments(green_pitch_classes)
-    design_maker = baca.DesignMaker()
+    design_maker = DesignMaker()
     design_maker.partition_cyclic(blue_cursor, 4, [4])
     design_maker.partition_cyclic(blue_cursor, 6, [5])
     design_maker.partition_cyclic(blue_cursor, 8, [6])
@@ -1735,7 +1814,7 @@ def design_3(start=None, stop=None):
     bright_green_cursor = baca.Cursor.from_pitch_class_segments(
         bright_green_pitch_classes
     )
-    design_maker = baca.DesignMaker()
+    design_maker = DesignMaker()
     design_maker.partition_cyclic(green_cursor, 12, [6, 5, 4, 3, 2, 1])
     design_maker.partition(bright_green_cursor, 6, [], ["T0"])
     design_maker.partition_cyclic(green_cursor, 6, [6], ["T1"])
@@ -1761,20 +1840,14 @@ class DesignChecker:
     Design-checker.
     """
 
-    ### CLASS VARIABLES ###
-
     __slots__ = ("_design",)
 
     _foreshadow_tag = "foreshadow"
 
     _recollection_tag = "recollection"
 
-    ### INITIALIZER ###
-
     def __init__(self, design=None):
         self._design = design
-
-    ### SPECIAL METHODS ###
 
     def __call__(self, score=None):
         if score is None:
@@ -1801,8 +1874,6 @@ class DesignChecker:
             raise Exception(message)
         print(message)
 
-    ### PRIVATE METHODS ###
-
     def _get_design_pitch_classes(self):
         result = []
         for item in self.design:
@@ -1825,8 +1896,6 @@ class DesignChecker:
             pitch_class = note.written_pitch.numbered_pitch_class
             result.append(pitch_class)
         return result
-
-    ### PUBLIC PROPERTIES ###
 
     @property
     def design(self):

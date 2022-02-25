@@ -992,7 +992,7 @@ segment.04.Guitar.Music.Voice.I = {
             %! baca.music()
             f32 * 1984/1024
             %! FIGURE_NAME
-            %@% ^ \markup \fontsize #2 \concat { [ W1 \hspace #1 \raise #0.25 \fontsize #-2 (0) ] }
+            %@% ^ \markup \fontsize #2 \concat { [ W1 \hspace #1 \raise #0.25 \fontsize #-2 (1) ] }
             %! REAPPLIED_INSTRUMENT_ALERT
             %! baca._attach_latent_indicator_alert()
             ^ \baca-reapplied-indicator-markup "(“Guitar”)"
@@ -1172,7 +1172,7 @@ segment.04.Guitar.Music.Voice.I = {
             %! baca.music()
             f'64 * 2048/1024
             %! FIGURE_NAME
-            %@% ^ \markup \fontsize #2 \concat { [ W2 \hspace #1 \raise #0.25 \fontsize #-2 (1) ] }
+            %@% ^ \markup \fontsize #2 \concat { [ W2 \hspace #1 \raise #0.25 \fontsize #-2 (2) ] }
             %! baca._label_duration_multipliers()
             %! DURATION_MULTIPLIER
             %@% ^ \baca-duration-multiplier-markup #"2048" #"1024"
@@ -1348,7 +1348,7 @@ segment.04.Guitar.Music.Voice.I = {
             %! baca.music()
             f''64 * 2560/1024
             %! FIGURE_NAME
-            %@% ^ \markup \fontsize #2 \concat { [ W3 \hspace #1 \raise #0.25 \fontsize #-2 (2) ] }
+            %@% ^ \markup \fontsize #2 \concat { [ W3 \hspace #1 \raise #0.25 \fontsize #-2 (3) ] }
             %! baca._label_duration_multipliers()
             %! DURATION_MULTIPLIER
             %@% ^ \baca-duration-multiplier-markup #"2560" #"1024"
@@ -1483,7 +1483,7 @@ segment.04.Guitar.Music.Voice.I = {
             %! baca.music()
             ef'!32 * 512/1024
             %! FIGURE_NAME
-            %@% ^ \markup \fontsize #2 \concat { [ W4 \hspace #1 \raise #0.25 \fontsize #-2 (4) ] }
+            %@% ^ \markup \fontsize #2 \concat { [ W4 \hspace #1 \raise #0.25 \fontsize #-2 (5) ] }
             %! baca._label_duration_multipliers()
             %! DURATION_MULTIPLIER
             %@% ^ \baca-duration-multiplier-markup #"512" #"1024"
@@ -1637,7 +1637,7 @@ segment.04.Guitar.Music.Voice.I = {
             %! baca.music()
             g'32 * 1856/1024
             %! FIGURE_NAME
-            %@% ^ \markup \fontsize #2 \concat { [ W5 \hspace #1 \raise #0.25 \fontsize #-2 (10) ] }
+            %@% ^ \markup \fontsize #2 \concat { [ W5 \hspace #1 \raise #0.25 \fontsize #-2 (11) ] }
             %! baca._label_duration_multipliers()
             %! DURATION_MULTIPLIER
             %@% ^ \baca-duration-multiplier-markup #"1856" #"1024"
@@ -1807,7 +1807,7 @@ segment.04.Guitar.Music.Voice.I = {
             %! baca.music()
             g32 * 1856/1024
             %! FIGURE_NAME
-            %@% ^ \markup \fontsize #2 \concat { [ W6 \hspace #1 \raise #0.25 \fontsize #-2 (12) ] }
+            %@% ^ \markup \fontsize #2 \concat { [ W6 \hspace #1 \raise #0.25 \fontsize #-2 (13) ] }
             %! baca._label_duration_multipliers()
             %! DURATION_MULTIPLIER
             %@% ^ \baca-duration-multiplier-markup #"1856" #"1024"
@@ -2162,7 +2162,7 @@ segment.04.Guitar.Music.Voice.II = {
             %! baca.IndicatorCommand._call()
             ^ \dornen-glissando-attack-first-note-only-markup
             %! FIGURE_NAME
-            %@% ^ \markup \fontsize #2 \concat { [ G1 \hspace #1 \raise #0.25 \fontsize #-2 (3) ] }
+            %@% ^ \markup \fontsize #2 \concat { [ G1 \hspace #1 \raise #0.25 \fontsize #-2 (4) ] }
             [
             %! baca.glissando()
             %! abjad.glissando(7)
@@ -2218,7 +2218,7 @@ segment.04.Guitar.Music.Voice.II = {
             %! baca.music()
             ef''!16
             %! FIGURE_NAME
-            %@% ^ \markup \fontsize #2 \concat { [ G2 \hspace #1 \raise #0.25 \fontsize #-2 (11) ] }
+            %@% ^ \markup \fontsize #2 \concat { [ G2 \hspace #1 \raise #0.25 \fontsize #-2 (12) ] }
             %! baca.glissando()
             %! abjad.glissando(7)
             \glissando
@@ -2262,7 +2262,7 @@ segment.04.Guitar.Music.Voice.II = {
             %! baca.music()
             b'16
             %! FIGURE_NAME
-            %@% ^ \markup \fontsize #2 \concat { [ G3 \hspace #1 \raise #0.25 \fontsize #-2 (13) ] }
+            %@% ^ \markup \fontsize #2 \concat { [ G3 \hspace #1 \raise #0.25 \fontsize #-2 (14) ] }
             %! baca.glissando()
             %! abjad.glissando(7)
             \glissando
@@ -2447,7 +2447,7 @@ segment.04.Guitar.Music.Voice.III = {
             %! baca.music()
             f''64
             %! FIGURE_NAME
-            %@% ^ \markup \fontsize #2 \concat { [ R1 \hspace #1 \raise #0.25 \fontsize #-2 (5) ] }
+            %@% ^ \markup \fontsize #2 \concat { [ R1 \hspace #1 \raise #0.25 \fontsize #-2 (6) ] }
             [
             %! baca.slur()
             %! baca.SpannerIndicatorCommand._call(2)
@@ -2583,7 +2583,7 @@ segment.04.Guitar.Music.Voice.III = {
             %! baca.music()
             af'!64
             %! FIGURE_NAME
-            %@% ^ \markup \fontsize #2 \concat { [ R2 \hspace #1 \raise #0.25 \fontsize #-2 (6) ] }
+            %@% ^ \markup \fontsize #2 \concat { [ R2 \hspace #1 \raise #0.25 \fontsize #-2 (7) ] }
             %! baca.slur()
             %! baca.SpannerIndicatorCommand._call(2)
             %! SPANNER_START
@@ -2710,7 +2710,7 @@ segment.04.Guitar.Music.Voice.III = {
             %! baca.music()
             g'64
             %! FIGURE_NAME
-            %@% ^ \markup \fontsize #2 \concat { [ R3 \hspace #1 \raise #0.25 \fontsize #-2 (9) ] }
+            %@% ^ \markup \fontsize #2 \concat { [ R3 \hspace #1 \raise #0.25 \fontsize #-2 (10) ] }
             %! baca.slur()
             %! baca.SpannerIndicatorCommand._call(2)
             %! SPANNER_START
@@ -2841,7 +2841,7 @@ segment.04.Guitar.Music.Voice.III = {
             %! baca.music()
             c''64
             %! FIGURE_NAME
-            %@% ^ \markup \fontsize #2 \concat { [ R4 \hspace #1 \raise #0.25 \fontsize #-2 (14) ] }
+            %@% ^ \markup \fontsize #2 \concat { [ R4 \hspace #1 \raise #0.25 \fontsize #-2 (15) ] }
             [
 
         %! baca.music()
@@ -2956,7 +2956,7 @@ segment.04.Guitar.Music.Voice.III = {
             %! baca.music()
             f'64
             %! FIGURE_NAME
-            %@% ^ \markup \fontsize #2 \concat { [ R5 \hspace #1 \raise #0.25 \fontsize #-2 (15) ] }
+            %@% ^ \markup \fontsize #2 \concat { [ R5 \hspace #1 \raise #0.25 \fontsize #-2 (16) ] }
             %! baca.slur()
             %! baca.SpannerIndicatorCommand._call(2)
             %! SPANNER_START
@@ -3096,7 +3096,7 @@ segment.04.Guitar.Music.Voice.III = {
             %! baca.music()
             af'!64
             %! FIGURE_NAME
-            %@% ^ \markup \fontsize #2 \concat { [ R6 \hspace #1 \raise #0.25 \fontsize #-2 (18) ] }
+            %@% ^ \markup \fontsize #2 \concat { [ R6 \hspace #1 \raise #0.25 \fontsize #-2 (19) ] }
             %! baca.slur()
             %! baca.SpannerIndicatorCommand._call(2)
             %! SPANNER_START
@@ -3297,7 +3297,7 @@ segment.04.Guitar.Music.Voice.IV = {
             %! baca.music()
             r8
             %! FIGURE_NAME
-            %@% ^ \markup \fontsize #2 \concat { [ S1 \hspace #1 \raise #0.25 \fontsize #-2 (7) ] }
+            %@% ^ \markup \fontsize #2 \concat { [ S1 \hspace #1 \raise #0.25 \fontsize #-2 (8) ] }
 
             %! baca.music()
             r8
@@ -3344,7 +3344,7 @@ segment.04.Guitar.Music.Voice.IV = {
             %! baca.IndicatorCommand._call()
             ^ \dornen-two-finger-tamb-trill-markup
             %! FIGURE_NAME
-            %@% ^ \markup \fontsize #2 \concat { [ T1 \hspace #1 \raise #0.25 \fontsize #-2 (8) ] }
+            %@% ^ \markup \fontsize #2 \concat { [ T1 \hspace #1 \raise #0.25 \fontsize #-2 (9) ] }
             %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
             %! baca._attach_shadow_tie_indicators()
@@ -3399,7 +3399,7 @@ segment.04.Guitar.Music.Voice.IV = {
             %! baca.music()
             r8
             %! FIGURE_NAME
-            %@% ^ \markup \fontsize #2 \concat { [ S2 \hspace #1 \raise #0.25 \fontsize #-2 (16) ] }
+            %@% ^ \markup \fontsize #2 \concat { [ S2 \hspace #1 \raise #0.25 \fontsize #-2 (17) ] }
 
             %! baca.music()
             r8
@@ -3446,7 +3446,7 @@ segment.04.Guitar.Music.Voice.IV = {
             %! baca.IndicatorCommand._call()
             ^ \dornen-two-finger-tamb-trill-markup
             %! FIGURE_NAME
-            %@% ^ \markup \fontsize #2 \concat { [ T2 \hspace #1 \raise #0.25 \fontsize #-2 (17) ] }
+            %@% ^ \markup \fontsize #2 \concat { [ T2 \hspace #1 \raise #0.25 \fontsize #-2 (18) ] }
             %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
             %! baca._attach_shadow_tie_indicators()

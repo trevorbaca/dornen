@@ -2201,41 +2201,6 @@ segment.13.Guitar.Music.Voice.I = {
             %! REAPPLIED_INSTRUMENT_ALERT
             %! baca._attach_latent_indicator_alert()
             ^ \baca-reapplied-indicator-markup "(“Guitar”)"
-            %! baca.rhythm_annotation_spanner()
-            %! RHYTHM_ANNOTATION_SPANNER
-            %! baca.PiecewiseCommand._call(2)
-            %! SPANNER_START
-            - \abjad-dashed-line-with-hook
-            %! baca.rhythm_annotation_spanner()
-            %! RHYTHM_ANNOTATION_SPANNER
-            %! baca.PiecewiseCommand._call(2)
-            %! SPANNER_START
-            - \baca-text-spanner-left-text "baca.music()"
-            %! baca.rhythm_annotation_spanner()
-            %! RHYTHM_ANNOTATION_SPANNER
-            %! baca.PiecewiseCommand._call(2)
-            %! AUTODETECT
-            %! SPANNER_START
-            %! baca.rhythm_annotation_spanner()
-            %! RHYTHM_ANNOTATION_SPANNER
-            %! baca.PiecewiseCommand._call(2)
-            %! SPANNER_START
-            - \tweak bound-details.right.padding 2.75
-            %! baca.rhythm_annotation_spanner()
-            %! RHYTHM_ANNOTATION_SPANNER
-            %! baca.PiecewiseCommand._call(2)
-            %! SPANNER_START
-            - \tweak color #darkcyan
-            %! baca.rhythm_annotation_spanner()
-            %! RHYTHM_ANNOTATION_SPANNER
-            %! baca.PiecewiseCommand._call(2)
-            %! SPANNER_START
-            - \tweak staff-padding 8
-            %! baca.rhythm_annotation_spanner()
-            %! RHYTHM_ANNOTATION_SPANNER
-            %! baca.PiecewiseCommand._call(2)
-            %! SPANNER_START
-            \bacaStartTextSpanRhythmAnnotation
             %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
             %! baca._attach_shadow_tie_indicators()
@@ -5668,11 +5633,6 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca.text_script_staff_padding()
             %! baca.OverrideCommand._call(2)
             \revert TextScript.staff-padding
-            %! baca.rhythm_annotation_spanner()
-            %! RHYTHM_ANNOTATION_SPANNER
-            %! baca.PiecewiseCommand._call(4)
-            %! SPANNER_STOP
-            <> \bacaStopTextSpanRhythmAnnotation
 
         %! baca.music()
         }

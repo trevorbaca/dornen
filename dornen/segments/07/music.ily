@@ -1149,41 +1149,6 @@ segment.07.Guitar.Music.Voice.I = {
             %! baca.SpannerIndicatorCommand._call(2)
             %! SPANNER_START
             (
-            %! baca.rhythm_annotation_spanner()
-            %! RHYTHM_ANNOTATION_SPANNER
-            %! baca.PiecewiseCommand._call(2)
-            %! SPANNER_START
-            - \abjad-dashed-line-with-hook
-            %! baca.rhythm_annotation_spanner()
-            %! RHYTHM_ANNOTATION_SPANNER
-            %! baca.PiecewiseCommand._call(2)
-            %! SPANNER_START
-            - \baca-text-spanner-left-text "baca.music()"
-            %! baca.rhythm_annotation_spanner()
-            %! RHYTHM_ANNOTATION_SPANNER
-            %! baca.PiecewiseCommand._call(2)
-            %! AUTODETECT
-            %! SPANNER_START
-            %! baca.rhythm_annotation_spanner()
-            %! RHYTHM_ANNOTATION_SPANNER
-            %! baca.PiecewiseCommand._call(2)
-            %! SPANNER_START
-            - \tweak bound-details.right.padding 2.75
-            %! baca.rhythm_annotation_spanner()
-            %! RHYTHM_ANNOTATION_SPANNER
-            %! baca.PiecewiseCommand._call(2)
-            %! SPANNER_START
-            - \tweak color #darkcyan
-            %! baca.rhythm_annotation_spanner()
-            %! RHYTHM_ANNOTATION_SPANNER
-            %! baca.PiecewiseCommand._call(2)
-            %! SPANNER_START
-            - \tweak staff-padding 8
-            %! baca.rhythm_annotation_spanner()
-            %! RHYTHM_ANNOTATION_SPANNER
-            %! baca.PiecewiseCommand._call(2)
-            %! SPANNER_START
-            \bacaStartTextSpanRhythmAnnotation
             %! baca.attach_color_literal(2)
             %! REAPPLIED_CLEF_REDRAW_COLOR
             \override GuitarMusicStaff.Clef.color = #(x11-color 'OliveDrab)
@@ -1499,11 +1464,6 @@ segment.07.Guitar.Music.Voice.I = {
             %! baca.beam_positions()
             %! baca.OverrideCommand._call(2)
             \revert Beam.positions
-            %! baca.rhythm_annotation_spanner()
-            %! RHYTHM_ANNOTATION_SPANNER
-            %! baca.PiecewiseCommand._call(4)
-            %! SPANNER_STOP
-            <> \bacaStopTextSpanRhythmAnnotation
 
         %! baca.music()
         }
@@ -1595,41 +1555,6 @@ segment.07.Guitar.Music.Voice.II = {
     \override Beam.positions = #'(-7 . -7)
     %! baca.music()
     s1 * 3/20
-    %! baca.rhythm_annotation_spanner()
-    %! RHYTHM_ANNOTATION_SPANNER
-    %! baca.PiecewiseCommand._call(2)
-    %! SPANNER_START
-    - \abjad-dashed-line-with-hook
-    %! baca.rhythm_annotation_spanner()
-    %! RHYTHM_ANNOTATION_SPANNER
-    %! baca.PiecewiseCommand._call(2)
-    %! SPANNER_START
-    - \baca-text-spanner-left-text "baca.music()"
-    %! baca.rhythm_annotation_spanner()
-    %! RHYTHM_ANNOTATION_SPANNER
-    %! baca.PiecewiseCommand._call(2)
-    %! AUTODETECT
-    %! SPANNER_START
-    %! baca.rhythm_annotation_spanner()
-    %! RHYTHM_ANNOTATION_SPANNER
-    %! baca.PiecewiseCommand._call(2)
-    %! SPANNER_START
-    - \tweak bound-details.right.padding 2.75
-    %! baca.rhythm_annotation_spanner()
-    %! RHYTHM_ANNOTATION_SPANNER
-    %! baca.PiecewiseCommand._call(2)
-    %! SPANNER_START
-    - \tweak color #darkcyan
-    %! baca.rhythm_annotation_spanner()
-    %! RHYTHM_ANNOTATION_SPANNER
-    %! baca.PiecewiseCommand._call(2)
-    %! SPANNER_START
-    - \tweak staff-padding 8
-    %! baca.rhythm_annotation_spanner()
-    %! RHYTHM_ANNOTATION_SPANNER
-    %! baca.PiecewiseCommand._call(2)
-    %! SPANNER_START
-    \bacaStartTextSpanRhythmAnnotation
 
     %! baca.music()
     {
@@ -1942,11 +1867,6 @@ segment.07.Guitar.Music.Voice.II = {
             %! FIGURE_NAME
             %@% ^ \markup \fontsize #2 \concat { [ \concat { 24 \sub 6 } \hspace #1 \raise #0.25 \fontsize #-2 (20) ] }
             ]
-            %! baca.rhythm_annotation_spanner()
-            %! RHYTHM_ANNOTATION_SPANNER
-            %! baca.PiecewiseCommand._call(4)
-            %! SPANNER_STOP
-            <> \bacaStopTextSpanRhythmAnnotation
 
         %! baca.music()
         }
@@ -2090,41 +2010,6 @@ segment.07.Guitar.Music.Voice.III = {
     \override Beam.positions = #'(4 . 4)
     %! baca.music()
     s1 * 17/80
-    %! baca.rhythm_annotation_spanner()
-    %! RHYTHM_ANNOTATION_SPANNER
-    %! baca.PiecewiseCommand._call(2)
-    %! SPANNER_START
-    - \abjad-dashed-line-with-hook
-    %! baca.rhythm_annotation_spanner()
-    %! RHYTHM_ANNOTATION_SPANNER
-    %! baca.PiecewiseCommand._call(2)
-    %! SPANNER_START
-    - \baca-text-spanner-left-text "baca.music()"
-    %! baca.rhythm_annotation_spanner()
-    %! RHYTHM_ANNOTATION_SPANNER
-    %! baca.PiecewiseCommand._call(2)
-    %! AUTODETECT
-    %! SPANNER_START
-    %! baca.rhythm_annotation_spanner()
-    %! RHYTHM_ANNOTATION_SPANNER
-    %! baca.PiecewiseCommand._call(2)
-    %! SPANNER_START
-    - \tweak bound-details.right.padding 2.75
-    %! baca.rhythm_annotation_spanner()
-    %! RHYTHM_ANNOTATION_SPANNER
-    %! baca.PiecewiseCommand._call(2)
-    %! SPANNER_START
-    - \tweak color #darkcyan
-    %! baca.rhythm_annotation_spanner()
-    %! RHYTHM_ANNOTATION_SPANNER
-    %! baca.PiecewiseCommand._call(2)
-    %! SPANNER_START
-    - \tweak staff-padding 8
-    %! baca.rhythm_annotation_spanner()
-    %! RHYTHM_ANNOTATION_SPANNER
-    %! baca.PiecewiseCommand._call(2)
-    %! SPANNER_START
-    \bacaStartTextSpanRhythmAnnotation
 
     %! baca.music()
     {
@@ -2330,11 +2215,6 @@ segment.07.Guitar.Music.Voice.III = {
             %! baca.stem_up()
             %! baca.OverrideCommand._call(2)
             \revert Stem.direction
-            %! baca.rhythm_annotation_spanner()
-            %! RHYTHM_ANNOTATION_SPANNER
-            %! baca.PiecewiseCommand._call(4)
-            %! SPANNER_STOP
-            <> \bacaStopTextSpanRhythmAnnotation
 
         %! baca.music()
         }

@@ -9,11 +9,7 @@ from dornen import library
 #########################################################################################
 
 score = library.make_empty_score()
-
-figures = baca.FigureAccumulator(
-    score,
-    voice_abbreviations=library.voice_abbreviations,
-)
+figures = baca.FigureAccumulator(score, library.voice_abbreviations)
 design = library.design_2(start=14, stop=28)
 assert len(design) == 14
 

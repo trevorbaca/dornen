@@ -221,7 +221,7 @@ commands(
     baca.new(
         baca.hairpin("p < mp"),
         baca.text_spanner("tamb. tr. => kn. rasg."),
-        map=lambda _: baca.Selection(_).rleaves().group(),
+        map=library.group_rleaves,
     ),
 )
 
@@ -230,7 +230,7 @@ commands(
     baca.new(
         baca.hairpin("mp > p"),
         baca.text_spanner("trans. => tamb. tr."),
-        map=lambda _: baca.Selection(_).rleaves().group(),
+        map=library.group_rleaves,
     ),
 )
 
@@ -239,7 +239,7 @@ commands(
     baca.new(
         baca.hairpin("p < mf"),
         baca.text_spanner("trans. => kn. rasg."),
-        map=lambda _: baca.Selection(_).rleaves().group(),
+        map=library.group_rleaves,
     ),
 )
 
@@ -248,7 +248,7 @@ commands(
     baca.new(
         baca.hairpin("mf > p"),
         baca.text_spanner("trans. => tamb. tr."),
-        map=lambda _: baca.Selection(_).rleaves().group(),
+        map=library.group_rleaves,
     ),
 )
 
@@ -257,7 +257,7 @@ commands(
     baca.new(
         baca.hairpin("p < mp"),
         baca.text_spanner("trans. => kn. rasg."),
-        map=lambda _: baca.Selection(_).rleaves().group(),
+        map=library.group_rleaves,
     ),
 )
 
@@ -266,7 +266,7 @@ commands(
     baca.new(
         baca.hairpin("mp > p"),
         baca.text_spanner("trans. => tamb. tr."),
-        map=lambda _: baca.Selection(_).rleaves().group(),
+        map=library.group_rleaves,
     ),
 )
 
@@ -275,7 +275,7 @@ commands(
     baca.new(
         baca.hairpin("p < mf"),
         baca.text_spanner("trans. => kn. rasg."),
-        map=lambda _: baca.Selection(_).rleaves().group(),
+        map=library.group_rleaves,
     ),
 )
 
@@ -284,7 +284,7 @@ commands(
     baca.new(
         baca.hairpin("mf > p"),
         baca.text_spanner("trans. => tamb. tr."),
-        map=lambda _: baca.Selection(_).rleaves().group(),
+        map=library.group_rleaves,
     ),
 )
 
@@ -293,7 +293,7 @@ commands(
     baca.new(
         baca.hairpin("p < f"),
         baca.text_spanner("trans. => kn. rasg."),
-        map=lambda _: baca.Selection(_).rleaves().group(),
+        map=library.group_rleaves,
     ),
 )
 
@@ -302,7 +302,7 @@ commands(
     baca.new(
         baca.hairpin("f > mp"),
         baca.text_spanner("trans. => tamb. tr."),
-        map=lambda _: baca.Selection(_).rleaves().group(),
+        map=library.group_rleaves,
     ),
 )
 

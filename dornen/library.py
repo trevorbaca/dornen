@@ -415,6 +415,12 @@ def rests(duration=None):
     ]
 
 
+def nontrivial_tuplets(argument):
+    result = abjad.select.tuplets(argument)
+    result = [_ for _ in result if 1 < len(_)]
+    return result
+
+
 def running():
     """
     Makes running commands.
@@ -422,7 +428,7 @@ def running():
     return [
         baca.figure([1], 64, treatments=[-1]),
         rmakers.beam_groups(),
-        baca.slur(map=lambda _: baca.Selection(_).tuplets().nontrivial()),
+        baca.slur(map=nontrivial_tuplets),
     ]
 
 
@@ -673,6 +679,12 @@ voice_abbreviations = {
     "v3": "Guitar_Music_Voice_III",
     "v4": "Guitar_Music_Voice_IV",
 }
+
+
+def group_rleaves(argument):
+    result = baca.select.rleaves(argument)
+    result = abjad.select.group(result)
+    return result
 
 
 def make_empty_score():

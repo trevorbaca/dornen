@@ -15,7 +15,7 @@ metronome_marks = dict(
 
 
 def _apply_operator(segment, operator):
-    assert isinstance(segment, baca.PitchClassSegment)
+    assert isinstance(segment, abjad.PitchClassSegment)
     assert isinstance(operator, str), repr(operator)
     if operator.startswith("T"):
         index = int(operator[1:])
@@ -26,7 +26,7 @@ def _apply_operator(segment, operator):
         index = int(operator[1:])
         segment = segment.multiply(index)
     elif operator == "alpha":
-        segment = segment.alpha()
+        segment = baca.pcollections.alpha(segment)
     else:
         raise Exception(f"unrecognized operator: {operator!r}.")
     return segment
@@ -61,13 +61,13 @@ class DesignMaker:
         list_ = []
         for cell in cells:
             list_.extend(cell)
-        segment = baca.PitchClassSegment(items=list_)
+        segment = abjad.PitchClassSegment(items=list_)
         operators = operators or []
         for operator in operators:
             segment = _apply_operator(segment, operator)
         sequence = list(segment)
         parts = abjad.sequence.partition_by_counts(sequence, counts, overhang=True)
-        parts_ = [baca.PitchClassSegment(_) for _ in parts]
+        parts_ = [abjad.PitchClassSegment(_) for _ in parts]
         self._result.extend(parts_)
 
     def partition_cyclic(self, cursor, number, counts, operators=None):
@@ -80,7 +80,7 @@ class DesignMaker:
         list_ = []
         for cell in cells:
             list_.extend(cell)
-        segment = baca.PitchClassSegment(items=list_)
+        segment = abjad.PitchClassSegment(items=list_)
         operators = operators or []
         for operator in operators:
             segment = _apply_operator(segment, operator)
@@ -88,7 +88,7 @@ class DesignMaker:
         parts = abjad.sequence.partition_by_counts(
             sequence, counts, cyclic=True, overhang=True
         )
-        parts = [baca.PitchClassSegment(_) for _ in parts]
+        parts = [abjad.PitchClassSegment(_) for _ in parts]
         self._result.extend(parts)
 
 

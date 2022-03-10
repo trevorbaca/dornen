@@ -2199,9 +2199,9 @@ segment.13.Guitar.Music.Voice.I = {
             %! REAPPLIED_INSTRUMENT_ALERT
             %! baca._attach_latent_indicator_alert()
             ^ \baca-reapplied-indicator-markup "(“Guitar”)"
-            %! FIGURE_NAME
+            %! FIGURE_LABEL
             %@% - \tweak color #blue
-            %! FIGURE_NAME
+            %! FIGURE_LABEL
             %@% - \markup \fontsize #2 \concat { [ \raise #0.25 \fontsize #-2 (1) \hspace #1 \concat { "2" \sub 1 } ] }
             %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
@@ -2248,9 +2248,9 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             \mp
-            %! FIGURE_NAME
+            %! FIGURE_LABEL
             %@% - \tweak color #blue
-            %! FIGURE_NAME
+            %! FIGURE_LABEL
             %@% - \markup \fontsize #2 \concat { [ \raise #0.25 \fontsize #-2 (2) \hspace #1 \concat { "2" \sub 2 } ] }
             %! baca.repeat_tie()
             %! baca.IndicatorCommand._call()
@@ -2335,9 +2335,9 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             \mf
-            %! FIGURE_NAME
+            %! FIGURE_LABEL
             %@% - \tweak color #blue
-            %! FIGURE_NAME
+            %! FIGURE_LABEL
             %@% - \markup \fontsize #2 \concat { [ \raise #0.25 \fontsize #-2 (3) \hspace #1 \concat { "2" \sub 3 } ] }
             %! baca.repeat_tie()
             %! baca.IndicatorCommand._call()
@@ -2388,9 +2388,9 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             \mf
-            %! FIGURE_NAME
+            %! FIGURE_LABEL
             %@% - \tweak color #blue
-            %! FIGURE_NAME
+            %! FIGURE_LABEL
             %@% - \markup \fontsize #2 \concat { [ \raise #0.25 \fontsize #-2 (4) \hspace #1 \concat { "2" \sub 4 } ] }
             %! baca.repeat_tie()
             %! baca.IndicatorCommand._call()
@@ -2475,9 +2475,9 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             \mp
-            %! FIGURE_NAME
+            %! FIGURE_LABEL
             %@% - \tweak color #blue
-            %! FIGURE_NAME
+            %! FIGURE_LABEL
             %@% - \markup \fontsize #2 \concat { [ \raise #0.25 \fontsize #-2 (5) \hspace #1 \concat { "2" \sub 5 } ] }
             %! baca.repeat_tie()
             %! baca.IndicatorCommand._call()
@@ -2517,9 +2517,9 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca.markup()
             %! baca.IndicatorCommand._call()
             ^ \dornen-three-fingers-markup
-            %! FIGURE_NAME
+            %! FIGURE_LABEL
             %@% - \tweak color #blue
-            %! FIGURE_NAME
+            %! FIGURE_LABEL
             %@% - \markup \fontsize #2 \concat { [ \raise #0.25 \fontsize #-2 (6) \hspace #1 \concat { "3" \sub 1 } ] }
             %! baca.repeat_tie()
             %! baca.IndicatorCommand._call()
@@ -2566,9 +2566,9 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             \mp
-            %! FIGURE_NAME
+            %! FIGURE_LABEL
             %@% - \tweak color #blue
-            %! FIGURE_NAME
+            %! FIGURE_LABEL
             %@% - \markup \fontsize #2 \concat { [ \raise #0.25 \fontsize #-2 (7) \hspace #1 \concat { "3" \sub 2 } ] }
             %! baca.repeat_tie()
             %! baca.IndicatorCommand._call()
@@ -2653,9 +2653,9 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             \f
-            %! FIGURE_NAME
+            %! FIGURE_LABEL
             %@% - \tweak color #blue
-            %! FIGURE_NAME
+            %! FIGURE_LABEL
             %@% - \markup \fontsize #2 \concat { [ \raise #0.25 \fontsize #-2 (8) \hspace #1 \concat { "3" \sub 3 } ] }
             %! baca.repeat_tie()
             %! baca.IndicatorCommand._call()
@@ -2706,9 +2706,9 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             \f
-            %! FIGURE_NAME
+            %! FIGURE_LABEL
             %@% - \tweak color #blue
-            %! FIGURE_NAME
+            %! FIGURE_LABEL
             %@% - \markup \fontsize #2 \concat { [ \raise #0.25 \fontsize #-2 (9) \hspace #1 \concat { "3" \sub 4 } ] }
             %! baca.repeat_tie()
             %! baca.IndicatorCommand._call()
@@ -2793,9 +2793,9 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             \mp
-            %! FIGURE_NAME
+            %! FIGURE_LABEL
             %@% - \tweak color #blue
-            %! FIGURE_NAME
+            %! FIGURE_LABEL
             %@% - \markup \fontsize #2 \concat { [ \raise #0.25 \fontsize #-2 (10) \hspace #1 \concat { "3" \sub 5 } ] }
             %! baca.repeat_tie()
             %! baca.IndicatorCommand._call()
@@ -2835,9 +2835,9 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca.markup()
             %! baca.IndicatorCommand._call()
             ^ \dornen-four-fingers-markup
-            %! FIGURE_NAME
+            %! FIGURE_LABEL
             %@% - \tweak color #blue
-            %! FIGURE_NAME
+            %! FIGURE_LABEL
             %@% - \markup \fontsize #2 \concat { [ \raise #0.25 \fontsize #-2 (11) \hspace #1 \concat { "4" \sub 1 } ] }
             %! baca.repeat_tie()
             %! baca.IndicatorCommand._call()
@@ -2884,9 +2884,9 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             \mp
-            %! FIGURE_NAME
+            %! FIGURE_LABEL
             %@% - \tweak color #blue
-            %! FIGURE_NAME
+            %! FIGURE_LABEL
             %@% - \markup \fontsize #2 \concat { [ \raise #0.25 \fontsize #-2 (12) \hspace #1 \concat { "4" \sub 2 } ] }
             %! baca.repeat_tie()
             %! baca.IndicatorCommand._call()
@@ -2971,9 +2971,9 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             \ff
-            %! FIGURE_NAME
+            %! FIGURE_LABEL
             %@% - \tweak color #blue
-            %! FIGURE_NAME
+            %! FIGURE_LABEL
             %@% - \markup \fontsize #2 \concat { [ \raise #0.25 \fontsize #-2 (13) \hspace #1 \concat { "4" \sub 3 } ] }
             %! baca.repeat_tie()
             %! baca.IndicatorCommand._call()
@@ -3024,9 +3024,9 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             \ff
-            %! FIGURE_NAME
+            %! FIGURE_LABEL
             %@% - \tweak color #blue
-            %! FIGURE_NAME
+            %! FIGURE_LABEL
             %@% - \markup \fontsize #2 \concat { [ \raise #0.25 \fontsize #-2 (14) \hspace #1 \concat { "4" \sub 4 } ] }
             %! baca.repeat_tie()
             %! baca.IndicatorCommand._call()
@@ -3087,9 +3087,9 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             \mf
-            %! FIGURE_NAME
+            %! FIGURE_LABEL
             %@% - \tweak color #blue
-            %! FIGURE_NAME
+            %! FIGURE_LABEL
             %@% - \markup \fontsize #2 \concat { [ \raise #0.25 \fontsize #-2 (15) \hspace #1 \concat { "4" \sub 5 } ] }
             %! baca.repeat_tie()
             %! baca.IndicatorCommand._call()
@@ -3136,9 +3136,9 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             \mf
-            %! FIGURE_NAME
+            %! FIGURE_LABEL
             %@% - \tweak color #blue
-            %! FIGURE_NAME
+            %! FIGURE_LABEL
             %@% - \markup \fontsize #2 \concat { [ \raise #0.25 \fontsize #-2 (16) \hspace #1 \concat { "4" \sub 6 } ] }
             %! baca.repeat_tie()
             %! baca.IndicatorCommand._call()
@@ -3223,9 +3223,9 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             \f
-            %! FIGURE_NAME
+            %! FIGURE_LABEL
             %@% - \tweak color #blue
-            %! FIGURE_NAME
+            %! FIGURE_LABEL
             %@% - \markup \fontsize #2 \concat { [ \raise #0.25 \fontsize #-2 (17) \hspace #1 \concat { "4" \sub 7 } ] }
             %! baca.repeat_tie()
             %! baca.IndicatorCommand._call()
@@ -3289,9 +3289,9 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             \f
-            %! FIGURE_NAME
+            %! FIGURE_LABEL
             %@% - \tweak color #blue
-            %! FIGURE_NAME
+            %! FIGURE_LABEL
             %@% - \markup \fontsize #2 \concat { [ \raise #0.25 \fontsize #-2 (18) \hspace #1 \concat { "4" \sub 8 } ] }
             %! baca.repeat_tie()
             %! baca.IndicatorCommand._call()
@@ -3376,9 +3376,9 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             \mf
-            %! FIGURE_NAME
+            %! FIGURE_LABEL
             %@% - \tweak color #blue
-            %! FIGURE_NAME
+            %! FIGURE_LABEL
             %@% - \markup \fontsize #2 \concat { [ \raise #0.25 \fontsize #-2 (19) \hspace #1 \concat { "4" \sub 9 } ] }
             %! baca.repeat_tie()
             %! baca.IndicatorCommand._call()
@@ -3429,9 +3429,9 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             \mf
-            %! FIGURE_NAME
+            %! FIGURE_LABEL
             %@% - \tweak color #blue
-            %! FIGURE_NAME
+            %! FIGURE_LABEL
             %@% - \markup \fontsize #2 \concat { [ \raise #0.25 \fontsize #-2 (20) \hspace #1 \concat { "4" \sub 10 } ] }
             %! baca.repeat_tie()
             %! baca.IndicatorCommand._call()
@@ -3514,9 +3514,9 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             \ff
-            %! FIGURE_NAME
+            %! FIGURE_LABEL
             %@% - \tweak color #blue
-            %! FIGURE_NAME
+            %! FIGURE_LABEL
             %@% - \markup \fontsize #2 \concat { [ \raise #0.25 \fontsize #-2 (21) \hspace #1 \concat { "4" \sub 11 } ] }
             %! baca.repeat_tie()
             %! baca.IndicatorCommand._call()
@@ -3593,9 +3593,9 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             \ff
-            %! FIGURE_NAME
+            %! FIGURE_LABEL
             %@% - \tweak color #blue
-            %! FIGURE_NAME
+            %! FIGURE_LABEL
             %@% - \markup \fontsize #2 \concat { [ \raise #0.25 \fontsize #-2 (22) \hspace #1 \concat { "4" \sub 12 } ] }
             %! baca.repeat_tie()
             %! baca.IndicatorCommand._call()
@@ -3680,9 +3680,9 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             \mf
-            %! FIGURE_NAME
+            %! FIGURE_LABEL
             %@% - \tweak color #blue
-            %! FIGURE_NAME
+            %! FIGURE_LABEL
             %@% - \markup \fontsize #2 \concat { [ \raise #0.25 \fontsize #-2 (23) \hspace #1 \concat { "4" \sub 13 } ] }
             %! baca.repeat_tie()
             %! baca.IndicatorCommand._call()
@@ -3733,9 +3733,9 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             \mf
-            %! FIGURE_NAME
+            %! FIGURE_LABEL
             %@% - \tweak color #blue
-            %! FIGURE_NAME
+            %! FIGURE_LABEL
             %@% - \markup \fontsize #2 \concat { [ \raise #0.25 \fontsize #-2 (24) \hspace #1 \concat { "4" \sub 14 } ] }
             %! baca.repeat_tie()
             %! baca.IndicatorCommand._call()
@@ -3806,9 +3806,9 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca.stem_tremolo()
             %! baca.IndicatorCommand._call()
             :32
-            %! FIGURE_NAME
+            %! FIGURE_LABEL
             %@% - \tweak color #blue
-            %! FIGURE_NAME
+            %! FIGURE_LABEL
             %@% - \markup \fontsize #2 \concat { [ \raise #0.25 \fontsize #-2 (25) \hspace #1 \concat { "4" \sub 15 } ] }
             %! baca.repeat_tie()
             %! baca.IndicatorCommand._call()
@@ -3894,9 +3894,9 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             \ffff
-            %! FIGURE_NAME
+            %! FIGURE_LABEL
             %@% - \tweak color #blue
-            %! FIGURE_NAME
+            %! FIGURE_LABEL
             %@% - \markup \fontsize #2 \concat { [ \raise #0.25 \fontsize #-2 (26) \hspace #1 \concat { "4" \sub 16 } ] }
             %! baca.repeat_tie()
             %! baca.IndicatorCommand._call()
@@ -3999,9 +3999,9 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             \ffff
-            %! FIGURE_NAME
+            %! FIGURE_LABEL
             %@% - \tweak color #blue
-            %! FIGURE_NAME
+            %! FIGURE_LABEL
             %@% - \markup \fontsize #2 \concat { [ \raise #0.25 \fontsize #-2 (27) \hspace #1 \concat { "4" \sub 17 } ] }
             %! baca.repeat_tie()
             %! baca.IndicatorCommand._call()
@@ -4123,9 +4123,9 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             \ff
-            %! FIGURE_NAME
+            %! FIGURE_LABEL
             %@% - \tweak color #blue
-            %! FIGURE_NAME
+            %! FIGURE_LABEL
             %@% - \markup \fontsize #2 \concat { [ \raise #0.25 \fontsize #-2 (28) \hspace #1 \concat { "4" \sub 18 } ] }
             %! baca.repeat_tie()
             %! baca.IndicatorCommand._call()
@@ -4212,9 +4212,9 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             \fff
-            %! FIGURE_NAME
+            %! FIGURE_LABEL
             %@% - \tweak color #blue
-            %! FIGURE_NAME
+            %! FIGURE_LABEL
             %@% - \markup \fontsize #2 \concat { [ \raise #0.25 \fontsize #-2 (29) \hspace #1 \concat { "4" \sub 19 } ] }
             %! baca.repeat_tie()
             %! baca.IndicatorCommand._call()
@@ -4288,9 +4288,9 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             \f
-            %! FIGURE_NAME
+            %! FIGURE_LABEL
             %@% - \tweak color #blue
-            %! FIGURE_NAME
+            %! FIGURE_LABEL
             %@% - \markup \fontsize #2 \concat { [ \raise #0.25 \fontsize #-2 (30) \hspace #1 \concat { "4" \sub 20 } ] }
             %! baca.repeat_tie()
             %! baca.IndicatorCommand._call()
@@ -4351,9 +4351,9 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             \ff
-            %! FIGURE_NAME
+            %! FIGURE_LABEL
             %@% - \tweak color #blue
-            %! FIGURE_NAME
+            %! FIGURE_LABEL
             %@% - \markup \fontsize #2 \concat { [ \raise #0.25 \fontsize #-2 (31) \hspace #1 \concat { "4" \sub 21 } ] }
             %! baca.repeat_tie()
             %! baca.IndicatorCommand._call()
@@ -4425,9 +4425,9 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             \mf
-            %! FIGURE_NAME
+            %! FIGURE_LABEL
             %@% - \tweak color #blue
-            %! FIGURE_NAME
+            %! FIGURE_LABEL
             %@% - \markup \fontsize #2 \concat { [ \raise #0.25 \fontsize #-2 (32) \hspace #1 \concat { "4" \sub 22 } ] }
             %! baca.repeat_tie()
             %! baca.IndicatorCommand._call()
@@ -4514,9 +4514,9 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             \f
-            %! FIGURE_NAME
+            %! FIGURE_LABEL
             %@% - \tweak color #blue
-            %! FIGURE_NAME
+            %! FIGURE_LABEL
             %@% - \markup \fontsize #2 \concat { [ \raise #0.25 \fontsize #-2 (33) \hspace #1 \concat { "4" \sub 23 } ] }
             %! baca.repeat_tie()
             %! baca.IndicatorCommand._call()
@@ -4616,9 +4616,9 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             \mp
-            %! FIGURE_NAME
+            %! FIGURE_LABEL
             %@% - \tweak color #blue
-            %! FIGURE_NAME
+            %! FIGURE_LABEL
             %@% - \markup \fontsize #2 \concat { [ \raise #0.25 \fontsize #-2 (34) \hspace #1 \concat { "4" \sub 24 } ] }
             %! baca.repeat_tie()
             %! baca.IndicatorCommand._call()
@@ -4731,9 +4731,9 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             \mf
-            %! FIGURE_NAME
+            %! FIGURE_LABEL
             %@% - \tweak color #blue
-            %! FIGURE_NAME
+            %! FIGURE_LABEL
             %@% - \markup \fontsize #2 \concat { [ \raise #0.25 \fontsize #-2 (35) \hspace #1 \concat { "4" \sub 25 } ] }
             %! baca.repeat_tie()
             %! baca.IndicatorCommand._call()
@@ -4831,9 +4831,9 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             \p
-            %! FIGURE_NAME
+            %! FIGURE_LABEL
             %@% - \tweak color #blue
-            %! FIGURE_NAME
+            %! FIGURE_LABEL
             %@% - \markup \fontsize #2 \concat { [ \raise #0.25 \fontsize #-2 (36) \hspace #1 \concat { "4" \sub 26 } ] }
             %! baca.repeat_tie()
             %! baca.IndicatorCommand._call()
@@ -4920,9 +4920,9 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             \mp
-            %! FIGURE_NAME
+            %! FIGURE_LABEL
             %@% - \tweak color #blue
-            %! FIGURE_NAME
+            %! FIGURE_LABEL
             %@% - \markup \fontsize #2 \concat { [ \raise #0.25 \fontsize #-2 (37) \hspace #1 \concat { "4" \sub 27 } ] }
             %! baca.repeat_tie()
             %! baca.IndicatorCommand._call()
@@ -5000,9 +5000,9 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             \pp
-            %! FIGURE_NAME
+            %! FIGURE_LABEL
             %@% - \tweak color #blue
-            %! FIGURE_NAME
+            %! FIGURE_LABEL
             %@% - \markup \fontsize #2 \concat { [ \raise #0.25 \fontsize #-2 (38) \hspace #1 \concat { "4" \sub 28 } ] }
             %! baca.repeat_tie()
             %! baca.IndicatorCommand._call()
@@ -5063,9 +5063,9 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             \p
-            %! FIGURE_NAME
+            %! FIGURE_LABEL
             %@% - \tweak color #blue
-            %! FIGURE_NAME
+            %! FIGURE_LABEL
             %@% - \markup \fontsize #2 \concat { [ \raise #0.25 \fontsize #-2 (39) \hspace #1 \concat { "4" \sub 29 } ] }
             %! baca.repeat_tie()
             %! baca.IndicatorCommand._call()
@@ -5137,9 +5137,9 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             \ppp
-            %! FIGURE_NAME
+            %! FIGURE_LABEL
             %@% - \tweak color #blue
-            %! FIGURE_NAME
+            %! FIGURE_LABEL
             %@% - \markup \fontsize #2 \concat { [ \raise #0.25 \fontsize #-2 (40) \hspace #1 \concat { "4" \sub 30 } ] }
             %! baca.repeat_tie()
             %! baca.IndicatorCommand._call()
@@ -5226,9 +5226,9 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             \pp
-            %! FIGURE_NAME
+            %! FIGURE_LABEL
             %@% - \tweak color #blue
-            %! FIGURE_NAME
+            %! FIGURE_LABEL
             %@% - \markup \fontsize #2 \concat { [ \raise #0.25 \fontsize #-2 (41) \hspace #1 \concat { "4" \sub 31 } ] }
             %! baca.repeat_tie()
             %! baca.IndicatorCommand._call()
@@ -5352,9 +5352,9 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             \pppp
-            %! FIGURE_NAME
+            %! FIGURE_LABEL
             %@% - \tweak color #blue
-            %! FIGURE_NAME
+            %! FIGURE_LABEL
             %@% - \markup \fontsize #2 \concat { [ \raise #0.25 \fontsize #-2 (42) \hspace #1 \concat { "4" \sub 32 } ] }
             %! baca.repeat_tie()
             %! baca.IndicatorCommand._call()
@@ -5465,9 +5465,9 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             \ppp
-            %! FIGURE_NAME
+            %! FIGURE_LABEL
             %@% - \tweak color #blue
-            %! FIGURE_NAME
+            %! FIGURE_LABEL
             %@% - \markup \fontsize #2 \concat { [ \raise #0.25 \fontsize #-2 (43) \hspace #1 \concat { "4" \sub 33 } ] }
             %! baca.repeat_tie()
             %! baca.IndicatorCommand._call()
@@ -5554,9 +5554,9 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             \ppppp
-            %! FIGURE_NAME
+            %! FIGURE_LABEL
             %@% - \tweak color #blue
-            %! FIGURE_NAME
+            %! FIGURE_LABEL
             %@% - \markup \fontsize #2 \concat { [ \raise #0.25 \fontsize #-2 (44) \hspace #1 \concat { "4" \sub 34 } ] }
             %! baca.repeat_tie()
             %! baca.IndicatorCommand._call()
@@ -5630,9 +5630,9 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             \pppp
-            %! FIGURE_NAME
+            %! FIGURE_LABEL
             %@% - \tweak color #blue
-            %! FIGURE_NAME
+            %! FIGURE_LABEL
             %@% - \markup \fontsize #2 \concat { [ \raise #0.25 \fontsize #-2 (45) \hspace #1 \concat { "4" \sub 35 } ] }
             %! baca.repeat_tie()
             %! baca.IndicatorCommand._call()
@@ -5699,9 +5699,9 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             \!
-            %! FIGURE_NAME
+            %! FIGURE_LABEL
             %@% - \tweak color #blue
-            %! FIGURE_NAME
+            %! FIGURE_LABEL
             %@% - \markup \fontsize #2 \concat { [ \raise #0.25 \fontsize #-2 (46) \hspace #1 \concat { "4" \sub 36 } ] }
             %! baca.text_spanner()
             %! baca.PiecewiseCommand._call(3)

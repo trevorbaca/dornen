@@ -945,7 +945,7 @@ segment.01.Guitar.Music.Voice.I = {
             %! FIGURE_LABEL
             %@% - \tweak color #blue
             %! FIGURE_LABEL
-            %@% - \markup \fontsize #2 \concat { [ \raise #0.25 \fontsize #-2 (1) \hspace #1 "0" ] }
+            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (1) \hspace #1 "0" ] }
             [
             %! baca.attach_color_literal(2)
             %! DEFAULT_CLEF_REDRAW_COLOR
@@ -979,7 +979,7 @@ segment.01.Guitar.Music.Voice.I = {
             %! FIGURE_LABEL
             %@% - \tweak color #blue
             %! FIGURE_LABEL
-            %@% - \markup \fontsize #2 \concat { [ \raise #0.25 \fontsize #-2 (3) \hspace #1 "2" ] }
+            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (3) \hspace #1 "2" ] }
 
         %! baca.music()
         }
@@ -1009,7 +1009,7 @@ segment.01.Guitar.Music.Voice.I = {
             %! FIGURE_LABEL
             %@% - \tweak color #blue
             %! FIGURE_LABEL
-            %@% - \markup \fontsize #2 \concat { [ \raise #0.25 \fontsize #-2 (5) \hspace #1 "4" ] }
+            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (5) \hspace #1 "4" ] }
 
             %! baca.music()
             g'8.
@@ -1044,7 +1044,7 @@ segment.01.Guitar.Music.Voice.I = {
             %! FIGURE_LABEL
             %@% - \tweak color #blue
             %! FIGURE_LABEL
-            %@% - \markup \fontsize #2 \concat { [ \raise #0.25 \fontsize #-2 (7) \hspace #1 "6" ] }
+            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (7) \hspace #1 "6" ] }
             [
 
             \set stemLeftBeamCount = 1
@@ -1083,7 +1083,7 @@ segment.01.Guitar.Music.Voice.I = {
             %! FIGURE_LABEL
             %@% - \tweak color #blue
             %! FIGURE_LABEL
-            %@% - \markup \fontsize #2 \concat { [ \raise #0.25 \fontsize #-2 (10) \hspace #1 "9" ] }
+            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (10) \hspace #1 "9" ] }
 
             %! baca.music()
             f'8.
@@ -1124,7 +1124,7 @@ segment.01.Guitar.Music.Voice.I = {
             %! FIGURE_LABEL
             %@% - \tweak color #blue
             %! FIGURE_LABEL
-            %@% - \markup \fontsize #2 \concat { [ \raise #0.25 \fontsize #-2 (12) \hspace #1 "11" ] }
+            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (12) \hspace #1 "11" ] }
             [
 
             \set stemLeftBeamCount = 1
@@ -1163,7 +1163,7 @@ segment.01.Guitar.Music.Voice.I = {
             %! FIGURE_LABEL
             %@% - \tweak color #blue
             %! FIGURE_LABEL
-            %@% - \markup \fontsize #2 \concat { [ \raise #0.25 \fontsize #-2 (14) \hspace #1 "13" ] }
+            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (14) \hspace #1 "13" ] }
 
             %! baca.music()
             c'8.
@@ -1343,7 +1343,7 @@ segment.01.Guitar.Music.Voice.II = {
                 %! FIGURE_LABEL
                 %@% - \tweak color #blue
                 %! FIGURE_LABEL
-                %@% - \markup \fontsize #2 \concat { [ \raise #0.25 \fontsize #-2 (2) \hspace #1 "1" ] }
+                %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (2) \hspace #1 "1" ] }
                 %! baca.Acciaccatura.__call__()
                 [
 
@@ -1405,7 +1405,7 @@ segment.01.Guitar.Music.Voice.II = {
                 %! FIGURE_LABEL
                 %@% - \tweak color #blue
                 %! FIGURE_LABEL
-                %@% - \markup \fontsize #2 \concat { [ \raise #0.25 \fontsize #-2 (4) \hspace #1 "3" ] }
+                %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (4) \hspace #1 "3" ] }
                 %! baca.Acciaccatura.__call__()
                 [
 
@@ -1462,7 +1462,7 @@ segment.01.Guitar.Music.Voice.II = {
                 %! FIGURE_LABEL
                 %@% - \tweak color #blue
                 %! FIGURE_LABEL
-                %@% - \markup \fontsize #2 \concat { [ \raise #0.25 \fontsize #-2 (6) \hspace #1 "5" ] }
+                %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (6) \hspace #1 "5" ] }
                 %! baca.Acciaccatura.__call__()
                 [
 
@@ -1515,7 +1515,7 @@ segment.01.Guitar.Music.Voice.II = {
                 %! FIGURE_LABEL
                 %@% - \tweak color #blue
                 %! FIGURE_LABEL
-                %@% - \markup \fontsize #2 \concat { [ \raise #0.25 \fontsize #-2 (8) \hspace #1 "7" ] }
+                %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (8) \hspace #1 "7" ] }
                 %! baca.Acciaccatura.__call__()
                 [
 
@@ -1571,7 +1571,7 @@ segment.01.Guitar.Music.Voice.II = {
                 %! FIGURE_LABEL
                 %@% - \tweak color #blue
                 %! FIGURE_LABEL
-                %@% - \markup \fontsize #2 \concat { [ \raise #0.25 \fontsize #-2 (13) \hspace #1 "12" ] }
+                %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (13) \hspace #1 "12" ] }
                 %! baca.Acciaccatura.__call__()
                 [
 
@@ -1636,7 +1636,7 @@ segment.01.Guitar.Music.Voice.II = {
                 %! FIGURE_LABEL
                 %@% - \tweak color #blue
                 %! FIGURE_LABEL
-                %@% - \markup \fontsize #2 \concat { [ \raise #0.25 \fontsize #-2 (15) \hspace #1 "14" ] }
+                %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (15) \hspace #1 "14" ] }
                 %! baca.Acciaccatura.__call__()
                 [
 
@@ -1699,7 +1699,7 @@ segment.01.Guitar.Music.Voice.II = {
                 %! FIGURE_LABEL
                 %@% - \tweak color #blue
                 %! FIGURE_LABEL
-                %@% - \markup \fontsize #2 \concat { [ \raise #0.25 \fontsize #-2 (16) \hspace #1 "15" ] }
+                %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (16) \hspace #1 "15" ] }
                 %! baca.Acciaccatura.__call__()
                 [
 
@@ -1926,7 +1926,7 @@ segment.01.Guitar.Music.Voice.III = {
             %! FIGURE_LABEL
             %@% - \tweak color #blue
             %! FIGURE_LABEL
-            %@% - \markup \fontsize #2 \concat { [ \raise #0.25 \fontsize #-2 (18) \hspace #1 "17" ] }
+            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (18) \hspace #1 "17" ] }
             [
 
             %! baca.music()
@@ -2034,7 +2034,7 @@ segment.01.Guitar.Music.Voice.III = {
             %! FIGURE_LABEL
             %@% - \tweak color #blue
             %! FIGURE_LABEL
-            %@% - \markup \fontsize #2 \concat { [ \raise #0.25 \fontsize #-2 (19) \hspace #1 "18" ] }
+            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (19) \hspace #1 "18" ] }
             [
 
             %! baca.music()
@@ -2215,7 +2215,7 @@ segment.01.Guitar.Music.Voice.IV = {
             %! FIGURE_LABEL
             %@% - \tweak color #blue
             %! FIGURE_LABEL
-            %@% - \markup \fontsize #2 \concat { [ \raise #0.25 \fontsize #-2 (9) \hspace #1 "8" ] }
+            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (9) \hspace #1 "8" ] }
             [
             %! baca.slur()
             %! baca.SpannerIndicatorCommand._call(2)
@@ -2308,7 +2308,7 @@ segment.01.Guitar.Music.Voice.IV = {
             %! FIGURE_LABEL
             %@% - \tweak color #blue
             %! FIGURE_LABEL
-            %@% - \markup \fontsize #2 \concat { [ \raise #0.25 \fontsize #-2 (11) \hspace #1 "10" ] }
+            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (11) \hspace #1 "10" ] }
             [
             %! baca.slur()
             %! baca.SpannerIndicatorCommand._call(2)
@@ -2458,7 +2458,7 @@ segment.01.Guitar.Music.Voice.IV = {
             %! FIGURE_LABEL
             %@% - \tweak color #blue
             %! FIGURE_LABEL
-            %@% - \markup \fontsize #2 \concat { [ \raise #0.25 \fontsize #-2 (17) \hspace #1 "16" ] }
+            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (17) \hspace #1 "16" ] }
             [
             %! baca.slur()
             %! baca.SpannerIndicatorCommand._call(2)

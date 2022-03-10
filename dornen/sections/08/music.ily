@@ -674,7 +674,7 @@ segment.08.Guitar.Music.Voice.I = {
             %! FIGURE_LABEL
             %@% - \tweak color #blue
             %! FIGURE_LABEL
-            %@% - \markup \fontsize #2 \concat { [ \raise #0.25 \fontsize #-2 (2) \hspace #1 "L1" ] }
+            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (2) \hspace #1 "L1" ] }
             [
             %! baca.glissando()
             %! abjad.glissando(7)
@@ -722,7 +722,7 @@ segment.08.Guitar.Music.Voice.I = {
             %! FIGURE_LABEL
             %@% - \tweak color #blue
             %! FIGURE_LABEL
-            %@% - \markup \fontsize #2 \concat { [ \raise #0.25 \fontsize #-2 (7) \hspace #1 "L2" ] }
+            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (7) \hspace #1 "L2" ] }
             [
             %! baca.glissando()
             %! abjad.glissando(7)
@@ -798,7 +798,7 @@ segment.08.Guitar.Music.Voice.I = {
             %! FIGURE_LABEL
             %@% - \tweak color #blue
             %! FIGURE_LABEL
-            %@% - \markup \fontsize #2 \concat { [ \raise #0.25 \fontsize #-2 (12) \hspace #1 "L3" ] }
+            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (12) \hspace #1 "L3" ] }
             %! baca.glissando()
             %! abjad.glissando(7)
             \glissando
@@ -928,7 +928,7 @@ segment.08.Guitar.Music.Voice.II = {
             %! FIGURE_LABEL
             %@% - \tweak color #blue
             %! FIGURE_LABEL
-            %@% - \markup \fontsize #2 \concat { [ \raise #0.25 \fontsize #-2 (1) \hspace #1 "O1" ] }
+            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (1) \hspace #1 "O1" ] }
             [
 
             \acciaccatura {
@@ -983,7 +983,7 @@ segment.08.Guitar.Music.Voice.II = {
             %! FIGURE_LABEL
             %@% - \tweak color #blue
             %! FIGURE_LABEL
-            %@% - \markup \fontsize #2 \concat { [ \raise #0.25 \fontsize #-2 (6) \hspace #1 "O2" ] }
+            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (6) \hspace #1 "O2" ] }
             [
 
             \acciaccatura {
@@ -1040,7 +1040,7 @@ segment.08.Guitar.Music.Voice.II = {
             %! FIGURE_LABEL
             %@% - \tweak color #blue
             %! FIGURE_LABEL
-            %@% - \markup \fontsize #2 \concat { [ \raise #0.25 \fontsize #-2 (11) \hspace #1 "O3" ] }
+            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (11) \hspace #1 "O3" ] }
 
             \acciaccatura {
 
@@ -1229,7 +1229,7 @@ segment.08.Guitar.Music.Voice.III = {
             %! FIGURE_LABEL
             %@% - \tweak color #blue
             %! FIGURE_LABEL
-            %@% - \markup \fontsize #2 \concat { [ \raise #0.25 \fontsize #-2 (4) \hspace #1 "D1" ] }
+            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (4) \hspace #1 "D1" ] }
             [
 
             \set stemLeftBeamCount = 3
@@ -1438,7 +1438,7 @@ segment.08.Guitar.Music.Voice.III = {
             %! FIGURE_LABEL
             %@% - \tweak color #blue
             %! FIGURE_LABEL
-            %@% - \markup \fontsize #2 \concat { [ \raise #0.25 \fontsize #-2 (9) \hspace #1 "D2" ] }
+            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (9) \hspace #1 "D2" ] }
             [
 
             \set stemLeftBeamCount = 3
@@ -1656,7 +1656,7 @@ segment.08.Guitar.Music.Voice.IV = {
             %! FIGURE_LABEL
             %@% - \tweak color #blue
             %! FIGURE_LABEL
-            %@% - \markup \fontsize #2 \concat { [ \raise #0.25 \fontsize #-2 (3) \hspace #1 "G1" ] }
+            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (3) \hspace #1 "G1" ] }
             [
 
             \acciaccatura {
@@ -1704,7 +1704,7 @@ segment.08.Guitar.Music.Voice.IV = {
             %! FIGURE_LABEL
             %@% - \tweak color #blue
             %! FIGURE_LABEL
-            %@% - \markup \fontsize #2 \concat { [ \raise #0.25 \fontsize #-2 (5) \hspace #1 "G2" ] }
+            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (5) \hspace #1 "G2" ] }
 
             \acciaccatura {
 
@@ -1874,7 +1874,7 @@ segment.08.Guitar.Music.Voice.IV = {
             %! FIGURE_LABEL
             %@% - \tweak color #blue
             %! FIGURE_LABEL
-            %@% - \markup \fontsize #2 \concat { [ \raise #0.25 \fontsize #-2 (8) \hspace #1 "G3" ] }
+            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (8) \hspace #1 "G3" ] }
             [
 
             \set stemLeftBeamCount = 2
@@ -1914,7 +1914,7 @@ segment.08.Guitar.Music.Voice.IV = {
             %! FIGURE_LABEL
             %@% - \tweak color #blue
             %! FIGURE_LABEL
-            %@% - \markup \fontsize #2 \concat { [ \raise #0.25 \fontsize #-2 (10) \hspace #1 "G4" ] }
+            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (10) \hspace #1 "G4" ] }
 
             \acciaccatura {
 

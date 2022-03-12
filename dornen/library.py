@@ -15,7 +15,7 @@ metronome_marks = dict(
 
 
 def _apply_operator(segment, operator):
-    assert isinstance(segment, abjad.NumberedPitchClassSegment)
+    assert isinstance(segment, abjad.PitchClassSegment)
     assert isinstance(operator, str), repr(operator)
     if operator.startswith("T"):
         index = int(operator[1:])
@@ -61,13 +61,13 @@ class DesignMaker:
         list_ = []
         for cell in cells:
             list_.extend(cell)
-        segment = abjad.NumberedPitchClassSegment(list_)
+        segment = abjad.PitchClassSegment(list_)
         operators = operators or []
         for operator in operators:
             segment = _apply_operator(segment, operator)
         sequence = list(segment)
         parts = abjad.sequence.partition_by_counts(sequence, counts, overhang=True)
-        parts_ = [abjad.NumberedPitchClassSegment(_) for _ in parts]
+        parts_ = [abjad.PitchClassSegment(_) for _ in parts]
         self._result.extend(parts_)
 
     def partition_cyclic(self, cursor, number, counts, operators=None):
@@ -80,7 +80,7 @@ class DesignMaker:
         list_ = []
         for cell in cells:
             list_.extend(cell)
-        segment = abjad.NumberedPitchClassSegment(list_)
+        segment = abjad.PitchClassSegment(list_)
         operators = operators or []
         for operator in operators:
             segment = _apply_operator(segment, operator)
@@ -88,7 +88,7 @@ class DesignMaker:
         parts = abjad.sequence.partition_by_counts(
             sequence, counts, cyclic=True, overhang=True
         )
-        parts = [abjad.NumberedPitchClassSegment(_) for _ in parts]
+        parts = [abjad.PitchClassSegment(_) for _ in parts]
         self._result.extend(parts)
 
 

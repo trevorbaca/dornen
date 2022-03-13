@@ -682,7 +682,7 @@ voice_abbreviations = {
 
 
 def group_rleaves(argument):
-    result = baca.select.rleaves(argument)
+    result = baca.rleaves(argument)
     result = abjad.select.group(result)
     return result
 

@@ -38,7 +38,7 @@ figures(
     *library.sixteenths(),
     baca.markup(
         r"\dornen-dull-but-beautiful-markup",
-        direction=abjad.Down,
+        direction=abjad.DOWN,
     ),
     baca.text_script_down(),
     baca.extend_beam(),

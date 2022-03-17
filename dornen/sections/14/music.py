@@ -317,7 +317,7 @@ figures(
     baca.dynamic("p"),
     baca.markup(
         r"\dornen-rascado-explanation-markup",
-        direction=abjad.Up,
+        direction=abjad.UP,
     ),
     baca.register(-20),
     baca.new(
@@ -385,7 +385,7 @@ commands(
         baca.mark(r"\dornen-colophon-markup"),
         baca.rehearsal_mark_down(),
         baca.rehearsal_mark_padding(12),
-        baca.rehearsal_mark_self_alignment_x(abjad.Right),
+        baca.rehearsal_mark_self_alignment_x(abjad.RIGHT),
         selector=baca.selectors.rleaf(-1),
     ),
 )

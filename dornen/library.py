@@ -688,7 +688,7 @@ def group_rleaves(argument):
 
 
 def make_empty_score():
-    tag = baca.site(inspect.currentframe())
+    tag = baca.function_name(inspect.currentframe())
     global_context = baca.score.make_global_context()
     guitar_music_voice_1 = abjad.Voice(
         lilypond_type="GuitarMusicVoiceI",

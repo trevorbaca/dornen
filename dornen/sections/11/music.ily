@@ -1787,6 +1787,14 @@ segment.11.Guitar.Music.Voice.I = {
             %! baca.text_spanner()
             %! baca.PiecewiseCommand._call(2)
             %! SPANNER_START
+            - \tweak bound-details.right.padding 0.5
+            %! baca.text_spanner()
+            %! baca.PiecewiseCommand._call(2)
+            %! SPANNER_START
+            - \tweak bound-details.right.stencil-align-dir-y #center
+            %! baca.text_spanner()
+            %! baca.PiecewiseCommand._call(2)
+            %! SPANNER_START
             - \abjad-dashed-line-with-arrow
             %! baca.text_spanner()
             %! baca.PiecewiseCommand._call(2)
@@ -1796,14 +1804,6 @@ segment.11.Guitar.Music.Voice.I = {
             %! baca.PiecewiseCommand._call(2)
             %! SPANNER_START
             - \baca-text-spanner-right-text "kn. rasg."
-            %! baca.text_spanner()
-            %! baca.PiecewiseCommand._call(2)
-            %! SPANNER_START
-            - \tweak bound-details.right.padding 0.5
-            %! baca.text_spanner()
-            %! baca.PiecewiseCommand._call(2)
-            %! SPANNER_START
-            - \tweak bound-details.right.stencil-align-dir-y #center
             %! baca.text_spanner()
             %! baca.PiecewiseCommand._call(2)
             %! SPANNER_START
@@ -1927,6 +1927,14 @@ segment.11.Guitar.Music.Voice.I = {
             %! baca.text_spanner()
             %! baca.PiecewiseCommand._call(2)
             %! SPANNER_START
+            - \tweak bound-details.right.padding 0.5
+            %! baca.text_spanner()
+            %! baca.PiecewiseCommand._call(2)
+            %! SPANNER_START
+            - \tweak bound-details.right.stencil-align-dir-y #center
+            %! baca.text_spanner()
+            %! baca.PiecewiseCommand._call(2)
+            %! SPANNER_START
             - \abjad-dashed-line-with-arrow
             %! baca.text_spanner()
             %! baca.PiecewiseCommand._call(2)
@@ -1936,14 +1944,6 @@ segment.11.Guitar.Music.Voice.I = {
             %! baca.PiecewiseCommand._call(2)
             %! SPANNER_START
             - \baca-text-spanner-right-text "tamb. tr."
-            %! baca.text_spanner()
-            %! baca.PiecewiseCommand._call(2)
-            %! SPANNER_START
-            - \tweak bound-details.right.padding 0.5
-            %! baca.text_spanner()
-            %! baca.PiecewiseCommand._call(2)
-            %! SPANNER_START
-            - \tweak bound-details.right.stencil-align-dir-y #center
             %! baca.text_spanner()
             %! baca.PiecewiseCommand._call(2)
             %! SPANNER_START
@@ -2067,6 +2067,14 @@ segment.11.Guitar.Music.Voice.I = {
             %! baca.text_spanner()
             %! baca.PiecewiseCommand._call(2)
             %! SPANNER_START
+            - \tweak bound-details.right.padding 0.5
+            %! baca.text_spanner()
+            %! baca.PiecewiseCommand._call(2)
+            %! SPANNER_START
+            - \tweak bound-details.right.stencil-align-dir-y #center
+            %! baca.text_spanner()
+            %! baca.PiecewiseCommand._call(2)
+            %! SPANNER_START
             - \abjad-dashed-line-with-arrow
             %! baca.text_spanner()
             %! baca.PiecewiseCommand._call(2)
@@ -2076,14 +2084,6 @@ segment.11.Guitar.Music.Voice.I = {
             %! baca.PiecewiseCommand._call(2)
             %! SPANNER_START
             - \baca-text-spanner-right-text "kn. rasg."
-            %! baca.text_spanner()
-            %! baca.PiecewiseCommand._call(2)
-            %! SPANNER_START
-            - \tweak bound-details.right.padding 0.5
-            %! baca.text_spanner()
-            %! baca.PiecewiseCommand._call(2)
-            %! SPANNER_START
-            - \tweak bound-details.right.stencil-align-dir-y #center
             %! baca.text_spanner()
             %! baca.PiecewiseCommand._call(2)
             %! SPANNER_START
@@ -2207,6 +2207,14 @@ segment.11.Guitar.Music.Voice.I = {
             %! baca.text_spanner()
             %! baca.PiecewiseCommand._call(2)
             %! SPANNER_START
+            - \tweak bound-details.right.padding 0.5
+            %! baca.text_spanner()
+            %! baca.PiecewiseCommand._call(2)
+            %! SPANNER_START
+            - \tweak bound-details.right.stencil-align-dir-y #center
+            %! baca.text_spanner()
+            %! baca.PiecewiseCommand._call(2)
+            %! SPANNER_START
             - \abjad-dashed-line-with-arrow
             %! baca.text_spanner()
             %! baca.PiecewiseCommand._call(2)
@@ -2216,14 +2224,6 @@ segment.11.Guitar.Music.Voice.I = {
             %! baca.PiecewiseCommand._call(2)
             %! SPANNER_START
             - \baca-text-spanner-right-text "tamb. tr."
-            %! baca.text_spanner()
-            %! baca.PiecewiseCommand._call(2)
-            %! SPANNER_START
-            - \tweak bound-details.right.padding 0.5
-            %! baca.text_spanner()
-            %! baca.PiecewiseCommand._call(2)
-            %! SPANNER_START
-            - \tweak bound-details.right.stencil-align-dir-y #center
             %! baca.text_spanner()
             %! baca.PiecewiseCommand._call(2)
             %! SPANNER_START
@@ -2319,6 +2319,14 @@ segment.11.Guitar.Music.Voice.I = {
             %! baca.text_spanner()
             %! baca.PiecewiseCommand._call(2)
             %! SPANNER_START
+            - \tweak bound-details.right.padding 0.5
+            %! baca.text_spanner()
+            %! baca.PiecewiseCommand._call(2)
+            %! SPANNER_START
+            - \tweak bound-details.right.stencil-align-dir-y #center
+            %! baca.text_spanner()
+            %! baca.PiecewiseCommand._call(2)
+            %! SPANNER_START
             - \abjad-dashed-line-with-arrow
             %! baca.text_spanner()
             %! baca.PiecewiseCommand._call(2)
@@ -2328,14 +2336,6 @@ segment.11.Guitar.Music.Voice.I = {
             %! baca.PiecewiseCommand._call(2)
             %! SPANNER_START
             - \baca-text-spanner-right-text "kn. rasg."
-            %! baca.text_spanner()
-            %! baca.PiecewiseCommand._call(2)
-            %! SPANNER_START
-            - \tweak bound-details.right.padding 0.5
-            %! baca.text_spanner()
-            %! baca.PiecewiseCommand._call(2)
-            %! SPANNER_START
-            - \tweak bound-details.right.stencil-align-dir-y #center
             %! baca.text_spanner()
             %! baca.PiecewiseCommand._call(2)
             %! SPANNER_START
@@ -2445,6 +2445,14 @@ segment.11.Guitar.Music.Voice.I = {
             %! baca.text_spanner()
             %! baca.PiecewiseCommand._call(2)
             %! SPANNER_START
+            - \tweak bound-details.right.padding 0.5
+            %! baca.text_spanner()
+            %! baca.PiecewiseCommand._call(2)
+            %! SPANNER_START
+            - \tweak bound-details.right.stencil-align-dir-y #center
+            %! baca.text_spanner()
+            %! baca.PiecewiseCommand._call(2)
+            %! SPANNER_START
             - \abjad-dashed-line-with-arrow
             %! baca.text_spanner()
             %! baca.PiecewiseCommand._call(2)
@@ -2454,14 +2462,6 @@ segment.11.Guitar.Music.Voice.I = {
             %! baca.PiecewiseCommand._call(2)
             %! SPANNER_START
             - \baca-text-spanner-right-text "tamb. tr."
-            %! baca.text_spanner()
-            %! baca.PiecewiseCommand._call(2)
-            %! SPANNER_START
-            - \tweak bound-details.right.padding 0.5
-            %! baca.text_spanner()
-            %! baca.PiecewiseCommand._call(2)
-            %! SPANNER_START
-            - \tweak bound-details.right.stencil-align-dir-y #center
             %! baca.text_spanner()
             %! baca.PiecewiseCommand._call(2)
             %! SPANNER_START

@@ -1111,7 +1111,7 @@ segment.10.Guitar.Music.Voice.I = {
             %! baca.IndicatorCommand._call()
             :32
             %! EXPLICIT_DYNAMIC_COLOR
-            %! _treat_persistent_wrapper(1)
+            %! baca.treat_persistent_wrapper()
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(2)
             %! SPANNER_STOP
@@ -1132,7 +1132,7 @@ segment.10.Guitar.Music.Voice.I = {
             %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (2) \hspace #1 \concat { "2" \sub 1 } ] }
             %! EXPLICIT_DYNAMIC_COLOR
-            %! _treat_persistent_wrapper(1)
+            %! baca.treat_persistent_wrapper()
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(2)
             %! SPANNER_START
@@ -1197,7 +1197,7 @@ segment.10.Guitar.Music.Voice.I = {
             %! baca.IndicatorCommand._call()
             :32
             %! EXPLICIT_DYNAMIC_COLOR
-            %! _treat_persistent_wrapper(1)
+            %! baca.treat_persistent_wrapper()
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(3)
             %! SPANNER_STOP
@@ -1246,7 +1246,7 @@ segment.10.Guitar.Music.Voice.I = {
             %! baca.IndicatorCommand._call()
             :32
             %! EXPLICIT_DYNAMIC_COLOR
-            %! _treat_persistent_wrapper(1)
+            %! baca.treat_persistent_wrapper()
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(2)
             %! SPANNER_STOP
@@ -1267,7 +1267,7 @@ segment.10.Guitar.Music.Voice.I = {
             %! baca.IndicatorCommand._call()
             \repeatTie
             %! EXPLICIT_DYNAMIC_COLOR
-            %! _treat_persistent_wrapper(1)
+            %! baca.treat_persistent_wrapper()
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(2)
             %! SPANNER_START
@@ -1309,7 +1309,7 @@ segment.10.Guitar.Music.Voice.I = {
             %! baca.IndicatorCommand._call()
             :32
             %! EXPLICIT_DYNAMIC_COLOR
-            %! _treat_persistent_wrapper(1)
+            %! baca.treat_persistent_wrapper()
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(3)
             %! SPANNER_STOP
@@ -1393,7 +1393,7 @@ segment.10.Guitar.Music.Voice.I = {
             %! baca.IndicatorCommand._call()
             :32
             %! EXPLICIT_DYNAMIC_COLOR
-            %! _treat_persistent_wrapper(1)
+            %! baca.treat_persistent_wrapper()
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(2)
             %! SPANNER_STOP
@@ -1417,7 +1417,7 @@ segment.10.Guitar.Music.Voice.I = {
             %! baca.IndicatorCommand._call()
             \repeatTie
             %! EXPLICIT_DYNAMIC_COLOR
-            %! _treat_persistent_wrapper(1)
+            %! baca.treat_persistent_wrapper()
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(2)
             %! SPANNER_START
@@ -1459,7 +1459,7 @@ segment.10.Guitar.Music.Voice.I = {
             %! baca.IndicatorCommand._call()
             :32
             %! EXPLICIT_DYNAMIC_COLOR
-            %! _treat_persistent_wrapper(1)
+            %! baca.treat_persistent_wrapper()
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(3)
             %! SPANNER_STOP
@@ -1508,7 +1508,7 @@ segment.10.Guitar.Music.Voice.I = {
             %! baca.IndicatorCommand._call()
             :32
             %! EXPLICIT_DYNAMIC_COLOR
-            %! _treat_persistent_wrapper(1)
+            %! baca.treat_persistent_wrapper()
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(2)
             %! SPANNER_STOP
@@ -1529,7 +1529,7 @@ segment.10.Guitar.Music.Voice.I = {
             %! baca.IndicatorCommand._call()
             \repeatTie
             %! EXPLICIT_DYNAMIC_COLOR
-            %! _treat_persistent_wrapper(1)
+            %! baca.treat_persistent_wrapper()
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(2)
             %! SPANNER_START
@@ -1571,7 +1571,7 @@ segment.10.Guitar.Music.Voice.I = {
             %! baca.IndicatorCommand._call()
             :32
             %! EXPLICIT_DYNAMIC_COLOR
-            %! _treat_persistent_wrapper(1)
+            %! baca.treat_persistent_wrapper()
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(3)
             %! SPANNER_STOP
@@ -1655,7 +1655,7 @@ segment.10.Guitar.Music.Voice.I = {
             %! baca.IndicatorCommand._call()
             :32
             %! EXPLICIT_DYNAMIC_COLOR
-            %! _treat_persistent_wrapper(1)
+            %! baca.treat_persistent_wrapper()
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(2)
             %! SPANNER_STOP
@@ -1679,7 +1679,7 @@ segment.10.Guitar.Music.Voice.I = {
             %! baca.IndicatorCommand._call()
             \repeatTie
             %! EXPLICIT_DYNAMIC_COLOR
-            %! _treat_persistent_wrapper(1)
+            %! baca.treat_persistent_wrapper()
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(2)
             %! SPANNER_START
@@ -1721,7 +1721,7 @@ segment.10.Guitar.Music.Voice.I = {
             %! baca.IndicatorCommand._call()
             :32
             %! EXPLICIT_DYNAMIC_COLOR
-            %! _treat_persistent_wrapper(1)
+            %! baca.treat_persistent_wrapper()
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(3)
             %! SPANNER_STOP
@@ -1770,7 +1770,7 @@ segment.10.Guitar.Music.Voice.I = {
             %! baca.IndicatorCommand._call()
             :32
             %! EXPLICIT_DYNAMIC_COLOR
-            %! _treat_persistent_wrapper(1)
+            %! baca.treat_persistent_wrapper()
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(2)
             %! SPANNER_STOP
@@ -1791,7 +1791,7 @@ segment.10.Guitar.Music.Voice.I = {
             %! baca.IndicatorCommand._call()
             \repeatTie
             %! EXPLICIT_DYNAMIC_COLOR
-            %! _treat_persistent_wrapper(1)
+            %! baca.treat_persistent_wrapper()
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(2)
             %! SPANNER_START
@@ -1833,7 +1833,7 @@ segment.10.Guitar.Music.Voice.I = {
             %! baca.IndicatorCommand._call()
             :32
             %! EXPLICIT_DYNAMIC_COLOR
-            %! _treat_persistent_wrapper(1)
+            %! baca.treat_persistent_wrapper()
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(3)
             %! SPANNER_STOP
@@ -1882,7 +1882,7 @@ segment.10.Guitar.Music.Voice.I = {
             %! baca.IndicatorCommand._call()
             :32
             %! EXPLICIT_DYNAMIC_COLOR
-            %! _treat_persistent_wrapper(1)
+            %! baca.treat_persistent_wrapper()
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(2)
             %! SPANNER_STOP
@@ -1903,7 +1903,7 @@ segment.10.Guitar.Music.Voice.I = {
             %! baca.IndicatorCommand._call()
             \repeatTie
             %! EXPLICIT_DYNAMIC_COLOR
-            %! _treat_persistent_wrapper(1)
+            %! baca.treat_persistent_wrapper()
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(2)
             %! SPANNER_START
@@ -1945,7 +1945,7 @@ segment.10.Guitar.Music.Voice.I = {
             %! baca.IndicatorCommand._call()
             :32
             %! EXPLICIT_DYNAMIC_COLOR
-            %! _treat_persistent_wrapper(1)
+            %! baca.treat_persistent_wrapper()
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(3)
             %! SPANNER_STOP
@@ -1994,7 +1994,7 @@ segment.10.Guitar.Music.Voice.I = {
             %! baca.IndicatorCommand._call()
             :32
             %! EXPLICIT_DYNAMIC_COLOR
-            %! _treat_persistent_wrapper(1)
+            %! baca.treat_persistent_wrapper()
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(2)
             %! SPANNER_STOP
@@ -2015,7 +2015,7 @@ segment.10.Guitar.Music.Voice.I = {
             %! baca.IndicatorCommand._call()
             \repeatTie
             %! EXPLICIT_DYNAMIC_COLOR
-            %! _treat_persistent_wrapper(1)
+            %! baca.treat_persistent_wrapper()
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(2)
             %! SPANNER_START
@@ -2188,7 +2188,7 @@ segment.10.Guitar.Music.Voice.I = {
             %! baca.IndicatorCommand._call()
             :32
             %! EXPLICIT_DYNAMIC_COLOR
-            %! _treat_persistent_wrapper(1)
+            %! baca.treat_persistent_wrapper()
             %! baca.hairpin()
             %! baca.PiecewiseCommand._call(3)
             %! SPANNER_STOP

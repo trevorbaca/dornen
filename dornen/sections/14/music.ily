@@ -2021,7 +2021,7 @@ segment.14.Guitar.Music.Voice.I = {
             %! baca.music()
             d'32.
             %! REAPPLIED_DYNAMIC_COLOR
-            %! _treat_persistent_wrapper(1)
+            %! baca.treat_persistent_wrapper()
             %! baca._reapply_persistent_indicators(3)
             %! baca._set_status_tag()
             %! REAPPLIED_DYNAMIC
@@ -2618,7 +2618,7 @@ segment.14.Guitar.Music.Voice.I = {
             %! baca.IndicatorCommand._call()
             :32
             %! EXPLICIT_DYNAMIC_COLOR
-            %! _treat_persistent_wrapper(1)
+            %! baca.treat_persistent_wrapper()
             %! baca.dynamic()
             %! baca.IndicatorCommand._call()
             %! baca._set_status_tag()

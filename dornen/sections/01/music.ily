@@ -1426,11 +1426,11 @@ segment.01.Guitar.Music.Voice.II = {
             %! baca.music()
             }
 
+            \set stemLeftBeamCount = 3
+            \set stemRightBeamCount = 1
             %! baca.time_signature_extra_offset()
             %! baca.OverrideCommand._call(1)
             \once \override Score.TimeSignature.extra-offset = #'(-2.5 . 0)
-            \set stemLeftBeamCount = 3
-            \set stemRightBeamCount = 1
             %! baca.music()
             f'32
 

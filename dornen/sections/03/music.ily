@@ -2096,14 +2096,14 @@ segment.03.Guitar.Music.Voice.I = {
 
             %! baca._comment_measure_numbers()
             % [Guitar_Music_Voice_I measure 11]
+            \set stemLeftBeamCount = 1
+            \set stemRightBeamCount = 3
             %! baca.beam_positions()
             %! baca.OverrideCommand._call(1)
             \override Beam.positions = #'(-6.5 . -6.5)
             %! baca.stem_down()
             %! baca.OverrideCommand._call(1)
             \override Stem.direction = #down
-            \set stemLeftBeamCount = 1
-            \set stemRightBeamCount = 3
             %! baca.music()
             b''32
             %! baca.staccato()
@@ -2157,14 +2157,14 @@ segment.03.Guitar.Music.Voice.I = {
 
             %! baca._comment_measure_numbers()
             % [Guitar_Music_Voice_I measure 13]
+            \set stemLeftBeamCount = 1
+            \set stemRightBeamCount = 3
             %! baca.beam_positions()
             %! baca.OverrideCommand._call(1)
             \override Beam.positions = #'(-6.5 . -6.5)
             %! baca.stem_down()
             %! baca.OverrideCommand._call(1)
             \override Stem.direction = #down
-            \set stemLeftBeamCount = 1
-            \set stemRightBeamCount = 3
             %! baca.music()
             b''32
             %! baca.staccato()
@@ -2585,14 +2585,14 @@ segment.03.Guitar.Music.Voice.I = {
 
             %! baca._comment_measure_numbers()
             % [Guitar_Music_Voice_I measure 19]
+            \set stemLeftBeamCount = 1
+            \set stemRightBeamCount = 3
             %! baca.beam_positions()
             %! baca.OverrideCommand._call(1)
             \override Beam.positions = #'(-6.5 . -6.5)
             %! baca.stem_down()
             %! baca.OverrideCommand._call(1)
             \override Stem.direction = #down
-            \set stemLeftBeamCount = 1
-            \set stemRightBeamCount = 3
             %! baca.music()
             b''32
             %! baca.staccato()
@@ -3624,11 +3624,11 @@ segment.03.Guitar.Music.Voice.II = {
 
             %! baca._comment_measure_numbers()
             % [Guitar_Music_Voice_II measure 7]
+            \set stemLeftBeamCount = 1
+            \set stemRightBeamCount = 1
             %! baca.text_script_color()
             %! baca.OverrideCommand._call(1)
             \override TextScript.color = #red
-            \set stemLeftBeamCount = 1
-            \set stemRightBeamCount = 1
             %! baca.music()
             cs'!8.
             %! FIGURE_LABEL
@@ -3735,11 +3735,11 @@ segment.03.Guitar.Music.Voice.II = {
 
             %! baca._comment_measure_numbers()
             % [Guitar_Music_Voice_II measure 20]
+            \set stemLeftBeamCount = 1
+            \set stemRightBeamCount = 1
             %! baca.text_script_color()
             %! baca.OverrideCommand._call(1)
             \override TextScript.color = #red
-            \set stemLeftBeamCount = 1
-            \set stemRightBeamCount = 1
             %! baca.music()
             cs'!8.
             %! FIGURE_LABEL
@@ -3846,11 +3846,11 @@ segment.03.Guitar.Music.Voice.II = {
 
             %! baca._comment_measure_numbers()
             % [Guitar_Music_Voice_II measure 26]
+            \set stemLeftBeamCount = 1
+            \set stemRightBeamCount = 1
             %! baca.text_script_color()
             %! baca.OverrideCommand._call(1)
             \override TextScript.color = #red
-            \set stemLeftBeamCount = 1
-            \set stemRightBeamCount = 1
             %! baca.music()
             cs'!8.
             %! FIGURE_LABEL
@@ -4633,11 +4633,11 @@ segment.03.Guitar.Music.Voice.IV = {
 
             %! baca._comment_measure_numbers()
             % [Guitar_Music_Voice_IV measure 4]
+            \set stemLeftBeamCount = 2
+            \set stemRightBeamCount = 1
             %! baca.stem_up()
             %! baca.OverrideCommand._call(1)
             \once \override Stem.direction = #up
-            \set stemLeftBeamCount = 2
-            \set stemRightBeamCount = 1
             %! baca.music()
             f''16
             %! FIGURE_LABEL
@@ -4670,11 +4670,11 @@ segment.03.Guitar.Music.Voice.IV = {
 
             %! baca._comment_measure_numbers()
             % [Guitar_Music_Voice_IV measure 6]
+            \set stemLeftBeamCount = 1
+            \set stemRightBeamCount = 2
             %! baca.stem_up()
             %! baca.OverrideCommand._call(1)
             \override Stem.direction = #up
-            \set stemLeftBeamCount = 1
-            \set stemRightBeamCount = 2
             %! baca.music()
             f''16
             %! FIGURE_LABEL
@@ -4723,11 +4723,11 @@ segment.03.Guitar.Music.Voice.IV = {
 
             %! baca._comment_measure_numbers()
             % [Guitar_Music_Voice_IV measure 8]
+            \set stemLeftBeamCount = 1
+            \set stemRightBeamCount = 2
             %! baca.stem_up()
             %! baca.OverrideCommand._call(1)
             \override Stem.direction = #up
-            \set stemLeftBeamCount = 1
-            \set stemRightBeamCount = 2
             %! baca.music()
             f''16
             %! FIGURE_LABEL
@@ -4816,11 +4816,11 @@ segment.03.Guitar.Music.Voice.IV = {
 
             %! baca._comment_measure_numbers()
             % [Guitar_Music_Voice_IV measure 12]
+            \set stemLeftBeamCount = 1
+            \set stemRightBeamCount = 2
             %! baca.stem_up()
             %! baca.OverrideCommand._call(1)
             \override Stem.direction = #up
-            \set stemLeftBeamCount = 1
-            \set stemRightBeamCount = 2
             %! baca.music()
             f''16
             %! FIGURE_LABEL
@@ -4882,11 +4882,11 @@ segment.03.Guitar.Music.Voice.IV = {
 
             %! baca._comment_measure_numbers()
             % [Guitar_Music_Voice_IV measure 15]
+            \set stemLeftBeamCount = 1
+            \set stemRightBeamCount = 2
             %! baca.stem_up()
             %! baca.OverrideCommand._call(1)
             \override Stem.direction = #up
-            \set stemLeftBeamCount = 1
-            \set stemRightBeamCount = 2
             %! baca.music()
             f''16
             %! FIGURE_LABEL
@@ -4935,14 +4935,14 @@ segment.03.Guitar.Music.Voice.IV = {
 
             %! baca._comment_measure_numbers()
             % [Guitar_Music_Voice_IV measure 18]
+            \set stemLeftBeamCount = 1
+            \set stemRightBeamCount = 2
             %! baca.beam_positions()
             %! baca.OverrideCommand._call(1)
             \override Beam.positions = #'(6 . 6)
             %! baca.stem_up()
             %! baca.OverrideCommand._call(1)
             \override Stem.direction = #up
-            \set stemLeftBeamCount = 1
-            \set stemRightBeamCount = 2
             %! baca.music()
             f''16
             %! FIGURE_LABEL
@@ -5031,14 +5031,14 @@ segment.03.Guitar.Music.Voice.IV = {
 
             %! baca._comment_measure_numbers()
             % [Guitar_Music_Voice_IV measure 21]
+            \set stemLeftBeamCount = 1
+            \set stemRightBeamCount = 2
             %! baca.beam_positions()
             %! baca.OverrideCommand._call(1)
             \override Beam.positions = #'(6 . 6)
             %! baca.stem_up()
             %! baca.OverrideCommand._call(1)
             \override Stem.direction = #up
-            \set stemLeftBeamCount = 1
-            \set stemRightBeamCount = 2
             %! baca.music()
             f''16
             %! FIGURE_LABEL

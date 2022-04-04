@@ -4927,6 +4927,10 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca.repeat_tie()
             %! baca.IndicatorCommand._call()
             \repeatTie
+            %! baca.text_spanner()
+            %! baca.PiecewiseCommand._call(3)
+            %! SPANNER_STOP
+            \stopTextSpan
             %! EXPLICIT_DYNAMIC_COLOR
             %! baca.treat_persistent_wrapper()
             %! baca.hairpin()
@@ -4941,10 +4945,6 @@ segment.13.Guitar.Music.Voice.I = {
             %! baca._set_status_tag()
             %! EXPLICIT_DYNAMIC
             \>
-            %! baca.text_spanner()
-            %! baca.PiecewiseCommand._call(3)
-            %! SPANNER_STOP
-            \stopTextSpan
             %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
             %! baca._attach_shadow_tie_indicators()

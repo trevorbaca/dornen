@@ -2339,13 +2339,13 @@ segment.13.Guitar.Music.Voice.I = {
             %@% - \tweak color #blue
             %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (3) \hspace #1 \concat { "2" \sub 3 } ] }
-            %! baca.repeat_tie()
-            %! baca.IndicatorCommand._call()
-            \repeatTie
             %! baca.text_spanner()
             %! baca.PiecewiseCommand._call(3)
             %! SPANNER_STOP
             \stopTextSpan
+            %! baca.repeat_tie()
+            %! baca.IndicatorCommand._call()
+            \repeatTie
             %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
             %! baca._attach_shadow_tie_indicators()
@@ -2479,13 +2479,13 @@ segment.13.Guitar.Music.Voice.I = {
             %@% - \tweak color #blue
             %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (5) \hspace #1 \concat { "2" \sub 5 } ] }
-            %! baca.repeat_tie()
-            %! baca.IndicatorCommand._call()
-            \repeatTie
             %! baca.text_spanner()
             %! baca.PiecewiseCommand._call(3)
             %! SPANNER_STOP
             \stopTextSpan
+            %! baca.repeat_tie()
+            %! baca.IndicatorCommand._call()
+            \repeatTie
             %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
             %! baca._attach_shadow_tie_indicators()
@@ -2657,13 +2657,13 @@ segment.13.Guitar.Music.Voice.I = {
             %@% - \tweak color #blue
             %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (8) \hspace #1 \concat { "3" \sub 3 } ] }
-            %! baca.repeat_tie()
-            %! baca.IndicatorCommand._call()
-            \repeatTie
             %! baca.text_spanner()
             %! baca.PiecewiseCommand._call(3)
             %! SPANNER_STOP
             \stopTextSpan
+            %! baca.repeat_tie()
+            %! baca.IndicatorCommand._call()
+            \repeatTie
             %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
             %! baca._attach_shadow_tie_indicators()
@@ -2797,13 +2797,13 @@ segment.13.Guitar.Music.Voice.I = {
             %@% - \tweak color #blue
             %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (10) \hspace #1 \concat { "3" \sub 5 } ] }
-            %! baca.repeat_tie()
-            %! baca.IndicatorCommand._call()
-            \repeatTie
             %! baca.text_spanner()
             %! baca.PiecewiseCommand._call(3)
             %! SPANNER_STOP
             \stopTextSpan
+            %! baca.repeat_tie()
+            %! baca.IndicatorCommand._call()
+            \repeatTie
             %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
             %! baca._attach_shadow_tie_indicators()
@@ -2975,13 +2975,13 @@ segment.13.Guitar.Music.Voice.I = {
             %@% - \tweak color #blue
             %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (13) \hspace #1 \concat { "4" \sub 3 } ] }
-            %! baca.repeat_tie()
-            %! baca.IndicatorCommand._call()
-            \repeatTie
             %! baca.text_spanner()
             %! baca.PiecewiseCommand._call(3)
             %! SPANNER_STOP
             \stopTextSpan
+            %! baca.repeat_tie()
+            %! baca.IndicatorCommand._call()
+            \repeatTie
             %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
             %! baca._attach_shadow_tie_indicators()
@@ -3227,13 +3227,13 @@ segment.13.Guitar.Music.Voice.I = {
             %@% - \tweak color #blue
             %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (17) \hspace #1 \concat { "4" \sub 7 } ] }
-            %! baca.repeat_tie()
-            %! baca.IndicatorCommand._call()
-            \repeatTie
             %! baca.text_spanner()
             %! baca.PiecewiseCommand._call(3)
             %! SPANNER_STOP
             \stopTextSpan
+            %! baca.repeat_tie()
+            %! baca.IndicatorCommand._call()
+            \repeatTie
             %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
             %! baca._attach_shadow_tie_indicators()
@@ -3380,13 +3380,13 @@ segment.13.Guitar.Music.Voice.I = {
             %@% - \tweak color #blue
             %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (19) \hspace #1 \concat { "4" \sub 9 } ] }
-            %! baca.repeat_tie()
-            %! baca.IndicatorCommand._call()
-            \repeatTie
             %! baca.text_spanner()
             %! baca.PiecewiseCommand._call(3)
             %! SPANNER_STOP
             \stopTextSpan
+            %! baca.repeat_tie()
+            %! baca.IndicatorCommand._call()
+            \repeatTie
             %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
             %! baca._attach_shadow_tie_indicators()
@@ -3518,13 +3518,13 @@ segment.13.Guitar.Music.Voice.I = {
             %@% - \tweak color #blue
             %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (21) \hspace #1 \concat { "4" \sub 11 } ] }
-            %! baca.repeat_tie()
-            %! baca.IndicatorCommand._call()
-            \repeatTie
             %! baca.text_spanner()
             %! baca.PiecewiseCommand._call(3)
             %! SPANNER_STOP
             \stopTextSpan
+            %! baca.repeat_tie()
+            %! baca.IndicatorCommand._call()
+            \repeatTie
             %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
             %! baca._attach_shadow_tie_indicators()
@@ -3684,13 +3684,13 @@ segment.13.Guitar.Music.Voice.I = {
             %@% - \tweak color #blue
             %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (23) \hspace #1 \concat { "4" \sub 13 } ] }
-            %! baca.repeat_tie()
-            %! baca.IndicatorCommand._call()
-            \repeatTie
             %! baca.text_spanner()
             %! baca.PiecewiseCommand._call(3)
             %! SPANNER_STOP
             \stopTextSpan
+            %! baca.repeat_tie()
+            %! baca.IndicatorCommand._call()
+            \repeatTie
             %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
             %! baca._attach_shadow_tie_indicators()
@@ -3898,13 +3898,13 @@ segment.13.Guitar.Music.Voice.I = {
             %@% - \tweak color #blue
             %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (26) \hspace #1 \concat { "4" \sub 16 } ] }
-            %! baca.repeat_tie()
-            %! baca.IndicatorCommand._call()
-            \repeatTie
             %! baca.text_spanner()
             %! baca.PiecewiseCommand._call(3)
             %! SPANNER_STOP
             \stopTextSpan
+            %! baca.repeat_tie()
+            %! baca.IndicatorCommand._call()
+            \repeatTie
             %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
             %! baca._attach_shadow_tie_indicators()
@@ -4924,13 +4924,13 @@ segment.13.Guitar.Music.Voice.I = {
             %@% - \tweak color #blue
             %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (37) \hspace #1 \concat { "4" \sub 27 } ] }
-            %! baca.repeat_tie()
-            %! baca.IndicatorCommand._call()
-            \repeatTie
             %! baca.text_spanner()
             %! baca.PiecewiseCommand._call(3)
             %! SPANNER_STOP
             \stopTextSpan
+            %! baca.repeat_tie()
+            %! baca.IndicatorCommand._call()
+            \repeatTie
             %! EXPLICIT_DYNAMIC_COLOR
             %! baca.treat_persistent_wrapper()
             %! baca.hairpin()

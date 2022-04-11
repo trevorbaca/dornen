@@ -274,7 +274,7 @@ commands(
     baca.beam_positions(10),
     baca.register(
         -12,
-        selector=baca.selectors.plts(exclude=baca.const.HIDDEN),
+        selector=lambda _: baca.select.plts(_, exclude=baca.const.HIDDEN),
     ),
 )
 
@@ -283,7 +283,7 @@ commands(
     baca.beam_positions(-5.5),
     baca.register(
         4,
-        selector=baca.selectors.plts(exclude=baca.const.HIDDEN),
+        selector=lambda _: baca.select.plts(_, exclude=baca.const.HIDDEN),
     ),
 )
 
@@ -292,7 +292,7 @@ commands(
     baca.beam_positions(-5.5),
     baca.register(
         4,
-        selector=baca.selectors.plts(exclude=baca.const.HIDDEN),
+        selector=lambda _: baca.select.plts(_, exclude=baca.const.HIDDEN),
     ),
 )
 
@@ -306,7 +306,7 @@ commands(
     ),
     baca.register(
         -20,
-        selector=baca.selectors.plts(exclude=baca.const.HIDDEN),
+        selector=lambda _: baca.select.plts(_, exclude=baca.const.HIDDEN),
     ),
 )
 
@@ -316,7 +316,7 @@ commands(
     baca.beam_positions(5.5),
     baca.register(
         -4,
-        selector=baca.selectors.plts(exclude=baca.const.HIDDEN),
+        selector=lambda _: baca.select.plts(_, exclude=baca.const.HIDDEN),
     ),
 )
 

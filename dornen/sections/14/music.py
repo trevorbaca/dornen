@@ -358,7 +358,7 @@ commands(
     ),
     baca.register(
         4,
-        selector=baca.selectors.plts(exclude=baca.const.HIDDEN),
+        selector=lambda _: baca.select.plts(_, exclude=baca.const.HIDDEN),
     ),
 )
 
@@ -367,7 +367,7 @@ commands(
     baca.accent(baca.selectors.pheads(exclude=baca.const.HIDDEN)),
     baca.register(
         -20,
-        selector=baca.selectors.plts(exclude=baca.const.HIDDEN),
+        selector=lambda _: baca.select.plts(_, exclude=baca.const.HIDDEN),
     ),
     baca.script_down(),
 )

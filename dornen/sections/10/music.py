@@ -202,7 +202,7 @@ commands(
     ("v1", 2),
     baca.hairpin(
         "ppp < pp",
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
 )
 
@@ -210,7 +210,7 @@ commands(
     ("v1", 4),
     baca.hairpin(
         "pp > ppp",
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
 )
 
@@ -218,7 +218,7 @@ commands(
     ("v1", 7),
     baca.hairpin(
         "ppp < p",
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
 )
 
@@ -226,7 +226,7 @@ commands(
     ("v1", 9),
     baca.hairpin(
         "p > ppp",
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
 )
 
@@ -234,7 +234,7 @@ commands(
     ("v1", 12),
     baca.hairpin(
         "ppp < pp",
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
 )
 
@@ -242,7 +242,7 @@ commands(
     ("v1", 14),
     baca.hairpin(
         "pp < p",
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
 )
 
@@ -250,7 +250,7 @@ commands(
     ("v1", 16),
     baca.hairpin(
         "p < mp",
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
 )
 
@@ -258,7 +258,7 @@ commands(
     ("v1", (18, 21)),
     baca.hairpin(
         "mp > pp",
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
 )
 

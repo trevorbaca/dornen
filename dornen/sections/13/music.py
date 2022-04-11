@@ -553,7 +553,7 @@ commands(
     ("v1", 45),
     baca.hairpin(
         "pppp >o niente",
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
 )
 
@@ -561,7 +561,7 @@ commands(
     ("v1", (27, 36)),
     baca.text_spanner(
         "trans. => ponticello",
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
 )
 
@@ -569,7 +569,7 @@ commands(
     ("v1", (41, 45)),
     baca.text_spanner(
         "gradually slow rasgueado => still",
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     ),
     baca.text_script_staff_padding(
         5.5,

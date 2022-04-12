@@ -393,7 +393,7 @@ figures.populate_commands(commands)
 
 commands(
     "Global_Skips",
-    baca.metronome_mark("66", baca.selectors.leaf(25 - 1)),
+    baca.metronome_mark("66", lambda _: abjad.select.leaf(_, 25 - 1)),
 )
 
 commands(

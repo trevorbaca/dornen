@@ -76,7 +76,7 @@ figures(
     *library.rests(),
     baca.markup(
         r"\dornen-raise-string-two-one-quartertone-markup",
-        selector=baca.selectors.leaf(0),
+        selector=lambda _: abjad.select.leaf(_, 0),
     ),
     figure_name="S1",
 )
@@ -145,7 +145,7 @@ figures.populate_commands(commands)
 
 commands(
     "Global_Skips",
-    baca.metronome_mark("44", baca.selectors.leaf(9 - 1)),
+    baca.metronome_mark("44", lambda _: abjad.select.leaf(_, 9 - 1)),
 )
 
 commands(

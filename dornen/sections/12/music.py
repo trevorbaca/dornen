@@ -213,7 +213,7 @@ commands(
         ),
         map=lambda _: baca.select.qruns(_),
     ),
-    baca.stem_tremolo(baca.selectors.pleaves()),
+    baca.stem_tremolo(lambda _: baca.select.pleaves(_)),
 )
 
 commands(

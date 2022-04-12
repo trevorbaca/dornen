@@ -254,7 +254,7 @@ commands(
 commands(
     ("v3", (1, 22)),
     baca.beam_positions(4),
-    baca.staccato(baca.selectors.pheads(exclude=baca.const.HIDDEN)),
+    baca.staccato(lambda _: baca.select.pheads(_, exclude=baca.const.HIDDEN)),
 )
 
 defaults = baca.score_interpretation_defaults()

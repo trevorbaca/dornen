@@ -201,7 +201,7 @@ figures(
     [["Gb2"]],
     *library.monads(),
     baca.markup(r"\dornen-two-finger-tamb-trill-markup"),
-    baca.stem_tremolo(baca.selectors.pleaves()),
+    baca.stem_tremolo(lambda _: baca.select.pleaves(_)),
     baca.stem_up(),
     baca.tuplet_bracket_staff_padding(0),
     baca.tuplet_bracket_extra_offset((0, -0.5)),
@@ -270,7 +270,7 @@ figures.populate_commands(commands)
 
 commands(
     "v1",
-    baca.tenuto(baca.selectors.pheads(exclude=baca.const.HIDDEN)),
+    baca.tenuto(lambda _: baca.select.pheads(_, exclude=baca.const.HIDDEN)),
     baca.beam_positions(10),
     baca.register(
         -12,
@@ -299,7 +299,7 @@ commands(
 commands(
     "v3",
     baca.accent(
-        baca.selectors.pheads(exclude=baca.const.HIDDEN),
+        lambda _: baca.select.pheads(_, exclude=baca.const.HIDDEN),
     ),
     baca.script_down(
         baca.selectors.leaves(exclude=baca.const.HIDDEN),
@@ -312,7 +312,7 @@ commands(
 
 commands(
     "v4",
-    baca.staccato(baca.selectors.pheads(exclude=baca.const.HIDDEN)),
+    baca.staccato(lambda _: baca.select.pheads(_, exclude=baca.const.HIDDEN)),
     baca.beam_positions(5.5),
     baca.register(
         -4,

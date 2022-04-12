@@ -318,7 +318,7 @@ def delicatissimo():
     return [
         baca.figure([1], 32, signature=32),
         rmakers.beam_groups(),
-        baca.staccato(selector=baca.selectors.pheads()),
+        baca.staccato(selector=lambda _: baca.select.pheads(_)),
     ]
 
 
@@ -336,7 +336,7 @@ def glissando_scatto():
     return [
         baca.figure([2, 2, 2, 1, 2, 2, 2], 32, signature=16, treatments=[-2]),
         rmakers.beam_groups(),
-        baca.glissando(map=baca.selectors.ntruns()),
+        baca.glissando(map=lambda _: baca.select.ntruns(_)),
     ]
 
 
@@ -449,7 +449,7 @@ def sixty_fourths():
     return [
         baca.figure([1], 64, signature=64),
         rmakers.beam_groups(),
-        baca.staccato(selector=baca.selectors.pheads()),
+        baca.staccato(selector=lambda _: baca.select.pheads(_)),
     ]
 
 

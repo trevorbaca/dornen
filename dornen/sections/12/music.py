@@ -209,7 +209,7 @@ commands(
     baca.register(-20),
     baca.new(
         baca.repeat_tie(
-            baca.selectors.pleaves((1, None)),
+            lambda _: baca.select.pleaves(_)[1:],
         ),
         map=lambda _: baca.select.qruns(_),
     ),

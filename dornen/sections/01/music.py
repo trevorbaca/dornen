@@ -19,7 +19,7 @@ figures(
     *library.anchors(),
     baca.beam_positions(
         6,
-        baca.selectors.leaves(grace=False),
+        lambda _: baca.select.leaves(_, grace=False),
     ),
     baca.register(-8),
     baca.extend_beam(),
@@ -32,7 +32,7 @@ figures(
     *library.passepied(),
     baca.beam_positions(
         -10,
-        baca.selectors.leaves(grace=False),
+        lambda _: baca.select.leaves(_, grace=False),
     ),
     baca.time_signature_extra_offset((-2.5, 0)),
     baca.register(-10),
@@ -82,7 +82,7 @@ figures(
     *library.anchors(),
     baca.beam_positions(
         9,
-        baca.selectors.leaves(grace=False),
+        lambda _: baca.select.leaves(_, grace=False),
     ),
     baca.register(-14),
     baca.extend_beam(),
@@ -95,7 +95,7 @@ figures(
     *library.passepied(),
     baca.beam_positions(
         -10,
-        baca.selectors.leaves(grace=False),
+        lambda _: baca.select.leaves(_, grace=False),
     ),
     baca.time_signature_extra_offset((-2.5, 0)),
     baca.register(-4),
@@ -133,7 +133,7 @@ figures(
     *library.anchors(),
     baca.beam_positions(
         6,
-        baca.selectors.leaves(grace=False),
+        lambda _: baca.select.leaves(_, grace=False),
     ),
     baca.register(-18),
     baca.extend_beam(),
@@ -163,7 +163,7 @@ figures(
     *library.passepied(),
     baca.beam_positions(
         -10,
-        baca.selectors.leaves(grace=False),
+        lambda _: baca.select.leaves(_, grace=False),
     ),
     baca.time_signature_extra_offset((-2.5, 0)),
     baca.register(0),
@@ -194,7 +194,7 @@ figures(
     *library.waves(denominator=64, inverted=True),
     baca.beam_positions(
         -6,
-        baca.selectors.leaves(grace=False),
+        lambda _: baca.select.leaves(_, grace=False),
     ),
     figure_name="17",
 )
@@ -205,7 +205,7 @@ figures(
     *library.waves(denominator=64, inverted=True),
     baca.beam_positions(
         -6,
-        baca.selectors.leaves(grace=False),
+        lambda _: baca.select.leaves(_, grace=False),
     ),
     figure_name="18",
 )

@@ -302,7 +302,7 @@ commands(
         lambda _: baca.select.pheads(_, exclude=baca.const.HIDDEN),
     ),
     baca.script_down(
-        baca.selectors.leaves(exclude=baca.const.HIDDEN),
+        lambda _: baca.select.leaves(_, exclude=baca.const.HIDDEN),
     ),
     baca.register(
         -20,

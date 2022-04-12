@@ -156,7 +156,7 @@ commands(
     baca.new(
         baca.script_down(),
         baca.register(-20),
-        selector=baca.selectors.leaves(exclude=baca.const.HIDDEN),
+        selector=lambda _: baca.select.leaves(_, exclude=baca.const.HIDDEN),
     ),
 )
 

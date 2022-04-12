@@ -240,7 +240,7 @@ commands(
     ("v2", (1, 10)),
     baca.beam_positions(
         -7,
-        baca.selectors.leaves(exclude=baca.const.HIDDEN),
+        lambda _: baca.select.leaves(_, exclude=baca.const.HIDDEN),
     ),
     lower_register,
 )

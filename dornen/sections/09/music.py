@@ -192,7 +192,7 @@ commands(
     ("v1", (9, 18)),
     baca.beam_positions(
         8,
-        baca.selectors.leaves(exclude=baca.const.HIDDEN),
+        lambda _: baca.select.leaves(_, exclude=baca.const.HIDDEN),
     ),
 )
 

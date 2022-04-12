@@ -16,7 +16,7 @@ figures(
     "v1",
     design[:1],
     *library.forty_eighths(),
-    baca.tenuto(baca.selectors.pheads()),
+    baca.tenuto(lambda _: baca.select.pheads(_)),
     baca.beam_positions(10),
     baca.register(-12),
     baca.extend_beam(),
@@ -51,7 +51,7 @@ figures(
     "v1",
     design[6:7],
     *library.forty_eighths(),
-    baca.tenuto(baca.selectors.pheads()),
+    baca.tenuto(lambda _: baca.select.pheads(_)),
     baca.register(-12),
     figure_name="48_2",
 )
@@ -151,7 +151,7 @@ commands(
 commands(
     ("v3", (1, 7)),
     baca.accent(
-        baca.selectors.pheads(exclude=baca.const.HIDDEN),
+        lambda _: baca.select.pheads(_, exclude=baca.const.HIDDEN),
     ),
     baca.new(
         baca.script_down(),
@@ -162,7 +162,7 @@ commands(
 
 commands(
     ("v4", (1, 7)),
-    baca.staccato(baca.selectors.pheads()),
+    baca.staccato(lambda _: baca.select.pheads(_)),
     baca.beam_positions(5.5),
     baca.register(-4),
 )

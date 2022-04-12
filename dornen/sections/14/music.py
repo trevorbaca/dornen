@@ -61,7 +61,7 @@ figures(
     "v1",
     [["C4"]],
     *library.thirty_seconds(),
-    rmakers.force_rest(baca.selectors.lt(0)),
+    rmakers.force_rest(lambda _: baca.select.lt(_, 0)),
 )
 
 ### 2 ###
@@ -112,7 +112,7 @@ figures(
     "v1",
     [["C4"]],
     *library.thirty_seconds(),
-    rmakers.force_rest(baca.selectors.lt(0)),
+    rmakers.force_rest(lambda _: baca.select.lt(_, 0)),
 )
 
 ### 3 ###
@@ -163,7 +163,7 @@ figures(
     "v1",
     [["C4"]],
     *library.thirty_seconds(),
-    rmakers.force_rest(baca.selectors.lt(0)),
+    rmakers.force_rest(lambda _: baca.select.lt(_, 0)),
 )
 
 ### 4 ###
@@ -213,7 +213,7 @@ figures(
     "v1",
     [["C4"]],
     *library.thirty_seconds(),
-    rmakers.force_rest(baca.selectors.lt(0)),
+    rmakers.force_rest(lambda _: baca.select.lt(_, 0)),
 )
 
 ### 5 ###
@@ -263,7 +263,7 @@ figures(
     "v1",
     [["C4"]],
     *library.thirty_seconds(),
-    rmakers.force_rest(baca.selectors.lt(0)),
+    rmakers.force_rest(lambda _: baca.select.lt(_, 0)),
 )
 
 ### 6 ###
@@ -326,7 +326,7 @@ figures(
         ),
         map=lambda _: baca.select.qruns(_),
     ),
-    baca.stem_tremolo(baca.selectors.pleaves()),
+    baca.stem_tremolo(lambda _: baca.select.pleaves(_)),
 )
 
 voice_names = baca.accumulator.get_voice_names(score)
@@ -347,7 +347,7 @@ commands(
     ("v1", (1, 41)),
     baca.beam_positions(10),
     baca.register(-12),
-    baca.tenuto(baca.selectors.pheads()),
+    baca.tenuto(lambda _: baca.select.pheads(_)),
 )
 
 commands(
@@ -364,7 +364,7 @@ commands(
 
 commands(
     ("v3", (1, 41)),
-    baca.accent(baca.selectors.pheads(exclude=baca.const.HIDDEN)),
+    baca.accent(lambda _: baca.select.pheads(_, exclude=baca.const.HIDDEN)),
     baca.register(
         -20,
         selector=lambda _: baca.select.plts(_, exclude=baca.const.HIDDEN),
@@ -376,7 +376,7 @@ commands(
     ("v4", (1, 41)),
     baca.beam_positions(5.5),
     baca.register(-4),
-    baca.staccato(baca.selectors.pheads(exclude=baca.const.HIDDEN)),
+    baca.staccato(lambda _: baca.select.pheads(_, exclude=baca.const.HIDDEN)),
 )
 
 commands(

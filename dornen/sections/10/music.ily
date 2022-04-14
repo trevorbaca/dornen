@@ -2321,114 +2321,158 @@ segment.10.Guitar.Music.Voice.I = {
 %! baca.path.extern()
 segment.10.Guitar.Music.Voice.II = {
 
-    %! baca._comment_measure_numbers()
-    % [Guitar_Music_Voice_II measure 1]
-    %! baca._call_rhythm_commands()
-    s1 * 3/8
+    %! baca._make_multimeasure_rest_container(7)
+    <<
+
+        %! baca._make_multimeasure_rest_container(4)
+        \context Voice = "Guitar_Music_Voice_II"
+        %! baca._make_multimeasure_rest_container(4)
+        {
+
+            %! baca._comment_measure_numbers()
+            % [Guitar_Music_Voice_II measure 1]
+            %! baca._make_multimeasure_rest_container(2)
+            %! NOTE
+            %! INVISIBLE_MUSIC_COLORING
+            \abjad-invisible-music-coloring
+            %! baca._make_multimeasure_rest_container(3)
+            %! NOTE
+            %! INVISIBLE_MUSIC_COMMAND
+            %@% \abjad-invisible-music
+            %! baca._make_multimeasure_rest_container(1)
+            %! HIDDEN
+            %! NOTE
+            b'1 * 3/8
+            %! baca._label_duration_multipliers()
+            %! DURATION_MULTIPLIER
+            %! HIDDEN
+            %! NOTE
+            %@% ^ \baca-duration-multiplier-markup #"3" #"8"
+
+        %! baca._make_multimeasure_rest_container(4)
+        }
+
+        %! baca._make_multimeasure_rest_container(6)
+        \context Voice = "Guitar_Rest_Voice_II"
+        %! baca._make_multimeasure_rest_container(6)
+        {
+
+            %! baca._comment_measure_numbers()
+            % [Guitar_Rest_Voice_II measure 1]
+            %! baca._make_multimeasure_rest_container(5)
+            %! REST_VOICE
+            %! SKIP
+            s1 * 3/8
+
+        %! baca._make_multimeasure_rest_container(6)
+        }
+
+    %! baca._make_multimeasure_rest_container(7)
+    >>
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice_II measure 2]
-    %! baca._call_rhythm_commands()
+    %! baca._make_measure_silences()
     s1 * 4/5
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice_II measure 3]
-    %! baca._call_rhythm_commands()
+    %! baca._make_measure_silences()
     s1 * 2/5
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice_II measure 4]
-    %! baca._call_rhythm_commands()
+    %! baca._make_measure_silences()
     s1 * 1/3
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice_II measure 5]
-    %! baca._call_rhythm_commands()
+    %! baca._make_measure_silences()
     s1 * 1/3
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice_II measure 6]
-    %! baca._call_rhythm_commands()
+    %! baca._make_measure_silences()
     s1 * 1/3
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice_II measure 7]
-    %! baca._call_rhythm_commands()
+    %! baca._make_measure_silences()
     s1 * 2/5
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice_II measure 8]
-    %! baca._call_rhythm_commands()
+    %! baca._make_measure_silences()
     s1 * 2/5
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice_II measure 9]
-    %! baca._call_rhythm_commands()
+    %! baca._make_measure_silences()
     s1 * 1/3
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice_II measure 10]
-    %! baca._call_rhythm_commands()
+    %! baca._make_measure_silences()
     s1 * 1/3
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice_II measure 11]
-    %! baca._call_rhythm_commands()
+    %! baca._make_measure_silences()
     s1 * 1/3
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice_II measure 12]
-    %! baca._call_rhythm_commands()
+    %! baca._make_measure_silences()
     s1 * 2/5
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice_II measure 13]
-    %! baca._call_rhythm_commands()
+    %! baca._make_measure_silences()
     s1 * 2/5
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice_II measure 14]
-    %! baca._call_rhythm_commands()
+    %! baca._make_measure_silences()
     s1 * 1/3
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice_II measure 15]
-    %! baca._call_rhythm_commands()
+    %! baca._make_measure_silences()
     s1 * 2/5
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice_II measure 16]
-    %! baca._call_rhythm_commands()
+    %! baca._make_measure_silences()
     s1 * 1/3
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice_II measure 17]
-    %! baca._call_rhythm_commands()
+    %! baca._make_measure_silences()
     s1 * 2/5
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice_II measure 18]
-    %! baca._call_rhythm_commands()
+    %! baca._make_measure_silences()
     s1 * 1/3
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice_II measure 19]
-    %! baca._call_rhythm_commands()
+    %! baca._make_measure_silences()
     s1 * 1/3
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice_II measure 20]
-    %! baca._call_rhythm_commands()
+    %! baca._make_measure_silences()
     s1 * 1/3
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice_II measure 21]
-    %! baca._call_rhythm_commands()
+    %! baca._make_measure_silences()
     s1 * 4/5
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice_II measure 22]
-    %! baca._call_rhythm_commands()
+    %! baca._make_measure_silences()
     s1 * 4/5
 
     %! baca._make_multimeasure_rest_container(7)
@@ -2508,114 +2552,158 @@ segment.10.Guitar.Music.Voice.II = {
 %! baca.path.extern()
 segment.10.Guitar.Music.Voice.III = {
 
-    %! baca._comment_measure_numbers()
-    % [Guitar_Music_Voice_III measure 1]
-    %! baca._call_rhythm_commands()
-    s1 * 3/8
+    %! baca._make_multimeasure_rest_container(7)
+    <<
+
+        %! baca._make_multimeasure_rest_container(4)
+        \context Voice = "Guitar_Music_Voice_III"
+        %! baca._make_multimeasure_rest_container(4)
+        {
+
+            %! baca._comment_measure_numbers()
+            % [Guitar_Music_Voice_III measure 1]
+            %! baca._make_multimeasure_rest_container(2)
+            %! NOTE
+            %! INVISIBLE_MUSIC_COLORING
+            \abjad-invisible-music-coloring
+            %! baca._make_multimeasure_rest_container(3)
+            %! NOTE
+            %! INVISIBLE_MUSIC_COMMAND
+            %@% \abjad-invisible-music
+            %! baca._make_multimeasure_rest_container(1)
+            %! HIDDEN
+            %! NOTE
+            b'1 * 3/8
+            %! baca._label_duration_multipliers()
+            %! DURATION_MULTIPLIER
+            %! HIDDEN
+            %! NOTE
+            %@% ^ \baca-duration-multiplier-markup #"3" #"8"
+
+        %! baca._make_multimeasure_rest_container(4)
+        }
+
+        %! baca._make_multimeasure_rest_container(6)
+        \context Voice = "Guitar_Rest_Voice_III"
+        %! baca._make_multimeasure_rest_container(6)
+        {
+
+            %! baca._comment_measure_numbers()
+            % [Guitar_Rest_Voice_III measure 1]
+            %! baca._make_multimeasure_rest_container(5)
+            %! REST_VOICE
+            %! SKIP
+            s1 * 3/8
+
+        %! baca._make_multimeasure_rest_container(6)
+        }
+
+    %! baca._make_multimeasure_rest_container(7)
+    >>
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice_III measure 2]
-    %! baca._call_rhythm_commands()
+    %! baca._make_measure_silences()
     s1 * 4/5
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice_III measure 3]
-    %! baca._call_rhythm_commands()
+    %! baca._make_measure_silences()
     s1 * 2/5
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice_III measure 4]
-    %! baca._call_rhythm_commands()
+    %! baca._make_measure_silences()
     s1 * 1/3
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice_III measure 5]
-    %! baca._call_rhythm_commands()
+    %! baca._make_measure_silences()
     s1 * 1/3
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice_III measure 6]
-    %! baca._call_rhythm_commands()
+    %! baca._make_measure_silences()
     s1 * 1/3
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice_III measure 7]
-    %! baca._call_rhythm_commands()
+    %! baca._make_measure_silences()
     s1 * 2/5
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice_III measure 8]
-    %! baca._call_rhythm_commands()
+    %! baca._make_measure_silences()
     s1 * 2/5
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice_III measure 9]
-    %! baca._call_rhythm_commands()
+    %! baca._make_measure_silences()
     s1 * 1/3
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice_III measure 10]
-    %! baca._call_rhythm_commands()
+    %! baca._make_measure_silences()
     s1 * 1/3
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice_III measure 11]
-    %! baca._call_rhythm_commands()
+    %! baca._make_measure_silences()
     s1 * 1/3
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice_III measure 12]
-    %! baca._call_rhythm_commands()
+    %! baca._make_measure_silences()
     s1 * 2/5
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice_III measure 13]
-    %! baca._call_rhythm_commands()
+    %! baca._make_measure_silences()
     s1 * 2/5
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice_III measure 14]
-    %! baca._call_rhythm_commands()
+    %! baca._make_measure_silences()
     s1 * 1/3
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice_III measure 15]
-    %! baca._call_rhythm_commands()
+    %! baca._make_measure_silences()
     s1 * 2/5
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice_III measure 16]
-    %! baca._call_rhythm_commands()
+    %! baca._make_measure_silences()
     s1 * 1/3
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice_III measure 17]
-    %! baca._call_rhythm_commands()
+    %! baca._make_measure_silences()
     s1 * 2/5
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice_III measure 18]
-    %! baca._call_rhythm_commands()
+    %! baca._make_measure_silences()
     s1 * 1/3
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice_III measure 19]
-    %! baca._call_rhythm_commands()
+    %! baca._make_measure_silences()
     s1 * 1/3
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice_III measure 20]
-    %! baca._call_rhythm_commands()
+    %! baca._make_measure_silences()
     s1 * 1/3
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice_III measure 21]
-    %! baca._call_rhythm_commands()
+    %! baca._make_measure_silences()
     s1 * 4/5
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice_III measure 22]
-    %! baca._call_rhythm_commands()
+    %! baca._make_measure_silences()
     s1 * 4/5
 
     %! baca._make_multimeasure_rest_container(7)
@@ -2695,114 +2783,158 @@ segment.10.Guitar.Music.Voice.III = {
 %! baca.path.extern()
 segment.10.Guitar.Music.Voice.IV = {
 
-    %! baca._comment_measure_numbers()
-    % [Guitar_Music_Voice_IV measure 1]
-    %! baca._call_rhythm_commands()
-    s1 * 3/8
+    %! baca._make_multimeasure_rest_container(7)
+    <<
+
+        %! baca._make_multimeasure_rest_container(4)
+        \context Voice = "Guitar_Music_Voice_IV"
+        %! baca._make_multimeasure_rest_container(4)
+        {
+
+            %! baca._comment_measure_numbers()
+            % [Guitar_Music_Voice_IV measure 1]
+            %! baca._make_multimeasure_rest_container(2)
+            %! NOTE
+            %! INVISIBLE_MUSIC_COLORING
+            \abjad-invisible-music-coloring
+            %! baca._make_multimeasure_rest_container(3)
+            %! NOTE
+            %! INVISIBLE_MUSIC_COMMAND
+            %@% \abjad-invisible-music
+            %! baca._make_multimeasure_rest_container(1)
+            %! HIDDEN
+            %! NOTE
+            b'1 * 3/8
+            %! baca._label_duration_multipliers()
+            %! DURATION_MULTIPLIER
+            %! HIDDEN
+            %! NOTE
+            %@% ^ \baca-duration-multiplier-markup #"3" #"8"
+
+        %! baca._make_multimeasure_rest_container(4)
+        }
+
+        %! baca._make_multimeasure_rest_container(6)
+        \context Voice = "Guitar_Rest_Voice_IV"
+        %! baca._make_multimeasure_rest_container(6)
+        {
+
+            %! baca._comment_measure_numbers()
+            % [Guitar_Rest_Voice_IV measure 1]
+            %! baca._make_multimeasure_rest_container(5)
+            %! REST_VOICE
+            %! SKIP
+            s1 * 3/8
+
+        %! baca._make_multimeasure_rest_container(6)
+        }
+
+    %! baca._make_multimeasure_rest_container(7)
+    >>
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice_IV measure 2]
-    %! baca._call_rhythm_commands()
+    %! baca._make_measure_silences()
     s1 * 4/5
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice_IV measure 3]
-    %! baca._call_rhythm_commands()
+    %! baca._make_measure_silences()
     s1 * 2/5
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice_IV measure 4]
-    %! baca._call_rhythm_commands()
+    %! baca._make_measure_silences()
     s1 * 1/3
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice_IV measure 5]
-    %! baca._call_rhythm_commands()
+    %! baca._make_measure_silences()
     s1 * 1/3
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice_IV measure 6]
-    %! baca._call_rhythm_commands()
+    %! baca._make_measure_silences()
     s1 * 1/3
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice_IV measure 7]
-    %! baca._call_rhythm_commands()
+    %! baca._make_measure_silences()
     s1 * 2/5
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice_IV measure 8]
-    %! baca._call_rhythm_commands()
+    %! baca._make_measure_silences()
     s1 * 2/5
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice_IV measure 9]
-    %! baca._call_rhythm_commands()
+    %! baca._make_measure_silences()
     s1 * 1/3
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice_IV measure 10]
-    %! baca._call_rhythm_commands()
+    %! baca._make_measure_silences()
     s1 * 1/3
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice_IV measure 11]
-    %! baca._call_rhythm_commands()
+    %! baca._make_measure_silences()
     s1 * 1/3
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice_IV measure 12]
-    %! baca._call_rhythm_commands()
+    %! baca._make_measure_silences()
     s1 * 2/5
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice_IV measure 13]
-    %! baca._call_rhythm_commands()
+    %! baca._make_measure_silences()
     s1 * 2/5
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice_IV measure 14]
-    %! baca._call_rhythm_commands()
+    %! baca._make_measure_silences()
     s1 * 1/3
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice_IV measure 15]
-    %! baca._call_rhythm_commands()
+    %! baca._make_measure_silences()
     s1 * 2/5
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice_IV measure 16]
-    %! baca._call_rhythm_commands()
+    %! baca._make_measure_silences()
     s1 * 1/3
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice_IV measure 17]
-    %! baca._call_rhythm_commands()
+    %! baca._make_measure_silences()
     s1 * 2/5
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice_IV measure 18]
-    %! baca._call_rhythm_commands()
+    %! baca._make_measure_silences()
     s1 * 1/3
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice_IV measure 19]
-    %! baca._call_rhythm_commands()
+    %! baca._make_measure_silences()
     s1 * 1/3
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice_IV measure 20]
-    %! baca._call_rhythm_commands()
+    %! baca._make_measure_silences()
     s1 * 1/3
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice_IV measure 21]
-    %! baca._call_rhythm_commands()
+    %! baca._make_measure_silences()
     s1 * 4/5
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice_IV measure 22]
-    %! baca._call_rhythm_commands()
+    %! baca._make_measure_silences()
     s1 * 4/5
 
     %! baca._make_multimeasure_rest_container(7)

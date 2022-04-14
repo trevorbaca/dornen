@@ -151,12 +151,12 @@ commands(
 commands(
     ("v3", (1, 7)),
     baca.accent(
-        lambda _: baca.select.pheads(_, exclude=baca.const.HIDDEN),
+        lambda _: baca.select.pheads(_, exclude=baca.enums.HIDDEN),
     ),
     baca.new(
         baca.script_down(),
         baca.register(-20),
-        selector=lambda _: baca.select.leaves(_, exclude=baca.const.HIDDEN),
+        selector=lambda _: baca.select.leaves(_, exclude=baca.enums.HIDDEN),
     ),
 )
 

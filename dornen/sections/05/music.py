@@ -270,11 +270,11 @@ figures.populate_commands(commands)
 
 commands(
     "v1",
-    baca.tenuto(lambda _: baca.select.pheads(_, exclude=baca.const.HIDDEN)),
+    baca.tenuto(lambda _: baca.select.pheads(_, exclude=baca.enums.HIDDEN)),
     baca.beam_positions(10),
     baca.register(
         -12,
-        selector=lambda _: baca.select.plts(_, exclude=baca.const.HIDDEN),
+        selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
     ),
 )
 
@@ -283,7 +283,7 @@ commands(
     baca.beam_positions(-5.5),
     baca.register(
         4,
-        selector=lambda _: baca.select.plts(_, exclude=baca.const.HIDDEN),
+        selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
     ),
 )
 
@@ -292,31 +292,31 @@ commands(
     baca.beam_positions(-5.5),
     baca.register(
         4,
-        selector=lambda _: baca.select.plts(_, exclude=baca.const.HIDDEN),
+        selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
     ),
 )
 
 commands(
     "v3",
     baca.accent(
-        lambda _: baca.select.pheads(_, exclude=baca.const.HIDDEN),
+        lambda _: baca.select.pheads(_, exclude=baca.enums.HIDDEN),
     ),
     baca.script_down(
-        lambda _: baca.select.leaves(_, exclude=baca.const.HIDDEN),
+        lambda _: baca.select.leaves(_, exclude=baca.enums.HIDDEN),
     ),
     baca.register(
         -20,
-        selector=lambda _: baca.select.plts(_, exclude=baca.const.HIDDEN),
+        selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
     ),
 )
 
 commands(
     "v4",
-    baca.staccato(lambda _: baca.select.pheads(_, exclude=baca.const.HIDDEN)),
+    baca.staccato(lambda _: baca.select.pheads(_, exclude=baca.enums.HIDDEN)),
     baca.beam_positions(5.5),
     baca.register(
         -4,
-        selector=lambda _: baca.select.plts(_, exclude=baca.const.HIDDEN),
+        selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
     ),
 )
 

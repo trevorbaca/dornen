@@ -14,12 +14,12 @@ assert len(design) == 22, len(design)
 
 lower_register = baca.register(
     -18,
-    selector=lambda _: baca.select.plts(_, exclude=baca.const.HIDDEN),
+    selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
 )
 middle_register = baca.register(
     -12,
     0,
-    selector=lambda _: baca.select.plts(_, exclude=baca.const.HIDDEN),
+    selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
 )
 
 figures(
@@ -240,7 +240,7 @@ commands(
     ("v2", (1, 10)),
     baca.beam_positions(
         -7,
-        lambda _: baca.select.leaves(_, exclude=baca.const.HIDDEN),
+        lambda _: baca.select.leaves(_, exclude=baca.enums.HIDDEN),
     ),
     lower_register,
 )
@@ -254,7 +254,7 @@ commands(
 commands(
     ("v3", (1, 22)),
     baca.beam_positions(4),
-    baca.staccato(lambda _: baca.select.pheads(_, exclude=baca.const.HIDDEN)),
+    baca.staccato(lambda _: baca.select.pheads(_, exclude=baca.enums.HIDDEN)),
 )
 
 defaults = baca.score_interpretation_defaults()

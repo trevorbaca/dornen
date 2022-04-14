@@ -4038,25 +4038,25 @@ segment.06.Guitar.Music.Voice.II = {
             % [Guitar_Music_Voice_II measure 14]
             %! baca._make_multimeasure_rest_container(2)
             %! PHANTOM
-            %! MULTIMEASURE_REST
+            %! NOTE
             %! INVISIBLE_MUSIC_COLORING
             %! baca._style_phantom_measures(5)
             \abjad-invisible-music-coloring
             %! baca._make_multimeasure_rest_container(3)
             %! PHANTOM
-            %! MULTIMEASURE_REST
+            %! NOTE
             %! INVISIBLE_MUSIC_COMMAND
             %! baca._style_phantom_measures(5)
             %@% \abjad-invisible-music
             %! baca._make_multimeasure_rest_container(1)
             %! PHANTOM
             %! HIDDEN
-            %! MULTIMEASURE_REST
-            R1 * 1/4
+            %! NOTE
+            b'1 * 1/4
             %! baca._label_duration_multipliers()
             %! DURATION_MULTIPLIER
             %! HIDDEN
-            %! MULTIMEASURE_REST
+            %! NOTE
             %! PHANTOM
             %! baca._style_phantom_measures(5)
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"

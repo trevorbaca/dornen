@@ -230,6 +230,11 @@ commands(
 )
 
 commands(
+    "v1",
+    baca.attach_first_segment_default_indicators(),
+)
+
+commands(
     ("v3", (18, 19)),
     baca.register(0, -12),
 )

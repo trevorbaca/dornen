@@ -130,6 +130,11 @@ commands = baca.CommandAccumulator(
 figures.populate_commands(commands)
 
 commands(
+    "v1",
+    baca.reapply_persistent_indicators(),
+)
+
+commands(
     "Global_Skips",
     baca.metronome_mark("66", lambda _: abjad.select.leaf(_, 1 - 1)),
 )

@@ -270,6 +270,11 @@ figures.populate_commands(commands)
 
 commands(
     "v1",
+    baca.reapply_persistent_indicators(),
+)
+
+commands(
+    "v1",
     baca.tenuto(lambda _: baca.select.pheads(_, exclude=baca.enums.HIDDEN)),
     baca.beam_positions(10),
     baca.register(

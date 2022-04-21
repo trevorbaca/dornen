@@ -344,6 +344,11 @@ commands = baca.CommandAccumulator(
 figures.populate_commands(commands)
 
 commands(
+    "v1",
+    baca.reapply_persistent_indicators(),
+)
+
+commands(
     ("v1", (1, 41)),
     baca.beam_positions(10),
     baca.register(-12),

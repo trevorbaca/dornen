@@ -206,6 +206,11 @@ figures.populate_commands(commands)
 
 commands(
     "v1",
+    baca.reapply_persistent_indicators(),
+)
+
+commands(
+    "v1",
     baca.register(-20),
     baca.new(
         baca.repeat_tie(

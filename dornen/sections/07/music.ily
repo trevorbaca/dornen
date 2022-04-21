@@ -3,20 +3,20 @@ segment.07.Global.Skips = {
 
     %! baca._comment_measure_numbers()
     % [Global_Skips measure 1]
+    %! EXPLICIT_TIME_SIGNATURE
     %! baca._make_global_skips(2)
     %! baca._set_status_tag()
-    %! EXPLICIT_TIME_SIGNATURE
     #(ly:expect-warning "strange time signature found")
+    %! EXPLICIT_TIME_SIGNATURE
     %! baca._make_global_skips(2)
     %! baca._set_status_tag()
-    %! EXPLICIT_TIME_SIGNATURE
     \time 3/20
-    %! EMPTY_START_BAR
     %! +SEGMENT
+    %! EMPTY_START_BAR
     %! baca._attach_nonfirst_empty_start_bar()
     \bar ""
-    %! baca._attach_color_literal(2)
     %! EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
     %! baca._make_global_skips(1)
     s1 * 3/20
@@ -32,20 +32,20 @@ segment.07.Global.Skips = {
     %! MEASURE_NUMBER
     %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
-    %! baca._reapply_persistent_indicators(2)
-    %! baca._set_status_tag()
     %! REAPPLIED_METRONOME_MARK
     %! baca._attach_metronome_marks(2)
+    %! baca._reapply_persistent_indicators(2)
+    %! baca._set_status_tag()
     %@% - \abjad-invisible-line
-    %! baca._reapply_persistent_indicators(2)
-    %! baca._set_status_tag()
     %! REAPPLIED_METRONOME_MARK
     %! baca._attach_metronome_marks(2)
+    %! baca._reapply_persistent_indicators(2)
+    %! baca._set_status_tag()
     %@% - \baca-metronome-mark-spanner-left-text 3 0 1 "44"
-    %! baca._reapply_persistent_indicators(2)
-    %! baca._set_status_tag()
     %! REAPPLIED_METRONOME_MARK
     %! baca._attach_metronome_marks(2)
+    %! baca._reapply_persistent_indicators(2)
+    %! baca._set_status_tag()
     %@% \bacaStartTextSpanMM
     %! REAPPLIED_METRONOME_MARK_WITH_COLOR
     %! baca._attach_metronome_marks(3)
@@ -65,12 +65,12 @@ segment.07.Global.Skips = {
 
     %! baca._comment_measure_numbers()
     % [Global_Skips measure 2]
+    %! EXPLICIT_TIME_SIGNATURE
     %! baca._make_global_skips(2)
     %! baca._set_status_tag()
-    %! EXPLICIT_TIME_SIGNATURE
     \time 1/16
-    %! baca._attach_color_literal(2)
     %! EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
     %! baca._make_global_skips(1)
     s1 * 1/16
@@ -104,16 +104,16 @@ segment.07.Global.Skips = {
 
     %! baca._comment_measure_numbers()
     % [Global_Skips measure 3]
+    %! EXPLICIT_TIME_SIGNATURE
     %! baca._make_global_skips(2)
     %! baca._set_status_tag()
-    %! EXPLICIT_TIME_SIGNATURE
     #(ly:expect-warning "strange time signature found")
+    %! EXPLICIT_TIME_SIGNATURE
     %! baca._make_global_skips(2)
     %! baca._set_status_tag()
-    %! EXPLICIT_TIME_SIGNATURE
     \time 3/28
-    %! baca._attach_color_literal(2)
     %! EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
     %! baca._make_global_skips(1)
     s1 * 3/28
@@ -147,12 +147,12 @@ segment.07.Global.Skips = {
 
     %! baca._comment_measure_numbers()
     % [Global_Skips measure 4]
+    %! EXPLICIT_TIME_SIGNATURE
     %! baca._make_global_skips(2)
     %! baca._set_status_tag()
-    %! EXPLICIT_TIME_SIGNATURE
     \time 1/16
-    %! baca._attach_color_literal(2)
     %! EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
     %! baca._make_global_skips(1)
     s1 * 1/16
@@ -186,16 +186,16 @@ segment.07.Global.Skips = {
 
     %! baca._comment_measure_numbers()
     % [Global_Skips measure 5]
+    %! EXPLICIT_TIME_SIGNATURE
     %! baca._make_global_skips(2)
     %! baca._set_status_tag()
-    %! EXPLICIT_TIME_SIGNATURE
     #(ly:expect-warning "strange time signature found")
+    %! EXPLICIT_TIME_SIGNATURE
     %! baca._make_global_skips(2)
     %! baca._set_status_tag()
-    %! EXPLICIT_TIME_SIGNATURE
     \time 3/20
-    %! baca._attach_color_literal(2)
     %! EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
     %! baca._make_global_skips(1)
     s1 * 3/20
@@ -229,12 +229,12 @@ segment.07.Global.Skips = {
 
     %! baca._comment_measure_numbers()
     % [Global_Skips measure 6]
+    %! EXPLICIT_TIME_SIGNATURE
     %! baca._make_global_skips(2)
     %! baca._set_status_tag()
-    %! EXPLICIT_TIME_SIGNATURE
     \time 1/16
-    %! baca._attach_color_literal(2)
     %! EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
     %! baca._make_global_skips(1)
     s1 * 1/16
@@ -268,16 +268,16 @@ segment.07.Global.Skips = {
 
     %! baca._comment_measure_numbers()
     % [Global_Skips measure 7]
+    %! EXPLICIT_TIME_SIGNATURE
     %! baca._make_global_skips(2)
     %! baca._set_status_tag()
-    %! EXPLICIT_TIME_SIGNATURE
     #(ly:expect-warning "strange time signature found")
+    %! EXPLICIT_TIME_SIGNATURE
     %! baca._make_global_skips(2)
     %! baca._set_status_tag()
-    %! EXPLICIT_TIME_SIGNATURE
     \time 3/28
-    %! baca._attach_color_literal(2)
     %! EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
     %! baca._make_global_skips(1)
     s1 * 3/28
@@ -311,12 +311,12 @@ segment.07.Global.Skips = {
 
     %! baca._comment_measure_numbers()
     % [Global_Skips measure 8]
+    %! EXPLICIT_TIME_SIGNATURE
     %! baca._make_global_skips(2)
     %! baca._set_status_tag()
-    %! EXPLICIT_TIME_SIGNATURE
     \time 1/16
-    %! baca._attach_color_literal(2)
     %! EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
     %! baca._make_global_skips(1)
     s1 * 1/16
@@ -350,16 +350,16 @@ segment.07.Global.Skips = {
 
     %! baca._comment_measure_numbers()
     % [Global_Skips measure 9]
+    %! EXPLICIT_TIME_SIGNATURE
     %! baca._make_global_skips(2)
     %! baca._set_status_tag()
-    %! EXPLICIT_TIME_SIGNATURE
     #(ly:expect-warning "strange time signature found")
+    %! EXPLICIT_TIME_SIGNATURE
     %! baca._make_global_skips(2)
     %! baca._set_status_tag()
-    %! EXPLICIT_TIME_SIGNATURE
     \time 3/20
-    %! baca._attach_color_literal(2)
     %! EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
     %! baca._make_global_skips(1)
     s1 * 3/20
@@ -393,12 +393,12 @@ segment.07.Global.Skips = {
 
     %! baca._comment_measure_numbers()
     % [Global_Skips measure 10]
+    %! EXPLICIT_TIME_SIGNATURE
     %! baca._make_global_skips(2)
     %! baca._set_status_tag()
-    %! EXPLICIT_TIME_SIGNATURE
     \time 1/16
-    %! baca._attach_color_literal(2)
     %! EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
     %! baca._make_global_skips(1)
     s1 * 1/16
@@ -432,16 +432,16 @@ segment.07.Global.Skips = {
 
     %! baca._comment_measure_numbers()
     % [Global_Skips measure 11]
+    %! EXPLICIT_TIME_SIGNATURE
     %! baca._make_global_skips(2)
     %! baca._set_status_tag()
-    %! EXPLICIT_TIME_SIGNATURE
     #(ly:expect-warning "strange time signature found")
+    %! EXPLICIT_TIME_SIGNATURE
     %! baca._make_global_skips(2)
     %! baca._set_status_tag()
-    %! EXPLICIT_TIME_SIGNATURE
     \time 1/24
-    %! baca._attach_color_literal(2)
     %! EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
     %! baca._make_global_skips(1)
     s1 * 1/24
@@ -475,12 +475,12 @@ segment.07.Global.Skips = {
 
     %! baca._comment_measure_numbers()
     % [Global_Skips measure 12]
+    %! EXPLICIT_TIME_SIGNATURE
     %! baca._make_global_skips(2)
     %! baca._set_status_tag()
-    %! EXPLICIT_TIME_SIGNATURE
     \time 4/32
-    %! baca._attach_color_literal(2)
     %! EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
     %! baca._make_global_skips(1)
     s1 * 1/8
@@ -514,16 +514,16 @@ segment.07.Global.Skips = {
 
     %! baca._comment_measure_numbers()
     % [Global_Skips measure 13]
+    %! EXPLICIT_TIME_SIGNATURE
     %! baca._make_global_skips(2)
     %! baca._set_status_tag()
-    %! EXPLICIT_TIME_SIGNATURE
     #(ly:expect-warning "strange time signature found")
+    %! EXPLICIT_TIME_SIGNATURE
     %! baca._make_global_skips(2)
     %! baca._set_status_tag()
-    %! EXPLICIT_TIME_SIGNATURE
     \time 1/24
-    %! baca._attach_color_literal(2)
     %! EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
     %! baca._make_global_skips(1)
     s1 * 1/24
@@ -557,16 +557,16 @@ segment.07.Global.Skips = {
 
     %! baca._comment_measure_numbers()
     % [Global_Skips measure 14]
+    %! EXPLICIT_TIME_SIGNATURE
     %! baca._make_global_skips(2)
     %! baca._set_status_tag()
-    %! EXPLICIT_TIME_SIGNATURE
     #(ly:expect-warning "strange time signature found")
+    %! EXPLICIT_TIME_SIGNATURE
     %! baca._make_global_skips(2)
     %! baca._set_status_tag()
-    %! EXPLICIT_TIME_SIGNATURE
     \time 4/28
-    %! baca._attach_color_literal(2)
     %! EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
     %! baca._make_global_skips(1)
     s1 * 1/7
@@ -600,16 +600,16 @@ segment.07.Global.Skips = {
 
     %! baca._comment_measure_numbers()
     % [Global_Skips measure 15]
+    %! EXPLICIT_TIME_SIGNATURE
     %! baca._make_global_skips(2)
     %! baca._set_status_tag()
-    %! EXPLICIT_TIME_SIGNATURE
     #(ly:expect-warning "strange time signature found")
+    %! EXPLICIT_TIME_SIGNATURE
     %! baca._make_global_skips(2)
     %! baca._set_status_tag()
-    %! EXPLICIT_TIME_SIGNATURE
     \time 1/24
-    %! baca._attach_color_literal(2)
     %! EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
     %! baca._make_global_skips(1)
     s1 * 1/24
@@ -643,12 +643,12 @@ segment.07.Global.Skips = {
 
     %! baca._comment_measure_numbers()
     % [Global_Skips measure 16]
+    %! EXPLICIT_TIME_SIGNATURE
     %! baca._make_global_skips(2)
     %! baca._set_status_tag()
-    %! EXPLICIT_TIME_SIGNATURE
     \time 4/32
-    %! baca._attach_color_literal(2)
     %! EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
     %! baca._make_global_skips(1)
     s1 * 1/8
@@ -682,16 +682,16 @@ segment.07.Global.Skips = {
 
     %! baca._comment_measure_numbers()
     % [Global_Skips measure 17]
+    %! EXPLICIT_TIME_SIGNATURE
     %! baca._make_global_skips(2)
     %! baca._set_status_tag()
-    %! EXPLICIT_TIME_SIGNATURE
     #(ly:expect-warning "strange time signature found")
+    %! EXPLICIT_TIME_SIGNATURE
     %! baca._make_global_skips(2)
     %! baca._set_status_tag()
-    %! EXPLICIT_TIME_SIGNATURE
     \time 1/24
-    %! baca._attach_color_literal(2)
     %! EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
     %! baca._make_global_skips(1)
     s1 * 1/24
@@ -725,12 +725,12 @@ segment.07.Global.Skips = {
 
     %! baca._comment_measure_numbers()
     % [Global_Skips measure 18]
+    %! EXPLICIT_TIME_SIGNATURE
     %! baca._make_global_skips(2)
     %! baca._set_status_tag()
-    %! EXPLICIT_TIME_SIGNATURE
     \time 4/32
-    %! baca._attach_color_literal(2)
     %! EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
     %! baca._make_global_skips(1)
     s1 * 1/8
@@ -764,16 +764,16 @@ segment.07.Global.Skips = {
 
     %! baca._comment_measure_numbers()
     % [Global_Skips measure 19]
+    %! EXPLICIT_TIME_SIGNATURE
     %! baca._make_global_skips(2)
     %! baca._set_status_tag()
-    %! EXPLICIT_TIME_SIGNATURE
     #(ly:expect-warning "strange time signature found")
+    %! EXPLICIT_TIME_SIGNATURE
     %! baca._make_global_skips(2)
     %! baca._set_status_tag()
-    %! EXPLICIT_TIME_SIGNATURE
     \time 1/24
-    %! baca._attach_color_literal(2)
     %! EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
     %! baca._make_global_skips(1)
     s1 * 1/24
@@ -807,16 +807,16 @@ segment.07.Global.Skips = {
 
     %! baca._comment_measure_numbers()
     % [Global_Skips measure 20]
+    %! EXPLICIT_TIME_SIGNATURE
     %! baca._make_global_skips(2)
     %! baca._set_status_tag()
-    %! EXPLICIT_TIME_SIGNATURE
     #(ly:expect-warning "strange time signature found")
+    %! EXPLICIT_TIME_SIGNATURE
     %! baca._make_global_skips(2)
     %! baca._set_status_tag()
-    %! EXPLICIT_TIME_SIGNATURE
     \time 4/28
-    %! baca._attach_color_literal(2)
     %! EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
     %! baca._make_global_skips(1)
     s1 * 1/7
@@ -850,16 +850,16 @@ segment.07.Global.Skips = {
 
     %! baca._comment_measure_numbers()
     % [Global_Skips measure 21]
+    %! EXPLICIT_TIME_SIGNATURE
     %! baca._make_global_skips(2)
     %! baca._set_status_tag()
-    %! EXPLICIT_TIME_SIGNATURE
     #(ly:expect-warning "strange time signature found")
+    %! EXPLICIT_TIME_SIGNATURE
     %! baca._make_global_skips(2)
     %! baca._set_status_tag()
-    %! EXPLICIT_TIME_SIGNATURE
     \time 1/24
-    %! baca._attach_color_literal(2)
     %! EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
     %! baca._make_global_skips(1)
     s1 * 1/24
@@ -893,12 +893,12 @@ segment.07.Global.Skips = {
 
     %! baca._comment_measure_numbers()
     % [Global_Skips measure 22]
+    %! EXPLICIT_TIME_SIGNATURE
     %! baca._make_global_skips(2)
     %! baca._set_status_tag()
-    %! EXPLICIT_TIME_SIGNATURE
     \time 4/32
-    %! baca._attach_color_literal(2)
     %! EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
     %! baca._make_global_skips(1)
     s1 * 1/8
@@ -930,47 +930,47 @@ segment.07.Global.Skips = {
     %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
 
+    %! PHANTOM
     %! baca._comment_measure_numbers()
     %! baca._style_phantom_measures(1)
-    %! PHANTOM
     % [Global_Skips measure 23]
-    %! baca._make_global_skips(3)
-    %! PHANTOM
-    %! baca._set_status_tag()
     %! EXPLICIT_TIME_SIGNATURE
+    %! PHANTOM
+    %! baca._make_global_skips(3)
+    %! baca._set_status_tag()
     %! baca._style_phantom_measures(1)
     \time 1/4
+    %! PHANTOM
     %! baca._style_phantom_measures(2)
-    %! PHANTOM
     \baca-time-signature-transparent
-    %! baca._make_global_skips(3)
     %! PHANTOM
+    %! baca._make_global_skips(3)
     s1 * 1/4
     %! LOCAL_MEASURE_NUMBER
+    %! PHANTOM
     %! baca._label_measure_numbers()
     %! baca._style_phantom_measures(1)
-    %! PHANTOM
     %@% \bacaStopTextSpanLMN
     %! MEASURE_NUMBER
+    %! PHANTOM
     %! baca._label_measure_numbers()
     %! baca._style_phantom_measures(1)
-    %! PHANTOM
     %@% \bacaStopTextSpanMN
     %! EOS_STOP_MM_SPANNER
+    %! PHANTOM
     %! baca._attach_metronome_marks(4)
     %! baca._style_phantom_measures(1)
-    %! PHANTOM
     \bacaStopTextSpanMM
     %! CLOCK_TIME
+    %! PHANTOM
     %! baca._label_clock_time()
     %! baca._style_phantom_measures(1)
-    %! PHANTOM
     %@% \bacaStopTextSpanCT
-    %! baca._style_phantom_measures(3)
     %! PHANTOM
+    %! baca._style_phantom_measures(3)
     \once \override Score.BarLine.transparent = ##t
-    %! baca._style_phantom_measures(3)
     %! PHANTOM
+    %! baca._style_phantom_measures(3)
     \once \override Score.SpanBar.transparent = ##t
 
 %! baca.make_global_context()
@@ -1091,12 +1091,12 @@ segment.07.Global.Rests = {
     %! baca._make_global_rests(1)
     R1 * 1/8
 
+    %! PHANTOM
     %! baca._comment_measure_numbers()
     %! baca._style_phantom_measures(4)
-    %! PHANTOM
     % [Global_Rests measure 23]
-    %! baca._make_global_rests(2)
     %! PHANTOM
+    %! baca._make_global_rests(2)
     R1 * 1/4
 
 %! baca.make_global_context()
@@ -1119,23 +1119,23 @@ segment.07.Guitar.Music.Voice.I = {
 
             %! baca._comment_measure_numbers()
             % [Guitar_Music_Voice_I measure 1]
-            %! baca.beam_positions()
             %! baca.OverrideCommand._call(1)
+            %! baca.beam_positions()
             \override Beam.positions = #'(8 . 8)
+            %! REAPPLIED_CLEF
             %! baca._reapply_persistent_indicators(3)
             %! baca._set_status_tag()
-            %! REAPPLIED_CLEF
             \clef "treble"
-            %! baca._attach_color_literal(2)
             %! REAPPLIED_CLEF_COLOR
+            %! baca._attach_color_literal(2)
             \once \override GuitarMusicStaff.Clef.color = #(x11-color 'green4)
-            %! baca._attach_color_literal(1)
             %! REAPPLIED_CLEF_COLOR_CANCELLATION
+            %! baca._attach_color_literal(1)
             %@% \override GuitarMusicStaff.Clef.color = ##f
-            %! baca._reapply_persistent_indicators(3)
-            %! baca.treat_persistent_wrapper(2)
-            %! baca._set_status_tag()
             %! REAPPLIED_CLEF
+            %! baca._reapply_persistent_indicators(3)
+            %! baca._set_status_tag()
+            %! baca.treat_persistent_wrapper(2)
             \set GuitarMusicStaff.forceClef = ##t
             %! baca.music()
             a'16
@@ -1147,12 +1147,12 @@ segment.07.Guitar.Music.Voice.I = {
             %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (1) \hspace #1 \concat { "20" \sub 1 } ] }
             [
-            %! baca.slur()
-            %! baca.SpannerIndicatorCommand._call(2)
             %! SPANNER_START
+            %! baca.SpannerIndicatorCommand._call(2)
+            %! baca.slur()
             (
-            %! baca._attach_color_literal(2)
             %! REAPPLIED_CLEF_REDRAW_COLOR
+            %! baca._attach_color_literal(2)
             \override GuitarMusicStaff.Clef.color = #(x11-color 'OliveDrab)
 
             %! baca.music()
@@ -1162,9 +1162,9 @@ segment.07.Guitar.Music.Voice.I = {
             \set stemRightBeamCount = 1
             %! baca.music()
             g''16
-            %! baca.slur()
-            %! baca.SpannerIndicatorCommand._call(4)
             %! SPANNER_STOP
+            %! baca.SpannerIndicatorCommand._call(4)
+            %! baca.slur()
             )
 
         %! baca.music()
@@ -1198,9 +1198,9 @@ segment.07.Guitar.Music.Voice.I = {
             %@% - \tweak color #blue
             %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (5) \hspace #1 \concat { "20" \sub 2 } ] }
-            %! baca.slur()
-            %! baca.SpannerIndicatorCommand._call(2)
             %! SPANNER_START
+            %! baca.SpannerIndicatorCommand._call(2)
+            %! baca.slur()
             (
 
             %! baca.music()
@@ -1210,9 +1210,9 @@ segment.07.Guitar.Music.Voice.I = {
             \set stemRightBeamCount = 1
             %! baca.music()
             bf'!16
-            %! baca.slur()
-            %! baca.SpannerIndicatorCommand._call(4)
             %! SPANNER_STOP
+            %! baca.SpannerIndicatorCommand._call(4)
+            %! baca.slur()
             )
 
         %! baca.music()
@@ -1246,9 +1246,9 @@ segment.07.Guitar.Music.Voice.I = {
             %@% - \tweak color #blue
             %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (9) \hspace #1 \concat { "20" \sub 3 } ] }
-            %! baca.slur()
-            %! baca.SpannerIndicatorCommand._call(2)
             %! SPANNER_START
+            %! baca.SpannerIndicatorCommand._call(2)
+            %! baca.slur()
             (
 
             %! baca.music()
@@ -1256,9 +1256,9 @@ segment.07.Guitar.Music.Voice.I = {
 
             %! baca.music()
             fs''!16
-            %! baca.slur()
-            %! baca.SpannerIndicatorCommand._call(4)
             %! SPANNER_STOP
+            %! baca.SpannerIndicatorCommand._call(4)
+            %! baca.slur()
             )
             ]
 
@@ -1292,9 +1292,9 @@ segment.07.Guitar.Music.Voice.I = {
             %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (12) \hspace #1 \concat { "32" \sub 1 } ] }
             [
-            %! baca.slur()
-            %! baca.SpannerIndicatorCommand._call(2)
             %! SPANNER_START
+            %! baca.SpannerIndicatorCommand._call(2)
+            %! baca.slur()
             (
 
             \set stemLeftBeamCount = 3
@@ -1311,9 +1311,9 @@ segment.07.Guitar.Music.Voice.I = {
             \set stemRightBeamCount = 1
             %! baca.music()
             bf'!32
-            %! baca.slur()
-            %! baca.SpannerIndicatorCommand._call(4)
             %! SPANNER_STOP
+            %! baca.SpannerIndicatorCommand._call(4)
+            %! baca.slur()
             )
 
         %! baca.music()
@@ -1345,9 +1345,9 @@ segment.07.Guitar.Music.Voice.I = {
             %@% - \tweak color #blue
             %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (16) \hspace #1 \concat { "32" \sub 2 } ] }
-            %! baca.slur()
-            %! baca.SpannerIndicatorCommand._call(2)
             %! SPANNER_START
+            %! baca.SpannerIndicatorCommand._call(2)
+            %! baca.slur()
             (
 
             \set stemLeftBeamCount = 3
@@ -1364,9 +1364,9 @@ segment.07.Guitar.Music.Voice.I = {
             \set stemRightBeamCount = 1
             %! baca.music()
             b'32
-            %! baca.slur()
-            %! baca.SpannerIndicatorCommand._call(4)
             %! SPANNER_STOP
+            %! baca.SpannerIndicatorCommand._call(4)
+            %! baca.slur()
             )
 
         %! baca.music()
@@ -1398,9 +1398,9 @@ segment.07.Guitar.Music.Voice.I = {
             %@% - \tweak color #blue
             %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (18) \hspace #1 \concat { "32" \sub 3 } ] }
-            %! baca.slur()
-            %! baca.SpannerIndicatorCommand._call(2)
             %! SPANNER_START
+            %! baca.SpannerIndicatorCommand._call(2)
+            %! baca.slur()
             (
 
             \set stemLeftBeamCount = 3
@@ -1417,9 +1417,9 @@ segment.07.Guitar.Music.Voice.I = {
             \set stemRightBeamCount = 1
             %! baca.music()
             g''32
-            %! baca.slur()
-            %! baca.SpannerIndicatorCommand._call(4)
             %! SPANNER_STOP
+            %! baca.SpannerIndicatorCommand._call(4)
+            %! baca.slur()
             )
 
         %! baca.music()
@@ -1451,9 +1451,9 @@ segment.07.Guitar.Music.Voice.I = {
             %@% - \tweak color #blue
             %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (22) \hspace #1 \concat { "32" \sub 4 } ] }
-            %! baca.slur()
-            %! baca.SpannerIndicatorCommand._call(2)
             %! SPANNER_START
+            %! baca.SpannerIndicatorCommand._call(2)
+            %! baca.slur()
             (
 
             \set stemLeftBeamCount = 3
@@ -1470,13 +1470,13 @@ segment.07.Guitar.Music.Voice.I = {
             \set stemRightBeamCount = 0
             %! baca.music()
             e''32
-            %! baca.slur()
-            %! baca.SpannerIndicatorCommand._call(4)
             %! SPANNER_STOP
+            %! baca.SpannerIndicatorCommand._call(4)
+            %! baca.slur()
             )
             ]
-            %! baca.beam_positions()
             %! baca.OverrideCommand._call(2)
+            %! baca.beam_positions()
             \revert Beam.positions
 
         %! baca.music()
@@ -1485,73 +1485,73 @@ segment.07.Guitar.Music.Voice.I = {
     %! baca.music()
     }
 
-    %! baca._make_multimeasure_rest_container(7)
     %! PHANTOM
+    %! baca._make_multimeasure_rest_container(7)
     <<
 
-        %! baca._make_multimeasure_rest_container(4)
         %! PHANTOM
+        %! baca._make_multimeasure_rest_container(4)
         \context Voice = "Guitar_Music_Voice_I"
-        %! baca._make_multimeasure_rest_container(4)
         %! PHANTOM
+        %! baca._make_multimeasure_rest_container(4)
         {
 
+            %! PHANTOM
             %! baca._comment_measure_numbers()
             %! baca._style_phantom_measures(5)
-            %! PHANTOM
             % [Guitar_Music_Voice_I measure 23]
-            %! baca._make_multimeasure_rest_container(2)
-            %! PHANTOM
-            %! NOTE
             %! INVISIBLE_MUSIC_COLORING
+            %! NOTE
+            %! PHANTOM
+            %! baca._make_multimeasure_rest_container(2)
             %! baca._style_phantom_measures(5)
             \abjad-invisible-music-coloring
-            %! baca._make_multimeasure_rest_container(3)
-            %! PHANTOM
-            %! NOTE
             %! INVISIBLE_MUSIC_COMMAND
+            %! NOTE
+            %! PHANTOM
+            %! baca._make_multimeasure_rest_container(3)
             %! baca._style_phantom_measures(5)
             %@% \abjad-invisible-music
-            %! baca._make_multimeasure_rest_container(1)
-            %! PHANTOM
             %! HIDDEN
             %! NOTE
+            %! PHANTOM
+            %! baca._make_multimeasure_rest_container(1)
             b'1 * 1/4
-            %! baca._label_duration_multipliers()
             %! DURATION_MULTIPLIER
             %! HIDDEN
             %! NOTE
             %! PHANTOM
+            %! baca._label_duration_multipliers()
             %! baca._style_phantom_measures(5)
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
-        %! baca._make_multimeasure_rest_container(4)
         %! PHANTOM
+        %! baca._make_multimeasure_rest_container(4)
         }
 
-        %! baca._make_multimeasure_rest_container(6)
         %! PHANTOM
+        %! baca._make_multimeasure_rest_container(6)
         \context Voice = "Guitar_Rest_Voice_I"
-        %! baca._make_multimeasure_rest_container(6)
         %! PHANTOM
+        %! baca._make_multimeasure_rest_container(6)
         {
 
+            %! PHANTOM
             %! baca._comment_measure_numbers()
             %! baca._style_phantom_measures(5)
-            %! PHANTOM
             % [Guitar_Rest_Voice_I measure 23]
-            %! baca._make_multimeasure_rest_container(5)
             %! PHANTOM
             %! REST_VOICE
             %! SKIP
+            %! baca._make_multimeasure_rest_container(5)
             s1 * 1/4
 
-        %! baca._make_multimeasure_rest_container(6)
         %! PHANTOM
+        %! baca._make_multimeasure_rest_container(6)
         }
 
-    %! baca._make_multimeasure_rest_container(7)
     %! PHANTOM
+    %! baca._make_multimeasure_rest_container(7)
     >>
 
 %! dornen.make_empty_score()
@@ -1564,8 +1564,8 @@ segment.07.Guitar.Music.Voice.II = {
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice_II measure 1]
-    %! baca.beam_positions()
     %! baca.OverrideCommand._call(1)
+    %! baca.beam_positions()
     \override Beam.positions = #'(-7 . -7)
     %! baca.music()
     s1 * 3/20
@@ -1580,13 +1580,13 @@ segment.07.Guitar.Music.Voice.II = {
 
             %! baca._comment_measure_numbers()
             % [Guitar_Music_Voice_II measure 2]
-            %! baca.text_script_down()
             %! baca.OverrideCommand._call(1)
+            %! baca.text_script_down()
             \once \override TextScript.direction = #down
             %! baca.music()
             ef'!16
-            %! baca.markup()
             %! baca.IndicatorCommand._call()
+            %! baca.markup()
             _ \dornen-dull-but-beautiful-markup
             %! FIGURE_LABEL
             %@% - \tweak color #blue
@@ -1712,8 +1712,8 @@ segment.07.Guitar.Music.Voice.II = {
             %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (10) \hspace #1 \concat { "16" \sub 5 } ] }
             ]
-            %! baca.beam_positions()
             %! baca.OverrideCommand._call(2)
+            %! baca.beam_positions()
             \revert Beam.positions
 
         %! baca.music()
@@ -1734,8 +1734,8 @@ segment.07.Guitar.Music.Voice.II = {
 
             %! baca._comment_measure_numbers()
             % [Guitar_Music_Voice_II measure 11]
-            %! baca.beam_positions()
             %! baca.OverrideCommand._call(1)
+            %! baca.beam_positions()
             \override Beam.positions = #'(-7 . -7)
             %! baca.music()
             ef'!16
@@ -1920,25 +1920,25 @@ segment.07.Guitar.Music.Voice.II = {
 
             %! baca._comment_measure_numbers()
             % [Guitar_Music_Voice_II measure 22]
-            %! baca._make_multimeasure_rest_container(2)
-            %! NOTE
             %! INVISIBLE_MUSIC_COLORING
-            \abjad-invisible-music-coloring
-            %! baca._make_multimeasure_rest_container(3)
             %! NOTE
+            %! baca._make_multimeasure_rest_container(2)
+            \abjad-invisible-music-coloring
             %! INVISIBLE_MUSIC_COMMAND
+            %! NOTE
+            %! baca._make_multimeasure_rest_container(3)
             %@% \abjad-invisible-music
-            %! baca._make_multimeasure_rest_container(1)
             %! HIDDEN
             %! NOTE
+            %! baca._make_multimeasure_rest_container(1)
             b'1 * 1/8
-            %! baca._label_duration_multipliers()
             %! DURATION_MULTIPLIER
             %! HIDDEN
             %! NOTE
+            %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"8"
-            %! baca.beam_positions()
             %! baca.OverrideCommand._call(2)
+            %! baca.beam_positions()
             \revert Beam.positions
 
         %! baca._make_multimeasure_rest_container(4)
@@ -1951,9 +1951,9 @@ segment.07.Guitar.Music.Voice.II = {
 
             %! baca._comment_measure_numbers()
             % [Guitar_Rest_Voice_II measure 22]
-            %! baca._make_multimeasure_rest_container(5)
             %! REST_VOICE
             %! SKIP
+            %! baca._make_multimeasure_rest_container(5)
             s1 * 1/8
 
         %! baca._make_multimeasure_rest_container(6)
@@ -1962,73 +1962,73 @@ segment.07.Guitar.Music.Voice.II = {
     %! baca._make_multimeasure_rest_container(7)
     >>
 
-    %! baca._make_multimeasure_rest_container(7)
     %! PHANTOM
+    %! baca._make_multimeasure_rest_container(7)
     <<
 
-        %! baca._make_multimeasure_rest_container(4)
         %! PHANTOM
+        %! baca._make_multimeasure_rest_container(4)
         \context Voice = "Guitar_Music_Voice_II"
-        %! baca._make_multimeasure_rest_container(4)
         %! PHANTOM
+        %! baca._make_multimeasure_rest_container(4)
         {
 
+            %! PHANTOM
             %! baca._comment_measure_numbers()
             %! baca._style_phantom_measures(5)
-            %! PHANTOM
             % [Guitar_Music_Voice_II measure 23]
-            %! baca._make_multimeasure_rest_container(2)
-            %! PHANTOM
-            %! NOTE
             %! INVISIBLE_MUSIC_COLORING
+            %! NOTE
+            %! PHANTOM
+            %! baca._make_multimeasure_rest_container(2)
             %! baca._style_phantom_measures(5)
             \abjad-invisible-music-coloring
-            %! baca._make_multimeasure_rest_container(3)
-            %! PHANTOM
-            %! NOTE
             %! INVISIBLE_MUSIC_COMMAND
+            %! NOTE
+            %! PHANTOM
+            %! baca._make_multimeasure_rest_container(3)
             %! baca._style_phantom_measures(5)
             %@% \abjad-invisible-music
-            %! baca._make_multimeasure_rest_container(1)
-            %! PHANTOM
             %! HIDDEN
             %! NOTE
+            %! PHANTOM
+            %! baca._make_multimeasure_rest_container(1)
             b'1 * 1/4
-            %! baca._label_duration_multipliers()
             %! DURATION_MULTIPLIER
             %! HIDDEN
             %! NOTE
             %! PHANTOM
+            %! baca._label_duration_multipliers()
             %! baca._style_phantom_measures(5)
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
-        %! baca._make_multimeasure_rest_container(4)
         %! PHANTOM
+        %! baca._make_multimeasure_rest_container(4)
         }
 
-        %! baca._make_multimeasure_rest_container(6)
         %! PHANTOM
+        %! baca._make_multimeasure_rest_container(6)
         \context Voice = "Guitar_Rest_Voice_II"
-        %! baca._make_multimeasure_rest_container(6)
         %! PHANTOM
+        %! baca._make_multimeasure_rest_container(6)
         {
 
+            %! PHANTOM
             %! baca._comment_measure_numbers()
             %! baca._style_phantom_measures(5)
-            %! PHANTOM
             % [Guitar_Rest_Voice_II measure 23]
-            %! baca._make_multimeasure_rest_container(5)
             %! PHANTOM
             %! REST_VOICE
             %! SKIP
+            %! baca._make_multimeasure_rest_container(5)
             s1 * 1/4
 
-        %! baca._make_multimeasure_rest_container(6)
         %! PHANTOM
+        %! baca._make_multimeasure_rest_container(6)
         }
 
-    %! baca._make_multimeasure_rest_container(7)
     %! PHANTOM
+    %! baca._make_multimeasure_rest_container(7)
     >>
 
 %! dornen.make_empty_score()
@@ -2041,8 +2041,8 @@ segment.07.Guitar.Music.Voice.III = {
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice_III measure 1]
-    %! baca.beam_positions()
     %! baca.OverrideCommand._call(1)
+    %! baca.beam_positions()
     \override Beam.positions = #'(4 . 4)
     %! baca.music()
     s1 * 17/80
@@ -2059,13 +2059,13 @@ segment.07.Guitar.Music.Voice.III = {
 
             %! baca._comment_measure_numbers()
             % [Guitar_Music_Voice_III measure 3]
-            %! baca.stem_up()
             %! baca.OverrideCommand._call(1)
+            %! baca.stem_up()
             \override Stem.direction = #up
             %! baca.music()
             d'16
-            %! baca.staccato()
             %! baca.IndicatorCommand._call()
+            %! baca.staccato()
             - \staccato
             %! FIGURE_LABEL
             %@% - \tweak color #blue
@@ -2075,18 +2075,18 @@ segment.07.Guitar.Music.Voice.III = {
 
             %! baca.music()
             f'16
-            %! baca.staccato()
             %! baca.IndicatorCommand._call()
+            %! baca.staccato()
             - \staccato
 
             %! baca.music()
             af'!16
-            %! baca.staccato()
             %! baca.IndicatorCommand._call()
+            %! baca.staccato()
             - \staccato
             ]
-            %! baca.stem_up()
             %! baca.OverrideCommand._call(2)
+            %! baca.stem_up()
             \revert Stem.direction
 
         %! baca.music()
@@ -2112,13 +2112,13 @@ segment.07.Guitar.Music.Voice.III = {
 
             %! baca._comment_measure_numbers()
             % [Guitar_Music_Voice_III measure 7]
-            %! baca.stem_up()
             %! baca.OverrideCommand._call(1)
+            %! baca.stem_up()
             \override Stem.direction = #up
             %! baca.music()
             fs'!16
-            %! baca.staccato()
             %! baca.IndicatorCommand._call()
+            %! baca.staccato()
             - \staccato
             %! FIGURE_LABEL
             %@% - \tweak color #blue
@@ -2128,18 +2128,18 @@ segment.07.Guitar.Music.Voice.III = {
 
             %! baca.music()
             a'16
-            %! baca.staccato()
             %! baca.IndicatorCommand._call()
+            %! baca.staccato()
             - \staccato
 
             %! baca.music()
             cs''!16
-            %! baca.staccato()
             %! baca.IndicatorCommand._call()
+            %! baca.staccato()
             - \staccato
             ]
-            %! baca.stem_up()
             %! baca.OverrideCommand._call(2)
+            %! baca.stem_up()
             \revert Stem.direction
 
         %! baca.music()
@@ -2165,13 +2165,13 @@ segment.07.Guitar.Music.Voice.III = {
 
             %! baca._comment_measure_numbers()
             % [Guitar_Music_Voice_III measure 14]
-            %! baca.stem_up()
             %! baca.OverrideCommand._call(1)
+            %! baca.stem_up()
             \override Stem.direction = #up
             %! baca.music()
             af'!16
-            %! baca.staccato()
             %! baca.IndicatorCommand._call()
+            %! baca.staccato()
             - \staccato
             %! FIGURE_LABEL
             %@% - \tweak color #blue
@@ -2181,24 +2181,24 @@ segment.07.Guitar.Music.Voice.III = {
 
             %! baca.music()
             f'16
-            %! baca.staccato()
             %! baca.IndicatorCommand._call()
+            %! baca.staccato()
             - \staccato
 
             %! baca.music()
             cs''!16
-            %! baca.staccato()
             %! baca.IndicatorCommand._call()
+            %! baca.staccato()
             - \staccato
 
             %! baca.music()
             b'16
-            %! baca.staccato()
             %! baca.IndicatorCommand._call()
+            %! baca.staccato()
             - \staccato
             ]
-            %! baca.stem_up()
             %! baca.OverrideCommand._call(2)
+            %! baca.stem_up()
             \revert Stem.direction
 
         %! baca.music()
@@ -2224,13 +2224,13 @@ segment.07.Guitar.Music.Voice.III = {
 
             %! baca._comment_measure_numbers()
             % [Guitar_Music_Voice_III measure 20]
-            %! baca.stem_up()
             %! baca.OverrideCommand._call(1)
+            %! baca.stem_up()
             \override Stem.direction = #up
             %! baca.music()
             ef'!16
-            %! baca.staccato()
             %! baca.IndicatorCommand._call()
+            %! baca.staccato()
             - \staccato
             %! FIGURE_LABEL
             %@% - \tweak color #blue
@@ -2240,24 +2240,24 @@ segment.07.Guitar.Music.Voice.III = {
 
             %! baca.music()
             c''16
-            %! baca.staccato()
             %! baca.IndicatorCommand._call()
+            %! baca.staccato()
             - \staccato
 
             %! baca.music()
             cs''!16
-            %! baca.staccato()
             %! baca.IndicatorCommand._call()
+            %! baca.staccato()
             - \staccato
 
             %! baca.music()
             b'16
-            %! baca.staccato()
             %! baca.IndicatorCommand._call()
+            %! baca.staccato()
             - \staccato
             ]
-            %! baca.stem_up()
             %! baca.OverrideCommand._call(2)
+            %! baca.stem_up()
             \revert Stem.direction
 
         %! baca.music()
@@ -2276,22 +2276,22 @@ segment.07.Guitar.Music.Voice.III = {
 
             %! baca._comment_measure_numbers()
             % [Guitar_Music_Voice_III measure 21]
-            %! baca._make_multimeasure_rest_container(2)
-            %! NOTE
             %! INVISIBLE_MUSIC_COLORING
-            \abjad-invisible-music-coloring
-            %! baca._make_multimeasure_rest_container(3)
             %! NOTE
+            %! baca._make_multimeasure_rest_container(2)
+            \abjad-invisible-music-coloring
             %! INVISIBLE_MUSIC_COMMAND
+            %! NOTE
+            %! baca._make_multimeasure_rest_container(3)
             %@% \abjad-invisible-music
-            %! baca._make_multimeasure_rest_container(1)
             %! HIDDEN
             %! NOTE
+            %! baca._make_multimeasure_rest_container(1)
             b'1 * 1/24
-            %! baca._label_duration_multipliers()
             %! DURATION_MULTIPLIER
             %! HIDDEN
             %! NOTE
+            %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"24"
 
         %! baca._make_multimeasure_rest_container(4)
@@ -2304,9 +2304,9 @@ segment.07.Guitar.Music.Voice.III = {
 
             %! baca._comment_measure_numbers()
             % [Guitar_Rest_Voice_III measure 21]
-            %! baca._make_multimeasure_rest_container(5)
             %! REST_VOICE
             %! SKIP
+            %! baca._make_multimeasure_rest_container(5)
             s1 * 1/24
 
         %! baca._make_multimeasure_rest_container(6)
@@ -2319,77 +2319,77 @@ segment.07.Guitar.Music.Voice.III = {
     % [Guitar_Music_Voice_III measure 22]
     %! baca._make_measure_silences()
     s1 * 1/8
-    %! baca.beam_positions()
     %! baca.OverrideCommand._call(2)
+    %! baca.beam_positions()
     \revert Beam.positions
 
-    %! baca._make_multimeasure_rest_container(7)
     %! PHANTOM
+    %! baca._make_multimeasure_rest_container(7)
     <<
 
-        %! baca._make_multimeasure_rest_container(4)
         %! PHANTOM
+        %! baca._make_multimeasure_rest_container(4)
         \context Voice = "Guitar_Music_Voice_III"
-        %! baca._make_multimeasure_rest_container(4)
         %! PHANTOM
+        %! baca._make_multimeasure_rest_container(4)
         {
 
+            %! PHANTOM
             %! baca._comment_measure_numbers()
             %! baca._style_phantom_measures(5)
-            %! PHANTOM
             % [Guitar_Music_Voice_III measure 23]
-            %! baca._make_multimeasure_rest_container(2)
-            %! PHANTOM
-            %! NOTE
             %! INVISIBLE_MUSIC_COLORING
+            %! NOTE
+            %! PHANTOM
+            %! baca._make_multimeasure_rest_container(2)
             %! baca._style_phantom_measures(5)
             \abjad-invisible-music-coloring
-            %! baca._make_multimeasure_rest_container(3)
-            %! PHANTOM
-            %! NOTE
             %! INVISIBLE_MUSIC_COMMAND
+            %! NOTE
+            %! PHANTOM
+            %! baca._make_multimeasure_rest_container(3)
             %! baca._style_phantom_measures(5)
             %@% \abjad-invisible-music
-            %! baca._make_multimeasure_rest_container(1)
-            %! PHANTOM
             %! HIDDEN
             %! NOTE
+            %! PHANTOM
+            %! baca._make_multimeasure_rest_container(1)
             b'1 * 1/4
-            %! baca._label_duration_multipliers()
             %! DURATION_MULTIPLIER
             %! HIDDEN
             %! NOTE
             %! PHANTOM
+            %! baca._label_duration_multipliers()
             %! baca._style_phantom_measures(5)
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
-        %! baca._make_multimeasure_rest_container(4)
         %! PHANTOM
+        %! baca._make_multimeasure_rest_container(4)
         }
 
-        %! baca._make_multimeasure_rest_container(6)
         %! PHANTOM
+        %! baca._make_multimeasure_rest_container(6)
         \context Voice = "Guitar_Rest_Voice_III"
-        %! baca._make_multimeasure_rest_container(6)
         %! PHANTOM
+        %! baca._make_multimeasure_rest_container(6)
         {
 
+            %! PHANTOM
             %! baca._comment_measure_numbers()
             %! baca._style_phantom_measures(5)
-            %! PHANTOM
             % [Guitar_Rest_Voice_III measure 23]
-            %! baca._make_multimeasure_rest_container(5)
             %! PHANTOM
             %! REST_VOICE
             %! SKIP
+            %! baca._make_multimeasure_rest_container(5)
             s1 * 1/4
 
-        %! baca._make_multimeasure_rest_container(6)
         %! PHANTOM
+        %! baca._make_multimeasure_rest_container(6)
         }
 
-    %! baca._make_multimeasure_rest_container(7)
     %! PHANTOM
+    %! baca._make_multimeasure_rest_container(7)
     >>
 
 %! dornen.make_empty_score()
@@ -2410,22 +2410,22 @@ segment.07.Guitar.Music.Voice.IV = {
 
             %! baca._comment_measure_numbers()
             % [Guitar_Music_Voice_IV measure 1]
-            %! baca._make_multimeasure_rest_container(2)
-            %! NOTE
             %! INVISIBLE_MUSIC_COLORING
-            \abjad-invisible-music-coloring
-            %! baca._make_multimeasure_rest_container(3)
             %! NOTE
+            %! baca._make_multimeasure_rest_container(2)
+            \abjad-invisible-music-coloring
             %! INVISIBLE_MUSIC_COMMAND
+            %! NOTE
+            %! baca._make_multimeasure_rest_container(3)
             %@% \abjad-invisible-music
-            %! baca._make_multimeasure_rest_container(1)
             %! HIDDEN
             %! NOTE
+            %! baca._make_multimeasure_rest_container(1)
             b'1 * 3/20
-            %! baca._label_duration_multipliers()
             %! DURATION_MULTIPLIER
             %! HIDDEN
             %! NOTE
+            %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"3" #"20"
 
         %! baca._make_multimeasure_rest_container(4)
@@ -2438,9 +2438,9 @@ segment.07.Guitar.Music.Voice.IV = {
 
             %! baca._comment_measure_numbers()
             % [Guitar_Rest_Voice_IV measure 1]
-            %! baca._make_multimeasure_rest_container(5)
             %! REST_VOICE
             %! SKIP
+            %! baca._make_multimeasure_rest_container(5)
             s1 * 3/20
 
         %! baca._make_multimeasure_rest_container(6)
@@ -2554,73 +2554,73 @@ segment.07.Guitar.Music.Voice.IV = {
     %! baca._make_measure_silences()
     s1 * 1/8
 
-    %! baca._make_multimeasure_rest_container(7)
     %! PHANTOM
+    %! baca._make_multimeasure_rest_container(7)
     <<
 
-        %! baca._make_multimeasure_rest_container(4)
         %! PHANTOM
+        %! baca._make_multimeasure_rest_container(4)
         \context Voice = "Guitar_Music_Voice_IV"
-        %! baca._make_multimeasure_rest_container(4)
         %! PHANTOM
+        %! baca._make_multimeasure_rest_container(4)
         {
 
+            %! PHANTOM
             %! baca._comment_measure_numbers()
             %! baca._style_phantom_measures(5)
-            %! PHANTOM
             % [Guitar_Music_Voice_IV measure 23]
-            %! baca._make_multimeasure_rest_container(2)
-            %! PHANTOM
-            %! NOTE
             %! INVISIBLE_MUSIC_COLORING
+            %! NOTE
+            %! PHANTOM
+            %! baca._make_multimeasure_rest_container(2)
             %! baca._style_phantom_measures(5)
             \abjad-invisible-music-coloring
-            %! baca._make_multimeasure_rest_container(3)
-            %! PHANTOM
-            %! NOTE
             %! INVISIBLE_MUSIC_COMMAND
+            %! NOTE
+            %! PHANTOM
+            %! baca._make_multimeasure_rest_container(3)
             %! baca._style_phantom_measures(5)
             %@% \abjad-invisible-music
-            %! baca._make_multimeasure_rest_container(1)
-            %! PHANTOM
             %! HIDDEN
             %! NOTE
+            %! PHANTOM
+            %! baca._make_multimeasure_rest_container(1)
             b'1 * 1/4
-            %! baca._label_duration_multipliers()
             %! DURATION_MULTIPLIER
             %! HIDDEN
             %! NOTE
             %! PHANTOM
+            %! baca._label_duration_multipliers()
             %! baca._style_phantom_measures(5)
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
-        %! baca._make_multimeasure_rest_container(4)
         %! PHANTOM
+        %! baca._make_multimeasure_rest_container(4)
         }
 
-        %! baca._make_multimeasure_rest_container(6)
         %! PHANTOM
+        %! baca._make_multimeasure_rest_container(6)
         \context Voice = "Guitar_Rest_Voice_IV"
-        %! baca._make_multimeasure_rest_container(6)
         %! PHANTOM
+        %! baca._make_multimeasure_rest_container(6)
         {
 
+            %! PHANTOM
             %! baca._comment_measure_numbers()
             %! baca._style_phantom_measures(5)
-            %! PHANTOM
             % [Guitar_Rest_Voice_IV measure 23]
-            %! baca._make_multimeasure_rest_container(5)
             %! PHANTOM
             %! REST_VOICE
             %! SKIP
+            %! baca._make_multimeasure_rest_container(5)
             s1 * 1/4
 
-        %! baca._make_multimeasure_rest_container(6)
         %! PHANTOM
+        %! baca._make_multimeasure_rest_container(6)
         }
 
-    %! baca._make_multimeasure_rest_container(7)
     %! PHANTOM
+    %! baca._make_multimeasure_rest_container(7)
     >>
 
 %! dornen.make_empty_score()

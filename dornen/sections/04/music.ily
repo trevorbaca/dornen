@@ -1191,16 +1191,16 @@ segment.04.Guitar.Music.Voice.I = {
             f32 * 1984/1024
             % AFTER:
             % MARKUP:
-              %! REAPPLIED_INSTRUMENT_ALERT
-              %! baca._attach_latent_indicator_alert()
-            ^ \baca-reapplied-indicator-markup "(“Guitar”)"
-              %! DURATION_MULTIPLIER
-              %! baca._label_duration_multipliers()
-            %@% ^ \baca-duration-multiplier-markup #"1984" #"1024"
               %! FIGURE_LABEL
             %@% - \tweak color #blue
               %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (1) \hspace #1 "W1" ] }
+              %! DURATION_MULTIPLIER
+              %! baca._label_duration_multipliers()
+            %@% ^ \baca-duration-multiplier-markup #"1984" #"1024"
+              %! REAPPLIED_INSTRUMENT_ALERT
+              %! baca._attach_latent_indicator_alert()
+            ^ \baca-reapplied-indicator-markup "(“Guitar”)"
             % START_BEAM:
             [
             % ABSOLUTE_AFTER:
@@ -1453,13 +1453,13 @@ segment.04.Guitar.Music.Voice.I = {
             f'64 * 2048/1024
             % AFTER:
             % MARKUP:
-              %! DURATION_MULTIPLIER
-              %! baca._label_duration_multipliers()
-            %@% ^ \baca-duration-multiplier-markup #"2048" #"1024"
               %! FIGURE_LABEL
             %@% - \tweak color #blue
               %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (2) \hspace #1 "W2" ] }
+              %! DURATION_MULTIPLIER
+              %! baca._label_duration_multipliers()
+            %@% ^ \baca-duration-multiplier-markup #"2048" #"1024"
             % START_BEAM:
             [
             % ABSOLUTE_BEFORE:
@@ -1709,13 +1709,13 @@ segment.04.Guitar.Music.Voice.I = {
             f''64 * 2560/1024
             % AFTER:
             % MARKUP:
-              %! DURATION_MULTIPLIER
-              %! baca._label_duration_multipliers()
-            %@% ^ \baca-duration-multiplier-markup #"2560" #"1024"
               %! FIGURE_LABEL
             %@% - \tweak color #blue
               %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (3) \hspace #1 "W3" ] }
+              %! DURATION_MULTIPLIER
+              %! baca._label_duration_multipliers()
+            %@% ^ \baca-duration-multiplier-markup #"2560" #"1024"
             % START_BEAM:
             [
             % ABSOLUTE_BEFORE:
@@ -1915,13 +1915,13 @@ segment.04.Guitar.Music.Voice.I = {
             ef'!32 * 512/1024
             % AFTER:
             % MARKUP:
-              %! DURATION_MULTIPLIER
-              %! baca._label_duration_multipliers()
-            %@% ^ \baca-duration-multiplier-markup #"512" #"1024"
               %! FIGURE_LABEL
             %@% - \tweak color #blue
               %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (5) \hspace #1 "W4" ] }
+              %! DURATION_MULTIPLIER
+              %! baca._label_duration_multipliers()
+            %@% ^ \baca-duration-multiplier-markup #"512" #"1024"
             % START_BEAM:
             [
             % ABSOLUTE_BEFORE:
@@ -2135,13 +2135,13 @@ segment.04.Guitar.Music.Voice.I = {
             g'32 * 1856/1024
             % AFTER:
             % MARKUP:
-              %! DURATION_MULTIPLIER
-              %! baca._label_duration_multipliers()
-            %@% ^ \baca-duration-multiplier-markup #"1856" #"1024"
               %! FIGURE_LABEL
             %@% - \tweak color #blue
               %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (11) \hspace #1 "W5" ] }
+              %! DURATION_MULTIPLIER
+              %! baca._label_duration_multipliers()
+            %@% ^ \baca-duration-multiplier-markup #"1856" #"1024"
             % START_BEAM:
             [
             % ABSOLUTE_BEFORE:
@@ -2381,13 +2381,13 @@ segment.04.Guitar.Music.Voice.I = {
             g32 * 1856/1024
             % AFTER:
             % MARKUP:
-              %! DURATION_MULTIPLIER
-              %! baca._label_duration_multipliers()
-            %@% ^ \baca-duration-multiplier-markup #"1856" #"1024"
               %! FIGURE_LABEL
             %@% - \tweak color #blue
               %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (13) \hspace #1 "W6" ] }
+              %! DURATION_MULTIPLIER
+              %! baca._label_duration_multipliers()
+            %@% ^ \baca-duration-multiplier-markup #"1856" #"1024"
             % START_BEAM:
             [
             % ABSOLUTE_BEFORE:
@@ -2896,13 +2896,13 @@ segment.04.Guitar.Music.Voice.II = {
             g'16
             % AFTER:
             % MARKUP:
-              %! baca.IndicatorCommand._call()
-              %! baca.markup()
-            ^ \dornen-glissando-attack-first-note-only-markup
               %! FIGURE_LABEL
             %@% - \tweak color #blue
               %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (4) \hspace #1 "G1" ] }
+              %! baca.IndicatorCommand._call()
+              %! baca.markup()
+            ^ \dornen-glissando-attack-first-note-only-markup
             % START_BEAM:
             [
             % SPANNER_STARTS:
@@ -4856,13 +4856,13 @@ segment.04.Guitar.Music.Voice.IV = {
               %! baca.stem_tremolo()
             :32
             % MARKUP:
-              %! baca.IndicatorCommand._call()
-              %! baca.markup()
-            ^ \dornen-two-finger-tamb-trill-markup
               %! FIGURE_LABEL
             %@% - \tweak color #blue
               %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (9) \hspace #1 "T1" ] }
+              %! baca.IndicatorCommand._call()
+              %! baca.markup()
+            ^ \dornen-two-finger-tamb-trill-markup
             % SPANNER_STARTS:
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
@@ -5016,13 +5016,13 @@ segment.04.Guitar.Music.Voice.IV = {
               %! baca.stem_tremolo()
             :32
             % MARKUP:
-              %! baca.IndicatorCommand._call()
-              %! baca.markup()
-            ^ \dornen-two-finger-tamb-trill-markup
               %! FIGURE_LABEL
             %@% - \tweak color #blue
               %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (18) \hspace #1 "T2" ] }
+              %! baca.IndicatorCommand._call()
+              %! baca.markup()
+            ^ \dornen-two-finger-tamb-trill-markup
             % SPANNER_STARTS:
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f

@@ -2441,16 +2441,16 @@ segment.14.Guitar.Music.Voice.I = {
               %! baca._set_status_tag()
             _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))
             % MARKUP:
-              %! baca.IndicatorCommand._call()
-              %! baca.markup()
-            ^ \dornen-lh-only-until-rascado-markup
-              %! REAPPLIED_INSTRUMENT_ALERT
-              %! baca._attach_latent_indicator_alert()
-            ^ \baca-reapplied-indicator-markup "(“Guitar”)"
               %! FIGURE_LABEL
             %@% - \tweak color #blue
               %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (1) ] }
+              %! REAPPLIED_INSTRUMENT_ALERT
+              %! baca._attach_latent_indicator_alert()
+            ^ \baca-reapplied-indicator-markup "(“Guitar”)"
+              %! baca.IndicatorCommand._call()
+              %! baca.markup()
+            ^ \dornen-lh-only-until-rascado-markup
             % START_BEAM:
             [
             % ABSOLUTE_AFTER:
@@ -2616,13 +2616,13 @@ segment.14.Guitar.Music.Voice.I = {
               %! baca.tenuto()
             - \tenuto
             % MARKUP:
-              %! baca.IndicatorCommand._call()
-              %! baca.markup()
-            ^ \dornen-rh-reaches-for-screw-markup
               %! FIGURE_LABEL
             %@% - \tweak color #blue
               %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (8) ] }
+              %! baca.IndicatorCommand._call()
+              %! baca.markup()
+            ^ \dornen-rh-reaches-for-screw-markup
             % START_BEAM:
             [
             % ABSOLUTE_BEFORE:
@@ -2783,13 +2783,13 @@ segment.14.Guitar.Music.Voice.I = {
               %! baca.tenuto()
             - \tenuto
             % MARKUP:
-              %! baca.IndicatorCommand._call()
-              %! baca.markup()
-            ^ \dornen-rh-places-screw-on-string-markup
               %! FIGURE_LABEL
             %@% - \tweak color #blue
               %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (15) ] }
+              %! baca.IndicatorCommand._call()
+              %! baca.markup()
+            ^ \dornen-rh-places-screw-on-string-markup
             % START_BEAM:
             [
             % ABSOLUTE_BEFORE:
@@ -3421,13 +3421,13 @@ segment.14.Guitar.Music.Voice.I = {
               %! baca.dynamic()
             \p
             % MARKUP:
-              %! baca.IndicatorCommand._call()
-              %! baca.markup()
-            ^ \dornen-rascado-explanation-markup
               %! FIGURE_LABEL
             %@% - \tweak color #blue
               %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (42) ] }
+              %! baca.IndicatorCommand._call()
+              %! baca.markup()
+            ^ \dornen-rascado-explanation-markup
             % SPANNER_STARTS:
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f

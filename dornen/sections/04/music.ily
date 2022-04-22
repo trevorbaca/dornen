@@ -1,8 +1,12 @@
 %! baca.path.extern()
 segment.04.Global.Skips = {
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Skips measure 1]
+    % OPENING:
+    % COMMANDS:
     %! EXPLICIT_TIME_SIGNATURE_COLOR
     %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
@@ -16,6 +20,8 @@ segment.04.Global.Skips = {
     \time 11/32
     %! baca._make_global_skips(1)
     s1 * 11/32
+    % AFTER:
+    % SPANNER_STARTS:
     %! LOCAL_MEASURE_NUMBER
     %! baca._label_measure_numbers()
     %@% - \baca-start-lmn-left-only "1"
@@ -58,9 +64,13 @@ segment.04.Global.Skips = {
     %! CLOCK_TIME
     %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Skips measure 2]
+    % OPENING:
+    % COMMANDS:
     %! EXPLICIT_TIME_SIGNATURE_COLOR
     %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
@@ -70,6 +80,8 @@ segment.04.Global.Skips = {
     \time 11/64
     %! baca._make_global_skips(1)
     s1 * 11/64
+    % AFTER:
+    % SPANNER_STOPS:
     %! LOCAL_MEASURE_NUMBER
     %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanLMN
@@ -79,6 +91,7 @@ segment.04.Global.Skips = {
     %! CLOCK_TIME
     %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
+    % SPANNER_STARTS:
     %! LOCAL_MEASURE_NUMBER
     %! baca._label_measure_numbers()
     %@% - \baca-start-lmn-left-only "2"
@@ -97,11 +110,15 @@ segment.04.Global.Skips = {
     %! CLOCK_TIME
     %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Skips measure 3]
     %! baca._make_global_skips(1)
     s1 * 11/64
+    % AFTER:
+    % SPANNER_STOPS:
     %! LOCAL_MEASURE_NUMBER
     %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanLMN
@@ -111,6 +128,7 @@ segment.04.Global.Skips = {
     %! CLOCK_TIME
     %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
+    % SPANNER_STARTS:
     %! LOCAL_MEASURE_NUMBER
     %! baca._label_measure_numbers()
     %@% - \baca-start-lmn-left-only "3"
@@ -129,9 +147,13 @@ segment.04.Global.Skips = {
     %! CLOCK_TIME
     %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Skips measure 4]
+    % OPENING:
+    % COMMANDS:
     %! EXPLICIT_TIME_SIGNATURE_COLOR
     %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
@@ -141,6 +163,8 @@ segment.04.Global.Skips = {
     \time 5/32
     %! baca._make_global_skips(1)
     s1 * 5/32
+    % AFTER:
+    % SPANNER_STOPS:
     %! LOCAL_MEASURE_NUMBER
     %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanLMN
@@ -150,6 +174,7 @@ segment.04.Global.Skips = {
     %! CLOCK_TIME
     %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
+    % SPANNER_STARTS:
     %! LOCAL_MEASURE_NUMBER
     %! baca._label_measure_numbers()
     %@% - \baca-start-lmn-left-only "4"
@@ -168,9 +193,13 @@ segment.04.Global.Skips = {
     %! CLOCK_TIME
     %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Skips measure 5]
+    % OPENING:
+    % COMMANDS:
     %! EXPLICIT_TIME_SIGNATURE_COLOR
     %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
@@ -180,6 +209,8 @@ segment.04.Global.Skips = {
     \time 6/32
     %! baca._make_global_skips(1)
     s1 * 3/16
+    % AFTER:
+    % SPANNER_STOPS:
     %! LOCAL_MEASURE_NUMBER
     %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanLMN
@@ -189,6 +220,7 @@ segment.04.Global.Skips = {
     %! CLOCK_TIME
     %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
+    % SPANNER_STARTS:
     %! LOCAL_MEASURE_NUMBER
     %! baca._label_measure_numbers()
     %@% - \baca-start-lmn-left-only "5"
@@ -207,9 +239,13 @@ segment.04.Global.Skips = {
     %! CLOCK_TIME
     %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Skips measure 6]
+    % OPENING:
+    % COMMANDS:
     %! EXPLICIT_TIME_SIGNATURE_COLOR
     %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
@@ -219,6 +255,8 @@ segment.04.Global.Skips = {
     \time 3/16
     %! baca._make_global_skips(1)
     s1 * 3/16
+    % AFTER:
+    % SPANNER_STOPS:
     %! LOCAL_MEASURE_NUMBER
     %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanLMN
@@ -228,6 +266,7 @@ segment.04.Global.Skips = {
     %! CLOCK_TIME
     %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
+    % SPANNER_STARTS:
     %! LOCAL_MEASURE_NUMBER
     %! baca._label_measure_numbers()
     %@% - \baca-start-lmn-left-only "6"
@@ -246,9 +285,13 @@ segment.04.Global.Skips = {
     %! CLOCK_TIME
     %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Skips measure 7]
+    % OPENING:
+    % COMMANDS:
     %! EXPLICIT_TIME_SIGNATURE_COLOR
     %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
@@ -258,6 +301,8 @@ segment.04.Global.Skips = {
     \time 9/64
     %! baca._make_global_skips(1)
     s1 * 9/64
+    % AFTER:
+    % SPANNER_STOPS:
     %! LOCAL_MEASURE_NUMBER
     %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanLMN
@@ -267,6 +312,7 @@ segment.04.Global.Skips = {
     %! CLOCK_TIME
     %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
+    % SPANNER_STARTS:
     %! LOCAL_MEASURE_NUMBER
     %! baca._label_measure_numbers()
     %@% - \baca-start-lmn-left-only "7"
@@ -285,9 +331,13 @@ segment.04.Global.Skips = {
     %! CLOCK_TIME
     %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Skips measure 8]
+    % OPENING:
+    % COMMANDS:
     %! EXPLICIT_TIME_SIGNATURE_COLOR
     %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
@@ -297,6 +347,8 @@ segment.04.Global.Skips = {
     \time 3/8
     %! baca._make_global_skips(1)
     s1 * 3/8
+    % AFTER:
+    % SPANNER_STOPS:
     %! LOCAL_MEASURE_NUMBER
     %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanLMN
@@ -306,6 +358,7 @@ segment.04.Global.Skips = {
     %! CLOCK_TIME
     %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
+    % SPANNER_STARTS:
     %! LOCAL_MEASURE_NUMBER
     %! baca._label_measure_numbers()
     %@% - \baca-start-lmn-left-only "8"
@@ -324,9 +377,13 @@ segment.04.Global.Skips = {
     %! CLOCK_TIME
     %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Skips measure 9]
+    % OPENING:
+    % COMMANDS:
     %! EXPLICIT_TIME_SIGNATURE
     %! baca._make_global_skips(2)
     %! baca._set_status_tag()
@@ -340,6 +397,8 @@ segment.04.Global.Skips = {
     \baca-time-signature-color #'blue
     %! baca._make_global_skips(1)
     s1 * 4/5
+    % AFTER:
+    % SPANNER_STOPS:
     %! LOCAL_MEASURE_NUMBER
     %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanLMN
@@ -349,6 +408,7 @@ segment.04.Global.Skips = {
     %! CLOCK_TIME
     %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
+    % SPANNER_STARTS:
     %! LOCAL_MEASURE_NUMBER
     %! baca._label_measure_numbers()
     %@% - \baca-start-lmn-left-only "9"
@@ -367,9 +427,13 @@ segment.04.Global.Skips = {
     %! CLOCK_TIME
     %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Skips measure 10]
+    % OPENING:
+    % COMMANDS:
     %! EXPLICIT_TIME_SIGNATURE_COLOR
     %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
@@ -379,6 +443,8 @@ segment.04.Global.Skips = {
     \time 5/32
     %! baca._make_global_skips(1)
     s1 * 5/32
+    % AFTER:
+    % SPANNER_STOPS:
     %! LOCAL_MEASURE_NUMBER
     %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanLMN
@@ -388,6 +454,7 @@ segment.04.Global.Skips = {
     %! CLOCK_TIME
     %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
+    % SPANNER_STARTS:
     %! LOCAL_MEASURE_NUMBER
     %! baca._label_measure_numbers()
     %@% - \baca-start-lmn-left-only "10"
@@ -406,9 +473,13 @@ segment.04.Global.Skips = {
     %! CLOCK_TIME
     %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Skips measure 11]
+    % OPENING:
+    % COMMANDS:
     %! EXPLICIT_TIME_SIGNATURE_COLOR
     %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
@@ -418,6 +489,8 @@ segment.04.Global.Skips = {
     \time 9/32
     %! baca._make_global_skips(1)
     s1 * 9/32
+    % AFTER:
+    % SPANNER_STOPS:
     %! LOCAL_MEASURE_NUMBER
     %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanLMN
@@ -427,6 +500,7 @@ segment.04.Global.Skips = {
     %! CLOCK_TIME
     %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
+    % SPANNER_STARTS:
     %! LOCAL_MEASURE_NUMBER
     %! baca._label_measure_numbers()
     %@% - \baca-start-lmn-left-only "11"
@@ -445,9 +519,13 @@ segment.04.Global.Skips = {
     %! CLOCK_TIME
     %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Skips measure 12]
+    % OPENING:
+    % COMMANDS:
     %! EXPLICIT_TIME_SIGNATURE_COLOR
     %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
@@ -457,6 +535,8 @@ segment.04.Global.Skips = {
     \time 2/16
     %! baca._make_global_skips(1)
     s1 * 1/8
+    % AFTER:
+    % SPANNER_STOPS:
     %! LOCAL_MEASURE_NUMBER
     %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanLMN
@@ -466,6 +546,7 @@ segment.04.Global.Skips = {
     %! CLOCK_TIME
     %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
+    % SPANNER_STARTS:
     %! LOCAL_MEASURE_NUMBER
     %! baca._label_measure_numbers()
     %@% - \baca-start-lmn-left-only "12"
@@ -484,9 +565,13 @@ segment.04.Global.Skips = {
     %! CLOCK_TIME
     %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Skips measure 13]
+    % OPENING:
+    % COMMANDS:
     %! EXPLICIT_TIME_SIGNATURE_COLOR
     %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
@@ -496,6 +581,8 @@ segment.04.Global.Skips = {
     \time 12/32
     %! baca._make_global_skips(1)
     s1 * 3/8
+    % AFTER:
+    % SPANNER_STOPS:
     %! LOCAL_MEASURE_NUMBER
     %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanLMN
@@ -505,6 +592,7 @@ segment.04.Global.Skips = {
     %! CLOCK_TIME
     %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
+    % SPANNER_STARTS:
     %! LOCAL_MEASURE_NUMBER
     %! baca._label_measure_numbers()
     %@% - \baca-start-lmn-left-only "13"
@@ -523,9 +611,13 @@ segment.04.Global.Skips = {
     %! CLOCK_TIME
     %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Skips measure 14]
+    % OPENING:
+    % COMMANDS:
     %! EXPLICIT_TIME_SIGNATURE_COLOR
     %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
@@ -535,6 +627,8 @@ segment.04.Global.Skips = {
     \time 2/16
     %! baca._make_global_skips(1)
     s1 * 1/8
+    % AFTER:
+    % SPANNER_STOPS:
     %! LOCAL_MEASURE_NUMBER
     %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanLMN
@@ -544,6 +638,7 @@ segment.04.Global.Skips = {
     %! CLOCK_TIME
     %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
+    % SPANNER_STARTS:
     %! LOCAL_MEASURE_NUMBER
     %! baca._label_measure_numbers()
     %@% - \baca-start-lmn-left-only "14"
@@ -562,9 +657,13 @@ segment.04.Global.Skips = {
     %! CLOCK_TIME
     %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Skips measure 15]
+    % OPENING:
+    % COMMANDS:
     %! EXPLICIT_TIME_SIGNATURE_COLOR
     %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
@@ -574,6 +673,8 @@ segment.04.Global.Skips = {
     \time 5/32
     %! baca._make_global_skips(1)
     s1 * 5/32
+    % AFTER:
+    % SPANNER_STOPS:
     %! LOCAL_MEASURE_NUMBER
     %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanLMN
@@ -583,6 +684,7 @@ segment.04.Global.Skips = {
     %! CLOCK_TIME
     %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
+    % SPANNER_STARTS:
     %! LOCAL_MEASURE_NUMBER
     %! baca._label_measure_numbers()
     %@% - \baca-start-lmn-left-only "15"
@@ -601,9 +703,13 @@ segment.04.Global.Skips = {
     %! CLOCK_TIME
     %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Skips measure 16]
+    % OPENING:
+    % COMMANDS:
     %! EXPLICIT_TIME_SIGNATURE_COLOR
     %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
@@ -613,6 +719,8 @@ segment.04.Global.Skips = {
     \time 3/16
     %! baca._make_global_skips(1)
     s1 * 3/16
+    % AFTER:
+    % SPANNER_STOPS:
     %! LOCAL_MEASURE_NUMBER
     %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanLMN
@@ -622,6 +730,7 @@ segment.04.Global.Skips = {
     %! CLOCK_TIME
     %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
+    % SPANNER_STARTS:
     %! LOCAL_MEASURE_NUMBER
     %! baca._label_measure_numbers()
     %@% - \baca-start-lmn-left-only "16"
@@ -640,9 +749,13 @@ segment.04.Global.Skips = {
     %! CLOCK_TIME
     %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Skips measure 17]
+    % OPENING:
+    % COMMANDS:
     %! EXPLICIT_TIME_SIGNATURE_COLOR
     %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
@@ -652,6 +765,8 @@ segment.04.Global.Skips = {
     \time 3/8
     %! baca._make_global_skips(1)
     s1 * 3/8
+    % AFTER:
+    % SPANNER_STOPS:
     %! LOCAL_MEASURE_NUMBER
     %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanLMN
@@ -661,6 +776,7 @@ segment.04.Global.Skips = {
     %! CLOCK_TIME
     %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
+    % SPANNER_STARTS:
     %! LOCAL_MEASURE_NUMBER
     %! baca._label_measure_numbers()
     %@% - \baca-start-lmn-left-only "17"
@@ -679,9 +795,13 @@ segment.04.Global.Skips = {
     %! CLOCK_TIME
     %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Skips measure 18]
+    % OPENING:
+    % COMMANDS:
     %! EXPLICIT_TIME_SIGNATURE
     %! baca._make_global_skips(2)
     %! baca._set_status_tag()
@@ -695,6 +815,8 @@ segment.04.Global.Skips = {
     \baca-time-signature-color #'blue
     %! baca._make_global_skips(1)
     s1 * 4/5
+    % AFTER:
+    % SPANNER_STOPS:
     %! LOCAL_MEASURE_NUMBER
     %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanLMN
@@ -704,6 +826,7 @@ segment.04.Global.Skips = {
     %! CLOCK_TIME
     %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
+    % SPANNER_STARTS:
     %! LOCAL_MEASURE_NUMBER
     %! baca._label_measure_numbers()
     %@% - \baca-start-lmn-left-only "18"
@@ -722,9 +845,13 @@ segment.04.Global.Skips = {
     %! CLOCK_TIME
     %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Skips measure 19]
+    % OPENING:
+    % COMMANDS:
     %! EXPLICIT_TIME_SIGNATURE_COLOR
     %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
@@ -734,6 +861,8 @@ segment.04.Global.Skips = {
     \time 9/64
     %! baca._make_global_skips(1)
     s1 * 9/64
+    % AFTER:
+    % SPANNER_STOPS:
     %! LOCAL_MEASURE_NUMBER
     %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanLMN
@@ -743,6 +872,7 @@ segment.04.Global.Skips = {
     %! CLOCK_TIME
     %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
+    % SPANNER_STARTS:
     %! LOCAL_MEASURE_NUMBER
     %! baca._label_measure_numbers()
     %@% - \baca-start-lmn-left-only "19"
@@ -761,11 +891,15 @@ segment.04.Global.Skips = {
     %! CLOCK_TIME
     %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! PHANTOM
     %! baca._comment_measure_numbers()
     %! baca._style_phantom_measures(1)
     % [Global_Skips measure 20]
+    % OPENING:
+    % COMMANDS:
     %! PHANTOM
     %! baca._style_phantom_measures(2)
     \baca-time-signature-transparent
@@ -778,6 +912,8 @@ segment.04.Global.Skips = {
     %! PHANTOM
     %! baca._make_global_skips(3)
     s1 * 1/4
+    % AFTER:
+    % SPANNER_STOPS:
     %! LOCAL_MEASURE_NUMBER
     %! PHANTOM
     %! baca._label_measure_numbers()
@@ -798,13 +934,17 @@ segment.04.Global.Skips = {
     %! baca._label_clock_time()
     %! baca._style_phantom_measures(1)
     %@% \bacaStopTextSpanCT
+    % COMMANDS:
     %! PHANTOM
     %! baca._style_phantom_measures(3)
     \once \override Score.BarLine.transparent = ##t
     %! PHANTOM
     %! baca._style_phantom_measures(3)
     \once \override Score.SpanBar.transparent = ##t
+    % CLOSING:
+    % COMMANDS:
 
+% CLOSE_BRACKETS:
 %! baca.make_global_context()
 %! baca.path.extern()
 }
@@ -812,101 +952,141 @@ segment.04.Global.Skips = {
 
 %! baca.path.extern()
 segment.04.Global.Rests = {
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Rests measure 1]
     %! baca._make_global_rests(1)
     R1 * 11/32
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Rests measure 2]
     %! baca._make_global_rests(1)
     R1 * 11/64
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Rests measure 3]
     %! baca._make_global_rests(1)
     R1 * 11/64
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Rests measure 4]
     %! baca._make_global_rests(1)
     R1 * 5/32
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Rests measure 5]
     %! baca._make_global_rests(1)
     R1 * 3/16
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Rests measure 6]
     %! baca._make_global_rests(1)
     R1 * 3/16
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Rests measure 7]
     %! baca._make_global_rests(1)
     R1 * 9/64
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Rests measure 8]
     %! baca._make_global_rests(1)
     R1 * 3/8
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Rests measure 9]
     %! baca._make_global_rests(1)
     R1 * 4/5
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Rests measure 10]
     %! baca._make_global_rests(1)
     R1 * 5/32
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Rests measure 11]
     %! baca._make_global_rests(1)
     R1 * 9/32
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Rests measure 12]
     %! baca._make_global_rests(1)
     R1 * 1/8
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Rests measure 13]
     %! baca._make_global_rests(1)
     R1 * 3/8
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Rests measure 14]
     %! baca._make_global_rests(1)
     R1 * 1/8
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Rests measure 15]
     %! baca._make_global_rests(1)
     R1 * 5/32
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Rests measure 16]
     %! baca._make_global_rests(1)
     R1 * 3/16
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Rests measure 17]
     %! baca._make_global_rests(1)
     R1 * 3/8
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Rests measure 18]
     %! baca._make_global_rests(1)
     R1 * 4/5
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Global_Rests measure 19]
     %! baca._make_global_rests(1)
     R1 * 9/64
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! PHANTOM
     %! baca._comment_measure_numbers()
@@ -915,7 +1095,10 @@ segment.04.Global.Rests = {
     %! PHANTOM
     %! baca._make_global_rests(2)
     R1 * 1/4
+    % CLOSING:
+    % COMMANDS:
 
+% CLOSE_BRACKETS:
 %! baca.make_global_context()
 %! baca.path.extern()
 }
@@ -923,10 +1106,17 @@ segment.04.Global.Rests = {
 
 %! baca.path.extern()
 segment.04.Guitar.Music.Voice.I = {
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! baca.music()
     {
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % BEFORE:
+        % GROB_OVERRIDES:
         \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \score
             {
                 \context Score = "Score"
@@ -963,17 +1153,25 @@ segment.04.Guitar.Music.Voice.I = {
                     ragged-right = ##t
                 }
             }
+        % OPEN_BRACKETS:
         %! baca.music()
         \scaleDurations #'(1 . 1)
         %! baca.music()
         {
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! baca._comment_measure_numbers()
             % [Guitar_Music_Voice_I measure 1]
+            % BEFORE:
+            % COMMANDS:
             %! baca.OverrideCommand._call(1)
             %! baca.beam_positions()
             \override Beam.positions = #'(9 . 9)
+            % GROB_OVERRIDES:
             \once \override Beam.grow-direction = #right
+            % OPENING:
+            % COMMANDS:
             %! REAPPLIED_CLEF
             %! baca._reapply_persistent_indicators(3)
             %! baca._set_status_tag()
@@ -991,6 +1189,8 @@ segment.04.Guitar.Music.Voice.I = {
             \set GuitarMusicStaff.forceClef = ##t
             %! baca.music()
             f32 * 1984/1024
+            % AFTER:
+            % MARKUP:
             %! REAPPLIED_INSTRUMENT_ALERT
             %! baca._attach_latent_indicator_alert()
             ^ \baca-reapplied-indicator-markup "(“Guitar”)"
@@ -1001,46 +1201,79 @@ segment.04.Guitar.Music.Voice.I = {
             %@% - \tweak color #blue
             %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (1) \hspace #1 "W1" ] }
+            % START_BEAM:
             [
+            % ABSOLUTE_AFTER:
+            % COMMANDS:
             %! REAPPLIED_CLEF_REDRAW_COLOR
             %! baca._attach_color_literal(2)
             \override GuitarMusicStaff.Clef.color = #(x11-color 'OliveDrab)
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! baca.music()
             a32 * 1088/1024
+            % AFTER:
+            % MARKUP:
             %! DURATION_MULTIPLIER
             %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1088" #"1024"
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! baca.music()
             b32 * 896/1024
+            % AFTER:
+            % MARKUP:
             %! DURATION_MULTIPLIER
             %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"896" #"1024"
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! baca.music()
             bf!32 * 800/1024
+            % AFTER:
+            % MARKUP:
             %! DURATION_MULTIPLIER
             %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"800" #"1024"
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! baca.music()
             c'32 * 704/1024
+            % AFTER:
+            % MARKUP:
             %! DURATION_MULTIPLIER
             %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"704" #"1024"
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! baca.music()
             fs'!32 * 672/1024
+            % AFTER:
+            % MARKUP:
             %! DURATION_MULTIPLIER
             %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"672" #"1024"
+            % STOP_BEAM:
             ]
+            % CLOSING:
+            % COMMANDS:
 
+        % CLOSE_BRACKETS:
         %! baca.music()
         }
+        % AFTER:
+        % GROB_REVERTS:
         \revert TupletNumber.text
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % BEFORE:
+        % GROB_OVERRIDES:
         \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \score
             {
                 \context Score = "Score"
@@ -1079,54 +1312,94 @@ segment.04.Guitar.Music.Voice.I = {
                     ragged-right = ##t
                 }
             }
+        % OPEN_BRACKETS:
         %! baca.music()
         \scaleDurations #'(1 . 1)
         %! baca.music()
         {
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
+            % BEFORE:
+            % GROB_OVERRIDES:
             \once \override Beam.grow-direction = #left
             %! baca.music()
             g'32 * 384/1024
+            % AFTER:
+            % MARKUP:
             %! DURATION_MULTIPLIER
             %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"384" #"1024"
+            % START_BEAM:
             [
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! baca.music()
             af'!32 * 768/1024
+            % AFTER:
+            % MARKUP:
             %! DURATION_MULTIPLIER
             %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"768" #"1024"
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! baca.music()
             d'32 * 1088/1024
+            % AFTER:
+            % MARKUP:
             %! DURATION_MULTIPLIER
             %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1088" #"1024"
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! baca.music()
             cs'!32 * 1344/1024
+            % AFTER:
+            % MARKUP:
             %! DURATION_MULTIPLIER
             %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1344" #"1024"
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! baca.music()
             ef'!32 * 1536/1024
+            % AFTER:
+            % MARKUP:
             %! DURATION_MULTIPLIER
             %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1536" #"1024"
+            % STOP_BEAM:
             ]
+            % CLOSING:
+            % COMMANDS:
 
+        % CLOSE_BRACKETS:
         %! baca.music()
         }
+        % AFTER:
+        % GROB_REVERTS:
         \revert TupletNumber.text
+        % CLOSING:
+        % COMMANDS:
 
+    % CLOSE_BRACKETS:
     %! baca.music()
     }
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! baca.music()
     {
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % BEFORE:
+        % GROB_OVERRIDES:
         \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \score
             {
                 \context Score = "Score"
@@ -1163,16 +1436,23 @@ segment.04.Guitar.Music.Voice.I = {
                     ragged-right = ##t
                 }
             }
+        % OPEN_BRACKETS:
         %! baca.music()
         \scaleDurations #'(1 . 1)
         %! baca.music()
         {
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! baca._comment_measure_numbers()
             % [Guitar_Music_Voice_I measure 2]
+            % BEFORE:
+            % GROB_OVERRIDES:
             \once \override Beam.grow-direction = #right
             %! baca.music()
             f'64 * 2048/1024
+            % AFTER:
+            % MARKUP:
             %! DURATION_MULTIPLIER
             %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"2048" #"1024"
@@ -1180,43 +1460,74 @@ segment.04.Guitar.Music.Voice.I = {
             %@% - \tweak color #blue
             %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (2) \hspace #1 "W2" ] }
+            % START_BEAM:
             [
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! baca.music()
             a'64 * 1088/1024
+            % AFTER:
+            % MARKUP:
             %! DURATION_MULTIPLIER
             %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1088" #"1024"
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! baca.music()
             b'64 * 896/1024
+            % AFTER:
+            % MARKUP:
             %! DURATION_MULTIPLIER
             %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"896" #"1024"
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! baca.music()
             bf'!64 * 768/1024
+            % AFTER:
+            % MARKUP:
             %! DURATION_MULTIPLIER
             %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"768" #"1024"
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! baca.music()
             c''64 * 704/1024
+            % AFTER:
+            % MARKUP:
             %! DURATION_MULTIPLIER
             %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"704" #"1024"
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! baca.music()
             fs'!64 * 640/1024
+            % AFTER:
+            % MARKUP:
             %! DURATION_MULTIPLIER
             %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"640" #"1024"
+            % STOP_BEAM:
             ]
+            % CLOSING:
+            % COMMANDS:
 
+        % CLOSE_BRACKETS:
         %! baca.music()
         }
+        % AFTER:
+        % GROB_REVERTS:
         \revert TupletNumber.text
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % BEFORE:
+        % GROB_OVERRIDES:
         \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \score
             {
                 \context Score = "Score"
@@ -1255,54 +1566,94 @@ segment.04.Guitar.Music.Voice.I = {
                     ragged-right = ##t
                 }
             }
+        % OPEN_BRACKETS:
         %! baca.music()
         \scaleDurations #'(1 . 1)
         %! baca.music()
         {
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
+            % BEFORE:
+            % GROB_OVERRIDES:
             \once \override Beam.grow-direction = #left
             %! baca.music()
             g'64 * 384/1024
+            % AFTER:
+            % MARKUP:
             %! DURATION_MULTIPLIER
             %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"384" #"1024"
+            % START_BEAM:
             [
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! baca.music()
             af'!64 * 768/1024
+            % AFTER:
+            % MARKUP:
             %! DURATION_MULTIPLIER
             %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"768" #"1024"
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! baca.music()
             d''64 * 1088/1024
+            % AFTER:
+            % MARKUP:
             %! DURATION_MULTIPLIER
             %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1088" #"1024"
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! baca.music()
             cs''!64 * 1344/1024
+            % AFTER:
+            % MARKUP:
             %! DURATION_MULTIPLIER
             %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1344" #"1024"
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! baca.music()
             ef''!64 * 1536/1024
+            % AFTER:
+            % MARKUP:
             %! DURATION_MULTIPLIER
             %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1536" #"1024"
+            % STOP_BEAM:
             ]
+            % CLOSING:
+            % COMMANDS:
 
+        % CLOSE_BRACKETS:
         %! baca.music()
         }
+        % AFTER:
+        % GROB_REVERTS:
         \revert TupletNumber.text
+        % CLOSING:
+        % COMMANDS:
 
+    % CLOSE_BRACKETS:
     %! baca.music()
     }
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! baca.music()
     {
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % BEFORE:
+        % GROB_OVERRIDES:
         \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \score
             {
                 \context Score = "Score"
@@ -1341,16 +1692,23 @@ segment.04.Guitar.Music.Voice.I = {
                     ragged-right = ##t
                 }
             }
+        % OPEN_BRACKETS:
         %! baca.music()
         \scaleDurations #'(1 . 1)
         %! baca.music()
         {
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! baca._comment_measure_numbers()
             % [Guitar_Music_Voice_I measure 3]
+            % BEFORE:
+            % GROB_OVERRIDES:
             \once \override Beam.grow-direction = #right
             %! baca.music()
             f''64 * 2560/1024
+            % AFTER:
+            % MARKUP:
             %! DURATION_MULTIPLIER
             %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"2560" #"1024"
@@ -1358,90 +1716,152 @@ segment.04.Guitar.Music.Voice.I = {
             %@% - \tweak color #blue
             %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (3) \hspace #1 "W3" ] }
+            % START_BEAM:
             [
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! baca.music()
             a'64 * 1344/1024
+            % AFTER:
+            % MARKUP:
             %! DURATION_MULTIPLIER
             %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1344" #"1024"
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! baca.music()
             b'64 * 1088/1024
+            % AFTER:
+            % MARKUP:
             %! DURATION_MULTIPLIER
             %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1088" #"1024"
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! baca.music()
             bf''!64 * 960/1024
+            % AFTER:
+            % MARKUP:
             %! DURATION_MULTIPLIER
             %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"960" #"1024"
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! baca.music()
             c''64 * 896/1024
+            % AFTER:
+            % MARKUP:
             %! DURATION_MULTIPLIER
             %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"896" #"1024"
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! baca.music()
             fs''!64 * 832/1024
+            % AFTER:
+            % MARKUP:
             %! DURATION_MULTIPLIER
             %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"832" #"1024"
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! baca.music()
             g''64 * 768/1024
+            % AFTER:
+            % MARKUP:
             %! DURATION_MULTIPLIER
             %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"768" #"1024"
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! baca.music()
             af''!64 * 768/1024
+            % AFTER:
+            % MARKUP:
             %! DURATION_MULTIPLIER
             %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"768" #"1024"
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! baca.music()
             d''64 * 704/1024
+            % AFTER:
+            % MARKUP:
             %! DURATION_MULTIPLIER
             %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"704" #"1024"
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! baca.music()
             cs'''!64 * 704/1024
+            % AFTER:
+            % MARKUP:
             %! DURATION_MULTIPLIER
             %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"704" #"1024"
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! baca.music()
             ef''!64 * 640/1024
+            % AFTER:
+            % MARKUP:
             %! DURATION_MULTIPLIER
             %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"640" #"1024"
+            % STOP_BEAM:
             ]
+            % COMMANDS:
             %! baca.OverrideCommand._call(2)
             %! baca.beam_positions()
             \revert Beam.positions
+            % CLOSING:
+            % COMMANDS:
 
+        % CLOSE_BRACKETS:
         %! baca.music()
         }
+        % AFTER:
+        % GROB_REVERTS:
         \revert TupletNumber.text
+        % CLOSING:
+        % COMMANDS:
 
+    % CLOSE_BRACKETS:
     %! baca.music()
     }
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice_I measure 4]
+    % BEFORE:
+    % COMMANDS:
     %! baca.OverrideCommand._call(1)
     %! baca.beam_positions()
     \override Beam.positions = #'(6 . 6)
     %! baca.music()
     s1 * 5/32
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! baca.music()
     {
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % BEFORE:
+        % GROB_OVERRIDES:
         \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \score
             {
                 \context Score = "Score"
@@ -1478,16 +1898,23 @@ segment.04.Guitar.Music.Voice.I = {
                     ragged-right = ##t
                 }
             }
+        % OPEN_BRACKETS:
         %! baca.music()
         \scaleDurations #'(1 . 1)
         %! baca.music()
         {
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! baca._comment_measure_numbers()
             % [Guitar_Music_Voice_I measure 5]
+            % BEFORE:
+            % GROB_OVERRIDES:
             \once \override Beam.grow-direction = #left
             %! baca.music()
             ef'!32 * 512/1024
+            % AFTER:
+            % MARKUP:
             %! DURATION_MULTIPLIER
             %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"512" #"1024"
@@ -1495,25 +1922,44 @@ segment.04.Guitar.Music.Voice.I = {
             %@% - \tweak color #blue
             %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (5) \hspace #1 "W4" ] }
+            % START_BEAM:
             [
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! baca.music()
             fs!32 * 1088/1024
+            % AFTER:
+            % MARKUP:
             %! DURATION_MULTIPLIER
             %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1088" #"1024"
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! baca.music()
             a32 * 1472/1024
+            % AFTER:
+            % MARKUP:
             %! DURATION_MULTIPLIER
             %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1472" #"1024"
+            % STOP_BEAM:
             ]
+            % CLOSING:
+            % COMMANDS:
 
+        % CLOSE_BRACKETS:
         %! baca.music()
         }
+        % AFTER:
+        % GROB_REVERTS:
         \revert TupletNumber.text
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % BEFORE:
+        % GROB_OVERRIDES:
         \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \score
             {
                 \context Score = "Score"
@@ -1550,52 +1996,90 @@ segment.04.Guitar.Music.Voice.I = {
                     ragged-right = ##t
                 }
             }
+        % OPEN_BRACKETS:
         %! baca.music()
         \scaleDurations #'(1 . 1)
         %! baca.music()
         {
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
+            % BEFORE:
+            % GROB_OVERRIDES:
             \once \override Beam.grow-direction = #right
             %! baca.music()
             b32 * 1312/1024
+            % AFTER:
+            % MARKUP:
             %! DURATION_MULTIPLIER
             %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1312" #"1024"
+            % START_BEAM:
             [
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! baca.music()
             bf'!32 * 736/1024
+            % AFTER:
+            % MARKUP:
             %! DURATION_MULTIPLIER
             %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"736" #"1024"
+            % STOP_BEAM:
             ]
+            % CLOSING:
+            % COMMANDS:
 
+        % CLOSE_BRACKETS:
         %! baca.music()
         }
+        % AFTER:
+        % GROB_REVERTS:
         \revert TupletNumber.text
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPEN_BRACKETS:
         %! baca.music()
         \scaleDurations #'(1 . 1)
         %! baca.music()
         {
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! baca.music()
             c'32
+            % CLOSING:
+            % COMMANDS:
 
+        % CLOSE_BRACKETS:
         %! baca.music()
         }
+        % CLOSING:
+        % COMMANDS:
 
+    % CLOSE_BRACKETS:
     %! baca.music()
     }
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice_I measure 6]
     %! baca.music()
     s1 * 531/320
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! baca.music()
     {
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % BEFORE:
+        % GROB_OVERRIDES:
         \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \score
             {
                 \context Score = "Score"
@@ -1634,16 +2118,23 @@ segment.04.Guitar.Music.Voice.I = {
                     ragged-right = ##t
                 }
             }
+        % OPEN_BRACKETS:
         %! baca.music()
         \scaleDurations #'(1 . 1)
         %! baca.music()
         {
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! baca._comment_measure_numbers()
             % [Guitar_Music_Voice_I measure 11]
+            % BEFORE:
+            % GROB_OVERRIDES:
             \once \override Beam.grow-direction = #right
             %! baca.music()
             g'32 * 1856/1024
+            % AFTER:
+            % MARKUP:
             %! DURATION_MULTIPLIER
             %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1856" #"1024"
@@ -1651,37 +2142,64 @@ segment.04.Guitar.Music.Voice.I = {
             %@% - \tweak color #blue
             %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (11) \hspace #1 "W5" ] }
+            % START_BEAM:
             [
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! baca.music()
             af'!32 * 1024/1024
+            % AFTER:
+            % MARKUP:
             %! DURATION_MULTIPLIER
             %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1024" #"1024"
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! baca.music()
             d''32 * 832/1024
+            % AFTER:
+            % MARKUP:
             %! DURATION_MULTIPLIER
             %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"832" #"1024"
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! baca.music()
             cs''!32 * 736/1024
+            % AFTER:
+            % MARKUP:
             %! DURATION_MULTIPLIER
             %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"736" #"1024"
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! baca.music()
             ef''!32 * 672/1024
+            % AFTER:
+            % MARKUP:
             %! DURATION_MULTIPLIER
             %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"672" #"1024"
+            % STOP_BEAM:
             ]
+            % CLOSING:
+            % COMMANDS:
 
+        % CLOSE_BRACKETS:
         %! baca.music()
         }
+        % AFTER:
+        % GROB_REVERTS:
         \revert TupletNumber.text
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % BEFORE:
+        % GROB_OVERRIDES:
         \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \score
             {
                 \context Score = "Score"
@@ -1718,56 +2236,96 @@ segment.04.Guitar.Music.Voice.I = {
                     ragged-right = ##t
                 }
             }
+        % OPEN_BRACKETS:
         %! baca.music()
         \scaleDurations #'(1 . 1)
         %! baca.music()
         {
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
+            % BEFORE:
+            % GROB_OVERRIDES:
             \once \override Beam.grow-direction = #left
             %! baca.music()
             g''32 * 416/1024
+            % AFTER:
+            % MARKUP:
             %! DURATION_MULTIPLIER
             %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"416" #"1024"
+            % START_BEAM:
             [
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! baca.music()
             af''!32 * 896/1024
+            % AFTER:
+            % MARKUP:
             %! DURATION_MULTIPLIER
             %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"896" #"1024"
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! baca.music()
             d''32 * 1248/1024
+            % AFTER:
+            % MARKUP:
             %! DURATION_MULTIPLIER
             %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1248" #"1024"
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! baca.music()
             cs'''!32 * 1536/1024
+            % AFTER:
+            % MARKUP:
             %! DURATION_MULTIPLIER
             %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1536" #"1024"
+            % STOP_BEAM:
             ]
+            % CLOSING:
+            % COMMANDS:
 
+        % CLOSE_BRACKETS:
         %! baca.music()
         }
+        % AFTER:
+        % GROB_REVERTS:
         \revert TupletNumber.text
+        % CLOSING:
+        % COMMANDS:
 
+    % CLOSE_BRACKETS:
     %! baca.music()
     }
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice_I measure 12]
     %! baca.music()
     s1 * 1/8
+    % AFTER:
+    % COMMANDS:
     %! baca.OverrideCommand._call(2)
     %! baca.beam_positions()
     \revert Beam.positions
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! baca.music()
     {
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % BEFORE:
+        % GROB_OVERRIDES:
         \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \score
             {
                 \context Score = "Score"
@@ -1806,16 +2364,23 @@ segment.04.Guitar.Music.Voice.I = {
                     ragged-right = ##t
                 }
             }
+        % OPEN_BRACKETS:
         %! baca.music()
         \scaleDurations #'(1 . 1)
         %! baca.music()
         {
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! baca._comment_measure_numbers()
             % [Guitar_Music_Voice_I measure 13]
+            % BEFORE:
+            % GROB_OVERRIDES:
             \once \override Beam.grow-direction = #right
             %! baca.music()
             g32 * 1856/1024
+            % AFTER:
+            % MARKUP:
             %! DURATION_MULTIPLIER
             %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1856" #"1024"
@@ -1823,37 +2388,64 @@ segment.04.Guitar.Music.Voice.I = {
             %@% - \tweak color #blue
             %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (13) \hspace #1 "W6" ] }
+            % START_BEAM:
             [
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! baca.music()
             af!32 * 1024/1024
+            % AFTER:
+            % MARKUP:
             %! DURATION_MULTIPLIER
             %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1024" #"1024"
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! baca.music()
             d'32 * 832/1024
+            % AFTER:
+            % MARKUP:
             %! DURATION_MULTIPLIER
             %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"832" #"1024"
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! baca.music()
             cs'!32 * 736/1024
+            % AFTER:
+            % MARKUP:
             %! DURATION_MULTIPLIER
             %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"736" #"1024"
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! baca.music()
             ef'!32 * 672/1024
+            % AFTER:
+            % MARKUP:
             %! DURATION_MULTIPLIER
             %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"672" #"1024"
+            % STOP_BEAM:
             ]
+            % CLOSING:
+            % COMMANDS:
 
+        % CLOSE_BRACKETS:
         %! baca.music()
         }
+        % AFTER:
+        % GROB_REVERTS:
         \revert TupletNumber.text
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % BEFORE:
+        % GROB_OVERRIDES:
         \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \score
             {
                 \context Score = "Score"
@@ -1890,42 +2482,72 @@ segment.04.Guitar.Music.Voice.I = {
                     ragged-right = ##t
                 }
             }
+        % OPEN_BRACKETS:
         %! baca.music()
         \scaleDurations #'(1 . 1)
         %! baca.music()
         {
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
+            % BEFORE:
+            % GROB_OVERRIDES:
             \once \override Beam.grow-direction = #left
             %! baca.music()
             g'32 * 416/1024
+            % AFTER:
+            % MARKUP:
             %! DURATION_MULTIPLIER
             %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"416" #"1024"
+            % START_BEAM:
             [
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! baca.music()
             af'!32 * 896/1024
+            % AFTER:
+            % MARKUP:
             %! DURATION_MULTIPLIER
             %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"896" #"1024"
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! baca.music()
             d'32 * 1248/1024
+            % AFTER:
+            % MARKUP:
             %! DURATION_MULTIPLIER
             %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1248" #"1024"
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! baca.music()
             cs''!32 * 1536/1024
+            % AFTER:
+            % MARKUP:
             %! DURATION_MULTIPLIER
             %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1536" #"1024"
+            % STOP_BEAM:
             ]
+            % CLOSING:
+            % COMMANDS:
 
+        % CLOSE_BRACKETS:
         %! baca.music()
         }
+        % AFTER:
+        % GROB_REVERTS:
         \revert TupletNumber.text
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % BEFORE:
+        % GROB_OVERRIDES:
         \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \score
             {
                 \context Score = "Score"
@@ -1962,49 +2584,84 @@ segment.04.Guitar.Music.Voice.I = {
                     ragged-right = ##t
                 }
             }
+        % OPEN_BRACKETS:
         %! baca.music()
         \scaleDurations #'(1 . 1)
         %! baca.music()
         {
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
+            % BEFORE:
+            % GROB_OVERRIDES:
             \once \override Beam.grow-direction = #right
             %! baca.music()
             ef''!32 * 1568/1024
+            % AFTER:
+            % MARKUP:
             %! DURATION_MULTIPLIER
             %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1568" #"1024"
+            % START_BEAM:
             [
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! baca.music()
             fs'!32 * 832/1024
+            % AFTER:
+            % MARKUP:
             %! DURATION_MULTIPLIER
             %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"832" #"1024"
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! baca.music()
             a'32 * 672/1024
+            % AFTER:
+            % MARKUP:
             %! DURATION_MULTIPLIER
             %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"672" #"1024"
+            % STOP_BEAM:
             ]
+            % CLOSING:
+            % COMMANDS:
 
+        % CLOSE_BRACKETS:
         %! baca.music()
         }
+        % AFTER:
+        % GROB_REVERTS:
         \revert TupletNumber.text
+        % CLOSING:
+        % COMMANDS:
 
+    % CLOSE_BRACKETS:
     %! baca.music()
     }
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! baca._make_multimeasure_rest_container(7)
     <<
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPEN_BRACKETS:
         %! baca._make_multimeasure_rest_container(4)
         \context Voice = "Guitar_Music_Voice_I"
         %! baca._make_multimeasure_rest_container(4)
         {
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! baca._comment_measure_numbers()
             % [Guitar_Music_Voice_I measure 14]
+            % BEFORE:
+            % COMMANDS:
             %! INVISIBLE_MUSIC_COMMAND
             %! NOTE
             %! baca._make_multimeasure_rest_container(3)
@@ -2017,19 +2674,29 @@ segment.04.Guitar.Music.Voice.I = {
             %! NOTE
             %! baca._make_multimeasure_rest_container(1)
             b'1 * 1/8
+            % AFTER:
+            % MARKUP:
             %! DURATION_MULTIPLIER
             %! HIDDEN
             %! NOTE
             %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"8"
+            % CLOSING:
+            % COMMANDS:
 
+        % CLOSE_BRACKETS:
         %! baca._make_multimeasure_rest_container(4)
         }
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPEN_BRACKETS:
         %! baca._make_multimeasure_rest_container(6)
         \context Voice = "Guitar_Rest_Voice_I"
         %! baca._make_multimeasure_rest_container(6)
         {
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! baca._comment_measure_numbers()
             % [Guitar_Rest_Voice_I measure 14]
@@ -2037,53 +2704,79 @@ segment.04.Guitar.Music.Voice.I = {
             %! SKIP
             %! baca._make_multimeasure_rest_container(5)
             s1 * 1/8
+            % CLOSING:
+            % COMMANDS:
 
+        % CLOSE_BRACKETS:
         %! baca._make_multimeasure_rest_container(6)
         }
+        % CLOSING:
+        % COMMANDS:
 
+    % CLOSE_BRACKETS:
     %! baca._make_multimeasure_rest_container(7)
     >>
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice_I measure 15]
     %! baca._make_measure_silences()
     s1 * 5/32
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice_I measure 16]
     %! baca._make_measure_silences()
     s1 * 3/16
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice_I measure 17]
     %! baca._make_measure_silences()
     s1 * 3/8
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice_I measure 18]
     %! baca._make_measure_silences()
     s1 * 4/5
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice_I measure 19]
     %! baca._make_measure_silences()
     s1 * 9/64
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! PHANTOM
     %! baca._make_multimeasure_rest_container(7)
     <<
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPEN_BRACKETS:
         %! PHANTOM
         %! baca._make_multimeasure_rest_container(4)
         \context Voice = "Guitar_Music_Voice_I"
         %! PHANTOM
         %! baca._make_multimeasure_rest_container(4)
         {
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! PHANTOM
             %! baca._comment_measure_numbers()
             %! baca._style_phantom_measures(5)
             % [Guitar_Music_Voice_I measure 20]
+            % BEFORE:
+            % COMMANDS:
             %! INVISIBLE_MUSIC_COMMAND
             %! NOTE
             %! PHANTOM
@@ -2101,6 +2794,8 @@ segment.04.Guitar.Music.Voice.I = {
             %! PHANTOM
             %! baca._make_multimeasure_rest_container(1)
             b'1 * 1/4
+            % AFTER:
+            % MARKUP:
             %! DURATION_MULTIPLIER
             %! HIDDEN
             %! NOTE
@@ -2108,17 +2803,25 @@ segment.04.Guitar.Music.Voice.I = {
             %! baca._label_duration_multipliers()
             %! baca._style_phantom_measures(5)
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+            % CLOSING:
+            % COMMANDS:
 
+        % CLOSE_BRACKETS:
         %! PHANTOM
         %! baca._make_multimeasure_rest_container(4)
         }
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPEN_BRACKETS:
         %! PHANTOM
         %! baca._make_multimeasure_rest_container(6)
         \context Voice = "Guitar_Rest_Voice_I"
         %! PHANTOM
         %! baca._make_multimeasure_rest_container(6)
         {
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! PHANTOM
             %! baca._comment_measure_numbers()
@@ -2129,15 +2832,24 @@ segment.04.Guitar.Music.Voice.I = {
             %! SKIP
             %! baca._make_multimeasure_rest_container(5)
             s1 * 1/4
+            % CLOSING:
+            % COMMANDS:
 
+        % CLOSE_BRACKETS:
         %! PHANTOM
         %! baca._make_multimeasure_rest_container(6)
         }
+        % CLOSING:
+        % COMMANDS:
 
+    % CLOSE_BRACKETS:
     %! PHANTOM
     %! baca._make_multimeasure_rest_container(7)
     >>
+    % CLOSING:
+    % COMMANDS:
 
+% CLOSE_BRACKETS:
 %! dornen.make_empty_score()
 %! baca.path.extern()
 }
@@ -2145,24 +2857,36 @@ segment.04.Guitar.Music.Voice.I = {
 
 %! baca.path.extern()
 segment.04.Guitar.Music.Voice.II = {
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice_II measure 1]
     %! baca.music()
     s1 * 11/16
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! baca.music()
     {
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPEN_BRACKETS:
         %! baca.music()
         \tweak text #tuplet-number::calc-fraction-text
         %! baca.music()
         \times 5/7
         %! baca.music()
         {
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! baca._comment_measure_numbers()
             % [Guitar_Music_Voice_II measure 4]
+            % BEFORE:
+            % COMMANDS:
             %! baca.OverrideCommand._call(1)
             %! baca.beam_positions()
             \override Beam.positions = #'(-12 . -12)
@@ -2170,6 +2894,8 @@ segment.04.Guitar.Music.Voice.II = {
             \set stemRightBeamCount = 2
             %! baca.music()
             g'16
+            % AFTER:
+            % MARKUP:
             %! baca.IndicatorCommand._call()
             %! baca.markup()
             ^ \dornen-glissando-attack-first-note-only-markup
@@ -2177,136 +2903,230 @@ segment.04.Guitar.Music.Voice.II = {
             %@% - \tweak color #blue
             %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (4) \hspace #1 "G1" ] }
+            % START_BEAM:
             [
+            % SPANNER_STARTS:
             %! abjad.glissando(7)
             %! baca.glissando()
             \glissando
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
+            % BEFORE:
+            % COMMANDS:
             \set stemLeftBeamCount = 2
             \set stemRightBeamCount = 2
             %! baca.music()
             af''!16
+            % AFTER:
+            % SPANNER_STARTS:
             %! abjad.glissando(7)
             %! baca.glissando()
             \glissando
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
+            % BEFORE:
+            % COMMANDS:
             \set stemLeftBeamCount = 2
             \set stemRightBeamCount = 2
             %! baca.music()
             d''16
+            % AFTER:
+            % SPANNER_STARTS:
             %! abjad.glissando(7)
             %! baca.glissando()
             \glissando
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
+            % BEFORE:
+            % COMMANDS:
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 1
             %! baca.music()
             cs'''!32
+            % AFTER:
+            % COMMANDS:
             %! baca.OverrideCommand._call(2)
             %! baca.beam_positions()
             \revert Beam.positions
+            % CLOSING:
+            % COMMANDS:
 
+        % CLOSE_BRACKETS:
         %! baca.music()
         }
+        % CLOSING:
+        % COMMANDS:
 
+    % CLOSE_BRACKETS:
     %! baca.music()
     }
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice_II measure 5]
     %! baca.music()
     s1 * 681/320
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! baca.music()
     {
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPEN_BRACKETS:
         %! baca.music()
         \times 2/3
         %! baca.music()
         {
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! baca._comment_measure_numbers()
             % [Guitar_Music_Voice_II measure 12]
+            % BEFORE:
+            % COMMANDS:
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 2
             %! baca.music()
             ef''!16
+            % AFTER:
+            % MARKUP:
             %! FIGURE_LABEL
             %@% - \tweak color #blue
             %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (12) \hspace #1 "G2" ] }
+            % SPANNER_STARTS:
             %! abjad.glissando(7)
             %! baca.glissando()
             \glissando
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
+            % BEFORE:
+            % COMMANDS:
             \set stemLeftBeamCount = 2
             \set stemRightBeamCount = 2
             %! baca.music()
             fs''!16
+            % AFTER:
+            % SPANNER_STARTS:
             %! abjad.glissando(7)
             %! baca.glissando()
             \glissando
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
+            % BEFORE:
+            % COMMANDS:
             \set stemLeftBeamCount = 2
             \set stemRightBeamCount = 1
             %! baca.music()
             a'16
+            % CLOSING:
+            % COMMANDS:
 
+        % CLOSE_BRACKETS:
         %! baca.music()
         }
+        % CLOSING:
+        % COMMANDS:
 
+    % CLOSE_BRACKETS:
     %! baca.music()
     }
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice_II measure 13]
     %! baca.music()
     s1 * 3/8
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! baca.music()
     {
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPEN_BRACKETS:
         %! baca.music()
         \scaleDurations #'(1 . 1)
         %! baca.music()
         {
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! baca._comment_measure_numbers()
             % [Guitar_Music_Voice_II measure 14]
+            % BEFORE:
+            % COMMANDS:
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 2
             %! baca.music()
             b'16
+            % AFTER:
+            % MARKUP:
             %! FIGURE_LABEL
             %@% - \tweak color #blue
             %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (14) \hspace #1 "G3" ] }
+            % SPANNER_STARTS:
             %! abjad.glissando(7)
             %! baca.glissando()
             \glissando
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
+            % BEFORE:
+            % COMMANDS:
             \set stemLeftBeamCount = 2
             \set stemRightBeamCount = 0
             %! baca.music()
             bf''!16
+            % AFTER:
+            % STOP_BEAM:
             ]
+            % CLOSING:
+            % COMMANDS:
 
+        % CLOSE_BRACKETS:
         %! baca.music()
         }
+        % CLOSING:
+        % COMMANDS:
 
+    % CLOSE_BRACKETS:
     %! baca.music()
     }
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! baca._make_multimeasure_rest_container(7)
     <<
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPEN_BRACKETS:
         %! baca._make_multimeasure_rest_container(4)
         \context Voice = "Guitar_Music_Voice_II"
         %! baca._make_multimeasure_rest_container(4)
         {
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! baca._comment_measure_numbers()
             % [Guitar_Music_Voice_II measure 15]
+            % BEFORE:
+            % COMMANDS:
             %! INVISIBLE_MUSIC_COMMAND
             %! NOTE
             %! baca._make_multimeasure_rest_container(3)
@@ -2319,19 +3139,29 @@ segment.04.Guitar.Music.Voice.II = {
             %! NOTE
             %! baca._make_multimeasure_rest_container(1)
             b'1 * 5/32
+            % AFTER:
+            % MARKUP:
             %! DURATION_MULTIPLIER
             %! HIDDEN
             %! NOTE
             %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"5" #"32"
+            % CLOSING:
+            % COMMANDS:
 
+        % CLOSE_BRACKETS:
         %! baca._make_multimeasure_rest_container(4)
         }
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPEN_BRACKETS:
         %! baca._make_multimeasure_rest_container(6)
         \context Voice = "Guitar_Rest_Voice_II"
         %! baca._make_multimeasure_rest_container(6)
         {
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! baca._comment_measure_numbers()
             % [Guitar_Rest_Voice_II measure 15]
@@ -2339,48 +3169,72 @@ segment.04.Guitar.Music.Voice.II = {
             %! SKIP
             %! baca._make_multimeasure_rest_container(5)
             s1 * 5/32
+            % CLOSING:
+            % COMMANDS:
 
+        % CLOSE_BRACKETS:
         %! baca._make_multimeasure_rest_container(6)
         }
+        % CLOSING:
+        % COMMANDS:
 
+    % CLOSE_BRACKETS:
     %! baca._make_multimeasure_rest_container(7)
     >>
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice_II measure 16]
     %! baca._make_measure_silences()
     s1 * 3/16
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice_II measure 17]
     %! baca._make_measure_silences()
     s1 * 3/8
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice_II measure 18]
     %! baca._make_measure_silences()
     s1 * 4/5
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice_II measure 19]
     %! baca._make_measure_silences()
     s1 * 9/64
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! PHANTOM
     %! baca._make_multimeasure_rest_container(7)
     <<
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPEN_BRACKETS:
         %! PHANTOM
         %! baca._make_multimeasure_rest_container(4)
         \context Voice = "Guitar_Music_Voice_II"
         %! PHANTOM
         %! baca._make_multimeasure_rest_container(4)
         {
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! PHANTOM
             %! baca._comment_measure_numbers()
             %! baca._style_phantom_measures(5)
             % [Guitar_Music_Voice_II measure 20]
+            % BEFORE:
+            % COMMANDS:
             %! INVISIBLE_MUSIC_COMMAND
             %! NOTE
             %! PHANTOM
@@ -2398,6 +3252,8 @@ segment.04.Guitar.Music.Voice.II = {
             %! PHANTOM
             %! baca._make_multimeasure_rest_container(1)
             b'1 * 1/4
+            % AFTER:
+            % MARKUP:
             %! DURATION_MULTIPLIER
             %! HIDDEN
             %! NOTE
@@ -2405,17 +3261,25 @@ segment.04.Guitar.Music.Voice.II = {
             %! baca._label_duration_multipliers()
             %! baca._style_phantom_measures(5)
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+            % CLOSING:
+            % COMMANDS:
 
+        % CLOSE_BRACKETS:
         %! PHANTOM
         %! baca._make_multimeasure_rest_container(4)
         }
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPEN_BRACKETS:
         %! PHANTOM
         %! baca._make_multimeasure_rest_container(6)
         \context Voice = "Guitar_Rest_Voice_II"
         %! PHANTOM
         %! baca._make_multimeasure_rest_container(6)
         {
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! PHANTOM
             %! baca._comment_measure_numbers()
@@ -2426,15 +3290,24 @@ segment.04.Guitar.Music.Voice.II = {
             %! SKIP
             %! baca._make_multimeasure_rest_container(5)
             s1 * 1/4
+            % CLOSING:
+            % COMMANDS:
 
+        % CLOSE_BRACKETS:
         %! PHANTOM
         %! baca._make_multimeasure_rest_container(6)
         }
+        % CLOSING:
+        % COMMANDS:
 
+    % CLOSE_BRACKETS:
     %! PHANTOM
     %! baca._make_multimeasure_rest_container(7)
     >>
+    % CLOSING:
+    % COMMANDS:
 
+% CLOSE_BRACKETS:
 %! dornen.make_empty_score()
 %! baca.path.extern()
 }
@@ -2442,811 +3315,1368 @@ segment.04.Guitar.Music.Voice.II = {
 
 %! baca.path.extern()
 segment.04.Guitar.Music.Voice.III = {
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice_III measure 1]
     %! baca.music()
     s1 * 33/32
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! baca.music()
     {
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPEN_BRACKETS:
         %! baca.music()
         \tweak text #tuplet-number::calc-fraction-text
         %! baca.music()
         \times 5/6
         %! baca.music()
         {
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! baca._comment_measure_numbers()
             % [Guitar_Music_Voice_III measure 6]
+            % BEFORE:
+            % COMMANDS:
             \set stemLeftBeamCount = 0
             \set stemRightBeamCount = 4
             %! baca.music()
             f''64
+            % AFTER:
+            % MARKUP:
             %! FIGURE_LABEL
             %@% - \tweak color #blue
             %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (6) \hspace #1 "R1" ] }
+            % START_BEAM:
             [
+            % SPANNER_STARTS:
             %! SPANNER_START
             %! baca.SpannerIndicatorCommand._call(2)
             %! baca.slur()
             (
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
+            % BEFORE:
+            % COMMANDS:
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             %! baca.music()
             b''64
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
+            % BEFORE:
+            % COMMANDS:
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             %! baca.music()
             bf''!64
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
+            % BEFORE:
+            % COMMANDS:
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             %! baca.music()
             c''64
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
+            % BEFORE:
+            % COMMANDS:
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             %! baca.music()
             f''64
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
+            % BEFORE:
+            % COMMANDS:
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
             %! baca.music()
             a'64
+            % AFTER:
+            % SPANNER_STOPS:
             %! SPANNER_STOP
             %! baca.SpannerIndicatorCommand._call(4)
             %! baca.slur()
             )
+            % CLOSING:
+            % COMMANDS:
 
+        % CLOSE_BRACKETS:
         %! baca.music()
         }
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPEN_BRACKETS:
         %! baca.music()
         \times 4/5
         %! baca.music()
         {
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
+            % BEFORE:
+            % COMMANDS:
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             %! baca.music()
             af'!64
+            % AFTER:
+            % SPANNER_STARTS:
             %! SPANNER_START
             %! baca.SpannerIndicatorCommand._call(2)
             %! baca.slur()
             (
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
+            % BEFORE:
+            % COMMANDS:
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             %! baca.music()
             d''64
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
+            % BEFORE:
+            % COMMANDS:
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             %! baca.music()
             cs''!64
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
+            % BEFORE:
+            % COMMANDS:
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             %! baca.music()
             ef''!64
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
+            % BEFORE:
+            % COMMANDS:
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
             %! baca.music()
             fs'!64
+            % AFTER:
+            % SPANNER_STOPS:
             %! SPANNER_STOP
             %! baca.SpannerIndicatorCommand._call(4)
             %! baca.slur()
             )
+            % CLOSING:
+            % COMMANDS:
 
+        % CLOSE_BRACKETS:
         %! baca.music()
         }
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPEN_BRACKETS:
         %! baca.music()
         \tweak text #tuplet-number::calc-fraction-text
         %! baca.music()
         \times 3/4
         %! baca.music()
         {
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
+            % BEFORE:
+            % COMMANDS:
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             %! baca.music()
             g'64
+            % AFTER:
+            % SPANNER_STARTS:
             %! SPANNER_START
             %! baca.SpannerIndicatorCommand._call(2)
             %! baca.slur()
             (
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
+            % BEFORE:
+            % COMMANDS:
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             %! baca.music()
             d'64
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
+            % BEFORE:
+            % COMMANDS:
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             %! baca.music()
             cs'!64
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
+            % BEFORE:
+            % COMMANDS:
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
             %! baca.music()
             ef'!64
+            % AFTER:
+            % SPANNER_STOPS:
             %! SPANNER_STOP
             %! baca.SpannerIndicatorCommand._call(4)
             %! baca.slur()
             )
+            % CLOSING:
+            % COMMANDS:
 
+        % CLOSE_BRACKETS:
         %! baca.music()
         }
+        % CLOSING:
+        % COMMANDS:
 
+    % CLOSE_BRACKETS:
     %! baca.music()
     }
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! baca.music()
     {
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPEN_BRACKETS:
         %! baca.music()
         \times 4/5
         %! baca.music()
         {
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! baca._comment_measure_numbers()
             % [Guitar_Music_Voice_III measure 7]
+            % BEFORE:
+            % COMMANDS:
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             %! baca.music()
             af'!64
+            % AFTER:
+            % MARKUP:
             %! FIGURE_LABEL
             %@% - \tweak color #blue
             %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (7) \hspace #1 "R2" ] }
+            % SPANNER_STARTS:
             %! SPANNER_START
             %! baca.SpannerIndicatorCommand._call(2)
             %! baca.slur()
             (
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
+            % BEFORE:
+            % COMMANDS:
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             %! baca.music()
             d'64
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
+            % BEFORE:
+            % COMMANDS:
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             %! baca.music()
             cs'!64
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
+            % BEFORE:
+            % COMMANDS:
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             %! baca.music()
             ef'!64
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
+            % BEFORE:
+            % COMMANDS:
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
             %! baca.music()
             fs'!64
+            % AFTER:
+            % SPANNER_STOPS:
             %! SPANNER_STOP
             %! baca.SpannerIndicatorCommand._call(4)
             %! baca.slur()
             )
+            % CLOSING:
+            % COMMANDS:
 
+        % CLOSE_BRACKETS:
         %! baca.music()
         }
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPEN_BRACKETS:
         %! baca.music()
         \tweak text #tuplet-number::calc-fraction-text
         %! baca.music()
         \times 3/4
         %! baca.music()
         {
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
+            % BEFORE:
+            % COMMANDS:
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             %! baca.music()
             g'64
+            % AFTER:
+            % SPANNER_STARTS:
             %! SPANNER_START
             %! baca.SpannerIndicatorCommand._call(2)
             %! baca.slur()
             (
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
+            % BEFORE:
+            % COMMANDS:
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             %! baca.music()
             d''64
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
+            % BEFORE:
+            % COMMANDS:
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             %! baca.music()
             cs''!64
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
+            % BEFORE:
+            % COMMANDS:
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
             %! baca.music()
             ef''!64
+            % AFTER:
+            % SPANNER_STOPS:
             %! SPANNER_STOP
             %! baca.SpannerIndicatorCommand._call(4)
             %! baca.slur()
             )
+            % CLOSING:
+            % COMMANDS:
 
+        % CLOSE_BRACKETS:
         %! baca.music()
         }
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPEN_BRACKETS:
         %! baca.music()
         \times 2/3
         %! baca.music()
         {
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
+            % BEFORE:
+            % COMMANDS:
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             %! baca.music()
             fs''!64
+            % AFTER:
+            % SPANNER_STARTS:
             %! SPANNER_START
             %! baca.SpannerIndicatorCommand._call(2)
             %! baca.slur()
             (
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
+            % BEFORE:
+            % COMMANDS:
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             %! baca.music()
             g''64
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
+            % BEFORE:
+            % COMMANDS:
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
             %! baca.music()
             af''!64
+            % AFTER:
+            % SPANNER_STOPS:
             %! SPANNER_STOP
             %! baca.SpannerIndicatorCommand._call(4)
             %! baca.slur()
             )
+            % CLOSING:
+            % COMMANDS:
 
+        % CLOSE_BRACKETS:
         %! baca.music()
         }
+        % CLOSING:
+        % COMMANDS:
 
+    % CLOSE_BRACKETS:
     %! baca.music()
     }
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice_III measure 8]
     %! baca.music()
     s1 * 47/40
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! baca.music()
     {
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPEN_BRACKETS:
         %! baca.music()
         \tweak text #tuplet-number::calc-fraction-text
         %! baca.music()
         \times 3/4
         %! baca.music()
         {
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! baca._comment_measure_numbers()
             % [Guitar_Music_Voice_III measure 10]
+            % BEFORE:
+            % COMMANDS:
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             %! baca.music()
             g'64
+            % AFTER:
+            % MARKUP:
             %! FIGURE_LABEL
             %@% - \tweak color #blue
             %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (10) \hspace #1 "R3" ] }
+            % SPANNER_STARTS:
             %! SPANNER_START
             %! baca.SpannerIndicatorCommand._call(2)
             %! baca.slur()
             (
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
+            % BEFORE:
+            % COMMANDS:
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             %! baca.music()
             d'64
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
+            % BEFORE:
+            % COMMANDS:
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             %! baca.music()
             cs'!64
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
+            % BEFORE:
+            % COMMANDS:
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
             %! baca.music()
             ef'!64
+            % AFTER:
+            % SPANNER_STOPS:
             %! SPANNER_STOP
             %! baca.SpannerIndicatorCommand._call(4)
             %! baca.slur()
             )
+            % CLOSING:
+            % COMMANDS:
 
+        % CLOSE_BRACKETS:
         %! baca.music()
         }
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPEN_BRACKETS:
         %! baca.music()
         \times 2/3
         %! baca.music()
         {
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
+            % BEFORE:
+            % COMMANDS:
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             %! baca.music()
             fs'!64
+            % AFTER:
+            % SPANNER_STARTS:
             %! SPANNER_START
             %! baca.SpannerIndicatorCommand._call(2)
             %! baca.slur()
             (
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
+            % BEFORE:
+            % COMMANDS:
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             %! baca.music()
             g'64
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
+            % BEFORE:
+            % COMMANDS:
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
             %! baca.music()
             af'!64
+            % AFTER:
+            % SPANNER_STOPS:
             %! SPANNER_STOP
             %! baca.SpannerIndicatorCommand._call(4)
             %! baca.slur()
             )
+            % CLOSING:
+            % COMMANDS:
 
+        % CLOSE_BRACKETS:
         %! baca.music()
         }
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPEN_BRACKETS:
         %! baca.music()
         \tweak text #tuplet-number::calc-fraction-text
         %! baca.music()
         \times 5/6
         %! baca.music()
         {
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
+            % BEFORE:
+            % COMMANDS:
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             %! baca.music()
             f''64
+            % AFTER:
+            % SPANNER_STARTS:
             %! SPANNER_START
             %! baca.SpannerIndicatorCommand._call(2)
             %! baca.slur()
             (
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
+            % BEFORE:
+            % COMMANDS:
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             %! baca.music()
             a'64
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
+            % BEFORE:
+            % COMMANDS:
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             %! baca.music()
             b'64
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
+            % BEFORE:
+            % COMMANDS:
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             %! baca.music()
             bf'!64
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
+            % BEFORE:
+            % COMMANDS:
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             %! baca.music()
             c''64
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
+            % BEFORE:
+            % COMMANDS:
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 0
             %! baca.music()
             fs''!64
+            % AFTER:
+            % SPANNER_STOPS:
             %! SPANNER_STOP
             %! baca.SpannerIndicatorCommand._call(4)
             %! baca.slur()
             )
+            % STOP_BEAM:
             ]
+            % CLOSING:
+            % COMMANDS:
 
+        % CLOSE_BRACKETS:
         %! baca.music()
         }
+        % CLOSING:
+        % COMMANDS:
 
+    % CLOSE_BRACKETS:
     %! baca.music()
     }
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice_III measure 11]
     %! baca.music()
     s1 * 29/32
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! baca.music()
     {
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPEN_BRACKETS:
         %! baca.music()
         \scaleDurations #'(1 . 1)
         %! baca.music()
         {
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! baca._comment_measure_numbers()
             % [Guitar_Music_Voice_III measure 15]
+            % BEFORE:
+            % COMMANDS:
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             %! baca.music()
             c''64
+            % AFTER:
+            % MARKUP:
             %! FIGURE_LABEL
             %@% - \tweak color #blue
             %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (15) \hspace #1 "R4" ] }
+            % START_BEAM:
             [
+            % CLOSING:
+            % COMMANDS:
 
+        % CLOSE_BRACKETS:
         %! baca.music()
         }
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPEN_BRACKETS:
         %! baca.music()
         \tweak text #tuplet-number::calc-fraction-text
         %! baca.music()
         \times 5/6
         %! baca.music()
         {
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
+            % BEFORE:
+            % COMMANDS:
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             %! baca.music()
             f''64
+            % AFTER:
+            % SPANNER_STARTS:
             %! SPANNER_START
             %! baca.SpannerIndicatorCommand._call(2)
             %! baca.slur()
             (
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
+            % BEFORE:
+            % COMMANDS:
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             %! baca.music()
             b'64
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
+            % BEFORE:
+            % COMMANDS:
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             %! baca.music()
             bf'!64
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
+            % BEFORE:
+            % COMMANDS:
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             %! baca.music()
             c''64
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
+            % BEFORE:
+            % COMMANDS:
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             %! baca.music()
             f''64
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
+            % BEFORE:
+            % COMMANDS:
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
             %! baca.music()
             a'64
+            % AFTER:
+            % SPANNER_STOPS:
             %! SPANNER_STOP
             %! baca.SpannerIndicatorCommand._call(4)
             %! baca.slur()
             )
+            % CLOSING:
+            % COMMANDS:
 
+        % CLOSE_BRACKETS:
         %! baca.music()
         }
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPEN_BRACKETS:
         %! baca.music()
         \times 4/5
         %! baca.music()
         {
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
+            % BEFORE:
+            % COMMANDS:
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             %! baca.music()
             af'!64
+            % AFTER:
+            % SPANNER_STARTS:
             %! SPANNER_START
             %! baca.SpannerIndicatorCommand._call(2)
             %! baca.slur()
             (
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
+            % BEFORE:
+            % COMMANDS:
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             %! baca.music()
             d''64
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
+            % BEFORE:
+            % COMMANDS:
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             %! baca.music()
             cs''!64
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
+            % BEFORE:
+            % COMMANDS:
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             %! baca.music()
             ef'!64
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
+            % BEFORE:
+            % COMMANDS:
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
             %! baca.music()
             fs'!64
+            % AFTER:
+            % SPANNER_STOPS:
             %! SPANNER_STOP
             %! baca.SpannerIndicatorCommand._call(4)
             %! baca.slur()
             )
+            % CLOSING:
+            % COMMANDS:
 
+        % CLOSE_BRACKETS:
         %! baca.music()
         }
+        % CLOSING:
+        % COMMANDS:
 
+    % CLOSE_BRACKETS:
     %! baca.music()
     }
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! baca.music()
     {
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPEN_BRACKETS:
         %! baca.music()
         \tweak text #tuplet-number::calc-fraction-text
         %! baca.music()
         \times 5/6
         %! baca.music()
         {
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! baca._comment_measure_numbers()
             % [Guitar_Music_Voice_III measure 16]
+            % BEFORE:
+            % COMMANDS:
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             %! baca.music()
             f'64
+            % AFTER:
+            % MARKUP:
             %! FIGURE_LABEL
             %@% - \tweak color #blue
             %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (16) \hspace #1 "R5" ] }
+            % SPANNER_STARTS:
             %! SPANNER_START
             %! baca.SpannerIndicatorCommand._call(2)
             %! baca.slur()
             (
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
+            % BEFORE:
+            % COMMANDS:
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             %! baca.music()
             b64
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
+            % BEFORE:
+            % COMMANDS:
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             %! baca.music()
             bf'!64
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
+            % BEFORE:
+            % COMMANDS:
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             %! baca.music()
             c''64
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
+            % BEFORE:
+            % COMMANDS:
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             %! baca.music()
             f'64
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
+            % BEFORE:
+            % COMMANDS:
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
             %! baca.music()
             a'64
+            % AFTER:
+            % SPANNER_STOPS:
             %! SPANNER_STOP
             %! baca.SpannerIndicatorCommand._call(4)
             %! baca.slur()
             )
+            % CLOSING:
+            % COMMANDS:
 
+        % CLOSE_BRACKETS:
         %! baca.music()
         }
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPEN_BRACKETS:
         %! baca.music()
         \times 4/5
         %! baca.music()
         {
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
+            % BEFORE:
+            % COMMANDS:
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             %! baca.music()
             af'!64
+            % AFTER:
+            % SPANNER_STARTS:
             %! SPANNER_START
             %! baca.SpannerIndicatorCommand._call(2)
             %! baca.slur()
             (
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
+            % BEFORE:
+            % COMMANDS:
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             %! baca.music()
             d''64
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
+            % BEFORE:
+            % COMMANDS:
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             %! baca.music()
             cs''!64
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
+            % BEFORE:
+            % COMMANDS:
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             %! baca.music()
             ef''!64
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
+            % BEFORE:
+            % COMMANDS:
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
             %! baca.music()
             fs''!64
+            % AFTER:
+            % SPANNER_STOPS:
             %! SPANNER_STOP
             %! baca.SpannerIndicatorCommand._call(4)
             %! baca.slur()
             )
+            % CLOSING:
+            % COMMANDS:
 
+        % CLOSE_BRACKETS:
         %! baca.music()
         }
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPEN_BRACKETS:
         %! baca.music()
         \tweak text #tuplet-number::calc-fraction-text
         %! baca.music()
         \times 3/4
         %! baca.music()
         {
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
+            % BEFORE:
+            % COMMANDS:
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             %! baca.music()
             g''64
+            % AFTER:
+            % SPANNER_STARTS:
             %! SPANNER_START
             %! baca.SpannerIndicatorCommand._call(2)
             %! baca.slur()
             (
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
+            % BEFORE:
+            % COMMANDS:
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             %! baca.music()
             d''64
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
+            % BEFORE:
+            % COMMANDS:
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             %! baca.music()
             cs''!64
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
+            % BEFORE:
+            % COMMANDS:
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
             %! baca.music()
             ef''!64
+            % AFTER:
+            % SPANNER_STOPS:
             %! SPANNER_STOP
             %! baca.SpannerIndicatorCommand._call(4)
             %! baca.slur()
             )
+            % CLOSING:
+            % COMMANDS:
 
+        % CLOSE_BRACKETS:
         %! baca.music()
         }
+        % CLOSING:
+        % COMMANDS:
 
+    % CLOSE_BRACKETS:
     %! baca.music()
     }
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice_III measure 17]
     %! baca.music()
     s1 * 47/40
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! baca.music()
     {
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPEN_BRACKETS:
         %! baca.music()
         \times 4/5
         %! baca.music()
         {
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! baca._comment_measure_numbers()
             % [Guitar_Music_Voice_III measure 19]
+            % BEFORE:
+            % COMMANDS:
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             %! baca.music()
             af'!64
+            % AFTER:
+            % MARKUP:
             %! FIGURE_LABEL
             %@% - \tweak color #blue
             %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (19) \hspace #1 "R6" ] }
+            % SPANNER_STARTS:
             %! SPANNER_START
             %! baca.SpannerIndicatorCommand._call(2)
             %! baca.slur()
             (
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
+            % BEFORE:
+            % COMMANDS:
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             %! baca.music()
             d'64
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
+            % BEFORE:
+            % COMMANDS:
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             %! baca.music()
             cs'!64
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
+            % BEFORE:
+            % COMMANDS:
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             %! baca.music()
             ef'!64
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
+            % BEFORE:
+            % COMMANDS:
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
             %! baca.music()
             fs'!64
+            % AFTER:
+            % SPANNER_STOPS:
             %! SPANNER_STOP
             %! baca.SpannerIndicatorCommand._call(4)
             %! baca.slur()
             )
+            % CLOSING:
+            % COMMANDS:
 
+        % CLOSE_BRACKETS:
         %! baca.music()
         }
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPEN_BRACKETS:
         %! baca.music()
         \tweak text #tuplet-number::calc-fraction-text
         %! baca.music()
         \times 3/4
         %! baca.music()
         {
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
+            % BEFORE:
+            % COMMANDS:
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             %! baca.music()
             g'64
+            % AFTER:
+            % SPANNER_STARTS:
             %! SPANNER_START
             %! baca.SpannerIndicatorCommand._call(2)
             %! baca.slur()
             (
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
+            % BEFORE:
+            % COMMANDS:
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             %! baca.music()
             d''64
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
+            % BEFORE:
+            % COMMANDS:
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             %! baca.music()
             cs''!64
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
+            % BEFORE:
+            % COMMANDS:
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 1
             %! baca.music()
             ef''!64
+            % AFTER:
+            % SPANNER_STOPS:
             %! SPANNER_STOP
             %! baca.SpannerIndicatorCommand._call(4)
             %! baca.slur()
             )
+            % CLOSING:
+            % COMMANDS:
 
+        % CLOSE_BRACKETS:
         %! baca.music()
         }
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPEN_BRACKETS:
         %! baca.music()
         \times 2/3
         %! baca.music()
         {
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
+            % BEFORE:
+            % COMMANDS:
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             %! baca.music()
             fs''!64
+            % AFTER:
+            % SPANNER_STARTS:
             %! SPANNER_START
             %! baca.SpannerIndicatorCommand._call(2)
             %! baca.slur()
             (
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
+            % BEFORE:
+            % COMMANDS:
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 4
             %! baca.music()
             g''64
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
+            % BEFORE:
+            % COMMANDS:
             \set stemLeftBeamCount = 4
             \set stemRightBeamCount = 0
             %! baca.music()
             af''!64
+            % AFTER:
+            % SPANNER_STOPS:
             %! SPANNER_STOP
             %! baca.SpannerIndicatorCommand._call(4)
             %! baca.slur()
             )
+            % STOP_BEAM:
             ]
+            % CLOSING:
+            % COMMANDS:
 
+        % CLOSE_BRACKETS:
         %! baca.music()
         }
+        % CLOSING:
+        % COMMANDS:
 
+    % CLOSE_BRACKETS:
     %! baca.music()
     }
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! PHANTOM
     %! baca._make_multimeasure_rest_container(7)
     <<
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPEN_BRACKETS:
         %! PHANTOM
         %! baca._make_multimeasure_rest_container(4)
         \context Voice = "Guitar_Music_Voice_III"
         %! PHANTOM
         %! baca._make_multimeasure_rest_container(4)
         {
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! PHANTOM
             %! baca._comment_measure_numbers()
             %! baca._style_phantom_measures(5)
             % [Guitar_Music_Voice_III measure 20]
+            % BEFORE:
+            % COMMANDS:
             %! INVISIBLE_MUSIC_COMMAND
             %! NOTE
             %! PHANTOM
@@ -3264,6 +4694,8 @@ segment.04.Guitar.Music.Voice.III = {
             %! PHANTOM
             %! baca._make_multimeasure_rest_container(1)
             b'1 * 1/4
+            % AFTER:
+            % MARKUP:
             %! DURATION_MULTIPLIER
             %! HIDDEN
             %! NOTE
@@ -3271,17 +4703,25 @@ segment.04.Guitar.Music.Voice.III = {
             %! baca._label_duration_multipliers()
             %! baca._style_phantom_measures(5)
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+            % CLOSING:
+            % COMMANDS:
 
+        % CLOSE_BRACKETS:
         %! PHANTOM
         %! baca._make_multimeasure_rest_container(4)
         }
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPEN_BRACKETS:
         %! PHANTOM
         %! baca._make_multimeasure_rest_container(6)
         \context Voice = "Guitar_Rest_Voice_III"
         %! PHANTOM
         %! baca._make_multimeasure_rest_container(6)
         {
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! PHANTOM
             %! baca._comment_measure_numbers()
@@ -3292,15 +4732,24 @@ segment.04.Guitar.Music.Voice.III = {
             %! SKIP
             %! baca._make_multimeasure_rest_container(5)
             s1 * 1/4
+            % CLOSING:
+            % COMMANDS:
 
+        % CLOSE_BRACKETS:
         %! PHANTOM
         %! baca._make_multimeasure_rest_container(6)
         }
+        % CLOSING:
+        % COMMANDS:
 
+    % CLOSE_BRACKETS:
     %! PHANTOM
     %! baca._make_multimeasure_rest_container(7)
     >>
+    % CLOSING:
+    % COMMANDS:
 
+% CLOSE_BRACKETS:
 %! dornen.make_empty_score()
 %! baca.path.extern()
 }
@@ -3308,53 +4757,85 @@ segment.04.Guitar.Music.Voice.III = {
 
 %! baca.path.extern()
 segment.04.Guitar.Music.Voice.IV = {
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice_IV measure 1]
     %! baca.music()
     s1 * 87/64
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! baca.music()
     {
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPEN_BRACKETS:
         %! baca.music()
         \scaleDurations #'(1 . 1)
         %! baca.music()
         {
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! baca._comment_measure_numbers()
             % [Guitar_Music_Voice_IV measure 8]
             %! baca.music()
             r8
+            % AFTER:
+            % MARKUP:
             %! FIGURE_LABEL
             %@% - \tweak color #blue
             %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (8) \hspace #1 "S1" ] }
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! baca.music()
             r8
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! baca.music()
             r8
+            % CLOSING:
+            % COMMANDS:
 
+        % CLOSE_BRACKETS:
         %! baca.music()
         }
+        % CLOSING:
+        % COMMANDS:
 
+    % CLOSE_BRACKETS:
     %! baca.music()
     }
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! baca.music()
     {
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPEN_BRACKETS:
         %! baca.music()
         \tweak edge-height #'(0.7 . 0)
         %! baca.music()
         \times 4/5
         %! baca.music()
         {
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! baca._comment_measure_numbers()
             % [Guitar_Music_Voice_IV measure 9]
+            % BEFORE:
+            % COMMANDS:
             %! baca.OverrideCommand._call(1)
             %! baca.tuplet_bracket_extra_offset()
             \once \override TupletBracket.extra-offset = #'(0 . -0.5)
@@ -3369,9 +4850,12 @@ segment.04.Guitar.Music.Voice.IV = {
             \override TupletBracket.staff-padding = 0
             %! baca.music()
             gf!2
+            % AFTER:
+            % STEM_TREMOLOS:
             %! baca.IndicatorCommand._call()
             %! baca.stem_tremolo()
             :32
+            % MARKUP:
             %! baca.IndicatorCommand._call()
             %! baca.markup()
             ^ \dornen-two-finger-tamb-trill-markup
@@ -3379,88 +4863,139 @@ segment.04.Guitar.Music.Voice.IV = {
             %@% - \tweak color #blue
             %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (9) \hspace #1 "T1" ] }
+            % SPANNER_STARTS:
             %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
             %! baca._attach_shadow_tie_indicators()
             ~
+            % CLOSING:
+            % COMMANDS:
 
+        % CLOSE_BRACKETS:
         %! baca.music()
         }
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPEN_BRACKETS:
         %! baca.music()
         \tweak edge-height #'(0.7 . 0)
         %! baca.music()
         \times 4/5
         %! baca.music()
         {
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! baca.music()
             gf2
+            % AFTER:
+            % STEM_TREMOLOS:
             %! baca.IndicatorCommand._call()
             %! baca.stem_tremolo()
             :32
+            % SPANNER_STARTS:
             %! baca.IndicatorCommand._call()
             %! baca.repeat_tie()
             \repeatTie
+            % COMMANDS:
             %! baca.OverrideCommand._call(2)
             %! baca.stem_up()
             \revert Stem.direction
             %! baca.OverrideCommand._call(2)
             %! baca.tuplet_bracket_staff_padding()
             \revert TupletBracket.staff-padding
+            % CLOSING:
+            % COMMANDS:
 
+        % CLOSE_BRACKETS:
         %! baca.music()
         }
+        % CLOSING:
+        % COMMANDS:
 
+    % CLOSE_BRACKETS:
     %! baca.music()
     }
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
     %! baca._comment_measure_numbers()
     % [Guitar_Music_Voice_IV measure 10]
     %! baca.music()
     s1 * 45/32
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! baca.music()
     {
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPEN_BRACKETS:
         %! baca.music()
         \scaleDurations #'(1 . 1)
         %! baca.music()
         {
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! baca._comment_measure_numbers()
             % [Guitar_Music_Voice_IV measure 17]
             %! baca.music()
             r8
+            % AFTER:
+            % MARKUP:
             %! FIGURE_LABEL
             %@% - \tweak color #blue
             %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (17) \hspace #1 "S2" ] }
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! baca.music()
             r8
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! baca.music()
             r8
+            % CLOSING:
+            % COMMANDS:
 
+        % CLOSE_BRACKETS:
         %! baca.music()
         }
+        % CLOSING:
+        % COMMANDS:
 
+    % CLOSE_BRACKETS:
     %! baca.music()
     }
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! baca.music()
     {
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPEN_BRACKETS:
         %! baca.music()
         \tweak edge-height #'(0.7 . 0)
         %! baca.music()
         \times 4/5
         %! baca.music()
         {
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! baca._comment_measure_numbers()
             % [Guitar_Music_Voice_IV measure 18]
+            % BEFORE:
+            % COMMANDS:
             %! baca.OverrideCommand._call(1)
             %! baca.tuplet_bracket_extra_offset()
             \once \override TupletBracket.extra-offset = #'(0 . -0.5)
@@ -3475,9 +5010,12 @@ segment.04.Guitar.Music.Voice.IV = {
             \override TupletBracket.staff-padding = 0
             %! baca.music()
             gf!2
+            % AFTER:
+            % STEM_TREMOLOS:
             %! baca.IndicatorCommand._call()
             %! baca.stem_tremolo()
             :32
+            % MARKUP:
             %! baca.IndicatorCommand._call()
             %! baca.markup()
             ^ \dornen-two-finger-tamb-trill-markup
@@ -3485,52 +5023,81 @@ segment.04.Guitar.Music.Voice.IV = {
             %@% - \tweak color #blue
             %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (18) \hspace #1 "T2" ] }
+            % SPANNER_STARTS:
             %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
             %! baca._attach_shadow_tie_indicators()
             ~
+            % CLOSING:
+            % COMMANDS:
 
+        % CLOSE_BRACKETS:
         %! baca.music()
         }
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPEN_BRACKETS:
         %! baca.music()
         \tweak edge-height #'(0.7 . 0)
         %! baca.music()
         \times 4/5
         %! baca.music()
         {
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! baca.music()
             gf2
+            % AFTER:
+            % STEM_TREMOLOS:
             %! baca.IndicatorCommand._call()
             %! baca.stem_tremolo()
             :32
+            % SPANNER_STARTS:
             %! baca.IndicatorCommand._call()
             %! baca.repeat_tie()
             \repeatTie
+            % COMMANDS:
             %! baca.OverrideCommand._call(2)
             %! baca.stem_up()
             \revert Stem.direction
             %! baca.OverrideCommand._call(2)
             %! baca.tuplet_bracket_staff_padding()
             \revert TupletBracket.staff-padding
+            % CLOSING:
+            % COMMANDS:
 
+        % CLOSE_BRACKETS:
         %! baca.music()
         }
+        % CLOSING:
+        % COMMANDS:
 
+    % CLOSE_BRACKETS:
     %! baca.music()
     }
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! baca._make_multimeasure_rest_container(7)
     <<
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPEN_BRACKETS:
         %! baca._make_multimeasure_rest_container(4)
         \context Voice = "Guitar_Music_Voice_IV"
         %! baca._make_multimeasure_rest_container(4)
         {
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! baca._comment_measure_numbers()
             % [Guitar_Music_Voice_IV measure 19]
+            % BEFORE:
+            % COMMANDS:
             %! INVISIBLE_MUSIC_COMMAND
             %! NOTE
             %! baca._make_multimeasure_rest_container(3)
@@ -3543,19 +5110,29 @@ segment.04.Guitar.Music.Voice.IV = {
             %! NOTE
             %! baca._make_multimeasure_rest_container(1)
             b'1 * 9/64
+            % AFTER:
+            % MARKUP:
             %! DURATION_MULTIPLIER
             %! HIDDEN
             %! NOTE
             %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"9" #"64"
+            % CLOSING:
+            % COMMANDS:
 
+        % CLOSE_BRACKETS:
         %! baca._make_multimeasure_rest_container(4)
         }
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPEN_BRACKETS:
         %! baca._make_multimeasure_rest_container(6)
         \context Voice = "Guitar_Rest_Voice_IV"
         %! baca._make_multimeasure_rest_container(6)
         {
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! baca._comment_measure_numbers()
             % [Guitar_Rest_Voice_IV measure 19]
@@ -3563,28 +5140,44 @@ segment.04.Guitar.Music.Voice.IV = {
             %! SKIP
             %! baca._make_multimeasure_rest_container(5)
             s1 * 9/64
+            % CLOSING:
+            % COMMANDS:
 
+        % CLOSE_BRACKETS:
         %! baca._make_multimeasure_rest_container(6)
         }
+        % CLOSING:
+        % COMMANDS:
 
+    % CLOSE_BRACKETS:
     %! baca._make_multimeasure_rest_container(7)
     >>
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! PHANTOM
     %! baca._make_multimeasure_rest_container(7)
     <<
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPEN_BRACKETS:
         %! PHANTOM
         %! baca._make_multimeasure_rest_container(4)
         \context Voice = "Guitar_Music_Voice_IV"
         %! PHANTOM
         %! baca._make_multimeasure_rest_container(4)
         {
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! PHANTOM
             %! baca._comment_measure_numbers()
             %! baca._style_phantom_measures(5)
             % [Guitar_Music_Voice_IV measure 20]
+            % BEFORE:
+            % COMMANDS:
             %! INVISIBLE_MUSIC_COMMAND
             %! NOTE
             %! PHANTOM
@@ -3602,6 +5195,8 @@ segment.04.Guitar.Music.Voice.IV = {
             %! PHANTOM
             %! baca._make_multimeasure_rest_container(1)
             b'1 * 1/4
+            % AFTER:
+            % MARKUP:
             %! DURATION_MULTIPLIER
             %! HIDDEN
             %! NOTE
@@ -3609,17 +5204,25 @@ segment.04.Guitar.Music.Voice.IV = {
             %! baca._label_duration_multipliers()
             %! baca._style_phantom_measures(5)
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+            % CLOSING:
+            % COMMANDS:
 
+        % CLOSE_BRACKETS:
         %! PHANTOM
         %! baca._make_multimeasure_rest_container(4)
         }
+        % ABSOLUTE_BEFORE:
+        % COMMANDS:
 
+        % OPEN_BRACKETS:
         %! PHANTOM
         %! baca._make_multimeasure_rest_container(6)
         \context Voice = "Guitar_Rest_Voice_IV"
         %! PHANTOM
         %! baca._make_multimeasure_rest_container(6)
         {
+            % ABSOLUTE_BEFORE:
+            % COMMANDS:
 
             %! PHANTOM
             %! baca._comment_measure_numbers()
@@ -3630,15 +5233,24 @@ segment.04.Guitar.Music.Voice.IV = {
             %! SKIP
             %! baca._make_multimeasure_rest_container(5)
             s1 * 1/4
+            % CLOSING:
+            % COMMANDS:
 
+        % CLOSE_BRACKETS:
         %! PHANTOM
         %! baca._make_multimeasure_rest_container(6)
         }
+        % CLOSING:
+        % COMMANDS:
 
+    % CLOSE_BRACKETS:
     %! PHANTOM
     %! baca._make_multimeasure_rest_container(7)
     >>
+    % CLOSING:
+    % COMMANDS:
 
+% CLOSE_BRACKETS:
 %! dornen.make_empty_score()
 %! baca.path.extern()
 }
@@ -3646,37 +5258,55 @@ segment.04.Guitar.Music.Voice.IV = {
 
 %! baca.path.extern()
 segment.04.Guitar.Music.Staff = <<
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! baca.make_global_context()
     \context GlobalRests = "Global_Rests"
     %! baca.make_global_context()
     %! baca.path.extern()
     { \segment.04.Global.Rests }
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! dornen.make_empty_score()
     \context GuitarMusicVoiceI = "Guitar_Music_Voice_I"
     %! dornen.make_empty_score()
     %! baca.path.extern()
     { \segment.04.Guitar.Music.Voice.I }
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! dornen.make_empty_score()
     \context GuitarMusicVoiceII = "Guitar_Music_Voice_II"
     %! dornen.make_empty_score()
     %! baca.path.extern()
     { \segment.04.Guitar.Music.Voice.II }
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! dornen.make_empty_score()
     \context GuitarMusicVoiceIII = "Guitar_Music_Voice_III"
     %! dornen.make_empty_score()
     %! baca.path.extern()
     { \segment.04.Guitar.Music.Voice.III }
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
 
+    % OPEN_BRACKETS:
     %! dornen.make_empty_score()
     \context GuitarMusicVoiceIV = "Guitar_Music_Voice_IV"
     %! dornen.make_empty_score()
     %! baca.path.extern()
     { \segment.04.Guitar.Music.Voice.IV }
+    % CLOSING:
+    % COMMANDS:
 
+% CLOSE_BRACKETS:
 %! dornen.make_empty_score()
 %! baca.path.extern()
 >>

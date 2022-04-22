@@ -1278,13 +1278,13 @@ segment.10.Guitar.Music.Voice.I = {
             r8
             % AFTER:
             % MARKUP:
-              %! REAPPLIED_INSTRUMENT_ALERT
-              %! baca._attach_latent_indicator_alert()
-            ^ \baca-reapplied-indicator-markup "(“Guitar”)"
               %! FIGURE_LABEL
             %@% - \tweak color #blue
               %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (1) \hspace #1 \concat { "R" \sub 1 } ] }
+              %! REAPPLIED_INSTRUMENT_ALERT
+              %! baca._attach_latent_indicator_alert()
+            ^ \baca-reapplied-indicator-markup "(“Guitar”)"
             % ABSOLUTE_AFTER:
             % COMMANDS:
               %! REAPPLIED_CLEF_REDRAW_COLOR
@@ -1356,13 +1356,13 @@ segment.10.Guitar.Music.Voice.I = {
               %! baca.hairpin()
             \ppp
             % MARKUP:
-              %! baca.IndicatorCommand._call()
-              %! baca.markup()
-            ^ \dornen-two-finger-tamb-trill-markup
               %! FIGURE_LABEL
             %@% - \tweak color #blue
               %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (2) \hspace #1 \concat { "2" \sub 1 } ] }
+              %! baca.IndicatorCommand._call()
+              %! baca.markup()
+            ^ \dornen-two-finger-tamb-trill-markup
             % SPANNER_STARTS:
               %! EXPLICIT_DYNAMIC_COLOR
               %! baca.treat_persistent_wrapper()
@@ -1743,13 +1743,13 @@ segment.10.Guitar.Music.Voice.I = {
               %! baca.hairpin()
             \ppp
             % MARKUP:
-              %! baca.IndicatorCommand._call()
-              %! baca.markup()
-            ^ \dornen-three-fingers-markup
               %! FIGURE_LABEL
             %@% - \tweak color #blue
               %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (7) \hspace #1 \concat { "3" \sub 1 } ] }
+              %! baca.IndicatorCommand._call()
+              %! baca.markup()
+            ^ \dornen-three-fingers-markup
             % SPANNER_STARTS:
               %! EXPLICIT_DYNAMIC_COLOR
               %! baca.treat_persistent_wrapper()
@@ -2099,13 +2099,13 @@ segment.10.Guitar.Music.Voice.I = {
               %! baca.hairpin()
             \ppp
             % MARKUP:
-              %! baca.IndicatorCommand._call()
-              %! baca.markup()
-            ^ \dornen-four-fingers-markup
               %! FIGURE_LABEL
             %@% - \tweak color #blue
               %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (12) \hspace #1 \concat { "4" \sub 1 } ] }
+              %! baca.IndicatorCommand._call()
+              %! baca.markup()
+            ^ \dornen-four-fingers-markup
             % SPANNER_STARTS:
               %! EXPLICIT_DYNAMIC_COLOR
               %! baca.treat_persistent_wrapper()
@@ -2725,13 +2725,13 @@ segment.10.Guitar.Music.Voice.I = {
               %! baca.stem_tremolo()
             :32
             % MARKUP:
-              %! baca.IndicatorCommand._call()
-              %! baca.markup()
-            ^ \dornen-three-fingers-markup
               %! FIGURE_LABEL
             %@% - \tweak color #blue
               %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (21) \hspace #1 \concat { "4" \sub 10 } ] }
+              %! baca.IndicatorCommand._call()
+              %! baca.markup()
+            ^ \dornen-three-fingers-markup
             % SPANNER_STARTS:
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
@@ -2830,13 +2830,13 @@ segment.10.Guitar.Music.Voice.I = {
               %! baca.hairpin()
             \pp
             % MARKUP:
-              %! baca.IndicatorCommand._call()
-              %! baca.markup()
-            ^ \dornen-two-fingers-markup
               %! FIGURE_LABEL
             %@% - \tweak color #blue
               %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (22) \hspace #1 \concat { "4" \sub 11 } ] }
+              %! baca.IndicatorCommand._call()
+              %! baca.markup()
+            ^ \dornen-two-fingers-markup
             % SPANNER_STARTS:
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f

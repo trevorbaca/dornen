@@ -1365,13 +1365,13 @@ segment.07.Guitar.Music.Voice.I = {
             a'16
             % AFTER:
             % MARKUP:
-              %! REAPPLIED_INSTRUMENT_ALERT
-              %! baca._attach_latent_indicator_alert()
-            ^ \baca-reapplied-indicator-markup "(“Guitar”)"
               %! FIGURE_LABEL
             %@% - \tweak color #blue
               %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (1) \hspace #1 \concat { "20" \sub 1 } ] }
+              %! REAPPLIED_INSTRUMENT_ALERT
+              %! baca._attach_latent_indicator_alert()
+            ^ \baca-reapplied-indicator-markup "(“Guitar”)"
             % START_BEAM:
             [
             % SPANNER_STARTS:
@@ -2074,13 +2074,13 @@ segment.07.Guitar.Music.Voice.II = {
             ef'!16
             % AFTER:
             % MARKUP:
-              %! baca.IndicatorCommand._call()
-              %! baca.markup()
-            _ \dornen-dull-but-beautiful-markup
               %! FIGURE_LABEL
             %@% - \tweak color #blue
               %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (2) \hspace #1 \concat { "16" \sub 1 } ] }
+              %! baca.IndicatorCommand._call()
+              %! baca.markup()
+            _ \dornen-dull-but-beautiful-markup
             % START_BEAM:
             [
             % CLOSING:

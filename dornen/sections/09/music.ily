@@ -1076,13 +1076,13 @@ segment.09.Guitar.Music.Voice.I = {
               %! baca.staccato()
             - \staccato
             % MARKUP:
-              %! REAPPLIED_INSTRUMENT_ALERT
-              %! baca._attach_latent_indicator_alert()
-            ^ \baca-reapplied-indicator-markup "(“Guitar”)"
               %! FIGURE_LABEL
             %@% - \tweak color #blue
               %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (1) \hspace #1 "D1" ] }
+              %! REAPPLIED_INSTRUMENT_ALERT
+              %! baca._attach_latent_indicator_alert()
+            ^ \baca-reapplied-indicator-markup "(“Guitar”)"
             % START_BEAM:
             [
             % ABSOLUTE_AFTER:
@@ -3017,13 +3017,13 @@ segment.09.Guitar.Music.Voice.III = {
             a''32 * 1984/1024
             % AFTER:
             % MARKUP:
-              %! DURATION_MULTIPLIER
-              %! baca._label_duration_multipliers()
-            %@% ^ \baca-duration-multiplier-markup #"1984" #"1024"
               %! FIGURE_LABEL
             %@% - \tweak color #blue
               %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (3) \hspace #1 "W1" ] }
+              %! DURATION_MULTIPLIER
+              %! baca._label_duration_multipliers()
+            %@% ^ \baca-duration-multiplier-markup #"1984" #"1024"
             % START_BEAM:
             [
             % ABSOLUTE_BEFORE:
@@ -3166,13 +3166,13 @@ segment.09.Guitar.Music.Voice.III = {
             cs''!32 * 3264/1024
             % AFTER:
             % MARKUP:
-              %! DURATION_MULTIPLIER
-              %! baca._label_duration_multipliers()
-            %@% ^ \baca-duration-multiplier-markup #"3264" #"1024"
               %! FIGURE_LABEL
             %@% - \tweak color #blue
               %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (7) \hspace #1 "W2" ] }
+              %! DURATION_MULTIPLIER
+              %! baca._label_duration_multipliers()
+            %@% ^ \baca-duration-multiplier-markup #"3264" #"1024"
             % START_BEAM:
             [
             % ABSOLUTE_BEFORE:
@@ -3468,13 +3468,13 @@ segment.09.Guitar.Music.Voice.III = {
             cs''!32 * 3264/1024
             % AFTER:
             % MARKUP:
-              %! DURATION_MULTIPLIER
-              %! baca._label_duration_multipliers()
-            %@% ^ \baca-duration-multiplier-markup #"3264" #"1024"
               %! FIGURE_LABEL
             %@% - \tweak color #blue
               %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (8) \hspace #1 "W3" ] }
+              %! DURATION_MULTIPLIER
+              %! baca._label_duration_multipliers()
+            %@% ^ \baca-duration-multiplier-markup #"3264" #"1024"
             % START_BEAM:
             [
             % ABSOLUTE_BEFORE:

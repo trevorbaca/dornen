@@ -869,13 +869,13 @@ segment.06.Guitar.Music.Voice.I = {
               %! baca.tenuto()
             - \tenuto
             % MARKUP:
-              %! REAPPLIED_INSTRUMENT_ALERT
-              %! baca._attach_latent_indicator_alert()
-            ^ \baca-reapplied-indicator-markup "(“Guitar”)"
               %! FIGURE_LABEL
             %@% - \tweak color #blue
               %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (1) \hspace #1 \concat { "48" \sub 1 } ] }
+              %! REAPPLIED_INSTRUMENT_ALERT
+              %! baca._attach_latent_indicator_alert()
+            ^ \baca-reapplied-indicator-markup "(“Guitar”)"
             % START_BEAM:
             [
             % ABSOLUTE_AFTER:
@@ -1252,13 +1252,13 @@ segment.06.Guitar.Music.Voice.I = {
             r8
             % AFTER:
             % MARKUP:
-              %! baca.IndicatorCommand._call()
-              %! baca.markup()
-            ^ \dornen-raise-string-two-one-quartertone-markup
               %! FIGURE_LABEL
             %@% - \tweak color #blue
               %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (8) \hspace #1 "S1" ] }
+              %! baca.IndicatorCommand._call()
+              %! baca.markup()
+            ^ \dornen-raise-string-two-one-quartertone-markup
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 

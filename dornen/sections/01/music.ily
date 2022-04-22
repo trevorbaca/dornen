@@ -1136,13 +1136,13 @@ segment.01.Guitar.Music.Voice.I = {
             e'8.
             % AFTER:
             % MARKUP:
-              %! DEFAULT_INSTRUMENT_ALERT
-              %! baca._attach_latent_indicator_alert()
-            ^ \baca-default-indicator-markup "(“Guitar”)"
               %! FIGURE_LABEL
             %@% - \tweak color #blue
               %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (1) \hspace #1 "0" ] }
+              %! DEFAULT_INSTRUMENT_ALERT
+              %! baca._attach_latent_indicator_alert()
+            ^ \baca-default-indicator-markup "(“Guitar”)"
             % START_BEAM:
             [
             % ABSOLUTE_AFTER:
@@ -2704,13 +2704,13 @@ segment.01.Guitar.Music.Voice.III = {
             b''64 * 320/1024
             % AFTER:
             % MARKUP:
-              %! DURATION_MULTIPLIER
-              %! baca._label_duration_multipliers()
-            %@% ^ \baca-duration-multiplier-markup #"320" #"1024"
               %! FIGURE_LABEL
             %@% - \tweak color #blue
               %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (18) \hspace #1 "17" ] }
+              %! DURATION_MULTIPLIER
+              %! baca._label_duration_multipliers()
+            %@% ^ \baca-duration-multiplier-markup #"320" #"1024"
             % START_BEAM:
             [
             % ABSOLUTE_BEFORE:
@@ -2862,13 +2862,13 @@ segment.01.Guitar.Music.Voice.III = {
             f''64 * 192/1024
             % AFTER:
             % MARKUP:
-              %! DURATION_MULTIPLIER
-              %! baca._label_duration_multipliers()
-            %@% ^ \baca-duration-multiplier-markup #"192" #"1024"
               %! FIGURE_LABEL
             %@% - \tweak color #blue
               %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (19) \hspace #1 "18" ] }
+              %! DURATION_MULTIPLIER
+              %! baca._label_duration_multipliers()
+            %@% ^ \baca-duration-multiplier-markup #"192" #"1024"
             % START_BEAM:
             [
             % ABSOLUTE_BEFORE:

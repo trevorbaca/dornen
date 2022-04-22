@@ -11,13 +11,13 @@ segment.11.Global.Skips = {
     %! baca._make_global_skips(2)
     %! baca._set_status_tag()
     \time 2/5
+    %! EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca._attach_color_literal(2)
+    \baca-time-signature-color #'blue
     %! +SEGMENT
     %! EMPTY_START_BAR
     %! baca._attach_nonfirst_empty_start_bar()
     \bar ""
-    %! EXPLICIT_TIME_SIGNATURE_COLOR
-    %! baca._attach_color_literal(2)
-    \baca-time-signature-color #'blue
     %! baca._make_global_skips(1)
     s1 * 2/5
     %! LOCAL_MEASURE_NUMBER
@@ -945,15 +945,15 @@ segment.11.Global.Skips = {
     %! baca._comment_measure_numbers()
     %! baca._style_phantom_measures(1)
     % [Global_Skips measure 26]
+    %! PHANTOM
+    %! baca._style_phantom_measures(2)
+    \baca-time-signature-transparent
     %! EXPLICIT_TIME_SIGNATURE
     %! PHANTOM
     %! baca._make_global_skips(3)
     %! baca._set_status_tag()
     %! baca._style_phantom_measures(1)
     \time 1/4
-    %! PHANTOM
-    %! baca._style_phantom_measures(2)
-    \baca-time-signature-transparent
     %! PHANTOM
     %! baca._make_global_skips(3)
     s1 * 1/4
@@ -1739,11 +1739,11 @@ segment.11.Guitar.Music.Voice.I = {
             %! baca._comment_measure_numbers()
             % [Guitar_Music_Voice_I measure 12]
             %! baca.OverrideCommand._call(1)
-            %! baca.text_spanner_staff_padding()
-            \override TextSpanner.staff-padding = 5
-            %! baca.OverrideCommand._call(1)
             %! baca.text_script_staff_padding()
             \override TextScript.staff-padding = 8
+            %! baca.OverrideCommand._call(1)
+            %! baca.text_spanner_staff_padding()
+            \override TextSpanner.staff-padding = 5
             %! baca.music()
             gtqf2
             %! baca.IndicatorCommand._call()
@@ -2622,11 +2622,11 @@ segment.11.Guitar.Music.Voice.I = {
             %! baca.repeat_tie()
             \repeatTie
             %! baca.OverrideCommand._call(2)
-            %! baca.text_spanner_staff_padding()
-            \revert TextSpanner.staff-padding
-            %! baca.OverrideCommand._call(2)
             %! baca.text_script_staff_padding()
             \revert TextScript.staff-padding
+            %! baca.OverrideCommand._call(2)
+            %! baca.text_spanner_staff_padding()
+            \revert TextSpanner.staff-padding
 
         %! baca.music()
         }
@@ -2649,18 +2649,18 @@ segment.11.Guitar.Music.Voice.I = {
             %! baca._comment_measure_numbers()
             %! baca._style_phantom_measures(5)
             % [Guitar_Music_Voice_I measure 26]
-            %! INVISIBLE_MUSIC_COLORING
-            %! NOTE
-            %! PHANTOM
-            %! baca._make_multimeasure_rest_container(2)
-            %! baca._style_phantom_measures(5)
-            \abjad-invisible-music-coloring
             %! INVISIBLE_MUSIC_COMMAND
             %! NOTE
             %! PHANTOM
             %! baca._make_multimeasure_rest_container(3)
             %! baca._style_phantom_measures(5)
             %@% \abjad-invisible-music
+            %! INVISIBLE_MUSIC_COLORING
+            %! NOTE
+            %! PHANTOM
+            %! baca._make_multimeasure_rest_container(2)
+            %! baca._style_phantom_measures(5)
+            \abjad-invisible-music-coloring
             %! HIDDEN
             %! NOTE
             %! PHANTOM
@@ -2721,14 +2721,14 @@ segment.11.Guitar.Music.Voice.II = {
 
             %! baca._comment_measure_numbers()
             % [Guitar_Music_Voice_II measure 1]
-            %! INVISIBLE_MUSIC_COLORING
-            %! NOTE
-            %! baca._make_multimeasure_rest_container(2)
-            \abjad-invisible-music-coloring
             %! INVISIBLE_MUSIC_COMMAND
             %! NOTE
             %! baca._make_multimeasure_rest_container(3)
             %@% \abjad-invisible-music
+            %! INVISIBLE_MUSIC_COLORING
+            %! NOTE
+            %! baca._make_multimeasure_rest_container(2)
+            \abjad-invisible-music-coloring
             %! HIDDEN
             %! NOTE
             %! baca._make_multimeasure_rest_container(1)
@@ -2895,18 +2895,18 @@ segment.11.Guitar.Music.Voice.II = {
             %! baca._comment_measure_numbers()
             %! baca._style_phantom_measures(5)
             % [Guitar_Music_Voice_II measure 26]
-            %! INVISIBLE_MUSIC_COLORING
-            %! NOTE
-            %! PHANTOM
-            %! baca._make_multimeasure_rest_container(2)
-            %! baca._style_phantom_measures(5)
-            \abjad-invisible-music-coloring
             %! INVISIBLE_MUSIC_COMMAND
             %! NOTE
             %! PHANTOM
             %! baca._make_multimeasure_rest_container(3)
             %! baca._style_phantom_measures(5)
             %@% \abjad-invisible-music
+            %! INVISIBLE_MUSIC_COLORING
+            %! NOTE
+            %! PHANTOM
+            %! baca._make_multimeasure_rest_container(2)
+            %! baca._style_phantom_measures(5)
+            \abjad-invisible-music-coloring
             %! HIDDEN
             %! NOTE
             %! PHANTOM
@@ -2967,14 +2967,14 @@ segment.11.Guitar.Music.Voice.III = {
 
             %! baca._comment_measure_numbers()
             % [Guitar_Music_Voice_III measure 1]
-            %! INVISIBLE_MUSIC_COLORING
-            %! NOTE
-            %! baca._make_multimeasure_rest_container(2)
-            \abjad-invisible-music-coloring
             %! INVISIBLE_MUSIC_COMMAND
             %! NOTE
             %! baca._make_multimeasure_rest_container(3)
             %@% \abjad-invisible-music
+            %! INVISIBLE_MUSIC_COLORING
+            %! NOTE
+            %! baca._make_multimeasure_rest_container(2)
+            \abjad-invisible-music-coloring
             %! HIDDEN
             %! NOTE
             %! baca._make_multimeasure_rest_container(1)
@@ -3141,18 +3141,18 @@ segment.11.Guitar.Music.Voice.III = {
             %! baca._comment_measure_numbers()
             %! baca._style_phantom_measures(5)
             % [Guitar_Music_Voice_III measure 26]
-            %! INVISIBLE_MUSIC_COLORING
-            %! NOTE
-            %! PHANTOM
-            %! baca._make_multimeasure_rest_container(2)
-            %! baca._style_phantom_measures(5)
-            \abjad-invisible-music-coloring
             %! INVISIBLE_MUSIC_COMMAND
             %! NOTE
             %! PHANTOM
             %! baca._make_multimeasure_rest_container(3)
             %! baca._style_phantom_measures(5)
             %@% \abjad-invisible-music
+            %! INVISIBLE_MUSIC_COLORING
+            %! NOTE
+            %! PHANTOM
+            %! baca._make_multimeasure_rest_container(2)
+            %! baca._style_phantom_measures(5)
+            \abjad-invisible-music-coloring
             %! HIDDEN
             %! NOTE
             %! PHANTOM
@@ -3213,14 +3213,14 @@ segment.11.Guitar.Music.Voice.IV = {
 
             %! baca._comment_measure_numbers()
             % [Guitar_Music_Voice_IV measure 1]
-            %! INVISIBLE_MUSIC_COLORING
-            %! NOTE
-            %! baca._make_multimeasure_rest_container(2)
-            \abjad-invisible-music-coloring
             %! INVISIBLE_MUSIC_COMMAND
             %! NOTE
             %! baca._make_multimeasure_rest_container(3)
             %@% \abjad-invisible-music
+            %! INVISIBLE_MUSIC_COLORING
+            %! NOTE
+            %! baca._make_multimeasure_rest_container(2)
+            \abjad-invisible-music-coloring
             %! HIDDEN
             %! NOTE
             %! baca._make_multimeasure_rest_container(1)
@@ -3387,18 +3387,18 @@ segment.11.Guitar.Music.Voice.IV = {
             %! baca._comment_measure_numbers()
             %! baca._style_phantom_measures(5)
             % [Guitar_Music_Voice_IV measure 26]
-            %! INVISIBLE_MUSIC_COLORING
-            %! NOTE
-            %! PHANTOM
-            %! baca._make_multimeasure_rest_container(2)
-            %! baca._style_phantom_measures(5)
-            \abjad-invisible-music-coloring
             %! INVISIBLE_MUSIC_COMMAND
             %! NOTE
             %! PHANTOM
             %! baca._make_multimeasure_rest_container(3)
             %! baca._style_phantom_measures(5)
             %@% \abjad-invisible-music
+            %! INVISIBLE_MUSIC_COLORING
+            %! NOTE
+            %! PHANTOM
+            %! baca._make_multimeasure_rest_container(2)
+            %! baca._style_phantom_measures(5)
+            \abjad-invisible-music-coloring
             %! HIDDEN
             %! NOTE
             %! PHANTOM

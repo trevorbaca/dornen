@@ -1559,6 +1559,9 @@ segment.01.Guitar.Music.Voice.I = {
               %! NOTE
               %! baca._make_multimeasure_rest_container(2)
             \abjad-invisible-music-coloring
+            % GROB_OVERRIDES:
+            \once \override Accidental.stencil = ##f
+            \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
               %! NOTE
               %! baca._make_multimeasure_rest_container(1)
@@ -1671,6 +1674,9 @@ segment.01.Guitar.Music.Voice.I = {
               %! baca._make_multimeasure_rest_container(2)
               %! baca._style_phantom_measures(5)
             \abjad-invisible-music-coloring
+            % GROB_OVERRIDES:
+            \once \override Accidental.stencil = ##f
+            \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
               %! NOTE
               %! PHANTOM
@@ -2463,6 +2469,9 @@ segment.01.Guitar.Music.Voice.II = {
               %! NOTE
               %! baca._make_multimeasure_rest_container(2)
             \abjad-invisible-music-coloring
+            % GROB_OVERRIDES:
+            \once \override Accidental.stencil = ##f
+            \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
               %! NOTE
               %! baca._make_multimeasure_rest_container(1)
@@ -2561,6 +2570,9 @@ segment.01.Guitar.Music.Voice.II = {
               %! baca._make_multimeasure_rest_container(2)
               %! baca._style_phantom_measures(5)
             \abjad-invisible-music-coloring
+            % GROB_OVERRIDES:
+            \once \override Accidental.stencil = ##f
+            \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
               %! NOTE
               %! PHANTOM
@@ -3040,6 +3052,9 @@ segment.01.Guitar.Music.Voice.III = {
               %! baca._make_multimeasure_rest_container(2)
               %! baca._style_phantom_measures(5)
             \abjad-invisible-music-coloring
+            % GROB_OVERRIDES:
+            \once \override Accidental.stencil = ##f
+            \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
               %! NOTE
               %! PHANTOM
@@ -3735,6 +3750,9 @@ segment.01.Guitar.Music.Voice.IV = {
               %! NOTE
               %! baca._make_multimeasure_rest_container(2)
             \abjad-invisible-music-coloring
+            % GROB_OVERRIDES:
+            \once \override Accidental.stencil = ##f
+            \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
               %! NOTE
               %! baca._make_multimeasure_rest_container(1)
@@ -3826,6 +3844,9 @@ segment.01.Guitar.Music.Voice.IV = {
               %! baca._make_multimeasure_rest_container(2)
               %! baca._style_phantom_measures(5)
             \abjad-invisible-music-coloring
+            % GROB_OVERRIDES:
+            \once \override Accidental.stencil = ##f
+            \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
               %! NOTE
               %! PHANTOM

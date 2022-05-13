@@ -6759,10 +6759,6 @@ segment.06.Guitar.Music.Voice.III = {
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (6) \hspace #1 \concat { "16" \sub 2 } ] }
             % STOP_BEAM:
             ]
-            % COMMANDS:
-              %! baca.OverrideCommand._call(2)
-              %! baca.script_down()
-            \revert Script.direction
             % CLOSING:
             % COMMANDS:
 
@@ -6778,123 +6774,15 @@ segment.06.Guitar.Music.Voice.III = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-    % OPEN_BRACKETS:
-      %! baca._make_multimeasure_rest_container(7)
-    <<
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
-
-        % OPEN_BRACKETS:
-          %! baca._make_multimeasure_rest_container(4)
-        \context Voice = "Guitar_Music_Voice_III"
-          %! baca._make_multimeasure_rest_container(4)
-        {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
-
-              %! baca._comment_measure_numbers()
-            % [Guitar_Music_Voice_III measure 7]
-            % BEFORE:
-            % COMMANDS:
-              %! INVISIBLE_MUSIC_COMMAND
-              %! NOTE
-              %! baca._make_multimeasure_rest_container(3)
-            %@% \abjad-invisible-music
-              %! INVISIBLE_MUSIC_COLORING
-              %! NOTE
-              %! baca._make_multimeasure_rest_container(2)
-            \abjad-invisible-music-coloring
-            % GROB_OVERRIDES:
-            \once \override Accidental.stencil = ##f
-            \once \override NoteColumn.ignore-collision = ##t
-              %! HIDDEN
-              %! NOTE
-              %! baca._make_multimeasure_rest_container(1)
-            b'1 * 3/20
-            % AFTER:
-            % MARKUP:
-              %! DURATION_MULTIPLIER
-              %! HIDDEN
-              %! NOTE
-              %! baca._label_duration_multipliers()
-            %@% ^ \baca-duration-multiplier-markup #"3" #"20"
-            % CLOSING:
-            % COMMANDS:
-
-        % CLOSE_BRACKETS:
-          %! baca._make_multimeasure_rest_container(4)
-        }
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
-
-        % OPEN_BRACKETS:
-          %! baca._make_multimeasure_rest_container(6)
-        \context Voice = "Guitar_Rest_Voice_III"
-          %! baca._make_multimeasure_rest_container(6)
-        {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
-
-              %! baca._comment_measure_numbers()
-            % [Guitar_Rest_Voice_III measure 7]
-              %! REST_VOICE
-              %! SKIP
-              %! baca._make_multimeasure_rest_container(5)
-            s1 * 3/20
-            % CLOSING:
-            % COMMANDS:
-
-        % CLOSE_BRACKETS:
-          %! baca._make_multimeasure_rest_container(6)
-        }
-        % CLOSING:
-        % COMMANDS:
-
-    % CLOSE_BRACKETS:
-      %! baca._make_multimeasure_rest_container(7)
-    >>
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
-
       %! baca._comment_measure_numbers()
-    % [Guitar_Music_Voice_III measure 8]
-      %! baca._make_measure_silences()
-    s1 * 3/8
-    % ABSOLUTE_BEFORE:
+    % [Guitar_Music_Voice_III measure 7]
+      %! baca.make_music()
+    s1 * 1693/320
+    % AFTER:
     % COMMANDS:
-
-      %! baca._comment_measure_numbers()
-    % [Guitar_Music_Voice_III measure 9]
-      %! baca._make_measure_silences()
-    s1 * 15/32
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
-
-      %! baca._comment_measure_numbers()
-    % [Guitar_Music_Voice_III measure 10]
-      %! baca._make_measure_silences()
-    s1 * 5/8
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
-
-      %! baca._comment_measure_numbers()
-    % [Guitar_Music_Voice_III measure 11]
-      %! baca._make_measure_silences()
-    s1 * 25/32
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
-
-      %! baca._comment_measure_numbers()
-    % [Guitar_Music_Voice_III measure 12]
-      %! baca._make_measure_silences()
-    s1 * 15/16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
-
-      %! baca._comment_measure_numbers()
-    % [Guitar_Music_Voice_III measure 13]
-      %! baca._make_measure_silences()
-    s1 * 125/64
+      %! baca.OverrideCommand._call(2)
+      %! baca.script_down()
+    \revert Script.direction
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -7168,116 +7056,10 @@ segment.06.Guitar.Music.Voice.IV = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-    % OPEN_BRACKETS:
-      %! baca._make_multimeasure_rest_container(7)
-    <<
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
-
-        % OPEN_BRACKETS:
-          %! baca._make_multimeasure_rest_container(4)
-        \context Voice = "Guitar_Music_Voice_IV"
-          %! baca._make_multimeasure_rest_container(4)
-        {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
-
-              %! baca._comment_measure_numbers()
-            % [Guitar_Music_Voice_IV measure 8]
-            % BEFORE:
-            % COMMANDS:
-              %! INVISIBLE_MUSIC_COMMAND
-              %! NOTE
-              %! baca._make_multimeasure_rest_container(3)
-            %@% \abjad-invisible-music
-              %! INVISIBLE_MUSIC_COLORING
-              %! NOTE
-              %! baca._make_multimeasure_rest_container(2)
-            \abjad-invisible-music-coloring
-            % GROB_OVERRIDES:
-            \once \override Accidental.stencil = ##f
-            \once \override NoteColumn.ignore-collision = ##t
-              %! HIDDEN
-              %! NOTE
-              %! baca._make_multimeasure_rest_container(1)
-            b'1 * 3/8
-            % AFTER:
-            % MARKUP:
-              %! DURATION_MULTIPLIER
-              %! HIDDEN
-              %! NOTE
-              %! baca._label_duration_multipliers()
-            %@% ^ \baca-duration-multiplier-markup #"3" #"8"
-            % CLOSING:
-            % COMMANDS:
-
-        % CLOSE_BRACKETS:
-          %! baca._make_multimeasure_rest_container(4)
-        }
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
-
-        % OPEN_BRACKETS:
-          %! baca._make_multimeasure_rest_container(6)
-        \context Voice = "Guitar_Rest_Voice_IV"
-          %! baca._make_multimeasure_rest_container(6)
-        {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
-
-              %! baca._comment_measure_numbers()
-            % [Guitar_Rest_Voice_IV measure 8]
-              %! REST_VOICE
-              %! SKIP
-              %! baca._make_multimeasure_rest_container(5)
-            s1 * 3/8
-            % CLOSING:
-            % COMMANDS:
-
-        % CLOSE_BRACKETS:
-          %! baca._make_multimeasure_rest_container(6)
-        }
-        % CLOSING:
-        % COMMANDS:
-
-    % CLOSE_BRACKETS:
-      %! baca._make_multimeasure_rest_container(7)
-    >>
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
-
       %! baca._comment_measure_numbers()
-    % [Guitar_Music_Voice_IV measure 9]
-      %! baca._make_measure_silences()
-    s1 * 15/32
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
-
-      %! baca._comment_measure_numbers()
-    % [Guitar_Music_Voice_IV measure 10]
-      %! baca._make_measure_silences()
-    s1 * 5/8
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
-
-      %! baca._comment_measure_numbers()
-    % [Guitar_Music_Voice_IV measure 11]
-      %! baca._make_measure_silences()
-    s1 * 25/32
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
-
-      %! baca._comment_measure_numbers()
-    % [Guitar_Music_Voice_IV measure 12]
-      %! baca._make_measure_silences()
-    s1 * 15/16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
-
-      %! baca._comment_measure_numbers()
-    % [Guitar_Music_Voice_IV measure 13]
-      %! baca._make_measure_silences()
-    s1 * 125/64
+    % [Guitar_Music_Voice_IV measure 8]
+      %! baca.make_music()
+    s1 * 329/64
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 

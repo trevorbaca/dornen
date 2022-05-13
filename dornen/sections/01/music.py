@@ -229,6 +229,11 @@ commands(
     baca.metronome_mark("44", lambda _: abjad.select.leaf(_, 1 - 1)),
 )
 
+# commands(
+#    [("v1", (15, 19)), ("v2", (17, 19)), ("v4", (18, 19))],
+#    baca.make_mmrests(),
+# )
+
 commands(
     "v1",
     baca.attach_first_segment_default_indicators(),
@@ -252,7 +257,6 @@ if __name__ == "__main__":
         do_not_require_margin_markup=True,
         error_on_not_yet_pitched=True,
         global_rests_in_topmost_staff=True,
-        # intercalate_mmrests_by_hand=True,
         transpose_score=True,
     )
     lilypond_file = baca.make_lilypond_file(

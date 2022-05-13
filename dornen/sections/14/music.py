@@ -385,7 +385,7 @@ commands(
 )
 
 commands(
-    ("v4", -1),
+    ("v1", -1),
     baca.chunk(
         baca.mark(r"\dornen-colophon-markup"),
         baca.rehearsal_mark_down(),

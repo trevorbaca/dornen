@@ -391,6 +391,15 @@ commands = baca.CommandAccumulator(
 
 figures.populate_commands(commands)
 
+# phantom
+
+all_voices = [_ for _ in voice_names if "Music_Voice" in _]
+
+commands(
+    all_voices,
+    baca.append_phantom_measure(),
+)
+
 commands(
     "v1",
     baca.reapply_persistent_indicators(),
@@ -417,6 +426,7 @@ if __name__ == "__main__":
         **defaults,
         activate=(baca.tags.LOCAL_MEASURE_NUMBER,),
         always_make_global_rests=True,
+        append_phantom_measures_by_hand=True,
         do_not_require_margin_markup=True,
         error_on_not_yet_pitched=True,
         global_rests_in_topmost_staff=True,

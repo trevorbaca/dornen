@@ -322,6 +322,7 @@ if __name__ == "__main__":
         score,
         commands,
         **baca.score_interpretation_defaults(),
+        activate=(baca.tags.LOCAL_MEASURE_NUMBER,),
         always_make_global_rests=True,
         do_not_require_margin_markup=True,
         error_on_not_yet_pitched=True,

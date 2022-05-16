@@ -129,33 +129,31 @@ commands = baca.CommandAccumulator(
 
 figures.populate_commands(commands)
 
-# phantom
-
-all_voices = [_ for _ in voice_names if "Music_Voice" in _]
-
-commands(
-    all_voices,
-    baca.append_phantom_measure(),
-)
-
-commands(
-    "v1",
-    baca.reapply_persistent_indicators(),
-)
-
 commands(
     "Global_Skips",
     baca.metronome_mark("66", lambda _: abjad.select.leaf(_, 1 - 1)),
 )
 
-# glissando scatto
+# phantom & reapply
+
+music_voices = [_ for _ in voice_names if "Music_Voice" in _]
+
+commands(
+    music_voices,
+    baca.append_phantom_measure(),
+    baca.reapply_persistent_indicators(),
+)
+
+# v1
+
 commands(
     ("v1", (1, 12)),
     baca.register(-8),
     baca.displacement([0, 1]),
 )
 
-# ovoid
+# v2
+
 commands(
     ("v2", (1, 12)),
     baca.register(
@@ -165,12 +163,8 @@ commands(
     ),
 )
 
-# delicatissimo
-commands(
-    ("v3", (1, 12)),
-)
+# v4
 
-# graced tuplet
 commands(
     ("v4", (1, 12)),
     baca.beam_positions(8),

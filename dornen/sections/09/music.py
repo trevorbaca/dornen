@@ -183,19 +183,17 @@ commands = baca.CommandAccumulator(
 
 figures.populate_commands(commands)
 
-# phantom
+# phantom & reapply
 
-all_voices = [_ for _ in voice_names if "Music_Voice" in _]
+music_voices = [_ for _ in voice_names if "Music_Voice" in _]
 
 commands(
-    all_voices,
+    music_voices,
     baca.append_phantom_measure(),
-)
-
-commands(
-    "v1",
     baca.reapply_persistent_indicators(),
 )
+
+# v1
 
 commands(
     ("v1", (1, 8)),
@@ -209,6 +207,8 @@ commands(
         lambda _: baca.select.leaves(_, exclude=baca.enums.HIDDEN),
     ),
 )
+
+# v3
 
 commands(
     ("v3", (1, 18)),

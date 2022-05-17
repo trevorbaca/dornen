@@ -199,7 +199,7 @@ commands = baca.CommandAccumulator(
 
 figures.populate_commands(commands)
 
-# phantom & reaply
+# phantom & reapply
 
 music_voices = [_ for _ in voice_names if "Music_Voice" in _]
 

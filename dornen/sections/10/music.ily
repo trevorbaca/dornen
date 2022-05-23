@@ -1,5 +1,5 @@
   %! baca.path.extern()
-segment.10.Global.Skips = {
+segment.10.Global_Skips = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -1057,7 +1057,7 @@ segment.10.Global.Skips = {
 
 
   %! baca.path.extern()
-segment.10.Global.Rests = {
+segment.10.Global_Rests = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -1232,7 +1232,7 @@ segment.10.Global.Rests = {
 
 
   %! baca.path.extern()
-segment.10.Guitar.Music.Voice.I = {
+segment.10.Guitar_Music_Voice_I = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -3025,7 +3025,7 @@ segment.10.Guitar.Music.Voice.I = {
 
 
   %! baca.path.extern()
-segment.10.Guitar.Music.Voice.II = {
+segment.10.Guitar_Music_Voice_II = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -3167,7 +3167,7 @@ segment.10.Guitar.Music.Voice.II = {
 
 
   %! baca.path.extern()
-segment.10.Guitar.Music.Voice.III = {
+segment.10.Guitar_Music_Voice_III = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -3309,7 +3309,7 @@ segment.10.Guitar.Music.Voice.III = {
 
 
   %! baca.path.extern()
-segment.10.Guitar.Music.Voice.IV = {
+segment.10.Guitar_Music_Voice_IV = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -3460,7 +3460,7 @@ segment.10.Guitar.Music.Staff = <<
     \context GlobalRests = "Global_Rests"
       %! baca.make_global_context()
       %! baca.path.extern()
-    { \segment.10.Global.Rests }
+    { \segment.10.Global_Rests }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -3469,7 +3469,7 @@ segment.10.Guitar.Music.Staff = <<
     \context GuitarMusicVoiceI = "Guitar_Music_Voice_I"
       %! dornen.make_empty_score()
       %! baca.path.extern()
-    { \segment.10.Guitar.Music.Voice.I }
+    { \segment.10.Guitar_Music_Voice_I }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -3478,7 +3478,7 @@ segment.10.Guitar.Music.Staff = <<
     \context GuitarMusicVoiceII = "Guitar_Music_Voice_II"
       %! dornen.make_empty_score()
       %! baca.path.extern()
-    { \segment.10.Guitar.Music.Voice.II }
+    { \segment.10.Guitar_Music_Voice_II }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -3487,7 +3487,7 @@ segment.10.Guitar.Music.Staff = <<
     \context GuitarMusicVoiceIII = "Guitar_Music_Voice_III"
       %! dornen.make_empty_score()
       %! baca.path.extern()
-    { \segment.10.Guitar.Music.Voice.III }
+    { \segment.10.Guitar_Music_Voice_III }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -3496,7 +3496,7 @@ segment.10.Guitar.Music.Staff = <<
     \context GuitarMusicVoiceIV = "Guitar_Music_Voice_IV"
       %! dornen.make_empty_score()
       %! baca.path.extern()
-    { \segment.10.Guitar.Music.Voice.IV }
+    { \segment.10.Guitar_Music_Voice_IV }
     % CLOSING:
     % COMMANDS:
 

@@ -674,10 +674,10 @@ class DesignChecker:
 
 
 voice_abbreviations = {
-    "v1": "Guitar_Music_Voice_I",
-    "v2": "Guitar_Music_Voice_II",
-    "v3": "Guitar_Music_Voice_III",
-    "v4": "Guitar_Music_Voice_IV",
+    "v1": "Guitar.Music_Voice.1",
+    "v2": "Guitar.Music_Voice.2",
+    "v3": "Guitar.Music_Voice.3",
+    "v4": "Guitar.Music_Voice.4",
 }
 
 
@@ -692,22 +692,22 @@ def make_empty_score():
     global_context = baca.score.make_global_context()
     guitar_music_voice_1 = abjad.Voice(
         lilypond_type="GuitarMusicVoiceI",
-        name="Guitar_Music_Voice_I",
+        name="Guitar.Music_Voice.1",
         tag=tag,
     )
     guitar_music_voice_2 = abjad.Voice(
         lilypond_type="GuitarMusicVoiceII",
-        name="Guitar_Music_Voice_II",
+        name="Guitar.Music_Voice.2",
         tag=tag,
     )
     guitar_music_voice_3 = abjad.Voice(
         lilypond_type="GuitarMusicVoiceIII",
-        name="Guitar_Music_Voice_III",
+        name="Guitar.Music_Voice.3",
         tag=tag,
     )
     guitar_music_voice_4 = abjad.Voice(
         lilypond_type="GuitarMusicVoiceIV",
-        name="Guitar_Music_Voice_IV",
+        name="Guitar.Music_Voice.4",
         tag=tag,
     )
     guitar_music_staff = abjad.Staff(
@@ -719,7 +719,7 @@ def make_empty_score():
         ],
         lilypond_type="GuitarMusicStaff",
         simultaneous=True,
-        name="Guitar_Music_Staff",
+        name="Guitar.Music_Staff",
         tag=tag,
     )
     abjad.annotate(
@@ -737,5 +737,5 @@ def make_empty_score():
     score = abjad.Score([global_context, music_context], name="Score", tag=tag)
     baca.score.assert_lilypond_identifiers(score)
     baca.score.assert_unique_context_names(score)
-    baca.score.assert_matching_custom_context_names(score)
+    # baca.score.assert_matching_custom_context_names(score)
     return score

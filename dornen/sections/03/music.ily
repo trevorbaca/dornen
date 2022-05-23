@@ -1999,7 +1999,7 @@ segment.03.Global_Rests = {
 
 
   %! baca.path.extern()
-segment.03.Guitar_Music_Voice_I = {
+segment.03.Guitar.Music_Voice.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -2058,7 +2058,7 @@ segment.03.Guitar_Music_Voice_I = {
             % COMMANDS:
 
               %! baca._comment_measure_numbers()
-            % [Guitar_Music_Voice_I measure 1]
+            % [Guitar.Music_Voice.1 measure 1]
             % BEFORE:
             % GROB_OVERRIDES:
             \once \override Beam.grow-direction = #left
@@ -2201,7 +2201,7 @@ segment.03.Guitar_Music_Voice_I = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Guitar_Music_Voice_I measure 2]
+    % [Guitar.Music_Voice.1 measure 2]
       %! baca.make_music()
     s1 * 81/224
     % ABSOLUTE_BEFORE:
@@ -2260,7 +2260,7 @@ segment.03.Guitar_Music_Voice_I = {
             % COMMANDS:
 
               %! baca._comment_measure_numbers()
-            % [Guitar_Music_Voice_I measure 5]
+            % [Guitar.Music_Voice.1 measure 5]
             % BEFORE:
             % COMMANDS:
               %! baca.OverrideCommand._call(1)
@@ -2488,7 +2488,7 @@ segment.03.Guitar_Music_Voice_I = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Guitar_Music_Voice_I measure 6]
+    % [Guitar.Music_Voice.1 measure 6]
       %! baca.make_music()
     s1 * 113/224
     % ABSOLUTE_BEFORE:
@@ -2509,7 +2509,7 @@ segment.03.Guitar_Music_Voice_I = {
             % COMMANDS:
 
               %! baca._comment_measure_numbers()
-            % [Guitar_Music_Voice_I measure 9]
+            % [Guitar.Music_Voice.1 measure 9]
             % BEFORE:
             % COMMANDS:
               %! baca.OverrideCommand._call(1)
@@ -2599,7 +2599,7 @@ segment.03.Guitar_Music_Voice_I = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Guitar_Music_Voice_I measure 10]
+    % [Guitar.Music_Voice.1 measure 10]
       %! baca.make_music()
     s1 * 1/14
     % ABSOLUTE_BEFORE:
@@ -2620,7 +2620,7 @@ segment.03.Guitar_Music_Voice_I = {
             % COMMANDS:
 
               %! baca._comment_measure_numbers()
-            % [Guitar_Music_Voice_I measure 11]
+            % [Guitar.Music_Voice.1 measure 11]
             % BEFORE:
             % COMMANDS:
               %! baca.OverrideCommand._call(1)
@@ -2694,7 +2694,7 @@ segment.03.Guitar_Music_Voice_I = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Guitar_Music_Voice_I measure 12]
+    % [Guitar.Music_Voice.1 measure 12]
       %! baca.make_music()
     s1 * 3/14
     % ABSOLUTE_BEFORE:
@@ -2715,7 +2715,7 @@ segment.03.Guitar_Music_Voice_I = {
             % COMMANDS:
 
               %! baca._comment_measure_numbers()
-            % [Guitar_Music_Voice_I measure 13]
+            % [Guitar.Music_Voice.1 measure 13]
             % BEFORE:
             % COMMANDS:
               %! baca.OverrideCommand._call(1)
@@ -2889,7 +2889,7 @@ segment.03.Guitar_Music_Voice_I = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Guitar_Music_Voice_I measure 14]
+    % [Guitar.Music_Voice.1 measure 14]
       %! baca.make_music()
     s1 * 81/224
     % ABSOLUTE_BEFORE:
@@ -2950,7 +2950,7 @@ segment.03.Guitar_Music_Voice_I = {
             % COMMANDS:
 
               %! baca._comment_measure_numbers()
-            % [Guitar_Music_Voice_I measure 16]
+            % [Guitar.Music_Voice.1 measure 16]
             % BEFORE:
             % COMMANDS:
               %! baca.OverrideCommand._call(1)
@@ -3136,7 +3136,7 @@ segment.03.Guitar_Music_Voice_I = {
             % COMMANDS:
 
               %! baca._comment_measure_numbers()
-            % [Guitar_Music_Voice_I measure 17]
+            % [Guitar.Music_Voice.1 measure 17]
             % BEFORE:
             % COMMANDS:
               %! baca.OverrideCommand._call(1)
@@ -3380,7 +3380,7 @@ segment.03.Guitar_Music_Voice_I = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Guitar_Music_Voice_I measure 18]
+    % [Guitar.Music_Voice.1 measure 18]
       %! baca.make_music()
     s1 * 5/14
     % ABSOLUTE_BEFORE:
@@ -3401,7 +3401,7 @@ segment.03.Guitar_Music_Voice_I = {
             % COMMANDS:
 
               %! baca._comment_measure_numbers()
-            % [Guitar_Music_Voice_I measure 19]
+            % [Guitar.Music_Voice.1 measure 19]
             % BEFORE:
             % COMMANDS:
               %! baca.OverrideCommand._call(1)
@@ -3519,7 +3519,7 @@ segment.03.Guitar_Music_Voice_I = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Guitar_Music_Voice_I measure 20]
+    % [Guitar.Music_Voice.1 measure 20]
       %! baca.make_music()
     s1 * 5/4
     % ABSOLUTE_BEFORE:
@@ -3540,7 +3540,7 @@ segment.03.Guitar_Music_Voice_I = {
             % COMMANDS:
 
               %! baca._comment_measure_numbers()
-            % [Guitar_Music_Voice_I measure 23]
+            % [Guitar.Music_Voice.1 measure 23]
             % BEFORE:
             % COMMANDS:
               %! baca.OverrideCommand._call(1)
@@ -3738,7 +3738,7 @@ segment.03.Guitar_Music_Voice_I = {
                 % COMMANDS:
 
                   %! baca._comment_measure_numbers()
-                % [Guitar_Music_Voice_I measure 24]
+                % [Guitar.Music_Voice.1 measure 24]
                 % BEFORE:
                 % COMMANDS:
                   %! baca.OverrideCommand._call(1)
@@ -4010,7 +4010,7 @@ segment.03.Guitar_Music_Voice_I = {
             % COMMANDS:
 
               %! baca._comment_measure_numbers()
-            % [Guitar_Music_Voice_I measure 25]
+            % [Guitar.Music_Voice.1 measure 25]
             % BEFORE:
             % COMMANDS:
               %! baca.OverrideCommand._call(1)
@@ -4270,7 +4270,7 @@ segment.03.Guitar_Music_Voice_I = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Guitar_Music_Voice_I measure 26]
+    % [Guitar.Music_Voice.1 measure 26]
       %! baca.make_music()
     s1 * 49/32
     % ABSOLUTE_BEFORE:
@@ -4331,7 +4331,7 @@ segment.03.Guitar_Music_Voice_I = {
             % COMMANDS:
 
               %! baca._comment_measure_numbers()
-            % [Guitar_Music_Voice_I measure 33]
+            % [Guitar.Music_Voice.1 measure 33]
             % BEFORE:
             % COMMANDS:
               %! baca.OverrideCommand._call(1)
@@ -4517,7 +4517,7 @@ segment.03.Guitar_Music_Voice_I = {
             % COMMANDS:
 
               %! baca._comment_measure_numbers()
-            % [Guitar_Music_Voice_I measure 34]
+            % [Guitar.Music_Voice.1 measure 34]
             % BEFORE:
             % COMMANDS:
               %! baca.OverrideCommand._call(1)
@@ -4777,7 +4777,7 @@ segment.03.Guitar_Music_Voice_I = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Guitar_Music_Voice_I measure 35]
+    % [Guitar.Music_Voice.1 measure 35]
       %! baca.make_music()
     s1 * 13/32
     % ABSOLUTE_BEFORE:
@@ -4793,7 +4793,7 @@ segment.03.Guitar_Music_Voice_I = {
         % OPEN_BRACKETS:
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(4)
-        \context Voice = "Guitar_Music_Voice_I"
+        \context Voice = "Guitar.Music_Voice.1"
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(4)
         {
@@ -4803,7 +4803,7 @@ segment.03.Guitar_Music_Voice_I = {
               %! PHANTOM
               %! baca._comment_measure_numbers()
               %! baca._style_phantom_measures(5)
-            % [Guitar_Music_Voice_I measure 37]
+            % [Guitar.Music_Voice.1 measure 37]
             % BEFORE:
             % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
@@ -4848,7 +4848,7 @@ segment.03.Guitar_Music_Voice_I = {
         % OPEN_BRACKETS:
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(6)
-        \context Voice = "Guitar_Rest_Voice_I"
+        \context Voice = "Guitar.Rest_Voice.1"
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(6)
         {
@@ -4858,7 +4858,7 @@ segment.03.Guitar_Music_Voice_I = {
               %! PHANTOM
               %! baca._comment_measure_numbers()
               %! baca._style_phantom_measures(5)
-            % [Guitar_Rest_Voice_I measure 37]
+            % [Guitar.Rest_Voice.1 measure 37]
             % OPENING:
             % COMMANDS:
               %! PHANTOM
@@ -4914,12 +4914,12 @@ segment.03.Guitar_Music_Voice_I = {
 
 
   %! baca.path.extern()
-segment.03.Guitar_Music_Voice_II = {
+segment.03.Guitar.Music_Voice.2 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Guitar_Music_Voice_II measure 1]
+    % [Guitar.Music_Voice.2 measure 1]
       %! baca.make_music()
     s1 * 95/448
     % ABSOLUTE_BEFORE:
@@ -4940,7 +4940,7 @@ segment.03.Guitar_Music_Voice_II = {
             % COMMANDS:
 
               %! baca._comment_measure_numbers()
-            % [Guitar_Music_Voice_II measure 3]
+            % [Guitar.Music_Voice.2 measure 3]
             % BEFORE:
             % COMMANDS:
               %! baca.OverrideCommand._call(1)
@@ -5012,7 +5012,7 @@ segment.03.Guitar_Music_Voice_II = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Guitar_Music_Voice_II measure 4]
+    % [Guitar.Music_Voice.2 measure 4]
       %! baca.make_music()
     s1 * 187/448
     % ABSOLUTE_BEFORE:
@@ -5033,7 +5033,7 @@ segment.03.Guitar_Music_Voice_II = {
             % COMMANDS:
 
               %! baca._comment_measure_numbers()
-            % [Guitar_Music_Voice_II measure 7]
+            % [Guitar.Music_Voice.2 measure 7]
             % BEFORE:
             % COMMANDS:
               %! baca.OverrideCommand._call(1)
@@ -5110,7 +5110,7 @@ segment.03.Guitar_Music_Voice_II = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Guitar_Music_Voice_II measure 8]
+    % [Guitar.Music_Voice.2 measure 8]
       %! baca.make_music()
     s1 * 215/224
     % ABSOLUTE_BEFORE:
@@ -5131,7 +5131,7 @@ segment.03.Guitar_Music_Voice_II = {
             % COMMANDS:
 
               %! baca._comment_measure_numbers()
-            % [Guitar_Music_Voice_II measure 14]
+            % [Guitar.Music_Voice.2 measure 14]
             % BEFORE:
             % COMMANDS:
               %! baca.OverrideCommand._call(1)
@@ -5203,7 +5203,7 @@ segment.03.Guitar_Music_Voice_II = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Guitar_Music_Voice_II measure 15]
+    % [Guitar.Music_Voice.2 measure 15]
       %! baca.make_music()
     s1 * 87/64
     % ABSOLUTE_BEFORE:
@@ -5224,7 +5224,7 @@ segment.03.Guitar_Music_Voice_II = {
             % COMMANDS:
 
               %! baca._comment_measure_numbers()
-            % [Guitar_Music_Voice_II measure 20]
+            % [Guitar.Music_Voice.2 measure 20]
             % BEFORE:
             % COMMANDS:
               %! baca.OverrideCommand._call(1)
@@ -5301,7 +5301,7 @@ segment.03.Guitar_Music_Voice_II = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Guitar_Music_Voice_II measure 21]
+    % [Guitar.Music_Voice.2 measure 21]
       %! baca.make_music()
     s1 * 13/16
     % ABSOLUTE_BEFORE:
@@ -5322,7 +5322,7 @@ segment.03.Guitar_Music_Voice_II = {
             % COMMANDS:
 
               %! baca._comment_measure_numbers()
-            % [Guitar_Music_Voice_II measure 22]
+            % [Guitar.Music_Voice.2 measure 22]
             % BEFORE:
             % COMMANDS:
               %! baca.OverrideCommand._call(1)
@@ -5394,7 +5394,7 @@ segment.03.Guitar_Music_Voice_II = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Guitar_Music_Voice_II measure 23]
+    % [Guitar.Music_Voice.2 measure 23]
       %! baca.make_music()
     s1 * 9/8
     % ABSOLUTE_BEFORE:
@@ -5415,7 +5415,7 @@ segment.03.Guitar_Music_Voice_II = {
             % COMMANDS:
 
               %! baca._comment_measure_numbers()
-            % [Guitar_Music_Voice_II measure 26]
+            % [Guitar.Music_Voice.2 measure 26]
             % BEFORE:
             % COMMANDS:
               %! baca.OverrideCommand._call(1)
@@ -5504,7 +5504,7 @@ segment.03.Guitar_Music_Voice_II = {
             % COMMANDS:
 
               %! baca._comment_measure_numbers()
-            % [Guitar_Music_Voice_II measure 27]
+            % [Guitar.Music_Voice.2 measure 27]
             % BEFORE:
             % COMMANDS:
             \set stemLeftBeamCount = 1
@@ -5588,7 +5588,7 @@ segment.03.Guitar_Music_Voice_II = {
             % COMMANDS:
 
               %! baca._comment_measure_numbers()
-            % [Guitar_Music_Voice_II measure 28]
+            % [Guitar.Music_Voice.2 measure 28]
             % BEFORE:
             % COMMANDS:
               %! baca.OverrideCommand._call(1)
@@ -5674,7 +5674,7 @@ segment.03.Guitar_Music_Voice_II = {
             % COMMANDS:
 
               %! baca._comment_measure_numbers()
-            % [Guitar_Music_Voice_II measure 29]
+            % [Guitar.Music_Voice.2 measure 29]
             % BEFORE:
             % COMMANDS:
             \set stemLeftBeamCount = 1
@@ -5755,7 +5755,7 @@ segment.03.Guitar_Music_Voice_II = {
             % COMMANDS:
 
               %! baca._comment_measure_numbers()
-            % [Guitar_Music_Voice_II measure 30]
+            % [Guitar.Music_Voice.2 measure 30]
             % BEFORE:
             % COMMANDS:
             \set stemLeftBeamCount = 1
@@ -5836,7 +5836,7 @@ segment.03.Guitar_Music_Voice_II = {
             % COMMANDS:
 
               %! baca._comment_measure_numbers()
-            % [Guitar_Music_Voice_II measure 31]
+            % [Guitar.Music_Voice.2 measure 31]
             % BEFORE:
             % COMMANDS:
             \set stemLeftBeamCount = 1
@@ -5920,7 +5920,7 @@ segment.03.Guitar_Music_Voice_II = {
             % COMMANDS:
 
               %! baca._comment_measure_numbers()
-            % [Guitar_Music_Voice_II measure 32]
+            % [Guitar.Music_Voice.2 measure 32]
             % BEFORE:
             % COMMANDS:
               %! baca.OverrideCommand._call(1)
@@ -5992,7 +5992,7 @@ segment.03.Guitar_Music_Voice_II = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Guitar_Music_Voice_II measure 33]
+    % [Guitar.Music_Voice.2 measure 33]
       %! baca.make_music()
     s1 * 45/64
     % ABSOLUTE_BEFORE:
@@ -6013,7 +6013,7 @@ segment.03.Guitar_Music_Voice_II = {
             % COMMANDS:
 
               %! baca._comment_measure_numbers()
-            % [Guitar_Music_Voice_II measure 35]
+            % [Guitar.Music_Voice.2 measure 35]
             % BEFORE:
             % COMMANDS:
             \set stemLeftBeamCount = 1
@@ -6097,7 +6097,7 @@ segment.03.Guitar_Music_Voice_II = {
             % COMMANDS:
 
               %! baca._comment_measure_numbers()
-            % [Guitar_Music_Voice_II measure 36]
+            % [Guitar.Music_Voice.2 measure 36]
               %! baca.make_music()
             bf!8.
             % AFTER:
@@ -6131,7 +6131,7 @@ segment.03.Guitar_Music_Voice_II = {
         % OPEN_BRACKETS:
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(4)
-        \context Voice = "Guitar_Music_Voice_II"
+        \context Voice = "Guitar.Music_Voice.2"
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(4)
         {
@@ -6141,7 +6141,7 @@ segment.03.Guitar_Music_Voice_II = {
               %! PHANTOM
               %! baca._comment_measure_numbers()
               %! baca._style_phantom_measures(5)
-            % [Guitar_Music_Voice_II measure 37]
+            % [Guitar.Music_Voice.2 measure 37]
             % BEFORE:
             % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
@@ -6186,7 +6186,7 @@ segment.03.Guitar_Music_Voice_II = {
         % OPEN_BRACKETS:
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(6)
-        \context Voice = "Guitar_Rest_Voice_II"
+        \context Voice = "Guitar.Rest_Voice.2"
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(6)
         {
@@ -6196,7 +6196,7 @@ segment.03.Guitar_Music_Voice_II = {
               %! PHANTOM
               %! baca._comment_measure_numbers()
               %! baca._style_phantom_measures(5)
-            % [Guitar_Rest_Voice_II measure 37]
+            % [Guitar.Rest_Voice.2 measure 37]
             % OPENING:
             % COMMANDS:
               %! PHANTOM
@@ -6252,12 +6252,12 @@ segment.03.Guitar_Music_Voice_II = {
 
 
   %! baca.path.extern()
-segment.03.Guitar_Music_Voice_III = {
+segment.03.Guitar.Music_Voice.3 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Guitar_Music_Voice_III measure 1]
+    % [Guitar.Music_Voice.3 measure 1]
       %! baca.make_music()
     s1 * 1931/224
     % ABSOLUTE_BEFORE:
@@ -6273,7 +6273,7 @@ segment.03.Guitar_Music_Voice_III = {
         % OPEN_BRACKETS:
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(4)
-        \context Voice = "Guitar_Music_Voice_III"
+        \context Voice = "Guitar.Music_Voice.3"
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(4)
         {
@@ -6283,7 +6283,7 @@ segment.03.Guitar_Music_Voice_III = {
               %! PHANTOM
               %! baca._comment_measure_numbers()
               %! baca._style_phantom_measures(5)
-            % [Guitar_Music_Voice_III measure 37]
+            % [Guitar.Music_Voice.3 measure 37]
             % BEFORE:
             % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
@@ -6328,7 +6328,7 @@ segment.03.Guitar_Music_Voice_III = {
         % OPEN_BRACKETS:
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(6)
-        \context Voice = "Guitar_Rest_Voice_III"
+        \context Voice = "Guitar.Rest_Voice.3"
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(6)
         {
@@ -6338,7 +6338,7 @@ segment.03.Guitar_Music_Voice_III = {
               %! PHANTOM
               %! baca._comment_measure_numbers()
               %! baca._style_phantom_measures(5)
-            % [Guitar_Rest_Voice_III measure 37]
+            % [Guitar.Rest_Voice.3 measure 37]
             % OPENING:
             % COMMANDS:
               %! PHANTOM
@@ -6394,12 +6394,12 @@ segment.03.Guitar_Music_Voice_III = {
 
 
   %! baca.path.extern()
-segment.03.Guitar_Music_Voice_IV = {
+segment.03.Guitar.Music_Voice.4 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Guitar_Music_Voice_IV measure 1]
+    % [Guitar.Music_Voice.4 measure 1]
       %! baca.make_music()
     s1 * 9/64
     % ABSOLUTE_BEFORE:
@@ -6424,7 +6424,7 @@ segment.03.Guitar_Music_Voice_IV = {
             % COMMANDS:
 
               %! baca._comment_measure_numbers()
-            % [Guitar_Music_Voice_IV measure 2]
+            % [Guitar.Music_Voice.4 measure 2]
             % BEFORE:
             % COMMANDS:
               %! baca.OverrideCommand._call(1)
@@ -6459,7 +6459,7 @@ segment.03.Guitar_Music_Voice_IV = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Guitar_Music_Voice_IV measure 3]
+    % [Guitar.Music_Voice.4 measure 3]
       %! baca.make_music()
     s1 * 7/32
     % ABSOLUTE_BEFORE:
@@ -6484,7 +6484,7 @@ segment.03.Guitar_Music_Voice_IV = {
             % COMMANDS:
 
               %! baca._comment_measure_numbers()
-            % [Guitar_Music_Voice_IV measure 4]
+            % [Guitar.Music_Voice.4 measure 4]
             % BEFORE:
             % COMMANDS:
               %! baca.OverrideCommand._call(1)
@@ -6516,7 +6516,7 @@ segment.03.Guitar_Music_Voice_IV = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Guitar_Music_Voice_IV measure 5]
+    % [Guitar.Music_Voice.4 measure 5]
       %! baca.make_music()
     s1 * 13/64
     % ABSOLUTE_BEFORE:
@@ -6541,7 +6541,7 @@ segment.03.Guitar_Music_Voice_IV = {
             % COMMANDS:
 
               %! baca._comment_measure_numbers()
-            % [Guitar_Music_Voice_IV measure 6]
+            % [Guitar.Music_Voice.4 measure 6]
             % BEFORE:
             % COMMANDS:
               %! baca.OverrideCommand._call(1)
@@ -6603,7 +6603,7 @@ segment.03.Guitar_Music_Voice_IV = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Guitar_Music_Voice_IV measure 7]
+    % [Guitar.Music_Voice.4 measure 7]
       %! baca.make_music()
     s1 * 7/32
     % ABSOLUTE_BEFORE:
@@ -6628,7 +6628,7 @@ segment.03.Guitar_Music_Voice_IV = {
             % COMMANDS:
 
               %! baca._comment_measure_numbers()
-            % [Guitar_Music_Voice_IV measure 8]
+            % [Guitar.Music_Voice.4 measure 8]
             % BEFORE:
             % COMMANDS:
               %! baca.OverrideCommand._call(1)
@@ -6692,7 +6692,7 @@ segment.03.Guitar_Music_Voice_IV = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Guitar_Music_Voice_IV measure 9]
+    % [Guitar.Music_Voice.4 measure 9]
       %! baca.make_music()
     s1 * 1/8
     % ABSOLUTE_BEFORE:
@@ -6717,7 +6717,7 @@ segment.03.Guitar_Music_Voice_IV = {
             % COMMANDS:
 
               %! baca._comment_measure_numbers()
-            % [Guitar_Music_Voice_IV measure 10]
+            % [Guitar.Music_Voice.4 measure 10]
             % BEFORE:
             % COMMANDS:
               %! baca.OverrideCommand._call(1)
@@ -6752,7 +6752,7 @@ segment.03.Guitar_Music_Voice_IV = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Guitar_Music_Voice_IV measure 11]
+    % [Guitar.Music_Voice.4 measure 11]
       %! baca.make_music()
     s1 * 3/32
     % ABSOLUTE_BEFORE:
@@ -6777,7 +6777,7 @@ segment.03.Guitar_Music_Voice_IV = {
             % COMMANDS:
 
               %! baca._comment_measure_numbers()
-            % [Guitar_Music_Voice_IV measure 12]
+            % [Guitar.Music_Voice.4 measure 12]
             % BEFORE:
             % COMMANDS:
               %! baca.OverrideCommand._call(1)
@@ -6864,7 +6864,7 @@ segment.03.Guitar_Music_Voice_IV = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Guitar_Music_Voice_IV measure 13]
+    % [Guitar.Music_Voice.4 measure 13]
       %! baca.make_music()
     s1 * 17/32
     % ABSOLUTE_BEFORE:
@@ -6889,7 +6889,7 @@ segment.03.Guitar_Music_Voice_IV = {
             % COMMANDS:
 
               %! baca._comment_measure_numbers()
-            % [Guitar_Music_Voice_IV measure 15]
+            % [Guitar.Music_Voice.4 measure 15]
             % BEFORE:
             % COMMANDS:
               %! baca.OverrideCommand._call(1)
@@ -6951,7 +6951,7 @@ segment.03.Guitar_Music_Voice_IV = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Guitar_Music_Voice_IV measure 16]
+    % [Guitar.Music_Voice.4 measure 16]
       %! baca.make_music()
     s1 * 43/64
     % ABSOLUTE_BEFORE:
@@ -6976,7 +6976,7 @@ segment.03.Guitar_Music_Voice_IV = {
             % COMMANDS:
 
               %! baca._comment_measure_numbers()
-            % [Guitar_Music_Voice_IV measure 18]
+            % [Guitar.Music_Voice.4 measure 18]
             % BEFORE:
             % COMMANDS:
               %! baca.OverrideCommand._call(1)
@@ -7119,7 +7119,7 @@ segment.03.Guitar_Music_Voice_IV = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Guitar_Music_Voice_IV measure 19]
+    % [Guitar.Music_Voice.4 measure 19]
       %! baca.make_music()
     s1 * 13/32
     % ABSOLUTE_BEFORE:
@@ -7142,7 +7142,7 @@ segment.03.Guitar_Music_Voice_IV = {
             % COMMANDS:
 
               %! baca._comment_measure_numbers()
-            % [Guitar_Music_Voice_IV measure 21]
+            % [Guitar.Music_Voice.4 measure 21]
             % BEFORE:
             % COMMANDS:
               %! baca.OverrideCommand._call(1)
@@ -7480,7 +7480,7 @@ segment.03.Guitar_Music_Voice_IV = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Guitar_Music_Voice_IV measure 22]
+    % [Guitar.Music_Voice.4 measure 22]
       %! baca.make_music()
     s1 * 255/64
     % ABSOLUTE_BEFORE:
@@ -7496,7 +7496,7 @@ segment.03.Guitar_Music_Voice_IV = {
         % OPEN_BRACKETS:
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(4)
-        \context Voice = "Guitar_Music_Voice_IV"
+        \context Voice = "Guitar.Music_Voice.4"
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(4)
         {
@@ -7506,7 +7506,7 @@ segment.03.Guitar_Music_Voice_IV = {
               %! PHANTOM
               %! baca._comment_measure_numbers()
               %! baca._style_phantom_measures(5)
-            % [Guitar_Music_Voice_IV measure 37]
+            % [Guitar.Music_Voice.4 measure 37]
             % BEFORE:
             % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
@@ -7551,7 +7551,7 @@ segment.03.Guitar_Music_Voice_IV = {
         % OPEN_BRACKETS:
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(6)
-        \context Voice = "Guitar_Rest_Voice_IV"
+        \context Voice = "Guitar.Rest_Voice.4"
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(6)
         {
@@ -7561,7 +7561,7 @@ segment.03.Guitar_Music_Voice_IV = {
               %! PHANTOM
               %! baca._comment_measure_numbers()
               %! baca._style_phantom_measures(5)
-            % [Guitar_Rest_Voice_IV measure 37]
+            % [Guitar.Rest_Voice.4 measure 37]
             % OPENING:
             % COMMANDS:
               %! PHANTOM
@@ -7632,37 +7632,37 @@ segment.03.Guitar.Music.Staff = <<
 
     % OPEN_BRACKETS:
       %! dornen.make_empty_score()
-    \context GuitarMusicVoiceI = "Guitar_Music_Voice_I"
+    \context GuitarMusicVoiceI = "Guitar.Music_Voice.1"
       %! dornen.make_empty_score()
       %! baca.path.extern()
-    { \segment.03.Guitar_Music_Voice_I }
+    { \segment.03.Guitar.Music_Voice.1 }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
       %! dornen.make_empty_score()
-    \context GuitarMusicVoiceII = "Guitar_Music_Voice_II"
+    \context GuitarMusicVoiceII = "Guitar.Music_Voice.2"
       %! dornen.make_empty_score()
       %! baca.path.extern()
-    { \segment.03.Guitar_Music_Voice_II }
+    { \segment.03.Guitar.Music_Voice.2 }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
       %! dornen.make_empty_score()
-    \context GuitarMusicVoiceIII = "Guitar_Music_Voice_III"
+    \context GuitarMusicVoiceIII = "Guitar.Music_Voice.3"
       %! dornen.make_empty_score()
       %! baca.path.extern()
-    { \segment.03.Guitar_Music_Voice_III }
+    { \segment.03.Guitar.Music_Voice.3 }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
       %! dornen.make_empty_score()
-    \context GuitarMusicVoiceIV = "Guitar_Music_Voice_IV"
+    \context GuitarMusicVoiceIV = "Guitar.Music_Voice.4"
       %! dornen.make_empty_score()
       %! baca.path.extern()
-    { \segment.03.Guitar_Music_Voice_IV }
+    { \segment.03.Guitar.Music_Voice.4 }
     % CLOSING:
     % COMMANDS:
 

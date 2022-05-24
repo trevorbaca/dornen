@@ -54,7 +54,7 @@
                 \context GlobalSkips = "Global_Skips"
                   %! baca.make_global_context()
                   %! baca.path.extern()
-                { \segment.06.Global_Skips }
+                { \section_number.06.Global_Skips }
                 % CLOSING:
                 % COMMANDS:
 
@@ -77,7 +77,7 @@
                 \context GuitarMusicStaff = "Guitar.Music_Staff"
                   %! dornen.make_empty_score()
                   %! baca.path.extern()
-                { \segment.06.Guitar.Music.Staff }
+                { \section_number.06.Guitar.Music_Staff }
                 % CLOSING:
                 % COMMANDS:
 

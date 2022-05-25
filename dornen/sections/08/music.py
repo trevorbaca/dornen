@@ -8,7 +8,7 @@ from dornen import library
 #########################################################################################
 
 score = library.make_empty_score()
-figures = baca.FigureAccumulator(score, library.voice_abbreviations)
+figures = baca.FigureAccumulator(score, library.voice_abbreviations())
 design = library.design_2(start=28)
 assert len(design) == 12, (repr(design), len(design))
 
@@ -119,11 +119,11 @@ voice_names = baca.accumulator.get_voice_names(score)
 
 commands = baca.CommandAccumulator(
     **baca.section_accumulation_defaults(),
-    instruments=library.instruments,
-    metronome_marks=library.metronome_marks,
+    instruments=library.instruments(),
+    metronome_marks=library.metronome_marks(),
     skips_instead_of_rests=True,
     time_signatures=figures.time_signatures,
-    voice_abbreviations=library.voice_abbreviations,
+    voice_abbreviations=library.voice_abbreviations(),
     voice_names=voice_names,
 )
 

@@ -4,15 +4,6 @@ import abjad
 import baca
 from abjadext import rmakers
 
-instruments = dict([("Guitar", abjad.Guitar(pitch_range="[E2, F5]"))])
-
-metronome_marks = dict(
-    [
-        ("44", abjad.MetronomeMark((1, 8), 44)),
-        ("66", abjad.MetronomeMark((1, 8), 66)),
-    ]
-)
-
 
 def _apply_operator(segment, operator):
     assert isinstance(segment, abjad.PitchClassSegment)
@@ -32,11 +23,301 @@ def _apply_operator(segment, operator):
     return segment
 
 
+def _blue_pitch_classes():
+    blue_pitch_classes = [[1, 0, 10], [5, 8, 6, 11, 2], [4, 3, 9]]
+    blue_pitch_classes = baca.sequence.helianthate(blue_pitch_classes, -1, -1)
+    assert len(blue_pitch_classes) == 45
+    """
+    (0, [1, 0, 10])
+    (1, [5, 8, 6, 11, 2])
+    (2, [4, 3, 9])
+    (3, [8, 6, 11, 2, 5])
+    (4, [3, 9, 4])
+    (5, [0, 10, 1])
+    (6, [9, 4, 3])
+    (7, [10, 1, 0])
+    (8, [6, 11, 2, 5, 8])
+    (9, [1, 0, 10])
+    (10, [11, 2, 5, 8, 6])
+    (11, [4, 3, 9])
+    (12, [2, 5, 8, 6, 11])
+    (13, [3, 9, 4])
+    (14, [0, 10, 1])
+    (15, [9, 4, 3])
+    (16, [10, 1, 0])
+    (17, [5, 8, 6, 11, 2])
+    (18, [1, 0, 10])
+    (19, [8, 6, 11, 2, 5])
+    (20, [4, 3, 9])
+    (21, [6, 11, 2, 5, 8])
+    (22, [3, 9, 4])
+    (23, [0, 10, 1])
+    (24, [9, 4, 3])
+    (25, [10, 1, 0])
+    (26, [11, 2, 5, 8, 6])
+    (27, [1, 0, 10])
+    (28, [2, 5, 8, 6, 11])
+    (29, [4, 3, 9])
+    (30, [5, 8, 6, 11, 2])
+    (31, [3, 9, 4])
+    (32, [0, 10, 1])
+    (33, [9, 4, 3])
+    (34, [10, 1, 0])
+    (35, [8, 6, 11, 2, 5])
+    (36, [1, 0, 10])
+    (37, [6, 11, 2, 5, 8])
+    (38, [4, 3, 9])
+    (39, [11, 2, 5, 8, 6])
+    (40, [3, 9, 4])
+    (41, [0, 10, 1])
+    (42, [9, 4, 3])
+    (43, [10, 1, 0])
+    (44, [2, 5, 8, 6, 11])
+    """
+    return blue_pitch_classes
+
+
+def _bright_green_pitch_classes():
+    bright_green_pitch_classes = [
+        [6, 4, 5, 5.5, 6.5, 9],
+        [10, 7, 8, 11.5],
+        [2.5, 3.5, 11, 2, 3, 10.5],
+    ]
+    bright_green_pitch_classes = baca.sequence.helianthate(
+        bright_green_pitch_classes, -1, -1
+    )
+    assert len(bright_green_pitch_classes) == 36
+    """
+    (0, [6, 4, 5, 5.5, 6.5, 9])
+    (1, [10, 7, 8, 11.5])
+    (2, [2.5, 3.5, 11, 2, 3, 10.5])
+    (3, [7, 8, 11.5, 10])
+    (4, [3.5, 11, 2, 3, 10.5, 2.5])
+    (5, [4, 5, 5.5, 6.5, 9, 6])
+    (6, [11, 2, 3, 10.5, 2.5, 3.5])
+    (7, [5, 5.5, 6.5, 9, 6, 4])
+    (8, [8, 11.5, 10, 7])
+    (9, [5.5, 6.5, 9, 6, 4, 5])
+    (10, [11.5, 10, 7, 8])
+    (11, [2, 3, 10.5, 2.5, 3.5, 11])
+    (12, [10, 7, 8, 11.5])
+    (13, [3, 10.5, 2.5, 3.5, 11, 2])
+    (14, [6.5, 9, 6, 4, 5, 5.5])
+    (15, [10.5, 2.5, 3.5, 11, 2, 3])
+    (16, [9, 6, 4, 5, 5.5, 6.5])
+    (17, [7, 8, 11.5, 10])
+    (18, [6, 4, 5, 5.5, 6.5, 9])
+    (19, [8, 11.5, 10, 7])
+    (20, [2.5, 3.5, 11, 2, 3, 10.5])
+    (21, [11.5, 10, 7, 8])
+    (22, [3.5, 11, 2, 3, 10.5, 2.5])
+    (23, [4, 5, 5.5, 6.5, 9, 6])
+    (24, [11, 2, 3, 10.5, 2.5, 3.5])
+    (25, [5, 5.5, 6.5, 9, 6, 4])
+    (26, [10, 7, 8, 11.5])
+    (27, [5.5, 6.5, 9, 6, 4, 5])
+    (28, [7, 8, 11.5, 10])
+    (29, [2, 3, 10.5, 2.5, 3.5, 11])
+    (30, [8, 11.5, 10, 7])
+    (31, [3, 10.5, 2.5, 3.5, 11, 2])
+    (32, [6.5, 9, 6, 4, 5, 5.5])
+    (33, [10.5, 2.5, 3.5, 11, 2, 3])
+    (34, [9, 6, 4, 5, 5.5, 6.5])
+    (35, [11.5, 10, 7, 8])
+    """
+    return bright_green_pitch_classes
+
+
 def _check_duplicate_pitch_classes(design):
     leaves = abjad.sequence.flatten(design, depth=-1)
     for leaf_1, leaf_2 in abjad.sequence.nwise(leaves):
         if leaf_1 == leaf_2:
             raise Exception(f"duplicate {leaf_1!r}.")
+
+
+def _green_pitch_classes():
+    green_pitch_classes = [[5, 9, 11, 10, 0], [6, 7, 8, 2, 1, 3]]
+    green_pitch_classes = baca.sequence.helianthate(green_pitch_classes, -1, -1)
+    assert len(green_pitch_classes) == 60
+    """
+    (0, [5, 9, 11, 10, 0])
+    (1, [6, 7, 8, 2, 1, 3])
+    (2, [7, 8, 2, 1, 3, 6])
+    (3, [9, 11, 10, 0, 5])
+    (4, [11, 10, 0, 5, 9])
+    (5, [8, 2, 1, 3, 6, 7])
+    (6, [2, 1, 3, 6, 7, 8])
+    (7, [10, 0, 5, 9, 11])
+    (8, [0, 5, 9, 11, 10])
+    (9, [1, 3, 6, 7, 8, 2])
+    (10, [3, 6, 7, 8, 2, 1])
+    (11, [5, 9, 11, 10, 0])
+    (12, [9, 11, 10, 0, 5])
+    (13, [6, 7, 8, 2, 1, 3])
+    (14, [7, 8, 2, 1, 3, 6])
+    (15, [11, 10, 0, 5, 9])
+    (16, [10, 0, 5, 9, 11])
+    (17, [8, 2, 1, 3, 6, 7])
+    (18, [2, 1, 3, 6, 7, 8])
+    (19, [0, 5, 9, 11, 10])
+    (20, [5, 9, 11, 10, 0])
+    (21, [1, 3, 6, 7, 8, 2])
+    (22, [3, 6, 7, 8, 2, 1])
+    (23, [9, 11, 10, 0, 5])
+    (24, [11, 10, 0, 5, 9])
+    (25, [6, 7, 8, 2, 1, 3])
+    (26, [7, 8, 2, 1, 3, 6])
+    (27, [10, 0, 5, 9, 11])
+    (28, [0, 5, 9, 11, 10])
+    (29, [8, 2, 1, 3, 6, 7])
+    (30, [2, 1, 3, 6, 7, 8])
+    (31, [5, 9, 11, 10, 0])
+    (32, [9, 11, 10, 0, 5])
+    (33, [1, 3, 6, 7, 8, 2])
+    (34, [3, 6, 7, 8, 2, 1])
+    (35, [11, 10, 0, 5, 9])
+    (36, [10, 0, 5, 9, 11])
+    (37, [6, 7, 8, 2, 1, 3])
+    (38, [7, 8, 2, 1, 3, 6])
+    (39, [0, 5, 9, 11, 10])
+    (40, [5, 9, 11, 10, 0])
+    (41, [8, 2, 1, 3, 6, 7])
+    (42, [2, 1, 3, 6, 7, 8])
+    (43, [9, 11, 10, 0, 5])
+    (44, [11, 10, 0, 5, 9])
+    (45, [1, 3, 6, 7, 8, 2])
+    (46, [3, 6, 7, 8, 2, 1])
+    (47, [10, 0, 5, 9, 11])
+    (48, [0, 5, 9, 11, 10])
+    (49, [6, 7, 8, 2, 1, 3])
+    (50, [7, 8, 2, 1, 3, 6])
+    (51, [5, 9, 11, 10, 0])
+    (52, [9, 11, 10, 0, 5])
+    (53, [8, 2, 1, 3, 6, 7])
+    (54, [2, 1, 3, 6, 7, 8])
+    (55, [11, 10, 0, 5, 9])
+    (56, [10, 0, 5, 9, 11])
+    (57, [1, 3, 6, 7, 8, 2])
+    (58, [3, 6, 7, 8, 2, 1])
+    (59, [0, 5, 9, 11, 10])
+    """
+    return green_pitch_classes
+
+
+def _magenta_pitch_classes():
+    magenta_pitch_classes = [[4, 6, 2, 3], [5, 9, 8, 0], [11, 10, 7]]
+    magenta_pitch_classes = baca.sequence.helianthate(magenta_pitch_classes, -1, -1)
+    assert len(magenta_pitch_classes) == 36
+    """
+    (0, [4, 6, 2, 3])
+    (1, [5, 9, 8, 0])
+    (2, [11, 10, 7])
+    (3, [9, 8, 0, 5])
+    (4, [10, 7, 11])
+    (5, [6, 2, 3, 4])
+    (6, [7, 11, 10])
+    (7, [2, 3, 4, 6])
+    (8, [8, 0, 5, 9])
+    (9, [3, 4, 6, 2])
+    (10, [0, 5, 9, 8])
+    (11, [11, 10, 7])
+    (12, [5, 9, 8, 0])
+    (13, [10, 7, 11])
+    (14, [4, 6, 2, 3])
+    (15, [7, 11, 10])
+    (16, [6, 2, 3, 4])
+    (17, [9, 8, 0, 5])
+    (18, [2, 3, 4, 6])
+    (19, [8, 0, 5, 9])
+    (20, [11, 10, 7])
+    (21, [0, 5, 9, 8])
+    (22, [10, 7, 11])
+    (23, [3, 4, 6, 2])
+    (24, [7, 11, 10])
+    (25, [4, 6, 2, 3])
+    (26, [5, 9, 8, 0])
+    (27, [6, 2, 3, 4])
+    (28, [9, 8, 0, 5])
+    (29, [11, 10, 7])
+    (30, [8, 0, 5, 9])
+    (31, [10, 7, 11])
+    (32, [2, 3, 4, 6])
+    (33, [7, 11, 10])
+    (34, [3, 4, 6, 2])
+    (35, [0, 5, 9, 8])
+    """
+    return magenta_pitch_classes
+
+
+def _select_nontrivial_tuplets(argument):
+    result = abjad.select.tuplets(argument)
+    result = [_ for _ in result if 1 < len(_)]
+    return result
+
+
+class DesignChecker:
+    """
+    Design checker.
+    """
+
+    __slots__ = ("_design",)
+
+    _foreshadow_tag = "foreshadow"
+
+    _recollection_tag = "recollection"
+
+    def __init__(self, design=None):
+        self._design = design
+
+    def __call__(self, score=None):
+        if score is None:
+            return
+        design_pitch_classes = self._get_design_pitch_classes()
+        score_pitch_classes = self._get_score_pitch_classes(score)
+        pairs = zip(design_pitch_classes, score_pitch_classes)
+        for index, pair in enumerate(pairs):
+            design_pitch_class, score_pitch_class = pair
+            if not design_pitch_class == score_pitch_class:
+                message = f"pitch-class mismatch at index {index}:"
+                message += f" design {design_pitch_class!r}"
+                message += " vs score {score_pitch_class!r}."
+                raise Exception(message)
+        total_design = len(design_pitch_classes)
+        total_score = len(score_pitch_classes)
+        if total_score < total_design:
+            message = f"{total_design} pcs; only {total_score} score pcs ..."
+        else:
+            message = f"{total_design} pcs with {total_score} score pcs ..."
+        if not total_design == total_score:
+            raise Exception(message)
+        print(message)
+
+    def _get_design_pitch_classes(self):
+        result = []
+        for item in self.design:
+            result.extend(item)
+        return result
+
+    def _get_score_pitch_classes(self, score):
+        result = []
+        notes = []
+        for note in abjad.iterate.components(score):
+            if not isinstance(note, abjad.Note):
+                continue
+            if abjad.get.indicator(note, self._foreshadow_tag):
+                continue
+            if abjad.get.indicator(note, self._recollection_tag):
+                continue
+            notes.append(note)
+        notes.sort(key=lambda _: abjad.get.timespan(_).start_offset)
+        for note in notes:
+            pitch_class = note.written_pitch.numbered_pitch_class
+            result.append(pitch_class)
+        return result
+
+    @property
+    def design(self):
+        return self._design
 
 
 class DesignMaker:
@@ -92,215 +373,6 @@ class DesignMaker:
         self._result.extend(parts)
 
 
-blue_pitch_classes = [[1, 0, 10], [5, 8, 6, 11, 2], [4, 3, 9]]
-blue_pitch_classes = baca.sequence.helianthate(blue_pitch_classes, -1, -1)
-assert len(blue_pitch_classes) == 45
-"""
-(0, [1, 0, 10])
-(1, [5, 8, 6, 11, 2])
-(2, [4, 3, 9])
-(3, [8, 6, 11, 2, 5])
-(4, [3, 9, 4])
-(5, [0, 10, 1])
-(6, [9, 4, 3])
-(7, [10, 1, 0])
-(8, [6, 11, 2, 5, 8])
-(9, [1, 0, 10])
-(10, [11, 2, 5, 8, 6])
-(11, [4, 3, 9])
-(12, [2, 5, 8, 6, 11])
-(13, [3, 9, 4])
-(14, [0, 10, 1])
-(15, [9, 4, 3])
-(16, [10, 1, 0])
-(17, [5, 8, 6, 11, 2])
-(18, [1, 0, 10])
-(19, [8, 6, 11, 2, 5])
-(20, [4, 3, 9])
-(21, [6, 11, 2, 5, 8])
-(22, [3, 9, 4])
-(23, [0, 10, 1])
-(24, [9, 4, 3])
-(25, [10, 1, 0])
-(26, [11, 2, 5, 8, 6])
-(27, [1, 0, 10])
-(28, [2, 5, 8, 6, 11])
-(29, [4, 3, 9])
-(30, [5, 8, 6, 11, 2])
-(31, [3, 9, 4])
-(32, [0, 10, 1])
-(33, [9, 4, 3])
-(34, [10, 1, 0])
-(35, [8, 6, 11, 2, 5])
-(36, [1, 0, 10])
-(37, [6, 11, 2, 5, 8])
-(38, [4, 3, 9])
-(39, [11, 2, 5, 8, 6])
-(40, [3, 9, 4])
-(41, [0, 10, 1])
-(42, [9, 4, 3])
-(43, [10, 1, 0])
-(44, [2, 5, 8, 6, 11])
-"""
-
-
-bright_green_pitch_classes = [
-    [6, 4, 5, 5.5, 6.5, 9],
-    [10, 7, 8, 11.5],
-    [2.5, 3.5, 11, 2, 3, 10.5],
-]
-bright_green_pitch_classes = baca.sequence.helianthate(
-    bright_green_pitch_classes, -1, -1
-)
-assert len(bright_green_pitch_classes) == 36
-"""
-(0, [6, 4, 5, 5.5, 6.5, 9])
-(1, [10, 7, 8, 11.5])
-(2, [2.5, 3.5, 11, 2, 3, 10.5])
-(3, [7, 8, 11.5, 10])
-(4, [3.5, 11, 2, 3, 10.5, 2.5])
-(5, [4, 5, 5.5, 6.5, 9, 6])
-(6, [11, 2, 3, 10.5, 2.5, 3.5])
-(7, [5, 5.5, 6.5, 9, 6, 4])
-(8, [8, 11.5, 10, 7])
-(9, [5.5, 6.5, 9, 6, 4, 5])
-(10, [11.5, 10, 7, 8])
-(11, [2, 3, 10.5, 2.5, 3.5, 11])
-(12, [10, 7, 8, 11.5])
-(13, [3, 10.5, 2.5, 3.5, 11, 2])
-(14, [6.5, 9, 6, 4, 5, 5.5])
-(15, [10.5, 2.5, 3.5, 11, 2, 3])
-(16, [9, 6, 4, 5, 5.5, 6.5])
-(17, [7, 8, 11.5, 10])
-(18, [6, 4, 5, 5.5, 6.5, 9])
-(19, [8, 11.5, 10, 7])
-(20, [2.5, 3.5, 11, 2, 3, 10.5])
-(21, [11.5, 10, 7, 8])
-(22, [3.5, 11, 2, 3, 10.5, 2.5])
-(23, [4, 5, 5.5, 6.5, 9, 6])
-(24, [11, 2, 3, 10.5, 2.5, 3.5])
-(25, [5, 5.5, 6.5, 9, 6, 4])
-(26, [10, 7, 8, 11.5])
-(27, [5.5, 6.5, 9, 6, 4, 5])
-(28, [7, 8, 11.5, 10])
-(29, [2, 3, 10.5, 2.5, 3.5, 11])
-(30, [8, 11.5, 10, 7])
-(31, [3, 10.5, 2.5, 3.5, 11, 2])
-(32, [6.5, 9, 6, 4, 5, 5.5])
-(33, [10.5, 2.5, 3.5, 11, 2, 3])
-(34, [9, 6, 4, 5, 5.5, 6.5])
-(35, [11.5, 10, 7, 8])
-"""
-
-green_pitch_classes = [[5, 9, 11, 10, 0], [6, 7, 8, 2, 1, 3]]
-green_pitch_classes = baca.sequence.helianthate(green_pitch_classes, -1, -1)
-assert len(green_pitch_classes) == 60
-"""
-(0, [5, 9, 11, 10, 0])
-(1, [6, 7, 8, 2, 1, 3])
-(2, [7, 8, 2, 1, 3, 6])
-(3, [9, 11, 10, 0, 5])
-(4, [11, 10, 0, 5, 9])
-(5, [8, 2, 1, 3, 6, 7])
-(6, [2, 1, 3, 6, 7, 8])
-(7, [10, 0, 5, 9, 11])
-(8, [0, 5, 9, 11, 10])
-(9, [1, 3, 6, 7, 8, 2])
-(10, [3, 6, 7, 8, 2, 1])
-(11, [5, 9, 11, 10, 0])
-(12, [9, 11, 10, 0, 5])
-(13, [6, 7, 8, 2, 1, 3])
-(14, [7, 8, 2, 1, 3, 6])
-(15, [11, 10, 0, 5, 9])
-(16, [10, 0, 5, 9, 11])
-(17, [8, 2, 1, 3, 6, 7])
-(18, [2, 1, 3, 6, 7, 8])
-(19, [0, 5, 9, 11, 10])
-(20, [5, 9, 11, 10, 0])
-(21, [1, 3, 6, 7, 8, 2])
-(22, [3, 6, 7, 8, 2, 1])
-(23, [9, 11, 10, 0, 5])
-(24, [11, 10, 0, 5, 9])
-(25, [6, 7, 8, 2, 1, 3])
-(26, [7, 8, 2, 1, 3, 6])
-(27, [10, 0, 5, 9, 11])
-(28, [0, 5, 9, 11, 10])
-(29, [8, 2, 1, 3, 6, 7])
-(30, [2, 1, 3, 6, 7, 8])
-(31, [5, 9, 11, 10, 0])
-(32, [9, 11, 10, 0, 5])
-(33, [1, 3, 6, 7, 8, 2])
-(34, [3, 6, 7, 8, 2, 1])
-(35, [11, 10, 0, 5, 9])
-(36, [10, 0, 5, 9, 11])
-(37, [6, 7, 8, 2, 1, 3])
-(38, [7, 8, 2, 1, 3, 6])
-(39, [0, 5, 9, 11, 10])
-(40, [5, 9, 11, 10, 0])
-(41, [8, 2, 1, 3, 6, 7])
-(42, [2, 1, 3, 6, 7, 8])
-(43, [9, 11, 10, 0, 5])
-(44, [11, 10, 0, 5, 9])
-(45, [1, 3, 6, 7, 8, 2])
-(46, [3, 6, 7, 8, 2, 1])
-(47, [10, 0, 5, 9, 11])
-(48, [0, 5, 9, 11, 10])
-(49, [6, 7, 8, 2, 1, 3])
-(50, [7, 8, 2, 1, 3, 6])
-(51, [5, 9, 11, 10, 0])
-(52, [9, 11, 10, 0, 5])
-(53, [8, 2, 1, 3, 6, 7])
-(54, [2, 1, 3, 6, 7, 8])
-(55, [11, 10, 0, 5, 9])
-(56, [10, 0, 5, 9, 11])
-(57, [1, 3, 6, 7, 8, 2])
-(58, [3, 6, 7, 8, 2, 1])
-(59, [0, 5, 9, 11, 10])
-"""
-
-magenta_pitch_classes = [[4, 6, 2, 3], [5, 9, 8, 0], [11, 10, 7]]
-magenta_pitch_classes = baca.sequence.helianthate(magenta_pitch_classes, -1, -1)
-assert len(magenta_pitch_classes) == 36
-"""
-(0, [4, 6, 2, 3])
-(1, [5, 9, 8, 0])
-(2, [11, 10, 7])
-(3, [9, 8, 0, 5])
-(4, [10, 7, 11])
-(5, [6, 2, 3, 4])
-(6, [7, 11, 10])
-(7, [2, 3, 4, 6])
-(8, [8, 0, 5, 9])
-(9, [3, 4, 6, 2])
-(10, [0, 5, 9, 8])
-(11, [11, 10, 7])
-(12, [5, 9, 8, 0])
-(13, [10, 7, 11])
-(14, [4, 6, 2, 3])
-(15, [7, 11, 10])
-(16, [6, 2, 3, 4])
-(17, [9, 8, 0, 5])
-(18, [2, 3, 4, 6])
-(19, [8, 0, 5, 9])
-(20, [11, 10, 7])
-(21, [0, 5, 9, 8])
-(22, [10, 7, 11])
-(23, [3, 4, 6, 2])
-(24, [7, 11, 10])
-(25, [4, 6, 2, 3])
-(26, [5, 9, 8, 0])
-(27, [6, 2, 3, 4])
-(28, [9, 8, 0, 5])
-(29, [11, 10, 7])
-(30, [8, 0, 5, 9])
-(31, [10, 7, 11])
-(32, [2, 3, 4, 6])
-(33, [7, 11, 10])
-(34, [3, 4, 6, 2])
-(35, [0, 5, 9, 8])
-"""
-
-
 def anchors():
     """
     Makes anchor commands.
@@ -320,6 +392,98 @@ def delicatissimo():
         rmakers.beam_groups(),
         baca.staccato(selector=lambda _: baca.select.pheads(_)),
     ]
+
+
+def design_1(start=None, stop=None):
+    design_maker = DesignMaker()
+    magenta_pitch_classes = _magenta_pitch_classes()
+    magenta_cursor = baca.Cursor.from_pitch_class_segments(magenta_pitch_classes)
+    blue_pitch_classes = _blue_pitch_classes()
+    blue_cursor = baca.Cursor.from_pitch_class_segments(blue_pitch_classes)
+    design_maker.partition(magenta_cursor, 2, [1])
+    design_maker.partition(magenta_cursor, 2, [1])
+    design_maker.partition(magenta_cursor, 2, [2])
+    design_maker.partition(magenta_cursor, 2, [2])
+    design_maker.partition(magenta_cursor, 2, [4])
+    design_maker.partition(magenta_cursor, 2, [4])
+    design_maker.partition(blue_cursor, 4, [], ["T0"])
+    design_maker.partition(magenta_cursor, 3, [2], ["T1"])
+    design_maker.partition(magenta_cursor, 3, [2], ["T1"])
+    design_maker.partition(magenta_cursor, 3, [4], ["T1"])
+    design_maker.partition(magenta_cursor, 3, [4], ["T1"])
+    design_maker.partition(blue_cursor, 4, [], ["T2"])
+    design_maker.partition(blue_cursor, 4, [], ["T2"])
+    design_maker.partition_cyclic(magenta_cursor, 8, [1, 3], ["alpha"])
+    design_maker.partition_cyclic(blue_cursor, 8, [1, 4], ["alpha"])
+    design = design_maker()
+    if start is None and stop is None:
+        return design
+    cells = design
+    pitch_lists = []
+    for cell in cells:
+        numbered_pitch_classes = cell
+        pitch_list = [_.number for _ in numbered_pitch_classes]
+        pitch_lists.append(pitch_list)
+    pitch_lists = pitch_lists[start:stop]
+    return pitch_lists
+
+
+def design_2(start=None, stop=None):
+    blue_pitch_classes = _blue_pitch_classes()
+    blue_cursor = baca.Cursor.from_pitch_class_segments(blue_pitch_classes)
+    green_pitch_classes = _green_pitch_classes()
+    green_cursor = baca.Cursor.from_pitch_class_segments(green_pitch_classes)
+    design_maker = DesignMaker()
+    design_maker.partition_cyclic(blue_cursor, 4, [4])
+    design_maker.partition_cyclic(blue_cursor, 6, [5])
+    design_maker.partition_cyclic(blue_cursor, 8, [6])
+    design_maker.partition(green_cursor, 4, [], ["T0"])
+    design_maker.partition_cyclic(blue_cursor, 12, [2, 3, 1, 3, 4], ["T1"])
+    design_maker.partition(green_cursor, 4, [], ["T2"])
+    design_maker.partition(green_cursor, 4, [], ["T2"])
+    design_maker.partition_cyclic(blue_cursor, 4, [6], ["alpha"])
+    design_maker.partition_cyclic(green_cursor, 4, [6], ["alpha"])
+    design = design_maker()
+    if start is None and stop is None:
+        return design
+    # cells = design.iterate(level=-2)
+    cells = design
+    pitch_lists = []
+    for cell in cells:
+        # numbered_pitch_classes = cell.get_payload()
+        numbered_pitch_classes = cell
+        pitch_list = [_.number for _ in numbered_pitch_classes]
+        pitch_lists.append(pitch_list)
+    pitch_lists = pitch_lists[start:stop]
+    return pitch_lists
+
+
+def design_3(start=None, stop=None):
+    green_pitch_classes = _green_pitch_classes()
+    green_cursor = baca.Cursor.from_pitch_class_segments(green_pitch_classes)
+    bright_green_pitch_classes = _bright_green_pitch_classes()
+    bright_green_cursor = baca.Cursor.from_pitch_class_segments(
+        bright_green_pitch_classes
+    )
+    design_maker = DesignMaker()
+    design_maker.partition_cyclic(green_cursor, 12, [6, 5, 4, 3, 2, 1])
+    design_maker.partition(bright_green_cursor, 6, [], ["T0"])
+    design_maker.partition_cyclic(green_cursor, 6, [6], ["T1"])
+    design_maker.partition(bright_green_cursor, 4, [], ["T2"])
+    design_maker.partition_cyclic(bright_green_cursor, 4, [5], ["T2"])
+    design_maker.partition_cyclic(green_cursor, 4, [6], ["alpha"])
+    design_maker.partition_cyclic(bright_green_cursor, 4, [5], ["alpha"])
+    design = design_maker()
+    if start is None and stop is None:
+        return design
+    cells = design
+    pitch_lists = []
+    for cell in cells:
+        numbered_pitch_classes = cell
+        pitch_list = [_.number for _ in numbered_pitch_classes]
+        pitch_lists.append(pitch_list)
+    pitch_lists = pitch_lists[start:stop]
+    return pitch_lists
 
 
 def forty_eighths():
@@ -364,6 +528,80 @@ def graced_tuplets():
         baca.bind([baca.assign(maker_1, abjad.index([0], 2)), baca.assign(maker_2)]),
         rmakers.beam_groups(beam_lone_notes=True),
     ]
+
+
+def group_rleaves(argument):
+    result = baca.rleaves(argument)
+    result = abjad.select.group(result)
+    return result
+
+
+def instruments():
+    return dict([("Guitar", abjad.Guitar(pitch_range="[E2, F5]"))])
+
+
+def make_empty_score():
+    tag = baca.tags.function_name(inspect.currentframe())
+    _instruments = instruments()
+    global_context = baca.score.make_global_context()
+    guitar_music_voice_1 = abjad.Voice(
+        lilypond_type="GuitarMusicVoiceI",
+        name="Guitar.Music_Voice.1",
+        tag=tag,
+    )
+    guitar_music_voice_2 = abjad.Voice(
+        lilypond_type="GuitarMusicVoiceII",
+        name="Guitar.Music_Voice.2",
+        tag=tag,
+    )
+    guitar_music_voice_3 = abjad.Voice(
+        lilypond_type="GuitarMusicVoiceIII",
+        name="Guitar.Music_Voice.3",
+        tag=tag,
+    )
+    guitar_music_voice_4 = abjad.Voice(
+        lilypond_type="GuitarMusicVoiceIV",
+        name="Guitar.Music_Voice.4",
+        tag=tag,
+    )
+    guitar_music_staff = abjad.Staff(
+        [
+            guitar_music_voice_1,
+            guitar_music_voice_2,
+            guitar_music_voice_3,
+            guitar_music_voice_4,
+        ],
+        lilypond_type="GuitarMusicStaff",
+        simultaneous=True,
+        name="Guitar.Music_Staff",
+        tag=tag,
+    )
+    abjad.annotate(
+        guitar_music_staff,
+        "default_instrument",
+        _instruments["Guitar"],
+    )
+    abjad.annotate(guitar_music_staff, "default_clef", abjad.Clef("treble"))
+    music_context = abjad.Context(
+        [guitar_music_staff],
+        lilypond_type="MusicContext",
+        name="Music_Context",
+        tag=tag,
+    )
+    score = abjad.Score([global_context, music_context], name="Score", tag=tag)
+    baca.score.assert_lilypond_identifiers(score)
+    baca.score.assert_unique_context_names(score)
+    # baca.score.assert_matching_custom_context_names(score)
+    return score
+
+
+def metronome_marks():
+    return dict(
+        [
+            ("44", abjad.MetronomeMark((1, 8), 44)),
+            ("66", abjad.MetronomeMark((1, 8), 66)),
+        ]
+    )
 
 
 def monads():
@@ -415,12 +653,6 @@ def rests(duration=None):
     ]
 
 
-def nontrivial_tuplets(argument):
-    result = abjad.select.tuplets(argument)
-    result = [_ for _ in result if 1 < len(_)]
-    return result
-
-
 def running():
     """
     Makes running commands.
@@ -428,7 +660,7 @@ def running():
     return [
         baca.figure([1], 64, treatments=[-1]),
         rmakers.beam_groups(),
-        baca.slur(map=nontrivial_tuplets),
+        baca.slur(map=_select_nontrivial_tuplets),
     ]
 
 
@@ -525,217 +757,10 @@ def waves(denominator: int = 64, inverted: bool = False):
     ]
 
 
-def design_1(start=None, stop=None):
-    design_maker = DesignMaker()
-    magenta_cursor = baca.Cursor.from_pitch_class_segments(magenta_pitch_classes)
-    blue_cursor = baca.Cursor.from_pitch_class_segments(blue_pitch_classes)
-    design_maker.partition(magenta_cursor, 2, [1])
-    design_maker.partition(magenta_cursor, 2, [1])
-    design_maker.partition(magenta_cursor, 2, [2])
-    design_maker.partition(magenta_cursor, 2, [2])
-    design_maker.partition(magenta_cursor, 2, [4])
-    design_maker.partition(magenta_cursor, 2, [4])
-    design_maker.partition(blue_cursor, 4, [], ["T0"])
-    design_maker.partition(magenta_cursor, 3, [2], ["T1"])
-    design_maker.partition(magenta_cursor, 3, [2], ["T1"])
-    design_maker.partition(magenta_cursor, 3, [4], ["T1"])
-    design_maker.partition(magenta_cursor, 3, [4], ["T1"])
-    design_maker.partition(blue_cursor, 4, [], ["T2"])
-    design_maker.partition(blue_cursor, 4, [], ["T2"])
-    design_maker.partition_cyclic(magenta_cursor, 8, [1, 3], ["alpha"])
-    design_maker.partition_cyclic(blue_cursor, 8, [1, 4], ["alpha"])
-    design = design_maker()
-    if start is None and stop is None:
-        return design
-    cells = design
-    pitch_lists = []
-    for cell in cells:
-        numbered_pitch_classes = cell
-        pitch_list = [_.number for _ in numbered_pitch_classes]
-        pitch_lists.append(pitch_list)
-    pitch_lists = pitch_lists[start:stop]
-    return pitch_lists
-
-
-def design_2(start=None, stop=None):
-    blue_cursor = baca.Cursor.from_pitch_class_segments(blue_pitch_classes)
-    green_cursor = baca.Cursor.from_pitch_class_segments(green_pitch_classes)
-    design_maker = DesignMaker()
-    design_maker.partition_cyclic(blue_cursor, 4, [4])
-    design_maker.partition_cyclic(blue_cursor, 6, [5])
-    design_maker.partition_cyclic(blue_cursor, 8, [6])
-    design_maker.partition(green_cursor, 4, [], ["T0"])
-    design_maker.partition_cyclic(blue_cursor, 12, [2, 3, 1, 3, 4], ["T1"])
-    design_maker.partition(green_cursor, 4, [], ["T2"])
-    design_maker.partition(green_cursor, 4, [], ["T2"])
-    design_maker.partition_cyclic(blue_cursor, 4, [6], ["alpha"])
-    design_maker.partition_cyclic(green_cursor, 4, [6], ["alpha"])
-    design = design_maker()
-    if start is None and stop is None:
-        return design
-    # cells = design.iterate(level=-2)
-    cells = design
-    pitch_lists = []
-    for cell in cells:
-        # numbered_pitch_classes = cell.get_payload()
-        numbered_pitch_classes = cell
-        pitch_list = [_.number for _ in numbered_pitch_classes]
-        pitch_lists.append(pitch_list)
-    pitch_lists = pitch_lists[start:stop]
-    return pitch_lists
-
-
-def design_3(start=None, stop=None):
-    green_cursor = baca.Cursor.from_pitch_class_segments(green_pitch_classes)
-    bright_green_cursor = baca.Cursor.from_pitch_class_segments(
-        bright_green_pitch_classes
-    )
-    design_maker = DesignMaker()
-    design_maker.partition_cyclic(green_cursor, 12, [6, 5, 4, 3, 2, 1])
-    design_maker.partition(bright_green_cursor, 6, [], ["T0"])
-    design_maker.partition_cyclic(green_cursor, 6, [6], ["T1"])
-    design_maker.partition(bright_green_cursor, 4, [], ["T2"])
-    design_maker.partition_cyclic(bright_green_cursor, 4, [5], ["T2"])
-    design_maker.partition_cyclic(green_cursor, 4, [6], ["alpha"])
-    design_maker.partition_cyclic(bright_green_cursor, 4, [5], ["alpha"])
-    design = design_maker()
-    if start is None and stop is None:
-        return design
-    cells = design
-    pitch_lists = []
-    for cell in cells:
-        numbered_pitch_classes = cell
-        pitch_list = [_.number for _ in numbered_pitch_classes]
-        pitch_lists.append(pitch_list)
-    pitch_lists = pitch_lists[start:stop]
-    return pitch_lists
-
-
-class DesignChecker:
-
-    __slots__ = ("_design",)
-
-    _foreshadow_tag = "foreshadow"
-
-    _recollection_tag = "recollection"
-
-    def __init__(self, design=None):
-        self._design = design
-
-    def __call__(self, score=None):
-        if score is None:
-            return
-        design_pitch_classes = self._get_design_pitch_classes()
-        score_pitch_classes = self._get_score_pitch_classes(score)
-        pairs = zip(design_pitch_classes, score_pitch_classes)
-        for index, pair in enumerate(pairs):
-            design_pitch_class, score_pitch_class = pair
-            if not design_pitch_class == score_pitch_class:
-                message = f"pitch-class mismatch at index {index}:"
-                message += f" design {design_pitch_class!r}"
-                message += " vs score {score_pitch_class!r}."
-                raise Exception(message)
-        total_design = len(design_pitch_classes)
-        total_score = len(score_pitch_classes)
-        if total_score < total_design:
-            message = f"{total_design} pcs; only {total_score} score pcs ..."
-        else:
-            message = f"{total_design} pcs with {total_score} score pcs ..."
-        if not total_design == total_score:
-            raise Exception(message)
-        print(message)
-
-    def _get_design_pitch_classes(self):
-        result = []
-        for item in self.design:
-            result.extend(item)
-        return result
-
-    def _get_score_pitch_classes(self, score):
-        result = []
-        notes = []
-        for note in abjad.iterate.components(score):
-            if not isinstance(note, abjad.Note):
-                continue
-            if abjad.get.indicator(note, self._foreshadow_tag):
-                continue
-            if abjad.get.indicator(note, self._recollection_tag):
-                continue
-            notes.append(note)
-        notes.sort(key=lambda _: abjad.get.timespan(_).start_offset)
-        for note in notes:
-            pitch_class = note.written_pitch.numbered_pitch_class
-            result.append(pitch_class)
-        return result
-
-    @property
-    def design(self):
-        return self._design
-
-
-voice_abbreviations = {
-    "v1": "Guitar.Music_Voice.1",
-    "v2": "Guitar.Music_Voice.2",
-    "v3": "Guitar.Music_Voice.3",
-    "v4": "Guitar.Music_Voice.4",
-}
-
-
-def group_rleaves(argument):
-    result = baca.rleaves(argument)
-    result = abjad.select.group(result)
-    return result
-
-
-def make_empty_score():
-    tag = baca.tags.function_name(inspect.currentframe())
-    global_context = baca.score.make_global_context()
-    guitar_music_voice_1 = abjad.Voice(
-        lilypond_type="GuitarMusicVoiceI",
-        name="Guitar.Music_Voice.1",
-        tag=tag,
-    )
-    guitar_music_voice_2 = abjad.Voice(
-        lilypond_type="GuitarMusicVoiceII",
-        name="Guitar.Music_Voice.2",
-        tag=tag,
-    )
-    guitar_music_voice_3 = abjad.Voice(
-        lilypond_type="GuitarMusicVoiceIII",
-        name="Guitar.Music_Voice.3",
-        tag=tag,
-    )
-    guitar_music_voice_4 = abjad.Voice(
-        lilypond_type="GuitarMusicVoiceIV",
-        name="Guitar.Music_Voice.4",
-        tag=tag,
-    )
-    guitar_music_staff = abjad.Staff(
-        [
-            guitar_music_voice_1,
-            guitar_music_voice_2,
-            guitar_music_voice_3,
-            guitar_music_voice_4,
-        ],
-        lilypond_type="GuitarMusicStaff",
-        simultaneous=True,
-        name="Guitar.Music_Staff",
-        tag=tag,
-    )
-    abjad.annotate(
-        guitar_music_staff,
-        "default_instrument",
-        instruments["Guitar"],
-    )
-    abjad.annotate(guitar_music_staff, "default_clef", abjad.Clef("treble"))
-    music_context = abjad.Context(
-        [guitar_music_staff],
-        lilypond_type="MusicContext",
-        name="Music_Context",
-        tag=tag,
-    )
-    score = abjad.Score([global_context, music_context], name="Score", tag=tag)
-    baca.score.assert_lilypond_identifiers(score)
-    baca.score.assert_unique_context_names(score)
-    # baca.score.assert_matching_custom_context_names(score)
-    return score
+def voice_abbreviations():
+    return {
+        "v1": "Guitar.Music_Voice.1",
+        "v2": "Guitar.Music_Voice.2",
+        "v3": "Guitar.Music_Voice.3",
+        "v4": "Guitar.Music_Voice.4",
+    }

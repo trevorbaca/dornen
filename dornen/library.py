@@ -546,22 +546,22 @@ def make_empty_score():
     global_context = baca.score.make_global_context()
     guitar_music_voice_1 = abjad.Voice(
         lilypond_type="GuitarMusicVoiceI",
-        name="Guitar.Music_Voice.1",
+        name="Guitar.MusicVoice.1",
         tag=tag,
     )
     guitar_music_voice_2 = abjad.Voice(
         lilypond_type="GuitarMusicVoiceII",
-        name="Guitar.Music_Voice.2",
+        name="Guitar.MusicVoice.2",
         tag=tag,
     )
     guitar_music_voice_3 = abjad.Voice(
         lilypond_type="GuitarMusicVoiceIII",
-        name="Guitar.Music_Voice.3",
+        name="Guitar.MusicVoice.3",
         tag=tag,
     )
     guitar_music_voice_4 = abjad.Voice(
         lilypond_type="GuitarMusicVoiceIV",
-        name="Guitar.Music_Voice.4",
+        name="Guitar.MusicVoice.4",
         tag=tag,
     )
     guitar_music_staff = abjad.Staff(
@@ -759,8 +759,8 @@ def waves(denominator: int = 64, inverted: bool = False):
 
 def voice_abbreviations():
     return {
-        "v1": "Guitar.Music_Voice.1",
-        "v2": "Guitar.Music_Voice.2",
-        "v3": "Guitar.Music_Voice.3",
-        "v4": "Guitar.Music_Voice.4",
+        "v1": "Guitar.MusicVoice.1",
+        "v2": "Guitar.MusicVoice.2",
+        "v3": "Guitar.MusicVoice.3",
+        "v4": "Guitar.MusicVoice.4",
     }

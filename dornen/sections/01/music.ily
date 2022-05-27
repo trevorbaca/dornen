@@ -1140,9 +1140,9 @@ number.1.Guitar.MusicVoice.1 = {
             %@% - \tweak color #blue
               %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (1) \hspace #1 "0" ] }
-              %! DEFAULT_INSTRUMENT_ALERT
+              %! EXPLICIT_INSTRUMENT_ALERT
               %! baca._attach_latent_indicator_alert()
-            ^ \baca-default-indicator-markup "(“Guitar”)"
+            ^ \baca-explicit-indicator-markup "(“Guitar”)"
             % START_BEAM:
             [
             % ABSOLUTE_AFTER:

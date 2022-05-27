@@ -1605,7 +1605,7 @@ number.1.Guitar.Music_Voice.1 = {
         % OPEN_BRACKETS:
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(6)
-        \context Voice = "Guitar.Rest_Voice.1"
+        \context Voice = "Guitar.RestVoice.1"
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(6)
         {
@@ -1615,7 +1615,7 @@ number.1.Guitar.Music_Voice.1 = {
               %! PHANTOM
               %! baca._comment_measure_numbers()
               %! baca._style_phantom_measures(5)
-            % [Guitar.Rest_Voice.1 measure 20]
+            % [Guitar.RestVoice.1 measure 20]
             % OPENING:
             % COMMANDS:
               %! PHANTOM
@@ -2442,7 +2442,7 @@ number.1.Guitar.Music_Voice.2 = {
         % OPEN_BRACKETS:
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(6)
-        \context Voice = "Guitar.Rest_Voice.2"
+        \context Voice = "Guitar.RestVoice.2"
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(6)
         {
@@ -2452,7 +2452,7 @@ number.1.Guitar.Music_Voice.2 = {
               %! PHANTOM
               %! baca._comment_measure_numbers()
               %! baca._style_phantom_measures(5)
-            % [Guitar.Rest_Voice.2 measure 20]
+            % [Guitar.RestVoice.2 measure 20]
             % OPENING:
             % COMMANDS:
               %! PHANTOM
@@ -2950,7 +2950,7 @@ number.1.Guitar.Music_Voice.3 = {
         % OPEN_BRACKETS:
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(6)
-        \context Voice = "Guitar.Rest_Voice.3"
+        \context Voice = "Guitar.RestVoice.3"
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(6)
         {
@@ -2960,7 +2960,7 @@ number.1.Guitar.Music_Voice.3 = {
               %! PHANTOM
               %! baca._comment_measure_numbers()
               %! baca._style_phantom_measures(5)
-            % [Guitar.Rest_Voice.3 measure 20]
+            % [Guitar.RestVoice.3 measure 20]
             % OPENING:
             % COMMANDS:
               %! PHANTOM
@@ -3690,7 +3690,7 @@ number.1.Guitar.Music_Voice.4 = {
         % OPEN_BRACKETS:
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(6)
-        \context Voice = "Guitar.Rest_Voice.4"
+        \context Voice = "Guitar.RestVoice.4"
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(6)
         {
@@ -3700,7 +3700,7 @@ number.1.Guitar.Music_Voice.4 = {
               %! PHANTOM
               %! baca._comment_measure_numbers()
               %! baca._style_phantom_measures(5)
-            % [Guitar.Rest_Voice.4 measure 20]
+            % [Guitar.RestVoice.4 measure 20]
             % OPENING:
             % COMMANDS:
               %! PHANTOM

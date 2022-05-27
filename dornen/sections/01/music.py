@@ -211,6 +211,7 @@ figures(
 )
 
 voice_names = baca.accumulator.get_voice_names(score)
+instruments = library.instruments()
 
 commands = baca.CommandAccumulator(
     **baca.section_accumulation_defaults(),
@@ -236,10 +237,17 @@ music_voices = [_ for _ in voice_names if "MusicVoice" in _]
 commands(
     music_voices,
     baca.append_phantom_measure(),
-    baca.attach_first_section_default_indicators(),
+    baca.attach_first_section_default_indicators(
+        attach_instruments_by_hand=True,
+    ),
 )
 
 # v3
+
+commands(
+    "v1",
+    baca.instrument(instruments["Guitar"]),
+)
 
 commands(
     ("v3", (18, 19)),

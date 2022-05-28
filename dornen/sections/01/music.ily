@@ -1115,21 +1115,35 @@ number.1.Guitar.MusicVoice.1 = {
               %! baca.OverrideCommand._call(1)
               %! baca.beam_positions()
             \once \override Beam.positions = #'(6 . 6)
+              %! MEASURE_1
+              %! SHIFTED_CLEF
+              %! baca.OverrideCommand._call(1)
+              %! baca.clef_shift()
+              %! baca.clef_x_extent_false()
+        %%% \once \override GuitarMusicStaff.Clef.X-extent = ##f
+              %! MEASURE_1
+              %! SHIFTED_CLEF
+              %! baca.OverrideCommand._call(1)
+              %! baca.clef_extra_offset()
+              %! baca.clef_shift()
+        %%% \once \override GuitarMusicStaff.Clef.extra-offset = #'(-2.5 . 0)
             % OPENING:
             % COMMANDS:
-              %! DEFAULT_CLEF
-              %! baca._attach_default_indicators(3)
+              %! EXPLICIT_CLEF
+              %! baca.IndicatorCommand._call()
               %! baca._set_status_tag()
+              %! baca.clef()
             \clef "treble"
-              %! DEFAULT_CLEF_COLOR
+              %! EXPLICIT_CLEF_COLOR
               %! baca._attach_color_literal(2)
-            \once \override GuitarMusicStaff.Clef.color = #(x11-color 'DarkViolet)
-              %! DEFAULT_CLEF_COLOR_CANCELLATION
+            \once \override GuitarMusicStaff.Clef.color = #(x11-color 'blue)
+              %! EXPLICIT_CLEF_COLOR_CANCELLATION
               %! baca._attach_color_literal(1)
             %@% \override GuitarMusicStaff.Clef.color = ##f
-              %! DEFAULT_CLEF
-              %! baca._attach_default_indicators(3)
+              %! EXPLICIT_CLEF
+              %! baca.IndicatorCommand._call()
               %! baca._set_status_tag()
+              %! baca.clef()
               %! baca.treat_persistent_wrapper(2)
             \set GuitarMusicStaff.forceClef = ##t
               %! baca.make_music()
@@ -1147,9 +1161,9 @@ number.1.Guitar.MusicVoice.1 = {
             [
             % ABSOLUTE_AFTER:
             % COMMANDS:
-              %! DEFAULT_CLEF_REDRAW_COLOR
+              %! EXPLICIT_CLEF_REDRAW_COLOR
               %! baca._attach_color_literal(2)
-            \override GuitarMusicStaff.Clef.color = #(x11-color 'violet)
+            \override GuitarMusicStaff.Clef.color = #(x11-color 'DeepSkyBlue2)
             % CLOSING:
             % COMMANDS:
 

@@ -542,7 +542,6 @@ def instruments():
 
 def make_empty_score():
     tag = baca.tags.function_name(inspect.currentframe())
-    _instruments = instruments()
     global_context = baca.score.make_global_context()
     guitar_music_voice_1 = abjad.Voice(
         lilypond_type="GuitarMusicVoiceI",

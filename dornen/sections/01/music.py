@@ -237,9 +237,6 @@ music_voices = [_ for _ in voice_names if "MusicVoice" in _]
 commands(
     music_voices,
     baca.append_phantom_measure(),
-    baca.attach_first_section_default_indicators(
-        attach_instruments_by_hand=True,
-    ),
 )
 
 # v3
@@ -247,6 +244,7 @@ commands(
 commands(
     "v1",
     baca.instrument(instruments["Guitar"]),
+    baca.clef("treble"),
 )
 
 commands(

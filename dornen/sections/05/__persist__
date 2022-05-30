@@ -7,13 +7,9 @@
         "Guitar.Music_Staff",
         "GlobalRests",
         "Guitar.MusicVoice.1",
-        "Guitar.RestVoice.1",
         "Guitar.MusicVoice.2",
-        "Guitar.RestVoice.2",
         "Guitar.MusicVoice.3",
-        "Guitar.RestVoice.3",
         "Guitar.MusicVoice.4",
-        "Guitar.RestVoice.4",
     ],
     "persistent_indicators": {
         "Guitar.Music_Staff": [

@@ -230,15 +230,6 @@ commands(
     baca.metronome_mark("44", lambda _: abjad.select.leaf(_, 1 - 1)),
 )
 
-# phantom & reapply
-
-music_voices = [_ for _ in voice_names if "MusicVoice" in _]
-
-commands(
-    music_voices,
-    baca.append_phantom_measure(),
-)
-
 # v3
 
 commands(

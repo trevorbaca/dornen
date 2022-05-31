@@ -2524,20 +2524,12 @@ number.13.GlobalRests = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca._comment_measure_numbers()
-    % [GlobalRests measure 46]
-      %! baca._make_global_rests(1)
-    R1 * 5/8
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
-
       %! PHANTOM
       %! baca._comment_measure_numbers()
       %! baca._style_phantom_measures(4)
-    % [GlobalRests measure 47]
-      %! PHANTOM
-      %! baca._make_global_rests(2)
-    R1 * 1/4
+    % [GlobalRests measure 46]
+      %! baca._make_global_rests(1)
+    R1 * 5/8
     % CLOSING:
     % COMMANDS:
 

@@ -214,7 +214,6 @@ voice_names = baca.accumulator.get_voice_names(score)
 instruments = library.instruments()
 
 commands = baca.CommandAccumulator(
-    **baca.section_accumulation_defaults(),
     instruments=library.instruments(),
     metronome_marks=library.metronome_marks(),
     skips_instead_of_rests=True,

@@ -537,7 +537,7 @@ def group_rleaves(argument):
 
 
 def instruments():
-    return dict([("Guitar", abjad.Guitar(pitch_range="[E2, F5]"))])
+    return dict([("Guitar", abjad.Guitar(pitch_range=abjad.PitchRange("[E2, F5]")))])
 
 
 def make_empty_score():

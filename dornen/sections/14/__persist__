@@ -6,15 +6,15 @@
         "MusicContext",
         "Guitar.Music_Staff",
         "GlobalRests",
-        "Guitar.MusicVoice.1",
-        "Guitar.MusicVoice.2",
-        "Guitar.MusicVoice.3",
-        "Guitar.MusicVoice.4",
+        "Guitar.Music.1",
+        "Guitar.Music.2",
+        "Guitar.Music.3",
+        "Guitar.Music.4",
     ],
     "persistent_indicators": {
-        "Guitar.MusicVoice.1": [
+        "Guitar.Music.1": [
             baca.Memento(
-                context="Guitar.MusicVoice.1",
+                context="Guitar.Music.1",
                 edition=None,
                 manifest=None,
                 prototype="abjad.Dynamic",
@@ -24,7 +24,7 @@
         ],
         "Guitar.Music_Staff": [
             baca.Memento(
-                context="Guitar.MusicVoice.1",
+                context="Guitar.Music.1",
                 edition=None,
                 manifest="instruments",
                 prototype=None,
@@ -32,7 +32,7 @@
                 value="Guitar",
             ),
             baca.Memento(
-                context="Guitar.MusicVoice.1",
+                context="Guitar.Music.1",
                 edition=None,
                 manifest=None,
                 prototype="abjad.Clef",

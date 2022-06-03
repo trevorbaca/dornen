@@ -3,7 +3,7 @@
         "Score",
         "GlobalContext",
         "GlobalSkips",
-        "Music_Context",
+        "MusicContext",
         "Guitar.Music_Staff",
         "GlobalRests",
         "Guitar.MusicVoice.1",

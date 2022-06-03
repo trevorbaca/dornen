@@ -66,7 +66,7 @@
 
             % OPEN_BRACKETS:
               %! dornen.make_empty_score()
-            \context MusicContext = "Music_Context"
+            \context MusicContext = "MusicContext"
               %! dornen.make_empty_score()
             {
                 % ABSOLUTE_BEFORE:

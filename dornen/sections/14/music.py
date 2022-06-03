@@ -401,7 +401,7 @@ commands(
 )
 
 commands(
-    ("GlobalSkips", -1),
+    ("Skips", -1),
     baca.bar_line("|.", lambda _: baca.select.skip(_, -1)),
 )
 

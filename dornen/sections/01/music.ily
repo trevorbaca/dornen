@@ -1145,7 +1145,7 @@ number.1.Guitar.Music.1 = {
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (1) \hspace #1 "0" ] }
               %! EXPLICIT_INSTRUMENT_ALERT
               %! baca._attach_latent_indicator_alert()
-            ^ \baca-explicit-indicator-markup "(“Guitar”)"
+            ^ \baca-explicit-instrument-markup "(“Guitar”)"
             % START_BEAM:
             [
             % ABSOLUTE_AFTER:

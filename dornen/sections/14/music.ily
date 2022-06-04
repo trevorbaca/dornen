@@ -2436,7 +2436,7 @@ number.14.Guitar.Music.1 = {
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (1) ] }
               %! REAPPLIED_INSTRUMENT_ALERT
               %! baca._attach_latent_indicator_alert()
-            ^ \baca-reapplied-indicator-markup "(“Guitar”)"
+            ^ \baca-reapplied-instrument-markup "(“Guitar”)"
               %! baca.IndicatorCommand._call()
               %! baca.markup()
             ^ \dornen-lh-only-until-rascado-markup

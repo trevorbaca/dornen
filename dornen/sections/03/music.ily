@@ -2081,7 +2081,7 @@ number.3.Guitar.Music.1 = {
             %@% ^ \baca-duration-multiplier-markup #"256" #"1024"
               %! REAPPLIED_INSTRUMENT_ALERT
               %! baca._attach_latent_indicator_alert()
-            ^ \baca-reapplied-indicator-markup "(“Guitar”)"
+            ^ \baca-reapplied-instrument-markup "(“Guitar”)"
             % START_BEAM:
             [
             % ABSOLUTE_AFTER:

@@ -151,10 +151,10 @@ baca.interpret.set_up_score(
 
 figures.populate_commands(commands)
 
-commands(
-    "Skips",
-    baca.metronome_mark("44", lambda _: abjad.select.leaf(_, 9 - 1)),
-)
+skips = score["Skips"]
+manifests = commands.manifests()
+
+baca.commands._metronome_mark(skips[9 - 1], commands.metronome_marks["44"], manifests)
 
 # reapply
 

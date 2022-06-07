@@ -342,6 +342,7 @@ commands = baca.CommandAccumulator(
 
 baca.interpret.set_up_score(
     score,
+    commands,
     commands.manifests(),
     commands.time_signatures,
     append_anchor_skip=True,
@@ -409,10 +410,7 @@ commands(
     ),
 )
 
-commands(
-    ("Skips", -1),
-    baca.bar_line("|.", lambda _: baca.select.skip(_, -1)),
-)
+baca.commands._bar_line(score["Skips"][42 - 1], "|.")
 
 defaults = baca.score_interpretation_defaults()
 del defaults["check_wellformedness"]

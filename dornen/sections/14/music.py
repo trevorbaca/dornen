@@ -410,7 +410,7 @@ commands(
     ),
 )
 
-baca.commands._bar_line(score["Skips"][42 - 1], "|.")
+baca.bar_line(score["Skips"][42 - 1], "|.")
 
 defaults = baca.score_interpretation_defaults()
 del defaults["check_wellformedness"]

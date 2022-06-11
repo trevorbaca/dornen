@@ -1254,15 +1254,15 @@ number.10.Guitar.Music.1 = {
             \clef "treble"
               %! REAPPLIED_CLEF_COLOR
               %! baca._attach_color_literal(2)
-            \once \override GuitarMusicStaff.Clef.color = #(x11-color 'green4)
+            \once \override Staff.Clef.color = #(x11-color 'green4)
               %! REAPPLIED_CLEF_COLOR_CANCELLATION
               %! baca._attach_color_literal(1)
-            %@% \override GuitarMusicStaff.Clef.color = ##f
+            %@% \override Staff.Clef.color = ##f
               %! REAPPLIED_CLEF
               %! baca._reapply_persistent_indicators(3)
               %! baca._set_status_tag()
               %! baca.treat_persistent_wrapper(2)
-            \set GuitarMusicStaff.forceClef = ##t
+            \set Staff.forceClef = ##t
               %! baca.make_music()
             r8
             % AFTER:
@@ -1278,7 +1278,7 @@ number.10.Guitar.Music.1 = {
             % COMMANDS:
               %! REAPPLIED_CLEF_REDRAW_COLOR
               %! baca._attach_color_literal(2)
-            \override GuitarMusicStaff.Clef.color = #(x11-color 'OliveDrab)
+            \override Staff.Clef.color = #(x11-color 'OliveDrab)
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
@@ -2944,7 +2944,7 @@ number.10.Guitar.Music.4 = {
 
 
   %! baca.path.extern()
-number.10.Guitar.Music_Staff = <<
+number.10.Guitar.Staff = <<
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -2959,7 +2959,7 @@ number.10.Guitar.Music_Staff = <<
 
     % OPEN_BRACKETS:
       %! dornen.make_empty_score()
-    \context GuitarMusicVoiceI = "Guitar.Music.1"
+    \context GuitarMusicI = "Guitar.Music.1"
       %! dornen.make_empty_score()
       %! baca.path.extern()
     { \number.10.Guitar.Music.1 }
@@ -2968,7 +2968,7 @@ number.10.Guitar.Music_Staff = <<
 
     % OPEN_BRACKETS:
       %! dornen.make_empty_score()
-    \context GuitarMusicVoiceII = "Guitar.Music.2"
+    \context GuitarMusicII = "Guitar.Music.2"
       %! dornen.make_empty_score()
       %! baca.path.extern()
     { \number.10.Guitar.Music.2 }
@@ -2977,7 +2977,7 @@ number.10.Guitar.Music_Staff = <<
 
     % OPEN_BRACKETS:
       %! dornen.make_empty_score()
-    \context GuitarMusicVoiceIII = "Guitar.Music.3"
+    \context GuitarMusicIII = "Guitar.Music.3"
       %! dornen.make_empty_score()
       %! baca.path.extern()
     { \number.10.Guitar.Music.3 }
@@ -2986,7 +2986,7 @@ number.10.Guitar.Music_Staff = <<
 
     % OPEN_BRACKETS:
       %! dornen.make_empty_score()
-    \context GuitarMusicVoiceIV = "Guitar.Music.4"
+    \context GuitarMusicIV = "Guitar.Music.4"
       %! dornen.make_empty_score()
       %! baca.path.extern()
     { \number.10.Guitar.Music.4 }

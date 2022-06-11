@@ -4,7 +4,7 @@
         "GlobalContext",
         "Skips",
         "MusicContext",
-        "Guitar.Music_Staff",
+        "Guitar.Staff",
         "Rests",
         "Guitar.Music.1",
         "Guitar.Music.2",
@@ -12,7 +12,7 @@
         "Guitar.Music.4",
     ],
     "persistent_indicators": {
-        "Guitar.Music_Staff": [
+        "Guitar.Staff": [
             baca.Memento(
                 context="Guitar.Music.1",
                 edition=None,

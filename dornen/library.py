@@ -544,22 +544,22 @@ def make_empty_score():
     tag = baca.tags.function_name(inspect.currentframe())
     global_context = baca.score.make_global_context()
     guitar_music_voice_1 = abjad.Voice(
-        lilypond_type="GuitarMusicVoiceI",
+        lilypond_type="GuitarMusicI",
         name="Guitar.Music.1",
         tag=tag,
     )
     guitar_music_voice_2 = abjad.Voice(
-        lilypond_type="GuitarMusicVoiceII",
+        lilypond_type="GuitarMusicII",
         name="Guitar.Music.2",
         tag=tag,
     )
     guitar_music_voice_3 = abjad.Voice(
-        lilypond_type="GuitarMusicVoiceIII",
+        lilypond_type="GuitarMusicIII",
         name="Guitar.Music.3",
         tag=tag,
     )
     guitar_music_voice_4 = abjad.Voice(
-        lilypond_type="GuitarMusicVoiceIV",
+        lilypond_type="GuitarMusicIV",
         name="Guitar.Music.4",
         tag=tag,
     )
@@ -570,9 +570,8 @@ def make_empty_score():
             guitar_music_voice_3,
             guitar_music_voice_4,
         ],
-        lilypond_type="GuitarMusicStaff",
         simultaneous=True,
-        name="Guitar.Music_Staff",
+        name="Guitar.Staff",
         tag=tag,
     )
     music_context = abjad.Context(

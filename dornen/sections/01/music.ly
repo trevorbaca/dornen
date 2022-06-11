@@ -75,10 +75,10 @@
 
                 % OPEN_BRACKETS:
                   %! dornen.make_empty_score()
-                \context GuitarMusicStaff = "Guitar.Music_Staff"
+                \context Staff = "Guitar.Staff"
                   %! dornen.make_empty_score()
                   %! baca.path.extern()
-                { \number.1.Guitar.Music_Staff }
+                { \number.1.Guitar.Staff }
                 % CLOSING:
                 % COMMANDS:
 

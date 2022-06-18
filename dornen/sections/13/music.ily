@@ -2542,17 +2542,13 @@ number.13.Guitar.Music.1 = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! baca.make_music()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
         % OPEN_BRACKETS:
-          %! baca.make_music()
         \tweak edge-height #'(0.7 . 0)
-          %! baca.make_music()
         \times 4/5
-          %! baca.make_music()
         {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2584,7 +2580,6 @@ number.13.Guitar.Music.1 = {
               %! baca._set_status_tag()
               %! baca.treat_persistent_wrapper(2)
             \set Staff.forceClef = ##t
-              %! baca.make_music()
             e2
             % AFTER:
             % STEM_TREMOLOS:
@@ -2624,36 +2619,29 @@ number.13.Guitar.Music.1 = {
             % COMMANDS:
 
         % CLOSE_BRACKETS:
-          %! baca.make_music()
         }
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! baca.make_music()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! baca.make_music()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
         % OPEN_BRACKETS:
-          %! baca.make_music()
         \tweak edge-height #'(0.7 . 0)
-          %! baca.make_music()
         \times 4/5
-          %! baca.make_music()
         {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Guitar.Music.1 measure 2]
-              %! baca.make_music()
             e2
             % AFTER:
             % STEM_TREMOLOS:
@@ -2730,36 +2718,29 @@ number.13.Guitar.Music.1 = {
             % COMMANDS:
 
         % CLOSE_BRACKETS:
-          %! baca.make_music()
         }
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! baca.make_music()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! baca.make_music()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
         % OPEN_BRACKETS:
-          %! baca.make_music()
         \tweak edge-height #'(0.7 . 0)
-          %! baca.make_music()
         \times 2/3
-          %! baca.make_music()
         {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Guitar.Music.1 measure 3]
-              %! baca.make_music()
             e2
             % AFTER:
             % STEM_TREMOLOS:
@@ -2803,36 +2784,29 @@ number.13.Guitar.Music.1 = {
             % COMMANDS:
 
         % CLOSE_BRACKETS:
-          %! baca.make_music()
         }
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! baca.make_music()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! baca.make_music()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
         % OPEN_BRACKETS:
-          %! baca.make_music()
         \tweak edge-height #'(0.7 . 0)
-          %! baca.make_music()
         \times 2/3
-          %! baca.make_music()
         {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Guitar.Music.1 measure 4]
-              %! baca.make_music()
             e2
             % AFTER:
             % STEM_TREMOLOS:
@@ -2909,36 +2883,29 @@ number.13.Guitar.Music.1 = {
             % COMMANDS:
 
         % CLOSE_BRACKETS:
-          %! baca.make_music()
         }
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! baca.make_music()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! baca.make_music()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
         % OPEN_BRACKETS:
-          %! baca.make_music()
         \tweak edge-height #'(0.7 . 0)
-          %! baca.make_music()
         \times 2/3
-          %! baca.make_music()
         {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Guitar.Music.1 measure 5]
-              %! baca.make_music()
             e2
             % AFTER:
             % STEM_TREMOLOS:
@@ -2982,36 +2949,29 @@ number.13.Guitar.Music.1 = {
             % COMMANDS:
 
         % CLOSE_BRACKETS:
-          %! baca.make_music()
         }
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! baca.make_music()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! baca.make_music()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
         % OPEN_BRACKETS:
-          %! baca.make_music()
         \tweak edge-height #'(0.7 . 0)
-          %! baca.make_music()
         \times 4/5
-          %! baca.make_music()
         {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Guitar.Music.1 measure 6]
-              %! baca.make_music()
             e2
             % AFTER:
             % STEM_TREMOLOS:
@@ -3038,36 +2998,29 @@ number.13.Guitar.Music.1 = {
             % COMMANDS:
 
         % CLOSE_BRACKETS:
-          %! baca.make_music()
         }
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! baca.make_music()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! baca.make_music()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
         % OPEN_BRACKETS:
-          %! baca.make_music()
         \tweak edge-height #'(0.7 . 0)
-          %! baca.make_music()
         \times 4/5
-          %! baca.make_music()
         {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Guitar.Music.1 measure 7]
-              %! baca.make_music()
             e2
             % AFTER:
             % STEM_TREMOLOS:
@@ -3144,36 +3097,29 @@ number.13.Guitar.Music.1 = {
             % COMMANDS:
 
         % CLOSE_BRACKETS:
-          %! baca.make_music()
         }
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! baca.make_music()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! baca.make_music()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
         % OPEN_BRACKETS:
-          %! baca.make_music()
         \tweak edge-height #'(0.7 . 0)
-          %! baca.make_music()
         \times 2/3
-          %! baca.make_music()
         {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Guitar.Music.1 measure 8]
-              %! baca.make_music()
             e2
             % AFTER:
             % STEM_TREMOLOS:
@@ -3217,36 +3163,29 @@ number.13.Guitar.Music.1 = {
             % COMMANDS:
 
         % CLOSE_BRACKETS:
-          %! baca.make_music()
         }
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! baca.make_music()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! baca.make_music()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
         % OPEN_BRACKETS:
-          %! baca.make_music()
         \tweak edge-height #'(0.7 . 0)
-          %! baca.make_music()
         \times 2/3
-          %! baca.make_music()
         {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Guitar.Music.1 measure 9]
-              %! baca.make_music()
             e2
             % AFTER:
             % STEM_TREMOLOS:
@@ -3323,36 +3262,29 @@ number.13.Guitar.Music.1 = {
             % COMMANDS:
 
         % CLOSE_BRACKETS:
-          %! baca.make_music()
         }
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! baca.make_music()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! baca.make_music()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
         % OPEN_BRACKETS:
-          %! baca.make_music()
         \tweak edge-height #'(0.7 . 0)
-          %! baca.make_music()
         \times 2/3
-          %! baca.make_music()
         {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Guitar.Music.1 measure 10]
-              %! baca.make_music()
             e2
             % AFTER:
             % STEM_TREMOLOS:
@@ -3396,36 +3328,29 @@ number.13.Guitar.Music.1 = {
             % COMMANDS:
 
         % CLOSE_BRACKETS:
-          %! baca.make_music()
         }
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! baca.make_music()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! baca.make_music()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
         % OPEN_BRACKETS:
-          %! baca.make_music()
         \tweak edge-height #'(0.7 . 0)
-          %! baca.make_music()
         \times 4/5
-          %! baca.make_music()
         {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Guitar.Music.1 measure 11]
-              %! baca.make_music()
             e2
             % AFTER:
             % STEM_TREMOLOS:
@@ -3452,36 +3377,29 @@ number.13.Guitar.Music.1 = {
             % COMMANDS:
 
         % CLOSE_BRACKETS:
-          %! baca.make_music()
         }
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! baca.make_music()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! baca.make_music()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
         % OPEN_BRACKETS:
-          %! baca.make_music()
         \tweak edge-height #'(0.7 . 0)
-          %! baca.make_music()
         \times 4/5
-          %! baca.make_music()
         {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Guitar.Music.1 measure 12]
-              %! baca.make_music()
             e2
             % AFTER:
             % STEM_TREMOLOS:
@@ -3558,36 +3476,29 @@ number.13.Guitar.Music.1 = {
             % COMMANDS:
 
         % CLOSE_BRACKETS:
-          %! baca.make_music()
         }
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! baca.make_music()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! baca.make_music()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
         % OPEN_BRACKETS:
-          %! baca.make_music()
         \tweak edge-height #'(0.7 . 0)
-          %! baca.make_music()
         \times 2/3
-          %! baca.make_music()
         {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Guitar.Music.1 measure 13]
-              %! baca.make_music()
             e2
             % AFTER:
             % STEM_TREMOLOS:
@@ -3631,36 +3542,29 @@ number.13.Guitar.Music.1 = {
             % COMMANDS:
 
         % CLOSE_BRACKETS:
-          %! baca.make_music()
         }
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! baca.make_music()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! baca.make_music()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
         % OPEN_BRACKETS:
-          %! baca.make_music()
         \tweak edge-height #'(0.7 . 0)
-          %! baca.make_music()
         \times 2/3
-          %! baca.make_music()
         {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Guitar.Music.1 measure 14]
-              %! baca.make_music()
             e2
             % AFTER:
             % STEM_TREMOLOS:
@@ -3713,36 +3617,29 @@ number.13.Guitar.Music.1 = {
             % COMMANDS:
 
         % CLOSE_BRACKETS:
-          %! baca.make_music()
         }
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! baca.make_music()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! baca.make_music()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
         % OPEN_BRACKETS:
-          %! baca.make_music()
         \tweak edge-height #'(0.7 . 0)
-          %! baca.make_music()
         \times 2/3
-          %! baca.make_music()
         {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Guitar.Music.1 measure 15]
-              %! baca.make_music()
             e2
             % AFTER:
             % STEM_TREMOLOS:
@@ -3781,36 +3678,29 @@ number.13.Guitar.Music.1 = {
             % COMMANDS:
 
         % CLOSE_BRACKETS:
-          %! baca.make_music()
         }
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! baca.make_music()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! baca.make_music()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
         % OPEN_BRACKETS:
-          %! baca.make_music()
         \tweak edge-height #'(0.7 . 0)
-          %! baca.make_music()
         \times 4/5
-          %! baca.make_music()
         {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Guitar.Music.1 measure 16]
-              %! baca.make_music()
             e2
             % AFTER:
             % STEM_TREMOLOS:
@@ -3887,36 +3777,29 @@ number.13.Guitar.Music.1 = {
             % COMMANDS:
 
         % CLOSE_BRACKETS:
-          %! baca.make_music()
         }
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! baca.make_music()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! baca.make_music()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
         % OPEN_BRACKETS:
-          %! baca.make_music()
         \tweak edge-height #'(0.7 . 0)
-          %! baca.make_music()
         \times 2/3
-          %! baca.make_music()
         {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Guitar.Music.1 measure 17]
-              %! baca.make_music()
             e2
             % AFTER:
             % STEM_TREMOLOS:
@@ -3959,7 +3842,6 @@ number.13.Guitar.Music.1 = {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
-              %! baca.make_music()
             e2
             % AFTER:
             % STEM_TREMOLOS:
@@ -3978,36 +3860,29 @@ number.13.Guitar.Music.1 = {
             % COMMANDS:
 
         % CLOSE_BRACKETS:
-          %! baca.make_music()
         }
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! baca.make_music()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! baca.make_music()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
         % OPEN_BRACKETS:
-          %! baca.make_music()
         \tweak edge-height #'(0.7 . 0)
-          %! baca.make_music()
         \times 4/5
-          %! baca.make_music()
         {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Guitar.Music.1 measure 18]
-              %! baca.make_music()
             e2
             % AFTER:
             % STEM_TREMOLOS:
@@ -4084,36 +3959,29 @@ number.13.Guitar.Music.1 = {
             % COMMANDS:
 
         % CLOSE_BRACKETS:
-          %! baca.make_music()
         }
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! baca.make_music()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! baca.make_music()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
         % OPEN_BRACKETS:
-          %! baca.make_music()
         \tweak edge-height #'(0.7 . 0)
-          %! baca.make_music()
         \times 4/5
-          %! baca.make_music()
         {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Guitar.Music.1 measure 19]
-              %! baca.make_music()
             e2
             % AFTER:
             % STEM_TREMOLOS:
@@ -4157,36 +4025,29 @@ number.13.Guitar.Music.1 = {
             % COMMANDS:
 
         % CLOSE_BRACKETS:
-          %! baca.make_music()
         }
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! baca.make_music()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! baca.make_music()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
         % OPEN_BRACKETS:
-          %! baca.make_music()
         \tweak edge-height #'(0.7 . 0)
-          %! baca.make_music()
         \times 4/5
-          %! baca.make_music()
         {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Guitar.Music.1 measure 20]
-              %! baca.make_music()
             e2
             % AFTER:
             % STEM_TREMOLOS:
@@ -4263,34 +4124,28 @@ number.13.Guitar.Music.1 = {
             % COMMANDS:
 
         % CLOSE_BRACKETS:
-          %! baca.make_music()
         }
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! baca.make_music()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! baca.make_music()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
         % OPEN_BRACKETS:
-          %! baca.make_music()
         \times 2/3
-          %! baca.make_music()
         {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Guitar.Music.1 measure 21]
-              %! baca.make_music()
             e2
             % AFTER:
             % STEM_TREMOLOS:
@@ -4333,7 +4188,6 @@ number.13.Guitar.Music.1 = {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
-              %! baca.make_music()
             e2
             % AFTER:
             % STEM_TREMOLOS:
@@ -4351,7 +4205,6 @@ number.13.Guitar.Music.1 = {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
-              %! baca.make_music()
             e2
             % AFTER:
             % STEM_TREMOLOS:
@@ -4370,36 +4223,29 @@ number.13.Guitar.Music.1 = {
             % COMMANDS:
 
         % CLOSE_BRACKETS:
-          %! baca.make_music()
         }
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! baca.make_music()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! baca.make_music()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
         % OPEN_BRACKETS:
-          %! baca.make_music()
         \tweak edge-height #'(0.7 . 0)
-          %! baca.make_music()
         \times 4/5
-          %! baca.make_music()
         {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Guitar.Music.1 measure 22]
-              %! baca.make_music()
             e2
             % AFTER:
             % STEM_TREMOLOS:
@@ -4476,36 +4322,29 @@ number.13.Guitar.Music.1 = {
             % COMMANDS:
 
         % CLOSE_BRACKETS:
-          %! baca.make_music()
         }
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! baca.make_music()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! baca.make_music()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
         % OPEN_BRACKETS:
-          %! baca.make_music()
         \tweak edge-height #'(0.7 . 0)
-          %! baca.make_music()
         \times 4/5
-          %! baca.make_music()
         {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Guitar.Music.1 measure 23]
-              %! baca.make_music()
             e2
             % AFTER:
             % STEM_TREMOLOS:
@@ -4549,36 +4388,29 @@ number.13.Guitar.Music.1 = {
             % COMMANDS:
 
         % CLOSE_BRACKETS:
-          %! baca.make_music()
         }
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! baca.make_music()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! baca.make_music()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
         % OPEN_BRACKETS:
-          %! baca.make_music()
         \tweak edge-height #'(0.7 . 0)
-          %! baca.make_music()
         \times 4/5
-          %! baca.make_music()
         {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Guitar.Music.1 measure 24]
-              %! baca.make_music()
             e2
             % AFTER:
             % STEM_TREMOLOS:
@@ -4655,36 +4487,29 @@ number.13.Guitar.Music.1 = {
             % COMMANDS:
 
         % CLOSE_BRACKETS:
-          %! baca.make_music()
         }
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! baca.make_music()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! baca.make_music()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
         % OPEN_BRACKETS:
-          %! baca.make_music()
         \tweak edge-height #'(0.7 . 0)
-          %! baca.make_music()
         \times 2/3
-          %! baca.make_music()
         {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Guitar.Music.1 measure 25]
-              %! baca.make_music()
             e2
             % AFTER:
             % STEM_TREMOLOS:
@@ -4707,7 +4532,6 @@ number.13.Guitar.Music.1 = {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
-              %! baca.make_music()
             e2
             % AFTER:
             % STEM_TREMOLOS:
@@ -4725,7 +4549,6 @@ number.13.Guitar.Music.1 = {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
-              %! baca.make_music()
             e2
             % AFTER:
             % STEM_TREMOLOS:
@@ -4743,7 +4566,6 @@ number.13.Guitar.Music.1 = {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
-              %! baca.make_music()
             e2
             % AFTER:
             % STEM_TREMOLOS:
@@ -4762,36 +4584,29 @@ number.13.Guitar.Music.1 = {
             % COMMANDS:
 
         % CLOSE_BRACKETS:
-          %! baca.make_music()
         }
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! baca.make_music()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! baca.make_music()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
         % OPEN_BRACKETS:
-          %! baca.make_music()
         \tweak edge-height #'(0.7 . 0)
-          %! baca.make_music()
         \times 2/3
-          %! baca.make_music()
         {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Guitar.Music.1 measure 26]
-              %! baca.make_music()
             e2
             % AFTER:
             % STEM_TREMOLOS:
@@ -4834,7 +4649,6 @@ number.13.Guitar.Music.1 = {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
-              %! baca.make_music()
             e2
             % AFTER:
             % STEM_TREMOLOS:
@@ -4852,7 +4666,6 @@ number.13.Guitar.Music.1 = {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
-              %! baca.make_music()
             e2
             % AFTER:
             % STEM_TREMOLOS:
@@ -4870,7 +4683,6 @@ number.13.Guitar.Music.1 = {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
-              %! baca.make_music()
             e2
             % AFTER:
             % STEM_TREMOLOS:
@@ -4888,7 +4700,6 @@ number.13.Guitar.Music.1 = {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
-              %! baca.make_music()
             e2
             % AFTER:
             % STEM_TREMOLOS:
@@ -4907,36 +4718,29 @@ number.13.Guitar.Music.1 = {
             % COMMANDS:
 
         % CLOSE_BRACKETS:
-          %! baca.make_music()
         }
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! baca.make_music()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! baca.make_music()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
         % OPEN_BRACKETS:
-          %! baca.make_music()
         \tweak edge-height #'(0.7 . 0)
-          %! baca.make_music()
         \times 2/3
-          %! baca.make_music()
         {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Guitar.Music.1 measure 27]
-              %! baca.make_music()
             e2
             % AFTER:
             % STEM_TREMOLOS:
@@ -5012,7 +4816,6 @@ number.13.Guitar.Music.1 = {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
-              %! baca.make_music()
             e2
             % AFTER:
             % STEM_TREMOLOS:
@@ -5030,7 +4833,6 @@ number.13.Guitar.Music.1 = {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
-              %! baca.make_music()
             e2
             % AFTER:
             % STEM_TREMOLOS:
@@ -5048,7 +4850,6 @@ number.13.Guitar.Music.1 = {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
-              %! baca.make_music()
             e2
             % AFTER:
             % STEM_TREMOLOS:
@@ -5067,34 +4868,28 @@ number.13.Guitar.Music.1 = {
             % COMMANDS:
 
         % CLOSE_BRACKETS:
-          %! baca.make_music()
         }
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! baca.make_music()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! baca.make_music()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
         % OPEN_BRACKETS:
-          %! baca.make_music()
         \times 2/3
-          %! baca.make_music()
         {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Guitar.Music.1 measure 28]
-              %! baca.make_music()
             e2
             % AFTER:
             % STEM_TREMOLOS:
@@ -5146,7 +4941,6 @@ number.13.Guitar.Music.1 = {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
-              %! baca.make_music()
             e2
             % AFTER:
             % STEM_TREMOLOS:
@@ -5164,7 +4958,6 @@ number.13.Guitar.Music.1 = {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
-              %! baca.make_music()
             e2
             % AFTER:
             % STEM_TREMOLOS:
@@ -5183,36 +4976,29 @@ number.13.Guitar.Music.1 = {
             % COMMANDS:
 
         % CLOSE_BRACKETS:
-          %! baca.make_music()
         }
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! baca.make_music()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! baca.make_music()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
         % OPEN_BRACKETS:
-          %! baca.make_music()
         \tweak edge-height #'(0.7 . 0)
-          %! baca.make_music()
         \times 2/3
-          %! baca.make_music()
         {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Guitar.Music.1 measure 29]
-              %! baca.make_music()
             e2
             % AFTER:
             % STEM_TREMOLOS:
@@ -5264,7 +5050,6 @@ number.13.Guitar.Music.1 = {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
-              %! baca.make_music()
             e2
             % AFTER:
             % STEM_TREMOLOS:
@@ -5283,36 +5068,29 @@ number.13.Guitar.Music.1 = {
             % COMMANDS:
 
         % CLOSE_BRACKETS:
-          %! baca.make_music()
         }
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! baca.make_music()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! baca.make_music()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
         % OPEN_BRACKETS:
-          %! baca.make_music()
         \tweak edge-height #'(0.7 . 0)
-          %! baca.make_music()
         \times 2/3
-          %! baca.make_music()
         {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Guitar.Music.1 measure 30]
-              %! baca.make_music()
             e2
             % AFTER:
             % STEM_TREMOLOS:
@@ -5365,36 +5143,29 @@ number.13.Guitar.Music.1 = {
             % COMMANDS:
 
         % CLOSE_BRACKETS:
-          %! baca.make_music()
         }
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! baca.make_music()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! baca.make_music()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
         % OPEN_BRACKETS:
-          %! baca.make_music()
         \tweak edge-height #'(0.7 . 0)
-          %! baca.make_music()
         \times 2/3
-          %! baca.make_music()
         {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Guitar.Music.1 measure 31]
-              %! baca.make_music()
             e2
             % AFTER:
             % STEM_TREMOLOS:
@@ -5446,7 +5217,6 @@ number.13.Guitar.Music.1 = {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
-              %! baca.make_music()
             e2
             % AFTER:
             % STEM_TREMOLOS:
@@ -5465,34 +5235,28 @@ number.13.Guitar.Music.1 = {
             % COMMANDS:
 
         % CLOSE_BRACKETS:
-          %! baca.make_music()
         }
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! baca.make_music()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! baca.make_music()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
         % OPEN_BRACKETS:
-          %! baca.make_music()
         \times 2/3
-          %! baca.make_music()
         {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Guitar.Music.1 measure 32]
-              %! baca.make_music()
             e2
             % AFTER:
             % STEM_TREMOLOS:
@@ -5544,7 +5308,6 @@ number.13.Guitar.Music.1 = {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
-              %! baca.make_music()
             e2
             % AFTER:
             % STEM_TREMOLOS:
@@ -5562,7 +5325,6 @@ number.13.Guitar.Music.1 = {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
-              %! baca.make_music()
             e2
             % AFTER:
             % STEM_TREMOLOS:
@@ -5581,36 +5343,29 @@ number.13.Guitar.Music.1 = {
             % COMMANDS:
 
         % CLOSE_BRACKETS:
-          %! baca.make_music()
         }
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! baca.make_music()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! baca.make_music()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
         % OPEN_BRACKETS:
-          %! baca.make_music()
         \tweak edge-height #'(0.7 . 0)
-          %! baca.make_music()
         \times 2/3
-          %! baca.make_music()
         {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Guitar.Music.1 measure 33]
-              %! baca.make_music()
             e2
             % AFTER:
             % STEM_TREMOLOS:
@@ -5662,7 +5417,6 @@ number.13.Guitar.Music.1 = {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
-              %! baca.make_music()
             e2
             % AFTER:
             % STEM_TREMOLOS:
@@ -5680,7 +5434,6 @@ number.13.Guitar.Music.1 = {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
-              %! baca.make_music()
             e2
             % AFTER:
             % STEM_TREMOLOS:
@@ -5698,7 +5451,6 @@ number.13.Guitar.Music.1 = {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
-              %! baca.make_music()
             e2
             % AFTER:
             % STEM_TREMOLOS:
@@ -5717,36 +5469,29 @@ number.13.Guitar.Music.1 = {
             % COMMANDS:
 
         % CLOSE_BRACKETS:
-          %! baca.make_music()
         }
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! baca.make_music()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! baca.make_music()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
         % OPEN_BRACKETS:
-          %! baca.make_music()
         \tweak edge-height #'(0.7 . 0)
-          %! baca.make_music()
         \times 2/3
-          %! baca.make_music()
         {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Guitar.Music.1 measure 34]
-              %! baca.make_music()
             e2
             % AFTER:
             % STEM_TREMOLOS:
@@ -5798,7 +5543,6 @@ number.13.Guitar.Music.1 = {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
-              %! baca.make_music()
             e2
             % AFTER:
             % STEM_TREMOLOS:
@@ -5816,7 +5560,6 @@ number.13.Guitar.Music.1 = {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
-              %! baca.make_music()
             e2
             % AFTER:
             % STEM_TREMOLOS:
@@ -5834,7 +5577,6 @@ number.13.Guitar.Music.1 = {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
-              %! baca.make_music()
             e2
             % AFTER:
             % STEM_TREMOLOS:
@@ -5852,7 +5594,6 @@ number.13.Guitar.Music.1 = {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
-              %! baca.make_music()
             e2
             % AFTER:
             % STEM_TREMOLOS:
@@ -5871,36 +5612,29 @@ number.13.Guitar.Music.1 = {
             % COMMANDS:
 
         % CLOSE_BRACKETS:
-          %! baca.make_music()
         }
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! baca.make_music()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! baca.make_music()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
         % OPEN_BRACKETS:
-          %! baca.make_music()
         \tweak edge-height #'(0.7 . 0)
-          %! baca.make_music()
         \times 2/3
-          %! baca.make_music()
         {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Guitar.Music.1 measure 35]
-              %! baca.make_music()
             e2
             % AFTER:
             % STEM_TREMOLOS:
@@ -5952,7 +5686,6 @@ number.13.Guitar.Music.1 = {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
-              %! baca.make_music()
             e2
             % AFTER:
             % STEM_TREMOLOS:
@@ -5970,7 +5703,6 @@ number.13.Guitar.Music.1 = {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
-              %! baca.make_music()
             e2
             % AFTER:
             % STEM_TREMOLOS:
@@ -5988,7 +5720,6 @@ number.13.Guitar.Music.1 = {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
-              %! baca.make_music()
             e2
             % AFTER:
             % STEM_TREMOLOS:
@@ -6007,34 +5738,28 @@ number.13.Guitar.Music.1 = {
             % COMMANDS:
 
         % CLOSE_BRACKETS:
-          %! baca.make_music()
         }
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! baca.make_music()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! baca.make_music()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
         % OPEN_BRACKETS:
-          %! baca.make_music()
         \times 2/3
-          %! baca.make_music()
         {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Guitar.Music.1 measure 36]
-              %! baca.make_music()
             e2
             % AFTER:
             % STEM_TREMOLOS:
@@ -6086,7 +5811,6 @@ number.13.Guitar.Music.1 = {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
-              %! baca.make_music()
             e2
             % AFTER:
             % STEM_TREMOLOS:
@@ -6104,7 +5828,6 @@ number.13.Guitar.Music.1 = {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
-              %! baca.make_music()
             e2
             % AFTER:
             % STEM_TREMOLOS:
@@ -6123,36 +5846,29 @@ number.13.Guitar.Music.1 = {
             % COMMANDS:
 
         % CLOSE_BRACKETS:
-          %! baca.make_music()
         }
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! baca.make_music()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! baca.make_music()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
         % OPEN_BRACKETS:
-          %! baca.make_music()
         \tweak edge-height #'(0.7 . 0)
-          %! baca.make_music()
         \times 2/3
-          %! baca.make_music()
         {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Guitar.Music.1 measure 37]
-              %! baca.make_music()
             e2
             % AFTER:
             % STEM_TREMOLOS:
@@ -6209,7 +5925,6 @@ number.13.Guitar.Music.1 = {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
-              %! baca.make_music()
             e2
             % AFTER:
             % STEM_TREMOLOS:
@@ -6228,36 +5943,29 @@ number.13.Guitar.Music.1 = {
             % COMMANDS:
 
         % CLOSE_BRACKETS:
-          %! baca.make_music()
         }
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! baca.make_music()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! baca.make_music()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
         % OPEN_BRACKETS:
-          %! baca.make_music()
         \tweak edge-height #'(0.7 . 0)
-          %! baca.make_music()
         \times 2/3
-          %! baca.make_music()
         {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Guitar.Music.1 measure 38]
-              %! baca.make_music()
             e2
             % AFTER:
             % STEM_TREMOLOS:
@@ -6310,36 +6018,29 @@ number.13.Guitar.Music.1 = {
             % COMMANDS:
 
         % CLOSE_BRACKETS:
-          %! baca.make_music()
         }
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! baca.make_music()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! baca.make_music()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
         % OPEN_BRACKETS:
-          %! baca.make_music()
         \tweak edge-height #'(0.7 . 0)
-          %! baca.make_music()
         \times 2/3
-          %! baca.make_music()
         {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Guitar.Music.1 measure 39]
-              %! baca.make_music()
             e2
             % AFTER:
             % STEM_TREMOLOS:
@@ -6391,7 +6092,6 @@ number.13.Guitar.Music.1 = {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
-              %! baca.make_music()
             e2
             % AFTER:
             % STEM_TREMOLOS:
@@ -6410,34 +6110,28 @@ number.13.Guitar.Music.1 = {
             % COMMANDS:
 
         % CLOSE_BRACKETS:
-          %! baca.make_music()
         }
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! baca.make_music()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! baca.make_music()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
         % OPEN_BRACKETS:
-          %! baca.make_music()
         \times 2/3
-          %! baca.make_music()
         {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Guitar.Music.1 measure 40]
-              %! baca.make_music()
             e2
             % AFTER:
             % STEM_TREMOLOS:
@@ -6489,7 +6183,6 @@ number.13.Guitar.Music.1 = {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
-              %! baca.make_music()
             e2
             % AFTER:
             % STEM_TREMOLOS:
@@ -6507,7 +6200,6 @@ number.13.Guitar.Music.1 = {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
-              %! baca.make_music()
             e2
             % AFTER:
             % STEM_TREMOLOS:
@@ -6526,36 +6218,29 @@ number.13.Guitar.Music.1 = {
             % COMMANDS:
 
         % CLOSE_BRACKETS:
-          %! baca.make_music()
         }
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! baca.make_music()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! baca.make_music()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
         % OPEN_BRACKETS:
-          %! baca.make_music()
         \tweak edge-height #'(0.7 . 0)
-          %! baca.make_music()
         \times 2/3
-          %! baca.make_music()
         {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Guitar.Music.1 measure 41]
-              %! baca.make_music()
             e2
             % AFTER:
             % STEM_TREMOLOS:
@@ -6631,7 +6316,6 @@ number.13.Guitar.Music.1 = {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
-              %! baca.make_music()
             e2
             % AFTER:
             % STEM_TREMOLOS:
@@ -6649,7 +6333,6 @@ number.13.Guitar.Music.1 = {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
-              %! baca.make_music()
             e2
             % AFTER:
             % STEM_TREMOLOS:
@@ -6667,7 +6350,6 @@ number.13.Guitar.Music.1 = {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
-              %! baca.make_music()
             e2
             % AFTER:
             % STEM_TREMOLOS:
@@ -6686,36 +6368,29 @@ number.13.Guitar.Music.1 = {
             % COMMANDS:
 
         % CLOSE_BRACKETS:
-          %! baca.make_music()
         }
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! baca.make_music()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! baca.make_music()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
         % OPEN_BRACKETS:
-          %! baca.make_music()
         \tweak edge-height #'(0.7 . 0)
-          %! baca.make_music()
         \times 2/3
-          %! baca.make_music()
         {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Guitar.Music.1 measure 42]
-              %! baca.make_music()
             e2
             % AFTER:
             % STEM_TREMOLOS:
@@ -6767,7 +6442,6 @@ number.13.Guitar.Music.1 = {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
-              %! baca.make_music()
             e2
             % AFTER:
             % STEM_TREMOLOS:
@@ -6785,7 +6459,6 @@ number.13.Guitar.Music.1 = {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
-              %! baca.make_music()
             e2
             % AFTER:
             % STEM_TREMOLOS:
@@ -6803,7 +6476,6 @@ number.13.Guitar.Music.1 = {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
-              %! baca.make_music()
             e2
             % AFTER:
             % STEM_TREMOLOS:
@@ -6821,7 +6493,6 @@ number.13.Guitar.Music.1 = {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
-              %! baca.make_music()
             e2
             % AFTER:
             % STEM_TREMOLOS:
@@ -6840,34 +6511,28 @@ number.13.Guitar.Music.1 = {
             % COMMANDS:
 
         % CLOSE_BRACKETS:
-          %! baca.make_music()
         }
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! baca.make_music()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! baca.make_music()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
         % OPEN_BRACKETS:
-          %! baca.make_music()
         \times 2/3
-          %! baca.make_music()
         {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Guitar.Music.1 measure 43]
-              %! baca.make_music()
             e2
             % AFTER:
             % STEM_TREMOLOS:
@@ -6919,7 +6584,6 @@ number.13.Guitar.Music.1 = {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
-              %! baca.make_music()
             e2
             % AFTER:
             % STEM_TREMOLOS:
@@ -6937,7 +6601,6 @@ number.13.Guitar.Music.1 = {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
-              %! baca.make_music()
             e2
             % AFTER:
             % STEM_TREMOLOS:
@@ -6956,36 +6619,29 @@ number.13.Guitar.Music.1 = {
             % COMMANDS:
 
         % CLOSE_BRACKETS:
-          %! baca.make_music()
         }
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! baca.make_music()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! baca.make_music()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
         % OPEN_BRACKETS:
-          %! baca.make_music()
         \tweak edge-height #'(0.7 . 0)
-          %! baca.make_music()
         \times 2/3
-          %! baca.make_music()
         {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Guitar.Music.1 measure 44]
-              %! baca.make_music()
             e2
             % AFTER:
             % STEM_TREMOLOS:
@@ -7037,7 +6693,6 @@ number.13.Guitar.Music.1 = {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
-              %! baca.make_music()
             e2
             % AFTER:
             % STEM_TREMOLOS:
@@ -7056,36 +6711,29 @@ number.13.Guitar.Music.1 = {
             % COMMANDS:
 
         % CLOSE_BRACKETS:
-          %! baca.make_music()
         }
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! baca.make_music()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! baca.make_music()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
         % OPEN_BRACKETS:
-          %! baca.make_music()
         \tweak edge-height #'(0.7 . 0)
-          %! baca.make_music()
         \times 2/3
-          %! baca.make_music()
         {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Guitar.Music.1 measure 45]
-              %! baca.make_music()
             e2
             % AFTER:
             % STEM_TREMOLOS:
@@ -7146,27 +6794,22 @@ number.13.Guitar.Music.1 = {
             % COMMANDS:
 
         % CLOSE_BRACKETS:
-          %! baca.make_music()
         }
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! baca.make_music()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! baca.make_music()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
         % OPEN_BRACKETS:
-          %! baca.make_music()
         \scaleDurations #'(1 . 1)
-          %! baca.make_music()
         {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -7178,7 +6821,6 @@ number.13.Guitar.Music.1 = {
               %! baca.OverrideCommand._call(1)
               %! baca.text_script_staff_padding()
             \once \override TextScript.staff-padding = 5.5
-              %! baca.make_music()
             r8
             % AFTER:
             % ARTICULATIONS:
@@ -7209,22 +6851,18 @@ number.13.Guitar.Music.1 = {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
-              %! baca.make_music()
             r8
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
-              %! baca.make_music()
             r8
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
-              %! baca.make_music()
             r8
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
-              %! baca.make_music()
             r8
             % AFTER:
             % COMMANDS:
@@ -7238,13 +6876,11 @@ number.13.Guitar.Music.1 = {
             % COMMANDS:
 
         % CLOSE_BRACKETS:
-          %! baca.make_music()
         }
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! baca.make_music()
     }
     % CLOSING:
     % COMMANDS:
@@ -7262,7 +6898,6 @@ number.13.Guitar.Music.2 = {
 
       %! baca._comment_measure_numbers()
     % [Guitar.Music.2 measure 1]
-      %! baca.make_music()
     s1 * 3779/120
     % CLOSING:
     % COMMANDS:
@@ -7280,7 +6915,6 @@ number.13.Guitar.Music.3 = {
 
       %! baca._comment_measure_numbers()
     % [Guitar.Music.3 measure 1]
-      %! baca.make_music()
     s1 * 3779/120
     % CLOSING:
     % COMMANDS:
@@ -7298,7 +6932,6 @@ number.13.Guitar.Music.4 = {
 
       %! baca._comment_measure_numbers()
     % [Guitar.Music.4 measure 1]
-      %! baca.make_music()
     s1 * 3779/120
     % CLOSING:
     % COMMANDS:

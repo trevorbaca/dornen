@@ -206,7 +206,7 @@ baca.interpret.set_up_score(
     attach_nonfirst_empty_start_bar=True,
 )
 
-figures.populate_commands(commands)
+figures.populate_commands(score, commands)
 
 # reapply
 

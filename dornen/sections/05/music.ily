@@ -1735,15 +1735,12 @@ number.5.Guitar.Music.1 = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! baca.make_music()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
         % OPEN_BRACKETS:
-          %! baca.make_music()
         \scaleDurations #'(1 . 1)
-          %! baca.make_music()
         {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -1775,7 +1772,6 @@ number.5.Guitar.Music.1 = {
               %! baca._set_status_tag()
               %! baca.treat_persistent_wrapper(2)
             \set Staff.forceClef = ##t
-              %! baca.make_music()
             d'32.
             % AFTER:
             % ARTICULATIONS:
@@ -1807,7 +1803,6 @@ number.5.Guitar.Music.1 = {
             % COMMANDS:
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 1
-              %! baca.make_music()
             cs'!32.
             % AFTER:
             % ARTICULATIONS:
@@ -1818,34 +1813,28 @@ number.5.Guitar.Music.1 = {
             % COMMANDS:
 
         % CLOSE_BRACKETS:
-          %! baca.make_music()
         }
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! baca.make_music()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Guitar.Music.1 measure 2]
-      %! baca.make_music()
     s1 * 39/80
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! baca.make_music()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
         % OPEN_BRACKETS:
-          %! baca.make_music()
         \scaleDurations #'(1 . 1)
-          %! baca.make_music()
         {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -1856,7 +1845,6 @@ number.5.Guitar.Music.1 = {
             % COMMANDS:
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 3
-              %! baca.make_music()
             ef'!32.
             % AFTER:
             % ARTICULATIONS:
@@ -1871,7 +1859,6 @@ number.5.Guitar.Music.1 = {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
-              %! baca.make_music()
             fs'!32.
             % AFTER:
             % ARTICULATIONS:
@@ -1884,41 +1871,34 @@ number.5.Guitar.Music.1 = {
             % COMMANDS:
 
         % CLOSE_BRACKETS:
-          %! baca.make_music()
         }
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! baca.make_music()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Guitar.Music.1 measure 7]
-      %! baca.make_music()
     s1 * 39/80
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! baca.make_music()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
         % OPEN_BRACKETS:
-          %! baca.make_music()
         \scaleDurations #'(1 . 1)
-          %! baca.make_music()
         {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Guitar.Music.1 measure 11]
-              %! baca.make_music()
             d'32.
             % AFTER:
             % ARTICULATIONS:
@@ -1939,7 +1919,6 @@ number.5.Guitar.Music.1 = {
             % COMMANDS:
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 1
-              %! baca.make_music()
             cs'!32.
             % AFTER:
             % ARTICULATIONS:
@@ -1950,34 +1929,28 @@ number.5.Guitar.Music.1 = {
             % COMMANDS:
 
         % CLOSE_BRACKETS:
-          %! baca.make_music()
         }
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! baca.make_music()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Guitar.Music.1 measure 12]
-      %! baca.make_music()
     s1 * 29/80
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! baca.make_music()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
         % OPEN_BRACKETS:
-          %! baca.make_music()
         \scaleDurations #'(1 . 1)
-          %! baca.make_music()
         {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -1988,7 +1961,6 @@ number.5.Guitar.Music.1 = {
             % COMMANDS:
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 3
-              %! baca.make_music()
             d'32.
             % AFTER:
             % ARTICULATIONS:
@@ -2003,7 +1975,6 @@ number.5.Guitar.Music.1 = {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
-              %! baca.make_music()
             cs'!32.
             % AFTER:
             % ARTICULATIONS:
@@ -2016,41 +1987,34 @@ number.5.Guitar.Music.1 = {
             % COMMANDS:
 
         % CLOSE_BRACKETS:
-          %! baca.make_music()
         }
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! baca.make_music()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Guitar.Music.1 measure 16]
-      %! baca.make_music()
     s1 * 39/80
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! baca.make_music()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
         % OPEN_BRACKETS:
-          %! baca.make_music()
         \scaleDurations #'(1 . 1)
-          %! baca.make_music()
         {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Guitar.Music.1 measure 20]
-              %! baca.make_music()
             ef'!32.
             % AFTER:
             % ARTICULATIONS:
@@ -2071,7 +2035,6 @@ number.5.Guitar.Music.1 = {
             % COMMANDS:
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 1
-              %! baca.make_music()
             fs'!32.
             % AFTER:
             % ARTICULATIONS:
@@ -2082,34 +2045,28 @@ number.5.Guitar.Music.1 = {
             % COMMANDS:
 
         % CLOSE_BRACKETS:
-          %! baca.make_music()
         }
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! baca.make_music()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Guitar.Music.1 measure 21]
-      %! baca.make_music()
     s1 * 101/80
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! baca.make_music()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
         % OPEN_BRACKETS:
-          %! baca.make_music()
         \scaleDurations #'(1 . 1)
-          %! baca.make_music()
         {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2120,7 +2077,6 @@ number.5.Guitar.Music.1 = {
             % COMMANDS:
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 3
-              %! baca.make_music()
             d'32.
             % AFTER:
             % ARTICULATIONS:
@@ -2135,7 +2091,6 @@ number.5.Guitar.Music.1 = {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
-              %! baca.make_music()
             cs'!32.
             % AFTER:
             % ARTICULATIONS:
@@ -2148,20 +2103,17 @@ number.5.Guitar.Music.1 = {
             % COMMANDS:
 
         % CLOSE_BRACKETS:
-          %! baca.make_music()
         }
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! baca.make_music()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Guitar.Music.1 measure 28]
-      %! baca.make_music()
     s1 * 29/80
     % AFTER:
     % COMMANDS:
@@ -2189,21 +2141,17 @@ number.5.Guitar.Music.2 = {
       %! baca.OverrideCommand._call(1)
       %! baca.beam_positions()
     \override Beam.positions = #'(-5.5 . -5.5)
-      %! baca.make_music()
     s1 * 73/160
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! baca.make_music()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
         % OPEN_BRACKETS:
-          %! baca.make_music()
         \scaleDurations #'(1 . 1)
-          %! baca.make_music()
         {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2214,7 +2162,6 @@ number.5.Guitar.Music.2 = {
             % COMMANDS:
             \set stemLeftBeamCount = 0
             \set stemRightBeamCount = 3
-              %! baca.make_music()
             e''32
             % AFTER:
             % MARKUP:
@@ -2236,7 +2183,6 @@ number.5.Guitar.Music.2 = {
             % COMMANDS:
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 3
-              %! baca.make_music()
             bf''!32
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2245,7 +2191,6 @@ number.5.Guitar.Music.2 = {
             % COMMANDS:
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 3
-              %! baca.make_music()
             g''32
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2254,7 +2199,6 @@ number.5.Guitar.Music.2 = {
             % COMMANDS:
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 0
-              %! baca.make_music()
             c'''32
             % AFTER:
             % SPANNER_STOPS:
@@ -2268,34 +2212,28 @@ number.5.Guitar.Music.2 = {
             % COMMANDS:
 
         % CLOSE_BRACKETS:
-          %! baca.make_music()
         }
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! baca.make_music()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Guitar.Music.2 measure 6]
-      %! baca.make_music()
     s1 * 73/160
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! baca.make_music()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
         % OPEN_BRACKETS:
-          %! baca.make_music()
         \scaleDurations #'(1 . 1)
-          %! baca.make_music()
         {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2306,7 +2244,6 @@ number.5.Guitar.Music.2 = {
             % COMMANDS:
             \set stemLeftBeamCount = 0
             \set stemRightBeamCount = 3
-              %! baca.make_music()
             bf''!32
             % AFTER:
             % MARKUP:
@@ -2328,7 +2265,6 @@ number.5.Guitar.Music.2 = {
             % COMMANDS:
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 3
-              %! baca.make_music()
             f''32
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2337,7 +2273,6 @@ number.5.Guitar.Music.2 = {
             % COMMANDS:
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 3
-              %! baca.make_music()
             e''32
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2346,7 +2281,6 @@ number.5.Guitar.Music.2 = {
             % COMMANDS:
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 0
-              %! baca.make_music()
             b''32
             % AFTER:
             % SPANNER_STOPS:
@@ -2360,34 +2294,28 @@ number.5.Guitar.Music.2 = {
             % COMMANDS:
 
         % CLOSE_BRACKETS:
-          %! baca.make_music()
         }
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! baca.make_music()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Guitar.Music.2 measure 11]
-      %! baca.make_music()
     s1 * 73/80
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! baca.make_music()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
         % OPEN_BRACKETS:
-          %! baca.make_music()
         \scaleDurations #'(1 . 1)
-          %! baca.make_music()
         {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2398,7 +2326,6 @@ number.5.Guitar.Music.2 = {
             % COMMANDS:
             \set stemLeftBeamCount = 0
             \set stemRightBeamCount = 3
-              %! baca.make_music()
             e''32
             % AFTER:
             % MARKUP:
@@ -2420,7 +2347,6 @@ number.5.Guitar.Music.2 = {
             % COMMANDS:
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 3
-              %! baca.make_music()
             bf''!32
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2429,7 +2355,6 @@ number.5.Guitar.Music.2 = {
             % COMMANDS:
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 3
-              %! baca.make_music()
             g''32
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2438,7 +2363,6 @@ number.5.Guitar.Music.2 = {
             % COMMANDS:
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 0
-              %! baca.make_music()
             c'''32
             % AFTER:
             % SPANNER_STOPS:
@@ -2452,20 +2376,17 @@ number.5.Guitar.Music.2 = {
             % COMMANDS:
 
         % CLOSE_BRACKETS:
-          %! baca.make_music()
         }
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! baca.make_music()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Guitar.Music.2 measure 20]
-      %! baca.make_music()
     s1 * 49/160
     % AFTER:
     % COMMANDS:
@@ -2476,22 +2397,18 @@ number.5.Guitar.Music.2 = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! baca.make_music()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
         % OPEN_BRACKETS:
-          %! baca.make_music()
         \scaleDurations #'(1 . 1)
-          %! baca.make_music()
         {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Guitar.Music.2 measure 23]
-              %! baca.make_music()
             r8
             % AFTER:
             % MARKUP:
@@ -2502,40 +2419,32 @@ number.5.Guitar.Music.2 = {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
-              %! baca.make_music()
             r8
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
-              %! baca.make_music()
             r8
             % CLOSING:
             % COMMANDS:
 
         % CLOSE_BRACKETS:
-          %! baca.make_music()
         }
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! baca.make_music()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! baca.make_music()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
         % OPEN_BRACKETS:
-          %! baca.make_music()
         \tweak edge-height #'(0.7 . 0)
-          %! baca.make_music()
         \times 4/5
-          %! baca.make_music()
         {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2556,7 +2465,6 @@ number.5.Guitar.Music.2 = {
               %! baca.OverrideCommand._call(1)
               %! baca.tuplet_number_extra_offset()
             \once \override TupletNumber.extra-offset = #'(0 . -0.5)
-              %! baca.make_music()
             gf!2
             % AFTER:
             % STEM_TREMOLOS:
@@ -2575,13 +2483,11 @@ number.5.Guitar.Music.2 = {
             % COMMANDS:
 
         % CLOSE_BRACKETS:
-          %! baca.make_music()
         }
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! baca.make_music()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -2593,21 +2499,17 @@ number.5.Guitar.Music.2 = {
       %! baca.OverrideCommand._call(1)
       %! baca.beam_positions()
     \override Beam.positions = #'(-5.5 . -5.5)
-      %! baca.make_music()
     s1 * 3/20
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! baca.make_music()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
         % OPEN_BRACKETS:
-          %! baca.make_music()
         \scaleDurations #'(1 . 1)
-          %! baca.make_music()
         {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2618,7 +2520,6 @@ number.5.Guitar.Music.2 = {
             % COMMANDS:
             \set stemLeftBeamCount = 0
             \set stemRightBeamCount = 3
-              %! baca.make_music()
             bf''!32
             % AFTER:
             % MARKUP:
@@ -2640,7 +2541,6 @@ number.5.Guitar.Music.2 = {
             % COMMANDS:
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 3
-              %! baca.make_music()
             f''32
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2649,7 +2549,6 @@ number.5.Guitar.Music.2 = {
             % COMMANDS:
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 3
-              %! baca.make_music()
             e''32
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2658,7 +2557,6 @@ number.5.Guitar.Music.2 = {
             % COMMANDS:
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 0
-              %! baca.make_music()
             b''32
             % AFTER:
             % SPANNER_STOPS:
@@ -2672,20 +2570,17 @@ number.5.Guitar.Music.2 = {
             % COMMANDS:
 
         % CLOSE_BRACKETS:
-          %! baca.make_music()
         }
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! baca.make_music()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Guitar.Music.2 measure 27]
-      %! baca.make_music()
     s1 * 73/160
     % AFTER:
     % COMMANDS:
@@ -2713,28 +2608,23 @@ number.5.Guitar.Music.3 = {
       %! baca.OverrideCommand._call(1)
       %! baca.script_down()
     \override Script.direction = #down
-      %! baca.make_music()
     s1 * 39/160
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! baca.make_music()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
         % OPEN_BRACKETS:
-          %! baca.make_music()
         \scaleDurations #'(1 . 1)
-          %! baca.make_music()
         {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Guitar.Music.3 measure 3]
-              %! baca.make_music()
             c'16
             % AFTER:
             % ARTICULATIONS:
@@ -2752,34 +2642,28 @@ number.5.Guitar.Music.3 = {
             % COMMANDS:
 
         % CLOSE_BRACKETS:
-          %! baca.make_music()
         }
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! baca.make_music()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Guitar.Music.3 measure 4]
-      %! baca.make_music()
     s1 * 83/160
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! baca.make_music()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
         % OPEN_BRACKETS:
-          %! baca.make_music()
         \scaleDurations #'(1 . 1)
-          %! baca.make_music()
         {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2790,7 +2674,6 @@ number.5.Guitar.Music.3 = {
             % COMMANDS:
             \set stemLeftBeamCount = 2
             \set stemRightBeamCount = 1
-              %! baca.make_music()
             f16
             % AFTER:
             % ARTICULATIONS:
@@ -2806,41 +2689,34 @@ number.5.Guitar.Music.3 = {
             % COMMANDS:
 
         % CLOSE_BRACKETS:
-          %! baca.make_music()
         }
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! baca.make_music()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Guitar.Music.3 measure 9]
-      %! baca.make_music()
     s1 * 83/160
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! baca.make_music()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
         % OPEN_BRACKETS:
-          %! baca.make_music()
         \scaleDurations #'(1 . 1)
-          %! baca.make_music()
         {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Guitar.Music.3 measure 13]
-              %! baca.make_music()
             a16
             % AFTER:
             % ARTICULATIONS:
@@ -2858,41 +2734,34 @@ number.5.Guitar.Music.3 = {
             % COMMANDS:
 
         % CLOSE_BRACKETS:
-          %! baca.make_music()
         }
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! baca.make_music()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Guitar.Music.3 measure 14]
-      %! baca.make_music()
     s1 * 63/160
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! baca.make_music()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
         % OPEN_BRACKETS:
-          %! baca.make_music()
         \scaleDurations #'(1 . 1)
-          %! baca.make_music()
         {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Guitar.Music.3 measure 17]
-              %! baca.make_music()
             c'16
             % AFTER:
             % ARTICULATIONS:
@@ -2910,34 +2779,28 @@ number.5.Guitar.Music.3 = {
             % COMMANDS:
 
         % CLOSE_BRACKETS:
-          %! baca.make_music()
         }
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! baca.make_music()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Guitar.Music.3 measure 18]
-      %! baca.make_music()
     s1 * 83/160
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! baca.make_music()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
         % OPEN_BRACKETS:
-          %! baca.make_music()
         \scaleDurations #'(1 . 1)
-          %! baca.make_music()
         {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2948,7 +2811,6 @@ number.5.Guitar.Music.3 = {
             % COMMANDS:
             \set stemLeftBeamCount = 2
             \set stemRightBeamCount = 1
-              %! baca.make_music()
             f16
             % AFTER:
             % ARTICULATIONS:
@@ -2964,41 +2826,34 @@ number.5.Guitar.Music.3 = {
             % COMMANDS:
 
         % CLOSE_BRACKETS:
-          %! baca.make_music()
         }
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! baca.make_music()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Guitar.Music.3 measure 23]
-      %! baca.make_music()
     s1 * 207/160
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! baca.make_music()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
         % OPEN_BRACKETS:
-          %! baca.make_music()
         \scaleDurations #'(1 . 1)
-          %! baca.make_music()
         {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Guitar.Music.3 measure 29]
-              %! baca.make_music()
             a16
             % AFTER:
             % ARTICULATIONS:
@@ -3016,20 +2871,17 @@ number.5.Guitar.Music.3 = {
             % COMMANDS:
 
         % CLOSE_BRACKETS:
-          %! baca.make_music()
         }
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! baca.make_music()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Guitar.Music.3 measure 30]
-      %! baca.make_music()
     s1 * 3/20
     % AFTER:
     % COMMANDS:
@@ -3057,30 +2909,24 @@ number.5.Guitar.Music.4 = {
       %! baca.OverrideCommand._call(1)
       %! baca.beam_positions()
     \override Beam.positions = #'(5.5 . 5.5)
-      %! baca.make_music()
     s1 * 3/32
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! baca.make_music()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
         % OPEN_BRACKETS:
-          %! baca.make_music()
         \tweak edge-height #'(0.7 . 0)
-          %! baca.make_music()
         \times 4/5
-          %! baca.make_music()
         {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Guitar.Music.4 measure 2]
-              %! baca.make_music()
             b'16
             % AFTER:
             % ARTICULATIONS:
@@ -3097,7 +2943,6 @@ number.5.Guitar.Music.4 = {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
-              %! baca.make_music()
             a'16
             % AFTER:
             % ARTICULATIONS:
@@ -3111,7 +2956,6 @@ number.5.Guitar.Music.4 = {
             % COMMANDS:
             \set stemLeftBeamCount = 2
             \set stemRightBeamCount = 1
-              %! baca.make_music()
             g''16
             % AFTER:
             % ARTICULATIONS:
@@ -3122,36 +2966,29 @@ number.5.Guitar.Music.4 = {
             % COMMANDS:
 
         % CLOSE_BRACKETS:
-          %! baca.make_music()
         }
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! baca.make_music()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Guitar.Music.4 measure 3]
-      %! baca.make_music()
     s1 * 1/16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! baca.make_music()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
         % OPEN_BRACKETS:
-          %! baca.make_music()
         \tweak edge-height #'(0.7 . 0)
-          %! baca.make_music()
         \times 4/5
-          %! baca.make_music()
         {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -3168,7 +3005,6 @@ number.5.Guitar.Music.4 = {
             \override Stem.direction = #up
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 2
-              %! baca.make_music()
             ef''!16
             % AFTER:
             % ARTICULATIONS:
@@ -3183,7 +3019,6 @@ number.5.Guitar.Music.4 = {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
-              %! baca.make_music()
             fs''!16
             % AFTER:
             % ARTICULATIONS:
@@ -3193,7 +3028,6 @@ number.5.Guitar.Music.4 = {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
-              %! baca.make_music()
             f''16
             % AFTER:
             % ARTICULATIONS:
@@ -3213,43 +3047,35 @@ number.5.Guitar.Music.4 = {
             % COMMANDS:
 
         % CLOSE_BRACKETS:
-          %! baca.make_music()
         }
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! baca.make_music()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Guitar.Music.4 measure 5]
-      %! baca.make_music()
     s1 * 7/32
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! baca.make_music()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
         % OPEN_BRACKETS:
-          %! baca.make_music()
         \tweak edge-height #'(0.7 . 0)
-          %! baca.make_music()
         \times 4/5
-          %! baca.make_music()
         {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Guitar.Music.4 measure 7]
-              %! baca.make_music()
             a'16
             % AFTER:
             % ARTICULATIONS:
@@ -3266,7 +3092,6 @@ number.5.Guitar.Music.4 = {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
-              %! baca.make_music()
             e''16
             % AFTER:
             % ARTICULATIONS:
@@ -3280,7 +3105,6 @@ number.5.Guitar.Music.4 = {
             % COMMANDS:
             \set stemLeftBeamCount = 2
             \set stemRightBeamCount = 1
-              %! baca.make_music()
             bf'!16
             % AFTER:
             % ARTICULATIONS:
@@ -3291,36 +3115,29 @@ number.5.Guitar.Music.4 = {
             % COMMANDS:
 
         % CLOSE_BRACKETS:
-          %! baca.make_music()
         }
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! baca.make_music()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Guitar.Music.4 measure 8]
-      %! baca.make_music()
     s1 * 1/16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! baca.make_music()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
         % OPEN_BRACKETS:
-          %! baca.make_music()
         \tweak edge-height #'(0.7 . 0)
-          %! baca.make_music()
         \times 4/5
-          %! baca.make_music()
         {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -3331,7 +3148,6 @@ number.5.Guitar.Music.4 = {
             % COMMANDS:
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 2
-              %! baca.make_music()
             cs''!16
             % AFTER:
             % ARTICULATIONS:
@@ -3346,7 +3162,6 @@ number.5.Guitar.Music.4 = {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
-              %! baca.make_music()
             b'16
             % AFTER:
             % ARTICULATIONS:
@@ -3356,7 +3171,6 @@ number.5.Guitar.Music.4 = {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
-              %! baca.make_music()
             d''16
             % AFTER:
             % ARTICULATIONS:
@@ -3369,43 +3183,35 @@ number.5.Guitar.Music.4 = {
             % COMMANDS:
 
         % CLOSE_BRACKETS:
-          %! baca.make_music()
         }
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! baca.make_music()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Guitar.Music.4 measure 10]
-      %! baca.make_music()
     s1 * 7/32
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! baca.make_music()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
         % OPEN_BRACKETS:
-          %! baca.make_music()
         \tweak edge-height #'(0.7 . 0)
-          %! baca.make_music()
         \times 4/5
-          %! baca.make_music()
         {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Guitar.Music.4 measure 12]
-              %! baca.make_music()
             c''16
             % AFTER:
             % ARTICULATIONS:
@@ -3422,7 +3228,6 @@ number.5.Guitar.Music.4 = {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
-              %! baca.make_music()
             ef''!16
             % AFTER:
             % ARTICULATIONS:
@@ -3436,7 +3241,6 @@ number.5.Guitar.Music.4 = {
             % COMMANDS:
             \set stemLeftBeamCount = 2
             \set stemRightBeamCount = 1
-              %! baca.make_music()
             fs''!16
             % AFTER:
             % ARTICULATIONS:
@@ -3447,36 +3251,29 @@ number.5.Guitar.Music.4 = {
             % COMMANDS:
 
         % CLOSE_BRACKETS:
-          %! baca.make_music()
         }
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! baca.make_music()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Guitar.Music.4 measure 13]
-      %! baca.make_music()
     s1 * 1/16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! baca.make_music()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
         % OPEN_BRACKETS:
-          %! baca.make_music()
         \tweak edge-height #'(0.7 . 0)
-          %! baca.make_music()
         \times 4/5
-          %! baca.make_music()
         {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -3487,7 +3284,6 @@ number.5.Guitar.Music.4 = {
             % COMMANDS:
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 2
-              %! baca.make_music()
             g''16
             % AFTER:
             % ARTICULATIONS:
@@ -3502,7 +3298,6 @@ number.5.Guitar.Music.4 = {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
-              %! baca.make_music()
             d''16
             % AFTER:
             % ARTICULATIONS:
@@ -3512,7 +3307,6 @@ number.5.Guitar.Music.4 = {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
-              %! baca.make_music()
             cs''!16
             % AFTER:
             % ARTICULATIONS:
@@ -3525,43 +3319,35 @@ number.5.Guitar.Music.4 = {
             % COMMANDS:
 
         % CLOSE_BRACKETS:
-          %! baca.make_music()
         }
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! baca.make_music()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Guitar.Music.4 measure 15]
-      %! baca.make_music()
     s1 * 3/32
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! baca.make_music()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
         % OPEN_BRACKETS:
-          %! baca.make_music()
         \tweak edge-height #'(0.7 . 0)
-          %! baca.make_music()
         \times 4/5
-          %! baca.make_music()
         {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Guitar.Music.4 measure 16]
-              %! baca.make_music()
             b'16
             % AFTER:
             % ARTICULATIONS:
@@ -3578,7 +3364,6 @@ number.5.Guitar.Music.4 = {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
-              %! baca.make_music()
             a'16
             % AFTER:
             % ARTICULATIONS:
@@ -3592,7 +3377,6 @@ number.5.Guitar.Music.4 = {
             % COMMANDS:
             \set stemLeftBeamCount = 2
             \set stemRightBeamCount = 1
-              %! baca.make_music()
             g''16
             % AFTER:
             % ARTICULATIONS:
@@ -3603,36 +3387,29 @@ number.5.Guitar.Music.4 = {
             % COMMANDS:
 
         % CLOSE_BRACKETS:
-          %! baca.make_music()
         }
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! baca.make_music()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Guitar.Music.4 measure 17]
-      %! baca.make_music()
     s1 * 1/16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! baca.make_music()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
         % OPEN_BRACKETS:
-          %! baca.make_music()
         \tweak edge-height #'(0.7 . 0)
-          %! baca.make_music()
         \times 4/5
-          %! baca.make_music()
         {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -3649,7 +3426,6 @@ number.5.Guitar.Music.4 = {
             \override Stem.direction = #up
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 2
-              %! baca.make_music()
             ef''!16
             % AFTER:
             % ARTICULATIONS:
@@ -3664,7 +3440,6 @@ number.5.Guitar.Music.4 = {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
-              %! baca.make_music()
             fs''!16
             % AFTER:
             % ARTICULATIONS:
@@ -3674,7 +3449,6 @@ number.5.Guitar.Music.4 = {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
-              %! baca.make_music()
             f''16
             % AFTER:
             % ARTICULATIONS:
@@ -3694,43 +3468,35 @@ number.5.Guitar.Music.4 = {
             % COMMANDS:
 
         % CLOSE_BRACKETS:
-          %! baca.make_music()
         }
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! baca.make_music()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Guitar.Music.4 measure 19]
-      %! baca.make_music()
     s1 * 7/32
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! baca.make_music()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
         % OPEN_BRACKETS:
-          %! baca.make_music()
         \tweak edge-height #'(0.7 . 0)
-          %! baca.make_music()
         \times 4/5
-          %! baca.make_music()
         {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Guitar.Music.4 measure 21]
-              %! baca.make_music()
             a'16
             % AFTER:
             % ARTICULATIONS:
@@ -3747,7 +3513,6 @@ number.5.Guitar.Music.4 = {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
-              %! baca.make_music()
             e''16
             % AFTER:
             % ARTICULATIONS:
@@ -3761,7 +3526,6 @@ number.5.Guitar.Music.4 = {
             % COMMANDS:
             \set stemLeftBeamCount = 2
             \set stemRightBeamCount = 1
-              %! baca.make_music()
             bf'!16
             % AFTER:
             % ARTICULATIONS:
@@ -3772,36 +3536,29 @@ number.5.Guitar.Music.4 = {
             % COMMANDS:
 
         % CLOSE_BRACKETS:
-          %! baca.make_music()
         }
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! baca.make_music()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Guitar.Music.4 measure 22]
-      %! baca.make_music()
     s1 * 67/80
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! baca.make_music()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
         % OPEN_BRACKETS:
-          %! baca.make_music()
         \tweak edge-height #'(0.7 . 0)
-          %! baca.make_music()
         \times 4/5
-          %! baca.make_music()
         {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -3812,7 +3569,6 @@ number.5.Guitar.Music.4 = {
             % COMMANDS:
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 2
-              %! baca.make_music()
             cs''!16
             % AFTER:
             % ARTICULATIONS:
@@ -3827,7 +3583,6 @@ number.5.Guitar.Music.4 = {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
-              %! baca.make_music()
             b'16
             % AFTER:
             % ARTICULATIONS:
@@ -3837,7 +3592,6 @@ number.5.Guitar.Music.4 = {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
-              %! baca.make_music()
             d''16
             % AFTER:
             % ARTICULATIONS:
@@ -3850,43 +3604,35 @@ number.5.Guitar.Music.4 = {
             % COMMANDS:
 
         % CLOSE_BRACKETS:
-          %! baca.make_music()
         }
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! baca.make_music()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Guitar.Music.4 measure 26]
-      %! baca.make_music()
     s1 * 7/32
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! baca.make_music()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
         % OPEN_BRACKETS:
-          %! baca.make_music()
         \tweak edge-height #'(0.7 . 0)
-          %! baca.make_music()
         \times 4/5
-          %! baca.make_music()
         {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Guitar.Music.4 measure 28]
-              %! baca.make_music()
             c''16
             % AFTER:
             % ARTICULATIONS:
@@ -3903,7 +3649,6 @@ number.5.Guitar.Music.4 = {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
-              %! baca.make_music()
             ef''!16
             % AFTER:
             % ARTICULATIONS:
@@ -3917,7 +3662,6 @@ number.5.Guitar.Music.4 = {
             % COMMANDS:
             \set stemLeftBeamCount = 2
             \set stemRightBeamCount = 1
-              %! baca.make_music()
             fs''!16
             % AFTER:
             % ARTICULATIONS:
@@ -3928,36 +3672,29 @@ number.5.Guitar.Music.4 = {
             % COMMANDS:
 
         % CLOSE_BRACKETS:
-          %! baca.make_music()
         }
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! baca.make_music()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Guitar.Music.4 measure 29]
-      %! baca.make_music()
     s1 * 1/16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! baca.make_music()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
         % OPEN_BRACKETS:
-          %! baca.make_music()
         \tweak edge-height #'(0.7 . 0)
-          %! baca.make_music()
         \times 4/5
-          %! baca.make_music()
         {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -3968,7 +3705,6 @@ number.5.Guitar.Music.4 = {
             % COMMANDS:
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 2
-              %! baca.make_music()
             g''16
             % AFTER:
             % ARTICULATIONS:
@@ -3983,7 +3719,6 @@ number.5.Guitar.Music.4 = {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
-              %! baca.make_music()
             d''16
             % AFTER:
             % ARTICULATIONS:
@@ -3993,7 +3728,6 @@ number.5.Guitar.Music.4 = {
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
-              %! baca.make_music()
             cs''!16
             % AFTER:
             % ARTICULATIONS:
@@ -4010,13 +3744,11 @@ number.5.Guitar.Music.4 = {
             % COMMANDS:
 
         % CLOSE_BRACKETS:
-          %! baca.make_music()
         }
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! baca.make_music()
     }
     % CLOSING:
     % COMMANDS:

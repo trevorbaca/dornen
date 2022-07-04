@@ -14,12 +14,12 @@ assert len(design) == 22, len(design)
 
 lower_register = baca.register(
     -18,
-    selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
+    selector=lambda _: baca.select.plts(_),
 )
 middle_register = baca.register(
     -12,
     0,
-    selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
+    selector=lambda _: baca.select.plts(_),
 )
 
 figures(

@@ -166,7 +166,7 @@ commands(
     baca.register(
         -20,
         4,
-        selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
+        selector=lambda _: baca.select.plts(_),
     ),
 )
 
@@ -178,7 +178,7 @@ commands(
     baca.register(
         -18,
         6,
-        selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
+        selector=lambda _: baca.select.plts(_),
     ),
 )
 

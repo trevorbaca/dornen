@@ -294,7 +294,7 @@ commands(
     baca.beam_positions(10),
     baca.register(
         -12,
-        selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
+        selector=lambda _: baca.select.plts(_),
     ),
 )
 
@@ -305,7 +305,7 @@ commands(
     baca.beam_positions(-5.5),
     baca.register(
         4,
-        selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
+        selector=lambda _: baca.select.plts(_),
     ),
 )
 
@@ -314,7 +314,7 @@ commands(
     baca.beam_positions(-5.5),
     baca.register(
         4,
-        selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
+        selector=lambda _: baca.select.plts(_),
     ),
 )
 
@@ -330,7 +330,7 @@ commands(
     ),
     baca.register(
         -20,
-        selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
+        selector=lambda _: baca.select.plts(_),
     ),
 )
 
@@ -342,7 +342,7 @@ commands(
     baca.beam_positions(5.5),
     baca.register(
         -4,
-        selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
+        selector=lambda _: baca.select.plts(_),
     ),
 )
 

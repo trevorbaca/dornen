@@ -378,7 +378,7 @@ commands(
     ),
     baca.register(
         4,
-        selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
+        selector=lambda _: baca.select.plts(_),
     ),
 )
 
@@ -387,7 +387,7 @@ commands(
     baca.accent(lambda _: baca.select.pheads(_, exclude=baca.enums.HIDDEN)),
     baca.register(
         -20,
-        selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
+        selector=lambda _: baca.select.plts(_),
     ),
     baca.script_down(),
 )

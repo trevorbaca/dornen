@@ -169,19 +169,17 @@ baca.interpret.set_up_score(
 
 figures.populate_commands(score, commands)
 
-# reapply
-
-music_voices = [_ for _ in voice_names if "Music" in _]
-
-commands(
-    music_voices,
-    baca.reapply_persistent_indicators(),
-)
-
 defaults = baca.score_interpretation_defaults()
 del defaults["check_wellformedness"]
 
+
+def main():
+    previous_persist = baca.previous_metadata(__file__, file_name="__persist__")
+    baca.reapply(commands, commands.manifests(), previous_persist, voice_names)
+
+
 if __name__ == "__main__":
+    main()
     metadata, persist, score, timing = baca.build.interpret_section(
         score,
         commands,
@@ -189,6 +187,7 @@ if __name__ == "__main__":
         activate=(baca.tags.LOCAL_MEASURE_NUMBER,),
         always_make_global_rests=True,
         do_not_require_short_instrument_names=True,
+        empty_accumulator=True,
         error_on_not_yet_pitched=True,
         global_rests_in_topmost_staff=True,
         transpose_score=True,

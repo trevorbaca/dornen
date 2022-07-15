@@ -238,23 +238,29 @@ manifests = commands.manifests()
 
 baca.metronome_mark(skips[1 - 1], commands.metronome_marks["44"], manifests)
 
-# v3
 
-commands(
-    "v1",
-    baca.instrument(instruments["Guitar"]),
-    baca.clef("treble"),
-)
+def postprocess(cache):
+    with baca.scope(cache["v1"][1]) as o:
+        baca.instrument_function(o.leaf(0), instruments["Guitar"])
+        baca.clef_function(o.leaf(0), "treble")
+    with baca.scope(cache["v3"][18, 19]) as o:
+        baca.register_function(o, 0, -12)
 
-commands(
-    ("v3", (18, 19)),
-    baca.register(0, -12),
-)
+
+def main():
+    cache = baca.interpret.cache_leaves(
+        score,
+        len(commands.time_signatures),
+        commands.voice_abbreviations,
+    )
+    postprocess(cache)
+
 
 defaults = baca.score_interpretation_defaults()
 del defaults["check_wellformedness"]
 
 if __name__ == "__main__":
+    main()
     metadata, persist, score, timing = baca.build.interpret_section(
         score,
         commands,

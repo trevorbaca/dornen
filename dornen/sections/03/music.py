@@ -405,27 +405,30 @@ manifests = commands.manifests()
 
 baca.metronome_mark(skips[25 - 1], commands.metronome_marks["66"], manifests)
 
-# reapply
 
-music_voices = [_ for _ in voice_names if "Music" in _]
+def postprocess(cache):
+    with baca.scope(cache["v1"][9, 24]) as o:
+        baca.register_function(o, -12)
+        baca.displacement_function(o, [0, 0, 0, 0, 1, 1, 1, 1])
 
-commands(
-    music_voices,
-    baca.reapply_persistent_indicators(),
-)
-
-# v1
-
-commands(
-    ("v1", (9, 24)),
-    baca.register(-12),
-    baca.displacement([0, 0, 0, 0, 1, 1, 1, 1]),
-)
 
 defaults = baca.score_interpretation_defaults()
 del defaults["check_wellformedness"]
 
+
+def main():
+    previous_persist = baca.previous_metadata(__file__, file_name="__persist__")
+    baca.reapply(commands, commands.manifests(), previous_persist, voice_names)
+    cache = baca.interpret.cache_leaves(
+        score,
+        len(commands.time_signatures),
+        commands.voice_abbreviations,
+    )
+    postprocess(cache)
+
+
 if __name__ == "__main__":
+    main()
     metadata, persist, score, timing = baca.build.interpret_section(
         score,
         commands,

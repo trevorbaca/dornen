@@ -213,126 +213,119 @@ baca.interpret.set_up_score(
 
 figures.populate_commands(score, commands)
 
-# reapply
 
-music_voices = [_ for _ in voice_names if "Music" in _]
-
-commands(
-    music_voices,
-    baca.reapply_persistent_indicators(),
-)
-
-# v1
-
-commands(
-    "v1",
-    baca.register(-20),
-    baca.new(
-        baca.repeat_tie(
-            lambda _: baca.select.pleaves(_)[1:],
+def postprocess(cache):
+    commands(
+        "v1",
+        baca.register(-20),
+        baca.new(
+            baca.repeat_tie(
+                lambda _: baca.select.pleaves(_)[1:],
+            ),
+            map=lambda _: baca.select.qruns(_),
         ),
-        map=lambda _: baca.select.qruns(_),
-    ),
-    baca.stem_tremolo(lambda _: baca.select.pleaves(_)),
-)
+        baca.stem_tremolo(lambda _: baca.select.pleaves(_)),
+    )
+    commands(
+        ("v1", 2),
+        baca.new(
+            baca.hairpin("p < mp"),
+            baca.text_spanner("tamb. tr. => kn. rasg."),
+            map=library.group_rleaves,
+        ),
+    )
+    commands(
+        ("v1", 4),
+        baca.new(
+            baca.hairpin("mp > p"),
+            baca.text_spanner("trans. => tamb. tr."),
+            map=library.group_rleaves,
+        ),
+    )
+    commands(
+        ("v1", 7),
+        baca.new(
+            baca.hairpin("p < mf"),
+            baca.text_spanner("trans. => kn. rasg."),
+            map=library.group_rleaves,
+        ),
+    )
+    commands(
+        ("v1", 9),
+        baca.new(
+            baca.hairpin("mf > p"),
+            baca.text_spanner("trans. => tamb. tr."),
+            map=library.group_rleaves,
+        ),
+    )
+    commands(
+        ("v1", 12),
+        baca.new(
+            baca.hairpin("p < mp"),
+            baca.text_spanner("trans. => kn. rasg."),
+            map=library.group_rleaves,
+        ),
+    )
+    commands(
+        ("v1", 14),
+        baca.new(
+            baca.hairpin("mp > p"),
+            baca.text_spanner("trans. => tamb. tr."),
+            map=library.group_rleaves,
+        ),
+    )
+    commands(
+        ("v1", 16),
+        baca.new(
+            baca.hairpin("p < mf"),
+            baca.text_spanner("trans. => kn. rasg."),
+            map=library.group_rleaves,
+        ),
+    )
+    commands(
+        ("v1", 18),
+        baca.new(
+            baca.hairpin("mf > p"),
+            baca.text_spanner("trans. => tamb. tr."),
+            map=library.group_rleaves,
+        ),
+    )
+    commands(
+        ("v1", 20),
+        baca.new(
+            baca.hairpin("p < f"),
+            baca.text_spanner("trans. => kn. rasg."),
+            map=library.group_rleaves,
+        ),
+    )
+    commands(
+        ("v1", (22, 24)),
+        baca.new(
+            baca.hairpin("f > mp"),
+            baca.text_spanner("trans. => tamb. tr."),
+            map=library.group_rleaves,
+        ),
+    )
+    commands(
+        "v1",
+        baca.text_spanner_staff_padding(5),
+        baca.text_script_staff_padding(8),
+    )
 
-commands(
-    ("v1", 2),
-    baca.new(
-        baca.hairpin("p < mp"),
-        baca.text_spanner("tamb. tr. => kn. rasg."),
-        map=library.group_rleaves,
-    ),
-)
 
-commands(
-    ("v1", 4),
-    baca.new(
-        baca.hairpin("mp > p"),
-        baca.text_spanner("trans. => tamb. tr."),
-        map=library.group_rleaves,
-    ),
-)
+def main():
+    previous_persist = baca.previous_metadata(__file__, file_name="__persist__")
+    baca.reapply(commands, commands.manifests(), previous_persist, voice_names)
+    cache = baca.interpret.cache_leaves(
+        score,
+        len(commands.time_signatures),
+        commands.voice_abbreviations,
+    )
+    postprocess(cache)
 
-commands(
-    ("v1", 7),
-    baca.new(
-        baca.hairpin("p < mf"),
-        baca.text_spanner("trans. => kn. rasg."),
-        map=library.group_rleaves,
-    ),
-)
-
-commands(
-    ("v1", 9),
-    baca.new(
-        baca.hairpin("mf > p"),
-        baca.text_spanner("trans. => tamb. tr."),
-        map=library.group_rleaves,
-    ),
-)
-
-commands(
-    ("v1", 12),
-    baca.new(
-        baca.hairpin("p < mp"),
-        baca.text_spanner("trans. => kn. rasg."),
-        map=library.group_rleaves,
-    ),
-)
-
-commands(
-    ("v1", 14),
-    baca.new(
-        baca.hairpin("mp > p"),
-        baca.text_spanner("trans. => tamb. tr."),
-        map=library.group_rleaves,
-    ),
-)
-
-commands(
-    ("v1", 16),
-    baca.new(
-        baca.hairpin("p < mf"),
-        baca.text_spanner("trans. => kn. rasg."),
-        map=library.group_rleaves,
-    ),
-)
-
-commands(
-    ("v1", 18),
-    baca.new(
-        baca.hairpin("mf > p"),
-        baca.text_spanner("trans. => tamb. tr."),
-        map=library.group_rleaves,
-    ),
-)
-
-commands(
-    ("v1", 20),
-    baca.new(
-        baca.hairpin("p < f"),
-        baca.text_spanner("trans. => kn. rasg."),
-        map=library.group_rleaves,
-    ),
-)
-
-commands(
-    ("v1", (22, 24)),
-    baca.new(
-        baca.hairpin("f > mp"),
-        baca.text_spanner("trans. => tamb. tr."),
-        map=library.group_rleaves,
-    ),
-)
-
-commands(
-    "v1",
-    baca.text_spanner_staff_padding(5),
-    baca.text_script_staff_padding(8),
-)
 
 if __name__ == "__main__":
+    main()
     metadata, persist, score, timing = baca.build.interpret_section(
         score,
         commands,

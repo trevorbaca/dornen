@@ -240,51 +240,49 @@ baca.interpret.set_up_score(
 
 figures.populate_commands(score, commands)
 
-# reapply
 
-music_voices = [_ for _ in voice_names if "Music" in _]
+def postprocess(cache):
+    commands(
+        ("v1", (1, 22)),
+        baca.beam_positions(8),
+    )
+    commands(
+        ("v2", (1, 10)),
+        baca.beam_positions(
+            -7,
+            lambda _: baca.select.leaves(_, exclude=baca.enums.HIDDEN),
+        ),
+        lower_register,
+    )
+    commands(
+        ("v2", (11, 22)),
+        baca.beam_positions(-7),
+        lower_register,
+    )
+    commands(
+        ("v3", (1, 22)),
+        baca.beam_positions(4),
+        baca.staccato(lambda _: baca.select.pheads(_, exclude=baca.enums.HIDDEN)),
+    )
 
-commands(
-    music_voices,
-    baca.reapply_persistent_indicators(),
-)
-
-# v1
-
-commands(
-    ("v1", (1, 22)),
-    baca.beam_positions(8),
-)
-
-# v2
-
-commands(
-    ("v2", (1, 10)),
-    baca.beam_positions(
-        -7,
-        lambda _: baca.select.leaves(_, exclude=baca.enums.HIDDEN),
-    ),
-    lower_register,
-)
-
-commands(
-    ("v2", (11, 22)),
-    baca.beam_positions(-7),
-    lower_register,
-)
-
-# v3
-
-commands(
-    ("v3", (1, 22)),
-    baca.beam_positions(4),
-    baca.staccato(lambda _: baca.select.pheads(_, exclude=baca.enums.HIDDEN)),
-)
 
 defaults = baca.score_interpretation_defaults()
 del defaults["check_wellformedness"]
 
+
+def main():
+    previous_persist = baca.previous_metadata(__file__, file_name="__persist__")
+    baca.reapply(commands, commands.manifests(), previous_persist, voice_names)
+    cache = baca.interpret.cache_leaves(
+        score,
+        len(commands.time_signatures),
+        commands.voice_abbreviations,
+    )
+    postprocess(cache)
+
+
 if __name__ == "__main__":
+    main()
     metadata, persist, score, timing = baca.build.interpret_section(
         score,
         commands,

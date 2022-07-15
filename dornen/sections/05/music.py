@@ -277,79 +277,83 @@ baca.interpret.set_up_score(
 
 figures.populate_commands(score, commands)
 
-# reapply
+## reapply
+#
+# music_voices = [_ for _ in voice_names if "Music" in _]
+#
+# commands(
+#    music_voices,
+#    baca.reapply_persistent_indicators(),
+# )
 
-music_voices = [_ for _ in voice_names if "Music" in _]
 
-commands(
-    music_voices,
-    baca.reapply_persistent_indicators(),
-)
+def postprocess(cache):
+    commands(
+        "v1",
+        baca.tenuto(lambda _: baca.select.pheads(_, exclude=baca.enums.HIDDEN)),
+        baca.beam_positions(10),
+        baca.register(
+            -12,
+            selector=lambda _: baca.select.plts(_),
+        ),
+    )
+    commands(
+        ("v2", (1, 22)),
+        baca.beam_positions(-5.5),
+        baca.register(
+            4,
+            selector=lambda _: baca.select.plts(_),
+        ),
+    )
+    commands(
+        ("v2", (25, -1)),
+        baca.beam_positions(-5.5),
+        baca.register(
+            4,
+            selector=lambda _: baca.select.plts(_),
+        ),
+    )
+    commands(
+        "v3",
+        baca.accent(
+            lambda _: baca.select.pheads(_, exclude=baca.enums.HIDDEN),
+        ),
+        baca.script_down(
+            lambda _: baca.select.leaves(_, exclude=baca.enums.HIDDEN),
+        ),
+        baca.register(
+            -20,
+            selector=lambda _: baca.select.plts(_),
+        ),
+    )
+    commands(
+        "v4",
+        baca.staccato(lambda _: baca.select.pheads(_, exclude=baca.enums.HIDDEN)),
+        baca.beam_positions(5.5),
+        baca.register(
+            -4,
+            selector=lambda _: baca.select.plts(_),
+        ),
+    )
 
-# v1
-
-commands(
-    "v1",
-    baca.tenuto(lambda _: baca.select.pheads(_, exclude=baca.enums.HIDDEN)),
-    baca.beam_positions(10),
-    baca.register(
-        -12,
-        selector=lambda _: baca.select.plts(_),
-    ),
-)
-
-# v2
-
-commands(
-    ("v2", (1, 22)),
-    baca.beam_positions(-5.5),
-    baca.register(
-        4,
-        selector=lambda _: baca.select.plts(_),
-    ),
-)
-
-commands(
-    ("v2", (25, -1)),
-    baca.beam_positions(-5.5),
-    baca.register(
-        4,
-        selector=lambda _: baca.select.plts(_),
-    ),
-)
-
-# v3
-
-commands(
-    "v3",
-    baca.accent(
-        lambda _: baca.select.pheads(_, exclude=baca.enums.HIDDEN),
-    ),
-    baca.script_down(
-        lambda _: baca.select.leaves(_, exclude=baca.enums.HIDDEN),
-    ),
-    baca.register(
-        -20,
-        selector=lambda _: baca.select.plts(_),
-    ),
-)
-
-# v4
-
-commands(
-    "v4",
-    baca.staccato(lambda _: baca.select.pheads(_, exclude=baca.enums.HIDDEN)),
-    baca.beam_positions(5.5),
-    baca.register(
-        -4,
-        selector=lambda _: baca.select.plts(_),
-    ),
-)
 
 defaults = baca.score_interpretation_defaults()
 del defaults["check_wellformedness"]
 
+
+def main():
+    previous_persist = baca.previous_metadata(__file__, file_name="__persist__")
+    baca.reapply(commands, commands.manifests(), previous_persist, voice_names)
+    cache = baca.interpret.cache_leaves(
+        score,
+        len(commands.time_signatures),
+        commands.voice_abbreviations,
+    )
+    postprocess(cache)
+
+
 if __name__ == "__main__":
+    main()
     metadata, persist, score, timing = baca.build.interpret_section(
         score,
         commands,

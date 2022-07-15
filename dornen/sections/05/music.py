@@ -259,7 +259,6 @@ voice_names = baca.accumulator.get_voice_names(score)
 commands = baca.CommandAccumulator(
     instruments=library.instruments(),
     metronome_marks=library.metronome_marks(),
-    skips_instead_of_rests=True,
     time_signatures=figures.time_signatures,
     voice_abbreviations=library.voice_abbreviations(),
     voice_names=voice_names,
@@ -276,16 +275,6 @@ baca.interpret.set_up_score(
 )
 
 figures.populate_commands(score, commands)
-
-## reapply
-#
-# music_voices = [_ for _ in voice_names if "Music" in _]
-#
-# commands(
-#    music_voices,
-#    baca.reapply_persistent_indicators(),
-# )
-
 
 def postprocess(cache):
     commands(
@@ -356,10 +345,12 @@ if __name__ == "__main__":
     main()
     metadata, persist, score, timing = baca.build.interpret_section(
         score,
-        commands,
+        commands.manifests(),
+        commands.time_signatures,
         **defaults,
         activate=(baca.tags.LOCAL_MEASURE_NUMBER,),
         always_make_global_rests=True,
+        commands=commands,
         do_not_require_short_instrument_names=True,
         error_on_not_yet_pitched=True,
         global_rests_in_topmost_staff=True,

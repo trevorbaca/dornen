@@ -193,99 +193,94 @@ baca.interpret.set_up_score(
 
 figures.populate_commands(score, commands)
 
-# reapply
 
-music_voices = [_ for _ in voice_names if "Music" in _]
-
-commands(
-    music_voices,
-    baca.reapply_persistent_indicators(),
-)
-
-# v1
-
-commands(
-    "v1",
-    baca.register(-20),
-    baca.new(
-        baca.repeat_tie(
-            lambda _: baca.select.pleaves(_)[1:],
+def postprocess(cache):
+    commands(
+        "v1",
+        baca.register(-20),
+        baca.new(
+            baca.repeat_tie(
+                lambda _: baca.select.pleaves(_)[1:],
+            ),
+            map=lambda _: baca.select.qruns(_),
         ),
-        map=lambda _: baca.select.qruns(_),
-    ),
-    baca.stem_tremolo(lambda _: baca.select.pleaves(_)),
-)
+        baca.stem_tremolo(lambda _: baca.select.pleaves(_)),
+    )
+    commands(
+        ("v1", 2),
+        baca.hairpin(
+            "ppp < pp",
+            selector=lambda _: baca.select.rleaves(_),
+        ),
+    )
+    commands(
+        ("v1", 4),
+        baca.hairpin(
+            "pp > ppp",
+            selector=lambda _: baca.select.rleaves(_),
+        ),
+    )
+    commands(
+        ("v1", 7),
+        baca.hairpin(
+            "ppp < p",
+            selector=lambda _: baca.select.rleaves(_),
+        ),
+    )
+    commands(
+        ("v1", 9),
+        baca.hairpin(
+            "p > ppp",
+            selector=lambda _: baca.select.rleaves(_),
+        ),
+    )
+    commands(
+        ("v1", 12),
+        baca.hairpin(
+            "ppp < pp",
+            selector=lambda _: baca.select.rleaves(_),
+        ),
+    )
+    commands(
+        ("v1", 14),
+        baca.hairpin(
+            "pp < p",
+            selector=lambda _: baca.select.rleaves(_),
+        ),
+    )
+    commands(
+        ("v1", 16),
+        baca.hairpin(
+            "p < mp",
+            selector=lambda _: baca.select.rleaves(_),
+        ),
+    )
+    commands(
+        ("v1", (18, 21)),
+        baca.hairpin(
+            "mp > pp",
+            selector=lambda _: baca.select.rleaves(_),
+        ),
+    )
+    commands(
+        "v1",
+        baca.text_script_staff_padding(5),
+    )
 
-commands(
-    ("v1", 2),
-    baca.hairpin(
-        "ppp < pp",
-        selector=lambda _: baca.select.rleaves(_),
-    ),
-)
 
-commands(
-    ("v1", 4),
-    baca.hairpin(
-        "pp > ppp",
-        selector=lambda _: baca.select.rleaves(_),
-    ),
-)
+def main():
+    previous_persist = baca.previous_metadata(__file__, file_name="__persist__")
+    baca.reapply(commands, commands.manifests(), previous_persist, voice_names)
+    cache = baca.interpret.cache_leaves(
+        score,
+        len(commands.time_signatures),
+        commands.voice_abbreviations,
+    )
+    postprocess(cache)
 
-commands(
-    ("v1", 7),
-    baca.hairpin(
-        "ppp < p",
-        selector=lambda _: baca.select.rleaves(_),
-    ),
-)
-
-commands(
-    ("v1", 9),
-    baca.hairpin(
-        "p > ppp",
-        selector=lambda _: baca.select.rleaves(_),
-    ),
-)
-
-commands(
-    ("v1", 12),
-    baca.hairpin(
-        "ppp < pp",
-        selector=lambda _: baca.select.rleaves(_),
-    ),
-)
-
-commands(
-    ("v1", 14),
-    baca.hairpin(
-        "pp < p",
-        selector=lambda _: baca.select.rleaves(_),
-    ),
-)
-
-commands(
-    ("v1", 16),
-    baca.hairpin(
-        "p < mp",
-        selector=lambda _: baca.select.rleaves(_),
-    ),
-)
-
-commands(
-    ("v1", (18, 21)),
-    baca.hairpin(
-        "mp > pp",
-        selector=lambda _: baca.select.rleaves(_),
-    ),
-)
-
-commands(
-    "v1",
-    baca.text_script_staff_padding(5),
-)
 
 if __name__ == "__main__":
+    main()
     metadata, persist, score, timing = baca.build.interpret_section(
         score,
         commands,

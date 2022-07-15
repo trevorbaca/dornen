@@ -157,42 +157,44 @@ manifests = commands.manifests()
 
 baca.metronome_mark(skips[9 - 1], commands.metronome_marks["44"], manifests)
 
-# reapply
 
-music_voices = [_ for _ in voice_names if "Music" in _]
+def postprocess(cache):
+    commands(
+        ("v3", (1, 7)),
+        baca.accent(
+            lambda _: baca.select.pheads(_, exclude=baca.enums.HIDDEN),
+        ),
+        baca.new(
+            baca.script_down(),
+            baca.register(-20),
+            selector=lambda _: baca.select.leaves(_, exclude=baca.enums.HIDDEN),
+        ),
+    )
+    commands(
+        ("v4", (1, 7)),
+        baca.staccato(lambda _: baca.select.pheads(_)),
+        baca.beam_positions(5.5),
+        baca.register(-4),
+    )
 
-commands(
-    music_voices,
-    baca.reapply_persistent_indicators(),
-)
-
-# v3
-
-commands(
-    ("v3", (1, 7)),
-    baca.accent(
-        lambda _: baca.select.pheads(_, exclude=baca.enums.HIDDEN),
-    ),
-    baca.new(
-        baca.script_down(),
-        baca.register(-20),
-        selector=lambda _: baca.select.leaves(_, exclude=baca.enums.HIDDEN),
-    ),
-)
-
-# v4
-
-commands(
-    ("v4", (1, 7)),
-    baca.staccato(lambda _: baca.select.pheads(_)),
-    baca.beam_positions(5.5),
-    baca.register(-4),
-)
 
 defaults = baca.score_interpretation_defaults()
 del defaults["check_wellformedness"]
 
+
+def main():
+    previous_persist = baca.previous_metadata(__file__, file_name="__persist__")
+    baca.reapply(commands, commands.manifests(), previous_persist, voice_names)
+    cache = baca.interpret.cache_leaves(
+        score,
+        len(commands.time_signatures),
+        commands.voice_abbreviations,
+    )
+    postprocess(cache)
+
+
 if __name__ == "__main__":
+    main()
     metadata, persist, score, timing = baca.build.interpret_section(
         score,
         commands,

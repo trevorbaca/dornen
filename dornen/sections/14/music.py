@@ -352,70 +352,71 @@ baca.interpret.set_up_score(
 
 figures.populate_commands(score, commands)
 
-# reapply
 
-music_voices = [_ for _ in voice_names if "Music" in _]
+def postprocess(cache):
+    commands(
+        ("v1", (1, 41)),
+        baca.beam_positions(10),
+        baca.register(-12),
+        baca.tenuto(lambda _: baca.select.pheads(_)),
+    )
+    commands(
+        ("v2", (1, 41)),
+        baca.beam_positions(
+            -5.5,
+            lambda _: baca.select.leaves(_, exclude=baca.enums.HIDDEN),
+        ),
+        baca.register(
+            4,
+            selector=lambda _: baca.select.plts(_),
+        ),
+    )
+    commands(
+        ("v3", (1, 41)),
+        baca.accent(lambda _: baca.select.pheads(_, exclude=baca.enums.HIDDEN)),
+        baca.register(
+            -20,
+            selector=lambda _: baca.select.plts(_),
+        ),
+        baca.script_down(),
+    )
+    commands(
+        ("v4", (1, 41)),
+        baca.beam_positions(5.5),
+        baca.register(-4),
+        baca.staccato(lambda _: baca.select.pheads(_, exclude=baca.enums.HIDDEN)),
+    )
+    commands(
+        ("v1", -1),
+        baca.chunk(
+            baca.mark(r"\dornen-colophon-markup"),
+            baca.rehearsal_mark_down(),
+            baca.rehearsal_mark_padding(12),
+            baca.rehearsal_mark_self_alignment_x(abjad.RIGHT),
+            selector=lambda _: baca.select.rleaf(_, -1),
+        ),
+    )
 
-commands(
-    music_voices,
-    baca.reapply_persistent_indicators(),
-)
-
-# v1
-
-commands(
-    ("v1", (1, 41)),
-    baca.beam_positions(10),
-    baca.register(-12),
-    baca.tenuto(lambda _: baca.select.pheads(_)),
-)
-
-commands(
-    ("v2", (1, 41)),
-    baca.beam_positions(
-        -5.5,
-        lambda _: baca.select.leaves(_, exclude=baca.enums.HIDDEN),
-    ),
-    baca.register(
-        4,
-        selector=lambda _: baca.select.plts(_),
-    ),
-)
-
-commands(
-    ("v3", (1, 41)),
-    baca.accent(lambda _: baca.select.pheads(_, exclude=baca.enums.HIDDEN)),
-    baca.register(
-        -20,
-        selector=lambda _: baca.select.plts(_),
-    ),
-    baca.script_down(),
-)
-
-commands(
-    ("v4", (1, 41)),
-    baca.beam_positions(5.5),
-    baca.register(-4),
-    baca.staccato(lambda _: baca.select.pheads(_, exclude=baca.enums.HIDDEN)),
-)
-
-commands(
-    ("v1", -1),
-    baca.chunk(
-        baca.mark(r"\dornen-colophon-markup"),
-        baca.rehearsal_mark_down(),
-        baca.rehearsal_mark_padding(12),
-        baca.rehearsal_mark_self_alignment_x(abjad.RIGHT),
-        selector=lambda _: baca.select.rleaf(_, -1),
-    ),
-)
 
 baca.bar_line(score["Skips"][42 - 1], "|.")
 
 defaults = baca.score_interpretation_defaults()
 del defaults["check_wellformedness"]
 
+
+def main():
+    previous_persist = baca.previous_metadata(__file__, file_name="__persist__")
+    baca.reapply(commands, commands.manifests(), previous_persist, voice_names)
+    cache = baca.interpret.cache_leaves(
+        score,
+        len(commands.time_signatures),
+        commands.voice_abbreviations,
+    )
+    postprocess(cache)
+
+
 if __name__ == "__main__":
+    main()
     metadata, persist, score, timing = baca.build.interpret_section(
         score,
         commands,

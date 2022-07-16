@@ -172,7 +172,7 @@ figures(
 
 voice_names = baca.accumulator.get_voice_names(score)
 
-commands = baca.CommandAccumulator(
+accumulator = baca.CommandAccumulator(
     instruments=library.instruments(),
     metronome_marks=library.metronome_marks(),
     time_signatures=figures.time_signatures,
@@ -182,19 +182,19 @@ commands = baca.CommandAccumulator(
 
 baca.interpret.set_up_score(
     score,
-    commands,
-    commands.manifests(),
-    commands.time_signatures,
+    accumulator,
+    accumulator.manifests(),
+    accumulator.time_signatures,
     append_anchor_skip=True,
     always_make_global_rests=True,
     attach_nonfirst_empty_start_bar=True,
 )
 
-figures.populate_commands(score, commands)
+figures.populate_commands(score, accumulator)
 
 
 def postprocess(cache):
-    commands(
+    accumulator(
         "v1",
         baca.register(-20),
         baca.new(
@@ -205,63 +205,63 @@ def postprocess(cache):
         ),
         baca.stem_tremolo(lambda _: baca.select.pleaves(_)),
     )
-    commands(
+    accumulator(
         ("v1", 2),
         baca.hairpin(
             "ppp < pp",
             selector=lambda _: baca.select.rleaves(_),
         ),
     )
-    commands(
+    accumulator(
         ("v1", 4),
         baca.hairpin(
             "pp > ppp",
             selector=lambda _: baca.select.rleaves(_),
         ),
     )
-    commands(
+    accumulator(
         ("v1", 7),
         baca.hairpin(
             "ppp < p",
             selector=lambda _: baca.select.rleaves(_),
         ),
     )
-    commands(
+    accumulator(
         ("v1", 9),
         baca.hairpin(
             "p > ppp",
             selector=lambda _: baca.select.rleaves(_),
         ),
     )
-    commands(
+    accumulator(
         ("v1", 12),
         baca.hairpin(
             "ppp < pp",
             selector=lambda _: baca.select.rleaves(_),
         ),
     )
-    commands(
+    accumulator(
         ("v1", 14),
         baca.hairpin(
             "pp < p",
             selector=lambda _: baca.select.rleaves(_),
         ),
     )
-    commands(
+    accumulator(
         ("v1", 16),
         baca.hairpin(
             "p < mp",
             selector=lambda _: baca.select.rleaves(_),
         ),
     )
-    commands(
+    accumulator(
         ("v1", (18, 21)),
         baca.hairpin(
             "mp > pp",
             selector=lambda _: baca.select.rleaves(_),
         ),
     )
-    commands(
+    accumulator(
         "v1",
         baca.text_script_staff_padding(5),
     )
@@ -269,31 +269,31 @@ def postprocess(cache):
 
 def main():
     previous_persist = baca.previous_metadata(__file__, file_name="__persist__")
-    baca.reapply(commands, commands.manifests(), previous_persist, voice_names)
+    baca.reapply(accumulator, accumulator.manifests(), previous_persist, voice_names)
     cache = baca.interpret.cache_leaves(
         score,
-        len(commands.time_signatures),
-        commands.voice_abbreviations,
+        len(accumulator.time_signatures),
+        accumulator.voice_abbreviations,
     )
     postprocess(cache)
 
 
 if __name__ == "__main__":
     main()
-    metadata, persist, score, timing = baca.build.interpret_section(
+    metadata, persist, score, timing = baca.build.section(
         score,
-        commands.manifests(),
-        commands.time_signatures,
-        **baca.score_interpretation_defaults(),
+        accumulator.manifests(),
+        accumulator.time_signatures,
+        **baca.interpret.section_defaults(),
         activate=(baca.tags.LOCAL_MEASURE_NUMBER,),
         always_make_global_rests=True,
-        commands=commands,
+        commands=accumulator.commands,
         do_not_require_short_instrument_names=True,
         error_on_not_yet_pitched=True,
         global_rests_in_topmost_staff=True,
         transpose_score=True,
     )
-    lilypond_file = baca.make_lilypond_file(
+    lilypond_file = baca.lilypond.file(
         score,
         include_layout_ly=True,
         includes=["../stylesheet.ily"],

@@ -276,6 +276,7 @@ baca.interpret.set_up_score(
 
 figures.populate_commands(score, commands)
 
+
 def postprocess(cache):
     commands(
         "v1",

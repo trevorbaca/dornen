@@ -86,7 +86,7 @@ figures(
     baca.markup(r"\dornen-two-finger-tamb-trill-markup"),
     baca.repeat_tie(selector=lambda _: baca.select.phead(_, 1)),
     baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
-    baca.stem_up(),
+    baca.stem_up(selector=lambda _: baca.select.pleaves(_)),
     baca.tuplet_bracket_staff_padding(0),
     baca.tuplet_bracket_extra_offset(
         (0, -0.5),
@@ -175,7 +175,7 @@ figures(
     baca.markup(r"\dornen-two-finger-tamb-trill-markup"),
     baca.repeat_tie(selector=lambda _: baca.select.phead(_, 1)),
     baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
-    baca.stem_up(),
+    baca.stem_up(selector=lambda _: baca.select.pleaves(_)),
     baca.tuplet_bracket_staff_padding(0),
     baca.tuplet_bracket_extra_offset(
         (0, -0.5),

@@ -25,7 +25,7 @@ figures(
     baca.sequence.reveal(design[5:6], 1),
     *library.graced_tuplets(),
     baca.beam_positions(12),
-    baca.stem_up(),
+    baca.stem_up(selector=lambda _: baca.select.pleaves(_)),
     baca.register(0),
     baca.extend_beam(),
     figure_name="G1_1",
@@ -48,7 +48,7 @@ figures(
     "v4",
     baca.sequence.reveal(design[5:6], 1),
     *library.graced_tuplets(),
-    baca.stem_up(),
+    baca.stem_up(selector=lambda _: baca.select.pleaves(_)),
     baca.register(0),
     baca.extend_beam(),
     figure_name="G1_1*",
@@ -67,7 +67,7 @@ figures(
     "v4",
     baca.sequence.reveal(design[5:6], 3),
     *library.graced_tuplets(),
-    baca.stem_up(),
+    baca.stem_up(selector=lambda _: baca.select.pleaves(_)),
     baca.register(0),
     baca.extend_beam(),
     figure_name="G1_2",
@@ -86,7 +86,7 @@ figures(
     "v4",
     baca.sequence.reveal(design[5:6], 3),
     *library.graced_tuplets(),
-    baca.stem_up(),
+    baca.stem_up(selector=lambda _: baca.select.pleaves(_)),
     baca.register(0),
     figure_name="G1_3",
 )
@@ -98,7 +98,7 @@ figures(
     baca.sequence.reveal(cell_d1, 4),
     *library.delicatissimo(),
     baca.beam_positions(-6.5),
-    baca.stem_down(),
+    baca.stem_down(selector=lambda _: baca.select.pleaves(_)),
     baca.extend_beam(),
     figure_name="D1_1",
 )
@@ -108,7 +108,7 @@ figures(
     baca.sequence.reveal(design[5:6], 1),
     *library.graced_tuplets(),
     baca.beam_positions(12),
-    baca.stem_up(),
+    baca.stem_up(selector=lambda _: baca.select.pleaves(_)),
     baca.register(0),
     baca.extend_beam(),
     figure_name="G1_4",
@@ -119,7 +119,7 @@ figures(
     baca.sequence.reveal(cell_d1, 3),
     *library.delicatissimo(),
     baca.beam_positions(-6.5),
-    baca.stem_down(),
+    baca.stem_down(selector=lambda _: baca.select.pleaves(_)),
     baca.extend_beam(),
     figure_name="D1_2",
 )
@@ -128,7 +128,7 @@ figures(
     "v4",
     baca.sequence.reveal(design[5:6], 5),
     *library.graced_tuplets(),
-    baca.stem_up(),
+    baca.stem_up(selector=lambda _: baca.select.pleaves(_)),
     baca.register(0),
     baca.extend_beam(),
     figure_name="G1_5",
@@ -139,7 +139,7 @@ figures(
     baca.sequence.reveal(cell_d1, 10),
     *library.delicatissimo(),
     baca.beam_positions(-6.5),
-    baca.stem_down(),
+    baca.stem_down(selector=lambda _: baca.select.pleaves(_)),
     figure_name="D1_3",
 )
 
@@ -160,7 +160,7 @@ figures(
     "v4",
     baca.sequence.reveal(design[5:6], 3),
     *library.graced_tuplets(),
-    baca.stem_up(),
+    baca.stem_up(selector=lambda _: baca.select.pleaves(_)),
     baca.register(0),
     baca.extend_beam(),
     figure_name="G1_6",
@@ -171,7 +171,7 @@ figures(
     [abjad.sequence.flatten(baca.sequence.boustrophedon(design[2:3], count=2))],
     *library.waves(denominator=64),
     baca.beam_positions(7),
-    baca.stem_up(),
+    baca.stem_up(selector=lambda _: baca.select.pleaves(_)),
     baca.register(0, -14),
     figure_name="W2*",
 )
@@ -181,7 +181,7 @@ figures(
     baca.sequence.reveal(cell_d1, 15),
     *library.delicatissimo(),
     baca.beam_positions(-6.5),
-    baca.stem_down(),
+    baca.stem_down(selector=lambda _: baca.select.pleaves(_)),
     baca.extend_beam(),
     figure_name="D1_4",
 )
@@ -191,7 +191,7 @@ figures(
     baca.sequence.reveal(design[5:6], 9),
     *library.graced_tuplets(),
     baca.beam_positions(6),
-    baca.stem_up(),
+    baca.stem_up(selector=lambda _: baca.select.pleaves(_)),
     baca.register(0, -14),
     baca.extend_beam(),
     figure_name="G1_7",
@@ -202,7 +202,7 @@ figures(
     baca.sequence.reveal(cell_d1, 6),
     *library.delicatissimo(),
     baca.beam_positions(-6.5),
-    baca.stem_down(),
+    baca.stem_down(selector=lambda _: baca.select.pleaves(_)),
     figure_name="D1_5",
 )
 
@@ -220,7 +220,7 @@ figures(
     [list(_) for _ in abjad.sequence.flatten(abjad.sequence.repeat(design[5:6], n=2))],
     *library.graced_tuplets(),
     baca.beam_positions(6),
-    baca.stem_up(),
+    baca.stem_up(selector=lambda _: baca.select.pleaves(_)),
     baca.register(0, -14),
     figure_name="G1_8",
 )
@@ -243,7 +243,7 @@ figures(
     baca.sequence.reveal(cell_d1, 10),
     *library.delicatissimo(),
     baca.beam_positions(-6.5),
-    baca.stem_down(),
+    baca.stem_down(selector=lambda _: baca.select.pleaves(_)),
     figure_name="D1_6",
 )
 
@@ -253,7 +253,7 @@ figures(
     *library.delicatissimo(),
     baca.beam_positions(-6.5),
     baca.nest([abjad.Multiplier((2, 3))]),
-    baca.stem_down(),
+    baca.stem_down(selector=lambda _: baca.select.pleaves(_)),
     baca.tuplet_bracket_up(),
     figure_name="D1_7",
 )
@@ -263,7 +263,7 @@ figures(
     design[6:7],
     *library.delicatissimo(),
     baca.beam_positions(-6.5),
-    baca.stem_down(),
+    baca.stem_down(selector=lambda _: baca.select.pleaves(_)),
     baca.register(6, -20),
     figure_name="D2",
 )
@@ -343,7 +343,7 @@ figures(
     [abjad.sequence.flatten(baca.sequence.boustrophedon(design[2:3], count=2))],
     *library.waves(denominator=64),
     baca.beam_positions(7),
-    baca.stem_up(),
+    baca.stem_up(selector=lambda _: baca.select.pleaves(_)),
     baca.register(0, -14),
     figure_name="W2**",
 )
@@ -353,7 +353,7 @@ figures(
     design[6:7],
     *library.delicatissimo(),
     baca.beam_positions(-6.5),
-    baca.stem_down(),
+    baca.stem_down(selector=lambda _: baca.select.pleaves(_)),
     baca.register(6, -20),
     figure_name="D2*",
 )

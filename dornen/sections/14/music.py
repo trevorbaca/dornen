@@ -61,7 +61,7 @@ figures(
     "v1",
     [["C4"]],
     *library.thirty_seconds(),
-    rmakers.force_rest(lambda _: baca.select.lt(_, 0)),
+    rmakers.force_rest(selector=lambda _: baca.select.lt(_, 0)),
 )
 
 ### 2 ###
@@ -112,7 +112,7 @@ figures(
     "v1",
     [["C4"]],
     *library.thirty_seconds(),
-    rmakers.force_rest(lambda _: baca.select.lt(_, 0)),
+    rmakers.force_rest(selector=lambda _: baca.select.lt(_, 0)),
 )
 
 ### 3 ###
@@ -163,7 +163,7 @@ figures(
     "v1",
     [["C4"]],
     *library.thirty_seconds(),
-    rmakers.force_rest(lambda _: baca.select.lt(_, 0)),
+    rmakers.force_rest(selector=lambda _: baca.select.lt(_, 0)),
 )
 
 ### 4 ###
@@ -213,7 +213,7 @@ figures(
     "v1",
     [["C4"]],
     *library.thirty_seconds(),
-    rmakers.force_rest(lambda _: baca.select.lt(_, 0)),
+    rmakers.force_rest(selector=lambda _: baca.select.lt(_, 0)),
 )
 
 ### 5 ###
@@ -263,7 +263,7 @@ figures(
     "v1",
     [["C4"]],
     *library.thirty_seconds(),
-    rmakers.force_rest(lambda _: baca.select.lt(_, 0)),
+    rmakers.force_rest(selector=lambda _: baca.select.lt(_, 0)),
 )
 
 ### 6 ###
@@ -322,11 +322,11 @@ figures(
     baca.register(-20),
     baca.new(
         baca.repeat_tie(
-            lambda _: baca.select.pleaves(_)[1:],
+            selector=lambda _: baca.select.pleaves(_)[1:],
         ),
         map=lambda _: baca.select.qruns(_),
     ),
-    baca.stem_tremolo(lambda _: baca.select.pleaves(_)),
+    baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
 )
 
 voice_names = baca.accumulator.get_voice_names(score)
@@ -357,13 +357,13 @@ def postprocess(cache):
         ("v1", (1, 41)),
         baca.beam_positions(10),
         baca.register(-12),
-        baca.tenuto(lambda _: baca.select.pheads(_)),
+        baca.tenuto(selector=lambda _: baca.select.pheads(_)),
     )
     accumulator(
         ("v2", (1, 41)),
         baca.beam_positions(
             -5.5,
-            lambda _: baca.select.leaves(_, exclude=baca.enums.HIDDEN),
+            selector=lambda _: baca.select.leaves(_, exclude=baca.enums.HIDDEN),
         ),
         baca.register(
             4,
@@ -372,7 +372,9 @@ def postprocess(cache):
     )
     accumulator(
         ("v3", (1, 41)),
-        baca.accent(lambda _: baca.select.pheads(_, exclude=baca.enums.HIDDEN)),
+        baca.accent(
+            selector=lambda _: baca.select.pheads(_, exclude=baca.enums.HIDDEN)
+        ),
         baca.register(
             -20,
             selector=lambda _: baca.select.plts(_),
@@ -383,7 +385,9 @@ def postprocess(cache):
         ("v4", (1, 41)),
         baca.beam_positions(5.5),
         baca.register(-4),
-        baca.staccato(lambda _: baca.select.pheads(_, exclude=baca.enums.HIDDEN)),
+        baca.staccato(
+            selector=lambda _: baca.select.pheads(_, exclude=baca.enums.HIDDEN)
+        ),
     )
     accumulator(
         ("v1", -1),

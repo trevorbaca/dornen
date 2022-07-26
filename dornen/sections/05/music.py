@@ -43,7 +43,7 @@ figures(
     design[3:4],
     *library.twentieths(),
     baca.beam_positions(6),
-    baca.stem_up(),
+    baca.stem_up(selector=lambda _: baca.select.pleaves(_)),
     figure_name="20_2",
 )
 
@@ -153,7 +153,7 @@ figures(
     design[3:4],
     *library.twentieths(),
     baca.beam_positions(6),
-    baca.stem_up(),
+    baca.stem_up(selector=lambda _: baca.select.pleaves(_)),
     figure_name="20_2*",
 )
 
@@ -202,7 +202,7 @@ figures(
     *library.monads(),
     baca.markup(r"\dornen-two-finger-tamb-trill-markup"),
     baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
-    baca.stem_up(),
+    baca.stem_up(selector=lambda _: baca.select.pleaves(_)),
     baca.tuplet_bracket_staff_padding(0),
     baca.tuplet_bracket_extra_offset((0, -0.5)),
     baca.tuplet_number_extra_offset((0, -0.5)),

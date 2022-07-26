@@ -49,7 +49,7 @@ figures(
     "v3",
     design[2:3],
     *library.twenty_eighths(),
-    baca.stem_up(),
+    baca.stem_up(selector=lambda _: baca.select.pleaves(_)),
     middle_register,
     figure_name="28_1",
 )
@@ -84,7 +84,7 @@ figures(
     "v3",
     design[6:7],
     *library.twenty_eighths(),
-    baca.stem_up(),
+    baca.stem_up(selector=lambda _: baca.select.pleaves(_)),
     middle_register,
     figure_name="28_2",
 )
@@ -143,7 +143,7 @@ figures(
     "v3",
     design[13:14],
     *library.twenty_eighths(),
-    baca.stem_up(),
+    baca.stem_up(selector=lambda _: baca.select.pleaves(_)),
     middle_register,
     figure_name="28_3",
 )
@@ -196,7 +196,7 @@ figures(
     "v3",
     design[19:20],
     *library.twenty_eighths(),
-    baca.stem_up(),
+    baca.stem_up(selector=lambda _: baca.select.pleaves(_)),
     middle_register,
     figure_name="28_4",
 )

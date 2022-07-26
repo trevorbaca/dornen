@@ -41,7 +41,7 @@ figures(
     design[3:4],
     *library.twentieths(),
     baca.beam_positions(6),
-    baca.stem_up(),
+    baca.stem_up(selector=lambda _: baca.select.pleaves(_)),
 )
 
 figures(
@@ -92,7 +92,7 @@ figures(
     design[3:4],
     *library.twentieths(),
     baca.beam_positions(6),
-    baca.stem_up(),
+    baca.stem_up(selector=lambda _: baca.select.pleaves(_)),
 )
 
 figures(
@@ -143,7 +143,7 @@ figures(
     design[3:4],
     *library.twentieths(),
     baca.beam_positions(6),
-    baca.stem_up(),
+    baca.stem_up(selector=lambda _: baca.select.pleaves(_)),
 )
 
 figures(
@@ -193,7 +193,7 @@ figures(
     design[3:4],
     *library.twentieths(),
     baca.beam_positions(6),
-    baca.stem_up(),
+    baca.stem_up(selector=lambda _: baca.select.pleaves(_)),
 )
 
 figures(
@@ -243,7 +243,7 @@ figures(
     design[3:4],
     *library.twentieths(),
     baca.beam_positions(6),
-    baca.stem_up(),
+    baca.stem_up(selector=lambda _: baca.select.pleaves(_)),
 )
 
 figures(
@@ -292,7 +292,7 @@ figures(
     design[3:4],
     *library.twentieths(),
     baca.beam_positions(6),
-    baca.stem_up(),
+    baca.stem_up(selector=lambda _: baca.select.pleaves(_)),
 )
 
 figures(

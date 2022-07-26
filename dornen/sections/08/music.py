@@ -17,7 +17,7 @@ figures(
     *library.ovoids(),
     baca.beam_positions(
         -7.5,
-        lambda _: baca.select.pleaf(_, 0),
+        selector=lambda _: baca.select.pleaf(_, 0),
     ),
     baca.register(-20, -8),
     figure_name="O1",
@@ -61,7 +61,7 @@ figures(
     *library.ovoids(),
     baca.beam_positions(
         -7.5,
-        lambda _: baca.select.pleaf(_, 0),
+        selector=lambda _: baca.select.pleaf(_, 0),
     ),
     baca.extend_beam(),
     figure_name="O2",

@@ -201,7 +201,7 @@ def postprocess(cache):
         ("v1", (9, 18)),
         baca.beam_positions(
             8,
-            lambda _: baca.select.leaves(_, exclude=baca.enums.HIDDEN),
+            selector=lambda _: baca.select.leaves(_, exclude=baca.enums.HIDDEN),
         ),
     )
     accumulator(

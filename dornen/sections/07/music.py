@@ -249,7 +249,7 @@ def postprocess(cache):
         ("v2", (1, 10)),
         baca.beam_positions(
             -7,
-            lambda _: baca.select.leaves(_, exclude=baca.enums.HIDDEN),
+            selector=lambda _: baca.select.leaves(_, exclude=baca.enums.HIDDEN),
         ),
         lower_register,
     )
@@ -261,7 +261,9 @@ def postprocess(cache):
     accumulator(
         ("v3", (1, 22)),
         baca.beam_positions(4),
-        baca.staccato(lambda _: baca.select.pheads(_, exclude=baca.enums.HIDDEN)),
+        baca.staccato(
+            selector=lambda _: baca.select.pheads(_, exclude=baca.enums.HIDDEN)
+        ),
     )
 
 

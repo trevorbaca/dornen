@@ -217,11 +217,11 @@ def postprocess(cache):
         baca.register(-20),
         baca.new(
             baca.repeat_tie(
-                lambda _: baca.select.pleaves(_)[1:],
+                selector=lambda _: baca.select.pleaves(_)[1:],
             ),
             map=lambda _: baca.select.qruns(_),
         ),
-        baca.stem_tremolo(lambda _: baca.select.pleaves(_)),
+        baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
     )
     accumulator(
         ("v1", (2, 3)),

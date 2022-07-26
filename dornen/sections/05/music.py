@@ -201,7 +201,7 @@ figures(
     [["Gb2"]],
     *library.monads(),
     baca.markup(r"\dornen-two-finger-tamb-trill-markup"),
-    baca.stem_tremolo(lambda _: baca.select.pleaves(_)),
+    baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
     baca.stem_up(),
     baca.tuplet_bracket_staff_padding(0),
     baca.tuplet_bracket_extra_offset((0, -0.5)),
@@ -280,7 +280,9 @@ figures.populate_commands(score, accumulator)
 def postprocess(cache):
     accumulator(
         "v1",
-        baca.tenuto(lambda _: baca.select.pheads(_, exclude=baca.enums.HIDDEN)),
+        baca.tenuto(
+            selector=lambda _: baca.select.pheads(_, exclude=baca.enums.HIDDEN)
+        ),
         baca.beam_positions(10),
         baca.register(
             -12,
@@ -306,10 +308,10 @@ def postprocess(cache):
     accumulator(
         "v3",
         baca.accent(
-            lambda _: baca.select.pheads(_, exclude=baca.enums.HIDDEN),
+            selector=lambda _: baca.select.pheads(_, exclude=baca.enums.HIDDEN),
         ),
         baca.script_down(
-            lambda _: baca.select.leaves(_, exclude=baca.enums.HIDDEN),
+            selector=lambda _: baca.select.leaves(_, exclude=baca.enums.HIDDEN),
         ),
         baca.register(
             -20,
@@ -318,7 +320,9 @@ def postprocess(cache):
     )
     accumulator(
         "v4",
-        baca.staccato(lambda _: baca.select.pheads(_, exclude=baca.enums.HIDDEN)),
+        baca.staccato(
+            selector=lambda _: baca.select.pheads(_, exclude=baca.enums.HIDDEN)
+        ),
         baca.beam_positions(5.5),
         baca.register(
             -4,

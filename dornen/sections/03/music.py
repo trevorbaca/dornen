@@ -37,7 +37,7 @@ figures(
     *library.ovoids(),
     baca.beam_positions(
         -8,
-        lambda _: baca.select.pleaf(_, 0),
+        selector=lambda _: baca.select.pleaf(_, 0),
     ),
     baca.register(-14, -6),
     baca.extend_beam(),
@@ -149,7 +149,7 @@ figures(
     *library.ovoids(),
     baca.beam_positions(
         -8,
-        lambda _: baca.select.pleaf(_, 0),
+        selector=lambda _: baca.select.pleaf(_, 0),
     ),
     baca.register(-14, -6),
     baca.extend_beam(),
@@ -231,7 +231,7 @@ figures(
     *library.ovoids(),
     baca.beam_positions(
         -8,
-        lambda _: baca.select.pleaf(_, 0),
+        selector=lambda _: baca.select.pleaf(_, 0),
     ),
     baca.register(-14, -6),
     baca.extend_beam(),
@@ -292,7 +292,7 @@ figures(
     *library.ovoids(),
     baca.beam_positions(
         -8,
-        lambda _: baca.select.pleaf(_, 0),
+        selector=lambda _: baca.select.pleaf(_, 0),
     ),
     baca.register(-14, -6),
     baca.extend_beam(),
@@ -331,7 +331,7 @@ figures(
     *library.ovoids(),
     baca.beam_positions(
         -8,
-        lambda _: baca.select.pleaf(_, 0),
+        selector=lambda _: baca.select.pleaf(_, 0),
     ),
     baca.register(-14, -6),
     baca.extend_beam(),

@@ -16,7 +16,7 @@ figures(
     "v1",
     design[:1],
     *library.forty_eighths(),
-    baca.tenuto(lambda _: baca.select.pheads(_)),
+    baca.tenuto(selector=lambda _: baca.select.pheads(_)),
     baca.beam_positions(10),
     baca.register(-12),
     baca.extend_beam(),
@@ -51,7 +51,7 @@ figures(
     "v1",
     design[6:7],
     *library.forty_eighths(),
-    baca.tenuto(lambda _: baca.select.pheads(_)),
+    baca.tenuto(selector=lambda _: baca.select.pheads(_)),
     baca.register(-12),
     figure_name="48_2",
 )
@@ -161,7 +161,7 @@ def postprocess(cache):
     accumulator(
         ("v3", (1, 7)),
         baca.accent(
-            lambda _: baca.select.pheads(_, exclude=baca.enums.HIDDEN),
+            selector=lambda _: baca.select.pheads(_, exclude=baca.enums.HIDDEN),
         ),
         baca.new(
             baca.script_down(),
@@ -171,7 +171,7 @@ def postprocess(cache):
     )
     accumulator(
         ("v4", (1, 7)),
-        baca.staccato(lambda _: baca.select.pheads(_)),
+        baca.staccato(selector=lambda _: baca.select.pheads(_)),
         baca.beam_positions(5.5),
         baca.register(-4),
     )

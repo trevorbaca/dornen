@@ -88,8 +88,14 @@ figures(
     baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
     baca.stem_up(),
     baca.tuplet_bracket_staff_padding(0),
-    baca.tuplet_bracket_extra_offset((0, -0.5)),
-    baca.tuplet_number_extra_offset((0, -0.5)),
+    baca.tuplet_bracket_extra_offset(
+        (0, -0.5),
+        selector=lambda _: abjad.select.leaf(_, 0),
+    ),
+    baca.tuplet_number_extra_offset(
+        (0, -0.5),
+        selector=lambda _: abjad.select.leaf(_, 0),
+    ),
     baca.register(-20),
     figure_name="T1",
 )
@@ -171,8 +177,14 @@ figures(
     baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
     baca.stem_up(),
     baca.tuplet_bracket_staff_padding(0),
-    baca.tuplet_bracket_extra_offset((0, -0.5)),
-    baca.tuplet_number_extra_offset((0, -0.5)),
+    baca.tuplet_bracket_extra_offset(
+        (0, -0.5),
+        selector=lambda _: abjad.select.leaf(_, 0),
+    ),
+    baca.tuplet_number_extra_offset(
+        (0, -0.5),
+        selector=lambda _: abjad.select.leaf(_, 0),
+    ),
     baca.register(-20),
     figure_name="T2",
 )

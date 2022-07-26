@@ -33,7 +33,9 @@ figures(
         -10,
         selector=lambda _: baca.select.leaves(_, grace=False),
     ),
-    baca.time_signature_extra_offset((-2.5, 0)),
+    baca.time_signature_extra_offset(
+        (-2.5, 0), selector=lambda _: baca.select.hleaf(_, 0)
+    ),
     baca.register(-10),
     baca.extend_beam(),
     figure_name="1",
@@ -52,7 +54,9 @@ figures(
     "v2",
     cursor.next(),
     *library.passepied(),
-    baca.time_signature_extra_offset((-2.5, 0)),
+    baca.time_signature_extra_offset(
+        (-2.5, 0), selector=lambda _: baca.select.hleaf(_, 0)
+    ),
     baca.register(-8),
     baca.extend_beam(),
     figure_name="3",
@@ -70,7 +74,9 @@ figures(
     "v2",
     cursor.next(),
     *library.passepied(),
-    baca.time_signature_extra_offset((-2.5, 0)),
+    baca.time_signature_extra_offset(
+        (-2.5, 0), selector=lambda _: baca.select.hleaf(_, 0)
+    ),
     baca.register(-6),
     figure_name="5",
 )
@@ -96,7 +102,9 @@ figures(
         -10,
         selector=lambda _: baca.select.leaves(_, grace=False),
     ),
-    baca.time_signature_extra_offset((-2.5, 0)),
+    baca.time_signature_extra_offset(
+        (-2.5, 0), selector=lambda _: baca.select.hleaf(_, 0)
+    ),
     baca.register(-4),
     baca.extend_beam(),
     figure_name="7",
@@ -143,7 +151,9 @@ figures(
     "v2",
     cursor.next(),
     *library.passepied(),
-    baca.time_signature_extra_offset((-2.5, 0)),
+    baca.time_signature_extra_offset(
+        (-2.5, 0), selector=lambda _: baca.select.hleaf(_, 0)
+    ),
     baca.register(-2),
     figure_name="12",
 )
@@ -164,7 +174,9 @@ figures(
         -10,
         selector=lambda _: baca.select.leaves(_, grace=False),
     ),
-    baca.time_signature_extra_offset((-2.5, 0)),
+    baca.time_signature_extra_offset(
+        (-2.5, 0), selector=lambda _: baca.select.hleaf(_, 0)
+    ),
     baca.register(0),
     baca.extend_beam(),
     figure_name="14",
@@ -174,7 +186,9 @@ figures(
     "v2",
     cursor.next(),
     *library.passepied(),
-    baca.time_signature_extra_offset((-2.5, 0)),
+    baca.time_signature_extra_offset(
+        (-2.5, 0), selector=lambda _: baca.select.hleaf(_, 0)
+    ),
     baca.register(2),
     figure_name="15",
 )

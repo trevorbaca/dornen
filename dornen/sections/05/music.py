@@ -1,3 +1,4 @@
+import abjad
 import baca
 
 from dornen import library
@@ -17,7 +18,7 @@ figures(
     design[:1],
     *library.forty_eighths(),
     baca.markup(r"\dornen-slurs-fluid-all-other-parts-markup"),
-    baca.literal(string),
+    baca.literal(string, selector=lambda _: abjad.select.leaf(_, 0)),
     baca.extend_beam(),
     figure_name="48_1",
 )

@@ -323,7 +323,7 @@ figures(
     "v1",
     [13 * ["E2"]],
     *library.thirds(),
-    baca.dynamic("p"),
+    baca.dynamic("p", selector=lambda _: baca.select.phead(_, 0)),
     baca.markup(
         r"\dornen-rascado-explanation-markup",
         direction=abjad.UP,

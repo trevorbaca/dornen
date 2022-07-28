@@ -48,7 +48,9 @@ figures(
     "v1",
     [["E2"]],
     *library.monads(),
-    baca.markup(r"\dornen-three-fingers-markup"),
+    baca.markup(
+        r"\dornen-three-fingers-markup", selector=lambda _: baca.select.pleaf(_, 0)
+    ),
     figure_name="3_1",
 )
 
@@ -84,7 +86,9 @@ figures(
     "v1",
     [["E2"]],
     *library.monads(),
-    baca.markup(r"\dornen-four-fingers-markup"),
+    baca.markup(
+        r"\dornen-four-fingers-markup", selector=lambda _: baca.select.pleaf(_, 0)
+    ),
     figure_name="4_1",
 )
 

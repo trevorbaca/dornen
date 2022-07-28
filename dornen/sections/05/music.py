@@ -17,7 +17,10 @@ figures(
     "v1",
     design[:1],
     *library.forty_eighths(),
-    baca.markup(r"\dornen-slurs-fluid-all-other-parts-markup"),
+    baca.markup(
+        r"\dornen-slurs-fluid-all-other-parts-markup",
+        selector=lambda _: baca.select.pleaf(_, 0),
+    ),
     baca.literal(string, selector=lambda _: abjad.select.leaf(_, 0)),
     baca.extend_beam(),
     figure_name="48_1",
@@ -201,7 +204,10 @@ figures(
     "v2",
     [["Gb2"]],
     *library.monads(),
-    baca.markup(r"\dornen-two-finger-tamb-trill-markup"),
+    baca.markup(
+        r"\dornen-two-finger-tamb-trill-markup",
+        selector=lambda _: baca.select.pleaf(_, 0),
+    ),
     baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
     baca.stem_up(selector=lambda _: baca.select.pleaves(_)),
     baca.tuplet_bracket_staff_padding(0),

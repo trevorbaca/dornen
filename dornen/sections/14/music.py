@@ -19,7 +19,10 @@ figures(
     "v1",
     design[:1],
     *library.forty_eighths(),
-    baca.markup(r"\dornen-lh-only-until-rascado-markup"),
+    baca.markup(
+        r"\dornen-lh-only-until-rascado-markup",
+        selector=lambda _: baca.select.pleaf(_, 0),
+    ),
     baca.extend_beam(),
 )
 
@@ -70,7 +73,10 @@ figures(
     "v1",
     design[:1],
     *library.forty_eighths(),
-    baca.markup(r"\dornen-rh-reaches-for-screw-markup"),
+    baca.markup(
+        r"\dornen-rh-reaches-for-screw-markup",
+        selector=lambda _: baca.select.pleaf(_, 0),
+    ),
     baca.extend_beam(),
 )
 
@@ -121,7 +127,10 @@ figures(
     "v1",
     design[:1],
     *library.forty_eighths(),
-    baca.markup(r"\dornen-rh-places-screw-on-string-markup"),
+    baca.markup(
+        r"\dornen-rh-places-screw-on-string-markup",
+        selector=lambda _: baca.select.pleaf(_, 0),
+    ),
     baca.extend_beam(),
 )
 
@@ -318,6 +327,7 @@ figures(
     baca.markup(
         r"\dornen-rascado-explanation-markup",
         direction=abjad.UP,
+        selector=lambda _: baca.select.pleaf(_, 0),
     ),
     baca.register(-20),
     baca.new(

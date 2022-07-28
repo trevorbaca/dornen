@@ -39,6 +39,7 @@ figures(
     baca.markup(
         r"\dornen-dull-but-beautiful-markup",
         direction=abjad.DOWN,
+        selector=lambda _: baca.select.pleaf(_, 0),
     ),
     baca.text_script_down(),
     baca.extend_beam(),

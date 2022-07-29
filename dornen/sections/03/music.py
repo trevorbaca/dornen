@@ -402,7 +402,9 @@ figures.populate_commands(score, accumulator)
 skips = score["Skips"]
 manifests = accumulator.manifests()
 
-baca.metronome_mark(skips[25 - 1], accumulator.metronome_marks["66"], manifests)
+baca.metronome_mark_function(
+    skips[25 - 1], accumulator.metronome_marks["66"], manifests
+)
 
 
 def postprocess(cache):

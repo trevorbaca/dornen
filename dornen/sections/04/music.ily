@@ -2570,7 +2570,7 @@ number.4.Guitar.Music.2 = {
             %@% - \tweak color #blue
               %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (4) \hspace #1 "G1" ] }
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca.markup()
             ^ \dornen-glissando-attack-first-note-only-markup
             % START_BEAM:
@@ -4041,7 +4041,7 @@ number.4.Guitar.Music.4 = {
             gf!2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca.stem_tremolo()
             :32
             % MARKUP:
@@ -4049,7 +4049,7 @@ number.4.Guitar.Music.4 = {
             %@% - \tweak color #blue
               %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (9) \hspace #1 "T1" ] }
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca.markup()
             ^ \dornen-two-finger-tamb-trill-markup
             % SPANNER_STARTS:
@@ -4075,11 +4075,11 @@ number.4.Guitar.Music.4 = {
             gf2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca.stem_tremolo()
             :32
             % SPANNER_STARTS:
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca.repeat_tie()
             \repeatTie
             % COMMANDS:
@@ -4180,7 +4180,7 @@ number.4.Guitar.Music.4 = {
             gf!2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca.stem_tremolo()
             :32
             % MARKUP:
@@ -4188,7 +4188,7 @@ number.4.Guitar.Music.4 = {
             %@% - \tweak color #blue
               %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (18) \hspace #1 "T2" ] }
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca.markup()
             ^ \dornen-two-finger-tamb-trill-markup
             % SPANNER_STARTS:
@@ -4214,11 +4214,11 @@ number.4.Guitar.Music.4 = {
             gf2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca.stem_tremolo()
             :32
             % SPANNER_STARTS:
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca.repeat_tie()
             \repeatTie
             % COMMANDS:

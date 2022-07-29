@@ -33,15 +33,21 @@ number.8.Skips = {
     \bacaStartTextSpanMM
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
+      %! baca.metronome_mark()
     %@% - \abjad-invisible-line
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
+      %! baca.metronome_mark()
     %@% - \baca-metronome-mark-spanner-left-text 3 0 1 "66"
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
+      %! baca.metronome_mark()
     %@% \bacaStartTextSpanMM
       %! CLOCK_TIME
       %! baca._label_clock_time()
@@ -1352,7 +1358,7 @@ number.8.Guitar.Music.3 = {
             cs'''!32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca.staccato()
             - \staccato
             % MARKUP:
@@ -1372,7 +1378,7 @@ number.8.Guitar.Music.3 = {
             c'''32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
@@ -1385,7 +1391,7 @@ number.8.Guitar.Music.3 = {
             d''32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
@@ -1398,7 +1404,7 @@ number.8.Guitar.Music.3 = {
             g''32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
@@ -1411,7 +1417,7 @@ number.8.Guitar.Music.3 = {
             b''32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
@@ -1424,7 +1430,7 @@ number.8.Guitar.Music.3 = {
             bf''!32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
@@ -1437,7 +1443,7 @@ number.8.Guitar.Music.3 = {
             e''32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
@@ -1450,7 +1456,7 @@ number.8.Guitar.Music.3 = {
             ef''!32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
@@ -1463,7 +1469,7 @@ number.8.Guitar.Music.3 = {
             f''32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
@@ -1476,7 +1482,7 @@ number.8.Guitar.Music.3 = {
             af'!32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
@@ -1489,7 +1495,7 @@ number.8.Guitar.Music.3 = {
             a'32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
@@ -1502,7 +1508,7 @@ number.8.Guitar.Music.3 = {
             e'32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
@@ -1515,7 +1521,7 @@ number.8.Guitar.Music.3 = {
             ef'!32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
@@ -1528,7 +1534,7 @@ number.8.Guitar.Music.3 = {
             f'32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
@@ -1541,7 +1547,7 @@ number.8.Guitar.Music.3 = {
             af'!32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
@@ -1554,7 +1560,7 @@ number.8.Guitar.Music.3 = {
             a'32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
@@ -1567,7 +1573,7 @@ number.8.Guitar.Music.3 = {
             bf'!32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
@@ -1580,7 +1586,7 @@ number.8.Guitar.Music.3 = {
             c'32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
@@ -1593,7 +1599,7 @@ number.8.Guitar.Music.3 = {
             d'32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
@@ -1606,7 +1612,7 @@ number.8.Guitar.Music.3 = {
             g'32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
@@ -1619,7 +1625,7 @@ number.8.Guitar.Music.3 = {
             b32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
@@ -1632,7 +1638,7 @@ number.8.Guitar.Music.3 = {
             cs'!32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca.staccato()
             - \staccato
             % STOP_BEAM:
@@ -1683,7 +1689,7 @@ number.8.Guitar.Music.3 = {
             af''!32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca.staccato()
             - \staccato
             % MARKUP:
@@ -1703,7 +1709,7 @@ number.8.Guitar.Music.3 = {
             bf''!32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
@@ -1716,7 +1722,7 @@ number.8.Guitar.Music.3 = {
             b'32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
@@ -1729,7 +1735,7 @@ number.8.Guitar.Music.3 = {
             cs''!32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
@@ -1742,7 +1748,7 @@ number.8.Guitar.Music.3 = {
             e'32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
@@ -1755,7 +1761,7 @@ number.8.Guitar.Music.3 = {
             g'32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca.staccato()
             - \staccato
             % STOP_BEAM:

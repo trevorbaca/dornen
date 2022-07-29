@@ -411,7 +411,7 @@ def postprocess(cache):
     )
 
 
-baca.bar_line(score["Skips"][42 - 1], "|.")
+baca.bar_line_function(score["Skips"][42 - 1], "|.")
 
 defaults = baca.interpret.section_defaults()
 del defaults["check_wellformedness"]

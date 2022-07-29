@@ -1374,7 +1374,7 @@ number.11.Guitar.Music.1 = {
             gtqf!2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca.stem_tremolo()
             :32
             % ARTICULATIONS:
@@ -1436,7 +1436,7 @@ number.11.Guitar.Music.1 = {
             gtqf2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca.stem_tremolo()
             :32
             % ARTICULATIONS:
@@ -1478,7 +1478,7 @@ number.11.Guitar.Music.1 = {
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca.repeat_tie()
             \repeatTie
             % CLOSING:
@@ -1511,7 +1511,7 @@ number.11.Guitar.Music.1 = {
             gtqf2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca.stem_tremolo()
             :32
             % ARTICULATIONS:
@@ -1539,7 +1539,7 @@ number.11.Guitar.Music.1 = {
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca.repeat_tie()
             \repeatTie
             % CLOSING:
@@ -1572,7 +1572,7 @@ number.11.Guitar.Music.1 = {
             gtqf2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca.stem_tremolo()
             :32
             % ARTICULATIONS:
@@ -1614,7 +1614,7 @@ number.11.Guitar.Music.1 = {
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca.repeat_tie()
             \repeatTie
             % CLOSING:
@@ -1647,7 +1647,7 @@ number.11.Guitar.Music.1 = {
             gtqf2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca.stem_tremolo()
             :32
             % ARTICULATIONS:
@@ -1675,7 +1675,7 @@ number.11.Guitar.Music.1 = {
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca.repeat_tie()
             \repeatTie
             % CLOSING:
@@ -1708,7 +1708,7 @@ number.11.Guitar.Music.1 = {
             gtqf2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca.stem_tremolo()
             :32
             % MARKUP:
@@ -1716,7 +1716,7 @@ number.11.Guitar.Music.1 = {
             %@% - \tweak color #blue
               %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (6) \hspace #1 \concat { "3" \sub 1 } ] }
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca.markup()
             ^ \dornen-three-fingers-markup
             % SPANNER_STARTS:
@@ -1724,7 +1724,7 @@ number.11.Guitar.Music.1 = {
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca.repeat_tie()
             \repeatTie
             % CLOSING:
@@ -1757,7 +1757,7 @@ number.11.Guitar.Music.1 = {
             gtqf2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca.stem_tremolo()
             :32
             % ARTICULATIONS:
@@ -1799,7 +1799,7 @@ number.11.Guitar.Music.1 = {
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca.repeat_tie()
             \repeatTie
             % CLOSING:
@@ -1832,7 +1832,7 @@ number.11.Guitar.Music.1 = {
             gtqf2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca.stem_tremolo()
             :32
             % ARTICULATIONS:
@@ -1860,7 +1860,7 @@ number.11.Guitar.Music.1 = {
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca.repeat_tie()
             \repeatTie
             % CLOSING:
@@ -1893,7 +1893,7 @@ number.11.Guitar.Music.1 = {
             gtqf2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca.stem_tremolo()
             :32
             % ARTICULATIONS:
@@ -1935,7 +1935,7 @@ number.11.Guitar.Music.1 = {
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca.repeat_tie()
             \repeatTie
             % CLOSING:
@@ -1968,7 +1968,7 @@ number.11.Guitar.Music.1 = {
             gtqf2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca.stem_tremolo()
             :32
             % ARTICULATIONS:
@@ -1996,7 +1996,7 @@ number.11.Guitar.Music.1 = {
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca.repeat_tie()
             \repeatTie
             % CLOSING:
@@ -2029,7 +2029,7 @@ number.11.Guitar.Music.1 = {
             gtqf2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca.stem_tremolo()
             :32
             % MARKUP:
@@ -2037,7 +2037,7 @@ number.11.Guitar.Music.1 = {
             %@% - \tweak color #blue
               %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (11) \hspace #1 \concat { "4" \sub 1 } ] }
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca.markup()
             ^ \dornen-four-fingers-markup
             % SPANNER_STARTS:
@@ -2045,7 +2045,7 @@ number.11.Guitar.Music.1 = {
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca.repeat_tie()
             \repeatTie
             % COMMANDS:
@@ -2090,7 +2090,7 @@ number.11.Guitar.Music.1 = {
             gtqf2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca.stem_tremolo()
             :32
             % ARTICULATIONS:
@@ -2156,7 +2156,7 @@ number.11.Guitar.Music.1 = {
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca.repeat_tie()
             \repeatTie
             % CLOSING:
@@ -2189,7 +2189,7 @@ number.11.Guitar.Music.1 = {
             gtqf2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca.stem_tremolo()
             :32
             % ARTICULATIONS:
@@ -2222,7 +2222,7 @@ number.11.Guitar.Music.1 = {
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca.repeat_tie()
             \repeatTie
             % CLOSING:
@@ -2255,7 +2255,7 @@ number.11.Guitar.Music.1 = {
             gtqf2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca.stem_tremolo()
             :32
             % ARTICULATIONS:
@@ -2321,7 +2321,7 @@ number.11.Guitar.Music.1 = {
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca.repeat_tie()
             \repeatTie
             % CLOSING:
@@ -2354,7 +2354,7 @@ number.11.Guitar.Music.1 = {
             gtqf2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca.stem_tremolo()
             :32
             % ARTICULATIONS:
@@ -2387,7 +2387,7 @@ number.11.Guitar.Music.1 = {
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca.repeat_tie()
             \repeatTie
             % CLOSING:
@@ -2420,7 +2420,7 @@ number.11.Guitar.Music.1 = {
             gtqf2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca.stem_tremolo()
             :32
             % ARTICULATIONS:
@@ -2486,7 +2486,7 @@ number.11.Guitar.Music.1 = {
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca.repeat_tie()
             \repeatTie
             % CLOSING:
@@ -2519,7 +2519,7 @@ number.11.Guitar.Music.1 = {
             gtqf2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca.stem_tremolo()
             :32
             % ARTICULATIONS:
@@ -2552,7 +2552,7 @@ number.11.Guitar.Music.1 = {
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca.repeat_tie()
             \repeatTie
             % CLOSING:
@@ -2585,7 +2585,7 @@ number.11.Guitar.Music.1 = {
             gtqf2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca.stem_tremolo()
             :32
             % ARTICULATIONS:
@@ -2651,7 +2651,7 @@ number.11.Guitar.Music.1 = {
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca.repeat_tie()
             \repeatTie
             % CLOSING:
@@ -2684,7 +2684,7 @@ number.11.Guitar.Music.1 = {
             gtqf2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca.stem_tremolo()
             :32
             % ARTICULATIONS:
@@ -2717,7 +2717,7 @@ number.11.Guitar.Music.1 = {
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca.repeat_tie()
             \repeatTie
             % CLOSING:
@@ -2750,7 +2750,7 @@ number.11.Guitar.Music.1 = {
             gtqf2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca.stem_tremolo()
             :32
             % MARKUP:
@@ -2787,7 +2787,7 @@ number.11.Guitar.Music.1 = {
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca.repeat_tie()
             \repeatTie
             % CLOSING:
@@ -2820,7 +2820,7 @@ number.11.Guitar.Music.1 = {
             gtqf2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca.stem_tremolo()
             :32
             % MARKUP:
@@ -2838,7 +2838,7 @@ number.11.Guitar.Music.1 = {
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca.repeat_tie()
             \repeatTie
             % CLOSING:
@@ -2871,7 +2871,7 @@ number.11.Guitar.Music.1 = {
             gtqf2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca.stem_tremolo()
             :32
             % ARTICULATIONS:
@@ -2937,7 +2937,7 @@ number.11.Guitar.Music.1 = {
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca.repeat_tie()
             \repeatTie
             % CLOSING:
@@ -2970,7 +2970,7 @@ number.11.Guitar.Music.1 = {
             gtqf2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca.stem_tremolo()
             :32
             % MARKUP:
@@ -2983,7 +2983,7 @@ number.11.Guitar.Music.1 = {
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca.repeat_tie()
             \repeatTie
             % CLOSING:
@@ -3016,7 +3016,7 @@ number.11.Guitar.Music.1 = {
             gtqf2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca.stem_tremolo()
             :32
             % MARKUP:
@@ -3024,7 +3024,7 @@ number.11.Guitar.Music.1 = {
             %@% - \tweak color #blue
               %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (24) \hspace #1 \concat { "4" \sub 14 } ] }
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca.markup()
             ^ \dornen-three-fingers-markup
             % SPANNER_STARTS:
@@ -3032,7 +3032,7 @@ number.11.Guitar.Music.1 = {
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca.repeat_tie()
             \repeatTie
             % ABSOLUTE_BEFORE:
@@ -3041,7 +3041,7 @@ number.11.Guitar.Music.1 = {
             gtqf2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca.stem_tremolo()
             :32
             % SPANNER_STARTS:
@@ -3049,7 +3049,7 @@ number.11.Guitar.Music.1 = {
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca.repeat_tie()
             \repeatTie
             % CLOSING:
@@ -3082,7 +3082,7 @@ number.11.Guitar.Music.1 = {
             gtqf2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca.stem_tremolo()
             :32
             % ARTICULATIONS:
@@ -3105,7 +3105,7 @@ number.11.Guitar.Music.1 = {
             %@% - \tweak color #blue
               %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (25) \hspace #1 \concat { "4" \sub 15 } ] }
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca.markup()
             ^ \dornen-two-fingers-markup
             % SPANNER_STOPS:
@@ -3118,7 +3118,7 @@ number.11.Guitar.Music.1 = {
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca.repeat_tie()
             \repeatTie
             % ABSOLUTE_BEFORE:
@@ -3127,11 +3127,11 @@ number.11.Guitar.Music.1 = {
             gtqf2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca.stem_tremolo()
             :32
             % SPANNER_STARTS:
-              %! baca.IndicatorCommand._call()
+              %! baca._attach_persistent_indicator()
               %! baca.repeat_tie()
             \repeatTie
             % COMMANDS:

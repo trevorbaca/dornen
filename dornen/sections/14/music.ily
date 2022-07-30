@@ -2003,7 +2003,7 @@ number.14.Skips = {
       %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
     % COMMANDS:
-      %! baca.bar_line()
+      %! baca.bar_line_function()
     \bar "|."
     % ABSOLUTE_BEFORE:
     % COMMANDS:

@@ -1,3 +1,4 @@
+import abjad
 import baca
 
 from dornen import library
@@ -35,7 +36,7 @@ figures(
     "v4",
     design[2:3],
     *library.graced_tuplets(),
-    baca.extend_beam(),
+    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
     figure_name="G1",
 )
 
@@ -63,7 +64,7 @@ figures(
         -7.5,
         selector=lambda _: baca.select.pleaf(_, 0),
     ),
-    baca.extend_beam(),
+    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
     figure_name="O2",
 )
 
@@ -72,7 +73,7 @@ figures(
     design[6:7],
     *library.glissando_scatto(),
     baca.beam_positions(12),
-    baca.extend_beam(),
+    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
     figure_name="L2",
 )
 
@@ -80,7 +81,7 @@ figures(
     "v4",
     design[7:8],
     *library.graced_tuplets(),
-    baca.extend_beam(),
+    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
     figure_name="G3",
 )
 

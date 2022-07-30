@@ -19,7 +19,7 @@ figures(
     baca.tenuto(selector=lambda _: baca.select.pheads(_)),
     baca.beam_positions(10),
     baca.register(-12),
-    baca.extend_beam(),
+    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
     figure_name="48_1",
 )
 
@@ -27,7 +27,7 @@ figures(
     "v3",
     design[1:2],
     *library.sixteenths(),
-    baca.extend_beam(),
+    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
     figure_name="16_1",
 )
 
@@ -36,7 +36,7 @@ figures(
     design[2:5],
     *library.running(),
     baca.register(-14, 0),
-    baca.extend_beam(),
+    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
     figure_name="R1",
 )
 

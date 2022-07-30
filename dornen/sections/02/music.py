@@ -1,3 +1,4 @@
+import abjad
 import baca
 
 from dornen import library
@@ -28,7 +29,7 @@ figures(
     *library.twentieths(),
     baca.beam_positions(-8),
     baca.register(6),
-    baca.extend_beam(),
+    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
     figure_name="F1_1",
 )
 
@@ -37,7 +38,7 @@ figures(
     design[5:8],
     *library.running(),
     baca.register(-14, 0),
-    baca.extend_beam(),
+    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
     figure_name="R1",
 )
 
@@ -46,7 +47,7 @@ figures(
     baca.sequence.reveal(design[4:5], 2),
     *library.twentieths(),
     baca.register(6),
-    baca.extend_beam(),
+    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
     figure_name="F1_2",
 )
 
@@ -55,7 +56,7 @@ figures(
     design[6:9],
     *library.running(),
     baca.register(-14, 0),
-    baca.extend_beam(),
+    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
     figure_name="R2",
 )
 
@@ -64,7 +65,7 @@ figures(
     baca.sequence.reveal(design[4:5], 3),
     *library.twentieths(),
     baca.register(6),
-    baca.extend_beam(),
+    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
     figure_name="F1_3",
 )
 
@@ -73,7 +74,7 @@ figures(
     design[7:10],
     *library.running(),
     baca.register(-14, 0),
-    baca.extend_beam(),
+    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
     figure_name="R3",
 )
 
@@ -82,7 +83,7 @@ figures(
     baca.sequence.reveal(design[4:5], 4),
     *library.twentieths(),
     baca.register(6),
-    baca.extend_beam(),
+    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
     figure_name="F1_4",
 )
 
@@ -91,7 +92,7 @@ figures(
     design[8:11],
     *library.running(),
     baca.register(-14, 0),
-    baca.extend_beam(),
+    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
     figure_name="R4",
 )
 
@@ -116,7 +117,7 @@ figures(
     baca.sequence.reveal(design[4:5], 1),
     *library.twentieths(),
     baca.register(6),
-    baca.extend_beam(),
+    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
     figure_name="F1_1*",
 )
 
@@ -126,7 +127,7 @@ figures(
     *library.delicatissimo(),
     baca.text_script_staff_padding(9),
     baca.register(6, -20),
-    baca.extend_beam(),
+    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
     figure_name="D1",
 )
 

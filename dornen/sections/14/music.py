@@ -402,7 +402,9 @@ def postprocess(cache):
     accumulator(
         ("v1", -1),
         baca.chunk(
-            baca.mark(r"\dornen-colophon-markup", selector=lambda _: abjad.select.leaf(_, 0)),
+            baca.mark(
+                r"\dornen-colophon-markup", selector=lambda _: abjad.select.leaf(_, 0)
+            ),
             baca.rehearsal_mark_down(),
             baca.rehearsal_mark_padding(12),
             baca.rehearsal_mark_self_alignment_x(abjad.RIGHT),

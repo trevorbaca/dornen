@@ -23,14 +23,14 @@ figures(
         r"\dornen-lh-only-until-rascado-markup",
         selector=lambda _: baca.select.pleaf(_, 0),
     ),
-    baca.extend_beam(),
+    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
 )
 
 figures(
     "v4",
     design[1:2],
     *library.twentieths(),
-    baca.extend_beam(),
+    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
 )
 
 figures(
@@ -77,14 +77,14 @@ figures(
         r"\dornen-rh-reaches-for-screw-markup",
         selector=lambda _: baca.select.pleaf(_, 0),
     ),
-    baca.extend_beam(),
+    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
 )
 
 figures(
     "v4",
     design[1:2],
     *library.twentieths(),
-    baca.extend_beam(),
+    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
 )
 
 figures(
@@ -131,14 +131,14 @@ figures(
         r"\dornen-rh-places-screw-on-string-markup",
         selector=lambda _: baca.select.pleaf(_, 0),
     ),
-    baca.extend_beam(),
+    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
 )
 
 figures(
     "v4",
     design[1:2],
     *library.twentieths(),
-    baca.extend_beam(),
+    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
 )
 
 figures(
@@ -181,14 +181,14 @@ figures(
     "v1",
     design[:1],
     *library.forty_eighths(),
-    baca.extend_beam(),
+    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
 )
 
 figures(
     "v4",
     design[1:2],
     *library.twentieths(),
-    baca.extend_beam(),
+    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
 )
 
 figures(
@@ -231,14 +231,14 @@ figures(
     "v1",
     design[:1],
     *library.forty_eighths(),
-    baca.extend_beam(),
+    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
 )
 
 figures(
     "v4",
     design[1:2],
     *library.twentieths(),
-    baca.extend_beam(),
+    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
 )
 
 figures(
@@ -287,7 +287,7 @@ figures(
     "v4",
     design[1:2],
     *library.twentieths(),
-    baca.extend_beam(),
+    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
 )
 
 figures(

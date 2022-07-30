@@ -28,7 +28,7 @@ figures(
     *library.twentieths(),
     baca.slur(),
     middle_register,
-    baca.extend_beam(),
+    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
     figure_name="20_1",
 )
 
@@ -42,7 +42,7 @@ figures(
         selector=lambda _: baca.select.pleaf(_, 0),
     ),
     baca.text_script_down(),
-    baca.extend_beam(),
+    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
     figure_name="16_1",
 )
 
@@ -59,7 +59,7 @@ figures(
     "v2",
     design[3:4],
     *library.sixteenths(),
-    baca.extend_beam(),
+    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
     figure_name="16_2",
 )
 
@@ -69,7 +69,7 @@ figures(
     *library.twentieths(),
     baca.slur(),
     middle_register,
-    baca.extend_beam(),
+    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
     figure_name="20_2",
 )
 
@@ -77,7 +77,7 @@ figures(
     "v2",
     design[5:6],
     *library.sixteenths(),
-    baca.extend_beam(),
+    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
     figure_name="16_3",
 )
 
@@ -94,7 +94,7 @@ figures(
     "v2",
     design[7:8],
     *library.sixteenths(),
-    baca.extend_beam(),
+    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
     figure_name="16_4",
 )
 
@@ -118,7 +118,7 @@ figures(
     "v2",
     design[10:11],
     *library.twenty_fourths(),
-    baca.extend_beam(),
+    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
     figure_name="24_1",
 )
 
@@ -128,7 +128,7 @@ figures(
     *library.thirty_seconds(),
     baca.slur(),
     middle_register,
-    baca.extend_beam(),
+    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
     figure_name="32_1",
 )
 
@@ -136,7 +136,7 @@ figures(
     "v2",
     design[12:13],
     *library.twenty_fourths(),
-    baca.extend_beam(),
+    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
     figure_name="24_2",
 )
 
@@ -153,7 +153,7 @@ figures(
     "v2",
     design[14:15],
     *library.twenty_fourths(),
-    baca.extend_beam(),
+    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
     figure_name="24_3",
 )
 
@@ -163,7 +163,7 @@ figures(
     *library.thirty_seconds(),
     baca.slur(),
     middle_register,
-    baca.extend_beam(),
+    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
     figure_name="32_2",
 )
 
@@ -171,7 +171,7 @@ figures(
     "v2",
     design[16:17],
     *library.twenty_fourths(),
-    baca.extend_beam(),
+    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
     figure_name="24_4",
 )
 
@@ -181,7 +181,7 @@ figures(
     *library.thirty_seconds(),
     baca.slur(),
     middle_register,
-    baca.extend_beam(),
+    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
     figure_name="32_3",
 )
 
@@ -189,7 +189,7 @@ figures(
     "v2",
     design[18:19],
     *library.twenty_fourths(),
-    baca.extend_beam(),
+    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
     figure_name="24_5",
 )
 

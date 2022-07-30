@@ -45,7 +45,7 @@ figures(
     baca.beam_positions(-12),
     baca.register(-8),
     baca.displacement([0, 1]),
-    baca.extend_beam(),
+    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
     figure_name="G1",
 )
 
@@ -62,7 +62,7 @@ figures(
     design[6:9],
     *library.running(),
     baca.register(0, -14),
-    baca.extend_beam(),
+    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
     figure_name="R1",
 )
 
@@ -71,7 +71,7 @@ figures(
     design[7:10],
     *library.running(),
     baca.register(-14, 0),
-    baca.extend_beam(),
+    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
     figure_name="R2",
 )
 
@@ -128,7 +128,7 @@ figures(
     *library.glissando_scatto(),
     baca.register(-8),
     baca.displacement([0, 1]),
-    baca.extend_beam(),
+    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
     figure_name="G2",
 )
 
@@ -154,7 +154,7 @@ figures(
     design[5:8],
     *library.running(),
     baca.register(0, -14),
-    baca.extend_beam(),
+    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
     figure_name="R4",
 )
 
@@ -163,7 +163,7 @@ figures(
     design[6:9],
     *library.running(),
     baca.register(-14, 0),
-    baca.extend_beam(),
+    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
     figure_name="R5",
 )
 

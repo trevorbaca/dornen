@@ -27,7 +27,7 @@ figures(
     baca.beam_positions(12),
     baca.stem_up(selector=lambda _: baca.select.pleaves(_)),
     baca.register(0),
-    baca.extend_beam(),
+    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
     figure_name="G1_1",
 )
 
@@ -40,7 +40,7 @@ figures(
         selector=lambda _: baca.select.pleaf(_, 0),
     ),
     baca.register(-14, -6),
-    baca.extend_beam(),
+    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
     figure_name="O1",
 )
 
@@ -50,7 +50,7 @@ figures(
     *library.graced_tuplets(),
     baca.stem_up(selector=lambda _: baca.select.pleaves(_)),
     baca.register(0),
-    baca.extend_beam(),
+    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
     figure_name="G1_1*",
 )
 
@@ -69,7 +69,7 @@ figures(
     *library.graced_tuplets(),
     baca.stem_up(selector=lambda _: baca.select.pleaves(_)),
     baca.register(0),
-    baca.extend_beam(),
+    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
     figure_name="G1_2",
 )
 
@@ -99,7 +99,7 @@ figures(
     *library.delicatissimo(),
     baca.beam_positions(-6.5),
     baca.stem_down(selector=lambda _: baca.select.pleaves(_)),
-    baca.extend_beam(),
+    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
     figure_name="D1_1",
 )
 
@@ -110,7 +110,7 @@ figures(
     baca.beam_positions(12),
     baca.stem_up(selector=lambda _: baca.select.pleaves(_)),
     baca.register(0),
-    baca.extend_beam(),
+    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
     figure_name="G1_4",
 )
 
@@ -120,7 +120,7 @@ figures(
     *library.delicatissimo(),
     baca.beam_positions(-6.5),
     baca.stem_down(selector=lambda _: baca.select.pleaves(_)),
-    baca.extend_beam(),
+    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
     figure_name="D1_2",
 )
 
@@ -130,7 +130,7 @@ figures(
     *library.graced_tuplets(),
     baca.stem_up(selector=lambda _: baca.select.pleaves(_)),
     baca.register(0),
-    baca.extend_beam(),
+    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
     figure_name="G1_5",
 )
 
@@ -152,7 +152,7 @@ figures(
         selector=lambda _: baca.select.pleaf(_, 0),
     ),
     baca.register(-14, -6),
-    baca.extend_beam(),
+    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
     figure_name="O1*",
 )
 
@@ -162,7 +162,7 @@ figures(
     *library.graced_tuplets(),
     baca.stem_up(selector=lambda _: baca.select.pleaves(_)),
     baca.register(0),
-    baca.extend_beam(),
+    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
     figure_name="G1_6",
 )
 
@@ -182,7 +182,7 @@ figures(
     *library.delicatissimo(),
     baca.beam_positions(-6.5),
     baca.stem_down(selector=lambda _: baca.select.pleaves(_)),
-    baca.extend_beam(),
+    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
     figure_name="D1_4",
 )
 
@@ -193,7 +193,7 @@ figures(
     baca.beam_positions(6),
     baca.stem_up(selector=lambda _: baca.select.pleaves(_)),
     baca.register(0, -14),
-    baca.extend_beam(),
+    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
     figure_name="G1_7",
 )
 
@@ -234,7 +234,7 @@ figures(
         selector=lambda _: baca.select.pleaf(_, 0),
     ),
     baca.register(-14, -6),
-    baca.extend_beam(),
+    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
     figure_name="O1**",
 )
 
@@ -274,7 +274,7 @@ figures(
     *library.ovoids(),
     baca.text_script_color("#red"),
     baca.register(-14, -6),
-    baca.extend_beam(),
+    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
     figure_name="O2**",
 )
 
@@ -295,7 +295,7 @@ figures(
         selector=lambda _: baca.select.pleaf(_, 0),
     ),
     baca.register(-14, -6),
-    baca.extend_beam(),
+    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
     figure_name="O4",
 )
 
@@ -304,7 +304,7 @@ figures(
     abjad.sequence.join(design[11:13]),
     *library.ovoids(),
     baca.register(-14, -6),
-    baca.extend_beam(),
+    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
     figure_name="O5",
 )
 
@@ -313,7 +313,7 @@ figures(
     abjad.sequence.join(design[13:15]),
     *library.ovoids(),
     baca.register(-14, -6),
-    baca.extend_beam(),
+    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
     figure_name="O6",
 )
 
@@ -334,7 +334,7 @@ figures(
         selector=lambda _: baca.select.pleaf(_, 0),
     ),
     baca.register(-14, -6),
-    baca.extend_beam(),
+    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
     figure_name="O8",
 )
 
@@ -363,7 +363,7 @@ figures(
     abjad.sequence.join(design[19:21]),
     *library.ovoids(),
     baca.register(-14, -6),
-    # baca.extend_beam(),
+    # baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
     figure_name="O9",
 )
 

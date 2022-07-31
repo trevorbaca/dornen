@@ -51,7 +51,7 @@ figures(
     "v2",
     design[4:5],
     *library.thirty_seconds(),
-    baca.slur(),
+    baca.slur(selector=lambda _: baca.select.tleaves(_)),
 )
 
 figures(
@@ -105,7 +105,7 @@ figures(
     "v2",
     design[4:5],
     *library.thirty_seconds(),
-    baca.slur(),
+    baca.slur(selector=lambda _: baca.select.tleaves(_)),
 )
 
 figures(
@@ -159,7 +159,7 @@ figures(
     "v2",
     design[4:5],
     *library.thirty_seconds(),
-    baca.slur(),
+    baca.slur(selector=lambda _: baca.select.tleaves(_)),
 )
 
 figures(
@@ -209,7 +209,7 @@ figures(
     "v2",
     design[4:5],
     *library.thirty_seconds(),
-    baca.slur(),
+    baca.slur(selector=lambda _: baca.select.tleaves(_)),
 )
 
 figures(
@@ -259,7 +259,7 @@ figures(
     "v2",
     design[4:5],
     *library.thirty_seconds(),
-    baca.slur(),
+    baca.slur(selector=lambda _: baca.select.tleaves(_)),
 )
 
 figures(
@@ -308,7 +308,7 @@ figures(
     "v2",
     design[4:5],
     *library.thirty_seconds(),
-    baca.slur(),
+    baca.slur(selector=lambda _: baca.select.tleaves(_)),
 )
 
 ### rascado ###

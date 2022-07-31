@@ -55,7 +55,7 @@ figures(
     "v2",
     design[4:5],
     *library.thirty_seconds(),
-    baca.slur(),
+    baca.slur(selector=lambda _: baca.select.tleaves(_)),
     figure_name="32_1",
 )
 
@@ -93,7 +93,7 @@ figures(
     "v2",
     design[9:10],
     *library.thirty_seconds(),
-    baca.slur(),
+    baca.slur(selector=lambda _: baca.select.tleaves(_)),
     figure_name="32_2",
 )
 
@@ -165,7 +165,7 @@ figures(
     "v2",
     design[4:5],
     *library.thirty_seconds(),
-    baca.slur(),
+    baca.slur(selector=lambda _: baca.select.tleaves(_)),
     figure_name="32_1*",
 )
 
@@ -228,7 +228,7 @@ figures(
     "v2",
     design[9:10],
     *library.thirty_seconds(),
-    baca.slur(),
+    baca.slur(selector=lambda _: baca.select.tleaves(_)),
     figure_name="32_2*",
 )
 

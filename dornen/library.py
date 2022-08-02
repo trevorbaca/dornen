@@ -531,7 +531,7 @@ def graced_tuplets():
 
 
 def group_rleaves(argument):
-    result = baca.rleaves(argument)
+    result = baca.select.rleaves(argument)
     result = abjad.select.group(result)
     return result
 

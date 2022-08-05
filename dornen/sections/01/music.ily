@@ -2508,8 +2508,7 @@ number.1.Guitar.Music.4 = {
             [
             % SPANNER_STARTS:
               %! SPANNER_START
-              %! baca.SpannerIndicatorCommand._call(2)
-              %! baca.slur()
+              %! baca._do_spanner_indicator_command(2)
             (
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2538,8 +2537,7 @@ number.1.Guitar.Music.4 = {
             % AFTER:
             % SPANNER_STOPS:
               %! SPANNER_STOP
-              %! baca.SpannerIndicatorCommand._call(4)
-              %! baca.slur()
+              %! baca._do_spanner_indicator_command(4)
             )
             % CLOSING:
             % COMMANDS:
@@ -2564,8 +2562,7 @@ number.1.Guitar.Music.4 = {
             % AFTER:
             % SPANNER_STARTS:
               %! SPANNER_START
-              %! baca.SpannerIndicatorCommand._call(2)
-              %! baca.slur()
+              %! baca._do_spanner_indicator_command(2)
             (
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2594,8 +2591,7 @@ number.1.Guitar.Music.4 = {
             % AFTER:
             % SPANNER_STOPS:
               %! SPANNER_STOP
-              %! baca.SpannerIndicatorCommand._call(4)
-              %! baca.slur()
+              %! baca._do_spanner_indicator_command(4)
             )
             % STOP_BEAM:
             ]
@@ -2646,8 +2642,7 @@ number.1.Guitar.Music.4 = {
             [
             % SPANNER_STARTS:
               %! SPANNER_START
-              %! baca.SpannerIndicatorCommand._call(2)
-              %! baca.slur()
+              %! baca._do_spanner_indicator_command(2)
             (
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2668,8 +2663,7 @@ number.1.Guitar.Music.4 = {
             % AFTER:
             % SPANNER_STOPS:
               %! SPANNER_STOP
-              %! baca.SpannerIndicatorCommand._call(4)
-              %! baca.slur()
+              %! baca._do_spanner_indicator_command(4)
             )
             % CLOSING:
             % COMMANDS:
@@ -2694,8 +2688,7 @@ number.1.Guitar.Music.4 = {
             % AFTER:
             % SPANNER_STARTS:
               %! SPANNER_START
-              %! baca.SpannerIndicatorCommand._call(2)
-              %! baca.slur()
+              %! baca._do_spanner_indicator_command(2)
             (
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2820,8 +2813,7 @@ number.1.Guitar.Music.4 = {
             % AFTER:
             % SPANNER_STOPS:
               %! SPANNER_STOP
-              %! baca.SpannerIndicatorCommand._call(4)
-              %! baca.slur()
+              %! baca._do_spanner_indicator_command(4)
             )
             % STOP_BEAM:
             ]
@@ -2873,8 +2865,7 @@ number.1.Guitar.Music.4 = {
             [
             % SPANNER_STARTS:
               %! SPANNER_START
-              %! baca.SpannerIndicatorCommand._call(2)
-              %! baca.slur()
+              %! baca._do_spanner_indicator_command(2)
             (
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2927,8 +2918,7 @@ number.1.Guitar.Music.4 = {
             % AFTER:
             % SPANNER_STOPS:
               %! SPANNER_STOP
-              %! baca.SpannerIndicatorCommand._call(4)
-              %! baca.slur()
+              %! baca._do_spanner_indicator_command(4)
             )
             % CLOSING:
             % COMMANDS:
@@ -2953,8 +2943,7 @@ number.1.Guitar.Music.4 = {
             % AFTER:
             % SPANNER_STARTS:
               %! SPANNER_START
-              %! baca.SpannerIndicatorCommand._call(2)
-              %! baca.slur()
+              %! baca._do_spanner_indicator_command(2)
             (
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2983,8 +2972,7 @@ number.1.Guitar.Music.4 = {
             % AFTER:
             % SPANNER_STOPS:
               %! SPANNER_STOP
-              %! baca.SpannerIndicatorCommand._call(4)
-              %! baca.slur()
+              %! baca._do_spanner_indicator_command(4)
             )
             % STOP_BEAM:
             ]

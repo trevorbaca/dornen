@@ -2173,7 +2173,7 @@ number.5.Guitar.Music.2 = {
             [
             % SPANNER_STARTS:
               %! SPANNER_START
-              %! baca._do_spanner_indicator_command(2)
+              %! baca._do_spanner_indicator_command(1)
             (
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2202,7 +2202,7 @@ number.5.Guitar.Music.2 = {
             % AFTER:
             % SPANNER_STOPS:
               %! SPANNER_STOP
-              %! baca._do_spanner_indicator_command(4)
+              %! baca._do_spanner_indicator_command(2)
             )
             % STOP_BEAM:
             ]
@@ -2253,7 +2253,7 @@ number.5.Guitar.Music.2 = {
             [
             % SPANNER_STARTS:
               %! SPANNER_START
-              %! baca._do_spanner_indicator_command(2)
+              %! baca._do_spanner_indicator_command(1)
             (
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2282,7 +2282,7 @@ number.5.Guitar.Music.2 = {
             % AFTER:
             % SPANNER_STOPS:
               %! SPANNER_STOP
-              %! baca._do_spanner_indicator_command(4)
+              %! baca._do_spanner_indicator_command(2)
             )
             % STOP_BEAM:
             ]
@@ -2333,7 +2333,7 @@ number.5.Guitar.Music.2 = {
             [
             % SPANNER_STARTS:
               %! SPANNER_START
-              %! baca._do_spanner_indicator_command(2)
+              %! baca._do_spanner_indicator_command(1)
             (
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2362,7 +2362,7 @@ number.5.Guitar.Music.2 = {
             % AFTER:
             % SPANNER_STOPS:
               %! SPANNER_STOP
-              %! baca._do_spanner_indicator_command(4)
+              %! baca._do_spanner_indicator_command(2)
             )
             % STOP_BEAM:
             ]
@@ -2525,7 +2525,7 @@ number.5.Guitar.Music.2 = {
             [
             % SPANNER_STARTS:
               %! SPANNER_START
-              %! baca._do_spanner_indicator_command(2)
+              %! baca._do_spanner_indicator_command(1)
             (
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2554,7 +2554,7 @@ number.5.Guitar.Music.2 = {
             % AFTER:
             % SPANNER_STOPS:
               %! SPANNER_STOP
-              %! baca._do_spanner_indicator_command(4)
+              %! baca._do_spanner_indicator_command(2)
             )
             % STOP_BEAM:
             ]

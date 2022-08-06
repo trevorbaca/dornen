@@ -1378,7 +1378,7 @@ number.2.Guitar.Music.1 = {
             [
             % SPANNER_STARTS:
               %! SPANNER_START
-              %! baca._do_spanner_indicator_command(2)
+              %! baca._do_spanner_indicator_command(1)
             (
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -1415,7 +1415,7 @@ number.2.Guitar.Music.1 = {
             % AFTER:
             % SPANNER_STOPS:
               %! SPANNER_STOP
-              %! baca._do_spanner_indicator_command(4)
+              %! baca._do_spanner_indicator_command(2)
             )
             % CLOSING:
             % COMMANDS:
@@ -1439,7 +1439,7 @@ number.2.Guitar.Music.1 = {
             % AFTER:
             % SPANNER_STARTS:
               %! SPANNER_START
-              %! baca._do_spanner_indicator_command(2)
+              %! baca._do_spanner_indicator_command(1)
             (
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -1476,7 +1476,7 @@ number.2.Guitar.Music.1 = {
             % AFTER:
             % SPANNER_STOPS:
               %! SPANNER_STOP
-              %! baca._do_spanner_indicator_command(4)
+              %! baca._do_spanner_indicator_command(2)
             )
             % CLOSING:
             % COMMANDS:
@@ -1500,7 +1500,7 @@ number.2.Guitar.Music.1 = {
             % AFTER:
             % SPANNER_STARTS:
               %! SPANNER_START
-              %! baca._do_spanner_indicator_command(2)
+              %! baca._do_spanner_indicator_command(1)
             (
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -1537,7 +1537,7 @@ number.2.Guitar.Music.1 = {
             % AFTER:
             % SPANNER_STOPS:
               %! SPANNER_STOP
-              %! baca._do_spanner_indicator_command(4)
+              %! baca._do_spanner_indicator_command(2)
             )
             % CLOSING:
             % COMMANDS:
@@ -1584,7 +1584,7 @@ number.2.Guitar.Music.1 = {
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (5) \hspace #1 "R2" ] }
             % SPANNER_STARTS:
               %! SPANNER_START
-              %! baca._do_spanner_indicator_command(2)
+              %! baca._do_spanner_indicator_command(1)
             (
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -1621,7 +1621,7 @@ number.2.Guitar.Music.1 = {
             % AFTER:
             % SPANNER_STOPS:
               %! SPANNER_STOP
-              %! baca._do_spanner_indicator_command(4)
+              %! baca._do_spanner_indicator_command(2)
             )
             % CLOSING:
             % COMMANDS:
@@ -1645,7 +1645,7 @@ number.2.Guitar.Music.1 = {
             % AFTER:
             % SPANNER_STARTS:
               %! SPANNER_START
-              %! baca._do_spanner_indicator_command(2)
+              %! baca._do_spanner_indicator_command(1)
             (
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -1682,7 +1682,7 @@ number.2.Guitar.Music.1 = {
             % AFTER:
             % SPANNER_STOPS:
               %! SPANNER_STOP
-              %! baca._do_spanner_indicator_command(4)
+              %! baca._do_spanner_indicator_command(2)
             )
             % CLOSING:
             % COMMANDS:
@@ -1707,7 +1707,7 @@ number.2.Guitar.Music.1 = {
             % AFTER:
             % SPANNER_STARTS:
               %! SPANNER_START
-              %! baca._do_spanner_indicator_command(2)
+              %! baca._do_spanner_indicator_command(1)
             (
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -1752,7 +1752,7 @@ number.2.Guitar.Music.1 = {
             % AFTER:
             % SPANNER_STOPS:
               %! SPANNER_STOP
-              %! baca._do_spanner_indicator_command(4)
+              %! baca._do_spanner_indicator_command(2)
             )
             % CLOSING:
             % COMMANDS:
@@ -1799,7 +1799,7 @@ number.2.Guitar.Music.1 = {
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (7) \hspace #1 "R3" ] }
             % SPANNER_STARTS:
               %! SPANNER_START
-              %! baca._do_spanner_indicator_command(2)
+              %! baca._do_spanner_indicator_command(1)
             (
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -1836,7 +1836,7 @@ number.2.Guitar.Music.1 = {
             % AFTER:
             % SPANNER_STOPS:
               %! SPANNER_STOP
-              %! baca._do_spanner_indicator_command(4)
+              %! baca._do_spanner_indicator_command(2)
             )
             % CLOSING:
             % COMMANDS:
@@ -1861,7 +1861,7 @@ number.2.Guitar.Music.1 = {
             % AFTER:
             % SPANNER_STARTS:
               %! SPANNER_START
-              %! baca._do_spanner_indicator_command(2)
+              %! baca._do_spanner_indicator_command(1)
             (
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -1906,7 +1906,7 @@ number.2.Guitar.Music.1 = {
             % AFTER:
             % SPANNER_STOPS:
               %! SPANNER_STOP
-              %! baca._do_spanner_indicator_command(4)
+              %! baca._do_spanner_indicator_command(2)
             )
             % CLOSING:
             % COMMANDS:
@@ -1931,7 +1931,7 @@ number.2.Guitar.Music.1 = {
             % AFTER:
             % SPANNER_STARTS:
               %! SPANNER_START
-              %! baca._do_spanner_indicator_command(2)
+              %! baca._do_spanner_indicator_command(1)
             (
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -1976,7 +1976,7 @@ number.2.Guitar.Music.1 = {
             % AFTER:
             % SPANNER_STOPS:
               %! SPANNER_STOP
-              %! baca._do_spanner_indicator_command(4)
+              %! baca._do_spanner_indicator_command(2)
             )
             % CLOSING:
             % COMMANDS:
@@ -2024,7 +2024,7 @@ number.2.Guitar.Music.1 = {
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (9) \hspace #1 "R4" ] }
             % SPANNER_STARTS:
               %! SPANNER_START
-              %! baca._do_spanner_indicator_command(2)
+              %! baca._do_spanner_indicator_command(1)
             (
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2069,7 +2069,7 @@ number.2.Guitar.Music.1 = {
             % AFTER:
             % SPANNER_STOPS:
               %! SPANNER_STOP
-              %! baca._do_spanner_indicator_command(4)
+              %! baca._do_spanner_indicator_command(2)
             )
             % CLOSING:
             % COMMANDS:
@@ -2094,7 +2094,7 @@ number.2.Guitar.Music.1 = {
             % AFTER:
             % SPANNER_STARTS:
               %! SPANNER_START
-              %! baca._do_spanner_indicator_command(2)
+              %! baca._do_spanner_indicator_command(1)
             (
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2139,7 +2139,7 @@ number.2.Guitar.Music.1 = {
             % AFTER:
             % SPANNER_STOPS:
               %! SPANNER_STOP
-              %! baca._do_spanner_indicator_command(4)
+              %! baca._do_spanner_indicator_command(2)
             )
             % CLOSING:
             % COMMANDS:
@@ -2164,7 +2164,7 @@ number.2.Guitar.Music.1 = {
             % AFTER:
             % SPANNER_STARTS:
               %! SPANNER_START
-              %! baca._do_spanner_indicator_command(2)
+              %! baca._do_spanner_indicator_command(1)
             (
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2209,7 +2209,7 @@ number.2.Guitar.Music.1 = {
             % AFTER:
             % SPANNER_STOPS:
               %! SPANNER_STOP
-              %! baca._do_spanner_indicator_command(4)
+              %! baca._do_spanner_indicator_command(2)
             )
             % CLOSING:
             % COMMANDS:
@@ -2257,7 +2257,7 @@ number.2.Guitar.Music.1 = {
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (11) \hspace #1 "R5" ] }
             % SPANNER_STARTS:
               %! SPANNER_START
-              %! baca._do_spanner_indicator_command(2)
+              %! baca._do_spanner_indicator_command(1)
             (
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2302,7 +2302,7 @@ number.2.Guitar.Music.1 = {
             % AFTER:
             % SPANNER_STOPS:
               %! SPANNER_STOP
-              %! baca._do_spanner_indicator_command(4)
+              %! baca._do_spanner_indicator_command(2)
             )
             % CLOSING:
             % COMMANDS:
@@ -2327,7 +2327,7 @@ number.2.Guitar.Music.1 = {
             % AFTER:
             % SPANNER_STARTS:
               %! SPANNER_START
-              %! baca._do_spanner_indicator_command(2)
+              %! baca._do_spanner_indicator_command(1)
             (
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2372,7 +2372,7 @@ number.2.Guitar.Music.1 = {
             % AFTER:
             % SPANNER_STOPS:
               %! SPANNER_STOP
-              %! baca._do_spanner_indicator_command(4)
+              %! baca._do_spanner_indicator_command(2)
             )
             % CLOSING:
             % COMMANDS:
@@ -2397,7 +2397,7 @@ number.2.Guitar.Music.1 = {
             % AFTER:
             % SPANNER_STARTS:
               %! SPANNER_START
-              %! baca._do_spanner_indicator_command(2)
+              %! baca._do_spanner_indicator_command(1)
             (
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2442,7 +2442,7 @@ number.2.Guitar.Music.1 = {
             % AFTER:
             % SPANNER_STOPS:
               %! SPANNER_STOP
-              %! baca._do_spanner_indicator_command(4)
+              %! baca._do_spanner_indicator_command(2)
             )
             % CLOSING:
             % COMMANDS:
@@ -2467,7 +2467,7 @@ number.2.Guitar.Music.1 = {
             % AFTER:
             % SPANNER_STARTS:
               %! SPANNER_START
-              %! baca._do_spanner_indicator_command(2)
+              %! baca._do_spanner_indicator_command(1)
             (
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2512,7 +2512,7 @@ number.2.Guitar.Music.1 = {
             % AFTER:
             % SPANNER_STOPS:
               %! SPANNER_STOP
-              %! baca._do_spanner_indicator_command(4)
+              %! baca._do_spanner_indicator_command(2)
             )
             % STOP_BEAM:
             ]

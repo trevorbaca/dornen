@@ -255,7 +255,9 @@ baca.metronome_mark_function(skips[1 - 1], accumulator.metronome_marks["44"], ma
 
 def postprocess(cache):
     with baca.scope(cache["v1"][1]) as o:
-        baca.instrument_function(o.leaf(0), instruments["Guitar"])
+        baca.instrument_function(
+            o.leaf(0), instruments["Guitar"], accumulator.manifests()
+        )
         baca.clef_function(o.leaf(0), "treble")
     with baca.scope(cache["v3"][18, 19]) as o:
         baca.register_function(o, 0, -12)

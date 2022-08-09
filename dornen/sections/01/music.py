@@ -13,10 +13,11 @@ design = library.design_1(stop=22)
 assert len(design) == 22
 cursor = baca.Cursor(design)
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     cursor.next(),
-    *library.anchors(),
+    *library.dotted_eighths(),
     baca.beam_positions(
         6,
         selector=lambda _: baca.select.leaves(_, grace=False),
@@ -42,10 +43,11 @@ figures(
     figure_name="1",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     cursor.next(),
-    *library.anchors(),
+    *library.dotted_eighths(),
     baca.register(-10),
     baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
     figure_name="2",
@@ -66,7 +68,7 @@ figures(
 figures(
     "v1",
     cursor.next(),
-    *library.anchors(),
+    *library.dotted_eighths(),
     baca.register(-12),
     figure_name="4",
 )
@@ -85,7 +87,7 @@ figures(
 figures(
     "v1",
     cursor.next(),
-    *library.anchors(),
+    *library.dotted_eighths(),
     baca.beam_positions(
         9,
         selector=lambda _: baca.select.leaves(_, grace=False),
@@ -122,7 +124,7 @@ figures(
 figures(
     "v1",
     cursor.next(),
-    *library.anchors(),
+    *library.dotted_eighths(),
     baca.register(-16),
     figure_name="9",
 )
@@ -138,7 +140,7 @@ figures(
 figures(
     "v1",
     cursor.next(),
-    *library.anchors(),
+    *library.dotted_eighths(),
     baca.beam_positions(
         6,
         selector=lambda _: baca.select.leaves(_, grace=False),
@@ -162,7 +164,7 @@ figures(
 figures(
     "v1",
     cursor.next(),
-    *library.anchors(),
+    *library.dotted_eighths(),
     baca.register(-20),
     figure_name="13",
 )

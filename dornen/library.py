@@ -373,16 +373,6 @@ class DesignMaker:
         self._result.extend(parts)
 
 
-def anchors():
-    """
-    Makes anchor commands.
-    """
-    return [
-        baca.figure([3], 16, signature=8),
-        rmakers.beam(beam_lone_notes=True),
-    ]
-
-
 def delicatissimo():
     """
     Makes delicatissimo commands.
@@ -484,6 +474,16 @@ def design_3(start=None, stop=None):
         pitch_lists.append(pitch_list)
     pitch_lists = pitch_lists[start:stop]
     return pitch_lists
+
+
+def dotted_eighths():
+    """
+    Makes dotted-eighth commands.
+    """
+    return [
+        baca.figure([3], 16, signature=8),
+        rmakers.beam(beam_lone_notes=True),
+    ]
 
 
 def forty_eighths():

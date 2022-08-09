@@ -479,7 +479,7 @@ def dotted_eighths():
 
 def dotted_eighths_function(collections):
     result = baca.figure_function(collections, [3], 16, signature=8)
-    result = rmakers.beam_function(result, beam_lone_notes=True)
+    rmakers.beam_function(result, beam_lone_notes=True)
     return result
 
 

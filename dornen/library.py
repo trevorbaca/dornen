@@ -256,9 +256,6 @@ def _select_nontrivial_tuplets(argument):
 
 
 class DesignChecker:
-    """
-    Design checker.
-    """
 
     __slots__ = ("_design",)
 
@@ -374,9 +371,6 @@ class DesignMaker:
 
 
 def delicatissimo():
-    """
-    Makes delicatissimo commands.
-    """
     return [
         baca.figure([1], 32, signature=32),
         rmakers.beam_groups(),
@@ -477,26 +471,23 @@ def design_3(start=None, stop=None):
 
 
 def dotted_eighths():
-    """
-    Makes dotted-eighth commands.
-    """
     return [
         baca.figure([3], 16, signature=8),
         rmakers.beam(beam_lone_notes=True),
     ]
 
 
+def dotted_eighths_function(collections):
+    result = baca.figure_function(collections, [3], 16, signature=8)
+    result = rmakers.beam_function(result, beam_lone_notes=True)
+    return result
+
+
 def forty_eighths():
-    """
-    Makes forty-eighth commands.
-    """
     return [baca.figure([3], 64, signature=32), rmakers.beam()]
 
 
 def glissando_scatto():
-    """
-    Makes glissando scatto commands.
-    """
     return [
         baca.figure([2, 2, 2, 1, 2, 2, 2], 32, signature=16, treatments=[-2]),
         rmakers.beam_groups(),
@@ -505,10 +496,6 @@ def glissando_scatto():
 
 
 def graced_tuplets():
-    """
-    Makes graced tuplet commands.
-    """
-
     maker_1 = baca.figure(
         [1],
         16,
@@ -596,16 +583,10 @@ def metronome_marks():
 
 
 def monads():
-    """
-    Makes monad commands.
-    """
     return [baca.figure([1], 2, signature=5, treatments=["5:4"])]
 
 
 def ovoids():
-    """
-    Makes ovoid commands.
-    """
     return [
         baca.figure([6, 1], 32, acciaccatura=baca.lmr(left_length=1)),
         rmakers.beam_groups(),
@@ -613,9 +594,6 @@ def ovoids():
 
 
 def passepied():
-    """
-    Makes passepied commands.
-    """
     return [
         baca.bind(
             [
@@ -628,9 +606,6 @@ def passepied():
 
 
 def rests(duration=None):
-    """
-    Makes rest commands.
-    """
     duration = duration or abjad.Duration(1, 8)
     return [
         baca.figure(
@@ -645,9 +620,6 @@ def rests(duration=None):
 
 
 def running():
-    """
-    Makes running commands.
-    """
     return [
         baca.figure([1], 64, treatments=[-1]),
         rmakers.beam_groups(),
@@ -656,9 +628,6 @@ def running():
 
 
 def sixteenths():
-    """
-    Makes sixteenth commands.
-    """
     return [
         baca.figure([1], 16, signature=16),
         rmakers.beam(beam_lone_notes=True),
@@ -666,9 +635,6 @@ def sixteenths():
 
 
 def sixty_fourths():
-    """
-    Makes sixty-fourth commands.
-    """
     return [
         baca.figure([1], 64, signature=64),
         rmakers.beam_groups(),
@@ -677,23 +643,14 @@ def sixty_fourths():
 
 
 def thirds():
-    """
-    Makes third commands.
-    """
     return [baca.figure([1], 2, signature=3, treatments=["3:2"])]
 
 
 def thirty_seconds():
-    """
-    Makes thirty-second commands.
-    """
     return [baca.figure([1], 32, signature=32), rmakers.beam_groups()]
 
 
 def twentieths():
-    """
-    Makes twentieth commands.
-    """
     return [
         baca.figure([1], 16, signature=20, treatments=["5:4"]),
         rmakers.beam(beam_lone_notes=True),
@@ -701,9 +658,6 @@ def twentieths():
 
 
 def twenty_eighths():
-    """
-    Makes twenty-eighth commands.
-    """
     return [
         baca.figure([1], 16, signature=28, treatments=["7:4"]),
         rmakers.beam(),
@@ -711,9 +665,6 @@ def twenty_eighths():
 
 
 def twenty_fourths():
-    """
-    Makes twenty-fourth commands.
-    """
     return [
         baca.figure([1], 16, signature=24, treatments=["3:2"]),
         rmakers.beam(beam_lone_notes=True),
@@ -721,9 +672,6 @@ def twenty_fourths():
 
 
 def waves(denominator: int = 64, inverted: bool = False):
-    """
-    Makes wave commands.
-    """
     assert abjad.math.is_positive_integer_power_of_two(denominator)
     assert 16 <= denominator, repr(denominator)
     accelerando_maker = baca.figure(

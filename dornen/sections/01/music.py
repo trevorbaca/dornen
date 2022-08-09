@@ -13,6 +13,13 @@ design = library.design_1(stop=22)
 assert len(design) == 22
 cursor = baca.Cursor(design)
 
+"""
+result = library.dotted_eighths_function([[4]])
+result = baca.beam_positions_function(result, 6)
+result = baca.register_function(result, -8)
+result = baca.extend_beam_function(abjad.select.leaf(result, -1))
+"""
+
 baca.make_figures(
     figures,
     "v1",

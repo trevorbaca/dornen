@@ -1104,8 +1104,7 @@ number.1.Guitar.Music.1 = {
             % [Guitar.Music.1 measure 1]
             % BEFORE:
             % COMMANDS:
-              %! baca.OverrideCommand._call(1)
-              %! baca.beam_positions()
+              %! baca.beam_positions_function(1)
             \once \override Beam.positions = #'(6 . 6)
               %! MEASURE_1
               %! SHIFTED_CLEF
@@ -1145,6 +1144,7 @@ number.1.Guitar.Music.1 = {
               %! baca._attach_latent_indicator_alert()
             ^ \baca-explicit-instrument-markup "(“Guitar”)"
             % START_BEAM:
+              %! rmakers.beam()
             [
             % ABSOLUTE_AFTER:
             % COMMANDS:
@@ -1568,15 +1568,14 @@ number.1.Guitar.Music.2 = {
             % COMMANDS:
 
             % COMMANDS:
-              %! baca.OverrideCommand._call(1)
-              %! baca.beam_positions()
+              %! baca.beam_positions_function(1)
             \once \override Beam.positions = #'(-10 . -10)
-              %! baca.OverrideCommand._call(1)
-              %! baca.time_signature_extra_offset()
+              %! baca.time_signature_extra_offset_function(1)
             \once \override Score.TimeSignature.extra-offset = #'(-2.5 . 0)
             c''32
             % AFTER:
             % START_BEAM:
+              %! rmakers.beam_groups()
             [
             % CLOSING:
             % COMMANDS:

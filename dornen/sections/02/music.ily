@@ -968,8 +968,7 @@ number.2.Guitar.Music.1 = {
             % [Guitar.Music.1 measure 1]
             % BEFORE:
             % COMMANDS:
-              %! baca.OverrideCommand._call(1)
-              %! baca.beam_positions()
+              %! baca.beam_positions_function(1)
             \override Beam.positions = #'(8 . 8)
             % GROB_OVERRIDES:
             \once \override Beam.grow-direction = #left
@@ -1004,6 +1003,7 @@ number.2.Guitar.Music.1 = {
               %! baca._attach_latent_indicator_alert()
             ^ \baca-reapplied-instrument-markup "(“Guitar”)"
             % START_BEAM:
+              %! rmakers.beam()
             [
             % ABSOLUTE_AFTER:
             % COMMANDS:
@@ -1038,6 +1038,7 @@ number.2.Guitar.Music.1 = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1536" #"1024"
             % STOP_BEAM:
+              %! rmakers.beam()
             ]
             % CLOSING:
             % COMMANDS:
@@ -1104,6 +1105,7 @@ number.2.Guitar.Music.1 = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1664" #"1024"
             % START_BEAM:
+              %! rmakers.beam()
             [
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -1133,6 +1135,7 @@ number.2.Guitar.Music.1 = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"704" #"1024"
             % STOP_BEAM:
+              %! rmakers.beam()
             ]
             % CLOSING:
             % COMMANDS:
@@ -1199,6 +1202,7 @@ number.2.Guitar.Music.1 = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"448" #"1024"
             % START_BEAM:
+              %! rmakers.beam()
             [
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -1228,6 +1232,7 @@ number.2.Guitar.Music.1 = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1536" #"1024"
             % STOP_BEAM:
+              %! rmakers.beam()
             ]
             % CLOSING:
             % COMMANDS:
@@ -1294,6 +1299,7 @@ number.2.Guitar.Music.1 = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1664" #"1024"
             % START_BEAM:
+              %! rmakers.beam()
             [
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -1323,10 +1329,10 @@ number.2.Guitar.Music.1 = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"704" #"1024"
             % STOP_BEAM:
+              %! rmakers.beam()
             ]
             % COMMANDS:
-              %! baca.OverrideCommand._call(2)
-              %! baca.beam_positions()
+              %! baca.beam_positions_function(2)
             \revert Beam.positions
             % CLOSING:
             % COMMANDS:

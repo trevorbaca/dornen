@@ -13,15 +13,16 @@ design_2 = library.design_2(stop=14)
 design = design_2[:14]
 assert len(design) == 14
 
+tuplets, tsd = library.waves_function(design[:4], denominator=64, inverted=True)
+baca.beam_positions_function(tuplets, 8)
+baca.register_function(tuplets, 0, -14)
 baca.make_figures(
     figures,
     "v1",
-    design[:4],
-    *library.waves(denominator=64, inverted=True),
-    baca.beam_positions(8),
-    baca.register(0, -14),
-    tsd=16,
+    None,
     figure_name="W1",
+    tsd=16,
+    tuplets=tuplets,
 )
 
 baca.make_figures(

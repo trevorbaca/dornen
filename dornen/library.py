@@ -733,7 +733,9 @@ def waves_function(collections, denominator: int = 64, inverted: bool = False):
                 [collection], [1], denominator, tsd=denominator, treatments=["rit"]
             )
         tuplets.extend(tuplets_)
-    rmakers.beam_function(tuplets)
+    selector = rmakers.nongrace_leaves_in_each_tuplet(level=-1)
+    groups = selector(tuplets)
+    rmakers.beam_function(groups)
     return tuplets, 64
 
 

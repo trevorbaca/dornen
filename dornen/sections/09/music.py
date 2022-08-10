@@ -12,7 +12,8 @@ figures = baca.FigureAccumulator(score, library.voice_abbreviations())
 design = library.design_3(start=20)
 assert len(design) == 20, (repr(design), len(design))
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     design[:1],
     *library.delicatissimo(),
@@ -21,7 +22,8 @@ figures(
     figure_name="D1",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     design[1:2],
     *library.delicatissimo(),
@@ -30,7 +32,8 @@ figures(
     figure_name="D2",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v3",
     design[2:3],
     *library.waves(denominator=32),
@@ -38,7 +41,8 @@ figures(
     figure_name="W1",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     design[3:4],
     *library.delicatissimo(),
@@ -47,7 +51,8 @@ figures(
     figure_name="D3",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     design[4:5],
     *library.delicatissimo(),
@@ -56,7 +61,8 @@ figures(
     figure_name="D4",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     design[5:6],
     *library.glissando_scatto(),
@@ -65,7 +71,8 @@ figures(
     figure_name="L1",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v3",
     design[6:7],
     *library.waves(denominator=32),
@@ -73,7 +80,8 @@ figures(
     figure_name="W2",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v3",
     design[6:7],
     *library.waves(denominator=32),
@@ -81,7 +89,8 @@ figures(
     figure_name="W3",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     design[7:8],
     *library.thirty_seconds(),
@@ -90,7 +99,8 @@ figures(
     figure_name="32_1",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v2",
     design[8:9],
     *library.twenty_eighths(),
@@ -100,7 +110,8 @@ figures(
     figure_name="28_1",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v2",
     design[9:10],
     *library.forty_eighths(),
@@ -109,7 +120,8 @@ figures(
     figure_name="48_1",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     design[10:11],
     *library.thirty_seconds(),
@@ -118,7 +130,8 @@ figures(
     figure_name="32_2",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v2",
     design[11:12],
     *library.twenty_eighths(),
@@ -127,7 +140,8 @@ figures(
     figure_name="28_2",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v2",
     design[12:13],
     *library.forty_eighths(),
@@ -136,7 +150,8 @@ figures(
     figure_name="48_2",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     design[13:14],
     *library.thirty_seconds(),
@@ -145,7 +160,8 @@ figures(
     figure_name="32_3",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v2",
     design[14:16],
     *library.graced_tuplets(),
@@ -154,7 +170,8 @@ figures(
     figure_name="G1",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     design[16:19],
     *library.running(),
@@ -162,7 +179,8 @@ figures(
     figure_name="R1",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v2",
     design[19:20],
     *library.twentieths(),

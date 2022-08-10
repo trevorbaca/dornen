@@ -13,7 +13,8 @@ design = library.design_2(start=14, stop=28)
 assert len(design) == 14
 
 string = r"\override Score.RehearsalMark.extra-offset = #'(-10 . -10)"
-figures(
+baca.make_figures(
+    figures,
     "v1",
     design[:1],
     *library.forty_eighths(),
@@ -26,7 +27,8 @@ figures(
     figure_name="48_1",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v4",
     design[1:2],
     *library.twentieths(),
@@ -34,7 +36,8 @@ figures(
     figure_name="20_1",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v3",
     design[2:3],
     *library.sixteenths(),
@@ -42,7 +45,8 @@ figures(
     figure_name="16_1",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v4",
     design[3:4],
     *library.twentieths(),
@@ -51,7 +55,8 @@ figures(
     figure_name="20_2",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v2",
     design[4:5],
     *library.thirty_seconds(),
@@ -59,14 +64,16 @@ figures(
     figure_name="32_1",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     design[5:6],
     *library.forty_eighths(),
     figure_name="48_2",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v4",
     design[6:7],
     *library.twentieths(),
@@ -74,7 +81,8 @@ figures(
     figure_name="20_3",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v3",
     design[7:8],
     *library.sixteenths(),
@@ -82,14 +90,16 @@ figures(
     figure_name="16_2",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v4",
     design[8:9],
     *library.twentieths(),
     figure_name="20_4",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v2",
     design[9:10],
     *library.thirty_seconds(),
@@ -97,7 +107,8 @@ figures(
     figure_name="32_2",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     design[10:11],
     *library.forty_eighths(),
@@ -105,7 +116,8 @@ figures(
     figure_name="48_3",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v4",
     design[11:12],
     *library.twentieths(),
@@ -113,14 +125,16 @@ figures(
     figure_name="20_5",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v3",
     design[12:13],
     *library.sixteenths(),
     figure_name="16_3",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v4",
     design[13:14],
     *library.twentieths(),
@@ -129,14 +143,16 @@ figures(
 
 ###
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     design[:1],
     *library.forty_eighths(),
     figure_name="48_1*",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v4",
     design[1:2],
     *library.twentieths(),
@@ -144,7 +160,8 @@ figures(
     figure_name="20_1*",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v3",
     design[2:3],
     *library.sixteenths(),
@@ -152,7 +169,8 @@ figures(
     figure_name="16_1*",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v4",
     design[3:4],
     *library.twentieths(),
@@ -161,7 +179,8 @@ figures(
     figure_name="20_2*",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v2",
     design[4:5],
     *library.thirty_seconds(),
@@ -169,7 +188,8 @@ figures(
     figure_name="32_1*",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     design[5:6],
     *library.forty_eighths(),
@@ -177,7 +197,8 @@ figures(
     figure_name="48_2*",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v4",
     design[6:7],
     *library.twentieths(),
@@ -185,7 +206,8 @@ figures(
     figure_name="20_3*",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v3",
     design[7:8],
     *library.sixteenths(),
@@ -193,14 +215,16 @@ figures(
     figure_name="16_2*",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v2",
     [3 * ["C4"]],
     *library.rests(),
     figure_name="R1",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v2",
     [["Gb2"]],
     *library.monads(),
@@ -217,14 +241,16 @@ figures(
     figure_name="2_1",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v4",
     design[8:9],
     *library.twentieths(),
     figure_name="20_4*",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v2",
     design[9:10],
     *library.thirty_seconds(),
@@ -232,14 +258,16 @@ figures(
     figure_name="32_2*",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     design[10:11],
     *library.forty_eighths(),
     figure_name="48_3*",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v4",
     design[11:12],
     *library.twentieths(),
@@ -247,14 +275,16 @@ figures(
     figure_name="20_5*",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v3",
     design[12:13],
     *library.sixteenths(),
     figure_name="16_3*",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v4",
     design[13:14],
     *library.twentieths(),

@@ -640,6 +640,14 @@ def running():
     ]
 
 
+def running_function(collections):
+    tuplets = baca.figure_function(collections, [1], 64, treatments=[-1])
+    rmakers.beam_groups_function(tuplets)
+    for tuplet in _select_nontrivial_tuplets(tuplets):
+        baca.slur_function(tuplet)
+    return tuplets, None
+
+
 def sixteenths():
     return [
         baca.figure([1], 16, tsd=16),

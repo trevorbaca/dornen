@@ -12,7 +12,8 @@ figures = baca.FigureAccumulator(score, library.voice_abbreviations())
 design = library.design_1(start=16, stop=38)
 assert len(design) == 22
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     design[:1],
     *library.waves(denominator=64, inverted=True),
@@ -20,7 +21,8 @@ figures(
     figure_name="W1",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v4",
     baca.sequence.reveal(design[5:6], 1),
     *library.graced_tuplets(),
@@ -31,7 +33,8 @@ figures(
     figure_name="G1_1",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v2",
     design[1:2],
     *library.ovoids(),
@@ -44,7 +47,8 @@ figures(
     figure_name="O1",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v4",
     baca.sequence.reveal(design[5:6], 1),
     *library.graced_tuplets(),
@@ -54,7 +58,8 @@ figures(
     figure_name="G1_1*",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     baca.sequence.boustrophedon(design[2:3], count=2),
     *library.waves(denominator=64, inverted=True),
@@ -63,7 +68,8 @@ figures(
     figure_name="W2",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v4",
     baca.sequence.reveal(design[5:6], 3),
     *library.graced_tuplets(),
@@ -73,7 +79,8 @@ figures(
     figure_name="G1_2",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v2",
     design[3:4],
     *library.ovoids(),
@@ -82,7 +89,8 @@ figures(
     figure_name="O2",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v4",
     baca.sequence.reveal(design[5:6], 3),
     *library.graced_tuplets(),
@@ -93,7 +101,8 @@ figures(
 
 cell_d1 = [abjad.sequence.flatten(baca.sequence.boustrophedon(design[4:5], count=4))]
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     baca.sequence.reveal(cell_d1, 4),
     *library.delicatissimo(),
@@ -103,7 +112,8 @@ figures(
     figure_name="D1_1",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v4",
     baca.sequence.reveal(design[5:6], 1),
     *library.graced_tuplets(),
@@ -114,7 +124,8 @@ figures(
     figure_name="G1_4",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     baca.sequence.reveal(cell_d1, 3),
     *library.delicatissimo(),
@@ -124,7 +135,8 @@ figures(
     figure_name="D1_2",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v4",
     baca.sequence.reveal(design[5:6], 5),
     *library.graced_tuplets(),
@@ -134,7 +146,8 @@ figures(
     figure_name="G1_5",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     baca.sequence.reveal(cell_d1, 10),
     *library.delicatissimo(),
@@ -143,7 +156,8 @@ figures(
     figure_name="D1_3",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v2",
     design[1:2],
     *library.ovoids(),
@@ -156,7 +170,8 @@ figures(
     figure_name="O1*",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v4",
     baca.sequence.reveal(design[5:6], 3),
     *library.graced_tuplets(),
@@ -166,7 +181,8 @@ figures(
     figure_name="G1_6",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     [abjad.sequence.flatten(baca.sequence.boustrophedon(design[2:3], count=2))],
     *library.waves(denominator=64),
@@ -176,7 +192,8 @@ figures(
     figure_name="W2*",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     baca.sequence.reveal(cell_d1, 15),
     *library.delicatissimo(),
@@ -186,7 +203,8 @@ figures(
     figure_name="D1_4",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v4",
     baca.sequence.reveal(design[5:6], 9),
     *library.graced_tuplets(),
@@ -197,7 +215,8 @@ figures(
     figure_name="G1_7",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     baca.sequence.reveal(cell_d1, 6),
     *library.delicatissimo(),
@@ -206,7 +225,8 @@ figures(
     figure_name="D1_5",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v2",
     design[3:4],
     *library.ovoids(),
@@ -215,7 +235,8 @@ figures(
     figure_name="O2*",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v4",
     [list(_) for _ in abjad.sequence.flatten(abjad.sequence.repeat(design[5:6], n=2))],
     *library.graced_tuplets(),
@@ -225,7 +246,8 @@ figures(
     figure_name="G1_8",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v2",
     design[1:2],
     *library.ovoids(),
@@ -238,7 +260,8 @@ figures(
     figure_name="O1**",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     baca.sequence.reveal(cell_d1, 10),
     *library.delicatissimo(),
@@ -247,7 +270,8 @@ figures(
     figure_name="D1_6",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     baca.sequence.reveal(cell_d1, -15),
     *library.delicatissimo(),
@@ -258,7 +282,8 @@ figures(
     figure_name="D1_7",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     design[6:7],
     *library.delicatissimo(),
@@ -268,7 +293,8 @@ figures(
     figure_name="D2",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v2",
     design[3:4],
     *library.ovoids(),
@@ -278,7 +304,8 @@ figures(
     figure_name="O2**",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v2",
     abjad.sequence.join(design[7:9]),
     *library.ovoids(),
@@ -286,7 +313,8 @@ figures(
     figure_name="O3",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v2",
     abjad.sequence.join(design[9:11]),
     *library.ovoids(),
@@ -299,7 +327,8 @@ figures(
     figure_name="O4",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v2",
     abjad.sequence.join(design[11:13]),
     *library.ovoids(),
@@ -308,7 +337,8 @@ figures(
     figure_name="O5",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v2",
     abjad.sequence.join(design[13:15]),
     *library.ovoids(),
@@ -317,7 +347,8 @@ figures(
     figure_name="O6",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v2",
     abjad.sequence.join(design[15:17]),
     *library.ovoids(),
@@ -325,7 +356,8 @@ figures(
     figure_name="O7",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v2",
     abjad.sequence.join(design[17:19]),
     *library.ovoids(),
@@ -338,7 +370,8 @@ figures(
     figure_name="O8",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     [abjad.sequence.flatten(baca.sequence.boustrophedon(design[2:3], count=2))],
     *library.waves(denominator=64),
@@ -348,7 +381,8 @@ figures(
     figure_name="W2**",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     design[6:7],
     *library.delicatissimo(),
@@ -358,7 +392,8 @@ figures(
     figure_name="D2*",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v2",
     abjad.sequence.join(design[19:21]),
     *library.ovoids(),
@@ -367,7 +402,8 @@ figures(
     figure_name="O9",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v2",
     design[21:22],
     *library.ovoids(),

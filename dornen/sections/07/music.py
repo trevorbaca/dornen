@@ -22,7 +22,8 @@ middle_register = baca.register(
     selector=lambda _: baca.select.plts(_),
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     design[:1],
     *library.twentieths(),
@@ -32,7 +33,8 @@ figures(
     figure_name="20_1",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v2",
     design[1:2],
     *library.sixteenths(),
@@ -46,7 +48,8 @@ figures(
     figure_name="16_1",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v3",
     design[2:3],
     *library.twenty_eighths(),
@@ -55,7 +58,8 @@ figures(
     figure_name="28_1",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v2",
     design[3:4],
     *library.sixteenths(),
@@ -63,7 +67,8 @@ figures(
     figure_name="16_2",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     design[4:5],
     *library.twentieths(),
@@ -73,7 +78,8 @@ figures(
     figure_name="20_2",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v2",
     design[5:6],
     *library.sixteenths(),
@@ -81,7 +87,8 @@ figures(
     figure_name="16_3",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v3",
     design[6:7],
     *library.twenty_eighths(),
@@ -90,7 +97,8 @@ figures(
     figure_name="28_2",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v2",
     design[7:8],
     *library.sixteenths(),
@@ -98,7 +106,8 @@ figures(
     figure_name="16_4",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     design[8:9],
     *library.twentieths(),
@@ -107,14 +116,16 @@ figures(
     figure_name="20_3",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v2",
     design[9:10],
     *library.sixteenths(),
     figure_name="16_5",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v2",
     design[10:11],
     *library.twenty_fourths(),
@@ -122,7 +133,8 @@ figures(
     figure_name="24_1",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     design[11:12],
     *library.thirty_seconds(),
@@ -132,7 +144,8 @@ figures(
     figure_name="32_1",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v2",
     design[12:13],
     *library.twenty_fourths(),
@@ -140,7 +153,8 @@ figures(
     figure_name="24_2",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v3",
     design[13:14],
     *library.twenty_eighths(),
@@ -149,7 +163,8 @@ figures(
     figure_name="28_3",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v2",
     design[14:15],
     *library.twenty_fourths(),
@@ -157,7 +172,8 @@ figures(
     figure_name="24_3",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     design[15:16],
     *library.thirty_seconds(),
@@ -167,7 +183,8 @@ figures(
     figure_name="32_2",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v2",
     design[16:17],
     *library.twenty_fourths(),
@@ -175,7 +192,8 @@ figures(
     figure_name="24_4",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     design[17:18],
     *library.thirty_seconds(),
@@ -185,7 +203,8 @@ figures(
     figure_name="32_3",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v2",
     design[18:19],
     *library.twenty_fourths(),
@@ -193,7 +212,8 @@ figures(
     figure_name="24_5",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v3",
     design[19:20],
     *library.twenty_eighths(),
@@ -202,14 +222,16 @@ figures(
     figure_name="28_4",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v2",
     design[20:21],
     *library.twenty_fourths(),
     figure_name="24_6",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     design[21:],
     *library.thirty_seconds(),

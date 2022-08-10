@@ -12,7 +12,8 @@ figures = baca.FigureAccumulator(score, library.voice_abbreviations())
 design = library.design_3(start=10, stop=30)
 assert len(design) == 20
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     design[:1],
     *library.forty_eighths(),
@@ -23,7 +24,8 @@ figures(
     figure_name="48_1",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v3",
     design[1:2],
     *library.sixteenths(),
@@ -31,7 +33,8 @@ figures(
     figure_name="16_1",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     design[2:5],
     *library.running(),
@@ -40,14 +43,16 @@ figures(
     figure_name="R1",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v4",
     design[5:6],
     *library.twentieths(),
     figure_name="20_1",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     design[6:7],
     *library.forty_eighths(),
@@ -56,21 +61,24 @@ figures(
     figure_name="48_2",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v3",
     design[7:8],
     *library.sixteenths(),
     figure_name="16_2",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v4",
     design[8:9],
     *library.twentieths(),
     figure_name="20_2",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     [3 * ["C4"]],
     *library.rests(),
@@ -81,7 +89,8 @@ figures(
     figure_name="S1",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     abjad.sequence.flatten(
         abjad.sequence.repeat(baca.sequence.reveal(design[9:10], 3), 10)
@@ -91,7 +100,8 @@ figures(
     figure_name="D1",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     abjad.sequence.flatten(
         abjad.sequence.repeat(baca.sequence.reveal(design[9:10], 4), 10)
@@ -101,7 +111,8 @@ figures(
     figure_name="D2",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     abjad.sequence.flatten(
         abjad.sequence.repeat(baca.sequence.reveal(design[9:10], 5), 10)
@@ -111,7 +122,8 @@ figures(
     figure_name="D3",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     abjad.sequence.flatten(
         abjad.sequence.repeat(baca.sequence.reveal(design[9:10], 6), 10)
@@ -121,7 +133,8 @@ figures(
     figure_name="D4",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     baca.sequence.boustrophedon(design[9:10], count=4),
     *library.sixty_fourths(),

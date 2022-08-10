@@ -9,42 +9,48 @@ from dornen import library
 score = library.make_empty_score()
 figures = baca.FigureAccumulator(score, library.voice_abbreviations())
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     [["F2"]],
     *library.monads(),
     figure_name="2_1",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     [["F2"]],
     *library.monads(),
     figure_name="2_2",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     [["F2"]],
     *library.thirds(),
     figure_name="2_3",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     [["F2"]],
     *library.thirds(),
     figure_name="2_4",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     [["F2"]],
     *library.thirds(),
     figure_name="2_5",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     [["F2"]],
     *library.monads(),
@@ -54,28 +60,32 @@ figures(
     figure_name="3_1",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     [["F2"]],
     *library.monads(),
     figure_name="3_2",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     [["F2"]],
     *library.thirds(),
     figure_name="3_3",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     [["F2"]],
     *library.thirds(),
     figure_name="3_4",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     [["F2"]],
     *library.thirds(),
@@ -84,7 +94,8 @@ figures(
 
 ###
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     [["F2"]],
     *library.monads(),
@@ -94,91 +105,104 @@ figures(
     figure_name="4_1",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     [["F2"]],
     *library.monads(),
     figure_name="4_2",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     [["F2"]],
     *library.thirds(),
     figure_name="4_3",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     [["F2"]],
     *library.thirds(),
     figure_name="4_4",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     [["F2"]],
     *library.thirds(),
     figure_name="4_5",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     [["F2"]],
     *library.monads(),
     figure_name="4_6",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     [["F2"]],
     *library.thirds(),
     figure_name="4_7",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     [["F2"]],
     *library.thirds(),
     figure_name="4_8",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     [["F2"]],
     *library.thirds(),
     figure_name="4_9",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     [["F2"]],
     *library.monads(),
     figure_name="4_10",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     [["F2"]],
     *library.thirds(),
     figure_name="4_11",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     [["F2"]],
     *library.thirds(),
     figure_name="4_12",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     [["F2"]],
     *library.thirds(),
     figure_name="4_13",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     [2 * ["F2"]],
     *library.monads(),
@@ -188,7 +212,8 @@ figures(
     figure_name="4_14",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     [2 * ["F2"]],
     *library.monads(),

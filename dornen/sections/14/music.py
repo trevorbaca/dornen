@@ -15,7 +15,8 @@ assert len(design) == 14
 
 ### 1 ###
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     design[:1],
     *library.forty_eighths(),
@@ -26,20 +27,23 @@ figures(
     baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v4",
     design[1:2],
     *library.twentieths(),
     baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v3",
     design[2:3],
     *library.sixteenths(),
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v4",
     design[3:4],
     *library.twentieths(),
@@ -47,20 +51,23 @@ figures(
     baca.stem_up(selector=lambda _: baca.select.pleaves(_)),
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v2",
     design[4:5],
     *library.thirty_seconds(),
     baca.slur(selector=lambda _: baca.select.tleaves(_)),
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     design[5:6],
     *library.forty_eighths(),
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     [["C4"]],
     *library.thirty_seconds(),
@@ -69,7 +76,8 @@ figures(
 
 ### 2 ###
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     design[:1],
     *library.forty_eighths(),
@@ -80,20 +88,23 @@ figures(
     baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v4",
     design[1:2],
     *library.twentieths(),
     baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v3",
     design[2:3],
     *library.sixteenths(),
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v4",
     design[3:4],
     *library.twentieths(),
@@ -101,20 +112,23 @@ figures(
     baca.stem_up(selector=lambda _: baca.select.pleaves(_)),
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v2",
     design[4:5],
     *library.thirty_seconds(),
     baca.slur(selector=lambda _: baca.select.tleaves(_)),
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     design[5:6],
     *library.forty_eighths(),
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     [["C4"]],
     *library.thirty_seconds(),
@@ -123,7 +137,8 @@ figures(
 
 ### 3 ###
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     design[:1],
     *library.forty_eighths(),
@@ -134,20 +149,23 @@ figures(
     baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v4",
     design[1:2],
     *library.twentieths(),
     baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v3",
     design[2:3],
     *library.sixteenths(),
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v4",
     design[3:4],
     *library.twentieths(),
@@ -155,20 +173,23 @@ figures(
     baca.stem_up(selector=lambda _: baca.select.pleaves(_)),
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v2",
     design[4:5],
     *library.thirty_seconds(),
     baca.slur(selector=lambda _: baca.select.tleaves(_)),
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     design[5:6],
     *library.forty_eighths(),
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     [["C4"]],
     *library.thirty_seconds(),
@@ -177,27 +198,31 @@ figures(
 
 ### 4 ###
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     design[:1],
     *library.forty_eighths(),
     baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v4",
     design[1:2],
     *library.twentieths(),
     baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v3",
     design[2:3],
     *library.sixteenths(),
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v4",
     design[3:4],
     *library.twentieths(),
@@ -205,20 +230,23 @@ figures(
     baca.stem_up(selector=lambda _: baca.select.pleaves(_)),
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v2",
     design[4:5],
     *library.thirty_seconds(),
     baca.slur(selector=lambda _: baca.select.tleaves(_)),
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     design[5:6],
     *library.forty_eighths(),
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     [["C4"]],
     *library.thirty_seconds(),
@@ -227,27 +255,31 @@ figures(
 
 ### 5 ###
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     design[:1],
     *library.forty_eighths(),
     baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v4",
     design[1:2],
     *library.twentieths(),
     baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v3",
     design[2:3],
     *library.sixteenths(),
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v4",
     design[3:4],
     *library.twentieths(),
@@ -255,20 +287,23 @@ figures(
     baca.stem_up(selector=lambda _: baca.select.pleaves(_)),
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v2",
     design[4:5],
     *library.thirty_seconds(),
     baca.slur(selector=lambda _: baca.select.tleaves(_)),
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     design[5:6],
     *library.forty_eighths(),
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     [["C4"]],
     *library.thirty_seconds(),
@@ -277,26 +312,30 @@ figures(
 
 ### 6 ###
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     design[:1],
     *library.forty_eighths(),
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v4",
     design[1:2],
     *library.twentieths(),
     baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v3",
     design[2:3],
     *library.sixteenths(),
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v4",
     design[3:4],
     *library.twentieths(),
@@ -304,7 +343,8 @@ figures(
     baca.stem_up(selector=lambda _: baca.select.pleaves(_)),
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v2",
     design[4:5],
     *library.thirty_seconds(),
@@ -313,13 +353,15 @@ figures(
 
 ### rascado ###
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     [5 * ["C4"]],
     *library.rests(),
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     [13 * ["E2"]],
     *library.thirds(),

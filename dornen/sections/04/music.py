@@ -12,21 +12,24 @@ figures = baca.FigureAccumulator(score, library.voice_abbreviations())
 design = library.design_3(stop=10)
 assert len(design) == 10
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     design[:2],
     *library.waves(denominator=32),
     figure_name="W1",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     design[:2],
     *library.waves(denominator=64),
     figure_name="W2",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     [abjad.sequence.flatten(design[:2])],
     *library.waves(denominator=64),
@@ -34,7 +37,8 @@ figures(
 )
 
 
-figures(
+baca.make_figures(
+    figures,
     "v2",
     design[2:3],
     *library.glissando_scatto(),
@@ -49,7 +53,8 @@ figures(
     figure_name="G1",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     design[3:6],
     *library.waves(denominator=32, inverted=True),
@@ -57,7 +62,8 @@ figures(
     figure_name="W4",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v3",
     design[6:9],
     *library.running(),
@@ -66,7 +72,8 @@ figures(
     figure_name="R1",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v3",
     design[7:10],
     *library.running(),
@@ -75,14 +82,16 @@ figures(
     figure_name="R2",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v4",
     [3 * ["C4"]],
     *library.rests(),
     figure_name="S1",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v4",
     2 * [["Gb2"]],
     *library.monads(),
@@ -106,7 +115,8 @@ figures(
     figure_name="T1",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v3",
     design[8:] + design[:1],
     *library.running(),
@@ -114,7 +124,8 @@ figures(
     figure_name="R3",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     design[1:3],
     *library.waves(denominator=32),
@@ -122,7 +133,8 @@ figures(
     figure_name="W5",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v2",
     design[3:4],
     *library.glissando_scatto(),
@@ -132,7 +144,8 @@ figures(
     figure_name="G2",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     design[1:4],
     *library.waves(denominator=32),
@@ -140,7 +153,8 @@ figures(
     figure_name="W6",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v2",
     design[4:5],
     *library.glissando_scatto(),
@@ -149,7 +163,8 @@ figures(
     figure_name="G3",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v3",
     design[5:8],
     *library.running(),
@@ -158,7 +173,8 @@ figures(
     figure_name="R4",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v3",
     design[6:9],
     *library.running(),
@@ -167,14 +183,16 @@ figures(
     figure_name="R5",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v4",
     [3 * ["C4"]],
     *library.rests(),
     figure_name="S2",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v4",
     2 * [["Gb2"]],
     *library.monads(),
@@ -198,7 +216,8 @@ figures(
     figure_name="T2",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v3",
     design[7:10],
     *library.running(),

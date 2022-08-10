@@ -13,7 +13,8 @@ design_2 = library.design_2(stop=14)
 design = design_2[:14]
 assert len(design) == 14
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     design[:4],
     *library.waves(denominator=64, inverted=True),
@@ -23,7 +24,8 @@ figures(
     figure_name="W1",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v2",
     baca.sequence.reveal(design[4:5], 1),
     *library.twentieths(),
@@ -33,7 +35,8 @@ figures(
     figure_name="F1_1",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     design[5:8],
     *library.running(),
@@ -42,7 +45,8 @@ figures(
     figure_name="R1",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v2",
     baca.sequence.reveal(design[4:5], 2),
     *library.twentieths(),
@@ -51,7 +55,8 @@ figures(
     figure_name="F1_2",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     design[6:9],
     *library.running(),
@@ -60,7 +65,8 @@ figures(
     figure_name="R2",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v2",
     baca.sequence.reveal(design[4:5], 3),
     *library.twentieths(),
@@ -69,7 +75,8 @@ figures(
     figure_name="F1_3",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     design[7:10],
     *library.running(),
@@ -78,7 +85,8 @@ figures(
     figure_name="R3",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v2",
     baca.sequence.reveal(design[4:5], 4),
     *library.twentieths(),
@@ -87,7 +95,8 @@ figures(
     figure_name="F1_4",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     design[8:11],
     *library.running(),
@@ -96,7 +105,8 @@ figures(
     figure_name="R4",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v2",
     baca.sequence.reveal(design[4:5], 5),
     *library.twentieths(),
@@ -104,7 +114,8 @@ figures(
     figure_name="F1",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     design[9:13],
     *library.running(),
@@ -112,7 +123,8 @@ figures(
     figure_name="R5",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v2",
     baca.sequence.reveal(design[4:5], 1),
     *library.twentieths(),
@@ -121,7 +133,8 @@ figures(
     figure_name="F1_1*",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     design[13:],
     *library.delicatissimo(),
@@ -131,7 +144,8 @@ figures(
     figure_name="D1",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v2",
     baca.sequence.reveal(design[4:5], 2),
     *library.twentieths(),
@@ -139,7 +153,8 @@ figures(
     figure_name="F1_2*",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     design[13:],
     *library.delicatissimo(),

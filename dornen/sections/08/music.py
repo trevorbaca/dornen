@@ -12,7 +12,8 @@ figures = baca.FigureAccumulator(score, library.voice_abbreviations())
 design = library.design_2(start=28)
 assert len(design) == 12, (repr(design), len(design))
 
-figures(
+baca.make_figures(
+    figures,
     "v2",
     design[:1],
     *library.ovoids(),
@@ -24,7 +25,8 @@ figures(
     figure_name="O1",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     design[1:2],
     *library.glissando_scatto(),
@@ -32,7 +34,8 @@ figures(
     figure_name="L1",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v4",
     design[2:3],
     *library.graced_tuplets(),
@@ -40,7 +43,8 @@ figures(
     figure_name="G1",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v3",
     design[3:4],
     *library.delicatissimo(),
@@ -49,14 +53,16 @@ figures(
     figure_name="D1",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v4",
     design[4:5],
     *library.graced_tuplets(),
     figure_name="G2",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v2",
     design[5:6],
     *library.ovoids(),
@@ -68,7 +74,8 @@ figures(
     figure_name="O2",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     design[6:7],
     *library.glissando_scatto(),
@@ -77,7 +84,8 @@ figures(
     figure_name="L2",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v4",
     design[7:8],
     *library.graced_tuplets(),
@@ -85,7 +93,8 @@ figures(
     figure_name="G3",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v3",
     design[8:9],
     *library.delicatissimo(),
@@ -94,21 +103,24 @@ figures(
     figure_name="D2",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v4",
     design[9:10],
     *library.graced_tuplets(),
     figure_name="G4",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v2",
     design[10:11],
     *library.ovoids(),
     figure_name="O3",
 )
 
-figures(
+baca.make_figures(
+    figures,
     "v1",
     design[11:12],
     *library.glissando_scatto(),

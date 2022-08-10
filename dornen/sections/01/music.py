@@ -13,39 +13,31 @@ design = library.design_1(stop=22)
 assert len(design) == 22
 cursor = baca.Cursor(design)
 
-tuplets, tsd = library.dotted_eighths_function([[4]])
+tuplets, tsd = library.dotted_eighths_function(cursor.next())
 baca.beam_positions_function(tuplets, 6)
 baca.register_function(tuplets, -8)
 baca.extend_beam_function(abjad.select.leaf(tuplets, -1))
-
 baca.make_figures(
     figures,
     "v1",
-    cursor.next(),
-    *library.dotted_eighths(),
-    baca.beam_positions(
-        6,
-        selector=lambda _: baca.select.leaves(_, grace=False),
-    ),
-    baca.register(-8),
-    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
+    None,
     figure_name="0",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
-figures(
+tuplets, tsd = library.passepied_function(cursor.next())
+baca.beam_positions_function(baca.select.leaves(tuplets, grace=False), -10)
+baca.time_signature_extra_offset_function(baca.select.hleaf(tuplets, 0), (-2.5, 0))
+baca.register_function(tuplets, -10)
+baca.extend_beam_function(abjad.select.leaf(tuplets, -1))
+baca.make_figures(
+    figures,
     "v2",
-    cursor.next(),
-    *library.passepied(),
-    baca.beam_positions(
-        -10,
-        selector=lambda _: baca.select.leaves(_, grace=False),
-    ),
-    baca.time_signature_extra_offset(
-        (-2.5, 0), selector=lambda _: baca.select.hleaf(_, 0)
-    ),
-    baca.register(-10),
-    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
+    None,
     figure_name="1",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
 baca.make_figures(

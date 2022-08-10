@@ -605,6 +605,19 @@ def passepied():
     ]
 
 
+def passepied_function(collections):
+    tuplets = []
+    tuplets_ = baca.figure_function(collections[:1], [1], 32, acciaccatura=True)
+    tuplets.extend(tuplets_)
+    for collection in collections[1:]:
+        tuplets_ = baca.figure_function(collection, [1], 16)
+        tuplets.extend(tuplets_)
+    selector = rmakers.nongrace_leaves_in_each_tuplet(level=-1)
+    groups = selector(tuplets)
+    rmakers.beam_groups_function(groups, beam_lone_notes=True)
+    return tuplets, None
+
+
 def rests(duration=None):
     duration = duration or abjad.Duration(1, 8)
     return [

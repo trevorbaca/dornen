@@ -148,101 +148,99 @@ baca.make_figures(
     tuplets=tuplets,
 )
 
+tuplets, tsd = library.dotted_eighths_function(cursor.next())
+baca.beam_positions_function(baca.select.leaves(tuplets, grace=False), 6)
+baca.register_function(tuplets, -18)
+baca.extend_beam_function(abjad.select.leaf(tuplets, -1))
 baca.make_figures(
     figures,
     "v1",
-    cursor.next(),
-    *library.dotted_eighths(),
-    baca.beam_positions(
-        6,
-        selector=lambda _: baca.select.leaves(_, grace=False),
-    ),
-    baca.register(-18),
-    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
+    None,
     figure_name="11",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+tuplets, tsd = library.passepied_function(cursor.next())
+baca.time_signature_extra_offset_function(baca.select.hleaf(tuplets, 0), (-2.5, 0))
+baca.register_function(tuplets, -2)
 baca.make_figures(
     figures,
     "v2",
-    cursor.next(),
-    *library.passepied(),
-    baca.time_signature_extra_offset(
-        (-2.5, 0), selector=lambda _: baca.select.hleaf(_, 0)
-    ),
-    baca.register(-2),
+    None,
     figure_name="12",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+tuplets, tsd = library.dotted_eighths_function(cursor.next())
+baca.register_function(tuplets, -20)
 baca.make_figures(
     figures,
     "v1",
-    cursor.next(),
-    *library.dotted_eighths(),
-    baca.register(-20),
+    None,
     figure_name="13",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+tuplets, tsd = library.passepied_function(cursor.next())
+baca.beam_positions_function(baca.select.leaves(tuplets, grace=False), -10)
+baca.time_signature_extra_offset_function(baca.select.hleaf(tuplets, 0), (-2.5, 0))
+baca.register_function(tuplets, 0)
+baca.extend_beam_function(abjad.select.leaf(tuplets, -1))
 baca.make_figures(
     figures,
     "v2",
-    cursor.next(),
-    *library.passepied(),
-    baca.beam_positions(
-        -10,
-        selector=lambda _: baca.select.leaves(_, grace=False),
-    ),
-    baca.time_signature_extra_offset(
-        (-2.5, 0), selector=lambda _: baca.select.hleaf(_, 0)
-    ),
-    baca.register(0),
-    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
+    None,
     figure_name="14",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+tuplets, tsd = library.passepied_function(cursor.next())
+baca.time_signature_extra_offset_function(baca.select.hleaf(tuplets, 0), (-2.5, 0))
+baca.register_function(tuplets, 2)
 baca.make_figures(
     figures,
     "v2",
-    cursor.next(),
-    *library.passepied(),
-    baca.time_signature_extra_offset(
-        (-2.5, 0), selector=lambda _: baca.select.hleaf(_, 0)
-    ),
-    baca.register(2),
+    None,
     figure_name="15",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+tuplets, tsd = library.running_function(cursor.next(2))
+baca.register_function(tuplets, -12, 0)
 baca.make_figures(
     figures,
     "v4",
-    cursor.next(2),
-    *library.running(),
-    baca.register(-12, 0),
+    None,
     figure_name="16",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+tuplets, tsd = library.waves_function(cursor.next(), denominator=64, inverted=True)
+baca.beam_positions_function(baca.select.leaves(tuplets, grace=False), -6)
 baca.make_figures(
     figures,
     "v3",
-    cursor.next(),
-    *library.waves(denominator=64, inverted=True),
-    baca.beam_positions(
-        -6,
-        selector=lambda _: baca.select.leaves(_, grace=False),
-    ),
+    None,
     figure_name="17",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+tuplets, tsd = library.waves_function(cursor.next(), denominator=64, inverted=True)
+baca.beam_positions_function(baca.select.leaves(tuplets, grace=False), -6)
 baca.make_figures(
     figures,
     "v3",
-    cursor.next(),
-    *library.waves(denominator=64, inverted=True),
-    baca.beam_positions(
-        -6,
-        selector=lambda _: baca.select.leaves(_, grace=False),
-    ),
+    None,
     figure_name="18",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
 voice_names = baca.accumulator.get_voice_names(score)

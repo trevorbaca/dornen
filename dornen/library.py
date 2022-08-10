@@ -717,6 +717,26 @@ def waves(denominator: int = 64, inverted: bool = False):
     ]
 
 
+def waves_function(collections, denominator: int = 64, inverted: bool = False):
+    assert abjad.math.is_positive_integer_power_of_two(denominator)
+    assert 16 <= denominator, repr(denominator)
+    tuplets = []
+    for i, collection in enumerate(collections):
+        if inverted:
+            i += 1
+        if i % 2 == 0:
+            tuplets_ = baca.figure_function(
+                [collection], [1], denominator, tsd=denominator, treatments=["accel"]
+            )
+        else:
+            tuplets_ = baca.figure_function(
+                [collection], [1], denominator, tsd=denominator, treatments=["rit"]
+            )
+        tuplets.extend(tuplets_)
+    rmakers.beam_function(tuplets)
+    return tuplets, 64
+
+
 def voice_abbreviations():
     return {
         "v1": "Guitar.Music.1",

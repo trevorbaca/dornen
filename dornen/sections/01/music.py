@@ -13,10 +13,10 @@ design = library.design_1(stop=22)
 assert len(design) == 22
 cursor = baca.Cursor(design)
 
-result = library.dotted_eighths_function([[4]])
-baca.beam_positions_function(result, 6)
-baca.register_function(result, -8)
-baca.extend_beam_function(abjad.select.leaf(result, -1))
+tuplets, tsd = library.dotted_eighths_function([[4]])
+baca.beam_positions_function(tuplets, 6)
+baca.register_function(tuplets, -8)
+baca.extend_beam_function(abjad.select.leaf(tuplets, -1))
 
 baca.make_figures(
     figures,

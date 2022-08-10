@@ -372,7 +372,7 @@ class DesignMaker:
 
 def delicatissimo():
     return [
-        baca.figure([1], 32, signature=32),
+        baca.figure([1], 32, tsd=32),
         rmakers.beam_groups(),
         baca.staccato(selector=lambda _: baca.select.pheads(_)),
     ]
@@ -472,24 +472,24 @@ def design_3(start=None, stop=None):
 
 def dotted_eighths():
     return [
-        baca.figure([3], 16, signature=8),
+        baca.figure([3], 16, tsd=8),
         rmakers.beam(beam_lone_notes=True),
     ]
 
 
 def dotted_eighths_function(collections):
-    result = baca.figure_function(collections, [3], 16, signature=8)
-    rmakers.beam_function(result, beam_lone_notes=True)
-    return result
+    tuplets = baca.figure_function(collections, [3], 16)
+    rmakers.beam_function(tuplets, beam_lone_notes=True)
+    return tuplets, 8
 
 
 def forty_eighths():
-    return [baca.figure([3], 64, signature=32), rmakers.beam()]
+    return [baca.figure([3], 64, tsd=32), rmakers.beam()]
 
 
 def glissando_scatto():
     return [
-        baca.figure([2, 2, 2, 1, 2, 2, 2], 32, signature=16, treatments=[-2]),
+        baca.figure([2, 2, 2, 1, 2, 2, 2], 32, tsd=16, treatments=[-2]),
         rmakers.beam_groups(),
         baca.glissando(map=lambda _: baca.select.ntruns(_)),
     ]
@@ -500,7 +500,7 @@ def graced_tuplets():
         [1],
         16,
         acciaccatura=baca.lmr(left_length=1, right_counts=[2], right_cyclic=True),
-        signature=14,
+        tsd=14,
         treatments=["7:8"],
     )
 
@@ -583,7 +583,7 @@ def metronome_marks():
 
 
 def monads():
-    return [baca.figure([1], 2, signature=5, treatments=["5:4"])]
+    return [baca.figure([1], 2, tsd=5, treatments=["5:4"])]
 
 
 def ovoids():
@@ -611,7 +611,7 @@ def rests(duration=None):
         baca.figure(
             [duration.numerator],
             duration.denominator,
-            signature=duration.denominator,
+            tsd=duration.denominator,
         ),
         rmakers.force_rest(
             lambda _: baca.select.lts(_),
@@ -629,44 +629,44 @@ def running():
 
 def sixteenths():
     return [
-        baca.figure([1], 16, signature=16),
+        baca.figure([1], 16, tsd=16),
         rmakers.beam(beam_lone_notes=True),
     ]
 
 
 def sixty_fourths():
     return [
-        baca.figure([1], 64, signature=64),
+        baca.figure([1], 64, tsd=64),
         rmakers.beam_groups(),
         baca.staccato(selector=lambda _: baca.select.pheads(_)),
     ]
 
 
 def thirds():
-    return [baca.figure([1], 2, signature=3, treatments=["3:2"])]
+    return [baca.figure([1], 2, tsd=3, treatments=["3:2"])]
 
 
 def thirty_seconds():
-    return [baca.figure([1], 32, signature=32), rmakers.beam_groups()]
+    return [baca.figure([1], 32, tsd=32), rmakers.beam_groups()]
 
 
 def twentieths():
     return [
-        baca.figure([1], 16, signature=20, treatments=["5:4"]),
+        baca.figure([1], 16, tsd=20, treatments=["5:4"]),
         rmakers.beam(beam_lone_notes=True),
     ]
 
 
 def twenty_eighths():
     return [
-        baca.figure([1], 16, signature=28, treatments=["7:4"]),
+        baca.figure([1], 16, tsd=28, treatments=["7:4"]),
         rmakers.beam(),
     ]
 
 
 def twenty_fourths():
     return [
-        baca.figure([1], 16, signature=24, treatments=["3:2"]),
+        baca.figure([1], 16, tsd=24, treatments=["3:2"]),
         rmakers.beam(beam_lone_notes=True),
     ]
 
@@ -675,10 +675,10 @@ def waves(denominator: int = 64, inverted: bool = False):
     assert abjad.math.is_positive_integer_power_of_two(denominator)
     assert 16 <= denominator, repr(denominator)
     accelerando_maker = baca.figure(
-        [1], denominator, signature=denominator, treatments=["accel"]
+        [1], denominator, tsd=denominator, treatments=["accel"]
     )
     ritardando_maker = baca.figure(
-        [1], denominator, signature=denominator, treatments=["rit"]
+        [1], denominator, tsd=denominator, treatments=["rit"]
     )
     maker_1 = accelerando_maker
     maker_2 = ritardando_maker

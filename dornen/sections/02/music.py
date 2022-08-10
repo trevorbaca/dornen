@@ -19,7 +19,7 @@ figures(
     *library.waves(denominator=64, inverted=True),
     baca.beam_positions(8),
     baca.register(0, -14),
-    signature=16,
+    tsd=16,
     figure_name="W1",
 )
 

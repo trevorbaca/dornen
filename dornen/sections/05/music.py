@@ -12,283 +12,372 @@ figures = baca.FigureAccumulator(score, library.voice_abbreviations())
 design = library.design_2(start=14, stop=28)
 assert len(design) == 14
 
-string = r"\override Score.RehearsalMark.extra-offset = #'(-10 . -10)"
+collections = design[:1]
+tuplets, tsd = library.forty_eighths_function(collections)
+baca.markup_function(
+    baca.select.pleaf(tuplets, 0), r"\dornen-slurs-fluid-all-other-parts-markup"
+)
+baca.literal_function(
+    abjad.select.leaf(tuplets, 0),
+    r"\override Score.RehearsalMark.extra-offset = #'(-10 . -10)",
+)
+baca.extend_beam_function(abjad.select.leaf(tuplets, -1))
 baca.make_figures(
     figures,
     "v1",
-    design[:1],
-    *library.forty_eighths(),
-    baca.markup(
-        r"\dornen-slurs-fluid-all-other-parts-markup",
-        selector=lambda _: baca.select.pleaf(_, 0),
-    ),
-    baca.literal(string, selector=lambda _: abjad.select.leaf(_, 0)),
-    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
+    None,
     figure_name="48_1",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = design[1:2]
+tuplets, tsd = library.twentieths_function(collections)
+baca.extend_beam_function(abjad.select.leaf(tuplets, -1))
 baca.make_figures(
     figures,
     "v4",
-    design[1:2],
-    *library.twentieths(),
-    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
+    None,
     figure_name="20_1",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = design[2:3]
+tuplets, tsd = library.sixteenths_function(collections)
+baca.extend_beam_function(abjad.select.leaf(tuplets, -1))
 baca.make_figures(
     figures,
     "v3",
-    design[2:3],
-    *library.sixteenths(),
-    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
+    None,
     figure_name="16_1",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = design[3:4]
+tuplets, tsd = library.twentieths_function(collections)
+baca.beam_positions_function(tuplets, 6)
+baca.stem_up_function(baca.select.pleaves(tuplets))
 baca.make_figures(
     figures,
     "v4",
-    design[3:4],
-    *library.twentieths(),
-    baca.beam_positions(6),
-    baca.stem_up(selector=lambda _: baca.select.pleaves(_)),
+    None,
     figure_name="20_2",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = design[4:5]
+tuplets, tsd = library.thirty_seconds_function(collections)
+baca.slur_function(baca.select.tleaves(tuplets))
 baca.make_figures(
     figures,
     "v2",
-    design[4:5],
-    *library.thirty_seconds(),
-    baca.slur(selector=lambda _: baca.select.tleaves(_)),
+    None,
     figure_name="32_1",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = design[5:6]
+tuplets, tsd = library.forty_eighths_function(collections)
 baca.make_figures(
     figures,
     "v1",
-    design[5:6],
-    *library.forty_eighths(),
+    None,
     figure_name="48_2",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = design[6:7]
+tuplets, tsd = library.twentieths_function(collections)
+baca.extend_beam_function(abjad.select.leaf(tuplets, -1))
 baca.make_figures(
     figures,
     "v4",
-    design[6:7],
-    *library.twentieths(),
-    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
+    None,
     figure_name="20_3",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = design[7:8]
+tuplets, tsd = library.sixteenths_function(collections)
+baca.extend_beam_function(abjad.select.leaf(tuplets, -1))
 baca.make_figures(
     figures,
     "v3",
-    design[7:8],
-    *library.sixteenths(),
-    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
+    None,
     figure_name="16_2",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = design[8:9]
+tuplets, tsd = library.twentieths_function(collections)
 baca.make_figures(
     figures,
     "v4",
-    design[8:9],
-    *library.twentieths(),
+    None,
     figure_name="20_4",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = design[9:10]
+tuplets, tsd = library.thirty_seconds_function(collections)
+baca.slur_function(baca.select.tleaves(tuplets))
 baca.make_figures(
     figures,
     "v2",
-    design[9:10],
-    *library.thirty_seconds(),
-    baca.slur(selector=lambda _: baca.select.tleaves(_)),
+    None,
     figure_name="32_2",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = design[10:11]
+tuplets, tsd = library.forty_eighths_function(collections)
+baca.extend_beam_function(abjad.select.leaf(tuplets, -1))
 baca.make_figures(
     figures,
     "v1",
-    design[10:11],
-    *library.forty_eighths(),
-    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
+    None,
     figure_name="48_3",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = design[11:12]
+tuplets, tsd = library.twentieths_function(collections)
+baca.extend_beam_function(abjad.select.leaf(tuplets, -1))
 baca.make_figures(
     figures,
     "v4",
-    design[11:12],
-    *library.twentieths(),
-    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
+    None,
     figure_name="20_5",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = design[12:13]
+tuplets, tsd = library.sixteenths_function(collections)
 baca.make_figures(
     figures,
     "v3",
-    design[12:13],
-    *library.sixteenths(),
+    None,
     figure_name="16_3",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = design[13:14]
+tuplets, tsd = library.twentieths_function(collections)
 baca.make_figures(
     figures,
     "v4",
-    design[13:14],
-    *library.twentieths(),
+    None,
     figure_name="20_6",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
 ###
 
+collections = design[:1]
+tuplets, tsd = library.forty_eighths_function(collections)
 baca.make_figures(
     figures,
     "v1",
-    design[:1],
-    *library.forty_eighths(),
+    None,
     figure_name="48_1*",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = design[1:2]
+tuplets, tsd = library.twentieths_function(collections)
+baca.extend_beam_function(abjad.select.leaf(tuplets, -1))
 baca.make_figures(
     figures,
     "v4",
-    design[1:2],
-    *library.twentieths(),
-    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
+    None,
     figure_name="20_1*",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = design[2:3]
+tuplets, tsd = library.sixteenths_function(collections)
+baca.extend_beam_function(abjad.select.leaf(tuplets, -1))
 baca.make_figures(
     figures,
     "v3",
-    design[2:3],
-    *library.sixteenths(),
-    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
+    None,
     figure_name="16_1*",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = design[3:4]
+tuplets, tsd = library.twentieths_function(collections)
+baca.beam_positions_function(tuplets, 6)
+baca.stem_up_function(baca.select.pleaves(tuplets))
 baca.make_figures(
     figures,
     "v4",
-    design[3:4],
-    *library.twentieths(),
-    baca.beam_positions(6),
-    baca.stem_up(selector=lambda _: baca.select.pleaves(_)),
+    None,
     figure_name="20_2*",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = design[4:5]
+tuplets, tsd = library.thirty_seconds_function(collections)
+baca.slur_function(baca.select.tleaves(tuplets))
 baca.make_figures(
     figures,
     "v2",
-    design[4:5],
-    *library.thirty_seconds(),
-    baca.slur(selector=lambda _: baca.select.tleaves(_)),
+    None,
     figure_name="32_1*",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = design[5:6]
+tuplets, tsd = library.forty_eighths_function(collections)
+baca.extend_beam_function(abjad.select.leaf(tuplets, -1))
 baca.make_figures(
     figures,
     "v1",
-    design[5:6],
-    *library.forty_eighths(),
-    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
+    None,
     figure_name="48_2*",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = design[6:7]
+tuplets, tsd = library.twentieths_function(collections)
+baca.extend_beam_function(abjad.select.leaf(tuplets, -1))
 baca.make_figures(
     figures,
     "v4",
-    design[6:7],
-    *library.twentieths(),
-    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
+    None,
     figure_name="20_3*",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = design[7:8]
+tuplets, tsd = library.sixteenths_function(collections)
+baca.extend_beam_function(abjad.select.leaf(tuplets, -1))
 baca.make_figures(
     figures,
     "v3",
-    design[7:8],
-    *library.sixteenths(),
-    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
+    None,
     figure_name="16_2*",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+tuplets, tsd = library.rests_function(3, (1, 8))
 baca.make_figures(
     figures,
     "v2",
-    [3 * ["C4"]],
-    *library.rests(),
+    None,
     figure_name="R1",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = [["Gb2"]]
+tuplets, tsd = library.monads_function(collections)
+baca.markup_function(
+    baca.select.pleaf(tuplets, 0), r"\dornen-two-finger-tamb-trill-markup"
+)
+baca.stem_tremolo_function(baca.select.pleaves(tuplets))
+baca.stem_up_function(baca.select.pleaves(tuplets))
+baca.tuplet_bracket_staff_padding_function(tuplets, 0)
+baca.tuplet_bracket_extra_offset_function(tuplets, (0, -0.5))
+baca.tuplet_number_extra_offset_function(tuplets, (0, -0.5))
+baca.register_function(tuplets, -20)
 baca.make_figures(
     figures,
     "v2",
-    [["Gb2"]],
-    *library.monads(),
-    baca.markup(
-        r"\dornen-two-finger-tamb-trill-markup",
-        selector=lambda _: baca.select.pleaf(_, 0),
-    ),
-    baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
-    baca.stem_up(selector=lambda _: baca.select.pleaves(_)),
-    baca.tuplet_bracket_staff_padding(0),
-    baca.tuplet_bracket_extra_offset((0, -0.5)),
-    baca.tuplet_number_extra_offset((0, -0.5)),
-    baca.register(-20),
+    None,
     figure_name="2_1",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = design[8:9]
+tuplets, tsd = library.twentieths_function(collections)
 baca.make_figures(
     figures,
     "v4",
-    design[8:9],
-    *library.twentieths(),
+    None,
     figure_name="20_4*",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = design[9:10]
+tuplets, tsd = library.thirty_seconds_function(collections)
+baca.slur_function(baca.select.tleaves(tuplets))
 baca.make_figures(
     figures,
     "v2",
-    design[9:10],
-    *library.thirty_seconds(),
-    baca.slur(selector=lambda _: baca.select.tleaves(_)),
+    None,
     figure_name="32_2*",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = design[10:11]
+tuplets, tsd = library.forty_eighths_function(collections)
 baca.make_figures(
     figures,
     "v1",
-    design[10:11],
-    *library.forty_eighths(),
+    None,
     figure_name="48_3*",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = design[11:12]
+tuplets, tsd = library.twentieths_function(collections)
+baca.extend_beam_function(abjad.select.leaf(tuplets, -1))
 baca.make_figures(
     figures,
     "v4",
-    design[11:12],
-    *library.twentieths(),
-    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
+    None,
     figure_name="20_5*",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = design[12:13]
+tuplets, tsd = library.sixteenths_function(collections)
 baca.make_figures(
     figures,
     "v3",
-    design[12:13],
-    *library.sixteenths(),
+    None,
     figure_name="16_3*",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = design[13:14]
+tuplets, tsd = library.twentieths_function(collections)
 baca.make_figures(
     figures,
     "v4",
-    design[13:14],
-    *library.twentieths(),
+    None,
     figure_name="20_6*",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
 voice_names = baca.accumulator.get_voice_names(score)
@@ -315,57 +404,28 @@ figures.populate_commands(score, accumulator)
 
 
 def postprocess(cache):
-    accumulator(
-        "v1",
-        baca.tenuto(
-            selector=lambda _: baca.select.pheads(_, exclude=baca.enums.HIDDEN)
-        ),
-        baca.beam_positions(10),
-        baca.register(
-            -12,
-            selector=lambda _: baca.select.plts(_),
-        ),
-    )
-    accumulator(
-        ("v2", (1, 22)),
-        baca.beam_positions(-5.5),
-        baca.register(
-            4,
-            selector=lambda _: baca.select.plts(_),
-        ),
-    )
-    accumulator(
-        ("v2", (25, -1)),
-        baca.beam_positions(-5.5),
-        baca.register(
-            4,
-            selector=lambda _: baca.select.plts(_),
-        ),
-    )
-    accumulator(
-        "v3",
-        baca.accent(
-            selector=lambda _: baca.select.pheads(_, exclude=baca.enums.HIDDEN),
-        ),
-        baca.script_down(
-            selector=lambda _: baca.select.leaves(_, exclude=baca.enums.HIDDEN),
-        ),
-        baca.register(
-            -20,
-            selector=lambda _: baca.select.plts(_),
-        ),
-    )
-    accumulator(
-        "v4",
-        baca.staccato(
-            selector=lambda _: baca.select.pheads(_, exclude=baca.enums.HIDDEN)
-        ),
-        baca.beam_positions(5.5),
-        baca.register(
-            -4,
-            selector=lambda _: baca.select.plts(_),
-        ),
-    )
+    m = cache["v1"]
+    with baca.scope(m.leaves()) as o:
+        baca.tenuto_function(o.pheads())
+        baca.beam_positions_function(o, 10)
+        baca.register_function(o, -12)
+    m = cache["v2"]
+    with baca.scope(m.get(1, 22)) as o:
+        baca.beam_positions_function(o, -5.5)
+        baca.register_function(o, 4)
+    with baca.scope(m.get(25, 30)) as o:
+        baca.beam_positions_function(o, -5.5)
+        baca.register_function(o, 4)
+    m = cache["v3"]
+    with baca.scope(m.leaves()) as o:
+        baca.accent_function(o.pheads())
+        baca.script_down_function(o)
+        baca.register_function(o, -20)
+    m = cache["v4"]
+    with baca.scope(m.leaves()) as o:
+        baca.staccato_function(o.pheads())
+        baca.beam_positions_function(o, 5.5)
+        baca.register_function(o, -4)
 
 
 defaults = baca.interpret.section_defaults()
@@ -392,7 +452,6 @@ if __name__ == "__main__":
         **defaults,
         activate=(baca.tags.LOCAL_MEASURE_NUMBER,),
         always_make_global_rests=True,
-        commands=accumulator.commands,
         do_not_require_short_instrument_names=True,
         error_on_not_yet_pitched=True,
         global_rests_in_topmost_staff=True,

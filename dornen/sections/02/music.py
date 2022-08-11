@@ -25,15 +25,18 @@ baca.make_figures(
     tuplets=tuplets,
 )
 
+collections = baca.sequence.reveal(design[4:5], 1)
+tuplets, tsd = library.twentieths_function(collections)
+baca.beam_positions_function(tuplets, -8)
+baca.register_function(tuplets, 6)
+baca.extend_beam_function(abjad.select.leaf(tuplets, -1))
 baca.make_figures(
     figures,
     "v2",
-    baca.sequence.reveal(design[4:5], 1),
-    *library.twentieths(),
-    baca.beam_positions(-8),
-    baca.register(6),
-    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
+    None,
     figure_name="F1_1",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
 baca.make_figures(

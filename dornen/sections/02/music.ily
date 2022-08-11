@@ -3219,8 +3219,7 @@ number.2.Guitar.Music.2 = {
             % [Guitar.Music.2 measure 2]
             % BEFORE:
             % COMMANDS:
-              %! baca.OverrideCommand._call(1)
-              %! baca.beam_positions()
+              %! baca.beam_positions_function(1)
             \once \override Beam.positions = #'(-8 . -8)
             ef'''!16
             % AFTER:
@@ -3230,6 +3229,7 @@ number.2.Guitar.Music.2 = {
               %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (2) \hspace #1 \concat { "F1" \sub 1 } ] }
             % START_BEAM:
+              %! rmakers.beam()
             [
             % CLOSING:
             % COMMANDS:

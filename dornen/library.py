@@ -708,13 +708,12 @@ def rests(duration=None):
     ]
 
 
-# TODO: make duration mandatory instead of optional
-def rests_function(duration=None):
-    duration = duration or abjad.Duration(1, 8)
-    tuplets = baca.figure_function([duration.numerator], duration.denominator)
+def rests_function(count, duration):
+    numerator, denominator = duration
+    tuplets = baca.figure_function([count * [1]], [numerator], denominator)
     lts = baca.select.lts(tuplets)
     rmakers.force_rest_function(lts)
-    return tuplets, duration.denominator
+    return tuplets, denominator
 
 
 def running():
@@ -877,7 +876,7 @@ def waves_function(collections, denominator: int = 64, inverted: bool = False):
     selector = rmakers.nongrace_leaves_in_each_tuplet(level=-1)
     groups = selector(tuplets)
     rmakers.beam_function(groups)
-    return tuplets, 64
+    return tuplets, denominator
 
 
 def voice_abbreviations():

@@ -12,217 +12,260 @@ figures = baca.FigureAccumulator(score, library.voice_abbreviations())
 design = library.design_3(stop=10)
 assert len(design) == 10
 
+collections = design[:2]
+tuplets, tsd = library.waves_function(collections, denominator=32)
 baca.make_figures(
     figures,
     "v1",
-    design[:2],
-    *library.waves(denominator=32),
+    None,
     figure_name="W1",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = design[:2]
+tuplets, tsd = library.waves_function(collections, denominator=64)
 baca.make_figures(
     figures,
     "v1",
-    design[:2],
-    *library.waves(denominator=64),
+    None,
     figure_name="W2",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = [abjad.sequence.flatten(design[:2])]
+tuplets, tsd = library.waves_function(collections, denominator=64)
 baca.make_figures(
     figures,
     "v1",
-    [abjad.sequence.flatten(design[:2])],
-    *library.waves(denominator=64),
+    None,
     figure_name="W3",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
-
+collections = design[2:3]
+tuplets, tsd = library.glissando_scatto_function(collections)
+baca.markup_function(
+    baca.select.pleaf(tuplets, 0), r"\dornen-glissando-attack-first-note-only-markup"
+)
+baca.beam_positions_function(tuplets, -12)
+baca.register_function(tuplets, -8)
+baca.displacement_function(tuplets, [0, 1])
+leaf = abjad.select.leaf(tuplets, -1)
+baca.extend_beam_function(leaf)
 baca.make_figures(
     figures,
     "v2",
-    design[2:3],
-    *library.glissando_scatto(),
-    baca.markup(
-        r"\dornen-glissando-attack-first-note-only-markup",
-        selector=lambda _: baca.select.pleaf(_, 0),
-    ),
-    baca.beam_positions(-12),
-    baca.register(-8),
-    baca.displacement([0, 1]),
-    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
+    None,
     figure_name="G1",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = design[3:6]
+tuplets, tsd = library.waves_function(collections, denominator=32, inverted=True)
+baca.register_function(tuplets, -8)
 baca.make_figures(
     figures,
     "v1",
-    design[3:6],
-    *library.waves(denominator=32, inverted=True),
-    baca.register(-8),
+    None,
     figure_name="W4",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = design[6:9]
+tuplets, tsd = library.running_function(collections)
+baca.register_function(tuplets, 0, -14)
+leaf = abjad.select.leaf(tuplets, -1)
+baca.extend_beam_function(leaf)
 baca.make_figures(
     figures,
     "v3",
-    design[6:9],
-    *library.running(),
-    baca.register(0, -14),
-    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
+    None,
     figure_name="R1",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = design[7:10]
+tuplets, tsd = library.running_function(collections)
+baca.register_function(tuplets, -14, 0)
+leaf = abjad.select.leaf(tuplets, -1)
+baca.extend_beam_function(leaf)
 baca.make_figures(
     figures,
     "v3",
-    design[7:10],
-    *library.running(),
-    baca.register(-14, 0),
-    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
+    None,
     figure_name="R2",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+tuplets, tsd = library.rests_function(3, (1, 8))
 baca.make_figures(
     figures,
     "v4",
-    [3 * ["C4"]],
-    *library.rests(),
+    None,
     figure_name="S1",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = 2 * [["Gb2"]]
+tuplets, tsd = library.monads_function(collections)
+baca.markup_function(
+    baca.select.pleaf(tuplets, 0), r"\dornen-two-finger-tamb-trill-markup"
+)
+baca.repeat_tie_function(baca.select.phead(tuplets, 1))
+baca.stem_tremolo_function(baca.select.pleaves(tuplets))
+baca.stem_up_function(baca.select.pleaves(tuplets))
+baca.tuplet_bracket_staff_padding_function(tuplets, 0)
+baca.tuplet_bracket_extra_offset_function(abjad.select.leaf(tuplets, 0), (0, -0.5))
+baca.tuplet_number_extra_offset_function(abjad.select.leaf(tuplets, 0), (0, -0.5))
+baca.register_function(tuplets, -20)
 baca.make_figures(
     figures,
     "v4",
-    2 * [["Gb2"]],
-    *library.monads(),
-    baca.markup(
-        r"\dornen-two-finger-tamb-trill-markup",
-        selector=lambda _: baca.select.pleaf(_, 0),
-    ),
-    baca.repeat_tie(selector=lambda _: baca.select.phead(_, 1)),
-    baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
-    baca.stem_up(selector=lambda _: baca.select.pleaves(_)),
-    baca.tuplet_bracket_staff_padding(0),
-    baca.tuplet_bracket_extra_offset(
-        (0, -0.5),
-        selector=lambda _: abjad.select.leaf(_, 0),
-    ),
-    baca.tuplet_number_extra_offset(
-        (0, -0.5),
-        selector=lambda _: abjad.select.leaf(_, 0),
-    ),
-    baca.register(-20),
+    None,
     figure_name="T1",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = design[8:] + design[:1]
+tuplets, tsd = library.running_function(collections)
+baca.register_function(tuplets, -14, 0)
 baca.make_figures(
     figures,
     "v3",
-    design[8:] + design[:1],
-    *library.running(),
-    baca.register(-14, 0),
+    None,
     figure_name="R3",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = design[1:3]
+tuplets, tsd = library.waves_function(collections, denominator=32)
+baca.register_function(tuplets, -20)
 baca.make_figures(
     figures,
     "v1",
-    design[1:3],
-    *library.waves(denominator=32),
-    baca.register(-20),
+    None,
     figure_name="W5",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = design[3:4]
+tuplets, tsd = library.glissando_scatto_function(collections)
+baca.register_function(tuplets, -8)
+baca.displacement_function(tuplets, [0, 1])
+leaf = abjad.select.leaf(tuplets, -1)
+baca.extend_beam_function(leaf)
 baca.make_figures(
     figures,
     "v2",
-    design[3:4],
-    *library.glissando_scatto(),
-    baca.register(-8),
-    baca.displacement([0, 1]),
-    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
+    None,
     figure_name="G2",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = design[1:4]
+tuplets, tsd = library.waves_function(collections, denominator=32)
+baca.register_function(tuplets, -20, -4)
 baca.make_figures(
     figures,
     "v1",
-    design[1:4],
-    *library.waves(denominator=32),
-    baca.register(-20, -4),
+    None,
     figure_name="W6",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = design[4:5]
+tuplets, tsd = library.glissando_scatto_function(collections)
+baca.register_function(tuplets, -8)
+baca.displacement_function(tuplets, [0, 1])
 baca.make_figures(
     figures,
     "v2",
-    design[4:5],
-    *library.glissando_scatto(),
-    baca.register(-8),
-    baca.displacement([0, 1]),
+    None,
     figure_name="G3",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = design[5:8]
+tuplets, tsd = library.running_function(collections)
+baca.register_function(tuplets, 0, -14)
+baca.extend_beam_function(abjad.select.leaf(tuplets, -1))
 baca.make_figures(
     figures,
     "v3",
-    design[5:8],
-    *library.running(),
-    baca.register(0, -14),
-    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
+    None,
     figure_name="R4",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = design[6:9]
+tuplets, tsd = library.running_function(collections)
+baca.register_function(tuplets, -14, 0)
+baca.extend_beam_function(abjad.select.leaf(tuplets, -1))
 baca.make_figures(
     figures,
     "v3",
-    design[6:9],
-    *library.running(),
-    baca.register(-14, 0),
-    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
+    None,
     figure_name="R5",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+tuplets, tsd = library.rests_function(3, (1, 8))
 baca.make_figures(
     figures,
     "v4",
-    [3 * ["C4"]],
-    *library.rests(),
+    None,
     figure_name="S2",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = 2 * [["Gb2"]]
+tuplets, tsd = library.monads_function(collections)
+baca.markup_function(
+    baca.select.pleaf(tuplets, 0), r"\dornen-two-finger-tamb-trill-markup"
+)
+baca.repeat_tie_function(baca.select.phead(tuplets, 1))
+baca.stem_tremolo_function(baca.select.pleaves(tuplets))
+baca.stem_up_function(baca.select.pleaves(tuplets))
+baca.tuplet_bracket_staff_padding_function(tuplets, 0)
+baca.tuplet_bracket_extra_offset_function(abjad.select.leaf(tuplets, 0), (0, -0.5))
+baca.tuplet_number_extra_offset_function(abjad.select.leaf(tuplets, 0), (0, -0.5))
+baca.register_function(tuplets, -20)
 baca.make_figures(
     figures,
     "v4",
-    2 * [["Gb2"]],
-    *library.monads(),
-    baca.markup(
-        r"\dornen-two-finger-tamb-trill-markup",
-        selector=lambda _: baca.select.pleaf(_, 0),
-    ),
-    baca.repeat_tie(selector=lambda _: baca.select.phead(_, 1)),
-    baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
-    baca.stem_up(selector=lambda _: baca.select.pleaves(_)),
-    baca.tuplet_bracket_staff_padding(0),
-    baca.tuplet_bracket_extra_offset(
-        (0, -0.5),
-        selector=lambda _: abjad.select.leaf(_, 0),
-    ),
-    baca.tuplet_number_extra_offset(
-        (0, -0.5),
-        selector=lambda _: abjad.select.leaf(_, 0),
-    ),
-    baca.register(-20),
+    None,
     figure_name="T2",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = design[7:10]
+tuplets, tsd = library.running_function(collections)
+baca.register_function(tuplets, -14, 0)
 baca.make_figures(
     figures,
     "v3",
-    design[7:10],
-    *library.running(),
-    baca.register(-14, 0),
+    None,
     figure_name="R6",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
 voice_names = baca.accumulator.get_voice_names(score)
@@ -249,16 +292,13 @@ figures.populate_commands(score, accumulator)
 
 
 def postprocess(cache):
-    accumulator(
-        ("v1", (1, 3)),
-        baca.beam_positions(9),
-        baca.register(-20, 4),
-    )
-    accumulator(
-        ("v1", (4, 12)),
-        baca.beam_positions(6),
-        baca.register(-20, 4),
-    )
+    m = cache["v1"]
+    with baca.scope(m.get(1, 3)) as o:
+        baca.beam_positions_function(o, 9)
+        baca.register_function(o, -20, 4)
+    with baca.scope(m.get(4, 12)) as o:
+        baca.beam_positions_function(o, 6)
+        baca.register_function(o, -20, 4)
 
 
 defaults = baca.interpret.section_defaults()
@@ -285,7 +325,6 @@ if __name__ == "__main__":
         **defaults,
         activate=(baca.tags.LOCAL_MEASURE_NUMBER,),
         always_make_global_rests=True,
-        commands=accumulator.commands,
         do_not_require_short_instrument_names=True,
         error_on_not_yet_pitched=True,
         global_rests_in_topmost_staff=True,

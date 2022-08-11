@@ -378,7 +378,7 @@ def delicatissimo():
     ]
 
 
-def dlicatissimo_function(collections):
+def delicatissimo_function(collections):
     tuplets = baca.figure_function(collections, [1], 32)
     selector = rmakers.nongrace_leaves_in_each_tuplet(level=-1)
     groups = selector(tuplets)

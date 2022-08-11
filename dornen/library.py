@@ -378,6 +378,16 @@ def delicatissimo():
     ]
 
 
+def dlicatissimo_function(collections):
+    tuplets = baca.figure_function(collections, [1], 32)
+    selector = rmakers.nongrace_leaves_in_each_tuplet(level=-1)
+    groups = selector(tuplets)
+    rmakers.beam_groups_function(groups)
+    pheads = baca.select.pheads(tuplets)
+    baca.staccato_function(pheads)
+    return tuplets, 32
+
+
 def design_1(start=None, stop=None):
     design_maker = DesignMaker()
     magenta_pitch_classes = _magenta_pitch_classes()
@@ -479,12 +489,22 @@ def dotted_eighths():
 
 def dotted_eighths_function(collections):
     tuplets = baca.figure_function(collections, [3], 16)
-    rmakers.beam_function(tuplets, beam_lone_notes=True)
+    selector = rmakers.nongrace_leaves_in_each_tuplet(level=-1)
+    groups = selector(tuplets)
+    rmakers.beam_function(groups, beam_lone_notes=True)
     return tuplets, 8
 
 
 def forty_eighths():
     return [baca.figure([3], 64, tsd=32), rmakers.beam()]
+
+
+def forty_eighths_function(collections):
+    tuplets = baca.figure_function(collections, [3], 64)
+    selector = rmakers.nongrace_leaves_in_each_tuplet(level=-1)
+    groups = selector(tuplets)
+    rmakers.beam_function(groups)
+    return tuplets, 32
 
 
 def glissando_scatto():
@@ -493,6 +513,18 @@ def glissando_scatto():
         rmakers.beam_groups(),
         baca.glissando(map=lambda _: baca.select.ntruns(_)),
     ]
+
+
+def glissando_scatto_function(collections):
+    tuplets = baca.figure_function(
+        collections, [2, 2, 2, 1, 2, 2, 2], 32, treatments=[-2]
+    )
+    selector = rmakers.nongrace_leaves_in_each_tuplet(level=-1)
+    groups = selector(tuplets)
+    rmakers.beam_groups_function(groups)
+    for ntrun in baca.select.ntruns(tuplets):
+        baca.glissando_function(ntrun)
+    return tuplets, 16
 
 
 def graced_tuplets():
@@ -586,11 +618,26 @@ def monads():
     return [baca.figure([1], 2, tsd=5, treatments=["5:4"])]
 
 
+def monads_function(collections):
+    tuplets = baca.figure_function(collections, [1], 2, treatments=["5:4"])
+    return tuplets, 5
+
+
 def ovoids():
     return [
         baca.figure([6, 1], 32, acciaccatura=baca.lmr(left_length=1)),
         rmakers.beam_groups(),
     ]
+
+
+def ovoids_function(collections):
+    tuplets = baca.figure_function(
+        collections, [6, 1], 32, acciaccatura=baca.lmr(left_length=1)
+    )
+    selector = rmakers.nongrace_leaves_in_each_tuplet(level=-1)
+    groups = selector(tuplets)
+    rmakers.beam_groups_function(groups)
+    return tuplets, None
 
 
 def passepied():
@@ -632,6 +679,15 @@ def rests(duration=None):
     ]
 
 
+# TODO: make duration mandatory instead of optional
+def rests_function(duration=None):
+    duration = duration or abjad.Duration(1, 8)
+    tuplets = baca.figure_function([duration.numerator], duration.denominator)
+    lts = baca.select.lts(tuplets)
+    rmakers.force_rest_function(lts)
+    return tuplets, duration.denominator
+
+
 def running():
     return [
         baca.figure([1], 64, treatments=[-1]),
@@ -642,7 +698,9 @@ def running():
 
 def running_function(collections):
     tuplets = baca.figure_function(collections, [1], 64, treatments=[-1])
-    rmakers.beam_groups_function(tuplets)
+    selector = rmakers.nongrace_leaves_in_each_tuplet(level=-1)
+    groups = selector(tuplets)
+    rmakers.beam_groups_function(groups)
     for tuplet in _select_nontrivial_tuplets(tuplets):
         baca.slur_function(tuplet)
     return tuplets, None
@@ -655,6 +713,14 @@ def sixteenths():
     ]
 
 
+def sixteenths_function(collections):
+    tuplets = baca.figure_function(collections, [1], 16)
+    selector = rmakers.nongrace_leaves_in_each_tuplet(level=-1)
+    groups = selector(tuplets)
+    rmakers.beam_function(groups, beam_lone_notes=True)
+    return tuplets, 16
+
+
 def sixty_fourths():
     return [
         baca.figure([1], 64, tsd=64),
@@ -663,12 +729,34 @@ def sixty_fourths():
     ]
 
 
+def sixty_fourths_function(collections):
+    tuplets = baca.figure_function(collections, [1], 64)
+    selector = rmakers.nongrace_leaves_in_each_tuplet(level=-1)
+    groups = selector(tuplets)
+    rmakers.beam_groups_function(groups)
+    baca.staccato_function(baca.select.pheads(tuplets))
+    return tuplets, 64
+
+
 def thirds():
     return [baca.figure([1], 2, tsd=3, treatments=["3:2"])]
 
 
+def thirds_function(collections):
+    tuplets = baca.figure_function(collections, [1], 2, treatments=["3:2"])
+    return tuplets, 3
+
+
 def thirty_seconds():
     return [baca.figure([1], 32, tsd=32), rmakers.beam_groups()]
+
+
+def thirty_seconds_function(collections):
+    tuplets = baca.figure_function(collections, [1], 32)
+    selector = rmakers.nongrace_leaves_in_each_tuplet(level=-1)
+    groups = selector(tuplets)
+    rmakers.beam_groups_function(groups)
+    return tuplets, 32
 
 
 def twentieths():
@@ -678,6 +766,14 @@ def twentieths():
     ]
 
 
+def twentieths_function(collections):
+    tuplets = baca.figure_function(collections, [1], 16, treatments=["5:4"])
+    selector = rmakers.nongrace_leaves_in_each_tuplet(level=-1)
+    groups = selector(tuplets)
+    rmakers.beam_function(groups, beam_lone_notes=True)
+    return tuplets, 20
+
+
 def twenty_eighths():
     return [
         baca.figure([1], 16, tsd=28, treatments=["7:4"]),
@@ -685,11 +781,27 @@ def twenty_eighths():
     ]
 
 
+def twenty_eighths_function(collections):
+    tuplets = baca.figure_function(collections, [1], 16, treatments=["7:4"])
+    selector = rmakers.nongrace_leaves_in_each_tuplet(level=-1)
+    groups = selector(tuplets)
+    rmakers.beam_function(groups)
+    return tuplets, 28
+
+
 def twenty_fourths():
     return [
         baca.figure([1], 16, tsd=24, treatments=["3:2"]),
         rmakers.beam(beam_lone_notes=True),
     ]
+
+
+def twenty_fourths_function(collections):
+    tuplets = baca.figure_function(collections, [1], 16, treatments=["3:2"])
+    selector = rmakers.nongrace_leaves_in_each_tuplet(level=-1)
+    groups = selector(tuplets)
+    rmakers.beam_function(groups, beam_lone_notes=True)
+    return tuplets, 24
 
 
 def waves(denominator: int = 64, inverted: bool = False):

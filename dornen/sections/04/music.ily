@@ -1151,8 +1151,7 @@ number.4.Guitar.Music.1 = {
             % [Guitar.Music.1 measure 1]
             % BEFORE:
             % COMMANDS:
-              %! baca.OverrideCommand._call(1)
-              %! baca.beam_positions()
+              %! baca.beam_positions_function(1)
             \override Beam.positions = #'(9 . 9)
             % GROB_OVERRIDES:
             \once \override Beam.grow-direction = #right
@@ -1187,6 +1186,7 @@ number.4.Guitar.Music.1 = {
               %! baca._attach_latent_indicator_alert()
             ^ \baca-reapplied-instrument-markup "(“Guitar”)"
             % START_BEAM:
+              %! rmakers.beam()
             [
             % ABSOLUTE_AFTER:
             % COMMANDS:
@@ -1239,6 +1239,7 @@ number.4.Guitar.Music.1 = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"672" #"1024"
             % STOP_BEAM:
+              %! rmakers.beam()
             ]
             % CLOSING:
             % COMMANDS:
@@ -1307,6 +1308,7 @@ number.4.Guitar.Music.1 = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"384" #"1024"
             % START_BEAM:
+              %! rmakers.beam()
             [
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -1345,6 +1347,7 @@ number.4.Guitar.Music.1 = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1536" #"1024"
             % STOP_BEAM:
+              %! rmakers.beam()
             ]
             % CLOSING:
             % COMMANDS:
@@ -1427,6 +1430,7 @@ number.4.Guitar.Music.1 = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"2048" #"1024"
             % START_BEAM:
+              %! rmakers.beam()
             [
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -1474,6 +1478,7 @@ number.4.Guitar.Music.1 = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"640" #"1024"
             % STOP_BEAM:
+              %! rmakers.beam()
             ]
             % CLOSING:
             % COMMANDS:
@@ -1542,6 +1547,7 @@ number.4.Guitar.Music.1 = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"384" #"1024"
             % START_BEAM:
+              %! rmakers.beam()
             [
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -1580,6 +1586,7 @@ number.4.Guitar.Music.1 = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1536" #"1024"
             % STOP_BEAM:
+              %! rmakers.beam()
             ]
             % CLOSING:
             % COMMANDS:
@@ -1664,6 +1671,7 @@ number.4.Guitar.Music.1 = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"2560" #"1024"
             % START_BEAM:
+              %! rmakers.beam()
             [
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -1756,10 +1764,10 @@ number.4.Guitar.Music.1 = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"640" #"1024"
             % STOP_BEAM:
+              %! rmakers.beam()
             ]
             % COMMANDS:
-              %! baca.OverrideCommand._call(2)
-              %! baca.beam_positions()
+              %! baca.beam_positions_function(2)
             \revert Beam.positions
             % CLOSING:
             % COMMANDS:
@@ -1781,8 +1789,7 @@ number.4.Guitar.Music.1 = {
     % [Guitar.Music.1 measure 4]
     % BEFORE:
     % COMMANDS:
-      %! baca.OverrideCommand._call(1)
-      %! baca.beam_positions()
+      %! baca.beam_positions_function(1)
     \override Beam.positions = #'(6 . 6)
     s1 * 5/32
     % ABSOLUTE_BEFORE:
@@ -1853,6 +1860,7 @@ number.4.Guitar.Music.1 = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"512" #"1024"
             % START_BEAM:
+              %! rmakers.beam()
             [
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -1873,6 +1881,7 @@ number.4.Guitar.Music.1 = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1472" #"1024"
             % STOP_BEAM:
+              %! rmakers.beam()
             ]
             % CLOSING:
             % COMMANDS:
@@ -1939,6 +1948,7 @@ number.4.Guitar.Music.1 = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1312" #"1024"
             % START_BEAM:
+              %! rmakers.beam()
             [
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -1950,6 +1960,7 @@ number.4.Guitar.Music.1 = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"736" #"1024"
             % STOP_BEAM:
+              %! rmakers.beam()
             ]
             % CLOSING:
             % COMMANDS:
@@ -2055,6 +2066,7 @@ number.4.Guitar.Music.1 = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1856" #"1024"
             % START_BEAM:
+              %! rmakers.beam()
             [
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2093,6 +2105,7 @@ number.4.Guitar.Music.1 = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"672" #"1024"
             % STOP_BEAM:
+              %! rmakers.beam()
             ]
             % CLOSING:
             % COMMANDS:
@@ -2159,6 +2172,7 @@ number.4.Guitar.Music.1 = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"416" #"1024"
             % START_BEAM:
+              %! rmakers.beam()
             [
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2188,6 +2202,7 @@ number.4.Guitar.Music.1 = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1536" #"1024"
             % STOP_BEAM:
+              %! rmakers.beam()
             ]
             % CLOSING:
             % COMMANDS:
@@ -2210,8 +2225,7 @@ number.4.Guitar.Music.1 = {
     s1 * 1/8
     % AFTER:
     % COMMANDS:
-      %! baca.OverrideCommand._call(2)
-      %! baca.beam_positions()
+      %! baca.beam_positions_function(2)
     \revert Beam.positions
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -2283,6 +2297,7 @@ number.4.Guitar.Music.1 = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1856" #"1024"
             % START_BEAM:
+              %! rmakers.beam()
             [
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2321,6 +2336,7 @@ number.4.Guitar.Music.1 = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"672" #"1024"
             % STOP_BEAM:
+              %! rmakers.beam()
             ]
             % CLOSING:
             % COMMANDS:
@@ -2387,6 +2403,7 @@ number.4.Guitar.Music.1 = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"416" #"1024"
             % START_BEAM:
+              %! rmakers.beam()
             [
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2416,6 +2433,7 @@ number.4.Guitar.Music.1 = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1536" #"1024"
             % STOP_BEAM:
+              %! rmakers.beam()
             ]
             % CLOSING:
             % COMMANDS:
@@ -2482,6 +2500,7 @@ number.4.Guitar.Music.1 = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1568" #"1024"
             % START_BEAM:
+              %! rmakers.beam()
             [
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2502,6 +2521,7 @@ number.4.Guitar.Music.1 = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"672" #"1024"
             % STOP_BEAM:
+              %! rmakers.beam()
             ]
             % CLOSING:
             % COMMANDS:
@@ -2558,10 +2578,11 @@ number.4.Guitar.Music.2 = {
             % [Guitar.Music.2 measure 4]
             % BEFORE:
             % COMMANDS:
-              %! baca.OverrideCommand._call(1)
-              %! baca.beam_positions()
+              %! baca.beam_positions_function(1)
             \override Beam.positions = #'(-12 . -12)
+              %! rmakers.beam_groups()
             \set stemLeftBeamCount = 0
+              %! rmakers.beam_groups()
             \set stemRightBeamCount = 2
             g'16
             % AFTER:
@@ -2570,40 +2591,44 @@ number.4.Guitar.Music.2 = {
             %@% - \tweak color #blue
               %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (4) \hspace #1 "G1" ] }
-              %! baca._attach_persistent_indicator()
-              %! baca.markup()
+              %! baca.markup_function()
             ^ \dornen-glissando-attack-first-note-only-markup
             % START_BEAM:
+              %! rmakers.beam_groups()
             [
             % SPANNER_STARTS:
               %! abjad.glissando(7)
-              %! baca.glissando()
+              %! baca.glissando_function()
             \glissando
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
             % BEFORE:
             % COMMANDS:
+              %! rmakers.beam_groups()
             \set stemLeftBeamCount = 2
+              %! rmakers.beam_groups()
             \set stemRightBeamCount = 2
             af''!16
             % AFTER:
             % SPANNER_STARTS:
               %! abjad.glissando(7)
-              %! baca.glissando()
+              %! baca.glissando_function()
             \glissando
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
             % BEFORE:
             % COMMANDS:
+              %! rmakers.beam_groups()
             \set stemLeftBeamCount = 2
+              %! rmakers.beam_groups()
             \set stemRightBeamCount = 2
             d''16
             % AFTER:
             % SPANNER_STARTS:
               %! abjad.glissando(7)
-              %! baca.glissando()
+              %! baca.glissando_function()
             \glissando
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2615,8 +2640,7 @@ number.4.Guitar.Music.2 = {
             cs'''!32
             % AFTER:
             % COMMANDS:
-              %! baca.OverrideCommand._call(2)
-              %! baca.beam_positions()
+              %! baca.beam_positions_function(2)
             \revert Beam.positions
             % CLOSING:
             % COMMANDS:
@@ -2663,20 +2687,22 @@ number.4.Guitar.Music.2 = {
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (12) \hspace #1 "G2" ] }
             % SPANNER_STARTS:
               %! abjad.glissando(7)
-              %! baca.glissando()
+              %! baca.glissando_function()
             \glissando
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
             % BEFORE:
             % COMMANDS:
+              %! rmakers.beam_groups()
             \set stemLeftBeamCount = 2
+              %! rmakers.beam_groups()
             \set stemRightBeamCount = 2
             fs''!16
             % AFTER:
             % SPANNER_STARTS:
               %! abjad.glissando(7)
-              %! baca.glissando()
+              %! baca.glissando_function()
             \glissando
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2731,18 +2757,21 @@ number.4.Guitar.Music.2 = {
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (14) \hspace #1 "G3" ] }
             % SPANNER_STARTS:
               %! abjad.glissando(7)
-              %! baca.glissando()
+              %! baca.glissando_function()
             \glissando
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
             % BEFORE:
             % COMMANDS:
+              %! rmakers.beam_groups()
             \set stemLeftBeamCount = 2
+              %! rmakers.beam_groups()
             \set stemRightBeamCount = 0
             bf''!16
             % AFTER:
             % STOP_BEAM:
+              %! rmakers.beam_groups()
             ]
             % CLOSING:
             % COMMANDS:
@@ -2796,7 +2825,9 @@ number.4.Guitar.Music.3 = {
             % [Guitar.Music.3 measure 6]
             % BEFORE:
             % COMMANDS:
+              %! rmakers.beam_groups()
             \set stemLeftBeamCount = 0
+              %! rmakers.beam_groups()
             \set stemRightBeamCount = 4
             f''64
             % AFTER:
@@ -2806,17 +2837,21 @@ number.4.Guitar.Music.3 = {
               %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (6) \hspace #1 "R1" ] }
             % START_BEAM:
+              %! rmakers.beam_groups()
             [
             % SPANNER_STARTS:
               %! SPANNER_START
               %! baca._do_spanner_indicator_command(1)
+              %! baca.slur_function()
             (
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
             % BEFORE:
             % COMMANDS:
+              %! rmakers.beam_groups()
             \set stemLeftBeamCount = 4
+              %! rmakers.beam_groups()
             \set stemRightBeamCount = 4
             b''64
             % ABSOLUTE_BEFORE:
@@ -2824,7 +2859,9 @@ number.4.Guitar.Music.3 = {
 
             % BEFORE:
             % COMMANDS:
+              %! rmakers.beam_groups()
             \set stemLeftBeamCount = 4
+              %! rmakers.beam_groups()
             \set stemRightBeamCount = 4
             bf''!64
             % ABSOLUTE_BEFORE:
@@ -2832,7 +2869,9 @@ number.4.Guitar.Music.3 = {
 
             % BEFORE:
             % COMMANDS:
+              %! rmakers.beam_groups()
             \set stemLeftBeamCount = 4
+              %! rmakers.beam_groups()
             \set stemRightBeamCount = 4
             c''64
             % ABSOLUTE_BEFORE:
@@ -2840,7 +2879,9 @@ number.4.Guitar.Music.3 = {
 
             % BEFORE:
             % COMMANDS:
+              %! rmakers.beam_groups()
             \set stemLeftBeamCount = 4
+              %! rmakers.beam_groups()
             \set stemRightBeamCount = 4
             f''64
             % ABSOLUTE_BEFORE:
@@ -2848,13 +2889,16 @@ number.4.Guitar.Music.3 = {
 
             % BEFORE:
             % COMMANDS:
+              %! rmakers.beam_groups()
             \set stemLeftBeamCount = 4
+              %! rmakers.beam_groups()
             \set stemRightBeamCount = 1
             a'64
             % AFTER:
             % SPANNER_STOPS:
               %! SPANNER_STOP
               %! baca._do_spanner_indicator_command(2)
+              %! baca.slur_function()
             )
             % CLOSING:
             % COMMANDS:
@@ -2872,20 +2916,25 @@ number.4.Guitar.Music.3 = {
 
             % BEFORE:
             % COMMANDS:
+              %! rmakers.beam_groups()
             \set stemLeftBeamCount = 1
+              %! rmakers.beam_groups()
             \set stemRightBeamCount = 4
             af'!64
             % AFTER:
             % SPANNER_STARTS:
               %! SPANNER_START
               %! baca._do_spanner_indicator_command(1)
+              %! baca.slur_function()
             (
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
             % BEFORE:
             % COMMANDS:
+              %! rmakers.beam_groups()
             \set stemLeftBeamCount = 4
+              %! rmakers.beam_groups()
             \set stemRightBeamCount = 4
             d''64
             % ABSOLUTE_BEFORE:
@@ -2893,7 +2942,9 @@ number.4.Guitar.Music.3 = {
 
             % BEFORE:
             % COMMANDS:
+              %! rmakers.beam_groups()
             \set stemLeftBeamCount = 4
+              %! rmakers.beam_groups()
             \set stemRightBeamCount = 4
             cs''!64
             % ABSOLUTE_BEFORE:
@@ -2901,7 +2952,9 @@ number.4.Guitar.Music.3 = {
 
             % BEFORE:
             % COMMANDS:
+              %! rmakers.beam_groups()
             \set stemLeftBeamCount = 4
+              %! rmakers.beam_groups()
             \set stemRightBeamCount = 4
             ef''!64
             % ABSOLUTE_BEFORE:
@@ -2909,13 +2962,16 @@ number.4.Guitar.Music.3 = {
 
             % BEFORE:
             % COMMANDS:
+              %! rmakers.beam_groups()
             \set stemLeftBeamCount = 4
+              %! rmakers.beam_groups()
             \set stemRightBeamCount = 1
             fs'!64
             % AFTER:
             % SPANNER_STOPS:
               %! SPANNER_STOP
               %! baca._do_spanner_indicator_command(2)
+              %! baca.slur_function()
             )
             % CLOSING:
             % COMMANDS:
@@ -2934,20 +2990,25 @@ number.4.Guitar.Music.3 = {
 
             % BEFORE:
             % COMMANDS:
+              %! rmakers.beam_groups()
             \set stemLeftBeamCount = 1
+              %! rmakers.beam_groups()
             \set stemRightBeamCount = 4
             g'64
             % AFTER:
             % SPANNER_STARTS:
               %! SPANNER_START
               %! baca._do_spanner_indicator_command(1)
+              %! baca.slur_function()
             (
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
             % BEFORE:
             % COMMANDS:
+              %! rmakers.beam_groups()
             \set stemLeftBeamCount = 4
+              %! rmakers.beam_groups()
             \set stemRightBeamCount = 4
             d'64
             % ABSOLUTE_BEFORE:
@@ -2955,7 +3016,9 @@ number.4.Guitar.Music.3 = {
 
             % BEFORE:
             % COMMANDS:
+              %! rmakers.beam_groups()
             \set stemLeftBeamCount = 4
+              %! rmakers.beam_groups()
             \set stemRightBeamCount = 4
             cs'!64
             % ABSOLUTE_BEFORE:
@@ -2970,6 +3033,7 @@ number.4.Guitar.Music.3 = {
             % SPANNER_STOPS:
               %! SPANNER_STOP
               %! baca._do_spanner_indicator_command(2)
+              %! baca.slur_function()
             )
             % CLOSING:
             % COMMANDS:
@@ -3011,13 +3075,16 @@ number.4.Guitar.Music.3 = {
             % SPANNER_STARTS:
               %! SPANNER_START
               %! baca._do_spanner_indicator_command(1)
+              %! baca.slur_function()
             (
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
             % BEFORE:
             % COMMANDS:
+              %! rmakers.beam_groups()
             \set stemLeftBeamCount = 4
+              %! rmakers.beam_groups()
             \set stemRightBeamCount = 4
             d'64
             % ABSOLUTE_BEFORE:
@@ -3025,7 +3092,9 @@ number.4.Guitar.Music.3 = {
 
             % BEFORE:
             % COMMANDS:
+              %! rmakers.beam_groups()
             \set stemLeftBeamCount = 4
+              %! rmakers.beam_groups()
             \set stemRightBeamCount = 4
             cs'!64
             % ABSOLUTE_BEFORE:
@@ -3033,7 +3102,9 @@ number.4.Guitar.Music.3 = {
 
             % BEFORE:
             % COMMANDS:
+              %! rmakers.beam_groups()
             \set stemLeftBeamCount = 4
+              %! rmakers.beam_groups()
             \set stemRightBeamCount = 4
             ef'!64
             % ABSOLUTE_BEFORE:
@@ -3041,13 +3112,16 @@ number.4.Guitar.Music.3 = {
 
             % BEFORE:
             % COMMANDS:
+              %! rmakers.beam_groups()
             \set stemLeftBeamCount = 4
+              %! rmakers.beam_groups()
             \set stemRightBeamCount = 1
             fs'!64
             % AFTER:
             % SPANNER_STOPS:
               %! SPANNER_STOP
               %! baca._do_spanner_indicator_command(2)
+              %! baca.slur_function()
             )
             % CLOSING:
             % COMMANDS:
@@ -3066,20 +3140,25 @@ number.4.Guitar.Music.3 = {
 
             % BEFORE:
             % COMMANDS:
+              %! rmakers.beam_groups()
             \set stemLeftBeamCount = 1
+              %! rmakers.beam_groups()
             \set stemRightBeamCount = 4
             g'64
             % AFTER:
             % SPANNER_STARTS:
               %! SPANNER_START
               %! baca._do_spanner_indicator_command(1)
+              %! baca.slur_function()
             (
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
             % BEFORE:
             % COMMANDS:
+              %! rmakers.beam_groups()
             \set stemLeftBeamCount = 4
+              %! rmakers.beam_groups()
             \set stemRightBeamCount = 4
             d''64
             % ABSOLUTE_BEFORE:
@@ -3087,7 +3166,9 @@ number.4.Guitar.Music.3 = {
 
             % BEFORE:
             % COMMANDS:
+              %! rmakers.beam_groups()
             \set stemLeftBeamCount = 4
+              %! rmakers.beam_groups()
             \set stemRightBeamCount = 4
             cs''!64
             % ABSOLUTE_BEFORE:
@@ -3095,13 +3176,16 @@ number.4.Guitar.Music.3 = {
 
             % BEFORE:
             % COMMANDS:
+              %! rmakers.beam_groups()
             \set stemLeftBeamCount = 4
+              %! rmakers.beam_groups()
             \set stemRightBeamCount = 1
             ef''!64
             % AFTER:
             % SPANNER_STOPS:
               %! SPANNER_STOP
               %! baca._do_spanner_indicator_command(2)
+              %! baca.slur_function()
             )
             % CLOSING:
             % COMMANDS:
@@ -3119,20 +3203,25 @@ number.4.Guitar.Music.3 = {
 
             % BEFORE:
             % COMMANDS:
+              %! rmakers.beam_groups()
             \set stemLeftBeamCount = 1
+              %! rmakers.beam_groups()
             \set stemRightBeamCount = 4
             fs''!64
             % AFTER:
             % SPANNER_STARTS:
               %! SPANNER_START
               %! baca._do_spanner_indicator_command(1)
+              %! baca.slur_function()
             (
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
             % BEFORE:
             % COMMANDS:
+              %! rmakers.beam_groups()
             \set stemLeftBeamCount = 4
+              %! rmakers.beam_groups()
             \set stemRightBeamCount = 4
             g''64
             % ABSOLUTE_BEFORE:
@@ -3147,6 +3236,7 @@ number.4.Guitar.Music.3 = {
             % SPANNER_STOPS:
               %! SPANNER_STOP
               %! baca._do_spanner_indicator_command(2)
+              %! baca.slur_function()
             )
             % CLOSING:
             % COMMANDS:
@@ -3195,13 +3285,16 @@ number.4.Guitar.Music.3 = {
             % SPANNER_STARTS:
               %! SPANNER_START
               %! baca._do_spanner_indicator_command(1)
+              %! baca.slur_function()
             (
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
             % BEFORE:
             % COMMANDS:
+              %! rmakers.beam_groups()
             \set stemLeftBeamCount = 4
+              %! rmakers.beam_groups()
             \set stemRightBeamCount = 4
             d'64
             % ABSOLUTE_BEFORE:
@@ -3209,7 +3302,9 @@ number.4.Guitar.Music.3 = {
 
             % BEFORE:
             % COMMANDS:
+              %! rmakers.beam_groups()
             \set stemLeftBeamCount = 4
+              %! rmakers.beam_groups()
             \set stemRightBeamCount = 4
             cs'!64
             % ABSOLUTE_BEFORE:
@@ -3217,13 +3312,16 @@ number.4.Guitar.Music.3 = {
 
             % BEFORE:
             % COMMANDS:
+              %! rmakers.beam_groups()
             \set stemLeftBeamCount = 4
+              %! rmakers.beam_groups()
             \set stemRightBeamCount = 1
             ef'!64
             % AFTER:
             % SPANNER_STOPS:
               %! SPANNER_STOP
               %! baca._do_spanner_indicator_command(2)
+              %! baca.slur_function()
             )
             % CLOSING:
             % COMMANDS:
@@ -3241,20 +3339,25 @@ number.4.Guitar.Music.3 = {
 
             % BEFORE:
             % COMMANDS:
+              %! rmakers.beam_groups()
             \set stemLeftBeamCount = 1
+              %! rmakers.beam_groups()
             \set stemRightBeamCount = 4
             fs'!64
             % AFTER:
             % SPANNER_STARTS:
               %! SPANNER_START
               %! baca._do_spanner_indicator_command(1)
+              %! baca.slur_function()
             (
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
             % BEFORE:
             % COMMANDS:
+              %! rmakers.beam_groups()
             \set stemLeftBeamCount = 4
+              %! rmakers.beam_groups()
             \set stemRightBeamCount = 4
             g'64
             % ABSOLUTE_BEFORE:
@@ -3262,13 +3365,16 @@ number.4.Guitar.Music.3 = {
 
             % BEFORE:
             % COMMANDS:
+              %! rmakers.beam_groups()
             \set stemLeftBeamCount = 4
+              %! rmakers.beam_groups()
             \set stemRightBeamCount = 1
             af'!64
             % AFTER:
             % SPANNER_STOPS:
               %! SPANNER_STOP
               %! baca._do_spanner_indicator_command(2)
+              %! baca.slur_function()
             )
             % CLOSING:
             % COMMANDS:
@@ -3287,20 +3393,25 @@ number.4.Guitar.Music.3 = {
 
             % BEFORE:
             % COMMANDS:
+              %! rmakers.beam_groups()
             \set stemLeftBeamCount = 1
+              %! rmakers.beam_groups()
             \set stemRightBeamCount = 4
             f''64
             % AFTER:
             % SPANNER_STARTS:
               %! SPANNER_START
               %! baca._do_spanner_indicator_command(1)
+              %! baca.slur_function()
             (
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
             % BEFORE:
             % COMMANDS:
+              %! rmakers.beam_groups()
             \set stemLeftBeamCount = 4
+              %! rmakers.beam_groups()
             \set stemRightBeamCount = 4
             a'64
             % ABSOLUTE_BEFORE:
@@ -3308,7 +3419,9 @@ number.4.Guitar.Music.3 = {
 
             % BEFORE:
             % COMMANDS:
+              %! rmakers.beam_groups()
             \set stemLeftBeamCount = 4
+              %! rmakers.beam_groups()
             \set stemRightBeamCount = 4
             b'64
             % ABSOLUTE_BEFORE:
@@ -3316,7 +3429,9 @@ number.4.Guitar.Music.3 = {
 
             % BEFORE:
             % COMMANDS:
+              %! rmakers.beam_groups()
             \set stemLeftBeamCount = 4
+              %! rmakers.beam_groups()
             \set stemRightBeamCount = 4
             bf'!64
             % ABSOLUTE_BEFORE:
@@ -3324,7 +3439,9 @@ number.4.Guitar.Music.3 = {
 
             % BEFORE:
             % COMMANDS:
+              %! rmakers.beam_groups()
             \set stemLeftBeamCount = 4
+              %! rmakers.beam_groups()
             \set stemRightBeamCount = 4
             c''64
             % ABSOLUTE_BEFORE:
@@ -3332,15 +3449,19 @@ number.4.Guitar.Music.3 = {
 
             % BEFORE:
             % COMMANDS:
+              %! rmakers.beam_groups()
             \set stemLeftBeamCount = 4
+              %! rmakers.beam_groups()
             \set stemRightBeamCount = 0
             fs''!64
             % AFTER:
             % SPANNER_STOPS:
               %! SPANNER_STOP
               %! baca._do_spanner_indicator_command(2)
+              %! baca.slur_function()
             )
             % STOP_BEAM:
+              %! rmakers.beam_groups()
             ]
             % CLOSING:
             % COMMANDS:
@@ -3376,7 +3497,9 @@ number.4.Guitar.Music.3 = {
             % [Guitar.Music.3 measure 15]
             % BEFORE:
             % COMMANDS:
+              %! rmakers.beam_groups()
             \set stemLeftBeamCount = 4
+              %! rmakers.beam_groups()
             \set stemRightBeamCount = 4
             c''64
             % AFTER:
@@ -3386,6 +3509,7 @@ number.4.Guitar.Music.3 = {
               %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (15) \hspace #1 "R4" ] }
             % START_BEAM:
+              %! rmakers.beam_groups()
             [
             % CLOSING:
             % COMMANDS:
@@ -3404,20 +3528,25 @@ number.4.Guitar.Music.3 = {
 
             % BEFORE:
             % COMMANDS:
+              %! rmakers.beam_groups()
             \set stemLeftBeamCount = 1
+              %! rmakers.beam_groups()
             \set stemRightBeamCount = 4
             f''64
             % AFTER:
             % SPANNER_STARTS:
               %! SPANNER_START
               %! baca._do_spanner_indicator_command(1)
+              %! baca.slur_function()
             (
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
             % BEFORE:
             % COMMANDS:
+              %! rmakers.beam_groups()
             \set stemLeftBeamCount = 4
+              %! rmakers.beam_groups()
             \set stemRightBeamCount = 4
             b'64
             % ABSOLUTE_BEFORE:
@@ -3425,7 +3554,9 @@ number.4.Guitar.Music.3 = {
 
             % BEFORE:
             % COMMANDS:
+              %! rmakers.beam_groups()
             \set stemLeftBeamCount = 4
+              %! rmakers.beam_groups()
             \set stemRightBeamCount = 4
             bf'!64
             % ABSOLUTE_BEFORE:
@@ -3433,7 +3564,9 @@ number.4.Guitar.Music.3 = {
 
             % BEFORE:
             % COMMANDS:
+              %! rmakers.beam_groups()
             \set stemLeftBeamCount = 4
+              %! rmakers.beam_groups()
             \set stemRightBeamCount = 4
             c''64
             % ABSOLUTE_BEFORE:
@@ -3441,7 +3574,9 @@ number.4.Guitar.Music.3 = {
 
             % BEFORE:
             % COMMANDS:
+              %! rmakers.beam_groups()
             \set stemLeftBeamCount = 4
+              %! rmakers.beam_groups()
             \set stemRightBeamCount = 4
             f''64
             % ABSOLUTE_BEFORE:
@@ -3449,13 +3584,16 @@ number.4.Guitar.Music.3 = {
 
             % BEFORE:
             % COMMANDS:
+              %! rmakers.beam_groups()
             \set stemLeftBeamCount = 4
+              %! rmakers.beam_groups()
             \set stemRightBeamCount = 1
             a'64
             % AFTER:
             % SPANNER_STOPS:
               %! SPANNER_STOP
               %! baca._do_spanner_indicator_command(2)
+              %! baca.slur_function()
             )
             % CLOSING:
             % COMMANDS:
@@ -3473,20 +3611,25 @@ number.4.Guitar.Music.3 = {
 
             % BEFORE:
             % COMMANDS:
+              %! rmakers.beam_groups()
             \set stemLeftBeamCount = 1
+              %! rmakers.beam_groups()
             \set stemRightBeamCount = 4
             af'!64
             % AFTER:
             % SPANNER_STARTS:
               %! SPANNER_START
               %! baca._do_spanner_indicator_command(1)
+              %! baca.slur_function()
             (
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
             % BEFORE:
             % COMMANDS:
+              %! rmakers.beam_groups()
             \set stemLeftBeamCount = 4
+              %! rmakers.beam_groups()
             \set stemRightBeamCount = 4
             d''64
             % ABSOLUTE_BEFORE:
@@ -3494,7 +3637,9 @@ number.4.Guitar.Music.3 = {
 
             % BEFORE:
             % COMMANDS:
+              %! rmakers.beam_groups()
             \set stemLeftBeamCount = 4
+              %! rmakers.beam_groups()
             \set stemRightBeamCount = 4
             cs''!64
             % ABSOLUTE_BEFORE:
@@ -3502,7 +3647,9 @@ number.4.Guitar.Music.3 = {
 
             % BEFORE:
             % COMMANDS:
+              %! rmakers.beam_groups()
             \set stemLeftBeamCount = 4
+              %! rmakers.beam_groups()
             \set stemRightBeamCount = 4
             ef'!64
             % ABSOLUTE_BEFORE:
@@ -3517,6 +3664,7 @@ number.4.Guitar.Music.3 = {
             % SPANNER_STOPS:
               %! SPANNER_STOP
               %! baca._do_spanner_indicator_command(2)
+              %! baca.slur_function()
             )
             % CLOSING:
             % COMMANDS:
@@ -3559,13 +3707,16 @@ number.4.Guitar.Music.3 = {
             % SPANNER_STARTS:
               %! SPANNER_START
               %! baca._do_spanner_indicator_command(1)
+              %! baca.slur_function()
             (
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
             % BEFORE:
             % COMMANDS:
+              %! rmakers.beam_groups()
             \set stemLeftBeamCount = 4
+              %! rmakers.beam_groups()
             \set stemRightBeamCount = 4
             b64
             % ABSOLUTE_BEFORE:
@@ -3573,7 +3724,9 @@ number.4.Guitar.Music.3 = {
 
             % BEFORE:
             % COMMANDS:
+              %! rmakers.beam_groups()
             \set stemLeftBeamCount = 4
+              %! rmakers.beam_groups()
             \set stemRightBeamCount = 4
             bf'!64
             % ABSOLUTE_BEFORE:
@@ -3581,7 +3734,9 @@ number.4.Guitar.Music.3 = {
 
             % BEFORE:
             % COMMANDS:
+              %! rmakers.beam_groups()
             \set stemLeftBeamCount = 4
+              %! rmakers.beam_groups()
             \set stemRightBeamCount = 4
             c''64
             % ABSOLUTE_BEFORE:
@@ -3589,7 +3744,9 @@ number.4.Guitar.Music.3 = {
 
             % BEFORE:
             % COMMANDS:
+              %! rmakers.beam_groups()
             \set stemLeftBeamCount = 4
+              %! rmakers.beam_groups()
             \set stemRightBeamCount = 4
             f'64
             % ABSOLUTE_BEFORE:
@@ -3597,13 +3754,16 @@ number.4.Guitar.Music.3 = {
 
             % BEFORE:
             % COMMANDS:
+              %! rmakers.beam_groups()
             \set stemLeftBeamCount = 4
+              %! rmakers.beam_groups()
             \set stemRightBeamCount = 1
             a'64
             % AFTER:
             % SPANNER_STOPS:
               %! SPANNER_STOP
               %! baca._do_spanner_indicator_command(2)
+              %! baca.slur_function()
             )
             % CLOSING:
             % COMMANDS:
@@ -3621,20 +3781,25 @@ number.4.Guitar.Music.3 = {
 
             % BEFORE:
             % COMMANDS:
+              %! rmakers.beam_groups()
             \set stemLeftBeamCount = 1
+              %! rmakers.beam_groups()
             \set stemRightBeamCount = 4
             af'!64
             % AFTER:
             % SPANNER_STARTS:
               %! SPANNER_START
               %! baca._do_spanner_indicator_command(1)
+              %! baca.slur_function()
             (
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
             % BEFORE:
             % COMMANDS:
+              %! rmakers.beam_groups()
             \set stemLeftBeamCount = 4
+              %! rmakers.beam_groups()
             \set stemRightBeamCount = 4
             d''64
             % ABSOLUTE_BEFORE:
@@ -3642,7 +3807,9 @@ number.4.Guitar.Music.3 = {
 
             % BEFORE:
             % COMMANDS:
+              %! rmakers.beam_groups()
             \set stemLeftBeamCount = 4
+              %! rmakers.beam_groups()
             \set stemRightBeamCount = 4
             cs''!64
             % ABSOLUTE_BEFORE:
@@ -3650,7 +3817,9 @@ number.4.Guitar.Music.3 = {
 
             % BEFORE:
             % COMMANDS:
+              %! rmakers.beam_groups()
             \set stemLeftBeamCount = 4
+              %! rmakers.beam_groups()
             \set stemRightBeamCount = 4
             ef''!64
             % ABSOLUTE_BEFORE:
@@ -3658,13 +3827,16 @@ number.4.Guitar.Music.3 = {
 
             % BEFORE:
             % COMMANDS:
+              %! rmakers.beam_groups()
             \set stemLeftBeamCount = 4
+              %! rmakers.beam_groups()
             \set stemRightBeamCount = 1
             fs''!64
             % AFTER:
             % SPANNER_STOPS:
               %! SPANNER_STOP
               %! baca._do_spanner_indicator_command(2)
+              %! baca.slur_function()
             )
             % CLOSING:
             % COMMANDS:
@@ -3683,20 +3855,25 @@ number.4.Guitar.Music.3 = {
 
             % BEFORE:
             % COMMANDS:
+              %! rmakers.beam_groups()
             \set stemLeftBeamCount = 1
+              %! rmakers.beam_groups()
             \set stemRightBeamCount = 4
             g''64
             % AFTER:
             % SPANNER_STARTS:
               %! SPANNER_START
               %! baca._do_spanner_indicator_command(1)
+              %! baca.slur_function()
             (
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
             % BEFORE:
             % COMMANDS:
+              %! rmakers.beam_groups()
             \set stemLeftBeamCount = 4
+              %! rmakers.beam_groups()
             \set stemRightBeamCount = 4
             d''64
             % ABSOLUTE_BEFORE:
@@ -3704,7 +3881,9 @@ number.4.Guitar.Music.3 = {
 
             % BEFORE:
             % COMMANDS:
+              %! rmakers.beam_groups()
             \set stemLeftBeamCount = 4
+              %! rmakers.beam_groups()
             \set stemRightBeamCount = 4
             cs''!64
             % ABSOLUTE_BEFORE:
@@ -3719,6 +3898,7 @@ number.4.Guitar.Music.3 = {
             % SPANNER_STOPS:
               %! SPANNER_STOP
               %! baca._do_spanner_indicator_command(2)
+              %! baca.slur_function()
             )
             % CLOSING:
             % COMMANDS:
@@ -3766,13 +3946,16 @@ number.4.Guitar.Music.3 = {
             % SPANNER_STARTS:
               %! SPANNER_START
               %! baca._do_spanner_indicator_command(1)
+              %! baca.slur_function()
             (
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
             % BEFORE:
             % COMMANDS:
+              %! rmakers.beam_groups()
             \set stemLeftBeamCount = 4
+              %! rmakers.beam_groups()
             \set stemRightBeamCount = 4
             d'64
             % ABSOLUTE_BEFORE:
@@ -3780,7 +3963,9 @@ number.4.Guitar.Music.3 = {
 
             % BEFORE:
             % COMMANDS:
+              %! rmakers.beam_groups()
             \set stemLeftBeamCount = 4
+              %! rmakers.beam_groups()
             \set stemRightBeamCount = 4
             cs'!64
             % ABSOLUTE_BEFORE:
@@ -3788,7 +3973,9 @@ number.4.Guitar.Music.3 = {
 
             % BEFORE:
             % COMMANDS:
+              %! rmakers.beam_groups()
             \set stemLeftBeamCount = 4
+              %! rmakers.beam_groups()
             \set stemRightBeamCount = 4
             ef'!64
             % ABSOLUTE_BEFORE:
@@ -3796,13 +3983,16 @@ number.4.Guitar.Music.3 = {
 
             % BEFORE:
             % COMMANDS:
+              %! rmakers.beam_groups()
             \set stemLeftBeamCount = 4
+              %! rmakers.beam_groups()
             \set stemRightBeamCount = 1
             fs'!64
             % AFTER:
             % SPANNER_STOPS:
               %! SPANNER_STOP
               %! baca._do_spanner_indicator_command(2)
+              %! baca.slur_function()
             )
             % CLOSING:
             % COMMANDS:
@@ -3821,20 +4011,25 @@ number.4.Guitar.Music.3 = {
 
             % BEFORE:
             % COMMANDS:
+              %! rmakers.beam_groups()
             \set stemLeftBeamCount = 1
+              %! rmakers.beam_groups()
             \set stemRightBeamCount = 4
             g'64
             % AFTER:
             % SPANNER_STARTS:
               %! SPANNER_START
               %! baca._do_spanner_indicator_command(1)
+              %! baca.slur_function()
             (
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
             % BEFORE:
             % COMMANDS:
+              %! rmakers.beam_groups()
             \set stemLeftBeamCount = 4
+              %! rmakers.beam_groups()
             \set stemRightBeamCount = 4
             d''64
             % ABSOLUTE_BEFORE:
@@ -3842,7 +4037,9 @@ number.4.Guitar.Music.3 = {
 
             % BEFORE:
             % COMMANDS:
+              %! rmakers.beam_groups()
             \set stemLeftBeamCount = 4
+              %! rmakers.beam_groups()
             \set stemRightBeamCount = 4
             cs''!64
             % ABSOLUTE_BEFORE:
@@ -3850,13 +4047,16 @@ number.4.Guitar.Music.3 = {
 
             % BEFORE:
             % COMMANDS:
+              %! rmakers.beam_groups()
             \set stemLeftBeamCount = 4
+              %! rmakers.beam_groups()
             \set stemRightBeamCount = 1
             ef''!64
             % AFTER:
             % SPANNER_STOPS:
               %! SPANNER_STOP
               %! baca._do_spanner_indicator_command(2)
+              %! baca.slur_function()
             )
             % CLOSING:
             % COMMANDS:
@@ -3874,20 +4074,25 @@ number.4.Guitar.Music.3 = {
 
             % BEFORE:
             % COMMANDS:
+              %! rmakers.beam_groups()
             \set stemLeftBeamCount = 1
+              %! rmakers.beam_groups()
             \set stemRightBeamCount = 4
             fs''!64
             % AFTER:
             % SPANNER_STARTS:
               %! SPANNER_START
               %! baca._do_spanner_indicator_command(1)
+              %! baca.slur_function()
             (
             % ABSOLUTE_BEFORE:
             % COMMANDS:
 
             % BEFORE:
             % COMMANDS:
+              %! rmakers.beam_groups()
             \set stemLeftBeamCount = 4
+              %! rmakers.beam_groups()
             \set stemRightBeamCount = 4
             g''64
             % ABSOLUTE_BEFORE:
@@ -3895,15 +4100,19 @@ number.4.Guitar.Music.3 = {
 
             % BEFORE:
             % COMMANDS:
+              %! rmakers.beam_groups()
             \set stemLeftBeamCount = 4
+              %! rmakers.beam_groups()
             \set stemRightBeamCount = 0
             af''!64
             % AFTER:
             % SPANNER_STOPS:
               %! SPANNER_STOP
               %! baca._do_spanner_indicator_command(2)
+              %! baca.slur_function()
             )
             % STOP_BEAM:
+              %! rmakers.beam_groups()
             ]
             % CLOSING:
             % COMMANDS:
@@ -3992,31 +4201,25 @@ number.4.Guitar.Music.4 = {
             % [Guitar.Music.4 measure 9]
             % BEFORE:
             % COMMANDS:
-              %! baca.OverrideCommand._call(1)
-              %! baca.tuplet_bracket_extra_offset()
+              %! baca.tuplet_bracket_extra_offset_function(1)
             \once \override TupletBracket.extra-offset = #'(0 . -0.5)
-              %! baca.OverrideCommand._call(1)
-              %! baca.tuplet_number_extra_offset()
+              %! baca.tuplet_number_extra_offset_function(1)
             \once \override TupletNumber.extra-offset = #'(0 . -0.5)
-              %! baca.OverrideCommand._call(1)
-              %! baca.stem_up()
+              %! baca.stem_up_function(1)
             \override Stem.direction = #up
-              %! baca.OverrideCommand._call(1)
-              %! baca.tuplet_bracket_staff_padding()
+              %! baca.tuplet_bracket_staff_padding_function(1)
             \override TupletBracket.staff-padding = 0
             gf!2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca._attach_persistent_indicator()
-              %! baca.stem_tremolo()
+              %! baca.stem_tremolo_function()
             :32
             % MARKUP:
               %! FIGURE_LABEL
             %@% - \tweak color #blue
               %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (9) \hspace #1 "T1" ] }
-              %! baca._attach_persistent_indicator()
-              %! baca.markup()
+              %! baca.markup_function()
             ^ \dornen-two-finger-tamb-trill-markup
             % SPANNER_STARTS:
               %! baca._attach_shadow_tie_indicators()
@@ -4041,19 +4244,15 @@ number.4.Guitar.Music.4 = {
             gf2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca._attach_persistent_indicator()
-              %! baca.stem_tremolo()
+              %! baca.stem_tremolo_function()
             :32
             % SPANNER_STARTS:
-              %! baca._attach_persistent_indicator()
-              %! baca.repeat_tie()
+              %! baca.repeat_tie_function()
             \repeatTie
             % COMMANDS:
-              %! baca.OverrideCommand._call(2)
-              %! baca.stem_up()
+              %! baca.stem_up_function(2)
             \revert Stem.direction
-              %! baca.OverrideCommand._call(2)
-              %! baca.tuplet_bracket_staff_padding()
+              %! baca.tuplet_bracket_staff_padding_function(2)
             \revert TupletBracket.staff-padding
             % CLOSING:
             % COMMANDS:
@@ -4131,31 +4330,25 @@ number.4.Guitar.Music.4 = {
             % [Guitar.Music.4 measure 18]
             % BEFORE:
             % COMMANDS:
-              %! baca.OverrideCommand._call(1)
-              %! baca.tuplet_bracket_extra_offset()
+              %! baca.tuplet_bracket_extra_offset_function(1)
             \once \override TupletBracket.extra-offset = #'(0 . -0.5)
-              %! baca.OverrideCommand._call(1)
-              %! baca.tuplet_number_extra_offset()
+              %! baca.tuplet_number_extra_offset_function(1)
             \once \override TupletNumber.extra-offset = #'(0 . -0.5)
-              %! baca.OverrideCommand._call(1)
-              %! baca.stem_up()
+              %! baca.stem_up_function(1)
             \override Stem.direction = #up
-              %! baca.OverrideCommand._call(1)
-              %! baca.tuplet_bracket_staff_padding()
+              %! baca.tuplet_bracket_staff_padding_function(1)
             \override TupletBracket.staff-padding = 0
             gf!2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca._attach_persistent_indicator()
-              %! baca.stem_tremolo()
+              %! baca.stem_tremolo_function()
             :32
             % MARKUP:
               %! FIGURE_LABEL
             %@% - \tweak color #blue
               %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (18) \hspace #1 "T2" ] }
-              %! baca._attach_persistent_indicator()
-              %! baca.markup()
+              %! baca.markup_function()
             ^ \dornen-two-finger-tamb-trill-markup
             % SPANNER_STARTS:
               %! baca._attach_shadow_tie_indicators()
@@ -4180,19 +4373,15 @@ number.4.Guitar.Music.4 = {
             gf2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca._attach_persistent_indicator()
-              %! baca.stem_tremolo()
+              %! baca.stem_tremolo_function()
             :32
             % SPANNER_STARTS:
-              %! baca._attach_persistent_indicator()
-              %! baca.repeat_tie()
+              %! baca.repeat_tie_function()
             \repeatTie
             % COMMANDS:
-              %! baca.OverrideCommand._call(2)
-              %! baca.stem_up()
+              %! baca.stem_up_function(2)
             \revert Stem.direction
-              %! baca.OverrideCommand._call(2)
-              %! baca.tuplet_bracket_staff_padding()
+              %! baca.tuplet_bracket_staff_padding_function(2)
             \revert TupletBracket.staff-padding
             % CLOSING:
             % COMMANDS:

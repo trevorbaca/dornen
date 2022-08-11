@@ -9,218 +9,285 @@ from dornen import library
 score = library.make_empty_score()
 figures = baca.FigureAccumulator(score, library.voice_abbreviations())
 
+collections = [["F2"]]
+tuplets, tsd = library.monads_function(collections)
 baca.make_figures(
     figures,
     "v1",
-    [["F2"]],
-    *library.monads(),
+    None,
     figure_name="2_1",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = [["F2"]]
+tuplets, tsd = library.monads_function(collections)
 baca.make_figures(
     figures,
     "v1",
-    [["F2"]],
-    *library.monads(),
+    None,
     figure_name="2_2",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = [["F2"]]
+tuplets, tsd = library.thirds_function(collections)
 baca.make_figures(
     figures,
     "v1",
-    [["F2"]],
-    *library.thirds(),
+    None,
     figure_name="2_3",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = [["F2"]]
+tuplets, tsd = library.thirds_function(collections)
 baca.make_figures(
     figures,
     "v1",
-    [["F2"]],
-    *library.thirds(),
+    None,
     figure_name="2_4",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = [["F2"]]
+tuplets, tsd = library.thirds_function(collections)
 baca.make_figures(
     figures,
     "v1",
-    [["F2"]],
-    *library.thirds(),
+    None,
     figure_name="2_5",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = [["F2"]]
+tuplets, tsd = library.monads_function(collections)
+baca.markup_function(baca.select.pleaf(tuplets, 0), r"\dornen-three-fingers-markup")
 baca.make_figures(
     figures,
     "v1",
-    [["F2"]],
-    *library.monads(),
-    baca.markup(
-        r"\dornen-three-fingers-markup", selector=lambda _: baca.select.pleaf(_, 0)
-    ),
+    None,
     figure_name="3_1",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = [["F2"]]
+tuplets, tsd = library.monads_function(collections)
 baca.make_figures(
     figures,
     "v1",
-    [["F2"]],
-    *library.monads(),
+    None,
     figure_name="3_2",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = [["F2"]]
+tuplets, tsd = library.thirds_function(collections)
 baca.make_figures(
     figures,
     "v1",
-    [["F2"]],
-    *library.thirds(),
+    None,
     figure_name="3_3",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = [["F2"]]
+tuplets, tsd = library.thirds_function(collections)
 baca.make_figures(
     figures,
     "v1",
-    [["F2"]],
-    *library.thirds(),
+    None,
     figure_name="3_4",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = [["F2"]]
+tuplets, tsd = library.thirds_function(collections)
 baca.make_figures(
     figures,
     "v1",
-    [["F2"]],
-    *library.thirds(),
+    None,
     figure_name="3_5",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
 ###
 
+collections = [["F2"]]
+tuplets, tsd = library.monads_function(collections)
+baca.markup_function(baca.select.pleaf(tuplets, 0), r"\dornen-four-fingers-markup")
 baca.make_figures(
     figures,
     "v1",
-    [["F2"]],
-    *library.monads(),
-    baca.markup(
-        r"\dornen-four-fingers-markup", selector=lambda _: baca.select.pleaf(_, 0)
-    ),
+    None,
     figure_name="4_1",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = [["F2"]]
+tuplets, tsd = library.monads_function(collections)
 baca.make_figures(
     figures,
     "v1",
-    [["F2"]],
-    *library.monads(),
+    None,
     figure_name="4_2",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = [["F2"]]
+tuplets, tsd = library.thirds_function(collections)
 baca.make_figures(
     figures,
     "v1",
-    [["F2"]],
-    *library.thirds(),
+    None,
     figure_name="4_3",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = [["F2"]]
+tuplets, tsd = library.thirds_function(collections)
 baca.make_figures(
     figures,
     "v1",
-    [["F2"]],
-    *library.thirds(),
+    None,
     figure_name="4_4",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = [["F2"]]
+tuplets, tsd = library.thirds_function(collections)
 baca.make_figures(
     figures,
     "v1",
-    [["F2"]],
-    *library.thirds(),
+    None,
     figure_name="4_5",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = [["F2"]]
+tuplets, tsd = library.monads_function(collections)
 baca.make_figures(
     figures,
     "v1",
-    [["F2"]],
-    *library.monads(),
+    None,
     figure_name="4_6",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = [["F2"]]
+tuplets, tsd = library.thirds_function(collections)
 baca.make_figures(
     figures,
     "v1",
-    [["F2"]],
-    *library.thirds(),
+    None,
     figure_name="4_7",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = [["F2"]]
+tuplets, tsd = library.thirds_function(collections)
 baca.make_figures(
     figures,
     "v1",
-    [["F2"]],
-    *library.thirds(),
+    None,
     figure_name="4_8",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = [["F2"]]
+tuplets, tsd = library.thirds_function(collections)
 baca.make_figures(
     figures,
     "v1",
-    [["F2"]],
-    *library.thirds(),
+    None,
     figure_name="4_9",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = [["F2"]]
+tuplets, tsd = library.monads_function(collections)
 baca.make_figures(
     figures,
     "v1",
-    [["F2"]],
-    *library.monads(),
+    None,
     figure_name="4_10",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = [["F2"]]
+tuplets, tsd = library.thirds_function(collections)
 baca.make_figures(
     figures,
     "v1",
-    [["F2"]],
-    *library.thirds(),
+    None,
     figure_name="4_11",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = [["F2"]]
+tuplets, tsd = library.thirds_function(collections)
 baca.make_figures(
     figures,
     "v1",
-    [["F2"]],
-    *library.thirds(),
+    None,
     figure_name="4_12",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = [["F2"]]
+tuplets, tsd = library.thirds_function(collections)
 baca.make_figures(
     figures,
     "v1",
-    [["F2"]],
-    *library.thirds(),
+    None,
     figure_name="4_13",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = [2 * ["F2"]]
+tuplets, tsd = library.monads_function(collections)
+baca.markup_function(baca.select.pleaf(tuplets, 0), r"\dornen-three-fingers-markup")
 baca.make_figures(
     figures,
     "v1",
-    [2 * ["F2"]],
-    *library.monads(),
-    baca.markup(
-        r"\dornen-three-fingers-markup", selector=lambda _: baca.select.pleaf(_, 0)
-    ),
+    None,
     figure_name="4_14",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = [2 * ["F2"]]
+tuplets, tsd = library.monads_function(collections)
+baca.markup_function(baca.select.pleaf(tuplets, 0), r"\dornen-two-fingers-markup")
 baca.make_figures(
     figures,
     "v1",
-    [2 * ["F2"]],
-    *library.monads(),
-    baca.markup(
-        r"\dornen-two-fingers-markup", selector=lambda _: baca.select.pleaf(_, 0)
-    ),
+    None,
     figure_name="4_15",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
 voice_names = baca.accumulator.get_voice_names(score)
@@ -247,102 +314,55 @@ figures.populate_commands(score, accumulator)
 
 
 def postprocess(cache):
-    accumulator(
-        "v1",
-        baca.register(-20),
-        baca.new(
-            baca.repeat_tie(
-                selector=lambda _: baca.select.pleaves(_)[1:],
-            ),
-            map=lambda _: baca.select.qruns(_),
-        ),
-        baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
-    )
-    accumulator(
-        ("v1", 2),
-        baca.new(
-            baca.hairpin("p < mp"),
-            baca.text_spanner("tamb. tr. => kn. rasg."),
-            map=library.group_rleaves,
-        ),
-    )
-    accumulator(
-        ("v1", 4),
-        baca.new(
-            baca.hairpin("mp > p"),
-            baca.text_spanner("trans. => tamb. tr."),
-            map=library.group_rleaves,
-        ),
-    )
-    accumulator(
-        ("v1", 7),
-        baca.new(
-            baca.hairpin("p < mf"),
-            baca.text_spanner("trans. => kn. rasg."),
-            map=library.group_rleaves,
-        ),
-    )
-    accumulator(
-        ("v1", 9),
-        baca.new(
-            baca.hairpin("mf > p"),
-            baca.text_spanner("trans. => tamb. tr."),
-            map=library.group_rleaves,
-        ),
-    )
-    accumulator(
-        ("v1", 12),
-        baca.new(
-            baca.hairpin("p < mp"),
-            baca.text_spanner("trans. => kn. rasg."),
-            map=library.group_rleaves,
-        ),
-    )
-    accumulator(
-        ("v1", 14),
-        baca.new(
-            baca.hairpin("mp > p"),
-            baca.text_spanner("trans. => tamb. tr."),
-            map=library.group_rleaves,
-        ),
-    )
-    accumulator(
-        ("v1", 16),
-        baca.new(
-            baca.hairpin("p < mf"),
-            baca.text_spanner("trans. => kn. rasg."),
-            map=library.group_rleaves,
-        ),
-    )
-    accumulator(
-        ("v1", 18),
-        baca.new(
-            baca.hairpin("mf > p"),
-            baca.text_spanner("trans. => tamb. tr."),
-            map=library.group_rleaves,
-        ),
-    )
-    accumulator(
-        ("v1", 20),
-        baca.new(
-            baca.hairpin("p < f"),
-            baca.text_spanner("trans. => kn. rasg."),
-            map=library.group_rleaves,
-        ),
-    )
-    accumulator(
-        ("v1", (22, 24)),
-        baca.new(
-            baca.hairpin("f > mp"),
-            baca.text_spanner("trans. => tamb. tr."),
-            map=library.group_rleaves,
-        ),
-    )
-    accumulator(
-        "v1",
-        baca.text_spanner_staff_padding(5),
-        baca.text_script_staff_padding(8),
-    )
+    m = cache["v1"]
+    with baca.scope(m.leaves()) as o:
+        baca.register_function(o, -20)
+        for qrun in baca.select.qruns(o):
+            baca.repeat_tie_function(qrun[1:])
+        baca.stem_tremolo_function(o.pleaves())
+    with baca.scope(m[2]) as o:
+        for group in library.group_rleaves(o):
+            baca.hairpin_function(group, "p < mp")
+            baca.text_spanner_function(group, "tamb. tr. => kn. rasg.")
+    with baca.scope(m[4]) as o:
+        for group in library.group_rleaves(o):
+            baca.hairpin_function(group, "mp > p")
+            baca.text_spanner_function(group, "trans. => tamb. tr.")
+    with baca.scope(m[7]) as o:
+        for group in library.group_rleaves(o):
+            baca.hairpin_function(group, "p < mf")
+            baca.text_spanner_function(group, "trans. => kn. rasg.")
+    with baca.scope(m[9]) as o:
+        for group in library.group_rleaves(o):
+            baca.hairpin_function(group, "mf > p")
+            baca.text_spanner_function(group, "trans. => tamb. tr.")
+    with baca.scope(m[12]) as o:
+        for group in library.group_rleaves(o):
+            baca.hairpin_function(group, "p < mp")
+            baca.text_spanner_function(group, "trans. => kn. rasg.")
+    with baca.scope(m[14]) as o:
+        for group in library.group_rleaves(o):
+            baca.hairpin_function(group, "mp > p")
+            baca.text_spanner_function(group, "trans. => tamb. tr.")
+    with baca.scope(m[16]) as o:
+        for group in library.group_rleaves(o):
+            baca.hairpin_function(group, "p < mf")
+            baca.text_spanner_function(group, "trans. => kn. rasg.")
+    with baca.scope(m[18]) as o:
+        for group in library.group_rleaves(o):
+            baca.hairpin_function(group, "mf > p")
+            baca.text_spanner_function(group, "trans. => tamb. tr.")
+    with baca.scope(m[20]) as o:
+        for group in library.group_rleaves(o):
+            baca.hairpin_function(group, "p < f")
+            baca.text_spanner_function(group, "trans. => kn. rasg.")
+    with baca.scope(m.get(22, 24)) as o:
+        for group in library.group_rleaves(o):
+            baca.hairpin_function(group, "f > mp")
+            baca.text_spanner_function(group, "trans. => tamb. tr.")
+    with baca.scope(m.leaves()) as o:
+        baca.text_spanner_staff_padding_function(o, 5)
+        baca.text_script_staff_padding_function(o, 8)
 
 
 def main():
@@ -365,7 +385,6 @@ if __name__ == "__main__":
         **baca.interpret.section_defaults(),
         activate=(baca.tags.LOCAL_MEASURE_NUMBER,),
         always_make_global_rests=True,
-        commands=accumulator.commands,
         do_not_require_short_instrument_names=True,
         error_on_not_yet_pitched=True,
         global_rests_in_topmost_staff=True,

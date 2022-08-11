@@ -15,370 +15,488 @@ assert len(design) == 14
 
 ### 1 ###
 
+collections = design[:1]
+tuplets, tsd = library.forty_eighths_function(collections)
+baca.markup_function(
+    baca.select.pleaf(tuplets, 0), r"\dornen-lh-only-until-rascado-markup"
+)
+baca.extend_beam_function(abjad.select.leaf(tuplets, -1))
 baca.make_figures(
     figures,
     "v1",
-    design[:1],
-    *library.forty_eighths(),
-    baca.markup(
-        r"\dornen-lh-only-until-rascado-markup",
-        selector=lambda _: baca.select.pleaf(_, 0),
-    ),
-    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
+    None,
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = design[1:2]
+tuplets, tsd = library.twentieths_function(collections)
+baca.extend_beam_function(abjad.select.leaf(tuplets, -1))
 baca.make_figures(
     figures,
     "v4",
-    design[1:2],
-    *library.twentieths(),
-    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
+    None,
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = design[2:3]
+tuplets, tsd = library.sixteenths_function(collections)
 baca.make_figures(
     figures,
     "v3",
-    design[2:3],
-    *library.sixteenths(),
+    None,
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = design[3:4]
+tuplets, tsd = library.twentieths_function(collections)
+baca.beam_positions_function(tuplets, 6)
+baca.stem_up_function(baca.select.pleaves(tuplets))
 baca.make_figures(
     figures,
     "v4",
-    design[3:4],
-    *library.twentieths(),
-    baca.beam_positions(6),
-    baca.stem_up(selector=lambda _: baca.select.pleaves(_)),
+    None,
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = design[4:5]
+tuplets, tsd = library.thirty_seconds_function(collections)
+baca.slur_function(baca.select.tleaves(tuplets))
 baca.make_figures(
     figures,
     "v2",
-    design[4:5],
-    *library.thirty_seconds(),
-    baca.slur(selector=lambda _: baca.select.tleaves(_)),
+    None,
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = design[5:6]
+tuplets, tsd = library.forty_eighths_function(collections)
 baca.make_figures(
     figures,
     "v1",
-    design[5:6],
-    *library.forty_eighths(),
+    None,
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = [["C4"]]
+tuplets, tsd = library.thirty_seconds_function(collections)
+rmakers.force_rest_function(baca.select.lt(tuplets, 0))
 baca.make_figures(
     figures,
     "v1",
-    [["C4"]],
-    *library.thirty_seconds(),
-    rmakers.force_rest(selector=lambda _: baca.select.lt(_, 0)),
+    None,
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
 ### 2 ###
 
+collections = design[:1]
+tuplets, tsd = library.forty_eighths_function(collections)
+baca.markup_function(
+    baca.select.pleaf(tuplets, 0), r"\dornen-rh-reaches-for-screw-markup"
+)
+baca.extend_beam_function(abjad.select.leaf(tuplets, -1))
 baca.make_figures(
     figures,
     "v1",
-    design[:1],
-    *library.forty_eighths(),
-    baca.markup(
-        r"\dornen-rh-reaches-for-screw-markup",
-        selector=lambda _: baca.select.pleaf(_, 0),
-    ),
-    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
+    None,
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = design[1:2]
+tuplets, tsd = library.twentieths_function(collections)
+baca.extend_beam_function(abjad.select.leaf(tuplets, -1))
 baca.make_figures(
     figures,
     "v4",
-    design[1:2],
-    *library.twentieths(),
-    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
+    None,
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = design[2:3]
+tuplets, tsd = library.sixteenths_function(collections)
 baca.make_figures(
     figures,
     "v3",
-    design[2:3],
-    *library.sixteenths(),
+    None,
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = design[3:4]
+tuplets, tsd = library.twentieths_function(collections)
+baca.beam_positions_function(tuplets, 6)
+baca.stem_up_function(baca.select.pleaves(tuplets))
 baca.make_figures(
     figures,
     "v4",
-    design[3:4],
-    *library.twentieths(),
-    baca.beam_positions(6),
-    baca.stem_up(selector=lambda _: baca.select.pleaves(_)),
+    None,
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = design[4:5]
+tuplets, tsd = library.thirty_seconds_function(collections)
+baca.slur_function(baca.select.tleaves(tuplets))
 baca.make_figures(
     figures,
     "v2",
-    design[4:5],
-    *library.thirty_seconds(),
-    baca.slur(selector=lambda _: baca.select.tleaves(_)),
+    None,
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = design[5:6]
+tuplets, tsd = library.forty_eighths_function(collections)
 baca.make_figures(
     figures,
     "v1",
-    design[5:6],
-    *library.forty_eighths(),
+    None,
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = [["C4"]]
+tuplets, tsd = library.thirty_seconds_function(collections)
+rmakers.force_rest_function(baca.select.lt(tuplets, 0))
 baca.make_figures(
     figures,
     "v1",
-    [["C4"]],
-    *library.thirty_seconds(),
-    rmakers.force_rest(selector=lambda _: baca.select.lt(_, 0)),
+    None,
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
 ### 3 ###
 
+collections = design[:1]
+tuplets, tsd = library.forty_eighths_function(collections)
+baca.markup_function(
+    baca.select.pleaf(tuplets, 0), r"\dornen-rh-places-screw-on-string-markup"
+)
+baca.extend_beam_function(abjad.select.leaf(tuplets, -1))
 baca.make_figures(
     figures,
     "v1",
-    design[:1],
-    *library.forty_eighths(),
-    baca.markup(
-        r"\dornen-rh-places-screw-on-string-markup",
-        selector=lambda _: baca.select.pleaf(_, 0),
-    ),
-    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
+    None,
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = design[1:2]
+tuplets, tsd = library.twentieths_function(collections)
+baca.extend_beam_function(abjad.select.leaf(tuplets, -1))
 baca.make_figures(
     figures,
     "v4",
-    design[1:2],
-    *library.twentieths(),
-    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
+    None,
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = design[2:3]
+tuplets, tsd = library.sixteenths_function(collections)
 baca.make_figures(
     figures,
     "v3",
-    design[2:3],
-    *library.sixteenths(),
+    None,
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = design[3:4]
+tuplets, tsd = library.twentieths_function(collections)
+baca.beam_positions_function(tuplets, 6)
+baca.stem_up_function(baca.select.pleaves(tuplets))
 baca.make_figures(
     figures,
     "v4",
-    design[3:4],
-    *library.twentieths(),
-    baca.beam_positions(6),
-    baca.stem_up(selector=lambda _: baca.select.pleaves(_)),
+    None,
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = design[4:5]
+tuplets, tsd = library.thirty_seconds_function(collections)
+baca.slur_function(baca.select.tleaves(tuplets))
 baca.make_figures(
     figures,
     "v2",
-    design[4:5],
-    *library.thirty_seconds(),
-    baca.slur(selector=lambda _: baca.select.tleaves(_)),
+    None,
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = design[5:6]
+tuplets, tsd = library.forty_eighths_function(collections)
 baca.make_figures(
     figures,
     "v1",
-    design[5:6],
-    *library.forty_eighths(),
+    None,
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = [["C4"]]
+tuplets, tsd = library.thirty_seconds_function(collections)
+rmakers.force_rest_function(baca.select.lt(tuplets, 0))
 baca.make_figures(
     figures,
     "v1",
-    [["C4"]],
-    *library.thirty_seconds(),
-    rmakers.force_rest(selector=lambda _: baca.select.lt(_, 0)),
+    None,
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
 ### 4 ###
 
+collections = design[:1]
+tuplets, tsd = library.forty_eighths_function(collections)
+baca.extend_beam_function(abjad.select.leaf(tuplets, -1))
 baca.make_figures(
     figures,
     "v1",
-    design[:1],
-    *library.forty_eighths(),
-    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
+    None,
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = design[1:2]
+tuplets, tsd = library.twentieths_function(collections)
+baca.extend_beam_function(abjad.select.leaf(tuplets, -1))
 baca.make_figures(
     figures,
     "v4",
-    design[1:2],
-    *library.twentieths(),
-    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
+    None,
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = design[2:3]
+tuplets, tsd = library.sixteenths_function(collections)
 baca.make_figures(
     figures,
     "v3",
-    design[2:3],
-    *library.sixteenths(),
+    None,
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = design[3:4]
+tuplets, tsd = library.twentieths_function(collections)
+baca.beam_positions_function(tuplets, 6)
+baca.stem_up_function(baca.select.pleaves(tuplets))
 baca.make_figures(
     figures,
     "v4",
-    design[3:4],
-    *library.twentieths(),
-    baca.beam_positions(6),
-    baca.stem_up(selector=lambda _: baca.select.pleaves(_)),
+    None,
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = design[4:5]
+tuplets, tsd = library.thirty_seconds_function(collections)
+baca.slur_function(baca.select.tleaves(tuplets))
 baca.make_figures(
     figures,
     "v2",
-    design[4:5],
-    *library.thirty_seconds(),
-    baca.slur(selector=lambda _: baca.select.tleaves(_)),
+    None,
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = design[5:6]
+tuplets, tsd = library.forty_eighths_function(collections)
 baca.make_figures(
     figures,
     "v1",
-    design[5:6],
-    *library.forty_eighths(),
+    None,
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = [["C4"]]
+tuplets, tsd = library.thirty_seconds_function(collections)
+rmakers.force_rest_function(baca.select.lt(tuplets, 0))
 baca.make_figures(
     figures,
     "v1",
-    [["C4"]],
-    *library.thirty_seconds(),
-    rmakers.force_rest(selector=lambda _: baca.select.lt(_, 0)),
+    None,
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
 ### 5 ###
 
+collections = design[:1]
+tuplets, tsd = library.forty_eighths_function(collections)
+baca.extend_beam_function(abjad.select.leaf(tuplets, -1))
 baca.make_figures(
     figures,
     "v1",
-    design[:1],
-    *library.forty_eighths(),
-    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
+    None,
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = design[1:2]
+tuplets, tsd = library.twentieths_function(collections)
+baca.extend_beam_function(abjad.select.leaf(tuplets, -1))
 baca.make_figures(
     figures,
     "v4",
-    design[1:2],
-    *library.twentieths(),
-    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
+    None,
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = design[2:3]
+tuplets, tsd = library.sixteenths_function(collections)
 baca.make_figures(
     figures,
     "v3",
-    design[2:3],
-    *library.sixteenths(),
+    None,
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = design[3:4]
+tuplets, tsd = library.twentieths_function(collections)
+baca.beam_positions_function(tuplets, 6)
+baca.stem_up_function(baca.select.pleaves(tuplets))
 baca.make_figures(
     figures,
     "v4",
-    design[3:4],
-    *library.twentieths(),
-    baca.beam_positions(6),
-    baca.stem_up(selector=lambda _: baca.select.pleaves(_)),
+    None,
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = design[4:5]
+tuplets, tsd = library.thirty_seconds_function(collections)
+baca.slur_function(baca.select.tleaves(tuplets))
 baca.make_figures(
     figures,
     "v2",
-    design[4:5],
-    *library.thirty_seconds(),
-    baca.slur(selector=lambda _: baca.select.tleaves(_)),
+    None,
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = design[5:6]
+tuplets, tsd = library.forty_eighths_function(collections)
 baca.make_figures(
     figures,
     "v1",
-    design[5:6],
-    *library.forty_eighths(),
+    None,
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = [["C4"]]
+tuplets, tsd = library.thirty_seconds_function(collections)
+rmakers.force_rest_function(baca.select.lt(tuplets, 0))
 baca.make_figures(
     figures,
     "v1",
-    [["C4"]],
-    *library.thirty_seconds(),
-    rmakers.force_rest(selector=lambda _: baca.select.lt(_, 0)),
+    None,
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
 ### 6 ###
 
+collections = design[:1]
+tuplets, tsd = library.forty_eighths_function(collections)
 baca.make_figures(
     figures,
     "v1",
-    design[:1],
-    *library.forty_eighths(),
+    None,
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = design[1:2]
+tuplets, tsd = library.twentieths_function(collections)
+baca.extend_beam_function(abjad.select.leaf(tuplets, -1))
 baca.make_figures(
     figures,
     "v4",
-    design[1:2],
-    *library.twentieths(),
-    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
+    None,
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = design[2:3]
+tuplets, tsd = library.sixteenths_function(collections)
 baca.make_figures(
     figures,
     "v3",
-    design[2:3],
-    *library.sixteenths(),
+    None,
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = design[3:4]
+tuplets, tsd = library.twentieths_function(collections)
+baca.beam_positions_function(tuplets, 6)
+baca.stem_up_function(baca.select.pleaves(tuplets))
 baca.make_figures(
     figures,
     "v4",
-    design[3:4],
-    *library.twentieths(),
-    baca.beam_positions(6),
-    baca.stem_up(selector=lambda _: baca.select.pleaves(_)),
+    None,
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = design[4:5]
+tuplets, tsd = library.thirty_seconds_function(collections)
+baca.slur_function(baca.select.tleaves(tuplets))
 baca.make_figures(
     figures,
     "v2",
-    design[4:5],
-    *library.thirty_seconds(),
-    baca.slur(selector=lambda _: baca.select.tleaves(_)),
+    None,
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
 ### rascado ###
 
+tuplets, tsd = library.rests_function(5, (1, 8))
 baca.make_figures(
     figures,
     "v1",
-    [5 * ["C4"]],
-    *library.rests(),
+    None,
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = [13 * ["E2"]]
+tuplets, tsd = library.thirds_function(collections)
+baca.dynamic_function(baca.select.phead(tuplets, 0), "p")
+baca.markup_function(
+    baca.select.pleaf(tuplets, 0),
+    r"\dornen-rascado-explanation-markup",
+    direction=abjad.UP,
+)
+baca.register_function(tuplets, -20)
+for qrun in baca.select.qruns(tuplets):
+    baca.repeat_tie_function(qrun[1:])
+baca.stem_tremolo_function(baca.select.pleaves(tuplets))
 baca.make_figures(
     figures,
     "v1",
-    [13 * ["E2"]],
-    *library.thirds(),
-    baca.dynamic("p", selector=lambda _: baca.select.phead(_, 0)),
-    baca.markup(
-        r"\dornen-rascado-explanation-markup",
-        direction=abjad.UP,
-        selector=lambda _: baca.select.pleaf(_, 0),
-    ),
-    baca.register(-20),
-    baca.new(
-        baca.repeat_tie(
-            selector=lambda _: baca.select.pleaves(_)[1:],
-        ),
-        map=lambda _: baca.select.qruns(_),
-    ),
-    baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
+    None,
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
 voice_names = baca.accumulator.get_voice_names(score)
@@ -405,54 +523,31 @@ figures.populate_commands(score, accumulator)
 
 
 def postprocess(cache):
-    accumulator(
-        ("v1", (1, 41)),
-        baca.beam_positions(10),
-        baca.register(-12),
-        baca.tenuto(selector=lambda _: baca.select.pheads(_)),
-    )
-    accumulator(
-        ("v2", (1, 41)),
-        baca.beam_positions(
-            -5.5,
-            selector=lambda _: baca.select.leaves(_, exclude=baca.enums.HIDDEN),
-        ),
-        baca.register(
-            4,
-            selector=lambda _: baca.select.plts(_),
-        ),
-    )
-    accumulator(
-        ("v3", (1, 41)),
-        baca.accent(
-            selector=lambda _: baca.select.pheads(_, exclude=baca.enums.HIDDEN)
-        ),
-        baca.register(
-            -20,
-            selector=lambda _: baca.select.plts(_),
-        ),
-        baca.script_down(),
-    )
-    accumulator(
-        ("v4", (1, 41)),
-        baca.beam_positions(5.5),
-        baca.register(-4),
-        baca.staccato(
-            selector=lambda _: baca.select.pheads(_, exclude=baca.enums.HIDDEN)
-        ),
-    )
-    accumulator(
-        ("v1", -1),
-        baca.chunk(
-            baca.mark(
-                r"\dornen-colophon-markup", selector=lambda _: abjad.select.leaf(_, 0)
-            ),
-            baca.rehearsal_mark_down(),
-            baca.rehearsal_mark_padding(12),
-            baca.rehearsal_mark_self_alignment_x(abjad.RIGHT),
-            selector=lambda _: baca.select.rleaf(_, -1),
-        ),
-    )
+    m = cache["v1"]
+    with baca.scope(m.get(1, 41)) as o:
+        baca.beam_positions_function(o, 10)
+        baca.register_function(o, -12)
+        baca.tenuto_function(o.pheads())
+    m = cache["v2"]
+    with baca.scope(m.get(1, 41)) as o:
+        baca.beam_positions_function(o, -5.5)
+        baca.register_function(o, 4)
+    m = cache["v3"]
+    with baca.scope(m.get(1, 41)) as o:
+        baca.accent_function(o.pheads())
+        baca.register_function(o, -20)
+        baca.script_down_function(o)
+    m = cache["v4"]
+    with baca.scope(m.get(1, 41)) as o:
+        baca.beam_positions_function(o, 5.5)
+        baca.register_function(o, -4)
+        baca.staccato_function(o.pheads())
+    m = cache["v1"]
+    with baca.scope(m.leaves()) as o:
+        baca.mark_function(o.rleaf(-1), r"\dornen-colophon-markup")
+        baca.rehearsal_mark_down_function(o.rleaf(-1))
+        baca.rehearsal_mark_padding_function(o.rleaf(-1), 12)
+        baca.rehearsal_mark_self_alignment_x_function(o.rleaf(-1), abjad.RIGHT)
 
 
 baca.bar_line_function(score["Skips"][42 - 1], "|.")

@@ -12,119 +12,149 @@ figures = baca.FigureAccumulator(score, library.voice_abbreviations())
 design = library.design_2(start=28)
 assert len(design) == 12, (repr(design), len(design))
 
+collections = design[:1]
+tuplets, tsd = library.ovoids_function(collections)
+baca.beam_positions_function(baca.select.pleaf(tuplets, 0), -7.5)
+baca.register_function(tuplets, -20, -8)
 baca.make_figures(
     figures,
     "v2",
-    design[:1],
-    *library.ovoids(),
-    baca.beam_positions(
-        -7.5,
-        selector=lambda _: baca.select.pleaf(_, 0),
-    ),
-    baca.register(-20, -8),
+    None,
     figure_name="O1",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = design[1:2]
+tuplets, tsd = library.glissando_scatto_function(collections)
+baca.beam_positions_function(tuplets, 8)
 baca.make_figures(
     figures,
     "v1",
-    design[1:2],
-    *library.glissando_scatto(),
-    baca.beam_positions(8),
+    None,
     figure_name="L1",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = design[2:3]
+tuplets, tsd = library.graced_tuplets_function(collections)
+baca.extend_beam_function(abjad.select.leaf(tuplets, -1))
 baca.make_figures(
     figures,
     "v4",
-    design[2:3],
-    *library.graced_tuplets(),
-    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
+    None,
     figure_name="G1",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = design[3:4]
+tuplets, tsd = library.delicatissimo_function(collections)
+baca.beam_positions_function(tuplets, -7.5)
+baca.register_function(tuplets, 4, -20)
 baca.make_figures(
     figures,
     "v3",
-    design[3:4],
-    *library.delicatissimo(),
-    baca.beam_positions(-7.5),
-    baca.register(4, -20),
+    None,
     figure_name="D1",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = design[4:5]
+tuplets, tsd = library.graced_tuplets_function(collections)
 baca.make_figures(
     figures,
     "v4",
-    design[4:5],
-    *library.graced_tuplets(),
+    None,
     figure_name="G2",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = design[5:6]
+tuplets, tsd = library.ovoids_function(collections)
+baca.beam_positions_function(baca.select.pleaf(tuplets, 0), -7.5)
+baca.extend_beam_function(abjad.select.leaf(tuplets, -1))
 baca.make_figures(
     figures,
     "v2",
-    design[5:6],
-    *library.ovoids(),
-    baca.beam_positions(
-        -7.5,
-        selector=lambda _: baca.select.pleaf(_, 0),
-    ),
-    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
+    None,
     figure_name="O2",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = design[6:7]
+tuplets, tsd = library.glissando_scatto_function(collections)
+baca.beam_positions_function(tuplets, 12)
+baca.extend_beam_function(abjad.select.leaf(tuplets, -1))
 baca.make_figures(
     figures,
     "v1",
-    design[6:7],
-    *library.glissando_scatto(),
-    baca.beam_positions(12),
-    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
+    None,
     figure_name="L2",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = design[7:8]
+tuplets, tsd = library.graced_tuplets_function(collections)
+baca.extend_beam_function(abjad.select.leaf(tuplets, -1))
 baca.make_figures(
     figures,
     "v4",
-    design[7:8],
-    *library.graced_tuplets(),
-    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
+    None,
     figure_name="G3",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = design[8:9]
+tuplets, tsd = library.delicatissimo_function(collections)
+baca.beam_positions_function(tuplets, -6)
+baca.register_function(tuplets, 4, -20)
 baca.make_figures(
     figures,
     "v3",
-    design[8:9],
-    *library.delicatissimo(),
-    baca.beam_positions(-6),
-    baca.register(4, -20),
+    None,
     figure_name="D2",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = design[9:10]
+tuplets, tsd = library.graced_tuplets_function(collections)
 baca.make_figures(
     figures,
     "v4",
-    design[9:10],
-    *library.graced_tuplets(),
+    None,
     figure_name="G4",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = design[10:11]
+tuplets, tsd = library.ovoids_function(collections)
 baca.make_figures(
     figures,
     "v2",
-    design[10:11],
-    *library.ovoids(),
+    None,
     figure_name="O3",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = design[11:12]
+tuplets, tsd = library.glissando_scatto_function(collections)
 baca.make_figures(
     figures,
     "v1",
-    design[11:12],
-    *library.glissando_scatto(),
+    None,
     figure_name="L3",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
 voice_names = baca.accumulator.get_voice_names(score)
@@ -156,28 +186,17 @@ baca.metronome_mark_function(skips[1 - 1], accumulator.metronome_marks["66"], ma
 
 
 def postprocess(cache):
-    accumulator(
-        ("v1", (1, 12)),
-        baca.register(-8),
-        baca.displacement([0, 1]),
-    )
-    accumulator(
-        ("v2", (1, 12)),
-        baca.register(
-            -20,
-            4,
-            selector=lambda _: baca.select.plts(_),
-        ),
-    )
-    accumulator(
-        ("v4", (1, 12)),
-        baca.beam_positions(8),
-        baca.register(
-            -18,
-            6,
-            selector=lambda _: baca.select.plts(_),
-        ),
-    )
+    m = cache["v1"]
+    with baca.scope(m.get(1, 12)) as o:
+        baca.register_function(o, -8)
+        baca.displacement_function(o, [0, 1])
+    m = cache["v2"]
+    with baca.scope(m.get(1, 12)) as o:
+        baca.register_function(o, -20, 4)
+    m = cache["v4"]
+    with baca.scope(m.get(1, 12)) as o:
+        baca.beam_positions_function(o, 8)
+        baca.register_function(o, -18, 6)
 
 
 defaults = baca.interpret.section_defaults()

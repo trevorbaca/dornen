@@ -535,18 +535,47 @@ def graced_tuplets():
         tsd=14,
         treatments=["7:8"],
     )
-
     maker_2 = baca.figure(
         [1],
         16,
         acciaccatura=baca.lmr(left_length=1, right_counts=[2], right_cyclic=True),
         treatments=["7:5"],
     )
-
     return [
         baca.bind([baca.assign(maker_1, abjad.index([0], 2)), baca.assign(maker_2)]),
         rmakers.beam_groups(beam_lone_notes=True),
     ]
+
+
+def graced_tuplets_function(collections):
+    tuplets = []
+    for i, collection in enumerate(collections):
+        if i % 2 == 0:
+            tuplets_ = baca.figure_function(
+                [collection],
+                [1],
+                16,
+                acciaccatura=baca.lmr(
+                    left_length=1, right_counts=[2], right_cyclic=True
+                ),
+                treatments=["7:8"],
+            )
+            tuplets.extend(tuplets_)
+        else:
+            tuplets_ = baca.figure_function(
+                [collection],
+                [1],
+                16,
+                acciaccatura=baca.lmr(
+                    left_length=1, right_counts=[2], right_cyclic=True
+                ),
+                treatments=["7:5"],
+            )
+            tuplets.extend(tuplets_)
+    selector = rmakers.nongrace_leaves_in_each_tuplet(level=-1)
+    groups = selector(tuplets)
+    rmakers.beam_groups_function(groups, beam_lone_notes=True)
+    return tuplets, 14
 
 
 def group_rleaves(argument):

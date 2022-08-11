@@ -12,403 +12,543 @@ figures = baca.FigureAccumulator(score, library.voice_abbreviations())
 design = library.design_1(start=16, stop=38)
 assert len(design) == 22
 
+collections = design[:1]
+tuplets, tsd = library.waves_function(collections, denominator=64, inverted=True)
+baca.register_function(tuplets, 0, -14)
 baca.make_figures(
     figures,
     "v1",
-    design[:1],
-    *library.waves(denominator=64, inverted=True),
-    baca.register(0, -14),
+    None,
     figure_name="W1",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = baca.sequence.reveal(design[5:6], 1)
+tuplets, tsd = library.graced_tuplets_function(collections)
+baca.beam_positions_function(tuplets, 12)
+pleaves = baca.select.pleaves(tuplets)
+baca.stem_up_function(pleaves)
+baca.register_function(tuplets, 0)
+baca.extend_beam_function(abjad.select.leaf(tuplets, -1))
 baca.make_figures(
     figures,
     "v4",
-    baca.sequence.reveal(design[5:6], 1),
-    *library.graced_tuplets(),
-    baca.beam_positions(12),
-    baca.stem_up(selector=lambda _: baca.select.pleaves(_)),
-    baca.register(0),
-    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
+    None,
     figure_name="G1_1",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = design[1:2]
+tuplets, tsd = library.ovoids_function(collections)
+pleaf = baca.select.pleaf(tuplets, 0)
+baca.beam_positions_function(pleaf, -8)
+baca.register_function(tuplets, -14, -6)
+leaf = abjad.select.leaf(tuplets, -1)
+baca.extend_beam_function(leaf)
 baca.make_figures(
     figures,
     "v2",
-    design[1:2],
-    *library.ovoids(),
-    baca.beam_positions(
-        -8,
-        selector=lambda _: baca.select.pleaf(_, 0),
-    ),
-    baca.register(-14, -6),
-    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
+    None,
     figure_name="O1",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = baca.sequence.reveal(design[5:6], 1)
+tuplets, tsd = library.graced_tuplets_function(collections)
+pleaves = baca.select.pleaves(tuplets)
+baca.stem_up_function(pleaves)
+baca.register_function(tuplets, 0)
+leaf = abjad.select.leaf(tuplets, -1)
+baca.extend_beam_function(leaf)
 baca.make_figures(
     figures,
     "v4",
-    baca.sequence.reveal(design[5:6], 1),
-    *library.graced_tuplets(),
-    baca.stem_up(selector=lambda _: baca.select.pleaves(_)),
-    baca.register(0),
-    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
+    None,
     figure_name="G1_1*",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = baca.sequence.boustrophedon(design[2:3], count=2)
+tuplets, tsd = library.waves_function(collections, denominator=64, inverted=True)
+baca.beam_positions_function(tuplets, 7)
+baca.register_function(tuplets, 0, -14)
 baca.make_figures(
     figures,
     "v1",
-    baca.sequence.boustrophedon(design[2:3], count=2),
-    *library.waves(denominator=64, inverted=True),
-    baca.beam_positions(7),
-    baca.register(0, -14),
+    None,
     figure_name="W2",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = baca.sequence.reveal(design[5:6], 3)
+tuplets, tsd = library.graced_tuplets_function(collections)
+pleaves = baca.select.pleaves(tuplets)
+baca.stem_up_function(pleaves)
+baca.register_function(tuplets, 0)
+leaf = abjad.select.leaf(tuplets, -1)
+baca.extend_beam_function(leaf)
 baca.make_figures(
     figures,
     "v4",
-    baca.sequence.reveal(design[5:6], 3),
-    *library.graced_tuplets(),
-    baca.stem_up(selector=lambda _: baca.select.pleaves(_)),
-    baca.register(0),
-    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
+    None,
     figure_name="G1_2",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = design[3:4]
+tuplets, tsd = library.ovoids_function(collections)
+baca.text_script_color_function(tuplets, "#red")
+baca.register_function(tuplets, -14, -6)
 baca.make_figures(
     figures,
     "v2",
-    design[3:4],
-    *library.ovoids(),
-    baca.text_script_color("#red"),
-    baca.register(-14, -6),
+    None,
     figure_name="O2",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = baca.sequence.reveal(design[5:6], 3)
+tuplets, tsd = library.graced_tuplets_function(collections)
+pleaves = baca.select.pleaves(tuplets)
+baca.stem_up_function(pleaves)
+baca.register_function(tuplets, 0)
 baca.make_figures(
     figures,
     "v4",
-    baca.sequence.reveal(design[5:6], 3),
-    *library.graced_tuplets(),
-    baca.stem_up(selector=lambda _: baca.select.pleaves(_)),
-    baca.register(0),
+    None,
     figure_name="G1_3",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
 cell_d1 = [abjad.sequence.flatten(baca.sequence.boustrophedon(design[4:5], count=4))]
-
+collections = baca.sequence.reveal(cell_d1, 4)
+tuplets, tsd = library.delicatissimo_function(collections)
+baca.beam_positions_function(tuplets, -6.5)
+pleaves = baca.select.pleaves(tuplets)
+baca.stem_down_function(pleaves)
+leaf = abjad.select.leaf(tuplets, -1)
+baca.extend_beam_function(leaf)
 baca.make_figures(
     figures,
     "v1",
-    baca.sequence.reveal(cell_d1, 4),
-    *library.delicatissimo(),
-    baca.beam_positions(-6.5),
-    baca.stem_down(selector=lambda _: baca.select.pleaves(_)),
-    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
+    None,
     figure_name="D1_1",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = baca.sequence.reveal(design[5:6], 1)
+tuplets, tsd = library.graced_tuplets_function(collections)
+baca.beam_positions_function(tuplets, 12)
+pleaves = baca.select.pleaves(tuplets)
+baca.stem_up_function(pleaves)
+baca.register_function(tuplets, 0)
+leaf = abjad.select.leaf(tuplets, -1)
+baca.extend_beam_function(leaf)
 baca.make_figures(
     figures,
     "v4",
-    baca.sequence.reveal(design[5:6], 1),
-    *library.graced_tuplets(),
-    baca.beam_positions(12),
-    baca.stem_up(selector=lambda _: baca.select.pleaves(_)),
-    baca.register(0),
-    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
+    None,
     figure_name="G1_4",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = baca.sequence.reveal(cell_d1, 3)
+tuplets, tsd = library.delicatissimo_function(collections)
+baca.beam_positions_function(tuplets, -6.5)
+pleaves = baca.select.pleaves(tuplets)
+baca.stem_down_function(pleaves)
+leaf = abjad.select.leaf(tuplets, -1)
+baca.extend_beam_function(leaf)
 baca.make_figures(
     figures,
     "v1",
-    baca.sequence.reveal(cell_d1, 3),
-    *library.delicatissimo(),
-    baca.beam_positions(-6.5),
-    baca.stem_down(selector=lambda _: baca.select.pleaves(_)),
-    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
+    None,
     figure_name="D1_2",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = baca.sequence.reveal(design[5:6], 5)
+tuplets, tsd = library.graced_tuplets_function(collections)
+pleaves = baca.select.pleaves(tuplets)
+baca.stem_up_function(pleaves)
+baca.register_function(tuplets, 0)
+leaf = abjad.select.leaf(tuplets, -1)
+baca.extend_beam_function(leaf)
 baca.make_figures(
     figures,
     "v4",
-    baca.sequence.reveal(design[5:6], 5),
-    *library.graced_tuplets(),
-    baca.stem_up(selector=lambda _: baca.select.pleaves(_)),
-    baca.register(0),
-    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
+    None,
     figure_name="G1_5",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = baca.sequence.reveal(cell_d1, 10)
+tuplets, tsd = library.delicatissimo_function(collections)
+baca.beam_positions_function(tuplets, -6.5)
+pleaves = baca.select.pleaves(tuplets)
+baca.stem_down_function(tuplets)
 baca.make_figures(
     figures,
     "v1",
-    baca.sequence.reveal(cell_d1, 10),
-    *library.delicatissimo(),
-    baca.beam_positions(-6.5),
-    baca.stem_down(selector=lambda _: baca.select.pleaves(_)),
+    None,
     figure_name="D1_3",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = design[1:2]
+tuplets, tsd = library.ovoids_function(collections)
+pleaf = baca.select.pleaf(tuplets, 0)
+baca.beam_positions_function(pleaf, -8)
+baca.register_function(tuplets, -14, -6)
+leaf = abjad.select.leaf(tuplets, -1)
+baca.extend_beam_function(leaf)
 baca.make_figures(
     figures,
     "v2",
-    design[1:2],
-    *library.ovoids(),
-    baca.beam_positions(
-        -8,
-        selector=lambda _: baca.select.pleaf(_, 0),
-    ),
-    baca.register(-14, -6),
-    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
+    None,
     figure_name="O1*",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = baca.sequence.reveal(design[5:6], 3)
+tuplets, tsd = library.graced_tuplets_function(collections)
+pleaves = baca.select.pleaves(tuplets)
+baca.stem_up_function(pleaves)
+baca.register_function(tuplets, 0)
+leaf = abjad.select.leaf(tuplets, -1)
+baca.extend_beam_function(leaf)
 baca.make_figures(
     figures,
     "v4",
-    baca.sequence.reveal(design[5:6], 3),
-    *library.graced_tuplets(),
-    baca.stem_up(selector=lambda _: baca.select.pleaves(_)),
-    baca.register(0),
-    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
+    None,
     figure_name="G1_6",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = [
+    abjad.sequence.flatten(baca.sequence.boustrophedon(design[2:3], count=2))
+]
+tuplets, tsd = library.waves_function(collections, denominator=64)
+baca.beam_positions_function(tuplets, 7)
+pleaves = baca.select.pleaves(tuplets)
+baca.stem_up_function(pleaves)
+baca.register_function(tuplets, 0, -14)
 baca.make_figures(
     figures,
     "v1",
-    [abjad.sequence.flatten(baca.sequence.boustrophedon(design[2:3], count=2))],
-    *library.waves(denominator=64),
-    baca.beam_positions(7),
-    baca.stem_up(selector=lambda _: baca.select.pleaves(_)),
-    baca.register(0, -14),
+    None,
     figure_name="W2*",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = baca.sequence.reveal(cell_d1, 15)
+tuplets, tsd = library.delicatissimo_function(collections)
+baca.beam_positions_function(tuplets, -6.5)
+pleaves = baca.select.pleaves(tuplets)
+baca.stem_down_function(pleaves)
+leaf = abjad.select.leaf(tuplets, -1)
+baca.extend_beam_function(leaf)
 baca.make_figures(
     figures,
     "v1",
-    baca.sequence.reveal(cell_d1, 15),
-    *library.delicatissimo(),
-    baca.beam_positions(-6.5),
-    baca.stem_down(selector=lambda _: baca.select.pleaves(_)),
-    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
+    None,
     figure_name="D1_4",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = baca.sequence.reveal(design[5:6], 9)
+tuplets, tsd = library.graced_tuplets_function(collections)
+baca.beam_positions_function(tuplets, 6)
+pleaves = baca.select.pleaves(tuplets)
+baca.stem_up_function(pleaves)
+baca.register_function(tuplets, 0, -14)
+leaf = abjad.select.leaf(tuplets, -1)
+baca.extend_beam_function(leaf)
 baca.make_figures(
     figures,
     "v4",
-    baca.sequence.reveal(design[5:6], 9),
-    *library.graced_tuplets(),
-    baca.beam_positions(6),
-    baca.stem_up(selector=lambda _: baca.select.pleaves(_)),
-    baca.register(0, -14),
-    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
+    None,
     figure_name="G1_7",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = baca.sequence.reveal(cell_d1, 6)
+tuplets, tsd = library.delicatissimo_function(collections)
+baca.beam_positions_function(tuplets, -6.5)
+pleaves = baca.select.pleaves(tuplets)
+baca.stem_down_function(pleaves)
 baca.make_figures(
     figures,
     "v1",
-    baca.sequence.reveal(cell_d1, 6),
-    *library.delicatissimo(),
-    baca.beam_positions(-6.5),
-    baca.stem_down(selector=lambda _: baca.select.pleaves(_)),
+    None,
     figure_name="D1_5",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = design[3:4]
+tuplets, tsd = library.ovoids_function(collections)
+baca.text_script_color_function(tuplets, "#red")
+baca.register_function(tuplets, -14, -6)
 baca.make_figures(
     figures,
     "v2",
-    design[3:4],
-    *library.ovoids(),
-    baca.text_script_color("#red"),
-    baca.register(-14, -6),
+    None,
     figure_name="O2*",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = [
+    list(_) for _ in abjad.sequence.flatten(abjad.sequence.repeat(design[5:6], n=2))
+]
+tuplets, tsd = library.graced_tuplets_function(collections)
+baca.beam_positions_function(tuplets, 6)
+pleaves = baca.select.pleaves(tuplets)
+baca.stem_up_function(pleaves)
+baca.register_function(tuplets, 0, -14)
 baca.make_figures(
     figures,
     "v4",
-    [list(_) for _ in abjad.sequence.flatten(abjad.sequence.repeat(design[5:6], n=2))],
-    *library.graced_tuplets(),
-    baca.beam_positions(6),
-    baca.stem_up(selector=lambda _: baca.select.pleaves(_)),
-    baca.register(0, -14),
+    None,
     figure_name="G1_8",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = design[1:2]
+tuplets, tsd = library.ovoids_function(collections)
+pleaf = baca.select.pleaf(tuplets, 0)
+baca.beam_positions_function(pleaf, -8)
+baca.register_function(tuplets, -14, -6)
+leaf = abjad.select.leaf(tuplets, -1)
+baca.extend_beam_function(leaf)
 baca.make_figures(
     figures,
     "v2",
-    design[1:2],
-    *library.ovoids(),
-    baca.beam_positions(
-        -8,
-        selector=lambda _: baca.select.pleaf(_, 0),
-    ),
-    baca.register(-14, -6),
-    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
+    None,
     figure_name="O1**",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = baca.sequence.reveal(cell_d1, 10)
+tuplets, tsd = library.delicatissimo_function(collections)
+baca.beam_positions_function(tuplets, -6.5)
+pleaves = baca.select.pleaves(tuplets)
+baca.stem_down_function(pleaves)
 baca.make_figures(
     figures,
     "v1",
-    baca.sequence.reveal(cell_d1, 10),
-    *library.delicatissimo(),
-    baca.beam_positions(-6.5),
-    baca.stem_down(selector=lambda _: baca.select.pleaves(_)),
+    None,
     figure_name="D1_6",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = baca.sequence.reveal(cell_d1, -15)
+tuplets, tsd = library.delicatissimo_function(collections)
+baca.beam_positions_function(tuplets, -6.5)
+tuplets = baca.nest_function(tuplets, [abjad.Multiplier((2, 3))])
+pleaves = baca.select.pleaves(tuplets)
+baca.stem_down_function(pleaves)
+baca.tuplet_bracket_up_function(tuplets)
 baca.make_figures(
     figures,
     "v1",
-    baca.sequence.reveal(cell_d1, -15),
-    *library.delicatissimo(),
-    baca.beam_positions(-6.5),
-    baca.nest([abjad.Multiplier((2, 3))]),
-    baca.stem_down(selector=lambda _: baca.select.pleaves(_)),
-    baca.tuplet_bracket_up(),
+    None,
     figure_name="D1_7",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = design[6:7]
+tuplets, tsd = library.delicatissimo_function(collections)
+baca.beam_positions_function(tuplets, -6.5)
+pleaves = baca.select.pleaves(tuplets)
+baca.stem_down_function(pleaves)
+baca.register_function(tuplets, 6, -20)
 baca.make_figures(
     figures,
     "v1",
-    design[6:7],
-    *library.delicatissimo(),
-    baca.beam_positions(-6.5),
-    baca.stem_down(selector=lambda _: baca.select.pleaves(_)),
-    baca.register(6, -20),
+    None,
     figure_name="D2",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = design[3:4]
+tuplets, tsd = library.ovoids_function(collections)
+baca.text_script_color_function(tuplets, "#red")
+baca.register_function(tuplets, -14, -6)
+leaf = abjad.select.leaf(tuplets, -1)
+baca.extend_beam_function(leaf)
 baca.make_figures(
     figures,
     "v2",
-    design[3:4],
-    *library.ovoids(),
-    baca.text_script_color("#red"),
-    baca.register(-14, -6),
-    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
+    None,
     figure_name="O2**",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = abjad.sequence.join(design[7:9])
+tuplets, tsd = library.ovoids_function(collections)
+baca.register_function(tuplets, -14, -6)
 baca.make_figures(
     figures,
     "v2",
-    abjad.sequence.join(design[7:9]),
-    *library.ovoids(),
-    baca.register(-14, -6),
+    None,
     figure_name="O3",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = abjad.sequence.join(design[9:11])
+tuplets, tsd = library.ovoids_function(collections)
+pleaf = baca.select.pleaf(tuplets, 0)
+baca.beam_positions_function(pleaf, -8)
+baca.register_function(tuplets, -14, -6)
+leaf = abjad.select.leaf(tuplets, -1)
+baca.extend_beam_function(leaf)
 baca.make_figures(
     figures,
     "v2",
-    abjad.sequence.join(design[9:11]),
-    *library.ovoids(),
-    baca.beam_positions(
-        -8,
-        selector=lambda _: baca.select.pleaf(_, 0),
-    ),
-    baca.register(-14, -6),
-    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
+    None,
     figure_name="O4",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = abjad.sequence.join(design[11:13])
+tuplets, tsd = library.ovoids_function(collections)
+baca.register_function(tuplets, -14, -6)
+leaf = abjad.select.leaf(tuplets, -1)
+baca.extend_beam_function(leaf)
 baca.make_figures(
     figures,
     "v2",
-    abjad.sequence.join(design[11:13]),
-    *library.ovoids(),
-    baca.register(-14, -6),
-    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
+    None,
     figure_name="O5",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = abjad.sequence.join(design[13:15])
+tuplets, tsd = library.ovoids_function(collections)
+baca.register_function(tuplets, -14, -6)
+leaf = abjad.select.leaf(tuplets, -1)
+baca.extend_beam_function(leaf)
 baca.make_figures(
     figures,
     "v2",
-    abjad.sequence.join(design[13:15]),
-    *library.ovoids(),
-    baca.register(-14, -6),
-    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
+    None,
     figure_name="O6",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = abjad.sequence.join(design[15:17])
+tuplets, tsd = library.ovoids_function(collections)
+baca.register_function(tuplets, -14, -6)
 baca.make_figures(
     figures,
     "v2",
-    abjad.sequence.join(design[15:17]),
-    *library.ovoids(),
-    baca.register(-14, -6),
+    None,
     figure_name="O7",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = abjad.sequence.join(design[17:19])
+tuplets, tsd = library.ovoids_function(collections)
+pleaf = baca.select.pleaf(tuplets, 0)
+baca.beam_positions_function(pleaf, -8)
+baca.register_function(tuplets, -14, -6)
+leaf = abjad.select.leaf(tuplets, -1)
+baca.extend_beam_function(leaf)
 baca.make_figures(
     figures,
     "v2",
-    abjad.sequence.join(design[17:19]),
-    *library.ovoids(),
-    baca.beam_positions(
-        -8,
-        selector=lambda _: baca.select.pleaf(_, 0),
-    ),
-    baca.register(-14, -6),
-    baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
+    None,
     figure_name="O8",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = [
+    abjad.sequence.flatten(baca.sequence.boustrophedon(design[2:3], count=2))
+]
+tuplets, tsd = library.waves_function(collections, denominator=64)
+baca.beam_positions_function(tuplets, 7)
+pleaves = baca.select.pleaves(tuplets)
+baca.stem_up_function(pleaves)
+baca.register_function(tuplets, 0, -14)
 baca.make_figures(
     figures,
     "v1",
-    [abjad.sequence.flatten(baca.sequence.boustrophedon(design[2:3], count=2))],
-    *library.waves(denominator=64),
-    baca.beam_positions(7),
-    baca.stem_up(selector=lambda _: baca.select.pleaves(_)),
-    baca.register(0, -14),
+    None,
     figure_name="W2**",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = design[6:7]
+tuplets, tsd = library.delicatissimo_function(collections)
+baca.beam_positions_function(tuplets, -6.5)
+pleaves = baca.select.pleaves(tuplets)
+baca.stem_down_function(pleaves)
+baca.register_function(tuplets, 6, -20)
 baca.make_figures(
     figures,
     "v1",
-    design[6:7],
-    *library.delicatissimo(),
-    baca.beam_positions(-6.5),
-    baca.stem_down(selector=lambda _: baca.select.pleaves(_)),
-    baca.register(6, -20),
+    None,
     figure_name="D2*",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = abjad.sequence.join(design[19:21])
+tuplets, tsd = library.ovoids_function(collections)
+baca.register_function(tuplets, -14, -6)
+# baca.extend_beam_function(abjad.select.leaf(tuplets, -1))
 baca.make_figures(
     figures,
     "v2",
-    abjad.sequence.join(design[19:21]),
-    *library.ovoids(),
-    baca.register(-14, -6),
-    # baca.extend_beam(selector=lambda _: abjad.select.leaf(_, -1)),
+    None,
     figure_name="O9",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
+collections = design[21:22]
+tuplets, tsd = library.ovoids_function(collections)
+baca.register_function(tuplets, -14, -6)
 baca.make_figures(
     figures,
     "v2",
-    design[21:22],
-    *library.ovoids(),
-    baca.register(-14, -6),
+    None,
     figure_name="O10",
+    tsd=tsd,
+    tuplets=tuplets,
 )
 
 assert len(design) == 22

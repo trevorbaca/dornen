@@ -370,14 +370,6 @@ class DesignMaker:
         self._result.extend(parts)
 
 
-def delicatissimo():
-    return [
-        baca.figure([1], 32, tsd=32),
-        rmakers.beam_groups(),
-        baca.staccato(selector=lambda _: baca.select.pheads(_)),
-    ]
-
-
 def delicatissimo_function(collections):
     tuplets = baca.figure_function(collections, [1], 32)
     groups = rmakers.nongrace_leaves_in_each_tuplet_function(tuplets)
@@ -479,13 +471,6 @@ def design_3(start=None, stop=None):
     return pitch_lists
 
 
-def dotted_eighths():
-    return [
-        baca.figure([3], 16, tsd=8),
-        rmakers.beam(beam_lone_notes=True),
-    ]
-
-
 def dotted_eighths_function(collections):
     tuplets = baca.figure_function(collections, [3], 16)
     groups = rmakers.nongrace_leaves_in_each_tuplet_function(tuplets)
@@ -493,23 +478,11 @@ def dotted_eighths_function(collections):
     return tuplets, 8
 
 
-def forty_eighths():
-    return [baca.figure([3], 64, tsd=32), rmakers.beam()]
-
-
 def forty_eighths_function(collections):
     tuplets = baca.figure_function(collections, [3], 64)
     groups = rmakers.nongrace_leaves_in_each_tuplet_function(tuplets)
     rmakers.beam_function(groups)
     return tuplets, 32
-
-
-def glissando_scatto():
-    return [
-        baca.figure([2, 2, 2, 1, 2, 2, 2], 32, tsd=16, treatments=[-2]),
-        rmakers.beam_groups(),
-        baca.glissando(map=lambda _: baca.select.ntruns(_)),
-    ]
 
 
 def glissando_scatto_function(collections):
@@ -521,26 +494,6 @@ def glissando_scatto_function(collections):
     for ntrun in baca.select.ntruns(tuplets):
         baca.glissando_function(ntrun)
     return tuplets, 16
-
-
-def graced_tuplets():
-    maker_1 = baca.figure(
-        [1],
-        16,
-        acciaccatura=baca.lmr(left_length=1, right_counts=[2], right_cyclic=True),
-        tsd=14,
-        treatments=["7:8"],
-    )
-    maker_2 = baca.figure(
-        [1],
-        16,
-        acciaccatura=baca.lmr(left_length=1, right_counts=[2], right_cyclic=True),
-        treatments=["7:5"],
-    )
-    return [
-        baca.bind([baca.assign(maker_1, abjad.index([0], 2)), baca.assign(maker_2)]),
-        rmakers.beam_groups(beam_lone_notes=True),
-    ]
 
 
 def graced_tuplets_function(collections):
@@ -580,7 +533,7 @@ def group_rleaves(argument):
 
 
 def instruments():
-    return dict([("Guitar", abjad.Guitar(pitch_range=abjad.PitchRange("[E2, F5]")))])
+    return {"Guitar": abjad.Guitar(pitch_range=abjad.PitchRange("[E2, F5]"))}
 
 
 def make_empty_score():
@@ -630,28 +583,15 @@ def make_empty_score():
 
 
 def metronome_marks():
-    return dict(
-        [
-            ("44", abjad.MetronomeMark((1, 8), 44)),
-            ("66", abjad.MetronomeMark((1, 8), 66)),
-        ]
-    )
-
-
-def monads():
-    return [baca.figure([1], 2, tsd=5, treatments=["5:4"])]
+    return {
+        "44": abjad.MetronomeMark((1, 8), 44),
+        "66": abjad.MetronomeMark((1, 8), 66),
+    }
 
 
 def monads_function(collections):
     tuplets = baca.figure_function(collections, [1], 2, treatments=["5:4"])
     return tuplets, 5
-
-
-def ovoids():
-    return [
-        baca.figure([6, 1], 32, acciaccatura=baca.lmr(left_length=1)),
-        rmakers.beam_groups(),
-    ]
 
 
 def ovoids_function(collections):
@@ -661,18 +601,6 @@ def ovoids_function(collections):
     groups = rmakers.nongrace_leaves_in_each_tuplet_function(tuplets)
     rmakers.beam_groups_function(groups)
     return tuplets, None
-
-
-def passepied():
-    return [
-        baca.bind(
-            [
-                baca.assign(baca.figure([1], 16), ~abjad.index([0])),
-                baca.assign(baca.figure([1], 32, acciaccatura=True)),
-            ]
-        ),
-        rmakers.beam_groups(beam_lone_notes=True),
-    ]
 
 
 def passepied_function(collections):
@@ -687,34 +615,12 @@ def passepied_function(collections):
     return tuplets, None
 
 
-def rests(duration=None):
-    duration = duration or abjad.Duration(1, 8)
-    return [
-        baca.figure(
-            [duration.numerator],
-            duration.denominator,
-            tsd=duration.denominator,
-        ),
-        rmakers.force_rest(
-            lambda _: baca.select.lts(_),
-        ),
-    ]
-
-
 def rests_function(count, duration):
     numerator, denominator = duration
     tuplets = baca.figure_function([count * [1]], [numerator], denominator)
     lts = baca.select.lts(tuplets)
     rmakers.force_rest_function(lts)
     return tuplets, denominator
-
-
-def running():
-    return [
-        baca.figure([1], 64, treatments=[-1]),
-        rmakers.beam_groups(),
-        baca.slur(map=_select_nontrivial_tuplets),
-    ]
 
 
 def running_function(collections):
@@ -726,26 +632,11 @@ def running_function(collections):
     return tuplets, None
 
 
-def sixteenths():
-    return [
-        baca.figure([1], 16, tsd=16),
-        rmakers.beam(beam_lone_notes=True),
-    ]
-
-
 def sixteenths_function(collections):
     tuplets = baca.figure_function(collections, [1], 16)
     groups = rmakers.nongrace_leaves_in_each_tuplet_function(tuplets)
     rmakers.beam_function(groups, beam_lone_notes=True)
     return tuplets, 16
-
-
-def sixty_fourths():
-    return [
-        baca.figure([1], 64, tsd=64),
-        rmakers.beam_groups(),
-        baca.staccato(selector=lambda _: baca.select.pheads(_)),
-    ]
 
 
 def sixty_fourths_function(collections):
@@ -756,17 +647,9 @@ def sixty_fourths_function(collections):
     return tuplets, 64
 
 
-def thirds():
-    return [baca.figure([1], 2, tsd=3, treatments=["3:2"])]
-
-
 def thirds_function(collections):
     tuplets = baca.figure_function(collections, [1], 2, treatments=["3:2"])
     return tuplets, 3
-
-
-def thirty_seconds():
-    return [baca.figure([1], 32, tsd=32), rmakers.beam_groups()]
 
 
 def thirty_seconds_function(collections):
@@ -776,25 +659,11 @@ def thirty_seconds_function(collections):
     return tuplets, 32
 
 
-def twentieths():
-    return [
-        baca.figure([1], 16, tsd=20, treatments=["5:4"]),
-        rmakers.beam(beam_lone_notes=True),
-    ]
-
-
 def twentieths_function(collections):
     tuplets = baca.figure_function(collections, [1], 16, treatments=["5:4"])
     groups = rmakers.nongrace_leaves_in_each_tuplet_function(tuplets)
     rmakers.beam_function(groups, beam_lone_notes=True)
     return tuplets, 20
-
-
-def twenty_eighths():
-    return [
-        baca.figure([1], 16, tsd=28, treatments=["7:4"]),
-        rmakers.beam(),
-    ]
 
 
 def twenty_eighths_function(collections):
@@ -804,43 +673,11 @@ def twenty_eighths_function(collections):
     return tuplets, 28
 
 
-def twenty_fourths():
-    return [
-        baca.figure([1], 16, tsd=24, treatments=["3:2"]),
-        rmakers.beam(beam_lone_notes=True),
-    ]
-
-
 def twenty_fourths_function(collections):
     tuplets = baca.figure_function(collections, [1], 16, treatments=["3:2"])
     groups = rmakers.nongrace_leaves_in_each_tuplet_function(tuplets)
     rmakers.beam_function(groups, beam_lone_notes=True)
     return tuplets, 24
-
-
-def waves(denominator: int = 64, inverted: bool = False):
-    assert abjad.math.is_positive_integer_power_of_two(denominator)
-    assert 16 <= denominator, repr(denominator)
-    accelerando_maker = baca.figure(
-        [1], denominator, tsd=denominator, treatments=["accel"]
-    )
-    ritardando_maker = baca.figure(
-        [1], denominator, tsd=denominator, treatments=["rit"]
-    )
-    maker_1 = accelerando_maker
-    maker_2 = ritardando_maker
-    if inverted:
-        maker_1 = ritardando_maker
-        maker_2 = accelerando_maker
-    return [
-        baca.bind(
-            [
-                baca.assign(maker_1, pattern=abjad.index([0], 2)),
-                baca.assign(maker_2, pattern=abjad.index([1], 2)),
-            ]
-        ),
-        rmakers.beam(),
-    ]
 
 
 def waves_function(collections, denominator: int = 64, inverted: bool = False):

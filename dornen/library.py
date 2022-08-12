@@ -380,8 +380,7 @@ def delicatissimo():
 
 def delicatissimo_function(collections):
     tuplets = baca.figure_function(collections, [1], 32)
-    selector = rmakers.nongrace_leaves_in_each_tuplet(level=-1)
-    groups = selector(tuplets)
+    groups = rmakers.nongrace_leaves_in_each_tuplet_function(tuplets)
     rmakers.beam_groups_function(groups)
     pheads = baca.select.pheads(tuplets)
     baca.staccato_function(pheads)
@@ -489,8 +488,7 @@ def dotted_eighths():
 
 def dotted_eighths_function(collections):
     tuplets = baca.figure_function(collections, [3], 16)
-    selector = rmakers.nongrace_leaves_in_each_tuplet(level=-1)
-    groups = selector(tuplets)
+    groups = rmakers.nongrace_leaves_in_each_tuplet_function(tuplets)
     rmakers.beam_function(groups, beam_lone_notes=True)
     return tuplets, 8
 
@@ -501,8 +499,7 @@ def forty_eighths():
 
 def forty_eighths_function(collections):
     tuplets = baca.figure_function(collections, [3], 64)
-    selector = rmakers.nongrace_leaves_in_each_tuplet(level=-1)
-    groups = selector(tuplets)
+    groups = rmakers.nongrace_leaves_in_each_tuplet_function(tuplets)
     rmakers.beam_function(groups)
     return tuplets, 32
 
@@ -519,8 +516,7 @@ def glissando_scatto_function(collections):
     tuplets = baca.figure_function(
         collections, [2, 2, 2, 1, 2, 2, 2], 32, treatments=[-2]
     )
-    selector = rmakers.nongrace_leaves_in_each_tuplet(level=-1)
-    groups = selector(tuplets)
+    groups = rmakers.nongrace_leaves_in_each_tuplet_function(tuplets)
     rmakers.beam_groups_function(groups)
     for ntrun in baca.select.ntruns(tuplets):
         baca.glissando_function(ntrun)
@@ -572,8 +568,7 @@ def graced_tuplets_function(collections):
                 treatments=["7:5"],
             )
             tuplets.extend(tuplets_)
-    selector = rmakers.nongrace_leaves_in_each_tuplet(level=-1)
-    groups = selector(tuplets)
+    groups = rmakers.nongrace_leaves_in_each_tuplet_function(tuplets)
     rmakers.beam_groups_function(groups, beam_lone_notes=True)
     return tuplets, 14
 
@@ -663,8 +658,7 @@ def ovoids_function(collections):
     tuplets = baca.figure_function(
         collections, [6, 1], 32, acciaccatura=baca.lmr(left_length=1)
     )
-    selector = rmakers.nongrace_leaves_in_each_tuplet(level=-1)
-    groups = selector(tuplets)
+    groups = rmakers.nongrace_leaves_in_each_tuplet_function(tuplets)
     rmakers.beam_groups_function(groups)
     return tuplets, None
 
@@ -688,8 +682,7 @@ def passepied_function(collections):
     for collection in collections[1:]:
         tuplets_ = baca.figure_function(collection, [1], 16)
         tuplets.extend(tuplets_)
-    selector = rmakers.nongrace_leaves_in_each_tuplet(level=-1)
-    groups = selector(tuplets)
+    groups = rmakers.nongrace_leaves_in_each_tuplet_function(tuplets)
     rmakers.beam_groups_function(groups, beam_lone_notes=True)
     return tuplets, None
 
@@ -726,8 +719,7 @@ def running():
 
 def running_function(collections):
     tuplets = baca.figure_function(collections, [1], 64, treatments=[-1])
-    selector = rmakers.nongrace_leaves_in_each_tuplet(level=-1)
-    groups = selector(tuplets)
+    groups = rmakers.nongrace_leaves_in_each_tuplet_function(tuplets)
     rmakers.beam_groups_function(groups)
     for tuplet in _select_nontrivial_tuplets(tuplets):
         baca.slur_function(tuplet)
@@ -743,8 +735,7 @@ def sixteenths():
 
 def sixteenths_function(collections):
     tuplets = baca.figure_function(collections, [1], 16)
-    selector = rmakers.nongrace_leaves_in_each_tuplet(level=-1)
-    groups = selector(tuplets)
+    groups = rmakers.nongrace_leaves_in_each_tuplet_function(tuplets)
     rmakers.beam_function(groups, beam_lone_notes=True)
     return tuplets, 16
 
@@ -759,8 +750,7 @@ def sixty_fourths():
 
 def sixty_fourths_function(collections):
     tuplets = baca.figure_function(collections, [1], 64)
-    selector = rmakers.nongrace_leaves_in_each_tuplet(level=-1)
-    groups = selector(tuplets)
+    groups = rmakers.nongrace_leaves_in_each_tuplet_function(tuplets)
     rmakers.beam_groups_function(groups)
     baca.staccato_function(baca.select.pheads(tuplets))
     return tuplets, 64
@@ -781,8 +771,7 @@ def thirty_seconds():
 
 def thirty_seconds_function(collections):
     tuplets = baca.figure_function(collections, [1], 32)
-    selector = rmakers.nongrace_leaves_in_each_tuplet(level=-1)
-    groups = selector(tuplets)
+    groups = rmakers.nongrace_leaves_in_each_tuplet_function(tuplets)
     rmakers.beam_groups_function(groups)
     return tuplets, 32
 
@@ -796,8 +785,7 @@ def twentieths():
 
 def twentieths_function(collections):
     tuplets = baca.figure_function(collections, [1], 16, treatments=["5:4"])
-    selector = rmakers.nongrace_leaves_in_each_tuplet(level=-1)
-    groups = selector(tuplets)
+    groups = rmakers.nongrace_leaves_in_each_tuplet_function(tuplets)
     rmakers.beam_function(groups, beam_lone_notes=True)
     return tuplets, 20
 
@@ -811,8 +799,7 @@ def twenty_eighths():
 
 def twenty_eighths_function(collections):
     tuplets = baca.figure_function(collections, [1], 16, treatments=["7:4"])
-    selector = rmakers.nongrace_leaves_in_each_tuplet(level=-1)
-    groups = selector(tuplets)
+    groups = rmakers.nongrace_leaves_in_each_tuplet_function(tuplets)
     rmakers.beam_function(groups)
     return tuplets, 28
 
@@ -826,8 +813,7 @@ def twenty_fourths():
 
 def twenty_fourths_function(collections):
     tuplets = baca.figure_function(collections, [1], 16, treatments=["3:2"])
-    selector = rmakers.nongrace_leaves_in_each_tuplet(level=-1)
-    groups = selector(tuplets)
+    groups = rmakers.nongrace_leaves_in_each_tuplet_function(tuplets)
     rmakers.beam_function(groups, beam_lone_notes=True)
     return tuplets, 24
 
@@ -873,8 +859,7 @@ def waves_function(collections, denominator: int = 64, inverted: bool = False):
                 [collection], [1], denominator, tsd=denominator, treatments=["rit"]
             )
         tuplets.extend(tuplets_)
-    selector = rmakers.nongrace_leaves_in_each_tuplet(level=-1)
-    groups = selector(tuplets)
+    groups = rmakers.nongrace_leaves_in_each_tuplet_function(tuplets)
     rmakers.beam_function(groups)
     return tuplets, denominator
 

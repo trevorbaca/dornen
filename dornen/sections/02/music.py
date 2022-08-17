@@ -234,7 +234,12 @@ del defaults["check_wellformedness"]
 
 def main():
     previous_persist = baca.previous_persist(__file__)
-    baca.reapply(accumulator, accumulator.manifests(), previous_persist, voice_names)
+    previous_persistent_indicators = previous_persist["persistent_indicators"]
+    baca.reapply_new(
+        accumulator.voices(),
+        accumulator.manifests(),
+        previous_persistent_indicators,
+    )
 
 
 if __name__ == "__main__":

@@ -7,7 +7,7 @@ from dornen import library
 #########################################################################################
 
 score = library.make_empty_score()
-figures = baca.FigureAccumulator(score, library.voice_abbreviations())
+figures = baca.FigureAccumulator(score, library.voice_abbreviations)
 
 collections = [["E2"]]
 tuplets, tsd = library.monads_function(collections)
@@ -522,7 +522,7 @@ accumulator = baca.CommandAccumulator(
     instruments=library.instruments,
     metronome_marks=library.metronome_marks,
     time_signatures=figures.time_signatures,
-    voice_abbreviations=library.voice_abbreviations(),
+    voice_abbreviations=library.voice_abbreviations,
     voice_names=voice_names,
 )
 
@@ -655,7 +655,7 @@ def main():
 
 if __name__ == "__main__":
     main()
-    metadata, persist, score, timing = baca.build.section(
+    metadata, persist, timing = baca.build.section(
         score,
         library.manifests,
         accumulator.time_signatures,

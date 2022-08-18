@@ -694,15 +694,6 @@ def waves_function(collections, denominator: int = 64, inverted: bool = False):
     return tuplets, denominator
 
 
-def voice_abbreviations():
-    return {
-        "v1": "Guitar.Music.1",
-        "v2": "Guitar.Music.2",
-        "v3": "Guitar.Music.3",
-        "v4": "Guitar.Music.4",
-    }
-
-
 instruments = {"Guitar": abjad.Guitar(pitch_range=abjad.PitchRange("[E2, F5]"))}
 
 
@@ -715,4 +706,12 @@ metronome_marks = {
 manifests = {
     "abjad.Instrument": instruments,
     "abjad.MetronomeMark": metronome_marks,
+}
+
+
+voice_abbreviations = {
+    "v1": "Guitar.Music.1",
+    "v2": "Guitar.Music.2",
+    "v3": "Guitar.Music.3",
+    "v4": "Guitar.Music.4",
 }

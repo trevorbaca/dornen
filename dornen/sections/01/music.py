@@ -244,11 +244,11 @@ baca.make_figures(
 )
 
 voice_names = baca.accumulator.get_voice_names(score)
-instruments = library.instruments()
+instruments = library.instruments
 
 accumulator = baca.CommandAccumulator(
-    instruments=library.instruments(),
-    metronome_marks=library.metronome_marks(),
+    instruments=library.instruments,
+    metronome_marks=library.metronome_marks,
     time_signatures=figures.time_signatures,
     voice_abbreviations=library.voice_abbreviations(),
     voice_names=voice_names,
@@ -257,7 +257,7 @@ accumulator = baca.CommandAccumulator(
 baca.interpret.set_up_score(
     score,
     accumulator,
-    accumulator.manifests(),
+    library.manifests,
     accumulator.time_signatures,
     append_anchor_skip=True,
     always_make_global_rests=True,
@@ -267,14 +267,14 @@ baca.interpret.set_up_score(
 figures.populate_commands(score, accumulator)
 
 skips = score["Skips"]
-manifests = accumulator.manifests()
+manifests = library.manifests
 
 baca.metronome_mark_function(skips[1 - 1], accumulator.metronome_marks["44"], manifests)
 
 
 def postprocess(cache):
     with baca.scope(cache["v1"][1]) as o:
-        baca.instrument_function(o.leaf(0), "Guitar", accumulator.manifests())
+        baca.instrument_function(o.leaf(0), "Guitar", library.manifests)
         baca.clef_function(o.leaf(0), "treble")
     with baca.scope(cache["v3"][18, 19]) as o:
         baca.register_function(o, 0, -12)
@@ -296,7 +296,7 @@ if __name__ == "__main__":
     main()
     metadata, persist, score, timing = baca.build.section(
         score,
-        accumulator.manifests(),
+        library.manifests,
         accumulator.time_signatures,
         **defaults,
         activate=(baca.tags.LOCAL_MEASURE_NUMBER,),

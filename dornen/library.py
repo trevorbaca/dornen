@@ -534,10 +534,6 @@ def group_rleaves(argument):
     return result
 
 
-def instruments():
-    return {"Guitar": abjad.Guitar(pitch_range=abjad.PitchRange("[E2, F5]"))}
-
-
 def make_empty_score():
     tag = baca.tags.function_name(inspect.currentframe())
     global_context = baca.score.make_global_context()
@@ -582,13 +578,6 @@ def make_empty_score():
     baca.score.assert_lilypond_identifiers(score)
     baca.score.assert_unique_context_names(score)
     return score
-
-
-def metronome_marks():
-    return {
-        "44": abjad.MetronomeMark((1, 8), 44),
-        "66": abjad.MetronomeMark((1, 8), 66),
-    }
 
 
 def monads_function(collections):
@@ -712,3 +701,18 @@ def voice_abbreviations():
         "v3": "Guitar.Music.3",
         "v4": "Guitar.Music.4",
     }
+
+
+instruments = {"Guitar": abjad.Guitar(pitch_range=abjad.PitchRange("[E2, F5]"))}
+
+
+metronome_marks = {
+    "44": abjad.MetronomeMark((1, 8), 44),
+    "66": abjad.MetronomeMark((1, 8), 66),
+}
+
+
+manifests = {
+    "abjad.Instrument": instruments,
+    "abjad.MetronomeMark": metronome_marks,
+}

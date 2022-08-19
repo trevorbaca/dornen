@@ -556,8 +556,7 @@ assert len(design) == 22
 voice_names = baca.accumulator.get_voice_names(score)
 
 accumulator = baca.CommandAccumulator(
-    instruments=library.instruments,
-    metronome_marks=library.metronome_marks,
+    manifests=library.manifests,
     time_signatures=figures.time_signatures,
     _voice_abbreviations=library.voice_abbreviations,
     voice_names=voice_names,
@@ -578,9 +577,7 @@ figures.populate_commands(score, accumulator)
 skips = score["Skips"]
 manifests = library.manifests
 
-baca.metronome_mark_function(
-    skips[25 - 1], accumulator.metronome_marks["66"], manifests
-)
+baca.metronome_mark_function(skips[25 - 1], library.metronome_marks["66"], manifests)
 
 
 def postprocess(cache):

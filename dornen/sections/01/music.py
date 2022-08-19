@@ -289,18 +289,16 @@ def main():
     postprocess(cache)
 
 
-defaults = baca.interpret.section_defaults()
-del defaults["check_wellformedness"]
-
 if __name__ == "__main__":
     main()
     metadata, persist, timing = baca.build.section(
         score,
         library.manifests,
         accumulator.time_signatures,
-        **defaults,
+        **baca.interpret.section_defaults(),
         activate=(baca.tags.LOCAL_MEASURE_NUMBER,),
         always_make_global_rests=True,
+        do_not_check_wellformedness=True,
         do_not_require_short_instrument_names=True,
         error_on_not_yet_pitched=True,
         global_rests_in_topmost_staff=True,

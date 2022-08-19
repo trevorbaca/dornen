@@ -589,10 +589,6 @@ def postprocess(cache):
         baca.displacement_function(o, [0, 0, 0, 0, 1, 1, 1, 1])
 
 
-defaults = baca.interpret.section_defaults()
-del defaults["check_wellformedness"]
-
-
 def main():
     previous_persist = baca.previous_persist(__file__)
     previous_persistent_indicators = previous_persist["persistent_indicators"]
@@ -615,9 +611,10 @@ if __name__ == "__main__":
         score,
         library.manifests,
         accumulator.time_signatures,
-        **defaults,
+        **baca.interpret.section_defaults(),
         activate=(baca.tags.LOCAL_MEASURE_NUMBER,),
         always_make_global_rests=True,
+        do_not_check_wellformedness=True,
         do_not_require_short_instrument_names=True,
         error_on_not_yet_pitched=True,
         global_rests_in_topmost_staff=True,

@@ -177,9 +177,10 @@ baca.interpret.set_up_score(
 figures.populate_commands(score, accumulator)
 
 skips = score["Skips"]
-manifests = library.manifests
 
-baca.metronome_mark_function(skips[1 - 1], library.metronome_marks["66"], manifests)
+baca.metronome_mark_function(
+    skips[1 - 1], library.metronome_marks["66"], library.manifests
+)
 
 
 def postprocess(cache):

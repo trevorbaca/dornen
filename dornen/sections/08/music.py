@@ -197,7 +197,7 @@ def postprocess(cache):
         baca.register_function(o, -18, 6)
 
 
-def main():
+def make_score():
     previous_persist = baca.previous_persist(__file__)
     previous_persistent_indicators = previous_persist["persistent_indicators"]
     baca.reapply(
@@ -213,8 +213,8 @@ def main():
     postprocess(cache)
 
 
-if __name__ == "__main__":
-    main()
+def main():
+    make_score()
     metadata, persist, timing = baca.build.section(
         score,
         library.manifests,
@@ -234,3 +234,7 @@ if __name__ == "__main__":
         includes=["../stylesheet.ily"],
     )
     baca.build.persist(lilypond_file, metadata, persist, timing)
+
+
+if __name__ == "__main__":
+    main()

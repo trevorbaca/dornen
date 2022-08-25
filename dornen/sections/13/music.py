@@ -6,534 +6,539 @@ from dornen import library
 ########################################### 13 ##########################################
 #########################################################################################
 
-score = library.make_empty_score()
-figures = baca.FigureAccumulator(score, library.voice_abbreviations)
 
-collections = [["E2"]]
-tuplets, tsd = library.monads_function(collections)
-baca.make_figures(
-    figures,
-    "v1",
-    None,
-    figure_name="2_1",
-    tsd=tsd,
-    tuplets=tuplets,
-)
+def make_empty_score(first_measure_number, previous_persistent_indicators):
+    score = library.make_empty_score()
+    figures = baca.FigureAccumulator(score, library.voice_abbreviations)
 
-collections = [["E2"]]
-tuplets, tsd = library.monads_function(collections)
-baca.make_figures(
-    figures,
-    "v1",
-    None,
-    figure_name="2_2",
-    tsd=tsd,
-    tuplets=tuplets,
-)
+    collections = [["E2"]]
+    tuplets, tsd = library.monads_function(collections)
+    baca.make_figures(
+        figures,
+        "v1",
+        None,
+        figure_name="2_1",
+        tsd=tsd,
+        tuplets=tuplets,
+    )
 
-collections = [["E2"]]
-tuplets, tsd = library.thirds_function(collections)
-baca.make_figures(
-    figures,
-    "v1",
-    None,
-    figure_name="2_3",
-    tsd=tsd,
-    tuplets=tuplets,
-)
+    collections = [["E2"]]
+    tuplets, tsd = library.monads_function(collections)
+    baca.make_figures(
+        figures,
+        "v1",
+        None,
+        figure_name="2_2",
+        tsd=tsd,
+        tuplets=tuplets,
+    )
 
-collections = [["E2"]]
-tuplets, tsd = library.thirds_function(collections)
-baca.make_figures(
-    figures,
-    "v1",
-    None,
-    figure_name="2_4",
-    tsd=tsd,
-    tuplets=tuplets,
-)
+    collections = [["E2"]]
+    tuplets, tsd = library.thirds_function(collections)
+    baca.make_figures(
+        figures,
+        "v1",
+        None,
+        figure_name="2_3",
+        tsd=tsd,
+        tuplets=tuplets,
+    )
 
-collections = [["E2"]]
-tuplets, tsd = library.thirds_function(collections)
-baca.make_figures(
-    figures,
-    "v1",
-    None,
-    figure_name="2_5",
-    tsd=tsd,
-    tuplets=tuplets,
-)
+    collections = [["E2"]]
+    tuplets, tsd = library.thirds_function(collections)
+    baca.make_figures(
+        figures,
+        "v1",
+        None,
+        figure_name="2_4",
+        tsd=tsd,
+        tuplets=tuplets,
+    )
 
-collections = [["E2"]]
-tuplets, tsd = library.monads_function(collections)
-baca.markup_function(baca.select.pleaf(tuplets, 0), r"\dornen-three-fingers-markup")
-baca.make_figures(
-    figures,
-    "v1",
-    None,
-    figure_name="3_1",
-    tsd=tsd,
-    tuplets=tuplets,
-)
+    collections = [["E2"]]
+    tuplets, tsd = library.thirds_function(collections)
+    baca.make_figures(
+        figures,
+        "v1",
+        None,
+        figure_name="2_5",
+        tsd=tsd,
+        tuplets=tuplets,
+    )
 
-collections = [["E2"]]
-tuplets, tsd = library.monads_function(collections)
-baca.make_figures(
-    figures,
-    "v1",
-    None,
-    figure_name="3_2",
-    tsd=tsd,
-    tuplets=tuplets,
-)
+    collections = [["E2"]]
+    tuplets, tsd = library.monads_function(collections)
+    baca.markup_function(baca.select.pleaf(tuplets, 0), r"\dornen-three-fingers-markup")
+    baca.make_figures(
+        figures,
+        "v1",
+        None,
+        figure_name="3_1",
+        tsd=tsd,
+        tuplets=tuplets,
+    )
 
-collections = [["E2"]]
-tuplets, tsd = library.thirds_function(collections)
-baca.make_figures(
-    figures,
-    "v1",
-    None,
-    figure_name="3_3",
-    tsd=tsd,
-    tuplets=tuplets,
-)
+    collections = [["E2"]]
+    tuplets, tsd = library.monads_function(collections)
+    baca.make_figures(
+        figures,
+        "v1",
+        None,
+        figure_name="3_2",
+        tsd=tsd,
+        tuplets=tuplets,
+    )
 
-collections = [["E2"]]
-tuplets, tsd = library.thirds_function(collections)
-baca.make_figures(
-    figures,
-    "v1",
-    None,
-    figure_name="3_4",
-    tsd=tsd,
-    tuplets=tuplets,
-)
+    collections = [["E2"]]
+    tuplets, tsd = library.thirds_function(collections)
+    baca.make_figures(
+        figures,
+        "v1",
+        None,
+        figure_name="3_3",
+        tsd=tsd,
+        tuplets=tuplets,
+    )
 
-collections = [["E2"]]
-tuplets, tsd = library.thirds_function(collections)
-baca.make_figures(
-    figures,
-    "v1",
-    None,
-    figure_name="3_5",
-    tsd=tsd,
-    tuplets=tuplets,
-)
+    collections = [["E2"]]
+    tuplets, tsd = library.thirds_function(collections)
+    baca.make_figures(
+        figures,
+        "v1",
+        None,
+        figure_name="3_4",
+        tsd=tsd,
+        tuplets=tuplets,
+    )
 
-collections = [["E2"]]
-tuplets, tsd = library.monads_function(collections)
-baca.markup_function(baca.select.pleaf(tuplets, 0), r"\dornen-four-fingers-markup")
-baca.make_figures(
-    figures,
-    "v1",
-    None,
-    figure_name="4_1",
-    tsd=tsd,
-    tuplets=tuplets,
-)
+    collections = [["E2"]]
+    tuplets, tsd = library.thirds_function(collections)
+    baca.make_figures(
+        figures,
+        "v1",
+        None,
+        figure_name="3_5",
+        tsd=tsd,
+        tuplets=tuplets,
+    )
 
-collections = [["E2"]]
-tuplets, tsd = library.monads_function(collections)
-baca.make_figures(
-    figures,
-    "v1",
-    None,
-    figure_name="4_2",
-    tsd=tsd,
-    tuplets=tuplets,
-)
+    collections = [["E2"]]
+    tuplets, tsd = library.monads_function(collections)
+    baca.markup_function(baca.select.pleaf(tuplets, 0), r"\dornen-four-fingers-markup")
+    baca.make_figures(
+        figures,
+        "v1",
+        None,
+        figure_name="4_1",
+        tsd=tsd,
+        tuplets=tuplets,
+    )
 
-collections = [["E2"]]
-tuplets, tsd = library.thirds_function(collections)
-baca.make_figures(
-    figures,
-    "v1",
-    None,
-    figure_name="4_3",
-    tsd=tsd,
-    tuplets=tuplets,
-)
+    collections = [["E2"]]
+    tuplets, tsd = library.monads_function(collections)
+    baca.make_figures(
+        figures,
+        "v1",
+        None,
+        figure_name="4_2",
+        tsd=tsd,
+        tuplets=tuplets,
+    )
 
-collections = [["E2"]]
-tuplets, tsd = library.thirds_function(collections)
-baca.make_figures(
-    figures,
-    "v1",
-    None,
-    figure_name="4_4",
-    tsd=tsd,
-    tuplets=tuplets,
-)
+    collections = [["E2"]]
+    tuplets, tsd = library.thirds_function(collections)
+    baca.make_figures(
+        figures,
+        "v1",
+        None,
+        figure_name="4_3",
+        tsd=tsd,
+        tuplets=tuplets,
+    )
 
-collections = [["E2"]]
-tuplets, tsd = library.thirds_function(collections)
-baca.make_figures(
-    figures,
-    "v1",
-    None,
-    figure_name="4_5",
-    tsd=tsd,
-    tuplets=tuplets,
-)
+    collections = [["E2"]]
+    tuplets, tsd = library.thirds_function(collections)
+    baca.make_figures(
+        figures,
+        "v1",
+        None,
+        figure_name="4_4",
+        tsd=tsd,
+        tuplets=tuplets,
+    )
 
-collections = [["E2"]]
-tuplets, tsd = library.monads_function(collections)
-baca.make_figures(
-    figures,
-    "v1",
-    None,
-    figure_name="4_6",
-    tsd=tsd,
-    tuplets=tuplets,
-)
+    collections = [["E2"]]
+    tuplets, tsd = library.thirds_function(collections)
+    baca.make_figures(
+        figures,
+        "v1",
+        None,
+        figure_name="4_5",
+        tsd=tsd,
+        tuplets=tuplets,
+    )
 
-collections = [2 * ["E2"]]
-tuplets, tsd = library.thirds_function(collections)
-baca.make_figures(
-    figures,
-    "v1",
-    None,
-    figure_name="4_7",
-    tsd=tsd,
-    tuplets=tuplets,
-)
+    collections = [["E2"]]
+    tuplets, tsd = library.monads_function(collections)
+    baca.make_figures(
+        figures,
+        "v1",
+        None,
+        figure_name="4_6",
+        tsd=tsd,
+        tuplets=tuplets,
+    )
 
-collections = [["E2"]]
-tuplets, tsd = library.monads_function(collections)
-baca.make_figures(
-    figures,
-    "v1",
-    None,
-    figure_name="4_8",
-    tsd=tsd,
-    tuplets=tuplets,
-)
+    collections = [2 * ["E2"]]
+    tuplets, tsd = library.thirds_function(collections)
+    baca.make_figures(
+        figures,
+        "v1",
+        None,
+        figure_name="4_7",
+        tsd=tsd,
+        tuplets=tuplets,
+    )
 
-collections = [["E2"]]
-tuplets, tsd = library.monads_function(collections)
-baca.make_figures(
-    figures,
-    "v1",
-    None,
-    figure_name="4_9",
-    tsd=tsd,
-    tuplets=tuplets,
-)
+    collections = [["E2"]]
+    tuplets, tsd = library.monads_function(collections)
+    baca.make_figures(
+        figures,
+        "v1",
+        None,
+        figure_name="4_8",
+        tsd=tsd,
+        tuplets=tuplets,
+    )
 
-collections = [["E2"]]
-tuplets, tsd = library.monads_function(collections)
-baca.make_figures(
-    figures,
-    "v1",
-    None,
-    figure_name="4_10",
-    tsd=tsd,
-    tuplets=tuplets,
-)
+    collections = [["E2"]]
+    tuplets, tsd = library.monads_function(collections)
+    baca.make_figures(
+        figures,
+        "v1",
+        None,
+        figure_name="4_9",
+        tsd=tsd,
+        tuplets=tuplets,
+    )
 
-collections = [3 * ["E2"]]
-tuplets, tsd = library.thirds_function(collections)
-baca.make_figures(
-    figures,
-    "v1",
-    None,
-    figure_name="4_11",
-    tsd=tsd,
-    tuplets=tuplets,
-)
+    collections = [["E2"]]
+    tuplets, tsd = library.monads_function(collections)
+    baca.make_figures(
+        figures,
+        "v1",
+        None,
+        figure_name="4_10",
+        tsd=tsd,
+        tuplets=tuplets,
+    )
 
-collections = [["E2"]]
-tuplets, tsd = library.monads_function(collections)
-baca.make_figures(
-    figures,
-    "v1",
-    None,
-    figure_name="4_12",
-    tsd=tsd,
-    tuplets=tuplets,
-)
+    collections = [3 * ["E2"]]
+    tuplets, tsd = library.thirds_function(collections)
+    baca.make_figures(
+        figures,
+        "v1",
+        None,
+        figure_name="4_11",
+        tsd=tsd,
+        tuplets=tuplets,
+    )
 
-collections = [["E2"]]
-tuplets, tsd = library.monads_function(collections)
-baca.make_figures(
-    figures,
-    "v1",
-    None,
-    figure_name="4_13",
-    tsd=tsd,
-    tuplets=tuplets,
-)
+    collections = [["E2"]]
+    tuplets, tsd = library.monads_function(collections)
+    baca.make_figures(
+        figures,
+        "v1",
+        None,
+        figure_name="4_12",
+        tsd=tsd,
+        tuplets=tuplets,
+    )
 
-collections = [["E2"]]
-tuplets, tsd = library.monads_function(collections)
-baca.make_figures(
-    figures,
-    "v1",
-    None,
-    figure_name="4_14",
-    tsd=tsd,
-    tuplets=tuplets,
-)
+    collections = [["E2"]]
+    tuplets, tsd = library.monads_function(collections)
+    baca.make_figures(
+        figures,
+        "v1",
+        None,
+        figure_name="4_13",
+        tsd=tsd,
+        tuplets=tuplets,
+    )
 
-collections = [4 * ["E2"]]
-tuplets, tsd = library.thirds_function(collections)
-baca.make_figures(
-    figures,
-    "v1",
-    None,
-    figure_name="4_15",
-    tsd=tsd,
-    tuplets=tuplets,
-)
+    collections = [["E2"]]
+    tuplets, tsd = library.monads_function(collections)
+    baca.make_figures(
+        figures,
+        "v1",
+        None,
+        figure_name="4_14",
+        tsd=tsd,
+        tuplets=tuplets,
+    )
 
-collections = [5 * ["E2"]]
-tuplets, tsd = library.thirds_function(collections)
-baca.make_figures(
-    figures,
-    "v1",
-    None,
-    figure_name="4_16",
-    tsd=tsd,
-    tuplets=tuplets,
-)
+    collections = [4 * ["E2"]]
+    tuplets, tsd = library.thirds_function(collections)
+    baca.make_figures(
+        figures,
+        "v1",
+        None,
+        figure_name="4_15",
+        tsd=tsd,
+        tuplets=tuplets,
+    )
 
-collections = [4 * ["E2"]]
-tuplets, tsd = library.thirds_function(collections)
-baca.make_figures(
-    figures,
-    "v1",
-    None,
-    figure_name="4_17",
-    tsd=tsd,
-    tuplets=tuplets,
-)
+    collections = [5 * ["E2"]]
+    tuplets, tsd = library.thirds_function(collections)
+    baca.make_figures(
+        figures,
+        "v1",
+        None,
+        figure_name="4_16",
+        tsd=tsd,
+        tuplets=tuplets,
+    )
 
-collections = [3 * ["E2"]]
-tuplets, tsd = library.thirds_function(collections)
-baca.make_figures(
-    figures,
-    "v1",
-    None,
-    figure_name="4_18",
-    tsd=tsd,
-    tuplets=tuplets,
-)
+    collections = [4 * ["E2"]]
+    tuplets, tsd = library.thirds_function(collections)
+    baca.make_figures(
+        figures,
+        "v1",
+        None,
+        figure_name="4_17",
+        tsd=tsd,
+        tuplets=tuplets,
+    )
 
-collections = [2 * ["E2"]]
-tuplets, tsd = library.thirds_function(collections)
-baca.make_figures(
-    figures,
-    "v1",
-    None,
-    figure_name="4_19",
-    tsd=tsd,
-    tuplets=tuplets,
-)
+    collections = [3 * ["E2"]]
+    tuplets, tsd = library.thirds_function(collections)
+    baca.make_figures(
+        figures,
+        "v1",
+        None,
+        figure_name="4_18",
+        tsd=tsd,
+        tuplets=tuplets,
+    )
 
-collections = [["E2"]]
-tuplets, tsd = library.thirds_function(collections)
-baca.make_figures(
-    figures,
-    "v1",
-    None,
-    figure_name="4_20",
-    tsd=tsd,
-    tuplets=tuplets,
-)
+    collections = [2 * ["E2"]]
+    tuplets, tsd = library.thirds_function(collections)
+    baca.make_figures(
+        figures,
+        "v1",
+        None,
+        figure_name="4_19",
+        tsd=tsd,
+        tuplets=tuplets,
+    )
 
-collections = [2 * ["E2"]]
-tuplets, tsd = library.thirds_function(collections)
-baca.make_figures(
-    figures,
-    "v1",
-    None,
-    figure_name="4_21",
-    tsd=tsd,
-    tuplets=tuplets,
-)
+    collections = [["E2"]]
+    tuplets, tsd = library.thirds_function(collections)
+    baca.make_figures(
+        figures,
+        "v1",
+        None,
+        figure_name="4_20",
+        tsd=tsd,
+        tuplets=tuplets,
+    )
 
-collections = [3 * ["E2"]]
-tuplets, tsd = library.thirds_function(collections)
-baca.make_figures(
-    figures,
-    "v1",
-    None,
-    figure_name="4_22",
-    tsd=tsd,
-    tuplets=tuplets,
-)
+    collections = [2 * ["E2"]]
+    tuplets, tsd = library.thirds_function(collections)
+    baca.make_figures(
+        figures,
+        "v1",
+        None,
+        figure_name="4_21",
+        tsd=tsd,
+        tuplets=tuplets,
+    )
 
-collections = [4 * ["E2"]]
-tuplets, tsd = library.thirds_function(collections)
-baca.make_figures(
-    figures,
-    "v1",
-    None,
-    figure_name="4_23",
-    tsd=tsd,
-    tuplets=tuplets,
-)
+    collections = [3 * ["E2"]]
+    tuplets, tsd = library.thirds_function(collections)
+    baca.make_figures(
+        figures,
+        "v1",
+        None,
+        figure_name="4_22",
+        tsd=tsd,
+        tuplets=tuplets,
+    )
 
-collections = [5 * ["E2"]]
-tuplets, tsd = library.thirds_function(collections)
-baca.make_figures(
-    figures,
-    "v1",
-    None,
-    figure_name="4_24",
-    tsd=tsd,
-    tuplets=tuplets,
-)
+    collections = [4 * ["E2"]]
+    tuplets, tsd = library.thirds_function(collections)
+    baca.make_figures(
+        figures,
+        "v1",
+        None,
+        figure_name="4_23",
+        tsd=tsd,
+        tuplets=tuplets,
+    )
 
-collections = [4 * ["E2"]]
-tuplets, tsd = library.thirds_function(collections)
-baca.make_figures(
-    figures,
-    "v1",
-    None,
-    figure_name="4_25",
-    tsd=tsd,
-    tuplets=tuplets,
-)
+    collections = [5 * ["E2"]]
+    tuplets, tsd = library.thirds_function(collections)
+    baca.make_figures(
+        figures,
+        "v1",
+        None,
+        figure_name="4_24",
+        tsd=tsd,
+        tuplets=tuplets,
+    )
 
-collections = [3 * ["E2"]]
-tuplets, tsd = library.thirds_function(collections)
-baca.make_figures(
-    figures,
-    "v1",
-    None,
-    figure_name="4_26",
-    tsd=tsd,
-    tuplets=tuplets,
-)
+    collections = [4 * ["E2"]]
+    tuplets, tsd = library.thirds_function(collections)
+    baca.make_figures(
+        figures,
+        "v1",
+        None,
+        figure_name="4_25",
+        tsd=tsd,
+        tuplets=tuplets,
+    )
 
-collections = [2 * ["E2"]]
-tuplets, tsd = library.thirds_function(collections)
-baca.make_figures(
-    figures,
-    "v1",
-    None,
-    figure_name="4_27",
-    tsd=tsd,
-    tuplets=tuplets,
-)
+    collections = [3 * ["E2"]]
+    tuplets, tsd = library.thirds_function(collections)
+    baca.make_figures(
+        figures,
+        "v1",
+        None,
+        figure_name="4_26",
+        tsd=tsd,
+        tuplets=tuplets,
+    )
 
-collections = [1 * ["E2"]]
-tuplets, tsd = library.thirds_function(collections)
-baca.make_figures(
-    figures,
-    "v1",
-    None,
-    figure_name="4_28",
-    tsd=tsd,
-    tuplets=tuplets,
-)
+    collections = [2 * ["E2"]]
+    tuplets, tsd = library.thirds_function(collections)
+    baca.make_figures(
+        figures,
+        "v1",
+        None,
+        figure_name="4_27",
+        tsd=tsd,
+        tuplets=tuplets,
+    )
 
-collections = [2 * ["E2"]]
-tuplets, tsd = library.thirds_function(collections)
-baca.make_figures(
-    figures,
-    "v1",
-    None,
-    figure_name="4_29",
-    tsd=tsd,
-    tuplets=tuplets,
-)
+    collections = [1 * ["E2"]]
+    tuplets, tsd = library.thirds_function(collections)
+    baca.make_figures(
+        figures,
+        "v1",
+        None,
+        figure_name="4_28",
+        tsd=tsd,
+        tuplets=tuplets,
+    )
 
-collections = [3 * ["E2"]]
-tuplets, tsd = library.thirds_function(collections)
-baca.make_figures(
-    figures,
-    "v1",
-    None,
-    figure_name="4_30",
-    tsd=tsd,
-    tuplets=tuplets,
-)
+    collections = [2 * ["E2"]]
+    tuplets, tsd = library.thirds_function(collections)
+    baca.make_figures(
+        figures,
+        "v1",
+        None,
+        figure_name="4_29",
+        tsd=tsd,
+        tuplets=tuplets,
+    )
 
-collections = [4 * ["E2"]]
-tuplets, tsd = library.thirds_function(collections)
-baca.make_figures(
-    figures,
-    "v1",
-    None,
-    figure_name="4_31",
-    tsd=tsd,
-    tuplets=tuplets,
-)
+    collections = [3 * ["E2"]]
+    tuplets, tsd = library.thirds_function(collections)
+    baca.make_figures(
+        figures,
+        "v1",
+        None,
+        figure_name="4_30",
+        tsd=tsd,
+        tuplets=tuplets,
+    )
 
-collections = [5 * ["E2"]]
-tuplets, tsd = library.thirds_function(collections)
-baca.make_figures(
-    figures,
-    "v1",
-    None,
-    figure_name="4_32",
-    tsd=tsd,
-    tuplets=tuplets,
-)
+    collections = [4 * ["E2"]]
+    tuplets, tsd = library.thirds_function(collections)
+    baca.make_figures(
+        figures,
+        "v1",
+        None,
+        figure_name="4_31",
+        tsd=tsd,
+        tuplets=tuplets,
+    )
 
-collections = [3 * ["E2"]]
-tuplets, tsd = library.thirds_function(collections)
-baca.make_figures(
-    figures,
-    "v1",
-    None,
-    figure_name="4_33",
-    tsd=tsd,
-    tuplets=tuplets,
-)
+    collections = [5 * ["E2"]]
+    tuplets, tsd = library.thirds_function(collections)
+    baca.make_figures(
+        figures,
+        "v1",
+        None,
+        figure_name="4_32",
+        tsd=tsd,
+        tuplets=tuplets,
+    )
 
-collections = [2 * ["E2"]]
-tuplets, tsd = library.thirds_function(collections)
-baca.make_figures(
-    figures,
-    "v1",
-    None,
-    figure_name="4_34",
-    tsd=tsd,
-    tuplets=tuplets,
-)
+    collections = [3 * ["E2"]]
+    tuplets, tsd = library.thirds_function(collections)
+    baca.make_figures(
+        figures,
+        "v1",
+        None,
+        figure_name="4_33",
+        tsd=tsd,
+        tuplets=tuplets,
+    )
 
-collections = [1 * ["E2"]]
-tuplets, tsd = library.thirds_function(collections)
-baca.make_figures(
-    figures,
-    "v1",
-    None,
-    figure_name="4_35",
-    tsd=tsd,
-    tuplets=tuplets,
-)
+    collections = [2 * ["E2"]]
+    tuplets, tsd = library.thirds_function(collections)
+    baca.make_figures(
+        figures,
+        "v1",
+        None,
+        figure_name="4_34",
+        tsd=tsd,
+        tuplets=tuplets,
+    )
 
-tuplets, tsd = library.rests_function(5, (1, 8))
-baca.make_figures(
-    figures,
-    "v1",
-    None,
-    figure_name="4_36",
-    tsd=tsd,
-    tuplets=tuplets,
-)
+    collections = [1 * ["E2"]]
+    tuplets, tsd = library.thirds_function(collections)
+    baca.make_figures(
+        figures,
+        "v1",
+        None,
+        figure_name="4_35",
+        tsd=tsd,
+        tuplets=tuplets,
+    )
 
-voice_names = baca.accumulator.get_voice_names(score)
+    tuplets, tsd = library.rests_function(5, (1, 8))
+    baca.make_figures(
+        figures,
+        "v1",
+        None,
+        figure_name="4_36",
+        tsd=tsd,
+        tuplets=tuplets,
+    )
 
-accumulator = baca.CommandAccumulator(
-    time_signatures=figures.time_signatures,
-    _voice_abbreviations=library.voice_abbreviations,
-    _voice_names=voice_names,
-)
+    voice_names = baca.accumulator.get_voice_names(score)
 
-baca.interpret.set_up_score(
-    score,
-    accumulator.time_signatures,
-    accumulator,
-    library.manifests,
-    append_anchor_skip=True,
-    always_make_global_rests=True,
-)
+    accumulator = baca.CommandAccumulator(
+        time_signatures=figures.time_signatures,
+        _voice_abbreviations=library.voice_abbreviations,
+        _voice_names=voice_names,
+    )
 
-figures.populate_commands(score, accumulator)
+    baca.interpret.set_up_score(
+        score,
+        accumulator.time_signatures,
+        accumulator,
+        library.manifests,
+        append_anchor_skip=True,
+        always_make_global_rests=True,
+        first_measure_number=first_measure_number,
+        previous_persistent_indicators=previous_persistent_indicators,
+    )
+
+    figures.populate_commands(score, accumulator)
+    return score, accumulator
 
 
 def postprocess(cache):
@@ -634,9 +639,10 @@ def postprocess(cache):
         baca.text_script_staff_padding_function(o, 8)
 
 
-def make_score():
-    previous_persist = baca.previous_persist(__file__)
-    previous_persistent_indicators = previous_persist["persistent_indicators"]
+def make_score(first_measure_number, previous_persistent_indicators):
+    score, accumulator = make_empty_score(
+        first_measure_number, previous_persistent_indicators
+    )
     baca.reapply(
         accumulator.voices(),
         library.manifests,
@@ -648,10 +654,16 @@ def make_score():
         library.voice_abbreviations,
     )
     postprocess(cache)
+    return score, accumulator
 
 
 def main():
-    make_score()
+    previous_metadata = baca.previous_metadata(__file__)
+    first_measure_number = previous_metadata["final_measure_number"] + 1
+    previous_persist = baca.previous_persist(__file__)
+    score, accumulator = make_score(
+        first_measure_number, previous_persist["persistent_indicators"]
+    )
     metadata, persist, timing = baca.build.section(
         score,
         library.manifests,
@@ -661,6 +673,7 @@ def main():
         always_make_global_rests=True,
         do_not_require_short_instrument_names=True,
         error_on_not_yet_pitched=True,
+        first_measure_number=first_measure_number,
         global_rests_in_topmost_staff=True,
         transpose_score=True,
     )

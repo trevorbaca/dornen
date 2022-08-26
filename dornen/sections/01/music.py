@@ -264,7 +264,7 @@ def make_empty_score():
     return score, accumulator
 
 
-def SKIPS(skips):
+def GLOBALS(skips):
     baca.metronome_mark_function(
         skips[1 - 1], library.metronome_marks["44"], library.manifests
     )
@@ -280,7 +280,7 @@ def postprocess(cache):
 
 def make_score():
     score, accumulator = make_empty_score()
-    SKIPS(score["Skips"])
+    GLOBALS(score["Skips"])
     cache = baca.interpret.cache_leaves(
         score,
         len(accumulator.time_signatures),

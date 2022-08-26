@@ -232,9 +232,6 @@ def make_score(first_measure_number, previous_persistent_indicators):
     score, accumulator = make_empty_score(
         first_measure_number, previous_persistent_indicators
     )
-    score, accumulator = make_empty_score(
-        first_measure_number, previous_persistent_indicators
-    )
     baca.reapply(
         accumulator.voices(),
         library.manifests,

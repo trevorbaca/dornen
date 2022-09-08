@@ -19,9 +19,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
 
     collections = design[:1]
     tuplets, tsd = library.forty_eighths(collections)
-    baca.markup(
-        baca.select.pleaf(tuplets, 0), r"\dornen-lh-only-until-rascado-markup"
-    )
+    baca.markup(baca.select.pleaf(tuplets, 0), r"\dornen-lh-only-until-rascado-markup")
     baca.extend_beam(abjad.select.leaf(tuplets, -1))
     baca.make_figures(
         figures,
@@ -87,7 +85,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
 
     collections = [["C4"]]
     tuplets, tsd = library.thirty_seconds(collections)
-    rmakers.force_rest_rfunction(baca.select.lt(tuplets, 0))
+    rmakers.force_rest_function(baca.select.lt(tuplets, 0))
     baca.make_figures(
         figures,
         "v1",
@@ -100,9 +98,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
 
     collections = design[:1]
     tuplets, tsd = library.forty_eighths(collections)
-    baca.markup(
-        baca.select.pleaf(tuplets, 0), r"\dornen-rh-reaches-for-screw-markup"
-    )
+    baca.markup(baca.select.pleaf(tuplets, 0), r"\dornen-rh-reaches-for-screw-markup")
     baca.extend_beam(abjad.select.leaf(tuplets, -1))
     baca.make_figures(
         figures,
@@ -168,7 +164,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
 
     collections = [["C4"]]
     tuplets, tsd = library.thirty_seconds(collections)
-    rmakers.force_rest_rfunction(baca.select.lt(tuplets, 0))
+    rmakers.force_rest_function(baca.select.lt(tuplets, 0))
     baca.make_figures(
         figures,
         "v1",
@@ -249,7 +245,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
 
     collections = [["C4"]]
     tuplets, tsd = library.thirty_seconds(collections)
-    rmakers.force_rest_rfunction(baca.select.lt(tuplets, 0))
+    rmakers.force_rest_function(baca.select.lt(tuplets, 0))
     baca.make_figures(
         figures,
         "v1",
@@ -327,7 +323,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
 
     collections = [["C4"]]
     tuplets, tsd = library.thirty_seconds(collections)
-    rmakers.force_rest_rfunction(baca.select.lt(tuplets, 0))
+    rmakers.force_rest_function(baca.select.lt(tuplets, 0))
     baca.make_figures(
         figures,
         "v1",
@@ -405,7 +401,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
 
     collections = [["C4"]]
     tuplets, tsd = library.thirty_seconds(collections)
-    rmakers.force_rest_rfunction(baca.select.lt(tuplets, 0))
+    rmakers.force_rest_function(baca.select.lt(tuplets, 0))
     baca.make_figures(
         figures,
         "v1",

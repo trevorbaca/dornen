@@ -119,9 +119,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
 
     collections = 2 * [["Gb2"]]
     tuplets, tsd = library.monads(collections)
-    baca.markup(
-        baca.select.pleaf(tuplets, 0), r"\dornen-two-finger-tamb-trill-markup"
-    )
+    baca.markup(baca.select.pleaf(tuplets, 0), r"\dornen-two-finger-tamb-trill-markup")
     baca.repeat_tie(baca.select.phead(tuplets, 1))
     baca.stem_tremolo(baca.select.pleaves(tuplets))
     baca.stem_up(baca.select.pleaves(tuplets))
@@ -240,9 +238,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
 
     collections = 2 * [["Gb2"]]
     tuplets, tsd = library.monads(collections)
-    baca.markup(
-        baca.select.pleaf(tuplets, 0), r"\dornen-two-finger-tamb-trill-markup"
-    )
+    baca.markup(baca.select.pleaf(tuplets, 0), r"\dornen-two-finger-tamb-trill-markup")
     baca.repeat_tie(baca.select.phead(tuplets, 1))
     baca.stem_tremolo(baca.select.pleaves(tuplets))
     baca.stem_up(baca.select.pleaves(tuplets))

@@ -296,9 +296,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
 
     collections = [["Gb2"]]
     tuplets, tsd = library.monads(collections)
-    baca.markup(
-        baca.select.pleaf(tuplets, 0), r"\dornen-two-finger-tamb-trill-markup"
-    )
+    baca.markup(baca.select.pleaf(tuplets, 0), r"\dornen-two-finger-tamb-trill-markup")
     baca.stem_tremolo(baca.select.pleaves(tuplets))
     baca.stem_up(baca.select.pleaves(tuplets))
     baca.tuplet_bracket_staff_padding(tuplets, 0)

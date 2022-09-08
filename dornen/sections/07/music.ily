@@ -1326,7 +1326,7 @@ number.7.Guitar.Music.1 = {
             % [Guitar.Music.1 measure 1]
             % BEFORE:
             % COMMANDS:
-              %! baca.beam_positions_function(1)
+              %! baca.beam_positions(1)
             \override Beam.positions = #'(8 . 8)
             % OPENING:
             % COMMANDS:
@@ -1361,7 +1361,7 @@ number.7.Guitar.Music.1 = {
             % SPANNER_STARTS:
               %! SPANNER_START
               %! baca._do_spanner_indicator_command(1)
-              %! baca.slur_function()
+              %! baca.slur()
             (
             % ABSOLUTE_AFTER:
             % COMMANDS:
@@ -1384,7 +1384,7 @@ number.7.Guitar.Music.1 = {
             % SPANNER_STOPS:
               %! SPANNER_STOP
               %! baca._do_spanner_indicator_command(2)
-              %! baca.slur_function()
+              %! baca.slur()
             )
             % CLOSING:
             % COMMANDS:
@@ -1433,7 +1433,7 @@ number.7.Guitar.Music.1 = {
             % SPANNER_STARTS:
               %! SPANNER_START
               %! baca._do_spanner_indicator_command(1)
-              %! baca.slur_function()
+              %! baca.slur()
             (
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -1451,7 +1451,7 @@ number.7.Guitar.Music.1 = {
             % SPANNER_STOPS:
               %! SPANNER_STOP
               %! baca._do_spanner_indicator_command(2)
-              %! baca.slur_function()
+              %! baca.slur()
             )
             % CLOSING:
             % COMMANDS:
@@ -1500,7 +1500,7 @@ number.7.Guitar.Music.1 = {
             % SPANNER_STARTS:
               %! SPANNER_START
               %! baca._do_spanner_indicator_command(1)
-              %! baca.slur_function()
+              %! baca.slur()
             (
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -1514,7 +1514,7 @@ number.7.Guitar.Music.1 = {
             % SPANNER_STOPS:
               %! SPANNER_STOP
               %! baca._do_spanner_indicator_command(2)
-              %! baca.slur_function()
+              %! baca.slur()
             )
             % STOP_BEAM:
               %! rmakers.beam()
@@ -1570,7 +1570,7 @@ number.7.Guitar.Music.1 = {
             % SPANNER_STARTS:
               %! SPANNER_START
               %! baca._do_spanner_indicator_command(1)
-              %! baca.slur_function()
+              %! baca.slur()
             (
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -1604,7 +1604,7 @@ number.7.Guitar.Music.1 = {
             % SPANNER_STOPS:
               %! SPANNER_STOP
               %! baca._do_spanner_indicator_command(2)
-              %! baca.slur_function()
+              %! baca.slur()
             )
             % CLOSING:
             % COMMANDS:
@@ -1652,7 +1652,7 @@ number.7.Guitar.Music.1 = {
             % SPANNER_STARTS:
               %! SPANNER_START
               %! baca._do_spanner_indicator_command(1)
-              %! baca.slur_function()
+              %! baca.slur()
             (
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -1686,7 +1686,7 @@ number.7.Guitar.Music.1 = {
             % SPANNER_STOPS:
               %! SPANNER_STOP
               %! baca._do_spanner_indicator_command(2)
-              %! baca.slur_function()
+              %! baca.slur()
             )
             % CLOSING:
             % COMMANDS:
@@ -1734,7 +1734,7 @@ number.7.Guitar.Music.1 = {
             % SPANNER_STARTS:
               %! SPANNER_START
               %! baca._do_spanner_indicator_command(1)
-              %! baca.slur_function()
+              %! baca.slur()
             (
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -1768,7 +1768,7 @@ number.7.Guitar.Music.1 = {
             % SPANNER_STOPS:
               %! SPANNER_STOP
               %! baca._do_spanner_indicator_command(2)
-              %! baca.slur_function()
+              %! baca.slur()
             )
             % CLOSING:
             % COMMANDS:
@@ -1816,7 +1816,7 @@ number.7.Guitar.Music.1 = {
             % SPANNER_STARTS:
               %! SPANNER_START
               %! baca._do_spanner_indicator_command(1)
-              %! baca.slur_function()
+              %! baca.slur()
             (
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -1852,13 +1852,13 @@ number.7.Guitar.Music.1 = {
             % SPANNER_STOPS:
               %! SPANNER_STOP
               %! baca._do_spanner_indicator_command(2)
-              %! baca.slur_function()
+              %! baca.slur()
             )
             % STOP_BEAM:
               %! rmakers.beam_groups()
             ]
             % COMMANDS:
-              %! baca.beam_positions_function(2)
+              %! baca.beam_positions(2)
             \revert Beam.positions
             % CLOSING:
             % COMMANDS:
@@ -1888,7 +1888,7 @@ number.7.Guitar.Music.2 = {
     % [Guitar.Music.2 measure 1]
     % BEFORE:
     % COMMANDS:
-      %! baca.beam_positions_function(1)
+      %! baca.beam_positions(1)
     \override Beam.positions = #'(-7 . -7)
     s1 * 3/20
     % ABSOLUTE_BEFORE:
@@ -1909,7 +1909,7 @@ number.7.Guitar.Music.2 = {
             % [Guitar.Music.2 measure 2]
             % BEFORE:
             % COMMANDS:
-              %! baca.text_script_down_function(1)
+              %! baca.text_script_down(1)
             \once \override TextScript.direction = #down
             ef'!16
             % AFTER:
@@ -1918,7 +1918,7 @@ number.7.Guitar.Music.2 = {
             %@% - \tweak color #blue
               %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (2) \hspace #1 \concat { "16" \sub 1 } ] }
-              %! baca.markup_function()
+              %! baca.markup()
             _ \dornen-dull-but-beautiful-markup
             % START_BEAM:
               %! rmakers.beam()
@@ -2095,7 +2095,7 @@ number.7.Guitar.Music.2 = {
               %! rmakers.beam()
             ]
             % COMMANDS:
-              %! baca.beam_positions_function(2)
+              %! baca.beam_positions(2)
             \revert Beam.positions
             % CLOSING:
             % COMMANDS:
@@ -2126,7 +2126,7 @@ number.7.Guitar.Music.2 = {
             % [Guitar.Music.2 measure 11]
             % BEFORE:
             % COMMANDS:
-              %! baca.beam_positions_function(1)
+              %! baca.beam_positions(1)
             \override Beam.positions = #'(-7 . -7)
             ef'!16
             % AFTER:
@@ -2375,7 +2375,7 @@ number.7.Guitar.Music.2 = {
     s1 * 1/8
     % AFTER:
     % COMMANDS:
-      %! baca.beam_positions_function(2)
+      %! baca.beam_positions(2)
     \revert Beam.positions
     % CLOSING:
     % COMMANDS:
@@ -2395,7 +2395,7 @@ number.7.Guitar.Music.3 = {
     % [Guitar.Music.3 measure 1]
     % BEFORE:
     % COMMANDS:
-      %! baca.beam_positions_function(1)
+      %! baca.beam_positions(1)
     \override Beam.positions = #'(4 . 4)
     s1 * 17/80
     % ABSOLUTE_BEFORE:
@@ -2417,12 +2417,12 @@ number.7.Guitar.Music.3 = {
             % [Guitar.Music.3 measure 3]
             % BEFORE:
             % COMMANDS:
-              %! baca.stem_up_function(1)
+              %! baca.stem_up(1)
             \override Stem.direction = #up
             d'16
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % MARKUP:
               %! FIGURE_LABEL
@@ -2438,7 +2438,7 @@ number.7.Guitar.Music.3 = {
             f'16
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2446,13 +2446,13 @@ number.7.Guitar.Music.3 = {
             af'!16
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % STOP_BEAM:
               %! rmakers.beam()
             ]
             % COMMANDS:
-              %! baca.stem_up_function(2)
+              %! baca.stem_up(2)
             \revert Stem.direction
             % CLOSING:
             % COMMANDS:
@@ -2489,12 +2489,12 @@ number.7.Guitar.Music.3 = {
             % [Guitar.Music.3 measure 7]
             % BEFORE:
             % COMMANDS:
-              %! baca.stem_up_function(1)
+              %! baca.stem_up(1)
             \override Stem.direction = #up
             fs'!16
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % MARKUP:
               %! FIGURE_LABEL
@@ -2510,7 +2510,7 @@ number.7.Guitar.Music.3 = {
             a'16
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2518,13 +2518,13 @@ number.7.Guitar.Music.3 = {
             cs''!16
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % STOP_BEAM:
               %! rmakers.beam()
             ]
             % COMMANDS:
-              %! baca.stem_up_function(2)
+              %! baca.stem_up(2)
             \revert Stem.direction
             % CLOSING:
             % COMMANDS:
@@ -2561,12 +2561,12 @@ number.7.Guitar.Music.3 = {
             % [Guitar.Music.3 measure 14]
             % BEFORE:
             % COMMANDS:
-              %! baca.stem_up_function(1)
+              %! baca.stem_up(1)
             \override Stem.direction = #up
             af'!16
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % MARKUP:
               %! FIGURE_LABEL
@@ -2582,7 +2582,7 @@ number.7.Guitar.Music.3 = {
             f'16
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2590,7 +2590,7 @@ number.7.Guitar.Music.3 = {
             cs''!16
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2598,13 +2598,13 @@ number.7.Guitar.Music.3 = {
             b'16
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % STOP_BEAM:
               %! rmakers.beam()
             ]
             % COMMANDS:
-              %! baca.stem_up_function(2)
+              %! baca.stem_up(2)
             \revert Stem.direction
             % CLOSING:
             % COMMANDS:
@@ -2641,12 +2641,12 @@ number.7.Guitar.Music.3 = {
             % [Guitar.Music.3 measure 20]
             % BEFORE:
             % COMMANDS:
-              %! baca.stem_up_function(1)
+              %! baca.stem_up(1)
             \override Stem.direction = #up
             ef'!16
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % MARKUP:
               %! FIGURE_LABEL
@@ -2662,7 +2662,7 @@ number.7.Guitar.Music.3 = {
             c''16
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2670,7 +2670,7 @@ number.7.Guitar.Music.3 = {
             cs''!16
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2678,13 +2678,13 @@ number.7.Guitar.Music.3 = {
             b'16
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % STOP_BEAM:
               %! rmakers.beam()
             ]
             % COMMANDS:
-              %! baca.stem_up_function(2)
+              %! baca.stem_up(2)
             \revert Stem.direction
             % CLOSING:
             % COMMANDS:
@@ -2704,7 +2704,7 @@ number.7.Guitar.Music.3 = {
     s1 * 1/6
     % AFTER:
     % COMMANDS:
-      %! baca.beam_positions_function(2)
+      %! baca.beam_positions(2)
     \revert Beam.positions
     % CLOSING:
     % COMMANDS:

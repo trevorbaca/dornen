@@ -12,7 +12,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     figures = baca.FigureAccumulator(score, library.voice_abbreviations)
 
     collections = [["F2"]]
-    tuplets, tsd = library.monads_function(collections)
+    tuplets, tsd = library.monads(collections)
     baca.make_figures(
         figures,
         "v1",
@@ -23,7 +23,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     )
 
     collections = [["F2"]]
-    tuplets, tsd = library.monads_function(collections)
+    tuplets, tsd = library.monads(collections)
     baca.make_figures(
         figures,
         "v1",
@@ -34,7 +34,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     )
 
     collections = [["F2"]]
-    tuplets, tsd = library.thirds_function(collections)
+    tuplets, tsd = library.thirds(collections)
     baca.make_figures(
         figures,
         "v1",
@@ -45,7 +45,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     )
 
     collections = [["F2"]]
-    tuplets, tsd = library.thirds_function(collections)
+    tuplets, tsd = library.thirds(collections)
     baca.make_figures(
         figures,
         "v1",
@@ -56,7 +56,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     )
 
     collections = [["F2"]]
-    tuplets, tsd = library.thirds_function(collections)
+    tuplets, tsd = library.thirds(collections)
     baca.make_figures(
         figures,
         "v1",
@@ -67,8 +67,8 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     )
 
     collections = [["F2"]]
-    tuplets, tsd = library.monads_function(collections)
-    baca.markup_function(baca.select.pleaf(tuplets, 0), r"\dornen-three-fingers-markup")
+    tuplets, tsd = library.monads(collections)
+    baca.markup(baca.select.pleaf(tuplets, 0), r"\dornen-three-fingers-markup")
     baca.make_figures(
         figures,
         "v1",
@@ -79,7 +79,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     )
 
     collections = [["F2"]]
-    tuplets, tsd = library.monads_function(collections)
+    tuplets, tsd = library.monads(collections)
     baca.make_figures(
         figures,
         "v1",
@@ -90,7 +90,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     )
 
     collections = [["F2"]]
-    tuplets, tsd = library.thirds_function(collections)
+    tuplets, tsd = library.thirds(collections)
     baca.make_figures(
         figures,
         "v1",
@@ -101,7 +101,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     )
 
     collections = [["F2"]]
-    tuplets, tsd = library.thirds_function(collections)
+    tuplets, tsd = library.thirds(collections)
     baca.make_figures(
         figures,
         "v1",
@@ -112,7 +112,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     )
 
     collections = [["F2"]]
-    tuplets, tsd = library.thirds_function(collections)
+    tuplets, tsd = library.thirds(collections)
     baca.make_figures(
         figures,
         "v1",
@@ -125,8 +125,8 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     ###
 
     collections = [["F2"]]
-    tuplets, tsd = library.monads_function(collections)
-    baca.markup_function(baca.select.pleaf(tuplets, 0), r"\dornen-four-fingers-markup")
+    tuplets, tsd = library.monads(collections)
+    baca.markup(baca.select.pleaf(tuplets, 0), r"\dornen-four-fingers-markup")
     baca.make_figures(
         figures,
         "v1",
@@ -137,7 +137,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     )
 
     collections = [["F2"]]
-    tuplets, tsd = library.monads_function(collections)
+    tuplets, tsd = library.monads(collections)
     baca.make_figures(
         figures,
         "v1",
@@ -148,7 +148,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     )
 
     collections = [["F2"]]
-    tuplets, tsd = library.thirds_function(collections)
+    tuplets, tsd = library.thirds(collections)
     baca.make_figures(
         figures,
         "v1",
@@ -159,7 +159,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     )
 
     collections = [["F2"]]
-    tuplets, tsd = library.thirds_function(collections)
+    tuplets, tsd = library.thirds(collections)
     baca.make_figures(
         figures,
         "v1",
@@ -170,7 +170,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     )
 
     collections = [["F2"]]
-    tuplets, tsd = library.thirds_function(collections)
+    tuplets, tsd = library.thirds(collections)
     baca.make_figures(
         figures,
         "v1",
@@ -181,7 +181,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     )
 
     collections = [["F2"]]
-    tuplets, tsd = library.monads_function(collections)
+    tuplets, tsd = library.monads(collections)
     baca.make_figures(
         figures,
         "v1",
@@ -192,7 +192,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     )
 
     collections = [["F2"]]
-    tuplets, tsd = library.thirds_function(collections)
+    tuplets, tsd = library.thirds(collections)
     baca.make_figures(
         figures,
         "v1",
@@ -203,7 +203,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     )
 
     collections = [["F2"]]
-    tuplets, tsd = library.thirds_function(collections)
+    tuplets, tsd = library.thirds(collections)
     baca.make_figures(
         figures,
         "v1",
@@ -214,7 +214,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     )
 
     collections = [["F2"]]
-    tuplets, tsd = library.thirds_function(collections)
+    tuplets, tsd = library.thirds(collections)
     baca.make_figures(
         figures,
         "v1",
@@ -225,7 +225,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     )
 
     collections = [["F2"]]
-    tuplets, tsd = library.monads_function(collections)
+    tuplets, tsd = library.monads(collections)
     baca.make_figures(
         figures,
         "v1",
@@ -236,7 +236,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     )
 
     collections = [["F2"]]
-    tuplets, tsd = library.thirds_function(collections)
+    tuplets, tsd = library.thirds(collections)
     baca.make_figures(
         figures,
         "v1",
@@ -247,7 +247,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     )
 
     collections = [["F2"]]
-    tuplets, tsd = library.thirds_function(collections)
+    tuplets, tsd = library.thirds(collections)
     baca.make_figures(
         figures,
         "v1",
@@ -258,7 +258,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     )
 
     collections = [["F2"]]
-    tuplets, tsd = library.thirds_function(collections)
+    tuplets, tsd = library.thirds(collections)
     baca.make_figures(
         figures,
         "v1",
@@ -269,8 +269,8 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     )
 
     collections = [2 * ["F2"]]
-    tuplets, tsd = library.monads_function(collections)
-    baca.markup_function(baca.select.pleaf(tuplets, 0), r"\dornen-three-fingers-markup")
+    tuplets, tsd = library.monads(collections)
+    baca.markup(baca.select.pleaf(tuplets, 0), r"\dornen-three-fingers-markup")
     baca.make_figures(
         figures,
         "v1",
@@ -281,8 +281,8 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     )
 
     collections = [2 * ["F2"]]
-    tuplets, tsd = library.monads_function(collections)
-    baca.markup_function(baca.select.pleaf(tuplets, 0), r"\dornen-two-fingers-markup")
+    tuplets, tsd = library.monads(collections)
+    baca.markup(baca.select.pleaf(tuplets, 0), r"\dornen-two-fingers-markup")
     baca.make_figures(
         figures,
         "v1",
@@ -318,53 +318,53 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
 def postprocess(cache):
     m = cache["v1"]
     with baca.scope(m.leaves()) as o:
-        baca.register_function(o, -20)
+        baca.register(o, -20)
         for qrun in baca.select.qruns(o):
-            baca.repeat_tie_function(qrun[1:])
-        baca.stem_tremolo_function(o.pleaves())
+            baca.repeat_tie(qrun[1:])
+        baca.stem_tremolo(o.pleaves())
     with baca.scope(m[2]) as o:
         for group in library.group_rleaves(o):
-            baca.hairpin_function(group, "p < mp")
-            baca.text_spanner_function(group, "tamb. tr. => kn. rasg.")
+            baca.hairpin(group, "p < mp")
+            baca.text_spanner(group, "tamb. tr. => kn. rasg.")
     with baca.scope(m[4]) as o:
         for group in library.group_rleaves(o):
-            baca.hairpin_function(group, "mp > p")
-            baca.text_spanner_function(group, "trans. => tamb. tr.")
+            baca.hairpin(group, "mp > p")
+            baca.text_spanner(group, "trans. => tamb. tr.")
     with baca.scope(m[7]) as o:
         for group in library.group_rleaves(o):
-            baca.hairpin_function(group, "p < mf")
-            baca.text_spanner_function(group, "trans. => kn. rasg.")
+            baca.hairpin(group, "p < mf")
+            baca.text_spanner(group, "trans. => kn. rasg.")
     with baca.scope(m[9]) as o:
         for group in library.group_rleaves(o):
-            baca.hairpin_function(group, "mf > p")
-            baca.text_spanner_function(group, "trans. => tamb. tr.")
+            baca.hairpin(group, "mf > p")
+            baca.text_spanner(group, "trans. => tamb. tr.")
     with baca.scope(m[12]) as o:
         for group in library.group_rleaves(o):
-            baca.hairpin_function(group, "p < mp")
-            baca.text_spanner_function(group, "trans. => kn. rasg.")
+            baca.hairpin(group, "p < mp")
+            baca.text_spanner(group, "trans. => kn. rasg.")
     with baca.scope(m[14]) as o:
         for group in library.group_rleaves(o):
-            baca.hairpin_function(group, "mp > p")
-            baca.text_spanner_function(group, "trans. => tamb. tr.")
+            baca.hairpin(group, "mp > p")
+            baca.text_spanner(group, "trans. => tamb. tr.")
     with baca.scope(m[16]) as o:
         for group in library.group_rleaves(o):
-            baca.hairpin_function(group, "p < mf")
-            baca.text_spanner_function(group, "trans. => kn. rasg.")
+            baca.hairpin(group, "p < mf")
+            baca.text_spanner(group, "trans. => kn. rasg.")
     with baca.scope(m[18]) as o:
         for group in library.group_rleaves(o):
-            baca.hairpin_function(group, "mf > p")
-            baca.text_spanner_function(group, "trans. => tamb. tr.")
+            baca.hairpin(group, "mf > p")
+            baca.text_spanner(group, "trans. => tamb. tr.")
     with baca.scope(m[20]) as o:
         for group in library.group_rleaves(o):
-            baca.hairpin_function(group, "p < f")
-            baca.text_spanner_function(group, "trans. => kn. rasg.")
+            baca.hairpin(group, "p < f")
+            baca.text_spanner(group, "trans. => kn. rasg.")
     with baca.scope(m.get(22, 24)) as o:
         for group in library.group_rleaves(o):
-            baca.hairpin_function(group, "f > mp")
-            baca.text_spanner_function(group, "trans. => tamb. tr.")
+            baca.hairpin(group, "f > mp")
+            baca.text_spanner(group, "trans. => tamb. tr.")
     with baca.scope(m.leaves()) as o:
-        baca.text_spanner_staff_padding_function(o, 5)
-        baca.text_script_staff_padding_function(o, 8)
+        baca.text_spanner_staff_padding(o, 5)
+        baca.text_script_staff_padding(o, 8)
 
 
 def make_score(first_measure_number, previous_persistent_indicators):

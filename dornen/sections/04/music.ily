@@ -1151,7 +1151,7 @@ number.4.Guitar.Music.1 = {
             % [Guitar.Music.1 measure 1]
             % BEFORE:
             % COMMANDS:
-              %! baca.beam_positions_function(1)
+              %! baca.beam_positions(1)
             \override Beam.positions = #'(9 . 9)
             % GROB_OVERRIDES:
             \once \override Beam.grow-direction = #right
@@ -1767,7 +1767,7 @@ number.4.Guitar.Music.1 = {
               %! rmakers.beam()
             ]
             % COMMANDS:
-              %! baca.beam_positions_function(2)
+              %! baca.beam_positions(2)
             \revert Beam.positions
             % CLOSING:
             % COMMANDS:
@@ -1789,7 +1789,7 @@ number.4.Guitar.Music.1 = {
     % [Guitar.Music.1 measure 4]
     % BEFORE:
     % COMMANDS:
-      %! baca.beam_positions_function(1)
+      %! baca.beam_positions(1)
     \override Beam.positions = #'(6 . 6)
     s1 * 5/32
     % ABSOLUTE_BEFORE:
@@ -2225,7 +2225,7 @@ number.4.Guitar.Music.1 = {
     s1 * 1/8
     % AFTER:
     % COMMANDS:
-      %! baca.beam_positions_function(2)
+      %! baca.beam_positions(2)
     \revert Beam.positions
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -2578,7 +2578,7 @@ number.4.Guitar.Music.2 = {
             % [Guitar.Music.2 measure 4]
             % BEFORE:
             % COMMANDS:
-              %! baca.beam_positions_function(1)
+              %! baca.beam_positions(1)
             \override Beam.positions = #'(-12 . -12)
               %! rmakers.beam_groups()
             \set stemLeftBeamCount = 0
@@ -2591,14 +2591,14 @@ number.4.Guitar.Music.2 = {
             %@% - \tweak color #blue
               %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (4) \hspace #1 "G1" ] }
-              %! baca.markup_function()
+              %! baca.markup()
             ^ \dornen-glissando-attack-first-note-only-markup
             % START_BEAM:
               %! rmakers.beam_groups()
             [
             % SPANNER_STARTS:
               %! abjad.glissando(7)
-              %! baca.glissando_function()
+              %! baca.glissando()
             \glissando
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2613,7 +2613,7 @@ number.4.Guitar.Music.2 = {
             % AFTER:
             % SPANNER_STARTS:
               %! abjad.glissando(7)
-              %! baca.glissando_function()
+              %! baca.glissando()
             \glissando
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2628,7 +2628,7 @@ number.4.Guitar.Music.2 = {
             % AFTER:
             % SPANNER_STARTS:
               %! abjad.glissando(7)
-              %! baca.glissando_function()
+              %! baca.glissando()
             \glissando
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2640,7 +2640,7 @@ number.4.Guitar.Music.2 = {
             cs'''!32
             % AFTER:
             % COMMANDS:
-              %! baca.beam_positions_function(2)
+              %! baca.beam_positions(2)
             \revert Beam.positions
             % CLOSING:
             % COMMANDS:
@@ -2687,7 +2687,7 @@ number.4.Guitar.Music.2 = {
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (12) \hspace #1 "G2" ] }
             % SPANNER_STARTS:
               %! abjad.glissando(7)
-              %! baca.glissando_function()
+              %! baca.glissando()
             \glissando
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2702,7 +2702,7 @@ number.4.Guitar.Music.2 = {
             % AFTER:
             % SPANNER_STARTS:
               %! abjad.glissando(7)
-              %! baca.glissando_function()
+              %! baca.glissando()
             \glissando
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2757,7 +2757,7 @@ number.4.Guitar.Music.2 = {
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (14) \hspace #1 "G3" ] }
             % SPANNER_STARTS:
               %! abjad.glissando(7)
-              %! baca.glissando_function()
+              %! baca.glissando()
             \glissando
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2842,7 +2842,7 @@ number.4.Guitar.Music.3 = {
             % SPANNER_STARTS:
               %! SPANNER_START
               %! baca._do_spanner_indicator_command(1)
-              %! baca.slur_function()
+              %! baca.slur()
             (
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2898,7 +2898,7 @@ number.4.Guitar.Music.3 = {
             % SPANNER_STOPS:
               %! SPANNER_STOP
               %! baca._do_spanner_indicator_command(2)
-              %! baca.slur_function()
+              %! baca.slur()
             )
             % CLOSING:
             % COMMANDS:
@@ -2925,7 +2925,7 @@ number.4.Guitar.Music.3 = {
             % SPANNER_STARTS:
               %! SPANNER_START
               %! baca._do_spanner_indicator_command(1)
-              %! baca.slur_function()
+              %! baca.slur()
             (
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2971,7 +2971,7 @@ number.4.Guitar.Music.3 = {
             % SPANNER_STOPS:
               %! SPANNER_STOP
               %! baca._do_spanner_indicator_command(2)
-              %! baca.slur_function()
+              %! baca.slur()
             )
             % CLOSING:
             % COMMANDS:
@@ -2999,7 +2999,7 @@ number.4.Guitar.Music.3 = {
             % SPANNER_STARTS:
               %! SPANNER_START
               %! baca._do_spanner_indicator_command(1)
-              %! baca.slur_function()
+              %! baca.slur()
             (
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -3033,7 +3033,7 @@ number.4.Guitar.Music.3 = {
             % SPANNER_STOPS:
               %! SPANNER_STOP
               %! baca._do_spanner_indicator_command(2)
-              %! baca.slur_function()
+              %! baca.slur()
             )
             % CLOSING:
             % COMMANDS:
@@ -3075,7 +3075,7 @@ number.4.Guitar.Music.3 = {
             % SPANNER_STARTS:
               %! SPANNER_START
               %! baca._do_spanner_indicator_command(1)
-              %! baca.slur_function()
+              %! baca.slur()
             (
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -3121,7 +3121,7 @@ number.4.Guitar.Music.3 = {
             % SPANNER_STOPS:
               %! SPANNER_STOP
               %! baca._do_spanner_indicator_command(2)
-              %! baca.slur_function()
+              %! baca.slur()
             )
             % CLOSING:
             % COMMANDS:
@@ -3149,7 +3149,7 @@ number.4.Guitar.Music.3 = {
             % SPANNER_STARTS:
               %! SPANNER_START
               %! baca._do_spanner_indicator_command(1)
-              %! baca.slur_function()
+              %! baca.slur()
             (
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -3185,7 +3185,7 @@ number.4.Guitar.Music.3 = {
             % SPANNER_STOPS:
               %! SPANNER_STOP
               %! baca._do_spanner_indicator_command(2)
-              %! baca.slur_function()
+              %! baca.slur()
             )
             % CLOSING:
             % COMMANDS:
@@ -3212,7 +3212,7 @@ number.4.Guitar.Music.3 = {
             % SPANNER_STARTS:
               %! SPANNER_START
               %! baca._do_spanner_indicator_command(1)
-              %! baca.slur_function()
+              %! baca.slur()
             (
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -3236,7 +3236,7 @@ number.4.Guitar.Music.3 = {
             % SPANNER_STOPS:
               %! SPANNER_STOP
               %! baca._do_spanner_indicator_command(2)
-              %! baca.slur_function()
+              %! baca.slur()
             )
             % CLOSING:
             % COMMANDS:
@@ -3285,7 +3285,7 @@ number.4.Guitar.Music.3 = {
             % SPANNER_STARTS:
               %! SPANNER_START
               %! baca._do_spanner_indicator_command(1)
-              %! baca.slur_function()
+              %! baca.slur()
             (
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -3321,7 +3321,7 @@ number.4.Guitar.Music.3 = {
             % SPANNER_STOPS:
               %! SPANNER_STOP
               %! baca._do_spanner_indicator_command(2)
-              %! baca.slur_function()
+              %! baca.slur()
             )
             % CLOSING:
             % COMMANDS:
@@ -3348,7 +3348,7 @@ number.4.Guitar.Music.3 = {
             % SPANNER_STARTS:
               %! SPANNER_START
               %! baca._do_spanner_indicator_command(1)
-              %! baca.slur_function()
+              %! baca.slur()
             (
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -3374,7 +3374,7 @@ number.4.Guitar.Music.3 = {
             % SPANNER_STOPS:
               %! SPANNER_STOP
               %! baca._do_spanner_indicator_command(2)
-              %! baca.slur_function()
+              %! baca.slur()
             )
             % CLOSING:
             % COMMANDS:
@@ -3402,7 +3402,7 @@ number.4.Guitar.Music.3 = {
             % SPANNER_STARTS:
               %! SPANNER_START
               %! baca._do_spanner_indicator_command(1)
-              %! baca.slur_function()
+              %! baca.slur()
             (
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -3458,7 +3458,7 @@ number.4.Guitar.Music.3 = {
             % SPANNER_STOPS:
               %! SPANNER_STOP
               %! baca._do_spanner_indicator_command(2)
-              %! baca.slur_function()
+              %! baca.slur()
             )
             % STOP_BEAM:
               %! rmakers.beam_groups()
@@ -3537,7 +3537,7 @@ number.4.Guitar.Music.3 = {
             % SPANNER_STARTS:
               %! SPANNER_START
               %! baca._do_spanner_indicator_command(1)
-              %! baca.slur_function()
+              %! baca.slur()
             (
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -3593,7 +3593,7 @@ number.4.Guitar.Music.3 = {
             % SPANNER_STOPS:
               %! SPANNER_STOP
               %! baca._do_spanner_indicator_command(2)
-              %! baca.slur_function()
+              %! baca.slur()
             )
             % CLOSING:
             % COMMANDS:
@@ -3620,7 +3620,7 @@ number.4.Guitar.Music.3 = {
             % SPANNER_STARTS:
               %! SPANNER_START
               %! baca._do_spanner_indicator_command(1)
-              %! baca.slur_function()
+              %! baca.slur()
             (
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -3664,7 +3664,7 @@ number.4.Guitar.Music.3 = {
             % SPANNER_STOPS:
               %! SPANNER_STOP
               %! baca._do_spanner_indicator_command(2)
-              %! baca.slur_function()
+              %! baca.slur()
             )
             % CLOSING:
             % COMMANDS:
@@ -3707,7 +3707,7 @@ number.4.Guitar.Music.3 = {
             % SPANNER_STARTS:
               %! SPANNER_START
               %! baca._do_spanner_indicator_command(1)
-              %! baca.slur_function()
+              %! baca.slur()
             (
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -3763,7 +3763,7 @@ number.4.Guitar.Music.3 = {
             % SPANNER_STOPS:
               %! SPANNER_STOP
               %! baca._do_spanner_indicator_command(2)
-              %! baca.slur_function()
+              %! baca.slur()
             )
             % CLOSING:
             % COMMANDS:
@@ -3790,7 +3790,7 @@ number.4.Guitar.Music.3 = {
             % SPANNER_STARTS:
               %! SPANNER_START
               %! baca._do_spanner_indicator_command(1)
-              %! baca.slur_function()
+              %! baca.slur()
             (
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -3836,7 +3836,7 @@ number.4.Guitar.Music.3 = {
             % SPANNER_STOPS:
               %! SPANNER_STOP
               %! baca._do_spanner_indicator_command(2)
-              %! baca.slur_function()
+              %! baca.slur()
             )
             % CLOSING:
             % COMMANDS:
@@ -3864,7 +3864,7 @@ number.4.Guitar.Music.3 = {
             % SPANNER_STARTS:
               %! SPANNER_START
               %! baca._do_spanner_indicator_command(1)
-              %! baca.slur_function()
+              %! baca.slur()
             (
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -3898,7 +3898,7 @@ number.4.Guitar.Music.3 = {
             % SPANNER_STOPS:
               %! SPANNER_STOP
               %! baca._do_spanner_indicator_command(2)
-              %! baca.slur_function()
+              %! baca.slur()
             )
             % CLOSING:
             % COMMANDS:
@@ -3946,7 +3946,7 @@ number.4.Guitar.Music.3 = {
             % SPANNER_STARTS:
               %! SPANNER_START
               %! baca._do_spanner_indicator_command(1)
-              %! baca.slur_function()
+              %! baca.slur()
             (
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -3992,7 +3992,7 @@ number.4.Guitar.Music.3 = {
             % SPANNER_STOPS:
               %! SPANNER_STOP
               %! baca._do_spanner_indicator_command(2)
-              %! baca.slur_function()
+              %! baca.slur()
             )
             % CLOSING:
             % COMMANDS:
@@ -4020,7 +4020,7 @@ number.4.Guitar.Music.3 = {
             % SPANNER_STARTS:
               %! SPANNER_START
               %! baca._do_spanner_indicator_command(1)
-              %! baca.slur_function()
+              %! baca.slur()
             (
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -4056,7 +4056,7 @@ number.4.Guitar.Music.3 = {
             % SPANNER_STOPS:
               %! SPANNER_STOP
               %! baca._do_spanner_indicator_command(2)
-              %! baca.slur_function()
+              %! baca.slur()
             )
             % CLOSING:
             % COMMANDS:
@@ -4083,7 +4083,7 @@ number.4.Guitar.Music.3 = {
             % SPANNER_STARTS:
               %! SPANNER_START
               %! baca._do_spanner_indicator_command(1)
-              %! baca.slur_function()
+              %! baca.slur()
             (
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -4109,7 +4109,7 @@ number.4.Guitar.Music.3 = {
             % SPANNER_STOPS:
               %! SPANNER_STOP
               %! baca._do_spanner_indicator_command(2)
-              %! baca.slur_function()
+              %! baca.slur()
             )
             % STOP_BEAM:
               %! rmakers.beam_groups()
@@ -4201,25 +4201,25 @@ number.4.Guitar.Music.4 = {
             % [Guitar.Music.4 measure 9]
             % BEFORE:
             % COMMANDS:
-              %! baca.tuplet_bracket_extra_offset_function(1)
+              %! baca.tuplet_bracket_extra_offset(1)
             \once \override TupletBracket.extra-offset = #'(0 . -0.5)
-              %! baca.tuplet_number_extra_offset_function(1)
+              %! baca.tuplet_number_extra_offset(1)
             \once \override TupletNumber.extra-offset = #'(0 . -0.5)
-              %! baca.stem_up_function(1)
+              %! baca.stem_up(1)
             \override Stem.direction = #up
-              %! baca.tuplet_bracket_staff_padding_function(1)
+              %! baca.tuplet_bracket_staff_padding(1)
             \override TupletBracket.staff-padding = 0
             gf!2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.stem_tremolo_function()
+              %! baca.stem_tremolo()
             :32
             % MARKUP:
               %! FIGURE_LABEL
             %@% - \tweak color #blue
               %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (9) \hspace #1 "T1" ] }
-              %! baca.markup_function()
+              %! baca.markup()
             ^ \dornen-two-finger-tamb-trill-markup
             % SPANNER_STARTS:
               %! baca._attach_shadow_tie_indicators()
@@ -4244,15 +4244,15 @@ number.4.Guitar.Music.4 = {
             gf2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.stem_tremolo_function()
+              %! baca.stem_tremolo()
             :32
             % SPANNER_STARTS:
-              %! baca.repeat_tie_function()
+              %! baca.repeat_tie()
             \repeatTie
             % COMMANDS:
-              %! baca.stem_up_function(2)
+              %! baca.stem_up(2)
             \revert Stem.direction
-              %! baca.tuplet_bracket_staff_padding_function(2)
+              %! baca.tuplet_bracket_staff_padding(2)
             \revert TupletBracket.staff-padding
             % CLOSING:
             % COMMANDS:
@@ -4330,25 +4330,25 @@ number.4.Guitar.Music.4 = {
             % [Guitar.Music.4 measure 18]
             % BEFORE:
             % COMMANDS:
-              %! baca.tuplet_bracket_extra_offset_function(1)
+              %! baca.tuplet_bracket_extra_offset(1)
             \once \override TupletBracket.extra-offset = #'(0 . -0.5)
-              %! baca.tuplet_number_extra_offset_function(1)
+              %! baca.tuplet_number_extra_offset(1)
             \once \override TupletNumber.extra-offset = #'(0 . -0.5)
-              %! baca.stem_up_function(1)
+              %! baca.stem_up(1)
             \override Stem.direction = #up
-              %! baca.tuplet_bracket_staff_padding_function(1)
+              %! baca.tuplet_bracket_staff_padding(1)
             \override TupletBracket.staff-padding = 0
             gf!2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.stem_tremolo_function()
+              %! baca.stem_tremolo()
             :32
             % MARKUP:
               %! FIGURE_LABEL
             %@% - \tweak color #blue
               %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (18) \hspace #1 "T2" ] }
-              %! baca.markup_function()
+              %! baca.markup()
             ^ \dornen-two-finger-tamb-trill-markup
             % SPANNER_STARTS:
               %! baca._attach_shadow_tie_indicators()
@@ -4373,15 +4373,15 @@ number.4.Guitar.Music.4 = {
             gf2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.stem_tremolo_function()
+              %! baca.stem_tremolo()
             :32
             % SPANNER_STARTS:
-              %! baca.repeat_tie_function()
+              %! baca.repeat_tie()
             \repeatTie
             % COMMANDS:
-              %! baca.stem_up_function(2)
+              %! baca.stem_up(2)
             \revert Stem.direction
-              %! baca.tuplet_bracket_staff_padding_function(2)
+              %! baca.tuplet_bracket_staff_padding(2)
             \revert TupletBracket.staff-padding
             % CLOSING:
             % COMMANDS:

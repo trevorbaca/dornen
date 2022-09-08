@@ -35,19 +35,19 @@ number.8.Skips = {
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark_function()
+      %! baca.metronome_mark()
     %@% - \abjad-invisible-line
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark_function()
+      %! baca.metronome_mark()
     %@% - \baca-metronome-mark-spanner-left-text 3 0 1 "66"
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark_function()
+      %! baca.metronome_mark()
     %@% \bacaStartTextSpanMM
       %! CLOCK_TIME
       %! baca._label_clock_time()
@@ -795,7 +795,7 @@ number.8.Guitar.Music.1 = {
             % [Guitar.Music.1 measure 2]
             % BEFORE:
             % COMMANDS:
-              %! baca.beam_positions_function(1)
+              %! baca.beam_positions(1)
             \override Beam.positions = #'(8 . 8)
               %! rmakers.beam_groups()
             \set stemLeftBeamCount = 0
@@ -813,7 +813,7 @@ number.8.Guitar.Music.1 = {
             [
             % SPANNER_STARTS:
               %! abjad.glissando(7)
-              %! baca.glissando_function()
+              %! baca.glissando()
             \glissando
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -830,7 +830,7 @@ number.8.Guitar.Music.1 = {
               %! rmakers.beam_groups()
             ]
             % COMMANDS:
-              %! baca.beam_positions_function(2)
+              %! baca.beam_positions(2)
             \revert Beam.positions
             % CLOSING:
             % COMMANDS:
@@ -867,7 +867,7 @@ number.8.Guitar.Music.1 = {
             % [Guitar.Music.1 measure 7]
             % BEFORE:
             % COMMANDS:
-              %! baca.beam_positions_function(1)
+              %! baca.beam_positions(1)
             \override Beam.positions = #'(12 . 12)
               %! rmakers.beam_groups()
             \set stemLeftBeamCount = 0
@@ -885,7 +885,7 @@ number.8.Guitar.Music.1 = {
             [
             % SPANNER_STARTS:
               %! abjad.glissando(7)
-              %! baca.glissando_function()
+              %! baca.glissando()
             \glissando
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -900,7 +900,7 @@ number.8.Guitar.Music.1 = {
             % AFTER:
             % SPANNER_STARTS:
               %! abjad.glissando(7)
-              %! baca.glissando_function()
+              %! baca.glissando()
             \glissando
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -915,7 +915,7 @@ number.8.Guitar.Music.1 = {
             % AFTER:
             % SPANNER_STARTS:
               %! abjad.glissando(7)
-              %! baca.glissando_function()
+              %! baca.glissando()
             \glissando
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -930,7 +930,7 @@ number.8.Guitar.Music.1 = {
             % AFTER:
             % SPANNER_STARTS:
               %! abjad.glissando(7)
-              %! baca.glissando_function()
+              %! baca.glissando()
             \glissando
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -945,7 +945,7 @@ number.8.Guitar.Music.1 = {
             % AFTER:
             % SPANNER_STARTS:
               %! abjad.glissando(7)
-              %! baca.glissando_function()
+              %! baca.glissando()
             \glissando
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -957,7 +957,7 @@ number.8.Guitar.Music.1 = {
             af''!16
             % AFTER:
             % COMMANDS:
-              %! baca.beam_positions_function(2)
+              %! baca.beam_positions(2)
             \revert Beam.positions
             % CLOSING:
             % COMMANDS:
@@ -1005,7 +1005,7 @@ number.8.Guitar.Music.1 = {
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (12) \hspace #1 "L3" ] }
             % SPANNER_STARTS:
               %! abjad.glissando(7)
-              %! baca.glissando_function()
+              %! baca.glissando()
             \glissando
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -1020,7 +1020,7 @@ number.8.Guitar.Music.1 = {
             % AFTER:
             % SPANNER_STARTS:
               %! abjad.glissando(7)
-              %! baca.glissando_function()
+              %! baca.glissando()
             \glissando
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -1035,7 +1035,7 @@ number.8.Guitar.Music.1 = {
             % AFTER:
             % SPANNER_STARTS:
               %! abjad.glissando(7)
-              %! baca.glissando_function()
+              %! baca.glissando()
             \glissando
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -1090,7 +1090,7 @@ number.8.Guitar.Music.2 = {
             % [Guitar.Music.2 measure 1]
             % BEFORE:
             % COMMANDS:
-              %! baca.beam_positions_function(1)
+              %! baca.beam_positions(1)
             \once \override Beam.positions = #'(-7.5 . -7.5)
               %! rmakers.beam_groups()
             \set stemLeftBeamCount = 0
@@ -1180,7 +1180,7 @@ number.8.Guitar.Music.2 = {
             % [Guitar.Music.2 measure 6]
             % BEFORE:
             % COMMANDS:
-              %! baca.beam_positions_function(1)
+              %! baca.beam_positions(1)
             \once \override Beam.positions = #'(-7.5 . -7.5)
               %! rmakers.beam_groups()
             \set stemLeftBeamCount = 0
@@ -1380,7 +1380,7 @@ number.8.Guitar.Music.3 = {
             % [Guitar.Music.3 measure 4]
             % BEFORE:
             % COMMANDS:
-              %! baca.beam_positions_function(1)
+              %! baca.beam_positions(1)
             \override Beam.positions = #'(-7.5 . -7.5)
               %! rmakers.beam_groups()
             \set stemLeftBeamCount = 0
@@ -1389,7 +1389,7 @@ number.8.Guitar.Music.3 = {
             cs'''!32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % MARKUP:
               %! FIGURE_LABEL
@@ -1411,7 +1411,7 @@ number.8.Guitar.Music.3 = {
             c'''32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -1425,7 +1425,7 @@ number.8.Guitar.Music.3 = {
             d''32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -1439,7 +1439,7 @@ number.8.Guitar.Music.3 = {
             g''32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -1453,7 +1453,7 @@ number.8.Guitar.Music.3 = {
             b''32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -1467,7 +1467,7 @@ number.8.Guitar.Music.3 = {
             bf''!32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -1481,7 +1481,7 @@ number.8.Guitar.Music.3 = {
             e''32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -1495,7 +1495,7 @@ number.8.Guitar.Music.3 = {
             ef''!32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -1509,7 +1509,7 @@ number.8.Guitar.Music.3 = {
             f''32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -1523,7 +1523,7 @@ number.8.Guitar.Music.3 = {
             af'!32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -1537,7 +1537,7 @@ number.8.Guitar.Music.3 = {
             a'32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -1551,7 +1551,7 @@ number.8.Guitar.Music.3 = {
             e'32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -1565,7 +1565,7 @@ number.8.Guitar.Music.3 = {
             ef'!32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -1579,7 +1579,7 @@ number.8.Guitar.Music.3 = {
             f'32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -1593,7 +1593,7 @@ number.8.Guitar.Music.3 = {
             af'!32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -1607,7 +1607,7 @@ number.8.Guitar.Music.3 = {
             a'32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -1621,7 +1621,7 @@ number.8.Guitar.Music.3 = {
             bf'!32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -1635,7 +1635,7 @@ number.8.Guitar.Music.3 = {
             c'32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -1649,7 +1649,7 @@ number.8.Guitar.Music.3 = {
             d'32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -1663,7 +1663,7 @@ number.8.Guitar.Music.3 = {
             g'32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -1677,7 +1677,7 @@ number.8.Guitar.Music.3 = {
             b32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -1691,13 +1691,13 @@ number.8.Guitar.Music.3 = {
             cs'!32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % STOP_BEAM:
               %! rmakers.beam_groups()
             ]
             % COMMANDS:
-              %! baca.beam_positions_function(2)
+              %! baca.beam_positions(2)
             \revert Beam.positions
             % CLOSING:
             % COMMANDS:
@@ -1733,7 +1733,7 @@ number.8.Guitar.Music.3 = {
             % [Guitar.Music.3 measure 9]
             % BEFORE:
             % COMMANDS:
-              %! baca.beam_positions_function(1)
+              %! baca.beam_positions(1)
             \override Beam.positions = #'(-6 . -6)
               %! rmakers.beam_groups()
             \set stemLeftBeamCount = 0
@@ -1742,7 +1742,7 @@ number.8.Guitar.Music.3 = {
             af''!32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % MARKUP:
               %! FIGURE_LABEL
@@ -1764,7 +1764,7 @@ number.8.Guitar.Music.3 = {
             bf''!32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -1778,7 +1778,7 @@ number.8.Guitar.Music.3 = {
             b'32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -1792,7 +1792,7 @@ number.8.Guitar.Music.3 = {
             cs''!32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -1806,7 +1806,7 @@ number.8.Guitar.Music.3 = {
             e'32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -1820,13 +1820,13 @@ number.8.Guitar.Music.3 = {
             g'32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % STOP_BEAM:
               %! rmakers.beam_groups()
             ]
             % COMMANDS:
-              %! baca.beam_positions_function(2)
+              %! baca.beam_positions(2)
             \revert Beam.positions
             % CLOSING:
             % COMMANDS:
@@ -1862,7 +1862,7 @@ number.8.Guitar.Music.4 = {
     % [Guitar.Music.4 measure 1]
     % BEFORE:
     % COMMANDS:
-      %! baca.beam_positions_function(1)
+      %! baca.beam_positions(1)
     \override Beam.positions = #'(8 . 8)
     s1 * 11/32
     % ABSOLUTE_BEFORE:
@@ -2403,7 +2403,7 @@ number.8.Guitar.Music.4 = {
     s1 * 3/8
     % AFTER:
     % COMMANDS:
-      %! baca.beam_positions_function(2)
+      %! baca.beam_positions(2)
     \revert Beam.positions
     % CLOSING:
     % COMMANDS:

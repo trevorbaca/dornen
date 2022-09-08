@@ -16,9 +16,9 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     assert len(design) == 14
 
     collections = design[:4]
-    tuplets, tsd = library.waves_function(collections, denominator=64, inverted=True)
-    baca.beam_positions_function(tuplets, 8)
-    baca.register_function(tuplets, 0, -14)
+    tuplets, tsd = library.waves(collections, denominator=64, inverted=True)
+    baca.beam_positions(tuplets, 8)
+    baca.register(tuplets, 0, -14)
     baca.make_figures(
         figures,
         "v1",
@@ -29,10 +29,10 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     )
 
     collections = baca.sequence.reveal(design[4:5], 1)
-    tuplets, tsd = library.twentieths_function(collections)
-    baca.beam_positions_function(tuplets, -8)
-    baca.register_function(tuplets, 6)
-    baca.extend_beam_function(abjad.select.leaf(tuplets, -1))
+    tuplets, tsd = library.twentieths(collections)
+    baca.beam_positions(tuplets, -8)
+    baca.register(tuplets, 6)
+    baca.extend_beam(abjad.select.leaf(tuplets, -1))
     baca.make_figures(
         figures,
         "v2",
@@ -43,9 +43,9 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     )
 
     collections = design[5:8]
-    tuplets, tsd = library.running_function(collections)
-    baca.register_function(tuplets, -14, 0)
-    baca.extend_beam_function(abjad.select.leaf(tuplets, -1))
+    tuplets, tsd = library.running(collections)
+    baca.register(tuplets, -14, 0)
+    baca.extend_beam(abjad.select.leaf(tuplets, -1))
     baca.make_figures(
         figures,
         "v1",
@@ -56,9 +56,9 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     )
 
     collections = baca.sequence.reveal(design[4:5], 2)
-    tuplets, tsd = library.twentieths_function(collections)
-    baca.register_function(tuplets, 6)
-    baca.extend_beam_function(abjad.select.leaf(tuplets, -1))
+    tuplets, tsd = library.twentieths(collections)
+    baca.register(tuplets, 6)
+    baca.extend_beam(abjad.select.leaf(tuplets, -1))
     baca.make_figures(
         figures,
         "v2",
@@ -69,9 +69,9 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     )
 
     collections = design[6:9]
-    tuplets, tsd = library.running_function(collections)
-    baca.register_function(tuplets, -14, 0)
-    baca.extend_beam_function(abjad.select.leaf(tuplets, -1))
+    tuplets, tsd = library.running(collections)
+    baca.register(tuplets, -14, 0)
+    baca.extend_beam(abjad.select.leaf(tuplets, -1))
     baca.make_figures(
         figures,
         "v1",
@@ -82,9 +82,9 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     )
 
     collections = baca.sequence.reveal(design[4:5], 3)
-    tuplets, tsd = library.twentieths_function(collections)
-    baca.register_function(tuplets, 6)
-    baca.extend_beam_function(abjad.select.leaf(tuplets, -1))
+    tuplets, tsd = library.twentieths(collections)
+    baca.register(tuplets, 6)
+    baca.extend_beam(abjad.select.leaf(tuplets, -1))
     baca.make_figures(
         figures,
         "v2",
@@ -95,9 +95,9 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     )
 
     collections = design[7:10]
-    tuplets, tsd = library.running_function(collections)
-    baca.register_function(tuplets, -14, 0)
-    baca.extend_beam_function(abjad.select.leaf(tuplets, -1))
+    tuplets, tsd = library.running(collections)
+    baca.register(tuplets, -14, 0)
+    baca.extend_beam(abjad.select.leaf(tuplets, -1))
     baca.make_figures(
         figures,
         "v1",
@@ -108,9 +108,9 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     )
 
     collections = baca.sequence.reveal(design[4:5], 4)
-    tuplets, tsd = library.twentieths_function(collections)
-    baca.register_function(tuplets, 6)
-    baca.extend_beam_function(abjad.select.leaf(tuplets, -1))
+    tuplets, tsd = library.twentieths(collections)
+    baca.register(tuplets, 6)
+    baca.extend_beam(abjad.select.leaf(tuplets, -1))
     baca.make_figures(
         figures,
         "v2",
@@ -121,9 +121,9 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     )
 
     collections = design[8:11]
-    tuplets, tsd = library.running_function(collections)
-    baca.register_function(tuplets, -14, 0)
-    baca.extend_beam_function(abjad.select.leaf(tuplets, -1))
+    tuplets, tsd = library.running(collections)
+    baca.register(tuplets, -14, 0)
+    baca.extend_beam(abjad.select.leaf(tuplets, -1))
     baca.make_figures(
         figures,
         "v1",
@@ -134,8 +134,8 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     )
 
     collections = baca.sequence.reveal(design[4:5], 5)
-    tuplets, tsd = library.twentieths_function(collections)
-    baca.register_function(tuplets, 6)
+    tuplets, tsd = library.twentieths(collections)
+    baca.register(tuplets, 6)
     baca.make_figures(
         figures,
         "v2",
@@ -146,8 +146,8 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     )
 
     collections = design[9:13]
-    tuplets, tsd = library.running_function(collections)
-    baca.register_function(tuplets, -14, 6)
+    tuplets, tsd = library.running(collections)
+    baca.register(tuplets, -14, 6)
     baca.make_figures(
         figures,
         "v1",
@@ -158,9 +158,9 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     )
 
     collections = baca.sequence.reveal(design[4:5], 1)
-    tuplets, tsd = library.twentieths_function(collections)
-    baca.register_function(tuplets, 6)
-    baca.extend_beam_function(abjad.select.leaf(tuplets, -1))
+    tuplets, tsd = library.twentieths(collections)
+    baca.register(tuplets, 6)
+    baca.extend_beam(abjad.select.leaf(tuplets, -1))
     baca.make_figures(
         figures,
         "v2",
@@ -171,10 +171,10 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     )
 
     collections = design[13:]
-    tuplets, tsd = library.delicatissimo_function(collections)
-    baca.text_script_staff_padding_function(tuplets, 9)
-    baca.register_function(tuplets, 6, -20)
-    baca.extend_beam_function(abjad.select.leaf(tuplets, -1))
+    tuplets, tsd = library.delicatissimo(collections)
+    baca.text_script_staff_padding(tuplets, 9)
+    baca.register(tuplets, 6, -20)
+    baca.extend_beam(abjad.select.leaf(tuplets, -1))
     baca.make_figures(
         figures,
         "v1",
@@ -185,8 +185,8 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     )
 
     collections = baca.sequence.reveal(design[4:5], 2)
-    tuplets, tsd = library.twentieths_function(collections)
-    baca.register_function(tuplets, 6)
+    tuplets, tsd = library.twentieths(collections)
+    baca.register(tuplets, 6)
     baca.make_figures(
         figures,
         "v2",
@@ -197,8 +197,8 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     )
 
     collections = design[13:]
-    tuplets, tsd = library.delicatissimo_function(collections)
-    baca.register_function(tuplets, -20, 6)
+    tuplets, tsd = library.delicatissimo(collections)
+    baca.register(tuplets, -20, 6)
     baca.make_figures(
         figures,
         "v1",

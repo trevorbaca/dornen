@@ -437,19 +437,19 @@ number.6.Skips = {
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark_function()
+      %! baca.metronome_mark()
     %@% - \abjad-invisible-line
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark_function()
+      %! baca.metronome_mark()
     %@% - \baca-metronome-mark-spanner-left-text 3 0 1 "44"
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark_function()
+      %! baca.metronome_mark()
     %@% \bacaStartTextSpanMM
       %! CLOCK_TIME
       %! baca._label_clock_time()
@@ -833,7 +833,7 @@ number.6.Guitar.Music.1 = {
             % [Guitar.Music.1 measure 1]
             % BEFORE:
             % COMMANDS:
-              %! baca.beam_positions_function(1)
+              %! baca.beam_positions(1)
             \override Beam.positions = #'(10 . 10)
             % OPENING:
             % COMMANDS:
@@ -855,7 +855,7 @@ number.6.Guitar.Music.1 = {
             bf'!32.
             % AFTER:
             % ARTICULATIONS:
-              %! baca.tenuto_function()
+              %! baca.tenuto()
             - \tenuto
             % MARKUP:
               %! FIGURE_LABEL
@@ -883,10 +883,10 @@ number.6.Guitar.Music.1 = {
             c'32.
             % AFTER:
             % ARTICULATIONS:
-              %! baca.tenuto_function()
+              %! baca.tenuto()
             - \tenuto
             % COMMANDS:
-              %! baca.beam_positions_function(2)
+              %! baca.beam_positions(2)
             \revert Beam.positions
             % CLOSING:
             % COMMANDS:
@@ -935,7 +935,7 @@ number.6.Guitar.Music.1 = {
             % SPANNER_STARTS:
               %! SPANNER_START
               %! baca._do_spanner_indicator_command(1)
-              %! baca.slur_function()
+              %! baca.slur()
             (
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -991,7 +991,7 @@ number.6.Guitar.Music.1 = {
             % SPANNER_STOPS:
               %! SPANNER_STOP
               %! baca._do_spanner_indicator_command(2)
-              %! baca.slur_function()
+              %! baca.slur()
             )
             % CLOSING:
             % COMMANDS:
@@ -1018,7 +1018,7 @@ number.6.Guitar.Music.1 = {
             % SPANNER_STARTS:
               %! SPANNER_START
               %! baca._do_spanner_indicator_command(1)
-              %! baca.slur_function()
+              %! baca.slur()
             (
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -1064,7 +1064,7 @@ number.6.Guitar.Music.1 = {
             % SPANNER_STOPS:
               %! SPANNER_STOP
               %! baca._do_spanner_indicator_command(2)
-              %! baca.slur_function()
+              %! baca.slur()
             )
             % CLOSING:
             % COMMANDS:
@@ -1092,7 +1092,7 @@ number.6.Guitar.Music.1 = {
             % SPANNER_STARTS:
               %! SPANNER_START
               %! baca._do_spanner_indicator_command(1)
-              %! baca.slur_function()
+              %! baca.slur()
             (
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -1126,7 +1126,7 @@ number.6.Guitar.Music.1 = {
             % SPANNER_STOPS:
               %! SPANNER_STOP
               %! baca._do_spanner_indicator_command(2)
-              %! baca.slur_function()
+              %! baca.slur()
             )
             % CLOSING:
             % COMMANDS:
@@ -1167,7 +1167,7 @@ number.6.Guitar.Music.1 = {
             cs'!32.
             % AFTER:
             % ARTICULATIONS:
-              %! baca.tenuto_function()
+              %! baca.tenuto()
             - \tenuto
             % MARKUP:
               %! FIGURE_LABEL
@@ -1180,7 +1180,7 @@ number.6.Guitar.Music.1 = {
             f'32.
             % AFTER:
             % ARTICULATIONS:
-              %! baca.tenuto_function()
+              %! baca.tenuto()
             - \tenuto
             % STOP_BEAM:
               %! rmakers.beam()
@@ -1224,7 +1224,7 @@ number.6.Guitar.Music.1 = {
             %@% - \tweak color #blue
               %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (8) \hspace #1 "S1" ] }
-              %! baca.markup_function()
+              %! baca.markup()
             ^ \dornen-raise-string-two-one-quartertone-markup
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -1269,7 +1269,7 @@ number.6.Guitar.Music.1 = {
             fs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % MARKUP:
               %! FIGURE_LABEL
@@ -1291,7 +1291,7 @@ number.6.Guitar.Music.1 = {
             e''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -1305,7 +1305,7 @@ number.6.Guitar.Music.1 = {
             f''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % CLOSING:
             % COMMANDS:
@@ -1330,7 +1330,7 @@ number.6.Guitar.Music.1 = {
             fs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -1344,7 +1344,7 @@ number.6.Guitar.Music.1 = {
             e''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -1358,7 +1358,7 @@ number.6.Guitar.Music.1 = {
             f''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % CLOSING:
             % COMMANDS:
@@ -1383,7 +1383,7 @@ number.6.Guitar.Music.1 = {
             fs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -1397,7 +1397,7 @@ number.6.Guitar.Music.1 = {
             e''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -1411,7 +1411,7 @@ number.6.Guitar.Music.1 = {
             f''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % CLOSING:
             % COMMANDS:
@@ -1436,7 +1436,7 @@ number.6.Guitar.Music.1 = {
             fs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -1450,7 +1450,7 @@ number.6.Guitar.Music.1 = {
             e''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -1464,7 +1464,7 @@ number.6.Guitar.Music.1 = {
             f''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % CLOSING:
             % COMMANDS:
@@ -1489,7 +1489,7 @@ number.6.Guitar.Music.1 = {
             fs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -1503,7 +1503,7 @@ number.6.Guitar.Music.1 = {
             e''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -1517,7 +1517,7 @@ number.6.Guitar.Music.1 = {
             f''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % CLOSING:
             % COMMANDS:
@@ -1542,7 +1542,7 @@ number.6.Guitar.Music.1 = {
             fs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -1556,7 +1556,7 @@ number.6.Guitar.Music.1 = {
             e''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -1570,7 +1570,7 @@ number.6.Guitar.Music.1 = {
             f''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % CLOSING:
             % COMMANDS:
@@ -1595,7 +1595,7 @@ number.6.Guitar.Music.1 = {
             fs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -1609,7 +1609,7 @@ number.6.Guitar.Music.1 = {
             e''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -1623,7 +1623,7 @@ number.6.Guitar.Music.1 = {
             f''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % CLOSING:
             % COMMANDS:
@@ -1648,7 +1648,7 @@ number.6.Guitar.Music.1 = {
             fs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -1662,7 +1662,7 @@ number.6.Guitar.Music.1 = {
             e''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -1676,7 +1676,7 @@ number.6.Guitar.Music.1 = {
             f''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % CLOSING:
             % COMMANDS:
@@ -1701,7 +1701,7 @@ number.6.Guitar.Music.1 = {
             fs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -1715,7 +1715,7 @@ number.6.Guitar.Music.1 = {
             e''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -1729,7 +1729,7 @@ number.6.Guitar.Music.1 = {
             f''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % CLOSING:
             % COMMANDS:
@@ -1754,7 +1754,7 @@ number.6.Guitar.Music.1 = {
             fs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -1768,7 +1768,7 @@ number.6.Guitar.Music.1 = {
             e''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -1782,7 +1782,7 @@ number.6.Guitar.Music.1 = {
             f''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % STOP_BEAM:
               %! rmakers.beam_groups()
@@ -1822,7 +1822,7 @@ number.6.Guitar.Music.1 = {
             fs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % MARKUP:
               %! FIGURE_LABEL
@@ -1844,7 +1844,7 @@ number.6.Guitar.Music.1 = {
             e''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -1858,7 +1858,7 @@ number.6.Guitar.Music.1 = {
             f''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -1872,7 +1872,7 @@ number.6.Guitar.Music.1 = {
             fqs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % CLOSING:
             % COMMANDS:
@@ -1897,7 +1897,7 @@ number.6.Guitar.Music.1 = {
             fs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -1911,7 +1911,7 @@ number.6.Guitar.Music.1 = {
             e''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -1925,7 +1925,7 @@ number.6.Guitar.Music.1 = {
             f''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -1939,7 +1939,7 @@ number.6.Guitar.Music.1 = {
             fqs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % CLOSING:
             % COMMANDS:
@@ -1964,7 +1964,7 @@ number.6.Guitar.Music.1 = {
             fs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -1978,7 +1978,7 @@ number.6.Guitar.Music.1 = {
             e''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -1992,7 +1992,7 @@ number.6.Guitar.Music.1 = {
             f''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2006,7 +2006,7 @@ number.6.Guitar.Music.1 = {
             fqs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % CLOSING:
             % COMMANDS:
@@ -2031,7 +2031,7 @@ number.6.Guitar.Music.1 = {
             fs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2045,7 +2045,7 @@ number.6.Guitar.Music.1 = {
             e''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2059,7 +2059,7 @@ number.6.Guitar.Music.1 = {
             f''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2073,7 +2073,7 @@ number.6.Guitar.Music.1 = {
             fqs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % CLOSING:
             % COMMANDS:
@@ -2098,7 +2098,7 @@ number.6.Guitar.Music.1 = {
             fs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2112,7 +2112,7 @@ number.6.Guitar.Music.1 = {
             e''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2126,7 +2126,7 @@ number.6.Guitar.Music.1 = {
             f''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2140,7 +2140,7 @@ number.6.Guitar.Music.1 = {
             fqs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % CLOSING:
             % COMMANDS:
@@ -2165,7 +2165,7 @@ number.6.Guitar.Music.1 = {
             fs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2179,7 +2179,7 @@ number.6.Guitar.Music.1 = {
             e''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2193,7 +2193,7 @@ number.6.Guitar.Music.1 = {
             f''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2207,7 +2207,7 @@ number.6.Guitar.Music.1 = {
             fqs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % CLOSING:
             % COMMANDS:
@@ -2232,7 +2232,7 @@ number.6.Guitar.Music.1 = {
             fs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2246,7 +2246,7 @@ number.6.Guitar.Music.1 = {
             e''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2260,7 +2260,7 @@ number.6.Guitar.Music.1 = {
             f''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2274,7 +2274,7 @@ number.6.Guitar.Music.1 = {
             fqs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % CLOSING:
             % COMMANDS:
@@ -2299,7 +2299,7 @@ number.6.Guitar.Music.1 = {
             fs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2313,7 +2313,7 @@ number.6.Guitar.Music.1 = {
             e''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2327,7 +2327,7 @@ number.6.Guitar.Music.1 = {
             f''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2341,7 +2341,7 @@ number.6.Guitar.Music.1 = {
             fqs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % CLOSING:
             % COMMANDS:
@@ -2366,7 +2366,7 @@ number.6.Guitar.Music.1 = {
             fs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2380,7 +2380,7 @@ number.6.Guitar.Music.1 = {
             e''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2394,7 +2394,7 @@ number.6.Guitar.Music.1 = {
             f''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2408,7 +2408,7 @@ number.6.Guitar.Music.1 = {
             fqs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % CLOSING:
             % COMMANDS:
@@ -2433,7 +2433,7 @@ number.6.Guitar.Music.1 = {
             fs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2447,7 +2447,7 @@ number.6.Guitar.Music.1 = {
             e''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2461,7 +2461,7 @@ number.6.Guitar.Music.1 = {
             f''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2475,7 +2475,7 @@ number.6.Guitar.Music.1 = {
             fqs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % STOP_BEAM:
               %! rmakers.beam_groups()
@@ -2515,7 +2515,7 @@ number.6.Guitar.Music.1 = {
             fs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % MARKUP:
               %! FIGURE_LABEL
@@ -2537,7 +2537,7 @@ number.6.Guitar.Music.1 = {
             e''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2551,7 +2551,7 @@ number.6.Guitar.Music.1 = {
             f''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2565,7 +2565,7 @@ number.6.Guitar.Music.1 = {
             fqs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2579,7 +2579,7 @@ number.6.Guitar.Music.1 = {
             gqf''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % CLOSING:
             % COMMANDS:
@@ -2604,7 +2604,7 @@ number.6.Guitar.Music.1 = {
             fs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2618,7 +2618,7 @@ number.6.Guitar.Music.1 = {
             e''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2632,7 +2632,7 @@ number.6.Guitar.Music.1 = {
             f''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2646,7 +2646,7 @@ number.6.Guitar.Music.1 = {
             fqs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2660,7 +2660,7 @@ number.6.Guitar.Music.1 = {
             gqf''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % CLOSING:
             % COMMANDS:
@@ -2685,7 +2685,7 @@ number.6.Guitar.Music.1 = {
             fs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2699,7 +2699,7 @@ number.6.Guitar.Music.1 = {
             e''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2713,7 +2713,7 @@ number.6.Guitar.Music.1 = {
             f''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2727,7 +2727,7 @@ number.6.Guitar.Music.1 = {
             fqs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2741,7 +2741,7 @@ number.6.Guitar.Music.1 = {
             gqf''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % CLOSING:
             % COMMANDS:
@@ -2766,7 +2766,7 @@ number.6.Guitar.Music.1 = {
             fs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2780,7 +2780,7 @@ number.6.Guitar.Music.1 = {
             e''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2794,7 +2794,7 @@ number.6.Guitar.Music.1 = {
             f''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2808,7 +2808,7 @@ number.6.Guitar.Music.1 = {
             fqs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2822,7 +2822,7 @@ number.6.Guitar.Music.1 = {
             gqf''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % CLOSING:
             % COMMANDS:
@@ -2847,7 +2847,7 @@ number.6.Guitar.Music.1 = {
             fs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2861,7 +2861,7 @@ number.6.Guitar.Music.1 = {
             e''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2875,7 +2875,7 @@ number.6.Guitar.Music.1 = {
             f''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2889,7 +2889,7 @@ number.6.Guitar.Music.1 = {
             fqs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2903,7 +2903,7 @@ number.6.Guitar.Music.1 = {
             gqf''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % CLOSING:
             % COMMANDS:
@@ -2928,7 +2928,7 @@ number.6.Guitar.Music.1 = {
             fs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2942,7 +2942,7 @@ number.6.Guitar.Music.1 = {
             e''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2956,7 +2956,7 @@ number.6.Guitar.Music.1 = {
             f''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2970,7 +2970,7 @@ number.6.Guitar.Music.1 = {
             fqs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2984,7 +2984,7 @@ number.6.Guitar.Music.1 = {
             gqf''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % CLOSING:
             % COMMANDS:
@@ -3009,7 +3009,7 @@ number.6.Guitar.Music.1 = {
             fs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -3023,7 +3023,7 @@ number.6.Guitar.Music.1 = {
             e''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -3037,7 +3037,7 @@ number.6.Guitar.Music.1 = {
             f''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -3051,7 +3051,7 @@ number.6.Guitar.Music.1 = {
             fqs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -3065,7 +3065,7 @@ number.6.Guitar.Music.1 = {
             gqf''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % CLOSING:
             % COMMANDS:
@@ -3090,7 +3090,7 @@ number.6.Guitar.Music.1 = {
             fs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -3104,7 +3104,7 @@ number.6.Guitar.Music.1 = {
             e''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -3118,7 +3118,7 @@ number.6.Guitar.Music.1 = {
             f''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -3132,7 +3132,7 @@ number.6.Guitar.Music.1 = {
             fqs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -3146,7 +3146,7 @@ number.6.Guitar.Music.1 = {
             gqf''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % CLOSING:
             % COMMANDS:
@@ -3171,7 +3171,7 @@ number.6.Guitar.Music.1 = {
             fs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -3185,7 +3185,7 @@ number.6.Guitar.Music.1 = {
             e''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -3199,7 +3199,7 @@ number.6.Guitar.Music.1 = {
             f''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -3213,7 +3213,7 @@ number.6.Guitar.Music.1 = {
             fqs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -3227,7 +3227,7 @@ number.6.Guitar.Music.1 = {
             gqf''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % CLOSING:
             % COMMANDS:
@@ -3252,7 +3252,7 @@ number.6.Guitar.Music.1 = {
             fs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -3266,7 +3266,7 @@ number.6.Guitar.Music.1 = {
             e''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -3280,7 +3280,7 @@ number.6.Guitar.Music.1 = {
             f''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -3294,7 +3294,7 @@ number.6.Guitar.Music.1 = {
             fqs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -3308,7 +3308,7 @@ number.6.Guitar.Music.1 = {
             gqf''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % STOP_BEAM:
               %! rmakers.beam_groups()
@@ -3348,7 +3348,7 @@ number.6.Guitar.Music.1 = {
             fs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % MARKUP:
               %! FIGURE_LABEL
@@ -3370,7 +3370,7 @@ number.6.Guitar.Music.1 = {
             e''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -3384,7 +3384,7 @@ number.6.Guitar.Music.1 = {
             f''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -3398,7 +3398,7 @@ number.6.Guitar.Music.1 = {
             fqs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -3412,7 +3412,7 @@ number.6.Guitar.Music.1 = {
             gqf''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -3426,7 +3426,7 @@ number.6.Guitar.Music.1 = {
             a''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % CLOSING:
             % COMMANDS:
@@ -3451,7 +3451,7 @@ number.6.Guitar.Music.1 = {
             fs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -3465,7 +3465,7 @@ number.6.Guitar.Music.1 = {
             e''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -3479,7 +3479,7 @@ number.6.Guitar.Music.1 = {
             f''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -3493,7 +3493,7 @@ number.6.Guitar.Music.1 = {
             fqs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -3507,7 +3507,7 @@ number.6.Guitar.Music.1 = {
             gqf''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -3521,7 +3521,7 @@ number.6.Guitar.Music.1 = {
             a''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % CLOSING:
             % COMMANDS:
@@ -3546,7 +3546,7 @@ number.6.Guitar.Music.1 = {
             fs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -3560,7 +3560,7 @@ number.6.Guitar.Music.1 = {
             e''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -3574,7 +3574,7 @@ number.6.Guitar.Music.1 = {
             f''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -3588,7 +3588,7 @@ number.6.Guitar.Music.1 = {
             fqs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -3602,7 +3602,7 @@ number.6.Guitar.Music.1 = {
             gqf''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -3616,7 +3616,7 @@ number.6.Guitar.Music.1 = {
             a''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % CLOSING:
             % COMMANDS:
@@ -3641,7 +3641,7 @@ number.6.Guitar.Music.1 = {
             fs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -3655,7 +3655,7 @@ number.6.Guitar.Music.1 = {
             e''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -3669,7 +3669,7 @@ number.6.Guitar.Music.1 = {
             f''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -3683,7 +3683,7 @@ number.6.Guitar.Music.1 = {
             fqs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -3697,7 +3697,7 @@ number.6.Guitar.Music.1 = {
             gqf''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -3711,7 +3711,7 @@ number.6.Guitar.Music.1 = {
             a''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % CLOSING:
             % COMMANDS:
@@ -3736,7 +3736,7 @@ number.6.Guitar.Music.1 = {
             fs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -3750,7 +3750,7 @@ number.6.Guitar.Music.1 = {
             e''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -3764,7 +3764,7 @@ number.6.Guitar.Music.1 = {
             f''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -3778,7 +3778,7 @@ number.6.Guitar.Music.1 = {
             fqs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -3792,7 +3792,7 @@ number.6.Guitar.Music.1 = {
             gqf''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -3806,7 +3806,7 @@ number.6.Guitar.Music.1 = {
             a''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % CLOSING:
             % COMMANDS:
@@ -3831,7 +3831,7 @@ number.6.Guitar.Music.1 = {
             fs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -3845,7 +3845,7 @@ number.6.Guitar.Music.1 = {
             e''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -3859,7 +3859,7 @@ number.6.Guitar.Music.1 = {
             f''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -3873,7 +3873,7 @@ number.6.Guitar.Music.1 = {
             fqs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -3887,7 +3887,7 @@ number.6.Guitar.Music.1 = {
             gqf''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -3901,7 +3901,7 @@ number.6.Guitar.Music.1 = {
             a''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % CLOSING:
             % COMMANDS:
@@ -3926,7 +3926,7 @@ number.6.Guitar.Music.1 = {
             fs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -3940,7 +3940,7 @@ number.6.Guitar.Music.1 = {
             e''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -3954,7 +3954,7 @@ number.6.Guitar.Music.1 = {
             f''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -3968,7 +3968,7 @@ number.6.Guitar.Music.1 = {
             fqs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -3982,7 +3982,7 @@ number.6.Guitar.Music.1 = {
             gqf''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -3996,7 +3996,7 @@ number.6.Guitar.Music.1 = {
             a''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % CLOSING:
             % COMMANDS:
@@ -4021,7 +4021,7 @@ number.6.Guitar.Music.1 = {
             fs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -4035,7 +4035,7 @@ number.6.Guitar.Music.1 = {
             e''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -4049,7 +4049,7 @@ number.6.Guitar.Music.1 = {
             f''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -4063,7 +4063,7 @@ number.6.Guitar.Music.1 = {
             fqs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -4077,7 +4077,7 @@ number.6.Guitar.Music.1 = {
             gqf''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -4091,7 +4091,7 @@ number.6.Guitar.Music.1 = {
             a''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % CLOSING:
             % COMMANDS:
@@ -4116,7 +4116,7 @@ number.6.Guitar.Music.1 = {
             fs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -4130,7 +4130,7 @@ number.6.Guitar.Music.1 = {
             e''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -4144,7 +4144,7 @@ number.6.Guitar.Music.1 = {
             f''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -4158,7 +4158,7 @@ number.6.Guitar.Music.1 = {
             fqs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -4172,7 +4172,7 @@ number.6.Guitar.Music.1 = {
             gqf''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -4186,7 +4186,7 @@ number.6.Guitar.Music.1 = {
             a''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % CLOSING:
             % COMMANDS:
@@ -4211,7 +4211,7 @@ number.6.Guitar.Music.1 = {
             fs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -4225,7 +4225,7 @@ number.6.Guitar.Music.1 = {
             e''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -4239,7 +4239,7 @@ number.6.Guitar.Music.1 = {
             f''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -4253,7 +4253,7 @@ number.6.Guitar.Music.1 = {
             fqs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -4267,7 +4267,7 @@ number.6.Guitar.Music.1 = {
             gqf''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -4281,7 +4281,7 @@ number.6.Guitar.Music.1 = {
             a''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % STOP_BEAM:
               %! rmakers.beam_groups()
@@ -4321,7 +4321,7 @@ number.6.Guitar.Music.1 = {
             fs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % MARKUP:
               %! FIGURE_LABEL
@@ -4343,7 +4343,7 @@ number.6.Guitar.Music.1 = {
             e''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -4357,7 +4357,7 @@ number.6.Guitar.Music.1 = {
             f''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -4371,7 +4371,7 @@ number.6.Guitar.Music.1 = {
             fqs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -4385,7 +4385,7 @@ number.6.Guitar.Music.1 = {
             gqf''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -4399,7 +4399,7 @@ number.6.Guitar.Music.1 = {
             a''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -4413,7 +4413,7 @@ number.6.Guitar.Music.1 = {
             bf''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -4427,7 +4427,7 @@ number.6.Guitar.Music.1 = {
             g''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -4441,7 +4441,7 @@ number.6.Guitar.Music.1 = {
             af''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -4455,7 +4455,7 @@ number.6.Guitar.Music.1 = {
             bqs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -4469,7 +4469,7 @@ number.6.Guitar.Music.1 = {
             dqs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -4483,7 +4483,7 @@ number.6.Guitar.Music.1 = {
             eqf''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -4497,7 +4497,7 @@ number.6.Guitar.Music.1 = {
             b''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -4511,7 +4511,7 @@ number.6.Guitar.Music.1 = {
             d''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -4525,7 +4525,7 @@ number.6.Guitar.Music.1 = {
             ef''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -4539,7 +4539,7 @@ number.6.Guitar.Music.1 = {
             bqf''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -4553,7 +4553,7 @@ number.6.Guitar.Music.1 = {
             g''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -4567,7 +4567,7 @@ number.6.Guitar.Music.1 = {
             af''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -4581,7 +4581,7 @@ number.6.Guitar.Music.1 = {
             bqs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -4595,7 +4595,7 @@ number.6.Guitar.Music.1 = {
             bf''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -4609,7 +4609,7 @@ number.6.Guitar.Music.1 = {
             eqf''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -4623,7 +4623,7 @@ number.6.Guitar.Music.1 = {
             b''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -4637,7 +4637,7 @@ number.6.Guitar.Music.1 = {
             d''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -4651,7 +4651,7 @@ number.6.Guitar.Music.1 = {
             ef''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -4665,7 +4665,7 @@ number.6.Guitar.Music.1 = {
             bqf''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -4679,7 +4679,7 @@ number.6.Guitar.Music.1 = {
             dqs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -4693,7 +4693,7 @@ number.6.Guitar.Music.1 = {
             e''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -4707,7 +4707,7 @@ number.6.Guitar.Music.1 = {
             f''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -4721,7 +4721,7 @@ number.6.Guitar.Music.1 = {
             fqs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -4735,7 +4735,7 @@ number.6.Guitar.Music.1 = {
             gqf''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -4749,7 +4749,7 @@ number.6.Guitar.Music.1 = {
             a''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -4763,7 +4763,7 @@ number.6.Guitar.Music.1 = {
             fs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % CLOSING:
             % COMMANDS:
@@ -4788,7 +4788,7 @@ number.6.Guitar.Music.1 = {
             a''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -4802,7 +4802,7 @@ number.6.Guitar.Music.1 = {
             gqf''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -4816,7 +4816,7 @@ number.6.Guitar.Music.1 = {
             fqs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -4830,7 +4830,7 @@ number.6.Guitar.Music.1 = {
             f''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -4844,7 +4844,7 @@ number.6.Guitar.Music.1 = {
             e''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -4858,7 +4858,7 @@ number.6.Guitar.Music.1 = {
             dqs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -4872,7 +4872,7 @@ number.6.Guitar.Music.1 = {
             bqf''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -4886,7 +4886,7 @@ number.6.Guitar.Music.1 = {
             ef''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -4900,7 +4900,7 @@ number.6.Guitar.Music.1 = {
             d''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -4914,7 +4914,7 @@ number.6.Guitar.Music.1 = {
             b''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -4928,7 +4928,7 @@ number.6.Guitar.Music.1 = {
             eqf''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -4942,7 +4942,7 @@ number.6.Guitar.Music.1 = {
             bf''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -4956,7 +4956,7 @@ number.6.Guitar.Music.1 = {
             bqs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -4970,7 +4970,7 @@ number.6.Guitar.Music.1 = {
             af''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -4984,7 +4984,7 @@ number.6.Guitar.Music.1 = {
             g''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -4998,7 +4998,7 @@ number.6.Guitar.Music.1 = {
             bqf''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -5012,7 +5012,7 @@ number.6.Guitar.Music.1 = {
             ef''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -5026,7 +5026,7 @@ number.6.Guitar.Music.1 = {
             d''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -5040,7 +5040,7 @@ number.6.Guitar.Music.1 = {
             b''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -5054,7 +5054,7 @@ number.6.Guitar.Music.1 = {
             eqf''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -5068,7 +5068,7 @@ number.6.Guitar.Music.1 = {
             dqs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -5082,7 +5082,7 @@ number.6.Guitar.Music.1 = {
             bqs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -5096,7 +5096,7 @@ number.6.Guitar.Music.1 = {
             af''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -5110,7 +5110,7 @@ number.6.Guitar.Music.1 = {
             g''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -5124,7 +5124,7 @@ number.6.Guitar.Music.1 = {
             bf''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -5138,7 +5138,7 @@ number.6.Guitar.Music.1 = {
             a''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -5152,7 +5152,7 @@ number.6.Guitar.Music.1 = {
             gqf''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -5166,7 +5166,7 @@ number.6.Guitar.Music.1 = {
             fqs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -5180,7 +5180,7 @@ number.6.Guitar.Music.1 = {
             f''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -5194,7 +5194,7 @@ number.6.Guitar.Music.1 = {
             e''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -5208,7 +5208,7 @@ number.6.Guitar.Music.1 = {
             fs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % CLOSING:
             % COMMANDS:
@@ -5233,7 +5233,7 @@ number.6.Guitar.Music.1 = {
             e''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -5247,7 +5247,7 @@ number.6.Guitar.Music.1 = {
             f''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -5261,7 +5261,7 @@ number.6.Guitar.Music.1 = {
             fqs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -5275,7 +5275,7 @@ number.6.Guitar.Music.1 = {
             gqf''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -5289,7 +5289,7 @@ number.6.Guitar.Music.1 = {
             a''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -5303,7 +5303,7 @@ number.6.Guitar.Music.1 = {
             bf''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -5317,7 +5317,7 @@ number.6.Guitar.Music.1 = {
             g''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -5331,7 +5331,7 @@ number.6.Guitar.Music.1 = {
             af''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -5345,7 +5345,7 @@ number.6.Guitar.Music.1 = {
             bqs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -5359,7 +5359,7 @@ number.6.Guitar.Music.1 = {
             dqs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -5373,7 +5373,7 @@ number.6.Guitar.Music.1 = {
             eqf''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -5387,7 +5387,7 @@ number.6.Guitar.Music.1 = {
             b''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -5401,7 +5401,7 @@ number.6.Guitar.Music.1 = {
             d''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -5415,7 +5415,7 @@ number.6.Guitar.Music.1 = {
             ef''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -5429,7 +5429,7 @@ number.6.Guitar.Music.1 = {
             bqf''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -5443,7 +5443,7 @@ number.6.Guitar.Music.1 = {
             g''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -5457,7 +5457,7 @@ number.6.Guitar.Music.1 = {
             af''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -5471,7 +5471,7 @@ number.6.Guitar.Music.1 = {
             bqs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -5485,7 +5485,7 @@ number.6.Guitar.Music.1 = {
             bf''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -5499,7 +5499,7 @@ number.6.Guitar.Music.1 = {
             eqf''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -5513,7 +5513,7 @@ number.6.Guitar.Music.1 = {
             b''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -5527,7 +5527,7 @@ number.6.Guitar.Music.1 = {
             d''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -5541,7 +5541,7 @@ number.6.Guitar.Music.1 = {
             ef''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -5555,7 +5555,7 @@ number.6.Guitar.Music.1 = {
             bqf''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -5569,7 +5569,7 @@ number.6.Guitar.Music.1 = {
             dqs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -5583,7 +5583,7 @@ number.6.Guitar.Music.1 = {
             e''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -5597,7 +5597,7 @@ number.6.Guitar.Music.1 = {
             f''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -5611,7 +5611,7 @@ number.6.Guitar.Music.1 = {
             fqs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -5625,7 +5625,7 @@ number.6.Guitar.Music.1 = {
             gqf''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -5639,7 +5639,7 @@ number.6.Guitar.Music.1 = {
             a''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -5653,7 +5653,7 @@ number.6.Guitar.Music.1 = {
             fs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % CLOSING:
             % COMMANDS:
@@ -5678,7 +5678,7 @@ number.6.Guitar.Music.1 = {
             a''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -5692,7 +5692,7 @@ number.6.Guitar.Music.1 = {
             gqf''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -5706,7 +5706,7 @@ number.6.Guitar.Music.1 = {
             fqs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -5720,7 +5720,7 @@ number.6.Guitar.Music.1 = {
             f''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -5734,7 +5734,7 @@ number.6.Guitar.Music.1 = {
             e''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -5748,7 +5748,7 @@ number.6.Guitar.Music.1 = {
             dqs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -5762,7 +5762,7 @@ number.6.Guitar.Music.1 = {
             bqf''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -5776,7 +5776,7 @@ number.6.Guitar.Music.1 = {
             ef''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -5790,7 +5790,7 @@ number.6.Guitar.Music.1 = {
             d''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -5804,7 +5804,7 @@ number.6.Guitar.Music.1 = {
             b''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -5818,7 +5818,7 @@ number.6.Guitar.Music.1 = {
             eqf''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -5832,7 +5832,7 @@ number.6.Guitar.Music.1 = {
             bf''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -5846,7 +5846,7 @@ number.6.Guitar.Music.1 = {
             bqs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -5860,7 +5860,7 @@ number.6.Guitar.Music.1 = {
             af''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -5874,7 +5874,7 @@ number.6.Guitar.Music.1 = {
             g''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -5888,7 +5888,7 @@ number.6.Guitar.Music.1 = {
             bqf''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -5902,7 +5902,7 @@ number.6.Guitar.Music.1 = {
             ef''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -5916,7 +5916,7 @@ number.6.Guitar.Music.1 = {
             d''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -5930,7 +5930,7 @@ number.6.Guitar.Music.1 = {
             b''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -5944,7 +5944,7 @@ number.6.Guitar.Music.1 = {
             eqf''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -5958,7 +5958,7 @@ number.6.Guitar.Music.1 = {
             dqs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -5972,7 +5972,7 @@ number.6.Guitar.Music.1 = {
             bqs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -5986,7 +5986,7 @@ number.6.Guitar.Music.1 = {
             af''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -6000,7 +6000,7 @@ number.6.Guitar.Music.1 = {
             g''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -6014,7 +6014,7 @@ number.6.Guitar.Music.1 = {
             bf''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -6028,7 +6028,7 @@ number.6.Guitar.Music.1 = {
             a''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -6042,7 +6042,7 @@ number.6.Guitar.Music.1 = {
             gqf''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -6056,7 +6056,7 @@ number.6.Guitar.Music.1 = {
             fqs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -6070,7 +6070,7 @@ number.6.Guitar.Music.1 = {
             f''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -6084,7 +6084,7 @@ number.6.Guitar.Music.1 = {
             e''64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -6098,7 +6098,7 @@ number.6.Guitar.Music.1 = {
             fs''!64
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % STOP_BEAM:
               %! rmakers.beam_groups()
@@ -6148,7 +6148,7 @@ number.6.Guitar.Music.3 = {
     % [Guitar.Music.3 measure 1]
     % BEFORE:
     % COMMANDS:
-      %! baca.script_down_function(1)
+      %! baca.script_down(1)
     \override Script.direction = #down
     s1 * 3/32
     % ABSOLUTE_BEFORE:
@@ -6170,7 +6170,7 @@ number.6.Guitar.Music.3 = {
             f16
             % AFTER:
             % ARTICULATIONS:
-              %! baca.accent_function()
+              %! baca.accent()
             - \accent
             % MARKUP:
               %! FIGURE_LABEL
@@ -6215,7 +6215,7 @@ number.6.Guitar.Music.3 = {
             a16
             % AFTER:
             % ARTICULATIONS:
-              %! baca.accent_function()
+              %! baca.accent()
             - \accent
             % MARKUP:
               %! FIGURE_LABEL
@@ -6243,7 +6243,7 @@ number.6.Guitar.Music.3 = {
     s1 * 1693/320
     % AFTER:
     % COMMANDS:
-      %! baca.script_down_function(2)
+      %! baca.script_down(2)
     \revert Script.direction
     % CLOSING:
     % COMMANDS:
@@ -6263,7 +6263,7 @@ number.6.Guitar.Music.4 = {
     % [Guitar.Music.4 measure 1]
     % BEFORE:
     % COMMANDS:
-      %! baca.beam_positions_function(1)
+      %! baca.beam_positions(1)
     \override Beam.positions = #'(5.5 . 5.5)
     s1 * 11/32
     % ABSOLUTE_BEFORE:
@@ -6286,7 +6286,7 @@ number.6.Guitar.Music.4 = {
             g''16
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % MARKUP:
               %! FIGURE_LABEL
@@ -6302,7 +6302,7 @@ number.6.Guitar.Music.4 = {
             af'!16
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -6310,7 +6310,7 @@ number.6.Guitar.Music.4 = {
             d''16
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % STOP_BEAM:
               %! rmakers.beam()
@@ -6351,7 +6351,7 @@ number.6.Guitar.Music.4 = {
             b'16
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % MARKUP:
               %! FIGURE_LABEL
@@ -6367,7 +6367,7 @@ number.6.Guitar.Music.4 = {
             bf'!16
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -6375,13 +6375,13 @@ number.6.Guitar.Music.4 = {
             c''16
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % STOP_BEAM:
               %! rmakers.beam()
             ]
             % COMMANDS:
-              %! baca.beam_positions_function(2)
+              %! baca.beam_positions(2)
             \revert Beam.positions
             % CLOSING:
             % COMMANDS:

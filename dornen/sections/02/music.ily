@@ -968,7 +968,7 @@ number.2.Guitar.Music.1 = {
             % [Guitar.Music.1 measure 1]
             % BEFORE:
             % COMMANDS:
-              %! baca.beam_positions_function(1)
+              %! baca.beam_positions(1)
             \override Beam.positions = #'(8 . 8)
             % GROB_OVERRIDES:
             \once \override Beam.grow-direction = #left
@@ -1332,7 +1332,7 @@ number.2.Guitar.Music.1 = {
               %! rmakers.beam()
             ]
             % COMMANDS:
-              %! baca.beam_positions_function(2)
+              %! baca.beam_positions(2)
             \revert Beam.positions
             % CLOSING:
             % COMMANDS:
@@ -1388,7 +1388,7 @@ number.2.Guitar.Music.1 = {
             % SPANNER_STARTS:
               %! SPANNER_START
               %! baca._do_spanner_indicator_command(1)
-              %! baca.slur_function()
+              %! baca.slur()
             (
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -1434,7 +1434,7 @@ number.2.Guitar.Music.1 = {
             % SPANNER_STOPS:
               %! SPANNER_STOP
               %! baca._do_spanner_indicator_command(2)
-              %! baca.slur_function()
+              %! baca.slur()
             )
             % CLOSING:
             % COMMANDS:
@@ -1461,7 +1461,7 @@ number.2.Guitar.Music.1 = {
             % SPANNER_STARTS:
               %! SPANNER_START
               %! baca._do_spanner_indicator_command(1)
-              %! baca.slur_function()
+              %! baca.slur()
             (
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -1507,7 +1507,7 @@ number.2.Guitar.Music.1 = {
             % SPANNER_STOPS:
               %! SPANNER_STOP
               %! baca._do_spanner_indicator_command(2)
-              %! baca.slur_function()
+              %! baca.slur()
             )
             % CLOSING:
             % COMMANDS:
@@ -1534,7 +1534,7 @@ number.2.Guitar.Music.1 = {
             % SPANNER_STARTS:
               %! SPANNER_START
               %! baca._do_spanner_indicator_command(1)
-              %! baca.slur_function()
+              %! baca.slur()
             (
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -1578,7 +1578,7 @@ number.2.Guitar.Music.1 = {
             % SPANNER_STOPS:
               %! SPANNER_STOP
               %! baca._do_spanner_indicator_command(2)
-              %! baca.slur_function()
+              %! baca.slur()
             )
             % CLOSING:
             % COMMANDS:
@@ -1626,7 +1626,7 @@ number.2.Guitar.Music.1 = {
             % SPANNER_STARTS:
               %! SPANNER_START
               %! baca._do_spanner_indicator_command(1)
-              %! baca.slur_function()
+              %! baca.slur()
             (
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -1672,7 +1672,7 @@ number.2.Guitar.Music.1 = {
             % SPANNER_STOPS:
               %! SPANNER_STOP
               %! baca._do_spanner_indicator_command(2)
-              %! baca.slur_function()
+              %! baca.slur()
             )
             % CLOSING:
             % COMMANDS:
@@ -1699,7 +1699,7 @@ number.2.Guitar.Music.1 = {
             % SPANNER_STARTS:
               %! SPANNER_START
               %! baca._do_spanner_indicator_command(1)
-              %! baca.slur_function()
+              %! baca.slur()
             (
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -1745,7 +1745,7 @@ number.2.Guitar.Music.1 = {
             % SPANNER_STOPS:
               %! SPANNER_STOP
               %! baca._do_spanner_indicator_command(2)
-              %! baca.slur_function()
+              %! baca.slur()
             )
             % CLOSING:
             % COMMANDS:
@@ -1773,7 +1773,7 @@ number.2.Guitar.Music.1 = {
             % SPANNER_STARTS:
               %! SPANNER_START
               %! baca._do_spanner_indicator_command(1)
-              %! baca.slur_function()
+              %! baca.slur()
             (
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -1827,7 +1827,7 @@ number.2.Guitar.Music.1 = {
             % SPANNER_STOPS:
               %! SPANNER_STOP
               %! baca._do_spanner_indicator_command(2)
-              %! baca.slur_function()
+              %! baca.slur()
             )
             % CLOSING:
             % COMMANDS:
@@ -1875,7 +1875,7 @@ number.2.Guitar.Music.1 = {
             % SPANNER_STARTS:
               %! SPANNER_START
               %! baca._do_spanner_indicator_command(1)
-              %! baca.slur_function()
+              %! baca.slur()
             (
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -1921,7 +1921,7 @@ number.2.Guitar.Music.1 = {
             % SPANNER_STOPS:
               %! SPANNER_STOP
               %! baca._do_spanner_indicator_command(2)
-              %! baca.slur_function()
+              %! baca.slur()
             )
             % CLOSING:
             % COMMANDS:
@@ -1949,7 +1949,7 @@ number.2.Guitar.Music.1 = {
             % SPANNER_STARTS:
               %! SPANNER_START
               %! baca._do_spanner_indicator_command(1)
-              %! baca.slur_function()
+              %! baca.slur()
             (
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2005,7 +2005,7 @@ number.2.Guitar.Music.1 = {
             % SPANNER_STOPS:
               %! SPANNER_STOP
               %! baca._do_spanner_indicator_command(2)
-              %! baca.slur_function()
+              %! baca.slur()
             )
             % CLOSING:
             % COMMANDS:
@@ -2033,7 +2033,7 @@ number.2.Guitar.Music.1 = {
             % SPANNER_STARTS:
               %! SPANNER_START
               %! baca._do_spanner_indicator_command(1)
-              %! baca.slur_function()
+              %! baca.slur()
             (
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2087,7 +2087,7 @@ number.2.Guitar.Music.1 = {
             % SPANNER_STOPS:
               %! SPANNER_STOP
               %! baca._do_spanner_indicator_command(2)
-              %! baca.slur_function()
+              %! baca.slur()
             )
             % CLOSING:
             % COMMANDS:
@@ -2136,7 +2136,7 @@ number.2.Guitar.Music.1 = {
             % SPANNER_STARTS:
               %! SPANNER_START
               %! baca._do_spanner_indicator_command(1)
-              %! baca.slur_function()
+              %! baca.slur()
             (
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2192,7 +2192,7 @@ number.2.Guitar.Music.1 = {
             % SPANNER_STOPS:
               %! SPANNER_STOP
               %! baca._do_spanner_indicator_command(2)
-              %! baca.slur_function()
+              %! baca.slur()
             )
             % CLOSING:
             % COMMANDS:
@@ -2220,7 +2220,7 @@ number.2.Guitar.Music.1 = {
             % SPANNER_STARTS:
               %! SPANNER_START
               %! baca._do_spanner_indicator_command(1)
-              %! baca.slur_function()
+              %! baca.slur()
             (
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2276,7 +2276,7 @@ number.2.Guitar.Music.1 = {
             % SPANNER_STOPS:
               %! SPANNER_STOP
               %! baca._do_spanner_indicator_command(2)
-              %! baca.slur_function()
+              %! baca.slur()
             )
             % CLOSING:
             % COMMANDS:
@@ -2304,7 +2304,7 @@ number.2.Guitar.Music.1 = {
             % SPANNER_STARTS:
               %! SPANNER_START
               %! baca._do_spanner_indicator_command(1)
-              %! baca.slur_function()
+              %! baca.slur()
             (
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2358,7 +2358,7 @@ number.2.Guitar.Music.1 = {
             % SPANNER_STOPS:
               %! SPANNER_STOP
               %! baca._do_spanner_indicator_command(2)
-              %! baca.slur_function()
+              %! baca.slur()
             )
             % CLOSING:
             % COMMANDS:
@@ -2407,7 +2407,7 @@ number.2.Guitar.Music.1 = {
             % SPANNER_STARTS:
               %! SPANNER_START
               %! baca._do_spanner_indicator_command(1)
-              %! baca.slur_function()
+              %! baca.slur()
             (
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2463,7 +2463,7 @@ number.2.Guitar.Music.1 = {
             % SPANNER_STOPS:
               %! SPANNER_STOP
               %! baca._do_spanner_indicator_command(2)
-              %! baca.slur_function()
+              %! baca.slur()
             )
             % CLOSING:
             % COMMANDS:
@@ -2491,7 +2491,7 @@ number.2.Guitar.Music.1 = {
             % SPANNER_STARTS:
               %! SPANNER_START
               %! baca._do_spanner_indicator_command(1)
-              %! baca.slur_function()
+              %! baca.slur()
             (
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2547,7 +2547,7 @@ number.2.Guitar.Music.1 = {
             % SPANNER_STOPS:
               %! SPANNER_STOP
               %! baca._do_spanner_indicator_command(2)
-              %! baca.slur_function()
+              %! baca.slur()
             )
             % CLOSING:
             % COMMANDS:
@@ -2575,7 +2575,7 @@ number.2.Guitar.Music.1 = {
             % SPANNER_STARTS:
               %! SPANNER_START
               %! baca._do_spanner_indicator_command(1)
-              %! baca.slur_function()
+              %! baca.slur()
             (
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2631,7 +2631,7 @@ number.2.Guitar.Music.1 = {
             % SPANNER_STOPS:
               %! SPANNER_STOP
               %! baca._do_spanner_indicator_command(2)
-              %! baca.slur_function()
+              %! baca.slur()
             )
             % CLOSING:
             % COMMANDS:
@@ -2659,7 +2659,7 @@ number.2.Guitar.Music.1 = {
             % SPANNER_STARTS:
               %! SPANNER_START
               %! baca._do_spanner_indicator_command(1)
-              %! baca.slur_function()
+              %! baca.slur()
             (
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2715,7 +2715,7 @@ number.2.Guitar.Music.1 = {
             % SPANNER_STOPS:
               %! SPANNER_STOP
               %! baca._do_spanner_indicator_command(2)
-              %! baca.slur_function()
+              %! baca.slur()
             )
             % STOP_BEAM:
               %! rmakers.beam_groups()
@@ -2754,7 +2754,7 @@ number.2.Guitar.Music.1 = {
             % [Guitar.Music.1 measure 13]
             % BEFORE:
             % COMMANDS:
-              %! baca.text_script_staff_padding_function(1)
+              %! baca.text_script_staff_padding(1)
             \override TextScript.staff-padding = 9
               %! rmakers.beam_groups()
             \set stemLeftBeamCount = 0
@@ -2763,7 +2763,7 @@ number.2.Guitar.Music.1 = {
             f'''32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % MARKUP:
               %! FIGURE_LABEL
@@ -2785,7 +2785,7 @@ number.2.Guitar.Music.1 = {
             a''32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2799,7 +2799,7 @@ number.2.Guitar.Music.1 = {
             b''32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2813,7 +2813,7 @@ number.2.Guitar.Music.1 = {
             bf''!32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2827,7 +2827,7 @@ number.2.Guitar.Music.1 = {
             c'''32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2841,7 +2841,7 @@ number.2.Guitar.Music.1 = {
             fs''!32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2855,7 +2855,7 @@ number.2.Guitar.Music.1 = {
             g''32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2869,7 +2869,7 @@ number.2.Guitar.Music.1 = {
             af''!32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2883,7 +2883,7 @@ number.2.Guitar.Music.1 = {
             d''32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2897,7 +2897,7 @@ number.2.Guitar.Music.1 = {
             cs''!32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2911,7 +2911,7 @@ number.2.Guitar.Music.1 = {
             ef''!32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2925,7 +2925,7 @@ number.2.Guitar.Music.1 = {
             g'32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2939,7 +2939,7 @@ number.2.Guitar.Music.1 = {
             af'!32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2953,7 +2953,7 @@ number.2.Guitar.Music.1 = {
             d''32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2967,7 +2967,7 @@ number.2.Guitar.Music.1 = {
             cs''!32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2981,7 +2981,7 @@ number.2.Guitar.Music.1 = {
             ef'!32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2995,7 +2995,7 @@ number.2.Guitar.Music.1 = {
             fs'!32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -3009,7 +3009,7 @@ number.2.Guitar.Music.1 = {
             a'32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -3023,7 +3023,7 @@ number.2.Guitar.Music.1 = {
             b32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -3037,7 +3037,7 @@ number.2.Guitar.Music.1 = {
             bf!32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -3051,7 +3051,7 @@ number.2.Guitar.Music.1 = {
             c'32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -3063,10 +3063,10 @@ number.2.Guitar.Music.1 = {
             f'32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % COMMANDS:
-              %! baca.text_script_staff_padding_function(2)
+              %! baca.text_script_staff_padding(2)
             \revert TextScript.staff-padding
             % CLOSING:
             % COMMANDS:
@@ -3107,7 +3107,7 @@ number.2.Guitar.Music.1 = {
             f32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % MARKUP:
               %! FIGURE_LABEL
@@ -3126,7 +3126,7 @@ number.2.Guitar.Music.1 = {
             a32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -3140,7 +3140,7 @@ number.2.Guitar.Music.1 = {
             b32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -3154,7 +3154,7 @@ number.2.Guitar.Music.1 = {
             bf!32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -3168,7 +3168,7 @@ number.2.Guitar.Music.1 = {
             c'32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -3182,7 +3182,7 @@ number.2.Guitar.Music.1 = {
             fs'!32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -3196,7 +3196,7 @@ number.2.Guitar.Music.1 = {
             g'32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -3210,7 +3210,7 @@ number.2.Guitar.Music.1 = {
             af'!32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -3224,7 +3224,7 @@ number.2.Guitar.Music.1 = {
             d'32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -3238,7 +3238,7 @@ number.2.Guitar.Music.1 = {
             cs''!32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -3252,7 +3252,7 @@ number.2.Guitar.Music.1 = {
             ef''!32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -3266,7 +3266,7 @@ number.2.Guitar.Music.1 = {
             g'32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -3280,7 +3280,7 @@ number.2.Guitar.Music.1 = {
             af'!32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -3294,7 +3294,7 @@ number.2.Guitar.Music.1 = {
             d''32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -3308,7 +3308,7 @@ number.2.Guitar.Music.1 = {
             cs''!32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -3322,7 +3322,7 @@ number.2.Guitar.Music.1 = {
             ef''!32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -3336,7 +3336,7 @@ number.2.Guitar.Music.1 = {
             fs''!32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -3350,7 +3350,7 @@ number.2.Guitar.Music.1 = {
             a''32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -3364,7 +3364,7 @@ number.2.Guitar.Music.1 = {
             b''32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -3378,7 +3378,7 @@ number.2.Guitar.Music.1 = {
             bf''!32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -3392,7 +3392,7 @@ number.2.Guitar.Music.1 = {
             c'''32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -3406,7 +3406,7 @@ number.2.Guitar.Music.1 = {
             f''32
             % AFTER:
             % ARTICULATIONS:
-              %! baca.staccato_function()
+              %! baca.staccato()
             - \staccato
             % STOP_BEAM:
               %! rmakers.beam_groups()
@@ -3457,7 +3457,7 @@ number.2.Guitar.Music.2 = {
             % [Guitar.Music.2 measure 2]
             % BEFORE:
             % COMMANDS:
-              %! baca.beam_positions_function(1)
+              %! baca.beam_positions(1)
             \once \override Beam.positions = #'(-8 . -8)
             ef'''!16
             % AFTER:

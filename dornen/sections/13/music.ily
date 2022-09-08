@@ -2557,9 +2557,9 @@ number.13.Guitar.Music.1 = {
             % [Guitar.Music.1 measure 1]
             % BEFORE:
             % COMMANDS:
-              %! baca.text_script_staff_padding_function(1)
+              %! baca.text_script_staff_padding(1)
             \override TextScript.staff-padding = 8
-              %! baca.text_spanner_staff_padding_function(1)
+              %! baca.text_spanner_staff_padding(1)
             \override TextSpanner.staff-padding = 5
             % OPENING:
             % COMMANDS:
@@ -2581,7 +2581,7 @@ number.13.Guitar.Music.1 = {
             e2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.stem_tremolo_function()
+              %! baca.stem_tremolo()
             :32
             % ARTICULATIONS:
               %! REAPPLIED_DYNAMIC_COLOR
@@ -2642,7 +2642,7 @@ number.13.Guitar.Music.1 = {
             e2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.stem_tremolo_function()
+              %! baca.stem_tremolo()
             :32
             % ARTICULATIONS:
               %! EXPLICIT_DYNAMIC_COLOR
@@ -2651,13 +2651,13 @@ number.13.Guitar.Music.1 = {
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             - \tweak color #(x11-color 'blue)
               %! EXPLICIT_DYNAMIC
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             \mp
             % MARKUP:
               %! FIGURE_LABEL
@@ -2667,27 +2667,27 @@ number.13.Guitar.Music.1 = {
             % SPANNER_STARTS:
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
-              %! baca.text_spanner_function()
+              %! baca.text_spanner()
             - \tweak bound-details.right.padding 0.5
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
-              %! baca.text_spanner_function()
+              %! baca.text_spanner()
             - \tweak bound-details.right.stencil-align-dir-y #center
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
-              %! baca.text_spanner_function()
+              %! baca.text_spanner()
             - \abjad-dashed-line-with-arrow
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
-              %! baca.text_spanner_function()
+              %! baca.text_spanner()
             - \baca-text-spanner-left-text "tamb. tr."
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
-              %! baca.text_spanner_function()
+              %! baca.text_spanner()
             - \baca-text-spanner-right-text "kn. rasg."
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
-              %! baca.text_spanner_function()
+              %! baca.text_spanner()
             \startTextSpan
               %! EXPLICIT_DYNAMIC_COLOR
               %! baca.treat_persistent_wrapper()
@@ -2695,19 +2695,19 @@ number.13.Guitar.Music.1 = {
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             - \tweak color #(x11-color 'blue)
               %! EXPLICIT_DYNAMIC
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             \<
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.repeat_tie_function()
+              %! baca.repeat_tie()
             \repeatTie
             % CLOSING:
             % COMMANDS:
@@ -2739,7 +2739,7 @@ number.13.Guitar.Music.1 = {
             e2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.stem_tremolo_function()
+              %! baca.stem_tremolo()
             :32
             % ARTICULATIONS:
               %! EXPLICIT_DYNAMIC_COLOR
@@ -2748,13 +2748,13 @@ number.13.Guitar.Music.1 = {
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(3)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             - \tweak color #(x11-color 'blue)
               %! EXPLICIT_DYNAMIC
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(3)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             \mf
             % MARKUP:
               %! FIGURE_LABEL
@@ -2764,14 +2764,14 @@ number.13.Guitar.Music.1 = {
             % SPANNER_STOPS:
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(3)
-              %! baca.text_spanner_function()
+              %! baca.text_spanner()
             \stopTextSpan
             % SPANNER_STARTS:
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.repeat_tie_function()
+              %! baca.repeat_tie()
             \repeatTie
             % CLOSING:
             % COMMANDS:
@@ -2803,7 +2803,7 @@ number.13.Guitar.Music.1 = {
             e2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.stem_tremolo_function()
+              %! baca.stem_tremolo()
             :32
             % ARTICULATIONS:
               %! EXPLICIT_DYNAMIC_COLOR
@@ -2812,13 +2812,13 @@ number.13.Guitar.Music.1 = {
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             - \tweak color #(x11-color 'blue)
               %! EXPLICIT_DYNAMIC
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             \mf
             % MARKUP:
               %! FIGURE_LABEL
@@ -2828,27 +2828,27 @@ number.13.Guitar.Music.1 = {
             % SPANNER_STARTS:
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
-              %! baca.text_spanner_function()
+              %! baca.text_spanner()
             - \tweak bound-details.right.padding 0.5
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
-              %! baca.text_spanner_function()
+              %! baca.text_spanner()
             - \tweak bound-details.right.stencil-align-dir-y #center
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
-              %! baca.text_spanner_function()
+              %! baca.text_spanner()
             - \abjad-dashed-line-with-arrow
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
-              %! baca.text_spanner_function()
+              %! baca.text_spanner()
             - \baca-text-spanner-left-text "trans."
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
-              %! baca.text_spanner_function()
+              %! baca.text_spanner()
             - \baca-text-spanner-right-text "tamb. tr."
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
-              %! baca.text_spanner_function()
+              %! baca.text_spanner()
             \startTextSpan
               %! EXPLICIT_DYNAMIC_COLOR
               %! baca.treat_persistent_wrapper()
@@ -2856,19 +2856,19 @@ number.13.Guitar.Music.1 = {
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             - \tweak color #(x11-color 'blue)
               %! EXPLICIT_DYNAMIC
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             \>
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.repeat_tie_function()
+              %! baca.repeat_tie()
             \repeatTie
             % CLOSING:
             % COMMANDS:
@@ -2900,7 +2900,7 @@ number.13.Guitar.Music.1 = {
             e2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.stem_tremolo_function()
+              %! baca.stem_tremolo()
             :32
             % ARTICULATIONS:
               %! EXPLICIT_DYNAMIC_COLOR
@@ -2909,13 +2909,13 @@ number.13.Guitar.Music.1 = {
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(3)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             - \tweak color #(x11-color 'blue)
               %! EXPLICIT_DYNAMIC
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(3)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             \mp
             % MARKUP:
               %! FIGURE_LABEL
@@ -2925,14 +2925,14 @@ number.13.Guitar.Music.1 = {
             % SPANNER_STOPS:
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(3)
-              %! baca.text_spanner_function()
+              %! baca.text_spanner()
             \stopTextSpan
             % SPANNER_STARTS:
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.repeat_tie_function()
+              %! baca.repeat_tie()
             \repeatTie
             % CLOSING:
             % COMMANDS:
@@ -2964,21 +2964,21 @@ number.13.Guitar.Music.1 = {
             e2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.stem_tremolo_function()
+              %! baca.stem_tremolo()
             :32
             % MARKUP:
               %! FIGURE_LABEL
             %@% - \tweak color #blue
               %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (6) \hspace #1 \concat { "3" \sub 1 } ] }
-              %! baca.markup_function()
+              %! baca.markup()
             ^ \dornen-three-fingers-markup
             % SPANNER_STARTS:
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.repeat_tie_function()
+              %! baca.repeat_tie()
             \repeatTie
             % CLOSING:
             % COMMANDS:
@@ -3010,7 +3010,7 @@ number.13.Guitar.Music.1 = {
             e2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.stem_tremolo_function()
+              %! baca.stem_tremolo()
             :32
             % ARTICULATIONS:
               %! EXPLICIT_DYNAMIC_COLOR
@@ -3019,13 +3019,13 @@ number.13.Guitar.Music.1 = {
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             - \tweak color #(x11-color 'blue)
               %! EXPLICIT_DYNAMIC
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             \mp
             % MARKUP:
               %! FIGURE_LABEL
@@ -3035,27 +3035,27 @@ number.13.Guitar.Music.1 = {
             % SPANNER_STARTS:
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
-              %! baca.text_spanner_function()
+              %! baca.text_spanner()
             - \tweak bound-details.right.padding 0.5
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
-              %! baca.text_spanner_function()
+              %! baca.text_spanner()
             - \tweak bound-details.right.stencil-align-dir-y #center
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
-              %! baca.text_spanner_function()
+              %! baca.text_spanner()
             - \abjad-dashed-line-with-arrow
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
-              %! baca.text_spanner_function()
+              %! baca.text_spanner()
             - \baca-text-spanner-left-text "trans."
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
-              %! baca.text_spanner_function()
+              %! baca.text_spanner()
             - \baca-text-spanner-right-text "kn. rasg."
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
-              %! baca.text_spanner_function()
+              %! baca.text_spanner()
             \startTextSpan
               %! EXPLICIT_DYNAMIC_COLOR
               %! baca.treat_persistent_wrapper()
@@ -3063,19 +3063,19 @@ number.13.Guitar.Music.1 = {
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             - \tweak color #(x11-color 'blue)
               %! EXPLICIT_DYNAMIC
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             \<
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.repeat_tie_function()
+              %! baca.repeat_tie()
             \repeatTie
             % CLOSING:
             % COMMANDS:
@@ -3107,7 +3107,7 @@ number.13.Guitar.Music.1 = {
             e2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.stem_tremolo_function()
+              %! baca.stem_tremolo()
             :32
             % ARTICULATIONS:
               %! EXPLICIT_DYNAMIC_COLOR
@@ -3116,13 +3116,13 @@ number.13.Guitar.Music.1 = {
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(3)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             - \tweak color #(x11-color 'blue)
               %! EXPLICIT_DYNAMIC
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(3)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             \f
             % MARKUP:
               %! FIGURE_LABEL
@@ -3132,14 +3132,14 @@ number.13.Guitar.Music.1 = {
             % SPANNER_STOPS:
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(3)
-              %! baca.text_spanner_function()
+              %! baca.text_spanner()
             \stopTextSpan
             % SPANNER_STARTS:
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.repeat_tie_function()
+              %! baca.repeat_tie()
             \repeatTie
             % CLOSING:
             % COMMANDS:
@@ -3171,7 +3171,7 @@ number.13.Guitar.Music.1 = {
             e2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.stem_tremolo_function()
+              %! baca.stem_tremolo()
             :32
             % ARTICULATIONS:
               %! EXPLICIT_DYNAMIC_COLOR
@@ -3180,13 +3180,13 @@ number.13.Guitar.Music.1 = {
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             - \tweak color #(x11-color 'blue)
               %! EXPLICIT_DYNAMIC
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             \f
             % MARKUP:
               %! FIGURE_LABEL
@@ -3196,27 +3196,27 @@ number.13.Guitar.Music.1 = {
             % SPANNER_STARTS:
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
-              %! baca.text_spanner_function()
+              %! baca.text_spanner()
             - \tweak bound-details.right.padding 0.5
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
-              %! baca.text_spanner_function()
+              %! baca.text_spanner()
             - \tweak bound-details.right.stencil-align-dir-y #center
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
-              %! baca.text_spanner_function()
+              %! baca.text_spanner()
             - \abjad-dashed-line-with-arrow
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
-              %! baca.text_spanner_function()
+              %! baca.text_spanner()
             - \baca-text-spanner-left-text "trans."
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
-              %! baca.text_spanner_function()
+              %! baca.text_spanner()
             - \baca-text-spanner-right-text "tamb. tr."
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
-              %! baca.text_spanner_function()
+              %! baca.text_spanner()
             \startTextSpan
               %! EXPLICIT_DYNAMIC_COLOR
               %! baca.treat_persistent_wrapper()
@@ -3224,19 +3224,19 @@ number.13.Guitar.Music.1 = {
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             - \tweak color #(x11-color 'blue)
               %! EXPLICIT_DYNAMIC
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             \>
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.repeat_tie_function()
+              %! baca.repeat_tie()
             \repeatTie
             % CLOSING:
             % COMMANDS:
@@ -3268,7 +3268,7 @@ number.13.Guitar.Music.1 = {
             e2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.stem_tremolo_function()
+              %! baca.stem_tremolo()
             :32
             % ARTICULATIONS:
               %! EXPLICIT_DYNAMIC_COLOR
@@ -3277,13 +3277,13 @@ number.13.Guitar.Music.1 = {
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(3)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             - \tweak color #(x11-color 'blue)
               %! EXPLICIT_DYNAMIC
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(3)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             \mp
             % MARKUP:
               %! FIGURE_LABEL
@@ -3293,14 +3293,14 @@ number.13.Guitar.Music.1 = {
             % SPANNER_STOPS:
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(3)
-              %! baca.text_spanner_function()
+              %! baca.text_spanner()
             \stopTextSpan
             % SPANNER_STARTS:
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.repeat_tie_function()
+              %! baca.repeat_tie()
             \repeatTie
             % CLOSING:
             % COMMANDS:
@@ -3332,21 +3332,21 @@ number.13.Guitar.Music.1 = {
             e2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.stem_tremolo_function()
+              %! baca.stem_tremolo()
             :32
             % MARKUP:
               %! FIGURE_LABEL
             %@% - \tweak color #blue
               %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (11) \hspace #1 \concat { "4" \sub 1 } ] }
-              %! baca.markup_function()
+              %! baca.markup()
             ^ \dornen-four-fingers-markup
             % SPANNER_STARTS:
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.repeat_tie_function()
+              %! baca.repeat_tie()
             \repeatTie
             % CLOSING:
             % COMMANDS:
@@ -3378,7 +3378,7 @@ number.13.Guitar.Music.1 = {
             e2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.stem_tremolo_function()
+              %! baca.stem_tremolo()
             :32
             % ARTICULATIONS:
               %! EXPLICIT_DYNAMIC_COLOR
@@ -3387,13 +3387,13 @@ number.13.Guitar.Music.1 = {
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             - \tweak color #(x11-color 'blue)
               %! EXPLICIT_DYNAMIC
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             \mp
             % MARKUP:
               %! FIGURE_LABEL
@@ -3403,27 +3403,27 @@ number.13.Guitar.Music.1 = {
             % SPANNER_STARTS:
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
-              %! baca.text_spanner_function()
+              %! baca.text_spanner()
             - \tweak bound-details.right.padding 0.5
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
-              %! baca.text_spanner_function()
+              %! baca.text_spanner()
             - \tweak bound-details.right.stencil-align-dir-y #center
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
-              %! baca.text_spanner_function()
+              %! baca.text_spanner()
             - \abjad-dashed-line-with-arrow
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
-              %! baca.text_spanner_function()
+              %! baca.text_spanner()
             - \baca-text-spanner-left-text "trans."
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
-              %! baca.text_spanner_function()
+              %! baca.text_spanner()
             - \baca-text-spanner-right-text "kn. rasg."
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
-              %! baca.text_spanner_function()
+              %! baca.text_spanner()
             \startTextSpan
               %! EXPLICIT_DYNAMIC_COLOR
               %! baca.treat_persistent_wrapper()
@@ -3431,19 +3431,19 @@ number.13.Guitar.Music.1 = {
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             - \tweak color #(x11-color 'blue)
               %! EXPLICIT_DYNAMIC
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             \<
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.repeat_tie_function()
+              %! baca.repeat_tie()
             \repeatTie
             % CLOSING:
             % COMMANDS:
@@ -3475,7 +3475,7 @@ number.13.Guitar.Music.1 = {
             e2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.stem_tremolo_function()
+              %! baca.stem_tremolo()
             :32
             % ARTICULATIONS:
               %! EXPLICIT_DYNAMIC_COLOR
@@ -3484,13 +3484,13 @@ number.13.Guitar.Music.1 = {
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(3)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             - \tweak color #(x11-color 'blue)
               %! EXPLICIT_DYNAMIC
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(3)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             \ff
             % MARKUP:
               %! FIGURE_LABEL
@@ -3500,14 +3500,14 @@ number.13.Guitar.Music.1 = {
             % SPANNER_STOPS:
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(3)
-              %! baca.text_spanner_function()
+              %! baca.text_spanner()
             \stopTextSpan
             % SPANNER_STARTS:
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.repeat_tie_function()
+              %! baca.repeat_tie()
             \repeatTie
             % CLOSING:
             % COMMANDS:
@@ -3539,7 +3539,7 @@ number.13.Guitar.Music.1 = {
             e2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.stem_tremolo_function()
+              %! baca.stem_tremolo()
             :32
             % ARTICULATIONS:
               %! EXPLICIT_DYNAMIC_COLOR
@@ -3548,13 +3548,13 @@ number.13.Guitar.Music.1 = {
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             - \tweak color #(x11-color 'blue)
               %! EXPLICIT_DYNAMIC
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             \ff
             % MARKUP:
               %! FIGURE_LABEL
@@ -3568,19 +3568,19 @@ number.13.Guitar.Music.1 = {
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             - \tweak color #(x11-color 'blue)
               %! EXPLICIT_DYNAMIC
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             \>
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.repeat_tie_function()
+              %! baca.repeat_tie()
             \repeatTie
             % CLOSING:
             % COMMANDS:
@@ -3612,7 +3612,7 @@ number.13.Guitar.Music.1 = {
             e2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.stem_tremolo_function()
+              %! baca.stem_tremolo()
             :32
             % ARTICULATIONS:
               %! EXPLICIT_DYNAMIC_COLOR
@@ -3621,13 +3621,13 @@ number.13.Guitar.Music.1 = {
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(3)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             - \tweak color #(x11-color 'blue)
               %! EXPLICIT_DYNAMIC
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(3)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             \mf
             % MARKUP:
               %! FIGURE_LABEL
@@ -3639,7 +3639,7 @@ number.13.Guitar.Music.1 = {
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.repeat_tie_function()
+              %! baca.repeat_tie()
             \repeatTie
             % CLOSING:
             % COMMANDS:
@@ -3671,7 +3671,7 @@ number.13.Guitar.Music.1 = {
             e2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.stem_tremolo_function()
+              %! baca.stem_tremolo()
             :32
             % ARTICULATIONS:
               %! EXPLICIT_DYNAMIC_COLOR
@@ -3680,13 +3680,13 @@ number.13.Guitar.Music.1 = {
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             - \tweak color #(x11-color 'blue)
               %! EXPLICIT_DYNAMIC
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             \mf
             % MARKUP:
               %! FIGURE_LABEL
@@ -3696,27 +3696,27 @@ number.13.Guitar.Music.1 = {
             % SPANNER_STARTS:
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
-              %! baca.text_spanner_function()
+              %! baca.text_spanner()
             - \tweak bound-details.right.padding 0.5
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
-              %! baca.text_spanner_function()
+              %! baca.text_spanner()
             - \tweak bound-details.right.stencil-align-dir-y #center
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
-              %! baca.text_spanner_function()
+              %! baca.text_spanner()
             - \abjad-dashed-line-with-arrow
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
-              %! baca.text_spanner_function()
+              %! baca.text_spanner()
             - \baca-text-spanner-left-text "trans."
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
-              %! baca.text_spanner_function()
+              %! baca.text_spanner()
             - \baca-text-spanner-right-text "nail rasg."
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
-              %! baca.text_spanner_function()
+              %! baca.text_spanner()
             \startTextSpan
               %! EXPLICIT_DYNAMIC_COLOR
               %! baca.treat_persistent_wrapper()
@@ -3724,19 +3724,19 @@ number.13.Guitar.Music.1 = {
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             - \tweak color #(x11-color 'blue)
               %! EXPLICIT_DYNAMIC
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             \<
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.repeat_tie_function()
+              %! baca.repeat_tie()
             \repeatTie
             % CLOSING:
             % COMMANDS:
@@ -3768,7 +3768,7 @@ number.13.Guitar.Music.1 = {
             e2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.stem_tremolo_function()
+              %! baca.stem_tremolo()
             :32
             % ARTICULATIONS:
               %! EXPLICIT_DYNAMIC_COLOR
@@ -3777,13 +3777,13 @@ number.13.Guitar.Music.1 = {
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(3)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             - \tweak color #(x11-color 'blue)
               %! EXPLICIT_DYNAMIC
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(3)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             \f
             % MARKUP:
               %! FIGURE_LABEL
@@ -3793,14 +3793,14 @@ number.13.Guitar.Music.1 = {
             % SPANNER_STOPS:
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(3)
-              %! baca.text_spanner_function()
+              %! baca.text_spanner()
             \stopTextSpan
             % SPANNER_STARTS:
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.repeat_tie_function()
+              %! baca.repeat_tie()
             \repeatTie
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -3808,14 +3808,14 @@ number.13.Guitar.Music.1 = {
             e2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.stem_tremolo_function()
+              %! baca.stem_tremolo()
             :32
             % SPANNER_STARTS:
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.repeat_tie_function()
+              %! baca.repeat_tie()
             \repeatTie
             % CLOSING:
             % COMMANDS:
@@ -3847,7 +3847,7 @@ number.13.Guitar.Music.1 = {
             e2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.stem_tremolo_function()
+              %! baca.stem_tremolo()
             :32
             % ARTICULATIONS:
               %! EXPLICIT_DYNAMIC_COLOR
@@ -3856,13 +3856,13 @@ number.13.Guitar.Music.1 = {
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             - \tweak color #(x11-color 'blue)
               %! EXPLICIT_DYNAMIC
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             \f
             % MARKUP:
               %! FIGURE_LABEL
@@ -3872,27 +3872,27 @@ number.13.Guitar.Music.1 = {
             % SPANNER_STARTS:
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
-              %! baca.text_spanner_function()
+              %! baca.text_spanner()
             - \tweak bound-details.right.padding 0.5
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
-              %! baca.text_spanner_function()
+              %! baca.text_spanner()
             - \tweak bound-details.right.stencil-align-dir-y #center
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
-              %! baca.text_spanner_function()
+              %! baca.text_spanner()
             - \abjad-dashed-line-with-arrow
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
-              %! baca.text_spanner_function()
+              %! baca.text_spanner()
             - \baca-text-spanner-left-text "trans."
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
-              %! baca.text_spanner_function()
+              %! baca.text_spanner()
             - \baca-text-spanner-right-text "kn. rasg."
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
-              %! baca.text_spanner_function()
+              %! baca.text_spanner()
             \startTextSpan
               %! EXPLICIT_DYNAMIC_COLOR
               %! baca.treat_persistent_wrapper()
@@ -3900,19 +3900,19 @@ number.13.Guitar.Music.1 = {
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             - \tweak color #(x11-color 'blue)
               %! EXPLICIT_DYNAMIC
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             \>
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.repeat_tie_function()
+              %! baca.repeat_tie()
             \repeatTie
             % CLOSING:
             % COMMANDS:
@@ -3944,7 +3944,7 @@ number.13.Guitar.Music.1 = {
             e2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.stem_tremolo_function()
+              %! baca.stem_tremolo()
             :32
             % ARTICULATIONS:
               %! EXPLICIT_DYNAMIC_COLOR
@@ -3953,13 +3953,13 @@ number.13.Guitar.Music.1 = {
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(3)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             - \tweak color #(x11-color 'blue)
               %! EXPLICIT_DYNAMIC
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(3)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             \mf
             % MARKUP:
               %! FIGURE_LABEL
@@ -3969,14 +3969,14 @@ number.13.Guitar.Music.1 = {
             % SPANNER_STOPS:
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(3)
-              %! baca.text_spanner_function()
+              %! baca.text_spanner()
             \stopTextSpan
             % SPANNER_STARTS:
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.repeat_tie_function()
+              %! baca.repeat_tie()
             \repeatTie
             % CLOSING:
             % COMMANDS:
@@ -4008,7 +4008,7 @@ number.13.Guitar.Music.1 = {
             e2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.stem_tremolo_function()
+              %! baca.stem_tremolo()
             :32
             % ARTICULATIONS:
               %! EXPLICIT_DYNAMIC_COLOR
@@ -4017,13 +4017,13 @@ number.13.Guitar.Music.1 = {
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             - \tweak color #(x11-color 'blue)
               %! EXPLICIT_DYNAMIC
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             \mf
             % MARKUP:
               %! FIGURE_LABEL
@@ -4033,27 +4033,27 @@ number.13.Guitar.Music.1 = {
             % SPANNER_STARTS:
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
-              %! baca.text_spanner_function()
+              %! baca.text_spanner()
             - \tweak bound-details.right.padding 0.5
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
-              %! baca.text_spanner_function()
+              %! baca.text_spanner()
             - \tweak bound-details.right.stencil-align-dir-y #center
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
-              %! baca.text_spanner_function()
+              %! baca.text_spanner()
             - \abjad-dashed-line-with-arrow
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
-              %! baca.text_spanner_function()
+              %! baca.text_spanner()
             - \baca-text-spanner-left-text "trans."
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
-              %! baca.text_spanner_function()
+              %! baca.text_spanner()
             - \baca-text-spanner-right-text "nail. rasg."
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
-              %! baca.text_spanner_function()
+              %! baca.text_spanner()
             \startTextSpan
               %! EXPLICIT_DYNAMIC_COLOR
               %! baca.treat_persistent_wrapper()
@@ -4061,19 +4061,19 @@ number.13.Guitar.Music.1 = {
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             - \tweak color #(x11-color 'blue)
               %! EXPLICIT_DYNAMIC
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             \<
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.repeat_tie_function()
+              %! baca.repeat_tie()
             \repeatTie
             % CLOSING:
             % COMMANDS:
@@ -4104,7 +4104,7 @@ number.13.Guitar.Music.1 = {
             e2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.stem_tremolo_function()
+              %! baca.stem_tremolo()
             :32
             % ARTICULATIONS:
               %! EXPLICIT_DYNAMIC_COLOR
@@ -4113,13 +4113,13 @@ number.13.Guitar.Music.1 = {
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(3)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             - \tweak color #(x11-color 'blue)
               %! EXPLICIT_DYNAMIC
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(3)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             \ff
             % MARKUP:
               %! FIGURE_LABEL
@@ -4129,14 +4129,14 @@ number.13.Guitar.Music.1 = {
             % SPANNER_STOPS:
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(3)
-              %! baca.text_spanner_function()
+              %! baca.text_spanner()
             \stopTextSpan
             % SPANNER_STARTS:
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.repeat_tie_function()
+              %! baca.repeat_tie()
             \repeatTie
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -4144,14 +4144,14 @@ number.13.Guitar.Music.1 = {
             e2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.stem_tremolo_function()
+              %! baca.stem_tremolo()
             :32
             % SPANNER_STARTS:
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.repeat_tie_function()
+              %! baca.repeat_tie()
             \repeatTie
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -4159,14 +4159,14 @@ number.13.Guitar.Music.1 = {
             e2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.stem_tremolo_function()
+              %! baca.stem_tremolo()
             :32
             % SPANNER_STARTS:
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.repeat_tie_function()
+              %! baca.repeat_tie()
             \repeatTie
             % CLOSING:
             % COMMANDS:
@@ -4198,7 +4198,7 @@ number.13.Guitar.Music.1 = {
             e2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.stem_tremolo_function()
+              %! baca.stem_tremolo()
             :32
             % ARTICULATIONS:
               %! EXPLICIT_DYNAMIC_COLOR
@@ -4207,13 +4207,13 @@ number.13.Guitar.Music.1 = {
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             - \tweak color #(x11-color 'blue)
               %! EXPLICIT_DYNAMIC
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             \ff
             % MARKUP:
               %! FIGURE_LABEL
@@ -4223,27 +4223,27 @@ number.13.Guitar.Music.1 = {
             % SPANNER_STARTS:
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
-              %! baca.text_spanner_function()
+              %! baca.text_spanner()
             - \tweak bound-details.right.padding 0.5
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
-              %! baca.text_spanner_function()
+              %! baca.text_spanner()
             - \tweak bound-details.right.stencil-align-dir-y #center
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
-              %! baca.text_spanner_function()
+              %! baca.text_spanner()
             - \abjad-dashed-line-with-arrow
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
-              %! baca.text_spanner_function()
+              %! baca.text_spanner()
             - \baca-text-spanner-left-text "trans."
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
-              %! baca.text_spanner_function()
+              %! baca.text_spanner()
             - \baca-text-spanner-right-text "kn. rasg."
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
-              %! baca.text_spanner_function()
+              %! baca.text_spanner()
             \startTextSpan
               %! EXPLICIT_DYNAMIC_COLOR
               %! baca.treat_persistent_wrapper()
@@ -4251,19 +4251,19 @@ number.13.Guitar.Music.1 = {
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             - \tweak color #(x11-color 'blue)
               %! EXPLICIT_DYNAMIC
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             \>
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.repeat_tie_function()
+              %! baca.repeat_tie()
             \repeatTie
             % CLOSING:
             % COMMANDS:
@@ -4295,7 +4295,7 @@ number.13.Guitar.Music.1 = {
             e2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.stem_tremolo_function()
+              %! baca.stem_tremolo()
             :32
             % ARTICULATIONS:
               %! EXPLICIT_DYNAMIC_COLOR
@@ -4304,13 +4304,13 @@ number.13.Guitar.Music.1 = {
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(3)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             - \tweak color #(x11-color 'blue)
               %! EXPLICIT_DYNAMIC
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(3)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             \mf
             % MARKUP:
               %! FIGURE_LABEL
@@ -4320,14 +4320,14 @@ number.13.Guitar.Music.1 = {
             % SPANNER_STOPS:
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(3)
-              %! baca.text_spanner_function()
+              %! baca.text_spanner()
             \stopTextSpan
             % SPANNER_STARTS:
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.repeat_tie_function()
+              %! baca.repeat_tie()
             \repeatTie
             % CLOSING:
             % COMMANDS:
@@ -4359,7 +4359,7 @@ number.13.Guitar.Music.1 = {
             e2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.stem_tremolo_function()
+              %! baca.stem_tremolo()
             :32
             % ARTICULATIONS:
               %! EXPLICIT_DYNAMIC_COLOR
@@ -4368,13 +4368,13 @@ number.13.Guitar.Music.1 = {
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             - \tweak color #(x11-color 'blue)
               %! EXPLICIT_DYNAMIC
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             \mf
             % MARKUP:
               %! FIGURE_LABEL
@@ -4384,27 +4384,27 @@ number.13.Guitar.Music.1 = {
             % SPANNER_STARTS:
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
-              %! baca.text_spanner_function()
+              %! baca.text_spanner()
             - \tweak bound-details.right.padding 0.5
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
-              %! baca.text_spanner_function()
+              %! baca.text_spanner()
             - \tweak bound-details.right.stencil-align-dir-y #center
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
-              %! baca.text_spanner_function()
+              %! baca.text_spanner()
             - \abjad-dashed-line-with-arrow
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
-              %! baca.text_spanner_function()
+              %! baca.text_spanner()
             - \baca-text-spanner-left-text "trans."
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
-              %! baca.text_spanner_function()
+              %! baca.text_spanner()
             - \baca-text-spanner-right-text "nail rasg."
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
-              %! baca.text_spanner_function()
+              %! baca.text_spanner()
             \startTextSpan
               %! EXPLICIT_DYNAMIC_COLOR
               %! baca.treat_persistent_wrapper()
@@ -4412,19 +4412,19 @@ number.13.Guitar.Music.1 = {
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             - \tweak color #(x11-color 'blue)
               %! EXPLICIT_DYNAMIC
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             \<
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.repeat_tie_function()
+              %! baca.repeat_tie()
             \repeatTie
             % CLOSING:
             % COMMANDS:
@@ -4456,7 +4456,7 @@ number.13.Guitar.Music.1 = {
             e2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.stem_tremolo_function()
+              %! baca.stem_tremolo()
             :32
             % MARKUP:
               %! FIGURE_LABEL
@@ -4468,7 +4468,7 @@ number.13.Guitar.Music.1 = {
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.repeat_tie_function()
+              %! baca.repeat_tie()
             \repeatTie
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -4476,14 +4476,14 @@ number.13.Guitar.Music.1 = {
             e2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.stem_tremolo_function()
+              %! baca.stem_tremolo()
             :32
             % SPANNER_STARTS:
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.repeat_tie_function()
+              %! baca.repeat_tie()
             \repeatTie
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -4491,14 +4491,14 @@ number.13.Guitar.Music.1 = {
             e2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.stem_tremolo_function()
+              %! baca.stem_tremolo()
             :32
             % SPANNER_STARTS:
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.repeat_tie_function()
+              %! baca.repeat_tie()
             \repeatTie
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -4506,14 +4506,14 @@ number.13.Guitar.Music.1 = {
             e2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.stem_tremolo_function()
+              %! baca.stem_tremolo()
             :32
             % SPANNER_STARTS:
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.repeat_tie_function()
+              %! baca.repeat_tie()
             \repeatTie
             % CLOSING:
             % COMMANDS:
@@ -4545,7 +4545,7 @@ number.13.Guitar.Music.1 = {
             e2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.stem_tremolo_function()
+              %! baca.stem_tremolo()
             :32
             % ARTICULATIONS:
               %! EXPLICIT_DYNAMIC_COLOR
@@ -4554,13 +4554,13 @@ number.13.Guitar.Music.1 = {
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(3)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             - \tweak color #(x11-color 'blue)
               %! EXPLICIT_DYNAMIC
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(3)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             \ffff
             % MARKUP:
               %! FIGURE_LABEL
@@ -4570,14 +4570,14 @@ number.13.Guitar.Music.1 = {
             % SPANNER_STOPS:
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(3)
-              %! baca.text_spanner_function()
+              %! baca.text_spanner()
             \stopTextSpan
             % SPANNER_STARTS:
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.repeat_tie_function()
+              %! baca.repeat_tie()
             \repeatTie
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -4585,14 +4585,14 @@ number.13.Guitar.Music.1 = {
             e2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.stem_tremolo_function()
+              %! baca.stem_tremolo()
             :32
             % SPANNER_STARTS:
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.repeat_tie_function()
+              %! baca.repeat_tie()
             \repeatTie
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -4600,14 +4600,14 @@ number.13.Guitar.Music.1 = {
             e2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.stem_tremolo_function()
+              %! baca.stem_tremolo()
             :32
             % SPANNER_STARTS:
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.repeat_tie_function()
+              %! baca.repeat_tie()
             \repeatTie
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -4615,14 +4615,14 @@ number.13.Guitar.Music.1 = {
             e2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.stem_tremolo_function()
+              %! baca.stem_tremolo()
             :32
             % SPANNER_STARTS:
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.repeat_tie_function()
+              %! baca.repeat_tie()
             \repeatTie
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -4630,14 +4630,14 @@ number.13.Guitar.Music.1 = {
             e2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.stem_tremolo_function()
+              %! baca.stem_tremolo()
             :32
             % SPANNER_STARTS:
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.repeat_tie_function()
+              %! baca.repeat_tie()
             \repeatTie
             % CLOSING:
             % COMMANDS:
@@ -4669,7 +4669,7 @@ number.13.Guitar.Music.1 = {
             e2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.stem_tremolo_function()
+              %! baca.stem_tremolo()
             :32
             % ARTICULATIONS:
               %! EXPLICIT_DYNAMIC_COLOR
@@ -4678,13 +4678,13 @@ number.13.Guitar.Music.1 = {
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             - \tweak color #(x11-color 'blue)
               %! EXPLICIT_DYNAMIC
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             \ffff
             % MARKUP:
               %! FIGURE_LABEL
@@ -4694,27 +4694,27 @@ number.13.Guitar.Music.1 = {
             % SPANNER_STARTS:
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
-              %! baca.text_spanner_function()
+              %! baca.text_spanner()
             - \tweak bound-details.right.padding 0.5
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
-              %! baca.text_spanner_function()
+              %! baca.text_spanner()
             - \tweak bound-details.right.stencil-align-dir-y #center
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
-              %! baca.text_spanner_function()
+              %! baca.text_spanner()
             - \abjad-dashed-line-with-arrow
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
-              %! baca.text_spanner_function()
+              %! baca.text_spanner()
             - \baca-text-spanner-left-text "trans."
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
-              %! baca.text_spanner_function()
+              %! baca.text_spanner()
             - \baca-text-spanner-right-text "ponticello"
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
-              %! baca.text_spanner_function()
+              %! baca.text_spanner()
             \startTextSpan
               %! EXPLICIT_DYNAMIC_COLOR
               %! baca.treat_persistent_wrapper()
@@ -4722,19 +4722,19 @@ number.13.Guitar.Music.1 = {
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             - \tweak color #(x11-color 'blue)
               %! EXPLICIT_DYNAMIC
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             \>
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.repeat_tie_function()
+              %! baca.repeat_tie()
             \repeatTie
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -4742,14 +4742,14 @@ number.13.Guitar.Music.1 = {
             e2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.stem_tremolo_function()
+              %! baca.stem_tremolo()
             :32
             % SPANNER_STARTS:
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.repeat_tie_function()
+              %! baca.repeat_tie()
             \repeatTie
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -4757,14 +4757,14 @@ number.13.Guitar.Music.1 = {
             e2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.stem_tremolo_function()
+              %! baca.stem_tremolo()
             :32
             % SPANNER_STARTS:
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.repeat_tie_function()
+              %! baca.repeat_tie()
             \repeatTie
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -4772,14 +4772,14 @@ number.13.Guitar.Music.1 = {
             e2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.stem_tremolo_function()
+              %! baca.stem_tremolo()
             :32
             % SPANNER_STARTS:
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.repeat_tie_function()
+              %! baca.repeat_tie()
             \repeatTie
             % CLOSING:
             % COMMANDS:
@@ -4810,7 +4810,7 @@ number.13.Guitar.Music.1 = {
             e2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.stem_tremolo_function()
+              %! baca.stem_tremolo()
             :32
             % ARTICULATIONS:
               %! EXPLICIT_DYNAMIC_COLOR
@@ -4819,13 +4819,13 @@ number.13.Guitar.Music.1 = {
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             - \tweak color #(x11-color 'blue)
               %! EXPLICIT_DYNAMIC
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             \ff
             % MARKUP:
               %! FIGURE_LABEL
@@ -4839,19 +4839,19 @@ number.13.Guitar.Music.1 = {
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             - \tweak color #(x11-color 'blue)
               %! EXPLICIT_DYNAMIC
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             \<
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.repeat_tie_function()
+              %! baca.repeat_tie()
             \repeatTie
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -4859,14 +4859,14 @@ number.13.Guitar.Music.1 = {
             e2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.stem_tremolo_function()
+              %! baca.stem_tremolo()
             :32
             % SPANNER_STARTS:
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.repeat_tie_function()
+              %! baca.repeat_tie()
             \repeatTie
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -4874,14 +4874,14 @@ number.13.Guitar.Music.1 = {
             e2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.stem_tremolo_function()
+              %! baca.stem_tremolo()
             :32
             % SPANNER_STARTS:
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.repeat_tie_function()
+              %! baca.repeat_tie()
             \repeatTie
             % CLOSING:
             % COMMANDS:
@@ -4913,7 +4913,7 @@ number.13.Guitar.Music.1 = {
             e2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.stem_tremolo_function()
+              %! baca.stem_tremolo()
             :32
             % ARTICULATIONS:
               %! EXPLICIT_DYNAMIC_COLOR
@@ -4922,13 +4922,13 @@ number.13.Guitar.Music.1 = {
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             - \tweak color #(x11-color 'blue)
               %! EXPLICIT_DYNAMIC
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             \fff
             % MARKUP:
               %! FIGURE_LABEL
@@ -4942,19 +4942,19 @@ number.13.Guitar.Music.1 = {
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             - \tweak color #(x11-color 'blue)
               %! EXPLICIT_DYNAMIC
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             \>
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.repeat_tie_function()
+              %! baca.repeat_tie()
             \repeatTie
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -4962,14 +4962,14 @@ number.13.Guitar.Music.1 = {
             e2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.stem_tremolo_function()
+              %! baca.stem_tremolo()
             :32
             % SPANNER_STARTS:
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.repeat_tie_function()
+              %! baca.repeat_tie()
             \repeatTie
             % CLOSING:
             % COMMANDS:
@@ -5001,7 +5001,7 @@ number.13.Guitar.Music.1 = {
             e2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.stem_tremolo_function()
+              %! baca.stem_tremolo()
             :32
             % ARTICULATIONS:
               %! EXPLICIT_DYNAMIC_COLOR
@@ -5010,13 +5010,13 @@ number.13.Guitar.Music.1 = {
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             - \tweak color #(x11-color 'blue)
               %! EXPLICIT_DYNAMIC
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             \f
             % MARKUP:
               %! FIGURE_LABEL
@@ -5030,19 +5030,19 @@ number.13.Guitar.Music.1 = {
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             - \tweak color #(x11-color 'blue)
               %! EXPLICIT_DYNAMIC
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             \<
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.repeat_tie_function()
+              %! baca.repeat_tie()
             \repeatTie
             % CLOSING:
             % COMMANDS:
@@ -5074,7 +5074,7 @@ number.13.Guitar.Music.1 = {
             e2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.stem_tremolo_function()
+              %! baca.stem_tremolo()
             :32
             % ARTICULATIONS:
               %! EXPLICIT_DYNAMIC_COLOR
@@ -5083,13 +5083,13 @@ number.13.Guitar.Music.1 = {
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             - \tweak color #(x11-color 'blue)
               %! EXPLICIT_DYNAMIC
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             \ff
             % MARKUP:
               %! FIGURE_LABEL
@@ -5103,19 +5103,19 @@ number.13.Guitar.Music.1 = {
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             - \tweak color #(x11-color 'blue)
               %! EXPLICIT_DYNAMIC
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             \>
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.repeat_tie_function()
+              %! baca.repeat_tie()
             \repeatTie
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -5123,14 +5123,14 @@ number.13.Guitar.Music.1 = {
             e2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.stem_tremolo_function()
+              %! baca.stem_tremolo()
             :32
             % SPANNER_STARTS:
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.repeat_tie_function()
+              %! baca.repeat_tie()
             \repeatTie
             % CLOSING:
             % COMMANDS:
@@ -5161,7 +5161,7 @@ number.13.Guitar.Music.1 = {
             e2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.stem_tremolo_function()
+              %! baca.stem_tremolo()
             :32
             % ARTICULATIONS:
               %! EXPLICIT_DYNAMIC_COLOR
@@ -5170,13 +5170,13 @@ number.13.Guitar.Music.1 = {
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             - \tweak color #(x11-color 'blue)
               %! EXPLICIT_DYNAMIC
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             \mf
             % MARKUP:
               %! FIGURE_LABEL
@@ -5190,19 +5190,19 @@ number.13.Guitar.Music.1 = {
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             - \tweak color #(x11-color 'blue)
               %! EXPLICIT_DYNAMIC
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             \<
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.repeat_tie_function()
+              %! baca.repeat_tie()
             \repeatTie
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -5210,14 +5210,14 @@ number.13.Guitar.Music.1 = {
             e2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.stem_tremolo_function()
+              %! baca.stem_tremolo()
             :32
             % SPANNER_STARTS:
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.repeat_tie_function()
+              %! baca.repeat_tie()
             \repeatTie
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -5225,14 +5225,14 @@ number.13.Guitar.Music.1 = {
             e2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.stem_tremolo_function()
+              %! baca.stem_tremolo()
             :32
             % SPANNER_STARTS:
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.repeat_tie_function()
+              %! baca.repeat_tie()
             \repeatTie
             % CLOSING:
             % COMMANDS:
@@ -5264,7 +5264,7 @@ number.13.Guitar.Music.1 = {
             e2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.stem_tremolo_function()
+              %! baca.stem_tremolo()
             :32
             % ARTICULATIONS:
               %! EXPLICIT_DYNAMIC_COLOR
@@ -5273,13 +5273,13 @@ number.13.Guitar.Music.1 = {
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             - \tweak color #(x11-color 'blue)
               %! EXPLICIT_DYNAMIC
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             \f
             % MARKUP:
               %! FIGURE_LABEL
@@ -5293,19 +5293,19 @@ number.13.Guitar.Music.1 = {
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             - \tweak color #(x11-color 'blue)
               %! EXPLICIT_DYNAMIC
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             \>
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.repeat_tie_function()
+              %! baca.repeat_tie()
             \repeatTie
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -5313,14 +5313,14 @@ number.13.Guitar.Music.1 = {
             e2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.stem_tremolo_function()
+              %! baca.stem_tremolo()
             :32
             % SPANNER_STARTS:
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.repeat_tie_function()
+              %! baca.repeat_tie()
             \repeatTie
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -5328,14 +5328,14 @@ number.13.Guitar.Music.1 = {
             e2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.stem_tremolo_function()
+              %! baca.stem_tremolo()
             :32
             % SPANNER_STARTS:
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.repeat_tie_function()
+              %! baca.repeat_tie()
             \repeatTie
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -5343,14 +5343,14 @@ number.13.Guitar.Music.1 = {
             e2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.stem_tremolo_function()
+              %! baca.stem_tremolo()
             :32
             % SPANNER_STARTS:
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.repeat_tie_function()
+              %! baca.repeat_tie()
             \repeatTie
             % CLOSING:
             % COMMANDS:
@@ -5382,7 +5382,7 @@ number.13.Guitar.Music.1 = {
             e2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.stem_tremolo_function()
+              %! baca.stem_tremolo()
             :32
             % ARTICULATIONS:
               %! EXPLICIT_DYNAMIC_COLOR
@@ -5391,13 +5391,13 @@ number.13.Guitar.Music.1 = {
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             - \tweak color #(x11-color 'blue)
               %! EXPLICIT_DYNAMIC
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             \mp
             % MARKUP:
               %! FIGURE_LABEL
@@ -5411,19 +5411,19 @@ number.13.Guitar.Music.1 = {
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             - \tweak color #(x11-color 'blue)
               %! EXPLICIT_DYNAMIC
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             \<
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.repeat_tie_function()
+              %! baca.repeat_tie()
             \repeatTie
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -5431,14 +5431,14 @@ number.13.Guitar.Music.1 = {
             e2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.stem_tremolo_function()
+              %! baca.stem_tremolo()
             :32
             % SPANNER_STARTS:
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.repeat_tie_function()
+              %! baca.repeat_tie()
             \repeatTie
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -5446,14 +5446,14 @@ number.13.Guitar.Music.1 = {
             e2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.stem_tremolo_function()
+              %! baca.stem_tremolo()
             :32
             % SPANNER_STARTS:
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.repeat_tie_function()
+              %! baca.repeat_tie()
             \repeatTie
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -5461,14 +5461,14 @@ number.13.Guitar.Music.1 = {
             e2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.stem_tremolo_function()
+              %! baca.stem_tremolo()
             :32
             % SPANNER_STARTS:
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.repeat_tie_function()
+              %! baca.repeat_tie()
             \repeatTie
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -5476,14 +5476,14 @@ number.13.Guitar.Music.1 = {
             e2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.stem_tremolo_function()
+              %! baca.stem_tremolo()
             :32
             % SPANNER_STARTS:
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.repeat_tie_function()
+              %! baca.repeat_tie()
             \repeatTie
             % CLOSING:
             % COMMANDS:
@@ -5515,7 +5515,7 @@ number.13.Guitar.Music.1 = {
             e2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.stem_tremolo_function()
+              %! baca.stem_tremolo()
             :32
             % ARTICULATIONS:
               %! EXPLICIT_DYNAMIC_COLOR
@@ -5524,13 +5524,13 @@ number.13.Guitar.Music.1 = {
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             - \tweak color #(x11-color 'blue)
               %! EXPLICIT_DYNAMIC
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             \mf
             % MARKUP:
               %! FIGURE_LABEL
@@ -5544,19 +5544,19 @@ number.13.Guitar.Music.1 = {
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             - \tweak color #(x11-color 'blue)
               %! EXPLICIT_DYNAMIC
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             \>
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.repeat_tie_function()
+              %! baca.repeat_tie()
             \repeatTie
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -5564,14 +5564,14 @@ number.13.Guitar.Music.1 = {
             e2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.stem_tremolo_function()
+              %! baca.stem_tremolo()
             :32
             % SPANNER_STARTS:
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.repeat_tie_function()
+              %! baca.repeat_tie()
             \repeatTie
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -5579,14 +5579,14 @@ number.13.Guitar.Music.1 = {
             e2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.stem_tremolo_function()
+              %! baca.stem_tremolo()
             :32
             % SPANNER_STARTS:
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.repeat_tie_function()
+              %! baca.repeat_tie()
             \repeatTie
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -5594,14 +5594,14 @@ number.13.Guitar.Music.1 = {
             e2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.stem_tremolo_function()
+              %! baca.stem_tremolo()
             :32
             % SPANNER_STARTS:
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.repeat_tie_function()
+              %! baca.repeat_tie()
             \repeatTie
             % CLOSING:
             % COMMANDS:
@@ -5632,7 +5632,7 @@ number.13.Guitar.Music.1 = {
             e2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.stem_tremolo_function()
+              %! baca.stem_tremolo()
             :32
             % ARTICULATIONS:
               %! EXPLICIT_DYNAMIC_COLOR
@@ -5641,13 +5641,13 @@ number.13.Guitar.Music.1 = {
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             - \tweak color #(x11-color 'blue)
               %! EXPLICIT_DYNAMIC
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             \p
             % MARKUP:
               %! FIGURE_LABEL
@@ -5661,19 +5661,19 @@ number.13.Guitar.Music.1 = {
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             - \tweak color #(x11-color 'blue)
               %! EXPLICIT_DYNAMIC
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             \<
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.repeat_tie_function()
+              %! baca.repeat_tie()
             \repeatTie
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -5681,14 +5681,14 @@ number.13.Guitar.Music.1 = {
             e2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.stem_tremolo_function()
+              %! baca.stem_tremolo()
             :32
             % SPANNER_STARTS:
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.repeat_tie_function()
+              %! baca.repeat_tie()
             \repeatTie
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -5696,14 +5696,14 @@ number.13.Guitar.Music.1 = {
             e2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.stem_tremolo_function()
+              %! baca.stem_tremolo()
             :32
             % SPANNER_STARTS:
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.repeat_tie_function()
+              %! baca.repeat_tie()
             \repeatTie
             % CLOSING:
             % COMMANDS:
@@ -5735,7 +5735,7 @@ number.13.Guitar.Music.1 = {
             e2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.stem_tremolo_function()
+              %! baca.stem_tremolo()
             :32
             % ARTICULATIONS:
               %! EXPLICIT_DYNAMIC_COLOR
@@ -5744,13 +5744,13 @@ number.13.Guitar.Music.1 = {
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             - \tweak color #(x11-color 'blue)
               %! EXPLICIT_DYNAMIC
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             \mp
             % MARKUP:
               %! FIGURE_LABEL
@@ -5760,7 +5760,7 @@ number.13.Guitar.Music.1 = {
             % SPANNER_STOPS:
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(3)
-              %! baca.text_spanner_function()
+              %! baca.text_spanner()
             \stopTextSpan
             % SPANNER_STARTS:
               %! EXPLICIT_DYNAMIC_COLOR
@@ -5769,19 +5769,19 @@ number.13.Guitar.Music.1 = {
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             - \tweak color #(x11-color 'blue)
               %! EXPLICIT_DYNAMIC
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             \>
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.repeat_tie_function()
+              %! baca.repeat_tie()
             \repeatTie
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -5789,14 +5789,14 @@ number.13.Guitar.Music.1 = {
             e2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.stem_tremolo_function()
+              %! baca.stem_tremolo()
             :32
             % SPANNER_STARTS:
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.repeat_tie_function()
+              %! baca.repeat_tie()
             \repeatTie
             % CLOSING:
             % COMMANDS:
@@ -5828,7 +5828,7 @@ number.13.Guitar.Music.1 = {
             e2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.stem_tremolo_function()
+              %! baca.stem_tremolo()
             :32
             % ARTICULATIONS:
               %! EXPLICIT_DYNAMIC_COLOR
@@ -5837,13 +5837,13 @@ number.13.Guitar.Music.1 = {
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             - \tweak color #(x11-color 'blue)
               %! EXPLICIT_DYNAMIC
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             \pp
             % MARKUP:
               %! FIGURE_LABEL
@@ -5857,19 +5857,19 @@ number.13.Guitar.Music.1 = {
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             - \tweak color #(x11-color 'blue)
               %! EXPLICIT_DYNAMIC
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             \<
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.repeat_tie_function()
+              %! baca.repeat_tie()
             \repeatTie
             % CLOSING:
             % COMMANDS:
@@ -5901,7 +5901,7 @@ number.13.Guitar.Music.1 = {
             e2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.stem_tremolo_function()
+              %! baca.stem_tremolo()
             :32
             % ARTICULATIONS:
               %! EXPLICIT_DYNAMIC_COLOR
@@ -5910,13 +5910,13 @@ number.13.Guitar.Music.1 = {
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             - \tweak color #(x11-color 'blue)
               %! EXPLICIT_DYNAMIC
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             \p
             % MARKUP:
               %! FIGURE_LABEL
@@ -5930,19 +5930,19 @@ number.13.Guitar.Music.1 = {
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             - \tweak color #(x11-color 'blue)
               %! EXPLICIT_DYNAMIC
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             \>
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.repeat_tie_function()
+              %! baca.repeat_tie()
             \repeatTie
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -5950,14 +5950,14 @@ number.13.Guitar.Music.1 = {
             e2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.stem_tremolo_function()
+              %! baca.stem_tremolo()
             :32
             % SPANNER_STARTS:
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.repeat_tie_function()
+              %! baca.repeat_tie()
             \repeatTie
             % CLOSING:
             % COMMANDS:
@@ -5988,7 +5988,7 @@ number.13.Guitar.Music.1 = {
             e2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.stem_tremolo_function()
+              %! baca.stem_tremolo()
             :32
             % ARTICULATIONS:
               %! EXPLICIT_DYNAMIC_COLOR
@@ -5997,13 +5997,13 @@ number.13.Guitar.Music.1 = {
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             - \tweak color #(x11-color 'blue)
               %! EXPLICIT_DYNAMIC
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             \ppp
             % MARKUP:
               %! FIGURE_LABEL
@@ -6017,19 +6017,19 @@ number.13.Guitar.Music.1 = {
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             - \tweak color #(x11-color 'blue)
               %! EXPLICIT_DYNAMIC
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             \<
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.repeat_tie_function()
+              %! baca.repeat_tie()
             \repeatTie
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -6037,14 +6037,14 @@ number.13.Guitar.Music.1 = {
             e2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.stem_tremolo_function()
+              %! baca.stem_tremolo()
             :32
             % SPANNER_STARTS:
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.repeat_tie_function()
+              %! baca.repeat_tie()
             \repeatTie
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -6052,14 +6052,14 @@ number.13.Guitar.Music.1 = {
             e2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.stem_tremolo_function()
+              %! baca.stem_tremolo()
             :32
             % SPANNER_STARTS:
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.repeat_tie_function()
+              %! baca.repeat_tie()
             \repeatTie
             % CLOSING:
             % COMMANDS:
@@ -6091,7 +6091,7 @@ number.13.Guitar.Music.1 = {
             e2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.stem_tremolo_function()
+              %! baca.stem_tremolo()
             :32
             % ARTICULATIONS:
               %! EXPLICIT_DYNAMIC_COLOR
@@ -6100,13 +6100,13 @@ number.13.Guitar.Music.1 = {
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             - \tweak color #(x11-color 'blue)
               %! EXPLICIT_DYNAMIC
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             \pp
             % MARKUP:
               %! FIGURE_LABEL
@@ -6116,27 +6116,27 @@ number.13.Guitar.Music.1 = {
             % SPANNER_STARTS:
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
-              %! baca.text_spanner_function()
+              %! baca.text_spanner()
             - \tweak bound-details.right.padding 0.5
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
-              %! baca.text_spanner_function()
+              %! baca.text_spanner()
             - \tweak bound-details.right.stencil-align-dir-y #center
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
-              %! baca.text_spanner_function()
+              %! baca.text_spanner()
             - \abjad-dashed-line-with-arrow
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
-              %! baca.text_spanner_function()
+              %! baca.text_spanner()
             - \baca-text-spanner-left-text "gradually slow rasgueado"
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
-              %! baca.text_spanner_function()
+              %! baca.text_spanner()
             - \baca-text-spanner-right-text "still"
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
-              %! baca.text_spanner_function()
+              %! baca.text_spanner()
             \startTextSpan
               %! EXPLICIT_DYNAMIC_COLOR
               %! baca.treat_persistent_wrapper()
@@ -6144,19 +6144,19 @@ number.13.Guitar.Music.1 = {
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             - \tweak color #(x11-color 'blue)
               %! EXPLICIT_DYNAMIC
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             \>
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.repeat_tie_function()
+              %! baca.repeat_tie()
             \repeatTie
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -6164,14 +6164,14 @@ number.13.Guitar.Music.1 = {
             e2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.stem_tremolo_function()
+              %! baca.stem_tremolo()
             :32
             % SPANNER_STARTS:
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.repeat_tie_function()
+              %! baca.repeat_tie()
             \repeatTie
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -6179,14 +6179,14 @@ number.13.Guitar.Music.1 = {
             e2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.stem_tremolo_function()
+              %! baca.stem_tremolo()
             :32
             % SPANNER_STARTS:
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.repeat_tie_function()
+              %! baca.repeat_tie()
             \repeatTie
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -6194,14 +6194,14 @@ number.13.Guitar.Music.1 = {
             e2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.stem_tremolo_function()
+              %! baca.stem_tremolo()
             :32
             % SPANNER_STARTS:
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.repeat_tie_function()
+              %! baca.repeat_tie()
             \repeatTie
             % CLOSING:
             % COMMANDS:
@@ -6233,7 +6233,7 @@ number.13.Guitar.Music.1 = {
             e2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.stem_tremolo_function()
+              %! baca.stem_tremolo()
             :32
             % ARTICULATIONS:
               %! EXPLICIT_DYNAMIC_COLOR
@@ -6242,13 +6242,13 @@ number.13.Guitar.Music.1 = {
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             - \tweak color #(x11-color 'blue)
               %! EXPLICIT_DYNAMIC
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             \pppp
             % MARKUP:
               %! FIGURE_LABEL
@@ -6262,19 +6262,19 @@ number.13.Guitar.Music.1 = {
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             - \tweak color #(x11-color 'blue)
               %! EXPLICIT_DYNAMIC
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             \<
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.repeat_tie_function()
+              %! baca.repeat_tie()
             \repeatTie
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -6282,14 +6282,14 @@ number.13.Guitar.Music.1 = {
             e2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.stem_tremolo_function()
+              %! baca.stem_tremolo()
             :32
             % SPANNER_STARTS:
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.repeat_tie_function()
+              %! baca.repeat_tie()
             \repeatTie
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -6297,14 +6297,14 @@ number.13.Guitar.Music.1 = {
             e2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.stem_tremolo_function()
+              %! baca.stem_tremolo()
             :32
             % SPANNER_STARTS:
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.repeat_tie_function()
+              %! baca.repeat_tie()
             \repeatTie
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -6312,14 +6312,14 @@ number.13.Guitar.Music.1 = {
             e2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.stem_tremolo_function()
+              %! baca.stem_tremolo()
             :32
             % SPANNER_STARTS:
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.repeat_tie_function()
+              %! baca.repeat_tie()
             \repeatTie
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -6327,14 +6327,14 @@ number.13.Guitar.Music.1 = {
             e2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.stem_tremolo_function()
+              %! baca.stem_tremolo()
             :32
             % SPANNER_STARTS:
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.repeat_tie_function()
+              %! baca.repeat_tie()
             \repeatTie
             % CLOSING:
             % COMMANDS:
@@ -6365,7 +6365,7 @@ number.13.Guitar.Music.1 = {
             e2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.stem_tremolo_function()
+              %! baca.stem_tremolo()
             :32
             % ARTICULATIONS:
               %! EXPLICIT_DYNAMIC_COLOR
@@ -6374,13 +6374,13 @@ number.13.Guitar.Music.1 = {
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             - \tweak color #(x11-color 'blue)
               %! EXPLICIT_DYNAMIC
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             \ppp
             % MARKUP:
               %! FIGURE_LABEL
@@ -6394,19 +6394,19 @@ number.13.Guitar.Music.1 = {
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             - \tweak color #(x11-color 'blue)
               %! EXPLICIT_DYNAMIC
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             \>
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.repeat_tie_function()
+              %! baca.repeat_tie()
             \repeatTie
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -6414,14 +6414,14 @@ number.13.Guitar.Music.1 = {
             e2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.stem_tremolo_function()
+              %! baca.stem_tremolo()
             :32
             % SPANNER_STARTS:
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.repeat_tie_function()
+              %! baca.repeat_tie()
             \repeatTie
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -6429,14 +6429,14 @@ number.13.Guitar.Music.1 = {
             e2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.stem_tremolo_function()
+              %! baca.stem_tremolo()
             :32
             % SPANNER_STARTS:
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.repeat_tie_function()
+              %! baca.repeat_tie()
             \repeatTie
             % CLOSING:
             % COMMANDS:
@@ -6468,7 +6468,7 @@ number.13.Guitar.Music.1 = {
             e2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.stem_tremolo_function()
+              %! baca.stem_tremolo()
             :32
             % ARTICULATIONS:
               %! EXPLICIT_DYNAMIC_COLOR
@@ -6477,13 +6477,13 @@ number.13.Guitar.Music.1 = {
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             - \tweak color #(x11-color 'blue)
               %! EXPLICIT_DYNAMIC
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             \ppppp
             % MARKUP:
               %! FIGURE_LABEL
@@ -6497,19 +6497,19 @@ number.13.Guitar.Music.1 = {
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             - \tweak color #(x11-color 'blue)
               %! EXPLICIT_DYNAMIC
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             \<
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.repeat_tie_function()
+              %! baca.repeat_tie()
             \repeatTie
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -6517,14 +6517,14 @@ number.13.Guitar.Music.1 = {
             e2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.stem_tremolo_function()
+              %! baca.stem_tremolo()
             :32
             % SPANNER_STARTS:
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-              %! baca.repeat_tie_function()
+              %! baca.repeat_tie()
             \repeatTie
             % CLOSING:
             % COMMANDS:
@@ -6556,7 +6556,7 @@ number.13.Guitar.Music.1 = {
             e2
             % AFTER:
             % STEM_TREMOLOS:
-              %! baca.stem_tremolo_function()
+              %! baca.stem_tremolo()
             :32
             % ARTICULATIONS:
               %! EXPLICIT_DYNAMIC_COLOR
@@ -6565,13 +6565,13 @@ number.13.Guitar.Music.1 = {
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             - \tweak color #(x11-color 'blue)
               %! EXPLICIT_DYNAMIC
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             \pppp
             % MARKUP:
               %! FIGURE_LABEL
@@ -6585,27 +6585,27 @@ number.13.Guitar.Music.1 = {
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             - \tweak color #(x11-color 'blue)
               %! EXPLICIT_DYNAMIC
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             - \tweak to-barline ##t
               %! EXPLICIT_DYNAMIC
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             - \tweak circled-tip ##t
               %! EXPLICIT_DYNAMIC
               %! SPANNER_START
               %! baca.PiecewiseCommand._call(2)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             \>
-              %! baca.repeat_tie_function()
+              %! baca.repeat_tie()
             \repeatTie
             % CLOSING:
             % COMMANDS:
@@ -6635,7 +6635,7 @@ number.13.Guitar.Music.1 = {
             % [Guitar.Music.1 measure 46]
             % BEFORE:
             % COMMANDS:
-              %! baca.text_script_staff_padding_function(1)
+              %! baca.text_script_staff_padding(1)
             \once \override TextScript.staff-padding = 5.5
             r8
             % AFTER:
@@ -6646,13 +6646,13 @@ number.13.Guitar.Music.1 = {
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(3)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             - \tweak color #(x11-color 'blue)
               %! EXPLICIT_DYNAMIC
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(3)
               %! baca._set_status_tag()
-              %! baca.hairpin_function()
+              %! baca.hairpin()
             \!
             % MARKUP:
               %! FIGURE_LABEL
@@ -6662,7 +6662,7 @@ number.13.Guitar.Music.1 = {
             % SPANNER_STOPS:
               %! SPANNER_STOP
               %! baca.PiecewiseCommand._call(3)
-              %! baca.text_spanner_function()
+              %! baca.text_spanner()
             \stopTextSpan
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -6682,9 +6682,9 @@ number.13.Guitar.Music.1 = {
             r8
             % AFTER:
             % COMMANDS:
-              %! baca.text_script_staff_padding_function(2)
+              %! baca.text_script_staff_padding(2)
             \revert TextScript.staff-padding
-              %! baca.text_spanner_staff_padding_function(2)
+              %! baca.text_spanner_staff_padding(2)
             \revert TextSpanner.staff-padding
             % CLOSING:
             % COMMANDS:

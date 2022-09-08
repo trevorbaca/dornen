@@ -31,19 +31,19 @@ number.1.Skips = {
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark_function()
+      %! baca.metronome_mark()
     %@% - \abjad-invisible-line
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark_function()
+      %! baca.metronome_mark()
     %@% - \baca-metronome-mark-spanner-left-text 3 0 1 "44"
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.metronome_mark_function()
+      %! baca.metronome_mark()
     %@% \bacaStartTextSpanMM
       %! CLOCK_TIME
       %! baca._label_clock_time()
@@ -1104,22 +1104,22 @@ number.1.Guitar.Music.1 = {
             % [Guitar.Music.1 measure 1]
             % BEFORE:
             % COMMANDS:
-              %! baca.beam_positions_function(1)
+              %! baca.beam_positions(1)
             \once \override Beam.positions = #'(6 . 6)
               %! MEASURE_1
               %! SHIFTED_CLEF
-              %! baca.clef_x_extent_false_function(1)
+              %! baca.clef_x_extent_false(1)
         %%% \once \override Staff.Clef.X-extent = ##f
               %! MEASURE_1
               %! SHIFTED_CLEF
-              %! baca.clef_extra_offset_function(1)
+              %! baca.clef_extra_offset(1)
         %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
             % OPENING:
             % COMMANDS:
               %! EXPLICIT_CLEF
               %! baca._attach_persistent_indicator()
               %! baca._set_status_tag()
-              %! baca.clef_function()
+              %! baca.clef()
             \clef "treble"
               %! EXPLICIT_CLEF_COLOR
               %! baca._attach_color_literal(2)
@@ -1130,7 +1130,7 @@ number.1.Guitar.Music.1 = {
               %! EXPLICIT_CLEF
               %! baca._attach_persistent_indicator()
               %! baca._set_status_tag()
-              %! baca.clef_function()
+              %! baca.clef()
               %! baca.treat_persistent_wrapper(2)
             \set Staff.forceClef = ##t
             e'8.
@@ -1279,7 +1279,7 @@ number.1.Guitar.Music.1 = {
             % [Guitar.Music.1 measure 7]
             % BEFORE:
             % COMMANDS:
-              %! baca.beam_positions_function(1)
+              %! baca.beam_positions(1)
             \override Beam.positions = #'(9 . 9)
             g'8.
             % AFTER:
@@ -1301,7 +1301,7 @@ number.1.Guitar.Music.1 = {
             b8.
             % AFTER:
             % COMMANDS:
-              %! baca.beam_positions_function(2)
+              %! baca.beam_positions(2)
             \revert Beam.positions
             % CLOSING:
             % COMMANDS:
@@ -1396,7 +1396,7 @@ number.1.Guitar.Music.1 = {
             % [Guitar.Music.1 measure 12]
             % BEFORE:
             % COMMANDS:
-              %! baca.beam_positions_function(1)
+              %! baca.beam_positions(1)
             \override Beam.positions = #'(6 . 6)
             fs!8.
             % AFTER:
@@ -1418,7 +1418,7 @@ number.1.Guitar.Music.1 = {
             bf!8.
             % AFTER:
             % COMMANDS:
-              %! baca.beam_positions_function(2)
+              %! baca.beam_positions(2)
             \revert Beam.positions
             % CLOSING:
             % COMMANDS:
@@ -1569,9 +1569,9 @@ number.1.Guitar.Music.2 = {
             % COMMANDS:
 
             % COMMANDS:
-              %! baca.beam_positions_function(1)
+              %! baca.beam_positions(1)
             \once \override Beam.positions = #'(-10 . -10)
-              %! baca.time_signature_extra_offset_function(1)
+              %! baca.time_signature_extra_offset(1)
             \once \override Score.TimeSignature.extra-offset = #'(-2.5 . 0)
             c''32
             % AFTER:
@@ -1655,7 +1655,7 @@ number.1.Guitar.Music.2 = {
             % COMMANDS:
 
             % COMMANDS:
-              %! baca.time_signature_extra_offset_function(1)
+              %! baca.time_signature_extra_offset(1)
             \once \override Score.TimeSignature.extra-offset = #'(-2.5 . 0)
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 1
@@ -1733,7 +1733,7 @@ number.1.Guitar.Music.2 = {
             % COMMANDS:
 
             % COMMANDS:
-              %! baca.time_signature_extra_offset_function(1)
+              %! baca.time_signature_extra_offset(1)
             \once \override Score.TimeSignature.extra-offset = #'(-2.5 . 0)
             e''32
             % AFTER:
@@ -1813,9 +1813,9 @@ number.1.Guitar.Music.2 = {
             % COMMANDS:
 
             % COMMANDS:
-              %! baca.beam_positions_function(1)
+              %! baca.beam_positions(1)
             \once \override Beam.positions = #'(-10 . -10)
-              %! baca.time_signature_extra_offset_function(1)
+              %! baca.time_signature_extra_offset(1)
             \once \override Score.TimeSignature.extra-offset = #'(-2.5 . 0)
             fs''!32
             % AFTER:
@@ -1911,7 +1911,7 @@ number.1.Guitar.Music.2 = {
             % COMMANDS:
 
             % COMMANDS:
-              %! baca.time_signature_extra_offset_function(1)
+              %! baca.time_signature_extra_offset(1)
             \once \override Score.TimeSignature.extra-offset = #'(-2.5 . 0)
             e''32
             % AFTER:
@@ -2007,9 +2007,9 @@ number.1.Guitar.Music.2 = {
             % COMMANDS:
 
             % COMMANDS:
-              %! baca.beam_positions_function(1)
+              %! baca.beam_positions(1)
             \once \override Beam.positions = #'(-10 . -10)
-              %! baca.time_signature_extra_offset_function(1)
+              %! baca.time_signature_extra_offset(1)
             \once \override Score.TimeSignature.extra-offset = #'(-2.5 . 0)
             fs''!32
             % AFTER:
@@ -2079,7 +2079,7 @@ number.1.Guitar.Music.2 = {
             % COMMANDS:
 
             % COMMANDS:
-              %! baca.time_signature_extra_offset_function(1)
+              %! baca.time_signature_extra_offset(1)
             \once \override Score.TimeSignature.extra-offset = #'(-2.5 . 0)
             g''32
             % AFTER:
@@ -2175,7 +2175,7 @@ number.1.Guitar.Music.3 = {
             % [Guitar.Music.3 measure 18]
             % BEFORE:
             % COMMANDS:
-              %! baca.beam_positions_function(1)
+              %! baca.beam_positions(1)
             \override Beam.positions = #'(-6 . -6)
             % GROB_OVERRIDES:
             \once \override Beam.grow-direction = #left
@@ -2250,7 +2250,7 @@ number.1.Guitar.Music.3 = {
               %! rmakers.beam()
             ]
             % COMMANDS:
-              %! baca.beam_positions_function(2)
+              %! baca.beam_positions(2)
             \revert Beam.positions
             % CLOSING:
             % COMMANDS:
@@ -2321,7 +2321,7 @@ number.1.Guitar.Music.3 = {
             % [Guitar.Music.3 measure 19]
             % BEFORE:
             % COMMANDS:
-              %! baca.beam_positions_function(1)
+              %! baca.beam_positions(1)
             \override Beam.positions = #'(-6 . -6)
             % GROB_OVERRIDES:
             \once \override Beam.grow-direction = #left
@@ -2441,7 +2441,7 @@ number.1.Guitar.Music.3 = {
               %! rmakers.beam()
             ]
             % COMMANDS:
-              %! baca.beam_positions_function(2)
+              %! baca.beam_positions(2)
             \revert Beam.positions
             % CLOSING:
             % COMMANDS:
@@ -2509,7 +2509,7 @@ number.1.Guitar.Music.4 = {
             % SPANNER_STARTS:
               %! SPANNER_START
               %! baca._do_spanner_indicator_command(1)
-              %! baca.slur_function()
+              %! baca.slur()
             (
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2545,7 +2545,7 @@ number.1.Guitar.Music.4 = {
             % SPANNER_STOPS:
               %! SPANNER_STOP
               %! baca._do_spanner_indicator_command(2)
-              %! baca.slur_function()
+              %! baca.slur()
             )
             % CLOSING:
             % COMMANDS:
@@ -2573,7 +2573,7 @@ number.1.Guitar.Music.4 = {
             % SPANNER_STARTS:
               %! SPANNER_START
               %! baca._do_spanner_indicator_command(1)
-              %! baca.slur_function()
+              %! baca.slur()
             (
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2609,7 +2609,7 @@ number.1.Guitar.Music.4 = {
             % SPANNER_STOPS:
               %! SPANNER_STOP
               %! baca._do_spanner_indicator_command(2)
-              %! baca.slur_function()
+              %! baca.slur()
             )
             % STOP_BEAM:
               %! rmakers.beam_groups()
@@ -2665,7 +2665,7 @@ number.1.Guitar.Music.4 = {
             % SPANNER_STARTS:
               %! SPANNER_START
               %! baca._do_spanner_indicator_command(1)
-              %! baca.slur_function()
+              %! baca.slur()
             (
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2691,7 +2691,7 @@ number.1.Guitar.Music.4 = {
             % SPANNER_STOPS:
               %! SPANNER_STOP
               %! baca._do_spanner_indicator_command(2)
-              %! baca.slur_function()
+              %! baca.slur()
             )
             % CLOSING:
             % COMMANDS:
@@ -2719,7 +2719,7 @@ number.1.Guitar.Music.4 = {
             % SPANNER_STARTS:
               %! SPANNER_START
               %! baca._do_spanner_indicator_command(1)
-              %! baca.slur_function()
+              %! baca.slur()
             (
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2875,7 +2875,7 @@ number.1.Guitar.Music.4 = {
             % SPANNER_STOPS:
               %! SPANNER_STOP
               %! baca._do_spanner_indicator_command(2)
-              %! baca.slur_function()
+              %! baca.slur()
             )
             % STOP_BEAM:
               %! rmakers.beam_groups()
@@ -2932,7 +2932,7 @@ number.1.Guitar.Music.4 = {
             % SPANNER_STARTS:
               %! SPANNER_START
               %! baca._do_spanner_indicator_command(1)
-              %! baca.slur_function()
+              %! baca.slur()
             (
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -2998,7 +2998,7 @@ number.1.Guitar.Music.4 = {
             % SPANNER_STOPS:
               %! SPANNER_STOP
               %! baca._do_spanner_indicator_command(2)
-              %! baca.slur_function()
+              %! baca.slur()
             )
             % CLOSING:
             % COMMANDS:
@@ -3026,7 +3026,7 @@ number.1.Guitar.Music.4 = {
             % SPANNER_STARTS:
               %! SPANNER_START
               %! baca._do_spanner_indicator_command(1)
-              %! baca.slur_function()
+              %! baca.slur()
             (
             % ABSOLUTE_BEFORE:
             % COMMANDS:
@@ -3062,7 +3062,7 @@ number.1.Guitar.Music.4 = {
             % SPANNER_STOPS:
               %! SPANNER_STOP
               %! baca._do_spanner_indicator_command(2)
-              %! baca.slur_function()
+              %! baca.slur()
             )
             % STOP_BEAM:
               %! rmakers.beam_groups()

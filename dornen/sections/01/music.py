@@ -15,10 +15,10 @@ def make_empty_score():
     assert len(design) == 22
     cursor = baca.Cursor(design)
 
-    tuplets, tsd = library.dotted_eighths_function(cursor.next())
-    baca.beam_positions_function(tuplets, 6)
-    baca.register_function(tuplets, -8)
-    baca.extend_beam_function(abjad.select.leaf(tuplets, -1))
+    tuplets, tsd = library.dotted_eighths(cursor.next())
+    baca.beam_positions(tuplets, 6)
+    baca.register(tuplets, -8)
+    baca.extend_beam(abjad.select.leaf(tuplets, -1))
     baca.make_figures(
         figures,
         "v1",
@@ -28,11 +28,11 @@ def make_empty_score():
         tuplets=tuplets,
     )
 
-    tuplets, tsd = library.passepied_function(cursor.next())
-    baca.beam_positions_function(baca.select.leaves(tuplets, grace=False), -10)
-    baca.time_signature_extra_offset_function(baca.select.hleaf(tuplets, 0), (-2.5, 0))
-    baca.register_function(tuplets, -10)
-    baca.extend_beam_function(abjad.select.leaf(tuplets, -1))
+    tuplets, tsd = library.passepied(cursor.next())
+    baca.beam_positions(baca.select.leaves(tuplets, grace=False), -10)
+    baca.time_signature_extra_offset(baca.select.hleaf(tuplets, 0), (-2.5, 0))
+    baca.register(tuplets, -10)
+    baca.extend_beam(abjad.select.leaf(tuplets, -1))
     baca.make_figures(
         figures,
         "v2",
@@ -42,9 +42,9 @@ def make_empty_score():
         tuplets=tuplets,
     )
 
-    tuplets, tsd = library.dotted_eighths_function(cursor.next())
-    baca.register_function(tuplets, -10),
-    baca.extend_beam_function(abjad.select.leaf(tuplets, -1))
+    tuplets, tsd = library.dotted_eighths(cursor.next())
+    baca.register(tuplets, -10),
+    baca.extend_beam(abjad.select.leaf(tuplets, -1))
     baca.make_figures(
         figures,
         "v1",
@@ -54,10 +54,10 @@ def make_empty_score():
         tuplets=tuplets,
     )
 
-    tuplets, tsd = library.passepied_function(cursor.next())
-    baca.time_signature_extra_offset_function(baca.select.hleaf(tuplets, 0), (-2.5, 0))
-    baca.register_function(tuplets, -8),
-    baca.extend_beam_function(abjad.select.leaf(tuplets, -1))
+    tuplets, tsd = library.passepied(cursor.next())
+    baca.time_signature_extra_offset(baca.select.hleaf(tuplets, 0), (-2.5, 0))
+    baca.register(tuplets, -8),
+    baca.extend_beam(abjad.select.leaf(tuplets, -1))
     baca.make_figures(
         figures,
         "v2",
@@ -67,8 +67,8 @@ def make_empty_score():
         tuplets=tuplets,
     )
 
-    tuplets, tsd = library.dotted_eighths_function(cursor.next())
-    baca.register_function(tuplets, -12)
+    tuplets, tsd = library.dotted_eighths(cursor.next())
+    baca.register(tuplets, -12)
     baca.make_figures(
         figures,
         "v1",
@@ -78,9 +78,9 @@ def make_empty_score():
         tuplets=tuplets,
     )
 
-    tuplets, tsd = library.passepied_function(cursor.next())
-    baca.time_signature_extra_offset_function(baca.select.hleaf(tuplets, 0), (-2.5, 0))
-    baca.register_function(tuplets, -6)
+    tuplets, tsd = library.passepied(cursor.next())
+    baca.time_signature_extra_offset(baca.select.hleaf(tuplets, 0), (-2.5, 0))
+    baca.register(tuplets, -6)
     baca.make_figures(
         figures,
         "v2",
@@ -90,10 +90,10 @@ def make_empty_score():
         tuplets=tuplets,
     )
 
-    tuplets, tsd = library.dotted_eighths_function(cursor.next())
-    baca.beam_positions_function(baca.select.leaves(tuplets, grace=False), 9)
-    baca.register_function(tuplets, -14)
-    baca.extend_beam_function(abjad.select.leaf(tuplets, -1))
+    tuplets, tsd = library.dotted_eighths(cursor.next())
+    baca.beam_positions(baca.select.leaves(tuplets, grace=False), 9)
+    baca.register(tuplets, -14)
+    baca.extend_beam(abjad.select.leaf(tuplets, -1))
     baca.make_figures(
         figures,
         "v1",
@@ -103,11 +103,11 @@ def make_empty_score():
         tuplets=tuplets,
     )
 
-    tuplets, tsd = library.passepied_function(cursor.next())
-    baca.beam_positions_function(baca.select.leaves(tuplets, grace=False), -10)
-    baca.time_signature_extra_offset_function(baca.select.hleaf(tuplets, 0), (-2.5, 0))
-    baca.register_function(tuplets, -4)
-    baca.extend_beam_function(abjad.select.leaf(tuplets, -1))
+    tuplets, tsd = library.passepied(cursor.next())
+    baca.beam_positions(baca.select.leaves(tuplets, grace=False), -10)
+    baca.time_signature_extra_offset(baca.select.hleaf(tuplets, 0), (-2.5, 0))
+    baca.register(tuplets, -4)
+    baca.extend_beam(abjad.select.leaf(tuplets, -1))
     baca.make_figures(
         figures,
         "v2",
@@ -117,8 +117,8 @@ def make_empty_score():
         tuplets=tuplets,
     )
 
-    tuplets, tsd = library.running_function(cursor.next(2))
-    baca.register_function(tuplets, -12)
+    tuplets, tsd = library.running(cursor.next(2))
+    baca.register(tuplets, -12)
     baca.make_figures(
         figures,
         "v4",
@@ -128,8 +128,8 @@ def make_empty_score():
         tuplets=tuplets,
     )
 
-    tuplets, tsd = library.dotted_eighths_function(cursor.next())
-    baca.register_function(tuplets, -16)
+    tuplets, tsd = library.dotted_eighths(cursor.next())
+    baca.register(tuplets, -16)
     baca.make_figures(
         figures,
         "v1",
@@ -139,8 +139,8 @@ def make_empty_score():
         tuplets=tuplets,
     )
 
-    tuplets, tsd = library.running_function(cursor.next(2))
-    baca.register_function(tuplets, -6)
+    tuplets, tsd = library.running(cursor.next(2))
+    baca.register(tuplets, -6)
     baca.make_figures(
         figures,
         "v4",
@@ -150,10 +150,10 @@ def make_empty_score():
         tuplets=tuplets,
     )
 
-    tuplets, tsd = library.dotted_eighths_function(cursor.next())
-    baca.beam_positions_function(baca.select.leaves(tuplets, grace=False), 6)
-    baca.register_function(tuplets, -18)
-    baca.extend_beam_function(abjad.select.leaf(tuplets, -1))
+    tuplets, tsd = library.dotted_eighths(cursor.next())
+    baca.beam_positions(baca.select.leaves(tuplets, grace=False), 6)
+    baca.register(tuplets, -18)
+    baca.extend_beam(abjad.select.leaf(tuplets, -1))
     baca.make_figures(
         figures,
         "v1",
@@ -163,9 +163,9 @@ def make_empty_score():
         tuplets=tuplets,
     )
 
-    tuplets, tsd = library.passepied_function(cursor.next())
-    baca.time_signature_extra_offset_function(baca.select.hleaf(tuplets, 0), (-2.5, 0))
-    baca.register_function(tuplets, -2)
+    tuplets, tsd = library.passepied(cursor.next())
+    baca.time_signature_extra_offset(baca.select.hleaf(tuplets, 0), (-2.5, 0))
+    baca.register(tuplets, -2)
     baca.make_figures(
         figures,
         "v2",
@@ -175,8 +175,8 @@ def make_empty_score():
         tuplets=tuplets,
     )
 
-    tuplets, tsd = library.dotted_eighths_function(cursor.next())
-    baca.register_function(tuplets, -20)
+    tuplets, tsd = library.dotted_eighths(cursor.next())
+    baca.register(tuplets, -20)
     baca.make_figures(
         figures,
         "v1",
@@ -186,11 +186,11 @@ def make_empty_score():
         tuplets=tuplets,
     )
 
-    tuplets, tsd = library.passepied_function(cursor.next())
-    baca.beam_positions_function(baca.select.leaves(tuplets, grace=False), -10)
-    baca.time_signature_extra_offset_function(baca.select.hleaf(tuplets, 0), (-2.5, 0))
-    baca.register_function(tuplets, 0)
-    baca.extend_beam_function(abjad.select.leaf(tuplets, -1))
+    tuplets, tsd = library.passepied(cursor.next())
+    baca.beam_positions(baca.select.leaves(tuplets, grace=False), -10)
+    baca.time_signature_extra_offset(baca.select.hleaf(tuplets, 0), (-2.5, 0))
+    baca.register(tuplets, 0)
+    baca.extend_beam(abjad.select.leaf(tuplets, -1))
     baca.make_figures(
         figures,
         "v2",
@@ -200,9 +200,9 @@ def make_empty_score():
         tuplets=tuplets,
     )
 
-    tuplets, tsd = library.passepied_function(cursor.next())
-    baca.time_signature_extra_offset_function(baca.select.hleaf(tuplets, 0), (-2.5, 0))
-    baca.register_function(tuplets, 2)
+    tuplets, tsd = library.passepied(cursor.next())
+    baca.time_signature_extra_offset(baca.select.hleaf(tuplets, 0), (-2.5, 0))
+    baca.register(tuplets, 2)
     baca.make_figures(
         figures,
         "v2",
@@ -212,8 +212,8 @@ def make_empty_score():
         tuplets=tuplets,
     )
 
-    tuplets, tsd = library.running_function(cursor.next(2))
-    baca.register_function(tuplets, -12, 0)
+    tuplets, tsd = library.running(cursor.next(2))
+    baca.register(tuplets, -12, 0)
     baca.make_figures(
         figures,
         "v4",
@@ -223,8 +223,8 @@ def make_empty_score():
         tuplets=tuplets,
     )
 
-    tuplets, tsd = library.waves_function(cursor.next(), denominator=64, inverted=True)
-    baca.beam_positions_function(baca.select.leaves(tuplets, grace=False), -6)
+    tuplets, tsd = library.waves(cursor.next(), denominator=64, inverted=True)
+    baca.beam_positions(baca.select.leaves(tuplets, grace=False), -6)
     baca.make_figures(
         figures,
         "v3",
@@ -234,8 +234,8 @@ def make_empty_score():
         tuplets=tuplets,
     )
 
-    tuplets, tsd = library.waves_function(cursor.next(), denominator=64, inverted=True)
-    baca.beam_positions_function(baca.select.leaves(tuplets, grace=False), -6)
+    tuplets, tsd = library.waves(cursor.next(), denominator=64, inverted=True)
+    baca.beam_positions(baca.select.leaves(tuplets, grace=False), -6)
     baca.make_figures(
         figures,
         "v3",
@@ -265,17 +265,17 @@ def make_empty_score():
 
 
 def GLOBALS(skips):
-    baca.metronome_mark_function(
+    baca.metronome_mark(
         skips[1 - 1], library.metronome_marks["44"], library.manifests
     )
 
 
 def postprocess(cache):
     with baca.scope(cache["v1"][1]) as o:
-        baca.instrument_function(o.leaf(0), "Guitar", library.manifests)
-        baca.clef_function(o.leaf(0), "treble")
+        baca.instrument(o.leaf(0), "Guitar", library.manifests)
+        baca.clef(o.leaf(0), "treble")
     with baca.scope(cache["v3"][18, 19]) as o:
-        baca.register_function(o, 0, -12)
+        baca.register(o, 0, -12)
 
 
 def make_score():

@@ -214,7 +214,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         _voice_abbreviations=library.voice_abbreviations,
         _voice_names=voice_names,
     )
-    baca.interpret.set_up_score(
+    baca.section.set_up_score(
         score,
         accumulator.time_signatures,
         accumulator,
@@ -251,7 +251,7 @@ def main():
         library.manifests,
         accumulator.time_signatures,
         environment,
-        **baca.interpret.section_defaults(),
+        **baca.section.section_defaults(),
         activate=[baca.tags.LOCAL_MEASURE_NUMBER],
         always_make_global_rests=True,
         do_not_check_wellformedness=True,

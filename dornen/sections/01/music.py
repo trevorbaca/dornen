@@ -255,10 +255,10 @@ def make_empty_score():
         score,
         accumulator.time_signatures,
         accumulator,
-        library.manifests,
         append_anchor_skip=True,
         always_make_global_rests=True,
         first_section=True,
+        manifests=library.manifests,
     )
     figures.populate_commands(score, accumulator)
     return score, accumulator
@@ -293,18 +293,19 @@ def main():
     environment = baca.build.read_environment(__file__, baca.build.argv())
     timing = baca.build.Timing()
     score, accumulator = make_score(timing)
-    metadata, persist, timing = baca.build.postprocess_score(
+    metadata, persist = baca.section.postprocess_score(
         score,
-        library.manifests,
         accumulator.time_signatures,
-        environment,
         **baca.section.section_defaults(),
         activate=[baca.tags.LOCAL_MEASURE_NUMBER],
         always_make_global_rests=True,
         do_not_check_wellformedness=True,
         do_not_require_short_instrument_names=True,
+        environment=environment,
         error_on_not_yet_pitched=True,
         global_rests_in_topmost_staff=True,
+        manifests=library.manifests,
+        timing=timing,
         transpose_score=True,
     )
     lilypond_file = baca.lilypond.file(

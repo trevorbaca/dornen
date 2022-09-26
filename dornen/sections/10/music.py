@@ -271,10 +271,10 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         score,
         accumulator.time_signatures,
         accumulator,
-        library.manifests,
         append_anchor_skip=True,
         always_make_global_rests=True,
         first_measure_number=first_measure_number,
+        manifests=library.manifests,
         previous_persistent_indicators=previous_persistent_indicators,
     )
 
@@ -314,7 +314,7 @@ def make_score(first_measure_number, previous_persistent_indicators):
     score, accumulator = make_empty_score(
         first_measure_number, previous_persistent_indicators
     )
-    baca.reapply(
+    baca.section.reapply(
         accumulator.voices(),
         library.manifests,
         previous_persistent_indicators,
@@ -336,17 +336,18 @@ def main():
         environment.previous_persist["persistent_indicators"],
         timing,
     )
-    metadata, persist, timing = baca.build.postprocess_score(
+    metadata, persist = baca.section.postprocess_score(
         score,
-        library.manifests,
         accumulator.time_signatures,
-        environment,
         **baca.section.section_defaults(),
         activate=[baca.tags.LOCAL_MEASURE_NUMBER],
         always_make_global_rests=True,
         do_not_require_short_instrument_names=True,
+        environment=environment,
         error_on_not_yet_pitched=True,
         global_rests_in_topmost_staff=True,
+        manifests=library.manifests,
+        timing=timing,
         transpose_score=True,
     )
     lilypond_file = baca.lilypond.file(

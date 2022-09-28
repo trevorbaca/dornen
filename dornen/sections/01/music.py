@@ -276,7 +276,7 @@ def postprocess(cache):
         baca.register(o, 0, -12)
 
 
-@baca.build.timed
+@baca.build.timed("make_score")
 def make_score():
     score, accumulator = make_empty_score()
     GLOBALS(score["Skips"])

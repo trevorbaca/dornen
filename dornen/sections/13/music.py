@@ -9,12 +9,12 @@ from dornen import library
 
 def make_empty_score(first_measure_number, previous_persistent_indicators):
     score = library.make_empty_score()
-    figures = baca.FigureAccumulator(score, library.voice_abbreviations)
+    accumulator = baca.figures.Accumulator(score, library.voice_abbreviations)
 
     collections = [["E2"]]
     tuplets, tsd = library.monads(collections)
     baca.make_figures(
-        figures,
+        accumulator,
         "v1",
         None,
         figure_name="2_1",
@@ -25,7 +25,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     collections = [["E2"]]
     tuplets, tsd = library.monads(collections)
     baca.make_figures(
-        figures,
+        accumulator,
         "v1",
         None,
         figure_name="2_2",
@@ -36,7 +36,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     collections = [["E2"]]
     tuplets, tsd = library.thirds(collections)
     baca.make_figures(
-        figures,
+        accumulator,
         "v1",
         None,
         figure_name="2_3",
@@ -47,7 +47,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     collections = [["E2"]]
     tuplets, tsd = library.thirds(collections)
     baca.make_figures(
-        figures,
+        accumulator,
         "v1",
         None,
         figure_name="2_4",
@@ -58,7 +58,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     collections = [["E2"]]
     tuplets, tsd = library.thirds(collections)
     baca.make_figures(
-        figures,
+        accumulator,
         "v1",
         None,
         figure_name="2_5",
@@ -70,7 +70,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     tuplets, tsd = library.monads(collections)
     baca.markup(baca.select.pleaf(tuplets, 0), r"\dornen-three-fingers-markup")
     baca.make_figures(
-        figures,
+        accumulator,
         "v1",
         None,
         figure_name="3_1",
@@ -81,7 +81,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     collections = [["E2"]]
     tuplets, tsd = library.monads(collections)
     baca.make_figures(
-        figures,
+        accumulator,
         "v1",
         None,
         figure_name="3_2",
@@ -92,7 +92,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     collections = [["E2"]]
     tuplets, tsd = library.thirds(collections)
     baca.make_figures(
-        figures,
+        accumulator,
         "v1",
         None,
         figure_name="3_3",
@@ -103,7 +103,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     collections = [["E2"]]
     tuplets, tsd = library.thirds(collections)
     baca.make_figures(
-        figures,
+        accumulator,
         "v1",
         None,
         figure_name="3_4",
@@ -114,7 +114,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     collections = [["E2"]]
     tuplets, tsd = library.thirds(collections)
     baca.make_figures(
-        figures,
+        accumulator,
         "v1",
         None,
         figure_name="3_5",
@@ -126,7 +126,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     tuplets, tsd = library.monads(collections)
     baca.markup(baca.select.pleaf(tuplets, 0), r"\dornen-four-fingers-markup")
     baca.make_figures(
-        figures,
+        accumulator,
         "v1",
         None,
         figure_name="4_1",
@@ -137,7 +137,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     collections = [["E2"]]
     tuplets, tsd = library.monads(collections)
     baca.make_figures(
-        figures,
+        accumulator,
         "v1",
         None,
         figure_name="4_2",
@@ -148,7 +148,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     collections = [["E2"]]
     tuplets, tsd = library.thirds(collections)
     baca.make_figures(
-        figures,
+        accumulator,
         "v1",
         None,
         figure_name="4_3",
@@ -159,7 +159,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     collections = [["E2"]]
     tuplets, tsd = library.thirds(collections)
     baca.make_figures(
-        figures,
+        accumulator,
         "v1",
         None,
         figure_name="4_4",
@@ -170,7 +170,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     collections = [["E2"]]
     tuplets, tsd = library.thirds(collections)
     baca.make_figures(
-        figures,
+        accumulator,
         "v1",
         None,
         figure_name="4_5",
@@ -181,7 +181,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     collections = [["E2"]]
     tuplets, tsd = library.monads(collections)
     baca.make_figures(
-        figures,
+        accumulator,
         "v1",
         None,
         figure_name="4_6",
@@ -192,7 +192,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     collections = [2 * ["E2"]]
     tuplets, tsd = library.thirds(collections)
     baca.make_figures(
-        figures,
+        accumulator,
         "v1",
         None,
         figure_name="4_7",
@@ -203,7 +203,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     collections = [["E2"]]
     tuplets, tsd = library.monads(collections)
     baca.make_figures(
-        figures,
+        accumulator,
         "v1",
         None,
         figure_name="4_8",
@@ -214,7 +214,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     collections = [["E2"]]
     tuplets, tsd = library.monads(collections)
     baca.make_figures(
-        figures,
+        accumulator,
         "v1",
         None,
         figure_name="4_9",
@@ -225,7 +225,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     collections = [["E2"]]
     tuplets, tsd = library.monads(collections)
     baca.make_figures(
-        figures,
+        accumulator,
         "v1",
         None,
         figure_name="4_10",
@@ -236,7 +236,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     collections = [3 * ["E2"]]
     tuplets, tsd = library.thirds(collections)
     baca.make_figures(
-        figures,
+        accumulator,
         "v1",
         None,
         figure_name="4_11",
@@ -247,7 +247,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     collections = [["E2"]]
     tuplets, tsd = library.monads(collections)
     baca.make_figures(
-        figures,
+        accumulator,
         "v1",
         None,
         figure_name="4_12",
@@ -258,7 +258,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     collections = [["E2"]]
     tuplets, tsd = library.monads(collections)
     baca.make_figures(
-        figures,
+        accumulator,
         "v1",
         None,
         figure_name="4_13",
@@ -269,7 +269,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     collections = [["E2"]]
     tuplets, tsd = library.monads(collections)
     baca.make_figures(
-        figures,
+        accumulator,
         "v1",
         None,
         figure_name="4_14",
@@ -280,7 +280,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     collections = [4 * ["E2"]]
     tuplets, tsd = library.thirds(collections)
     baca.make_figures(
-        figures,
+        accumulator,
         "v1",
         None,
         figure_name="4_15",
@@ -291,7 +291,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     collections = [5 * ["E2"]]
     tuplets, tsd = library.thirds(collections)
     baca.make_figures(
-        figures,
+        accumulator,
         "v1",
         None,
         figure_name="4_16",
@@ -302,7 +302,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     collections = [4 * ["E2"]]
     tuplets, tsd = library.thirds(collections)
     baca.make_figures(
-        figures,
+        accumulator,
         "v1",
         None,
         figure_name="4_17",
@@ -313,7 +313,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     collections = [3 * ["E2"]]
     tuplets, tsd = library.thirds(collections)
     baca.make_figures(
-        figures,
+        accumulator,
         "v1",
         None,
         figure_name="4_18",
@@ -324,7 +324,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     collections = [2 * ["E2"]]
     tuplets, tsd = library.thirds(collections)
     baca.make_figures(
-        figures,
+        accumulator,
         "v1",
         None,
         figure_name="4_19",
@@ -335,7 +335,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     collections = [["E2"]]
     tuplets, tsd = library.thirds(collections)
     baca.make_figures(
-        figures,
+        accumulator,
         "v1",
         None,
         figure_name="4_20",
@@ -346,7 +346,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     collections = [2 * ["E2"]]
     tuplets, tsd = library.thirds(collections)
     baca.make_figures(
-        figures,
+        accumulator,
         "v1",
         None,
         figure_name="4_21",
@@ -357,7 +357,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     collections = [3 * ["E2"]]
     tuplets, tsd = library.thirds(collections)
     baca.make_figures(
-        figures,
+        accumulator,
         "v1",
         None,
         figure_name="4_22",
@@ -368,7 +368,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     collections = [4 * ["E2"]]
     tuplets, tsd = library.thirds(collections)
     baca.make_figures(
-        figures,
+        accumulator,
         "v1",
         None,
         figure_name="4_23",
@@ -379,7 +379,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     collections = [5 * ["E2"]]
     tuplets, tsd = library.thirds(collections)
     baca.make_figures(
-        figures,
+        accumulator,
         "v1",
         None,
         figure_name="4_24",
@@ -390,7 +390,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     collections = [4 * ["E2"]]
     tuplets, tsd = library.thirds(collections)
     baca.make_figures(
-        figures,
+        accumulator,
         "v1",
         None,
         figure_name="4_25",
@@ -401,7 +401,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     collections = [3 * ["E2"]]
     tuplets, tsd = library.thirds(collections)
     baca.make_figures(
-        figures,
+        accumulator,
         "v1",
         None,
         figure_name="4_26",
@@ -412,7 +412,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     collections = [2 * ["E2"]]
     tuplets, tsd = library.thirds(collections)
     baca.make_figures(
-        figures,
+        accumulator,
         "v1",
         None,
         figure_name="4_27",
@@ -423,7 +423,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     collections = [1 * ["E2"]]
     tuplets, tsd = library.thirds(collections)
     baca.make_figures(
-        figures,
+        accumulator,
         "v1",
         None,
         figure_name="4_28",
@@ -434,7 +434,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     collections = [2 * ["E2"]]
     tuplets, tsd = library.thirds(collections)
     baca.make_figures(
-        figures,
+        accumulator,
         "v1",
         None,
         figure_name="4_29",
@@ -445,7 +445,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     collections = [3 * ["E2"]]
     tuplets, tsd = library.thirds(collections)
     baca.make_figures(
-        figures,
+        accumulator,
         "v1",
         None,
         figure_name="4_30",
@@ -456,7 +456,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     collections = [4 * ["E2"]]
     tuplets, tsd = library.thirds(collections)
     baca.make_figures(
-        figures,
+        accumulator,
         "v1",
         None,
         figure_name="4_31",
@@ -467,7 +467,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     collections = [5 * ["E2"]]
     tuplets, tsd = library.thirds(collections)
     baca.make_figures(
-        figures,
+        accumulator,
         "v1",
         None,
         figure_name="4_32",
@@ -478,7 +478,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     collections = [3 * ["E2"]]
     tuplets, tsd = library.thirds(collections)
     baca.make_figures(
-        figures,
+        accumulator,
         "v1",
         None,
         figure_name="4_33",
@@ -489,7 +489,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     collections = [2 * ["E2"]]
     tuplets, tsd = library.thirds(collections)
     baca.make_figures(
-        figures,
+        accumulator,
         "v1",
         None,
         figure_name="4_34",
@@ -500,7 +500,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     collections = [1 * ["E2"]]
     tuplets, tsd = library.thirds(collections)
     baca.make_figures(
-        figures,
+        accumulator,
         "v1",
         None,
         figure_name="4_35",
@@ -510,7 +510,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
 
     tuplets, tsd = library.rests(5, (1, 8))
     baca.make_figures(
-        figures,
+        accumulator,
         "v1",
         None,
         figure_name="4_36",
@@ -519,8 +519,8 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     )
 
     voices = baca.section.cache_voices(score, library.voice_abbreviations)
-    time_signatures = figures.time_signatures
-    measures = baca.measures(time_signatures)
+    time_signatures = accumulator.time_signatures
+    measures = baca.section.measures(time_signatures)
     baca.section.set_up_score(
         score,
         measures(),
@@ -530,7 +530,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         manifests=library.manifests,
         previous_persistent_indicators=previous_persistent_indicators,
     )
-    figures.populate_commands(score)
+    accumulator.populate_commands(score)
     return score, voices, measures
 
 

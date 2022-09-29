@@ -10,7 +10,7 @@ from dornen import library
 
 def make_empty_score(first_measure_number, previous_persistent_indicators):
     score = library.make_empty_score()
-    figures = baca.FigureAccumulator(score, library.voice_abbreviations)
+    accumulator = baca.figures.Accumulator(score, library.voice_abbreviations)
     design = library.design_1(start=16, stop=38)
     assert len(design) == 22
 
@@ -18,7 +18,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     tuplets, tsd = library.waves(collections, denominator=64, inverted=True)
     baca.register(tuplets, 0, -14)
     baca.make_figures(
-        figures,
+        accumulator,
         "v1",
         None,
         figure_name="W1",
@@ -34,7 +34,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     baca.register(tuplets, 0)
     baca.extend_beam(abjad.select.leaf(tuplets, -1))
     baca.make_figures(
-        figures,
+        accumulator,
         "v4",
         None,
         figure_name="G1_1",
@@ -50,7 +50,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     leaf = abjad.select.leaf(tuplets, -1)
     baca.extend_beam(leaf)
     baca.make_figures(
-        figures,
+        accumulator,
         "v2",
         None,
         figure_name="O1",
@@ -66,7 +66,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     leaf = abjad.select.leaf(tuplets, -1)
     baca.extend_beam(leaf)
     baca.make_figures(
-        figures,
+        accumulator,
         "v4",
         None,
         figure_name="G1_1*",
@@ -79,7 +79,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     baca.beam_positions(tuplets, 7)
     baca.register(tuplets, 0, -14)
     baca.make_figures(
-        figures,
+        accumulator,
         "v1",
         None,
         figure_name="W2",
@@ -95,7 +95,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     leaf = abjad.select.leaf(tuplets, -1)
     baca.extend_beam(leaf)
     baca.make_figures(
-        figures,
+        accumulator,
         "v4",
         None,
         figure_name="G1_2",
@@ -108,7 +108,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     baca.text_script_color(tuplets, "#red")
     baca.register(tuplets, -14, -6)
     baca.make_figures(
-        figures,
+        accumulator,
         "v2",
         None,
         figure_name="O2",
@@ -122,7 +122,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     baca.stem_up(pleaves)
     baca.register(tuplets, 0)
     baca.make_figures(
-        figures,
+        accumulator,
         "v4",
         None,
         figure_name="G1_3",
@@ -141,7 +141,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     leaf = abjad.select.leaf(tuplets, -1)
     baca.extend_beam(leaf)
     baca.make_figures(
-        figures,
+        accumulator,
         "v1",
         None,
         figure_name="D1_1",
@@ -158,7 +158,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     leaf = abjad.select.leaf(tuplets, -1)
     baca.extend_beam(leaf)
     baca.make_figures(
-        figures,
+        accumulator,
         "v4",
         None,
         figure_name="G1_4",
@@ -174,7 +174,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     leaf = abjad.select.leaf(tuplets, -1)
     baca.extend_beam(leaf)
     baca.make_figures(
-        figures,
+        accumulator,
         "v1",
         None,
         figure_name="D1_2",
@@ -190,7 +190,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     leaf = abjad.select.leaf(tuplets, -1)
     baca.extend_beam(leaf)
     baca.make_figures(
-        figures,
+        accumulator,
         "v4",
         None,
         figure_name="G1_5",
@@ -204,7 +204,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     pleaves = baca.select.pleaves(tuplets)
     baca.stem_down(tuplets)
     baca.make_figures(
-        figures,
+        accumulator,
         "v1",
         None,
         figure_name="D1_3",
@@ -220,7 +220,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     leaf = abjad.select.leaf(tuplets, -1)
     baca.extend_beam(leaf)
     baca.make_figures(
-        figures,
+        accumulator,
         "v2",
         None,
         figure_name="O1*",
@@ -236,7 +236,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     leaf = abjad.select.leaf(tuplets, -1)
     baca.extend_beam(leaf)
     baca.make_figures(
-        figures,
+        accumulator,
         "v4",
         None,
         figure_name="G1_6",
@@ -253,7 +253,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     baca.stem_up(pleaves)
     baca.register(tuplets, 0, -14)
     baca.make_figures(
-        figures,
+        accumulator,
         "v1",
         None,
         figure_name="W2*",
@@ -269,7 +269,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     leaf = abjad.select.leaf(tuplets, -1)
     baca.extend_beam(leaf)
     baca.make_figures(
-        figures,
+        accumulator,
         "v1",
         None,
         figure_name="D1_4",
@@ -286,7 +286,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     leaf = abjad.select.leaf(tuplets, -1)
     baca.extend_beam(leaf)
     baca.make_figures(
-        figures,
+        accumulator,
         "v4",
         None,
         figure_name="G1_7",
@@ -300,7 +300,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     pleaves = baca.select.pleaves(tuplets)
     baca.stem_down(pleaves)
     baca.make_figures(
-        figures,
+        accumulator,
         "v1",
         None,
         figure_name="D1_5",
@@ -313,7 +313,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     baca.text_script_color(tuplets, "#red")
     baca.register(tuplets, -14, -6)
     baca.make_figures(
-        figures,
+        accumulator,
         "v2",
         None,
         figure_name="O2*",
@@ -330,7 +330,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     baca.stem_up(pleaves)
     baca.register(tuplets, 0, -14)
     baca.make_figures(
-        figures,
+        accumulator,
         "v4",
         None,
         figure_name="G1_8",
@@ -346,7 +346,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     leaf = abjad.select.leaf(tuplets, -1)
     baca.extend_beam(leaf)
     baca.make_figures(
-        figures,
+        accumulator,
         "v2",
         None,
         figure_name="O1**",
@@ -360,7 +360,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     pleaves = baca.select.pleaves(tuplets)
     baca.stem_down(pleaves)
     baca.make_figures(
-        figures,
+        accumulator,
         "v1",
         None,
         figure_name="D1_6",
@@ -376,7 +376,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     baca.stem_down(pleaves)
     baca.tuplet_bracket_up(tuplets)
     baca.make_figures(
-        figures,
+        accumulator,
         "v1",
         None,
         figure_name="D1_7",
@@ -391,7 +391,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     baca.stem_down(pleaves)
     baca.register(tuplets, 6, -20)
     baca.make_figures(
-        figures,
+        accumulator,
         "v1",
         None,
         figure_name="D2",
@@ -406,7 +406,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     leaf = abjad.select.leaf(tuplets, -1)
     baca.extend_beam(leaf)
     baca.make_figures(
-        figures,
+        accumulator,
         "v2",
         None,
         figure_name="O2**",
@@ -418,7 +418,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     tuplets, tsd = library.ovoids(collections)
     baca.register(tuplets, -14, -6)
     baca.make_figures(
-        figures,
+        accumulator,
         "v2",
         None,
         figure_name="O3",
@@ -434,7 +434,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     leaf = abjad.select.leaf(tuplets, -1)
     baca.extend_beam(leaf)
     baca.make_figures(
-        figures,
+        accumulator,
         "v2",
         None,
         figure_name="O4",
@@ -448,7 +448,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     leaf = abjad.select.leaf(tuplets, -1)
     baca.extend_beam(leaf)
     baca.make_figures(
-        figures,
+        accumulator,
         "v2",
         None,
         figure_name="O5",
@@ -462,7 +462,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     leaf = abjad.select.leaf(tuplets, -1)
     baca.extend_beam(leaf)
     baca.make_figures(
-        figures,
+        accumulator,
         "v2",
         None,
         figure_name="O6",
@@ -474,7 +474,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     tuplets, tsd = library.ovoids(collections)
     baca.register(tuplets, -14, -6)
     baca.make_figures(
-        figures,
+        accumulator,
         "v2",
         None,
         figure_name="O7",
@@ -490,7 +490,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     leaf = abjad.select.leaf(tuplets, -1)
     baca.extend_beam(leaf)
     baca.make_figures(
-        figures,
+        accumulator,
         "v2",
         None,
         figure_name="O8",
@@ -507,7 +507,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     baca.stem_up(pleaves)
     baca.register(tuplets, 0, -14)
     baca.make_figures(
-        figures,
+        accumulator,
         "v1",
         None,
         figure_name="W2**",
@@ -522,7 +522,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     baca.stem_down(pleaves)
     baca.register(tuplets, 6, -20)
     baca.make_figures(
-        figures,
+        accumulator,
         "v1",
         None,
         figure_name="D2*",
@@ -535,7 +535,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     baca.register(tuplets, -14, -6)
     # baca.extend_beam(abjad.select.leaf(tuplets, -1))
     baca.make_figures(
-        figures,
+        accumulator,
         "v2",
         None,
         figure_name="O9",
@@ -547,7 +547,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     tuplets, tsd = library.ovoids(collections)
     baca.register(tuplets, -14, -6)
     baca.make_figures(
-        figures,
+        accumulator,
         "v2",
         None,
         figure_name="O10",
@@ -558,8 +558,8 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     assert len(design) == 22
 
     voices = baca.section.cache_voices(score, library.voice_abbreviations)
-    time_signatures = figures.time_signatures
-    measures = baca.measures(time_signatures)
+    time_signatures = accumulator.time_signatures
+    measures = baca.section.measures(time_signatures)
     baca.section.set_up_score(
         score,
         measures(),
@@ -569,7 +569,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         manifests=library.manifests,
         previous_persistent_indicators=previous_persistent_indicators,
     )
-    figures.populate_commands(score)
+    accumulator.populate_commands(score)
     return score, voices, measures
 
 

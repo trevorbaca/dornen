@@ -519,14 +519,8 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     )
 
     voices = baca.section.cache_voices(score, library.voice_abbreviations)
-    voice_names = baca.accumulator.get_voice_names(score)
     time_signatures = figures.time_signatures
     measures = baca.measures(time_signatures)
-    accumulator = baca.CommandAccumulator(
-        time_signatures=time_signatures,
-        _voice_abbreviations=library.voice_abbreviations,
-        _voice_names=voice_names,
-    )
     baca.section.set_up_score(
         score,
         measures(),
@@ -536,7 +530,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         manifests=library.manifests,
         previous_persistent_indicators=previous_persistent_indicators,
     )
-    figures.populate_commands(score, accumulator)
+    figures.populate_commands(score)
     return score, voices, measures
 
 

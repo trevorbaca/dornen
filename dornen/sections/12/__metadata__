@@ -1,9 +1,69 @@
 {
+    "alive_during_section": [
+        "Score",
+        "GlobalContext",
+        "Skips",
+        "MusicContext",
+        "Guitar.Staff",
+        "Rests",
+        "Guitar.Music.1",
+        "Guitar.Music.2",
+        "Guitar.Music.3",
+        "Guitar.Music.4",
+    ],
     "bol_measure_numbers": [232, 243, 255],
     "duration": "1'13''",
     "final_measure_number": 256,
     "first_measure_number": 232,
     "has_anchor_skip": True,
+    "persistent_indicators": {
+        "Guitar.Music.1": [
+            baca.Memento(
+                context="Guitar.Music.1",
+                edition=None,
+                manifest=None,
+                prototype="abjad.Dynamic",
+                synthetic_offset=None,
+                value="mp",
+            )
+        ],
+        "Guitar.Staff": [
+            baca.Memento(
+                context="Guitar.Music.1",
+                edition=None,
+                manifest="instruments",
+                prototype=None,
+                synthetic_offset=None,
+                value="Guitar",
+            ),
+            baca.Memento(
+                context="Guitar.Music.1",
+                edition=None,
+                manifest=None,
+                prototype="abjad.Clef",
+                synthetic_offset=None,
+                value="treble",
+            ),
+        ],
+        "Score": [
+            baca.Memento(
+                context="Skips",
+                edition=None,
+                manifest="metronome_marks",
+                prototype=None,
+                synthetic_offset=None,
+                value="66",
+            ),
+            baca.Memento(
+                context="Skips",
+                edition=None,
+                manifest=None,
+                prototype="abjad.TimeSignature",
+                synthetic_offset=None,
+                value="4/5",
+            ),
+        ],
+    },
     "start_clock_time": "8'49''",
     "stop_clock_time": "10'02''",
     "time_signatures": [

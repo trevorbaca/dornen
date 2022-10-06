@@ -553,8 +553,8 @@ def make_score(first_measure_number, previous_persistent_indicators):
     SKIPS(score["Skips"])
     baca.section.reapply(
         voices,
-        library.manifests,
         previous_persistent_indicators,
+        manifests=library.manifests,
     )
     cache = baca.section.cache_leaves(
         score,

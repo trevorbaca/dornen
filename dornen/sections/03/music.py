@@ -371,7 +371,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     collections = baca.sequence.reveal(cell_d1, -15)
     tuplets, tsd = library.delicatissimo(collections)
     baca.beam_positions(tuplets, -6.5)
-    tuplets = baca.nest(tuplets, [abjad.Multiplier((2, 3))])
+    tuplets = baca.nest(tuplets, [abjad.Fraction(2, 3)])
     pleaves = baca.select.pleaves(tuplets)
     baca.stem_down(pleaves)
     baca.tuplet_bracket_up(tuplets)

@@ -256,7 +256,6 @@ def _select_nontrivial_tuplets(argument):
 
 
 class DesignChecker:
-
     __slots__ = ("_design",)
 
     _foreshadow_tag = "foreshadow"

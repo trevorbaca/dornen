@@ -1,12 +1,8 @@
   %! baca.path.extern()
 number.10.Skips = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Skips measure 1]
-    % OPENING:
-    % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE_COLOR
       %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
@@ -20,8 +16,6 @@ number.10.Skips = {
     \time 3/8
       %! baca._make_global_skips(1)
     s1 * 3/8
-    % AFTER:
-    % SPANNER_STARTS:
       %! REAPPLIED_METRONOME_MARK_WITH_COLOR
       %! baca.span_metronome_marks(3)
     - \abjad-invisible-line
@@ -64,13 +58,9 @@ number.10.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Skips measure 2]
-    % OPENING:
-    % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE
       %! baca._make_global_skips(2)
       %! baca._set_status_tag()
@@ -84,8 +74,6 @@ number.10.Skips = {
     \baca-time-signature-color #'blue
       %! baca._make_global_skips(1)
     s1 * 4/5
-    % AFTER:
-    % SPANNER_STOPS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
@@ -95,7 +83,6 @@ number.10.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
-    % SPANNER_STARTS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only "[6'29'']"
@@ -114,13 +101,9 @@ number.10.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Skips measure 3]
-    % OPENING:
-    % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE
       %! baca._make_global_skips(2)
       %! baca._set_status_tag()
@@ -134,8 +117,6 @@ number.10.Skips = {
     \baca-time-signature-color #'blue
       %! baca._make_global_skips(1)
     s1 * 2/5
-    % AFTER:
-    % SPANNER_STOPS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
@@ -145,7 +126,6 @@ number.10.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
-    % SPANNER_STARTS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only "[6'35'']"
@@ -164,13 +144,9 @@ number.10.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Skips measure 4]
-    % OPENING:
-    % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE
       %! baca._make_global_skips(2)
       %! baca._set_status_tag()
@@ -184,8 +160,6 @@ number.10.Skips = {
     \baca-time-signature-color #'blue
       %! baca._make_global_skips(1)
     s1 * 1/3
-    % AFTER:
-    % SPANNER_STOPS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
@@ -195,7 +169,6 @@ number.10.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
-    % SPANNER_STARTS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only "[6'38'']"
@@ -214,15 +187,11 @@ number.10.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Skips measure 5]
       %! baca._make_global_skips(1)
     s1 * 1/3
-    % AFTER:
-    % SPANNER_STOPS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
@@ -232,7 +201,6 @@ number.10.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
-    % SPANNER_STARTS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only "[6'40'']"
@@ -251,15 +219,11 @@ number.10.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Skips measure 6]
       %! baca._make_global_skips(1)
     s1 * 1/3
-    % AFTER:
-    % SPANNER_STOPS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
@@ -269,7 +233,6 @@ number.10.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
-    % SPANNER_STARTS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only "[6'43'']"
@@ -288,13 +251,9 @@ number.10.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Skips measure 7]
-    % OPENING:
-    % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE
       %! baca._make_global_skips(2)
       %! baca._set_status_tag()
@@ -308,8 +267,6 @@ number.10.Skips = {
     \baca-time-signature-color #'blue
       %! baca._make_global_skips(1)
     s1 * 2/5
-    % AFTER:
-    % SPANNER_STOPS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
@@ -319,7 +276,6 @@ number.10.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
-    % SPANNER_STARTS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only "[6'45'']"
@@ -338,15 +294,11 @@ number.10.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Skips measure 8]
       %! baca._make_global_skips(1)
     s1 * 2/5
-    % AFTER:
-    % SPANNER_STOPS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
@@ -356,7 +308,6 @@ number.10.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
-    % SPANNER_STARTS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only "[6'48'']"
@@ -375,13 +326,9 @@ number.10.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Skips measure 9]
-    % OPENING:
-    % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE
       %! baca._make_global_skips(2)
       %! baca._set_status_tag()
@@ -395,8 +342,6 @@ number.10.Skips = {
     \baca-time-signature-color #'blue
       %! baca._make_global_skips(1)
     s1 * 1/3
-    % AFTER:
-    % SPANNER_STOPS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
@@ -406,7 +351,6 @@ number.10.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
-    % SPANNER_STARTS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only "[6'51'']"
@@ -425,15 +369,11 @@ number.10.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Skips measure 10]
       %! baca._make_global_skips(1)
     s1 * 1/3
-    % AFTER:
-    % SPANNER_STOPS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
@@ -443,7 +383,6 @@ number.10.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
-    % SPANNER_STARTS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only "[6'53'']"
@@ -462,15 +401,11 @@ number.10.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Skips measure 11]
       %! baca._make_global_skips(1)
     s1 * 1/3
-    % AFTER:
-    % SPANNER_STOPS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
@@ -480,7 +415,6 @@ number.10.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
-    % SPANNER_STARTS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only "[6'56'']"
@@ -499,13 +433,9 @@ number.10.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Skips measure 12]
-    % OPENING:
-    % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE
       %! baca._make_global_skips(2)
       %! baca._set_status_tag()
@@ -519,8 +449,6 @@ number.10.Skips = {
     \baca-time-signature-color #'blue
       %! baca._make_global_skips(1)
     s1 * 2/5
-    % AFTER:
-    % SPANNER_STOPS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
@@ -530,7 +458,6 @@ number.10.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
-    % SPANNER_STARTS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only "[6'58'']"
@@ -549,15 +476,11 @@ number.10.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Skips measure 13]
       %! baca._make_global_skips(1)
     s1 * 2/5
-    % AFTER:
-    % SPANNER_STOPS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
@@ -567,7 +490,6 @@ number.10.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
-    % SPANNER_STARTS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only "[7'01'']"
@@ -586,13 +508,9 @@ number.10.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Skips measure 14]
-    % OPENING:
-    % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE
       %! baca._make_global_skips(2)
       %! baca._set_status_tag()
@@ -606,8 +524,6 @@ number.10.Skips = {
     \baca-time-signature-color #'blue
       %! baca._make_global_skips(1)
     s1 * 1/3
-    % AFTER:
-    % SPANNER_STOPS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
@@ -617,7 +533,6 @@ number.10.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
-    % SPANNER_STARTS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only "[7'04'']"
@@ -636,13 +551,9 @@ number.10.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Skips measure 15]
-    % OPENING:
-    % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE
       %! baca._make_global_skips(2)
       %! baca._set_status_tag()
@@ -656,8 +567,6 @@ number.10.Skips = {
     \baca-time-signature-color #'blue
       %! baca._make_global_skips(1)
     s1 * 2/5
-    % AFTER:
-    % SPANNER_STOPS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
@@ -667,7 +576,6 @@ number.10.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
-    % SPANNER_STARTS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only "[7'07'']"
@@ -686,13 +594,9 @@ number.10.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Skips measure 16]
-    % OPENING:
-    % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE
       %! baca._make_global_skips(2)
       %! baca._set_status_tag()
@@ -706,8 +610,6 @@ number.10.Skips = {
     \baca-time-signature-color #'blue
       %! baca._make_global_skips(1)
     s1 * 1/3
-    % AFTER:
-    % SPANNER_STOPS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
@@ -717,7 +619,6 @@ number.10.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
-    % SPANNER_STARTS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only "[7'09'']"
@@ -736,13 +637,9 @@ number.10.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Skips measure 17]
-    % OPENING:
-    % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE
       %! baca._make_global_skips(2)
       %! baca._set_status_tag()
@@ -756,8 +653,6 @@ number.10.Skips = {
     \baca-time-signature-color #'blue
       %! baca._make_global_skips(1)
     s1 * 2/5
-    % AFTER:
-    % SPANNER_STOPS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
@@ -767,7 +662,6 @@ number.10.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
-    % SPANNER_STARTS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only "[7'12'']"
@@ -786,13 +680,9 @@ number.10.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Skips measure 18]
-    % OPENING:
-    % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE
       %! baca._make_global_skips(2)
       %! baca._set_status_tag()
@@ -806,8 +696,6 @@ number.10.Skips = {
     \baca-time-signature-color #'blue
       %! baca._make_global_skips(1)
     s1 * 1/3
-    % AFTER:
-    % SPANNER_STOPS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
@@ -817,7 +705,6 @@ number.10.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
-    % SPANNER_STARTS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only "[7'15'']"
@@ -836,15 +723,11 @@ number.10.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Skips measure 19]
       %! baca._make_global_skips(1)
     s1 * 1/3
-    % AFTER:
-    % SPANNER_STOPS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
@@ -854,7 +737,6 @@ number.10.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
-    % SPANNER_STARTS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only "[7'17'']"
@@ -873,15 +755,11 @@ number.10.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Skips measure 20]
       %! baca._make_global_skips(1)
     s1 * 1/3
-    % AFTER:
-    % SPANNER_STOPS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
@@ -891,7 +769,6 @@ number.10.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
-    % SPANNER_STARTS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only "[7'20'']"
@@ -910,13 +787,9 @@ number.10.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Skips measure 21]
-    % OPENING:
-    % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE
       %! baca._make_global_skips(2)
       %! baca._set_status_tag()
@@ -930,8 +803,6 @@ number.10.Skips = {
     \baca-time-signature-color #'blue
       %! baca._make_global_skips(1)
     s1 * 4/5
-    % AFTER:
-    % SPANNER_STOPS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
@@ -941,7 +812,6 @@ number.10.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
-    % SPANNER_STARTS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only "[7'22'']"
@@ -960,15 +830,11 @@ number.10.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Skips measure 22]
       %! baca._make_global_skips(1)
     s1 * 4/5
-    % AFTER:
-    % SPANNER_STOPS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
@@ -978,7 +844,6 @@ number.10.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
-    % SPANNER_STARTS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% - \baca-start-ct-both "[7'28'']" "[7'34'']"
@@ -997,15 +862,11 @@ number.10.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! ANCHOR_SKIP
       %! baca._comment_measure_numbers()
       %! baca.style_anchor_skip(1)
     % [anchor skip]
-    % OPENING:
-    % COMMANDS:
       %! ANCHOR_SKIP
       %! baca.style_anchor_skip(2)
     \baca-time-signature-transparent
@@ -1017,8 +878,6 @@ number.10.Skips = {
       %! ANCHOR_SKIP
       %! baca._make_global_skips(3)
     s1 * 1/4
-    % AFTER:
-    % SPANNER_STOPS:
       %! ANCHOR_SKIP
       %! CLOCK_TIME
       %! baca._label_clock_time()
@@ -1039,17 +898,13 @@ number.10.Skips = {
       %! baca._label_measure_numbers()
       %! baca.style_anchor_skip(1)
     %@% \bacaStopTextSpanMN
-    % COMMANDS:
       %! ANCHOR_SKIP
       %! baca.style_anchor_skip(3)
     \once \override Score.BarLine.transparent = ##t
       %! ANCHOR_SKIP
       %! baca.style_anchor_skip(3)
     \once \override Score.SpanBar.transparent = ##t
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.make_global_context()
   %! baca.path.extern()
 }
@@ -1057,164 +912,117 @@ number.10.Skips = {
 
   %! baca.path.extern()
 number.10.Rests = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Rests measure 1]
       %! baca._make_global_rests(1)
     R1 * 3/8
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Rests measure 2]
       %! baca._make_global_rests(1)
     R1 * 4/5
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Rests measure 3]
       %! baca._make_global_rests(1)
     R1 * 2/5
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Rests measure 4]
       %! baca._make_global_rests(1)
     R1 * 1/3
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Rests measure 5]
       %! baca._make_global_rests(1)
     R1 * 1/3
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Rests measure 6]
       %! baca._make_global_rests(1)
     R1 * 1/3
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Rests measure 7]
       %! baca._make_global_rests(1)
     R1 * 2/5
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Rests measure 8]
       %! baca._make_global_rests(1)
     R1 * 2/5
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Rests measure 9]
       %! baca._make_global_rests(1)
     R1 * 1/3
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Rests measure 10]
       %! baca._make_global_rests(1)
     R1 * 1/3
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Rests measure 11]
       %! baca._make_global_rests(1)
     R1 * 1/3
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Rests measure 12]
       %! baca._make_global_rests(1)
     R1 * 2/5
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Rests measure 13]
       %! baca._make_global_rests(1)
     R1 * 2/5
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Rests measure 14]
       %! baca._make_global_rests(1)
     R1 * 1/3
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Rests measure 15]
       %! baca._make_global_rests(1)
     R1 * 2/5
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Rests measure 16]
       %! baca._make_global_rests(1)
     R1 * 1/3
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Rests measure 17]
       %! baca._make_global_rests(1)
     R1 * 2/5
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Rests measure 18]
       %! baca._make_global_rests(1)
     R1 * 1/3
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Rests measure 19]
       %! baca._make_global_rests(1)
     R1 * 1/3
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Rests measure 20]
       %! baca._make_global_rests(1)
     R1 * 1/3
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Rests measure 21]
       %! baca._make_global_rests(1)
     R1 * 4/5
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Rests measure 22]
       %! baca._make_global_rests(1)
     R1 * 4/5
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.make_global_context()
   %! baca.path.extern()
 }
@@ -1222,28 +1030,16 @@ number.10.Rests = {
 
   %! baca.path.extern()
 number.10.Guitar.Music.1 = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
     {
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
         \scaleDurations #'(1 . 1)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Guitar.Music.1 measure 1]
-            % BEFORE:
-            % COMMANDS:
               %! baca.text_script_staff_padding(1)
             \override TextScript.staff-padding = 5
-            % OPENING:
-            % COMMANDS:
               %! REAPPLIED_CLEF
               %! baca._reapply_persistent_indicators(3)
               %! baca._set_status_tag()
@@ -1260,8 +1056,6 @@ number.10.Guitar.Music.1 = {
               %! baca.treat_persistent_wrapper(2)
             \set Staff.forceClef = ##t
             r8
-            % AFTER:
-            % MARKUP:
               %! FIGURE_LABEL
             %@% - \tweak color #blue
               %! FIGURE_LABEL
@@ -1269,52 +1063,29 @@ number.10.Guitar.Music.1 = {
               %! REAPPLIED_INSTRUMENT_ALERT
               %! baca._attach_latent_indicator_alert()
             ^ \baca-reapplied-instrument-markup "(“Guitar”)"
-            % ABSOLUTE_AFTER:
-            % COMMANDS:
               %! REAPPLIED_CLEF_REDRAW_COLOR
               %! baca._attach_color_literal(2)
             \override Staff.Clef.color = #(x11-color 'OliveDrab)
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
             r8
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
             r8
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
     }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
     {
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
         \tweak edge-height #'(0.7 . 0)
         \times 4/5
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Guitar.Music.1 measure 2]
             gf!2
-            % AFTER:
-            % STEM_TREMOLOS:
               %! baca.stem_tremolo()
             :32
-            % ARTICULATIONS:
               %! EXPLICIT_DYNAMIC_COLOR
               %! baca.treat_persistent_wrapper()
               %! EXPLICIT_DYNAMIC
@@ -1329,14 +1100,12 @@ number.10.Guitar.Music.1 = {
               %! baca._set_status_tag()
               %! baca.hairpin()
             \ppp
-            % MARKUP:
               %! FIGURE_LABEL
             %@% - \tweak color #blue
               %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (2) \hspace #1 \concat { "2" \sub 1 } ] }
               %! baca.markup()
             ^ \dornen-two-finger-tamb-trill-markup
-            % SPANNER_STARTS:
               %! EXPLICIT_DYNAMIC_COLOR
               %! baca.treat_persistent_wrapper()
               %! EXPLICIT_DYNAMIC
@@ -1355,66 +1124,38 @@ number.10.Guitar.Music.1 = {
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
         }
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
         \tweak edge-height #'(0.7 . 0)
         \times 4/5
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
             gf2
-            % AFTER:
-            % STEM_TREMOLOS:
               %! baca.stem_tremolo()
             :32
-            % SPANNER_STARTS:
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
               %! baca.repeat_tie()
             \repeatTie
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
     }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
     {
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
         \tweak edge-height #'(0.7 . 0)
         \times 4/5
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Guitar.Music.1 measure 3]
             gf2
-            % AFTER:
-            % STEM_TREMOLOS:
               %! baca.stem_tremolo()
             :32
-            % ARTICULATIONS:
               %! EXPLICIT_DYNAMIC_COLOR
               %! baca.treat_persistent_wrapper()
               %! EXPLICIT_DYNAMIC
@@ -1429,51 +1170,32 @@ number.10.Guitar.Music.1 = {
               %! baca._set_status_tag()
               %! baca.hairpin()
             \pp
-            % MARKUP:
               %! FIGURE_LABEL
             %@% - \tweak color #blue
               %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (3) \hspace #1 \concat { "2" \sub 2 } ] }
-            % SPANNER_STARTS:
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
               %! baca.repeat_tie()
             \repeatTie
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
     }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
     {
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
         \tweak edge-height #'(0.7 . 0)
         \times 2/3
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Guitar.Music.1 measure 4]
             gf2
-            % AFTER:
-            % STEM_TREMOLOS:
               %! baca.stem_tremolo()
             :32
-            % ARTICULATIONS:
               %! EXPLICIT_DYNAMIC_COLOR
               %! baca.treat_persistent_wrapper()
               %! EXPLICIT_DYNAMIC
@@ -1488,12 +1210,10 @@ number.10.Guitar.Music.1 = {
               %! baca._set_status_tag()
               %! baca.hairpin()
             \pp
-            % MARKUP:
               %! FIGURE_LABEL
             %@% - \tweak color #blue
               %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (4) \hspace #1 \concat { "2" \sub 3 } ] }
-            % SPANNER_STARTS:
               %! EXPLICIT_DYNAMIC_COLOR
               %! baca.treat_persistent_wrapper()
               %! EXPLICIT_DYNAMIC
@@ -1514,39 +1234,22 @@ number.10.Guitar.Music.1 = {
             ~
               %! baca.repeat_tie()
             \repeatTie
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
     }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
     {
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
         \tweak edge-height #'(0.7 . 0)
         \times 2/3
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Guitar.Music.1 measure 5]
             gf2
-            % AFTER:
-            % STEM_TREMOLOS:
               %! baca.stem_tremolo()
             :32
-            % ARTICULATIONS:
               %! EXPLICIT_DYNAMIC_COLOR
               %! baca.treat_persistent_wrapper()
               %! EXPLICIT_DYNAMIC
@@ -1561,95 +1264,58 @@ number.10.Guitar.Music.1 = {
               %! baca._set_status_tag()
               %! baca.hairpin()
             \ppp
-            % MARKUP:
               %! FIGURE_LABEL
             %@% - \tweak color #blue
               %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (5) \hspace #1 \concat { "2" \sub 4 } ] }
-            % SPANNER_STARTS:
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
               %! baca.repeat_tie()
             \repeatTie
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
     }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
     {
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
         \tweak edge-height #'(0.7 . 0)
         \times 2/3
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Guitar.Music.1 measure 6]
             gf2
-            % AFTER:
-            % STEM_TREMOLOS:
               %! baca.stem_tremolo()
             :32
-            % MARKUP:
               %! FIGURE_LABEL
             %@% - \tweak color #blue
               %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (6) \hspace #1 \concat { "2" \sub 5 } ] }
-            % SPANNER_STARTS:
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
               %! baca.repeat_tie()
             \repeatTie
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
     }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
     {
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
         \tweak edge-height #'(0.7 . 0)
         \times 4/5
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Guitar.Music.1 measure 7]
             gf2
-            % AFTER:
-            % STEM_TREMOLOS:
               %! baca.stem_tremolo()
             :32
-            % ARTICULATIONS:
               %! EXPLICIT_DYNAMIC_COLOR
               %! baca.treat_persistent_wrapper()
               %! EXPLICIT_DYNAMIC
@@ -1664,14 +1330,12 @@ number.10.Guitar.Music.1 = {
               %! baca._set_status_tag()
               %! baca.hairpin()
             \ppp
-            % MARKUP:
               %! FIGURE_LABEL
             %@% - \tweak color #blue
               %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (7) \hspace #1 \concat { "3" \sub 1 } ] }
               %! baca.markup()
             ^ \dornen-three-fingers-markup
-            % SPANNER_STARTS:
               %! EXPLICIT_DYNAMIC_COLOR
               %! baca.treat_persistent_wrapper()
               %! EXPLICIT_DYNAMIC
@@ -1692,39 +1356,22 @@ number.10.Guitar.Music.1 = {
             ~
               %! baca.repeat_tie()
             \repeatTie
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
     }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
     {
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
         \tweak edge-height #'(0.7 . 0)
         \times 4/5
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Guitar.Music.1 measure 8]
             gf2
-            % AFTER:
-            % STEM_TREMOLOS:
               %! baca.stem_tremolo()
             :32
-            % ARTICULATIONS:
               %! EXPLICIT_DYNAMIC_COLOR
               %! baca.treat_persistent_wrapper()
               %! EXPLICIT_DYNAMIC
@@ -1739,51 +1386,32 @@ number.10.Guitar.Music.1 = {
               %! baca._set_status_tag()
               %! baca.hairpin()
             \p
-            % MARKUP:
               %! FIGURE_LABEL
             %@% - \tweak color #blue
               %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (8) \hspace #1 \concat { "3" \sub 2 } ] }
-            % SPANNER_STARTS:
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
               %! baca.repeat_tie()
             \repeatTie
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
     }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
     {
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
         \tweak edge-height #'(0.7 . 0)
         \times 2/3
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Guitar.Music.1 measure 9]
             gf2
-            % AFTER:
-            % STEM_TREMOLOS:
               %! baca.stem_tremolo()
             :32
-            % ARTICULATIONS:
               %! EXPLICIT_DYNAMIC_COLOR
               %! baca.treat_persistent_wrapper()
               %! EXPLICIT_DYNAMIC
@@ -1798,12 +1426,10 @@ number.10.Guitar.Music.1 = {
               %! baca._set_status_tag()
               %! baca.hairpin()
             \p
-            % MARKUP:
               %! FIGURE_LABEL
             %@% - \tweak color #blue
               %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (9) \hspace #1 \concat { "3" \sub 3 } ] }
-            % SPANNER_STARTS:
               %! EXPLICIT_DYNAMIC_COLOR
               %! baca.treat_persistent_wrapper()
               %! EXPLICIT_DYNAMIC
@@ -1824,39 +1450,22 @@ number.10.Guitar.Music.1 = {
             ~
               %! baca.repeat_tie()
             \repeatTie
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
     }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
     {
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
         \tweak edge-height #'(0.7 . 0)
         \times 2/3
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Guitar.Music.1 measure 10]
             gf2
-            % AFTER:
-            % STEM_TREMOLOS:
               %! baca.stem_tremolo()
             :32
-            % ARTICULATIONS:
               %! EXPLICIT_DYNAMIC_COLOR
               %! baca.treat_persistent_wrapper()
               %! EXPLICIT_DYNAMIC
@@ -1871,95 +1480,58 @@ number.10.Guitar.Music.1 = {
               %! baca._set_status_tag()
               %! baca.hairpin()
             \ppp
-            % MARKUP:
               %! FIGURE_LABEL
             %@% - \tweak color #blue
               %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (10) \hspace #1 \concat { "3" \sub 4 } ] }
-            % SPANNER_STARTS:
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
               %! baca.repeat_tie()
             \repeatTie
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
     }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
     {
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
         \tweak edge-height #'(0.7 . 0)
         \times 2/3
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Guitar.Music.1 measure 11]
             gf2
-            % AFTER:
-            % STEM_TREMOLOS:
               %! baca.stem_tremolo()
             :32
-            % MARKUP:
               %! FIGURE_LABEL
             %@% - \tweak color #blue
               %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (11) \hspace #1 \concat { "3" \sub 5 } ] }
-            % SPANNER_STARTS:
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
               %! baca.repeat_tie()
             \repeatTie
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
     }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
     {
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
         \tweak edge-height #'(0.7 . 0)
         \times 4/5
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Guitar.Music.1 measure 12]
             gf2
-            % AFTER:
-            % STEM_TREMOLOS:
               %! baca.stem_tremolo()
             :32
-            % ARTICULATIONS:
               %! EXPLICIT_DYNAMIC_COLOR
               %! baca.treat_persistent_wrapper()
               %! EXPLICIT_DYNAMIC
@@ -1974,14 +1546,12 @@ number.10.Guitar.Music.1 = {
               %! baca._set_status_tag()
               %! baca.hairpin()
             \ppp
-            % MARKUP:
               %! FIGURE_LABEL
             %@% - \tweak color #blue
               %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (12) \hspace #1 \concat { "4" \sub 1 } ] }
               %! baca.markup()
             ^ \dornen-four-fingers-markup
-            % SPANNER_STARTS:
               %! EXPLICIT_DYNAMIC_COLOR
               %! baca.treat_persistent_wrapper()
               %! EXPLICIT_DYNAMIC
@@ -2002,39 +1572,22 @@ number.10.Guitar.Music.1 = {
             ~
               %! baca.repeat_tie()
             \repeatTie
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
     }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
     {
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
         \tweak edge-height #'(0.7 . 0)
         \times 4/5
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Guitar.Music.1 measure 13]
             gf2
-            % AFTER:
-            % STEM_TREMOLOS:
               %! baca.stem_tremolo()
             :32
-            % ARTICULATIONS:
               %! EXPLICIT_DYNAMIC_COLOR
               %! baca.treat_persistent_wrapper()
               %! EXPLICIT_DYNAMIC
@@ -2049,51 +1602,32 @@ number.10.Guitar.Music.1 = {
               %! baca._set_status_tag()
               %! baca.hairpin()
             \pp
-            % MARKUP:
               %! FIGURE_LABEL
             %@% - \tweak color #blue
               %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (13) \hspace #1 \concat { "4" \sub 2 } ] }
-            % SPANNER_STARTS:
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
               %! baca.repeat_tie()
             \repeatTie
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
     }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
     {
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
         \tweak edge-height #'(0.7 . 0)
         \times 2/3
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Guitar.Music.1 measure 14]
             gf2
-            % AFTER:
-            % STEM_TREMOLOS:
               %! baca.stem_tremolo()
             :32
-            % ARTICULATIONS:
               %! EXPLICIT_DYNAMIC_COLOR
               %! baca.treat_persistent_wrapper()
               %! EXPLICIT_DYNAMIC
@@ -2108,12 +1642,10 @@ number.10.Guitar.Music.1 = {
               %! baca._set_status_tag()
               %! baca.hairpin()
             \pp
-            % MARKUP:
               %! FIGURE_LABEL
             %@% - \tweak color #blue
               %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (14) \hspace #1 \concat { "4" \sub 3 } ] }
-            % SPANNER_STARTS:
               %! EXPLICIT_DYNAMIC_COLOR
               %! baca.treat_persistent_wrapper()
               %! EXPLICIT_DYNAMIC
@@ -2134,39 +1666,22 @@ number.10.Guitar.Music.1 = {
             ~
               %! baca.repeat_tie()
             \repeatTie
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
     }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
     {
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
         \tweak edge-height #'(0.7 . 0)
         \times 4/5
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Guitar.Music.1 measure 15]
             gf2
-            % AFTER:
-            % STEM_TREMOLOS:
               %! baca.stem_tremolo()
             :32
-            % ARTICULATIONS:
               %! EXPLICIT_DYNAMIC_COLOR
               %! baca.treat_persistent_wrapper()
               %! EXPLICIT_DYNAMIC
@@ -2181,51 +1696,32 @@ number.10.Guitar.Music.1 = {
               %! baca._set_status_tag()
               %! baca.hairpin()
             \p
-            % MARKUP:
               %! FIGURE_LABEL
             %@% - \tweak color #blue
               %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (15) \hspace #1 \concat { "4" \sub 4 } ] }
-            % SPANNER_STARTS:
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
               %! baca.repeat_tie()
             \repeatTie
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
     }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
     {
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
         \tweak edge-height #'(0.7 . 0)
         \times 2/3
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Guitar.Music.1 measure 16]
             gf2
-            % AFTER:
-            % STEM_TREMOLOS:
               %! baca.stem_tremolo()
             :32
-            % ARTICULATIONS:
               %! EXPLICIT_DYNAMIC_COLOR
               %! baca.treat_persistent_wrapper()
               %! EXPLICIT_DYNAMIC
@@ -2240,12 +1736,10 @@ number.10.Guitar.Music.1 = {
               %! baca._set_status_tag()
               %! baca.hairpin()
             \p
-            % MARKUP:
               %! FIGURE_LABEL
             %@% - \tweak color #blue
               %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (16) \hspace #1 \concat { "4" \sub 5 } ] }
-            % SPANNER_STARTS:
               %! EXPLICIT_DYNAMIC_COLOR
               %! baca.treat_persistent_wrapper()
               %! EXPLICIT_DYNAMIC
@@ -2266,39 +1760,22 @@ number.10.Guitar.Music.1 = {
             ~
               %! baca.repeat_tie()
             \repeatTie
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
     }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
     {
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
         \tweak edge-height #'(0.7 . 0)
         \times 4/5
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Guitar.Music.1 measure 17]
             gf2
-            % AFTER:
-            % STEM_TREMOLOS:
               %! baca.stem_tremolo()
             :32
-            % ARTICULATIONS:
               %! EXPLICIT_DYNAMIC_COLOR
               %! baca.treat_persistent_wrapper()
               %! EXPLICIT_DYNAMIC
@@ -2313,51 +1790,32 @@ number.10.Guitar.Music.1 = {
               %! baca._set_status_tag()
               %! baca.hairpin()
             \mp
-            % MARKUP:
               %! FIGURE_LABEL
             %@% - \tweak color #blue
               %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (17) \hspace #1 \concat { "4" \sub 6 } ] }
-            % SPANNER_STARTS:
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
               %! baca.repeat_tie()
             \repeatTie
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
     }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
     {
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
         \tweak edge-height #'(0.7 . 0)
         \times 2/3
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Guitar.Music.1 measure 18]
             gf2
-            % AFTER:
-            % STEM_TREMOLOS:
               %! baca.stem_tremolo()
             :32
-            % ARTICULATIONS:
               %! EXPLICIT_DYNAMIC_COLOR
               %! baca.treat_persistent_wrapper()
               %! EXPLICIT_DYNAMIC
@@ -2372,12 +1830,10 @@ number.10.Guitar.Music.1 = {
               %! baca._set_status_tag()
               %! baca.hairpin()
             \mp
-            % MARKUP:
               %! FIGURE_LABEL
             %@% - \tweak color #blue
               %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (18) \hspace #1 \concat { "4" \sub 7 } ] }
-            % SPANNER_STARTS:
               %! EXPLICIT_DYNAMIC_COLOR
               %! baca.treat_persistent_wrapper()
               %! EXPLICIT_DYNAMIC
@@ -2398,200 +1854,118 @@ number.10.Guitar.Music.1 = {
             ~
               %! baca.repeat_tie()
             \repeatTie
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
     }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
     {
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
         \tweak edge-height #'(0.7 . 0)
         \times 2/3
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Guitar.Music.1 measure 19]
             gf2
-            % AFTER:
-            % STEM_TREMOLOS:
               %! baca.stem_tremolo()
             :32
-            % MARKUP:
               %! FIGURE_LABEL
             %@% - \tweak color #blue
               %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (19) \hspace #1 \concat { "4" \sub 8 } ] }
-            % SPANNER_STARTS:
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
               %! baca.repeat_tie()
             \repeatTie
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
     }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
     {
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
         \tweak edge-height #'(0.7 . 0)
         \times 2/3
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Guitar.Music.1 measure 20]
             gf2
-            % AFTER:
-            % STEM_TREMOLOS:
               %! baca.stem_tremolo()
             :32
-            % MARKUP:
               %! FIGURE_LABEL
             %@% - \tweak color #blue
               %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (20) \hspace #1 \concat { "4" \sub 9 } ] }
-            % SPANNER_STARTS:
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
               %! baca.repeat_tie()
             \repeatTie
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
     }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
     {
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
         \tweak edge-height #'(0.7 . 0)
         \times 4/5
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Guitar.Music.1 measure 21]
             gf2
-            % AFTER:
-            % STEM_TREMOLOS:
               %! baca.stem_tremolo()
             :32
-            % MARKUP:
               %! FIGURE_LABEL
             %@% - \tweak color #blue
               %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (21) \hspace #1 \concat { "4" \sub 10 } ] }
               %! baca.markup()
             ^ \dornen-three-fingers-markup
-            % SPANNER_STARTS:
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
               %! baca.repeat_tie()
             \repeatTie
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
         }
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
         \tweak edge-height #'(0.7 . 0)
         \times 4/5
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
             gf2
-            % AFTER:
-            % STEM_TREMOLOS:
               %! baca.stem_tremolo()
             :32
-            % SPANNER_STARTS:
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
               %! baca.repeat_tie()
             \repeatTie
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
     }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
     {
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
         \tweak edge-height #'(0.7 . 0)
         \times 4/5
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Guitar.Music.1 measure 22]
             gf2
-            % AFTER:
-            % STEM_TREMOLOS:
               %! baca.stem_tremolo()
             :32
-            % ARTICULATIONS:
               %! EXPLICIT_DYNAMIC_COLOR
               %! baca.treat_persistent_wrapper()
               %! EXPLICIT_DYNAMIC
@@ -2606,60 +1980,37 @@ number.10.Guitar.Music.1 = {
               %! baca._set_status_tag()
               %! baca.hairpin()
             \pp
-            % MARKUP:
               %! FIGURE_LABEL
             %@% - \tweak color #blue
               %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (22) \hspace #1 \concat { "4" \sub 11 } ] }
               %! baca.markup()
             ^ \dornen-two-fingers-markup
-            % SPANNER_STARTS:
               %! baca._attach_shadow_tie_indicators()
             - \tweak stencil ##f
               %! baca._attach_shadow_tie_indicators()
             ~
               %! baca.repeat_tie()
             \repeatTie
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
         }
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
         \tweak edge-height #'(0.7 . 0)
         \times 4/5
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
             gf2
-            % AFTER:
-            % STEM_TREMOLOS:
               %! baca.stem_tremolo()
             :32
-            % SPANNER_STARTS:
               %! baca.repeat_tie()
             \repeatTie
-            % COMMANDS:
               %! baca.text_script_staff_padding(2)
             \revert TextScript.staff-padding
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
     }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! dornen.make_empty_score()
   %! baca.path.extern()
 }
@@ -2667,16 +2018,11 @@ number.10.Guitar.Music.1 = {
 
   %! baca.path.extern()
 number.10.Guitar.Music.2 = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Guitar.Music.2 measure 1]
     s1 * 1109/120
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! dornen.make_empty_score()
   %! baca.path.extern()
 }
@@ -2684,16 +2030,11 @@ number.10.Guitar.Music.2 = {
 
   %! baca.path.extern()
 number.10.Guitar.Music.3 = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Guitar.Music.3 measure 1]
     s1 * 1109/120
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! dornen.make_empty_score()
   %! baca.path.extern()
 }
@@ -2701,16 +2042,11 @@ number.10.Guitar.Music.3 = {
 
   %! baca.path.extern()
 number.10.Guitar.Music.4 = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Guitar.Music.4 measure 1]
     s1 * 1109/120
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! dornen.make_empty_score()
   %! baca.path.extern()
 }
@@ -2718,55 +2054,37 @@ number.10.Guitar.Music.4 = {
 
   %! baca.path.extern()
 number.10.Guitar.Staff = <<
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.make_global_context()
     \context GlobalRests = "Rests"
       %! baca.make_global_context()
       %! baca.path.extern()
     { \number.10.Rests }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! dornen.make_empty_score()
     \context GuitarMusicI = "Guitar.Music.1"
       %! dornen.make_empty_score()
       %! baca.path.extern()
     { \number.10.Guitar.Music.1 }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! dornen.make_empty_score()
     \context GuitarMusicII = "Guitar.Music.2"
       %! dornen.make_empty_score()
       %! baca.path.extern()
     { \number.10.Guitar.Music.2 }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! dornen.make_empty_score()
     \context GuitarMusicIII = "Guitar.Music.3"
       %! dornen.make_empty_score()
       %! baca.path.extern()
     { \number.10.Guitar.Music.3 }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! dornen.make_empty_score()
     \context GuitarMusicIV = "Guitar.Music.4"
       %! dornen.make_empty_score()
       %! baca.path.extern()
     { \number.10.Guitar.Music.4 }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! dornen.make_empty_score()
   %! baca.path.extern()
 >>

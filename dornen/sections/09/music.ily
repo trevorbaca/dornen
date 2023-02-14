@@ -1,12 +1,8 @@
   %! baca.path.extern()
 number.9.Skips = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Skips measure 1]
-    % OPENING:
-    % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE_COLOR
       %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
@@ -20,8 +16,6 @@ number.9.Skips = {
     \time 6/32
       %! baca._make_global_skips(1)
     s1 * 6/32
-    % AFTER:
-    % SPANNER_STARTS:
       %! REAPPLIED_METRONOME_MARK_WITH_COLOR
       %! baca.span_metronome_marks(3)
     - \abjad-invisible-line
@@ -64,15 +58,11 @@ number.9.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Skips measure 2]
       %! baca._make_global_skips(1)
     s1 * 6/32
-    % AFTER:
-    % SPANNER_STOPS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
@@ -82,7 +72,6 @@ number.9.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
-    % SPANNER_STARTS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only "[5'54'']"
@@ -101,15 +90,11 @@ number.9.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Skips measure 3]
       %! baca._make_global_skips(1)
     s1 * 6/32
-    % AFTER:
-    % SPANNER_STOPS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
@@ -119,7 +104,6 @@ number.9.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
-    % SPANNER_STARTS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only "[5'55'']"
@@ -138,15 +122,11 @@ number.9.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Skips measure 4]
       %! baca._make_global_skips(1)
     s1 * 6/32
-    % AFTER:
-    % SPANNER_STOPS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
@@ -156,7 +136,6 @@ number.9.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
-    % SPANNER_STARTS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only "[5'57'']"
@@ -175,15 +154,11 @@ number.9.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Skips measure 5]
       %! baca._make_global_skips(1)
     s1 * 6/32
-    % AFTER:
-    % SPANNER_STOPS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
@@ -193,7 +168,6 @@ number.9.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
-    % SPANNER_STARTS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only "[5'58'']"
@@ -212,13 +186,9 @@ number.9.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Skips measure 6]
-    % OPENING:
-    % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE_COLOR
       %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
@@ -228,8 +198,6 @@ number.9.Skips = {
     \time 2/16
       %! baca._make_global_skips(1)
     s1 * 2/16
-    % AFTER:
-    % SPANNER_STOPS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
@@ -239,7 +207,6 @@ number.9.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
-    % SPANNER_STARTS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only "[5'59'']"
@@ -258,13 +225,9 @@ number.9.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Skips measure 7]
-    % OPENING:
-    % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE_COLOR
       %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
@@ -274,8 +237,6 @@ number.9.Skips = {
     \time 22/32
       %! baca._make_global_skips(1)
     s1 * 22/32
-    % AFTER:
-    % SPANNER_STOPS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
@@ -285,7 +246,6 @@ number.9.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
-    % SPANNER_STARTS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only "[6'00'']"
@@ -304,15 +264,11 @@ number.9.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Skips measure 8]
       %! baca._make_global_skips(1)
     s1 * 22/32
-    % AFTER:
-    % SPANNER_STOPS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
@@ -322,7 +278,6 @@ number.9.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
-    % SPANNER_STARTS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only "[6'05'']"
@@ -341,13 +296,9 @@ number.9.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Skips measure 9]
-    % OPENING:
-    % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE_COLOR
       %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
@@ -357,8 +308,6 @@ number.9.Skips = {
     \time 5/32
       %! baca._make_global_skips(1)
     s1 * 5/32
-    % AFTER:
-    % SPANNER_STOPS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
@@ -368,7 +317,6 @@ number.9.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
-    % SPANNER_STARTS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only "[6'10'']"
@@ -387,13 +335,9 @@ number.9.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Skips measure 10]
-    % OPENING:
-    % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE
       %! baca._make_global_skips(2)
       %! baca._set_status_tag()
@@ -407,8 +351,6 @@ number.9.Skips = {
     \baca-time-signature-color #'blue
       %! baca._make_global_skips(1)
     s1 * 5/28
-    % AFTER:
-    % SPANNER_STOPS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
@@ -418,7 +360,6 @@ number.9.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
-    % SPANNER_STARTS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only "[6'11'']"
@@ -437,13 +378,9 @@ number.9.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Skips measure 11]
-    % OPENING:
-    % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE_COLOR
       %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
@@ -453,8 +390,6 @@ number.9.Skips = {
     \time 15/64
       %! baca._make_global_skips(1)
     s1 * 15/64
-    % AFTER:
-    % SPANNER_STOPS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
@@ -464,7 +399,6 @@ number.9.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
-    % SPANNER_STARTS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only "[6'13'']"
@@ -483,13 +417,9 @@ number.9.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Skips measure 12]
-    % OPENING:
-    % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE_COLOR
       %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
@@ -499,8 +429,6 @@ number.9.Skips = {
     \time 5/32
       %! baca._make_global_skips(1)
     s1 * 5/32
-    % AFTER:
-    % SPANNER_STOPS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
@@ -510,7 +438,6 @@ number.9.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
-    % SPANNER_STARTS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only "[6'14'']"
@@ -529,13 +456,9 @@ number.9.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Skips measure 13]
-    % OPENING:
-    % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE
       %! baca._make_global_skips(2)
       %! baca._set_status_tag()
@@ -549,8 +472,6 @@ number.9.Skips = {
     \baca-time-signature-color #'blue
       %! baca._make_global_skips(1)
     s1 * 6/28
-    % AFTER:
-    % SPANNER_STOPS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
@@ -560,7 +481,6 @@ number.9.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
-    % SPANNER_STARTS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only "[6'16'']"
@@ -579,13 +499,9 @@ number.9.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Skips measure 14]
-    % OPENING:
-    % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE_COLOR
       %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
@@ -595,8 +511,6 @@ number.9.Skips = {
     \time 9/32
       %! baca._make_global_skips(1)
     s1 * 9/32
-    % AFTER:
-    % SPANNER_STOPS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
@@ -606,7 +520,6 @@ number.9.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
-    % SPANNER_STARTS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only "[6'17'']"
@@ -625,13 +538,9 @@ number.9.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Skips measure 15]
-    % OPENING:
-    % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE_COLOR
       %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
@@ -641,8 +550,6 @@ number.9.Skips = {
     \time 6/32
       %! baca._make_global_skips(1)
     s1 * 6/32
-    % AFTER:
-    % SPANNER_STOPS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
@@ -652,7 +559,6 @@ number.9.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
-    % SPANNER_STARTS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only "[6'19'']"
@@ -671,13 +577,9 @@ number.9.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Skips measure 16]
-    % OPENING:
-    % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE
       %! baca._make_global_skips(2)
       %! baca._set_status_tag()
@@ -691,8 +593,6 @@ number.9.Skips = {
     \baca-time-signature-color #'blue
       %! baca._make_global_skips(1)
     s1 * 39/112
-    % AFTER:
-    % SPANNER_STOPS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
@@ -702,7 +602,6 @@ number.9.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
-    % SPANNER_STARTS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only "[6'20'']"
@@ -721,13 +620,9 @@ number.9.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Skips measure 17]
-    % OPENING:
-    % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE_COLOR
       %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
@@ -737,8 +632,6 @@ number.9.Skips = {
     \time 3/16
       %! baca._make_global_skips(1)
     s1 * 3/16
-    % AFTER:
-    % SPANNER_STOPS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
@@ -748,7 +641,6 @@ number.9.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
-    % SPANNER_STARTS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only "[6'23'']"
@@ -767,13 +659,9 @@ number.9.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Skips measure 18]
-    % OPENING:
-    % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE
       %! baca._make_global_skips(2)
       %! baca._set_status_tag()
@@ -787,8 +675,6 @@ number.9.Skips = {
     \baca-time-signature-color #'blue
       %! baca._make_global_skips(1)
     s1 * 2/20
-    % AFTER:
-    % SPANNER_STOPS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
@@ -798,7 +684,6 @@ number.9.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
-    % SPANNER_STARTS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% - \baca-start-ct-both "[6'24'']" "[6'25'']"
@@ -817,15 +702,11 @@ number.9.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! ANCHOR_SKIP
       %! baca._comment_measure_numbers()
       %! baca.style_anchor_skip(1)
     % [anchor skip]
-    % OPENING:
-    % COMMANDS:
       %! ANCHOR_SKIP
       %! baca.style_anchor_skip(2)
     \baca-time-signature-transparent
@@ -837,8 +718,6 @@ number.9.Skips = {
       %! ANCHOR_SKIP
       %! baca._make_global_skips(3)
     s1 * 1/4
-    % AFTER:
-    % SPANNER_STOPS:
       %! ANCHOR_SKIP
       %! CLOCK_TIME
       %! baca._label_clock_time()
@@ -859,17 +738,13 @@ number.9.Skips = {
       %! baca._label_measure_numbers()
       %! baca.style_anchor_skip(1)
     %@% \bacaStopTextSpanMN
-    % COMMANDS:
       %! ANCHOR_SKIP
       %! baca.style_anchor_skip(3)
     \once \override Score.BarLine.transparent = ##t
       %! ANCHOR_SKIP
       %! baca.style_anchor_skip(3)
     \once \override Score.SpanBar.transparent = ##t
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.make_global_context()
   %! baca.path.extern()
 }
@@ -877,136 +752,97 @@ number.9.Skips = {
 
   %! baca.path.extern()
 number.9.Rests = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Rests measure 1]
       %! baca._make_global_rests(1)
     R1 * 6/32
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Rests measure 2]
       %! baca._make_global_rests(1)
     R1 * 6/32
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Rests measure 3]
       %! baca._make_global_rests(1)
     R1 * 6/32
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Rests measure 4]
       %! baca._make_global_rests(1)
     R1 * 6/32
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Rests measure 5]
       %! baca._make_global_rests(1)
     R1 * 6/32
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Rests measure 6]
       %! baca._make_global_rests(1)
     R1 * 2/16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Rests measure 7]
       %! baca._make_global_rests(1)
     R1 * 22/32
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Rests measure 8]
       %! baca._make_global_rests(1)
     R1 * 22/32
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Rests measure 9]
       %! baca._make_global_rests(1)
     R1 * 5/32
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Rests measure 10]
       %! baca._make_global_rests(1)
     R1 * 5/28
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Rests measure 11]
       %! baca._make_global_rests(1)
     R1 * 15/64
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Rests measure 12]
       %! baca._make_global_rests(1)
     R1 * 5/32
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Rests measure 13]
       %! baca._make_global_rests(1)
     R1 * 6/28
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Rests measure 14]
       %! baca._make_global_rests(1)
     R1 * 9/32
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Rests measure 15]
       %! baca._make_global_rests(1)
     R1 * 6/32
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Rests measure 16]
       %! baca._make_global_rests(1)
     R1 * 39/112
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Rests measure 17]
       %! baca._make_global_rests(1)
     R1 * 3/16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Rests measure 18]
       %! baca._make_global_rests(1)
     R1 * 2/20
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.make_global_context()
   %! baca.path.extern()
 }
@@ -1014,32 +850,20 @@ number.9.Rests = {
 
   %! baca.path.extern()
 number.9.Guitar.Music.1 = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
     {
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
         \scaleDurations #'(1 . 1)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Guitar.Music.1 measure 1]
-            % BEFORE:
-            % COMMANDS:
               %! baca.beam_positions(1)
             \override Beam.positions = #'(6 . 6)
               %! rmakers.beam_groups()
             \set stemLeftBeamCount = 0
               %! rmakers.beam_groups()
             \set stemRightBeamCount = 3
-            % OPENING:
-            % COMMANDS:
               %! REAPPLIED_CLEF
               %! baca._reapply_persistent_indicators(3)
               %! baca._set_status_tag()
@@ -1056,11 +880,8 @@ number.9.Guitar.Music.1 = {
               %! baca.treat_persistent_wrapper(2)
             \set Staff.forceClef = ##t
             bf'!32
-            % AFTER:
-            % ARTICULATIONS:
               %! baca.staccato()
             - \staccato
-            % MARKUP:
               %! FIGURE_LABEL
             %@% - \tweak color #blue
               %! FIGURE_LABEL
@@ -1068,520 +889,287 @@ number.9.Guitar.Music.1 = {
               %! REAPPLIED_INSTRUMENT_ALERT
               %! baca._attach_latent_indicator_alert()
             ^ \baca-reapplied-instrument-markup "(“Guitar”)"
-            % START_BEAM:
               %! rmakers.beam_groups()
             [
-            % ABSOLUTE_AFTER:
-            % COMMANDS:
               %! REAPPLIED_CLEF_REDRAW_COLOR
               %! baca._attach_color_literal(2)
             \override Staff.Clef.color = #(x11-color 'OliveDrab)
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
-            % BEFORE:
-            % COMMANDS:
               %! rmakers.beam_groups()
             \set stemLeftBeamCount = 3
               %! rmakers.beam_groups()
             \set stemRightBeamCount = 3
             c''32
-            % AFTER:
-            % ARTICULATIONS:
               %! baca.staccato()
             - \staccato
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
-            % BEFORE:
-            % COMMANDS:
               %! rmakers.beam_groups()
             \set stemLeftBeamCount = 3
               %! rmakers.beam_groups()
             \set stemRightBeamCount = 3
             b'32
-            % AFTER:
-            % ARTICULATIONS:
               %! baca.staccato()
             - \staccato
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
-            % BEFORE:
-            % COMMANDS:
               %! rmakers.beam_groups()
             \set stemLeftBeamCount = 3
               %! rmakers.beam_groups()
             \set stemRightBeamCount = 3
             cs'!32
-            % AFTER:
-            % ARTICULATIONS:
               %! baca.staccato()
             - \staccato
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
-            % BEFORE:
-            % COMMANDS:
               %! rmakers.beam_groups()
             \set stemLeftBeamCount = 3
               %! rmakers.beam_groups()
             \set stemRightBeamCount = 3
             fs'!32
-            % AFTER:
-            % ARTICULATIONS:
               %! baca.staccato()
             - \staccato
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
-            % BEFORE:
-            % COMMANDS:
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 1
             g32
-            % AFTER:
-            % ARTICULATIONS:
               %! baca.staccato()
             - \staccato
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
     }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
     {
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
         \scaleDurations #'(1 . 1)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Guitar.Music.1 measure 2]
-            % BEFORE:
-            % COMMANDS:
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 3
             af'!32
-            % AFTER:
-            % ARTICULATIONS:
               %! baca.staccato()
             - \staccato
-            % MARKUP:
               %! FIGURE_LABEL
             %@% - \tweak color #blue
               %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (2) \hspace #1 "D2" ] }
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
-            % BEFORE:
-            % COMMANDS:
               %! rmakers.beam_groups()
             \set stemLeftBeamCount = 3
               %! rmakers.beam_groups()
             \set stemRightBeamCount = 3
             a'32
-            % AFTER:
-            % ARTICULATIONS:
               %! baca.staccato()
             - \staccato
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
-            % BEFORE:
-            % COMMANDS:
               %! rmakers.beam_groups()
             \set stemLeftBeamCount = 3
               %! rmakers.beam_groups()
             \set stemRightBeamCount = 3
             ef'!32
-            % AFTER:
-            % ARTICULATIONS:
               %! baca.staccato()
             - \staccato
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
-            % BEFORE:
-            % COMMANDS:
               %! rmakers.beam_groups()
             \set stemLeftBeamCount = 3
               %! rmakers.beam_groups()
             \set stemRightBeamCount = 3
             d'32
-            % AFTER:
-            % ARTICULATIONS:
               %! baca.staccato()
             - \staccato
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
-            % BEFORE:
-            % COMMANDS:
               %! rmakers.beam_groups()
             \set stemLeftBeamCount = 3
               %! rmakers.beam_groups()
             \set stemRightBeamCount = 3
             e'32
-            % AFTER:
-            % ARTICULATIONS:
               %! baca.staccato()
             - \staccato
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
-            % BEFORE:
-            % COMMANDS:
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 1
             af!32
-            % AFTER:
-            % ARTICULATIONS:
               %! baca.staccato()
             - \staccato
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
     }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Guitar.Music.1 measure 3]
     s1 * 3/16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
     {
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
         \scaleDurations #'(1 . 1)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Guitar.Music.1 measure 4]
-            % BEFORE:
-            % COMMANDS:
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 3
             b'32
-            % AFTER:
-            % ARTICULATIONS:
               %! baca.staccato()
             - \staccato
-            % MARKUP:
               %! FIGURE_LABEL
             %@% - \tweak color #blue
               %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (4) \hspace #1 "D3" ] }
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
-            % BEFORE:
-            % COMMANDS:
               %! rmakers.beam_groups()
             \set stemLeftBeamCount = 3
               %! rmakers.beam_groups()
             \set stemRightBeamCount = 3
             cs''!32
-            % AFTER:
-            % ARTICULATIONS:
               %! baca.staccato()
             - \staccato
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
-            % BEFORE:
-            % COMMANDS:
               %! rmakers.beam_groups()
             \set stemLeftBeamCount = 3
               %! rmakers.beam_groups()
             \set stemRightBeamCount = 3
             fs'!32
-            % AFTER:
-            % ARTICULATIONS:
               %! baca.staccato()
             - \staccato
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
-            % BEFORE:
-            % COMMANDS:
               %! rmakers.beam_groups()
             \set stemLeftBeamCount = 3
               %! rmakers.beam_groups()
             \set stemRightBeamCount = 3
             bf'!32
-            % AFTER:
-            % ARTICULATIONS:
               %! baca.staccato()
             - \staccato
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
-            % BEFORE:
-            % COMMANDS:
               %! rmakers.beam_groups()
             \set stemLeftBeamCount = 3
               %! rmakers.beam_groups()
             \set stemRightBeamCount = 3
             b32
-            % AFTER:
-            % ARTICULATIONS:
               %! baca.staccato()
             - \staccato
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
-            % BEFORE:
-            % COMMANDS:
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 1
             cs'!32
-            % AFTER:
-            % ARTICULATIONS:
               %! baca.staccato()
             - \staccato
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
     }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
     {
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
         \scaleDurations #'(1 . 1)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Guitar.Music.1 measure 5]
-            % BEFORE:
-            % COMMANDS:
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 3
             fs''!32
-            % AFTER:
-            % ARTICULATIONS:
               %! baca.staccato()
             - \staccato
-            % MARKUP:
               %! FIGURE_LABEL
             %@% - \tweak color #blue
               %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (5) \hspace #1 "D4" ] }
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
-            % BEFORE:
-            % COMMANDS:
               %! rmakers.beam_groups()
             \set stemLeftBeamCount = 3
               %! rmakers.beam_groups()
             \set stemRightBeamCount = 3
             bf'!32
-            % AFTER:
-            % ARTICULATIONS:
               %! baca.staccato()
             - \staccato
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
-            % BEFORE:
-            % COMMANDS:
               %! rmakers.beam_groups()
             \set stemLeftBeamCount = 3
               %! rmakers.beam_groups()
             \set stemRightBeamCount = 3
             c''32
-            % AFTER:
-            % ARTICULATIONS:
               %! baca.staccato()
             - \staccato
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
-            % BEFORE:
-            % COMMANDS:
               %! rmakers.beam_groups()
             \set stemLeftBeamCount = 3
               %! rmakers.beam_groups()
             \set stemRightBeamCount = 3
             a'32
-            % AFTER:
-            % ARTICULATIONS:
               %! baca.staccato()
             - \staccato
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
-            % BEFORE:
-            % COMMANDS:
               %! rmakers.beam_groups()
             \set stemLeftBeamCount = 3
               %! rmakers.beam_groups()
             \set stemRightBeamCount = 3
             ef'!32
-            % AFTER:
-            % ARTICULATIONS:
               %! baca.staccato()
             - \staccato
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
-            % BEFORE:
-            % COMMANDS:
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 1
             d'32
-            % AFTER:
-            % ARTICULATIONS:
               %! baca.staccato()
             - \staccato
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
     }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
     {
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
         \times 2/3
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Guitar.Music.1 measure 6]
-            % BEFORE:
-            % COMMANDS:
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 2
             e16
-            % AFTER:
-            % MARKUP:
               %! FIGURE_LABEL
             %@% - \tweak color #blue
               %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (6) \hspace #1 "L1" ] }
-            % SPANNER_STARTS:
               %! abjad.glissando(7)
               %! baca.glissando()
             \glissando
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
-            % BEFORE:
-            % COMMANDS:
               %! rmakers.beam_groups()
             \set stemLeftBeamCount = 2
               %! rmakers.beam_groups()
             \set stemRightBeamCount = 2
             g'16
-            % AFTER:
-            % SPANNER_STARTS:
               %! abjad.glissando(7)
               %! baca.glissando()
             \glissando
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
-            % BEFORE:
-            % COMMANDS:
               %! rmakers.beam_groups()
             \set stemLeftBeamCount = 2
               %! rmakers.beam_groups()
             \set stemRightBeamCount = 0
             af!16
-            % AFTER:
-            % STOP_BEAM:
               %! rmakers.beam_groups()
             ]
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
     }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Guitar.Music.1 measure 7]
     s1 * 11/8
-    % AFTER:
-    % COMMANDS:
       %! baca.beam_positions(2)
     \revert Beam.positions
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
     {
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
         \scaleDurations #'(1 . 1)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Guitar.Music.1 measure 9]
-            % BEFORE:
-            % COMMANDS:
               %! baca.beam_positions(1)
             \override Beam.positions = #'(8 . 8)
               %! rmakers.beam_groups()
@@ -1589,492 +1177,284 @@ number.9.Guitar.Music.1 = {
               %! rmakers.beam_groups()
             \set stemRightBeamCount = 3
             dqf''!32
-            % AFTER:
-            % MARKUP:
               %! FIGURE_LABEL
             %@% - \tweak color #blue
               %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (9) \hspace #1 \concat { "32" \sub 1 } ] }
-            % START_BEAM:
               %! rmakers.beam_groups()
             [
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
-            % BEFORE:
-            % COMMANDS:
               %! rmakers.beam_groups()
             \set stemLeftBeamCount = 3
               %! rmakers.beam_groups()
             \set stemRightBeamCount = 3
             c''32
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
-            % BEFORE:
-            % COMMANDS:
               %! rmakers.beam_groups()
             \set stemLeftBeamCount = 3
               %! rmakers.beam_groups()
             \set stemRightBeamCount = 3
             a''32
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
-            % BEFORE:
-            % COMMANDS:
               %! rmakers.beam_groups()
             \set stemLeftBeamCount = 3
               %! rmakers.beam_groups()
             \set stemRightBeamCount = 3
             bf''!32
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
-            % BEFORE:
-            % COMMANDS:
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 1
             e''32
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
     }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Guitar.Music.1 measure 10]
     s1 * 185/448
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
     {
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
         \scaleDurations #'(1 . 1)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Guitar.Music.1 measure 12]
-            % BEFORE:
-            % COMMANDS:
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 3
             cqs''!32
-            % AFTER:
-            % MARKUP:
               %! FIGURE_LABEL
             %@% - \tweak color #blue
               %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (12) \hspace #1 \concat { "32" \sub 2 } ] }
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
-            % BEFORE:
-            % COMMANDS:
               %! rmakers.beam_groups()
             \set stemLeftBeamCount = 3
               %! rmakers.beam_groups()
             \set stemRightBeamCount = 3
             eqs''!32
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
-            % BEFORE:
-            % COMMANDS:
               %! rmakers.beam_groups()
             \set stemLeftBeamCount = 3
               %! rmakers.beam_groups()
             \set stemRightBeamCount = 3
             fqs''!32
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
-            % BEFORE:
-            % COMMANDS:
               %! rmakers.beam_groups()
             \set stemLeftBeamCount = 3
               %! rmakers.beam_groups()
             \set stemRightBeamCount = 3
             cs''!32
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
-            % BEFORE:
-            % COMMANDS:
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 1
             e''32
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
     }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Guitar.Music.1 measure 13]
     s1 * 111/224
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
     {
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
         \scaleDurations #'(1 . 1)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Guitar.Music.1 measure 15]
-            % BEFORE:
-            % COMMANDS:
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 3
             af''!32
-            % AFTER:
-            % MARKUP:
               %! FIGURE_LABEL
             %@% - \tweak color #blue
               %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (15) \hspace #1 \concat { "32" \sub 3 } ] }
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
-            % BEFORE:
-            % COMMANDS:
               %! rmakers.beam_groups()
             \set stemLeftBeamCount = 3
               %! rmakers.beam_groups()
             \set stemRightBeamCount = 3
             bf''!32
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
-            % BEFORE:
-            % COMMANDS:
               %! rmakers.beam_groups()
             \set stemLeftBeamCount = 3
               %! rmakers.beam_groups()
             \set stemRightBeamCount = 3
             b''32
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
-            % BEFORE:
-            % COMMANDS:
               %! rmakers.beam_groups()
             \set stemLeftBeamCount = 3
               %! rmakers.beam_groups()
             \set stemRightBeamCount = 3
             cs''!32
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
-            % BEFORE:
-            % COMMANDS:
               %! rmakers.beam_groups()
             \set stemLeftBeamCount = 3
               %! rmakers.beam_groups()
             \set stemRightBeamCount = 3
             c''32
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
-            % BEFORE:
-            % COMMANDS:
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 1
             d''32
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
     }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Guitar.Music.1 measure 16]
     s1 * 39/112
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
     {
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
         \times 4/5
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Guitar.Music.1 measure 17]
-            % BEFORE:
-            % COMMANDS:
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 4
             eqs''!64
-            % AFTER:
-            % MARKUP:
               %! FIGURE_LABEL
             %@% - \tweak color #blue
               %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (17) \hspace #1 "R1" ] }
-            % SPANNER_STARTS:
               %! SPANNER_START
               %! baca._do_spanner_indicator_command(1)
               %! baca.slur()
             (
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
-            % BEFORE:
-            % COMMANDS:
               %! rmakers.beam_groups()
             \set stemLeftBeamCount = 4
               %! rmakers.beam_groups()
             \set stemRightBeamCount = 4
             bqs''!64
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
-            % BEFORE:
-            % COMMANDS:
               %! rmakers.beam_groups()
             \set stemLeftBeamCount = 4
               %! rmakers.beam_groups()
             \set stemRightBeamCount = 4
             eqf''!64
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
-            % BEFORE:
-            % COMMANDS:
               %! rmakers.beam_groups()
             \set stemLeftBeamCount = 4
               %! rmakers.beam_groups()
             \set stemRightBeamCount = 4
             dqs''!64
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
-            % BEFORE:
-            % COMMANDS:
               %! rmakers.beam_groups()
             \set stemLeftBeamCount = 4
               %! rmakers.beam_groups()
             \set stemRightBeamCount = 1
             bf''!64
-            % AFTER:
-            % SPANNER_STOPS:
               %! SPANNER_STOP
               %! baca._do_spanner_indicator_command(2)
               %! baca.slur()
             )
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
         }
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
         \times 4/5
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
-            % BEFORE:
-            % COMMANDS:
               %! rmakers.beam_groups()
             \set stemLeftBeamCount = 1
               %! rmakers.beam_groups()
             \set stemRightBeamCount = 4
             ef''!64
-            % AFTER:
-            % SPANNER_STARTS:
               %! SPANNER_START
               %! baca._do_spanner_indicator_command(1)
               %! baca.slur()
             (
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
-            % BEFORE:
-            % COMMANDS:
               %! rmakers.beam_groups()
             \set stemLeftBeamCount = 4
               %! rmakers.beam_groups()
             \set stemRightBeamCount = 4
             d''64
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
-            % BEFORE:
-            % COMMANDS:
               %! rmakers.beam_groups()
             \set stemLeftBeamCount = 4
               %! rmakers.beam_groups()
             \set stemRightBeamCount = 4
             af''!64
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
-            % BEFORE:
-            % COMMANDS:
               %! rmakers.beam_groups()
             \set stemLeftBeamCount = 4
               %! rmakers.beam_groups()
             \set stemRightBeamCount = 4
             g''64
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
-            % BEFORE:
-            % COMMANDS:
               %! rmakers.beam_groups()
             \set stemLeftBeamCount = 4
               %! rmakers.beam_groups()
             \set stemRightBeamCount = 1
             f''64
-            % AFTER:
-            % SPANNER_STOPS:
               %! SPANNER_STOP
               %! baca._do_spanner_indicator_command(2)
               %! baca.slur()
             )
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
         }
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
         \times 4/5
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
-            % BEFORE:
-            % COMMANDS:
               %! rmakers.beam_groups()
             \set stemLeftBeamCount = 1
               %! rmakers.beam_groups()
             \set stemRightBeamCount = 4
             e''64
-            % AFTER:
-            % SPANNER_STARTS:
               %! SPANNER_START
               %! baca._do_spanner_indicator_command(1)
               %! baca.slur()
             (
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
-            % BEFORE:
-            % COMMANDS:
               %! rmakers.beam_groups()
             \set stemLeftBeamCount = 4
               %! rmakers.beam_groups()
             \set stemRightBeamCount = 4
             eqs''!64
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
-            % BEFORE:
-            % COMMANDS:
               %! rmakers.beam_groups()
             \set stemLeftBeamCount = 4
               %! rmakers.beam_groups()
             \set stemRightBeamCount = 4
             gqs''!64
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
-            % BEFORE:
-            % COMMANDS:
               %! rmakers.beam_groups()
             \set stemLeftBeamCount = 4
               %! rmakers.beam_groups()
             \set stemRightBeamCount = 4
             fs''!64
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
-            % BEFORE:
-            % COMMANDS:
               %! rmakers.beam_groups()
             \set stemLeftBeamCount = 4
               %! rmakers.beam_groups()
             \set stemRightBeamCount = 0
             a''64
-            % AFTER:
-            % SPANNER_STOPS:
               %! SPANNER_STOP
               %! baca._do_spanner_indicator_command(2)
               %! baca.slur()
             )
-            % STOP_BEAM:
               %! rmakers.beam_groups()
             ]
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
     }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Guitar.Music.1 measure 18]
     s1 * 1/10
-    % AFTER:
-    % COMMANDS:
       %! baca.beam_positions(2)
     \revert Beam.positions
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! dornen.make_empty_score()
   %! baca.path.extern()
 }
@@ -2082,467 +1462,247 @@ number.9.Guitar.Music.1 = {
 
   %! baca.path.extern()
 number.9.Guitar.Music.2 = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Guitar.Music.2 measure 1]
     s1 * 83/32
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
     {
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
         \tweak edge-height #'(0.7 . 0)
         \times 4/7
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Guitar.Music.2 measure 10]
-            % BEFORE:
-            % COMMANDS:
               %! baca.beam_positions(1)
             \override Beam.positions = #'(-5 . -5)
             f''16
-            % AFTER:
-            % MARKUP:
               %! FIGURE_LABEL
             %@% - \tweak color #blue
               %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (10) \hspace #1 \concat { "28" \sub 1 } ] }
-            % START_BEAM:
               %! rmakers.beam()
             [
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
             cqs''!16
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
             eqs''!16
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
             fqs''!16
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
-            % BEFORE:
-            % COMMANDS:
             \set stemLeftBeamCount = 2
             \set stemRightBeamCount = 1
             cs''!16
-            % AFTER:
-            % COMMANDS:
               %! baca.beam_positions(2)
             \revert Beam.positions
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
     }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
     {
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
         \scaleDurations #'(1 . 1)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Guitar.Music.2 measure 11]
-            % BEFORE:
-            % COMMANDS:
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 3
             c''32.
-            % AFTER:
-            % MARKUP:
               %! FIGURE_LABEL
             %@% - \tweak color #blue
               %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (11) \hspace #1 \concat { "48" \sub 1 } ] }
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
             a''32.
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
             bf''!32.
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
             dqf''!32.
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
-            % BEFORE:
-            % COMMANDS:
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 1
             f''32.
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
     }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Guitar.Music.2 measure 12]
     s1 * 5/32
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
     {
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
         \tweak edge-height #'(0.7 . 0)
         \times 4/7
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Guitar.Music.2 measure 13]
-            % BEFORE:
-            % COMMANDS:
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 2
             ef''!16
-            % AFTER:
-            % MARKUP:
               %! FIGURE_LABEL
             %@% - \tweak color #blue
               %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (13) \hspace #1 \concat { "28" \sub 2 } ] }
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
             c''16
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
             d''16
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
             g''16
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
             fs''!16
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
-            % BEFORE:
-            % COMMANDS:
             \set stemLeftBeamCount = 2
             \set stemRightBeamCount = 1
             a''16
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
     }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
     {
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
         \scaleDurations #'(1 . 1)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Guitar.Music.2 measure 14]
-            % BEFORE:
-            % COMMANDS:
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 3
             cs''!32.
-            % AFTER:
-            % MARKUP:
               %! FIGURE_LABEL
             %@% - \tweak color #blue
               %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (14) \hspace #1 \concat { "48" \sub 2 } ] }
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
             e''32.
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
             af''!32.
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
             bf''!32.
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
             b''32.
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
-            % BEFORE:
-            % COMMANDS:
             \set stemLeftBeamCount = 3
             \set stemRightBeamCount = 1
             e''32.
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
     }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Guitar.Music.2 measure 15]
     s1 * 3/16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
     {
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
         \tweak text #tuplet-number::calc-fraction-text
         \tweak edge-height #'(0.7 . 0)
         \times 8/7
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Guitar.Music.2 measure 16]
-            % BEFORE:
-            % COMMANDS:
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 2
             g''16
-            % AFTER:
-            % MARKUP:
               %! FIGURE_LABEL
             %@% - \tweak color #blue
               %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (16) \hspace #1 "G1" ] }
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
-            % BEFORE:
-            % OPEN_BRACKETS:
             \acciaccatura {
-                % ABSOLUTE_BEFORE:
-                % COMMANDS:
 
                 fs''!16
-                % CLOSING:
-                % COMMANDS:
 
-            % CLOSE_BRACKETS:
             }
-            % ABSOLUTE_AFTER:
-            % COMMANDS:
 
-            % COMMANDS:
               %! rmakers.beam_groups()
             \set stemLeftBeamCount = 2
               %! rmakers.beam_groups()
             \set stemRightBeamCount = 2
             a''16
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
-            % BEFORE:
-            % COMMANDS:
               %! rmakers.beam_groups()
             \set stemLeftBeamCount = 2
               %! rmakers.beam_groups()
             \set stemRightBeamCount = 1
             ef''!16
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
         }
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
         \tweak text #tuplet-number::calc-fraction-text
         \tweak edge-height #'(0.7 . 0)
         \times 5/7
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
-            % BEFORE:
-            % COMMANDS:
               %! rmakers.beam_groups()
             \set stemLeftBeamCount = 1
               %! rmakers.beam_groups()
             \set stemRightBeamCount = 2
             gqs''!16
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
-            % BEFORE:
-            % OPEN_BRACKETS:
             \acciaccatura {
-                % ABSOLUTE_BEFORE:
-                % COMMANDS:
 
                 af''!16
-                % CLOSING:
-                % COMMANDS:
 
-            % CLOSE_BRACKETS:
             }
-            % ABSOLUTE_AFTER:
-            % COMMANDS:
 
-            % COMMANDS:
               %! rmakers.beam_groups()
             \set stemLeftBeamCount = 2
               %! rmakers.beam_groups()
             \set stemRightBeamCount = 2
             g''16
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
-            % BEFORE:
-            % OPEN_BRACKETS:
             \acciaccatura {
-                % ABSOLUTE_BEFORE:
-                % COMMANDS:
 
                 f''16
-                % CLOSING:
-                % COMMANDS:
 
-            % CLOSE_BRACKETS:
             }
-            % ABSOLUTE_AFTER:
-            % COMMANDS:
 
-            % COMMANDS:
             \set stemLeftBeamCount = 2
             \set stemRightBeamCount = 1
             e''16
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
     }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Guitar.Music.2 measure 17]
     s1 * 3/16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
     {
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
         \tweak edge-height #'(0.7 . 0)
         \times 4/5
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Guitar.Music.2 measure 18]
-            % BEFORE:
-            % COMMANDS:
             \set stemLeftBeamCount = 1
             \set stemRightBeamCount = 2
             bqf''!16
-            % AFTER:
-            % MARKUP:
               %! FIGURE_LABEL
             %@% - \tweak color #blue
               %! FIGURE_LABEL
             %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (18) \hspace #1 \concat { "20" \sub 1 } ] }
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
             b''16
-            % AFTER:
-            % STOP_BEAM:
               %! rmakers.beam()
             ]
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
     }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! dornen.make_empty_score()
   %! baca.path.extern()
 }
@@ -2550,26 +1710,15 @@ number.9.Guitar.Music.2 = {
 
   %! baca.path.extern()
 number.9.Guitar.Music.3 = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Guitar.Music.3 measure 1]
-    % BEFORE:
-    % COMMANDS:
       %! baca.beam_positions(1)
     \override Beam.positions = #'(-4 . -4)
     s1 * 3/8
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
     {
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % BEFORE:
-        % GROB_OVERRIDES:
         \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \score
             {
                 \context Score = "Score"
@@ -2606,20 +1755,13 @@ number.9.Guitar.Music.3 = {
                     ragged-right = ##t
                 }
             }
-        % OPEN_BRACKETS:
         \scaleDurations #'(1 . 1)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Guitar.Music.3 measure 3]
-            % BEFORE:
-            % GROB_OVERRIDES:
             \once \override Beam.grow-direction = #right
             a''32 * 1984/1024
-            % AFTER:
-            % MARKUP:
               %! FIGURE_LABEL
             %@% - \tweak color #blue
               %! FIGURE_LABEL
@@ -2627,86 +1769,47 @@ number.9.Guitar.Music.3 = {
               %! DURATION_MULTIPLIER
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1984" #"1024"
-            % START_BEAM:
               %! rmakers.beam()
             [
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
             ef''!32 * 1088/1024
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1088" #"1024"
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
             d''32 * 896/1024
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"896" #"1024"
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
             e''32 * 800/1024
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"800" #"1024"
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
             g''32 * 704/1024
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"704" #"1024"
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
             c''32 * 672/1024
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"672" #"1024"
-            % STOP_BEAM:
               %! rmakers.beam()
             ]
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
         }
-        % AFTER:
-        % GROB_REVERTS:
         \revert TupletNumber.text
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
     }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Guitar.Music.3 measure 4]
     s1 * 1/2
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
     {
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % BEFORE:
-        % GROB_OVERRIDES:
         \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \score
             {
                 \context Score = "Score"
@@ -2745,20 +1848,13 @@ number.9.Guitar.Music.3 = {
                     ragged-right = ##t
                 }
             }
-        % OPEN_BRACKETS:
         \scaleDurations #'(1 . 1)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Guitar.Music.3 measure 7]
-            % BEFORE:
-            % GROB_OVERRIDES:
             \once \override Beam.grow-direction = #right
             cs''!32 * 3264/1024
-            % AFTER:
-            % MARKUP:
               %! FIGURE_LABEL
             %@% - \tweak color #blue
               %! FIGURE_LABEL
@@ -2766,224 +1862,123 @@ number.9.Guitar.Music.3 = {
               %! DURATION_MULTIPLIER
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"3264" #"1024"
-            % START_BEAM:
               %! rmakers.beam()
             [
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
             e''32 * 1760/1024
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1760" #"1024"
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
             f''32 * 1440/1024
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1440" #"1024"
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
             cqs''!32 * 1280/1024
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1280" #"1024"
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
             eqs''!32 * 1152/1024
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1152" #"1024"
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
             fqs''!32 * 1088/1024
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1088" #"1024"
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
             g''32 * 1024/1024
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1024" #"1024"
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
             gqs''!32 * 960/1024
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"960" #"1024"
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
             aqf''!32 * 928/1024
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"928" #"1024"
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
             b''32 * 864/1024
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"864" #"1024"
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
             af''!32 * 832/1024
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"832" #"1024"
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
             fs''!32 * 832/1024
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"832" #"1024"
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
             bf''!32 * 800/1024
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"800" #"1024"
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
             dqf''!32 * 768/1024
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"768" #"1024"
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
             c''32 * 736/1024
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"736" #"1024"
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
             a''32 * 736/1024
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"736" #"1024"
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
             gqs''!32 * 704/1024
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"704" #"1024"
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
             aqf''!32 * 704/1024
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"704" #"1024"
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
             b''32 * 672/1024
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"672" #"1024"
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
             af''!32 * 672/1024
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"672" #"1024"
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
             fs''!32 * 672/1024
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"672" #"1024"
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
             g''32 * 640/1024
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"640" #"1024"
-            % STOP_BEAM:
               %! rmakers.beam()
             ]
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
         }
-        % AFTER:
-        % GROB_REVERTS:
         \revert TupletNumber.text
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
     }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
     {
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % BEFORE:
-        % GROB_OVERRIDES:
         \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \score
             {
                 \context Score = "Score"
@@ -3022,20 +2017,13 @@ number.9.Guitar.Music.3 = {
                     ragged-right = ##t
                 }
             }
-        % OPEN_BRACKETS:
         \scaleDurations #'(1 . 1)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Guitar.Music.3 measure 8]
-            % BEFORE:
-            % GROB_OVERRIDES:
             \once \override Beam.grow-direction = #right
             cs''!32 * 3264/1024
-            % AFTER:
-            % MARKUP:
               %! FIGURE_LABEL
             %@% - \tweak color #blue
               %! FIGURE_LABEL
@@ -3043,228 +2031,127 @@ number.9.Guitar.Music.3 = {
               %! DURATION_MULTIPLIER
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"3264" #"1024"
-            % START_BEAM:
               %! rmakers.beam()
             [
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
             e''32 * 1760/1024
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1760" #"1024"
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
             f''32 * 1440/1024
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1440" #"1024"
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
             cqs''!32 * 1280/1024
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1280" #"1024"
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
             eqs''!32 * 1152/1024
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1152" #"1024"
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
             fqs''!32 * 1088/1024
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1088" #"1024"
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
             g''32 * 1024/1024
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1024" #"1024"
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
             gqs''!32 * 960/1024
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"960" #"1024"
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
             aqf''!32 * 928/1024
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"928" #"1024"
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
             b''32 * 864/1024
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"864" #"1024"
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
             af''!32 * 832/1024
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"832" #"1024"
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
             fs''!32 * 832/1024
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"832" #"1024"
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
             bf''!32 * 800/1024
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"800" #"1024"
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
             dqf''!32 * 768/1024
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"768" #"1024"
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
             c''32 * 736/1024
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"736" #"1024"
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
             a''32 * 736/1024
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"736" #"1024"
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
             gqs''!32 * 704/1024
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"704" #"1024"
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
             aqf''!32 * 704/1024
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"704" #"1024"
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
             b''32 * 672/1024
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"672" #"1024"
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
             af''!32 * 672/1024
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"672" #"1024"
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
             fs''!32 * 672/1024
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"672" #"1024"
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
             g''32 * 640/1024
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"640" #"1024"
-            % STOP_BEAM:
               %! rmakers.beam()
             ]
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
         }
-        % AFTER:
-        % GROB_REVERTS:
         \revert TupletNumber.text
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
     }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Guitar.Music.3 measure 9]
     s1 * 4579/2240
-    % AFTER:
-    % COMMANDS:
       %! baca.beam_positions(2)
     \revert Beam.positions
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! dornen.make_empty_score()
   %! baca.path.extern()
 }
@@ -3272,16 +2159,11 @@ number.9.Guitar.Music.3 = {
 
   %! baca.path.extern()
 number.9.Guitar.Music.4 = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Guitar.Music.4 measure 1]
     s1 * 10039/2240
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! dornen.make_empty_score()
   %! baca.path.extern()
 }
@@ -3289,55 +2171,37 @@ number.9.Guitar.Music.4 = {
 
   %! baca.path.extern()
 number.9.Guitar.Staff = <<
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.make_global_context()
     \context GlobalRests = "Rests"
       %! baca.make_global_context()
       %! baca.path.extern()
     { \number.9.Rests }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! dornen.make_empty_score()
     \context GuitarMusicI = "Guitar.Music.1"
       %! dornen.make_empty_score()
       %! baca.path.extern()
     { \number.9.Guitar.Music.1 }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! dornen.make_empty_score()
     \context GuitarMusicII = "Guitar.Music.2"
       %! dornen.make_empty_score()
       %! baca.path.extern()
     { \number.9.Guitar.Music.2 }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! dornen.make_empty_score()
     \context GuitarMusicIII = "Guitar.Music.3"
       %! dornen.make_empty_score()
       %! baca.path.extern()
     { \number.9.Guitar.Music.3 }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! dornen.make_empty_score()
     \context GuitarMusicIV = "Guitar.Music.4"
       %! dornen.make_empty_score()
       %! baca.path.extern()
     { \number.9.Guitar.Music.4 }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! dornen.make_empty_score()
   %! baca.path.extern()
 >>

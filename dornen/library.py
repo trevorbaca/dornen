@@ -497,27 +497,22 @@ def graced_tuplets(collections):
     tuplets = []
     for i, collection in enumerate(collections):
         if i % 2 == 0:
-            tuplets_ = baca.figure(
-                [collection],
-                [1],
-                16,
-                acciaccatura=baca.lmr(
-                    left_length=1, right_counts=[2], right_cyclic=True
-                ),
-                treatments=["7:8"],
-            )
-            tuplets.extend(tuplets_)
+            treatment = "7:8"
         else:
-            tuplets_ = baca.figure(
-                [collection],
-                [1],
-                16,
-                acciaccatura=baca.lmr(
-                    left_length=1, right_counts=[2], right_cyclic=True
-                ),
-                treatments=["7:5"],
-            )
-            tuplets.extend(tuplets_)
+            treatment = "7:5"
+        containers, collection = baca.figures._do_acciaccatura(
+            collection,
+            baca.lmr(left_length=1, right_counts=[2], right_cyclic=True),
+            [abjad.Duration(1, 16)],
+        )
+        tuplets_ = baca.figure(
+            [collection],
+            [1],
+            16,
+            treatments=[treatment],
+        )
+        baca.figures._attach_before_grace_containers(containers, tuplets_[0])
+        tuplets.extend(tuplets_)
     groups = rmakers.nongrace_leaves_in_each_tuplet(tuplets)
     rmakers.beam_groups(groups, beam_lone_notes=True)
     return tuplets, 14
@@ -581,14 +576,26 @@ def monads(collections):
 
 
 def ovoids(collections):
-    tuplets = baca.figure(collections, [6, 1], 32, acciaccatura=baca.lmr(left_length=1))
-    groups = rmakers.nongrace_leaves_in_each_tuplet(tuplets)
-    rmakers.beam_groups(groups)
+    tuplets = []
+    for collection in collections:
+        containers, collection = baca.figures._do_acciaccatura(
+            collection, baca.lmr(left_length=1), [abjad.Duration(1, 16)]
+        )
+        tuplets_ = baca.figure([collection], [6, 1], 32)
+        assert len(tuplets_) == 1, repr(tuplets_)
+        baca.figures._attach_before_grace_containers(containers, tuplets_[0])
+        groups = rmakers.nongrace_leaves_in_each_tuplet(tuplets_)
+        rmakers.beam_groups(groups)
+        tuplets.extend(tuplets_)
     return tuplets, None
 
 
 def passepied(collections):
-    tuplets = baca.figure(collections[:1], [1], 32, acciaccatura=True)
+    containers, collection = baca.figures._do_acciaccatura(
+        collections[0], baca.LMR(), [abjad.Duration(1, 16)]
+    )
+    tuplets = baca.figure([collection], [1], 32)
+    baca.figures._attach_before_grace_containers(containers, tuplets[0])
     for collection in collections[1:]:
         tuplets_ = baca.figure(collection, [1], 16)
         tuplets.extend(tuplets_)

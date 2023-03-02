@@ -503,7 +503,6 @@ def graced_tuplets(collections):
         containers, collection = baca.figures.make_before_grace_containers(
             collection,
             baca.lmr(left_length=1, right_counts=[2], right_cyclic=True),
-            [abjad.Duration(1, 16)],
         )
         tuplets_ = baca.figure(
             [collection],
@@ -579,7 +578,7 @@ def ovoids(collections):
     tuplets = []
     for collection in collections:
         containers, collection = baca.figures.make_before_grace_containers(
-            collection, baca.lmr(left_length=1), [abjad.Duration(1, 16)]
+            collection, baca.lmr(left_length=1)
         )
         tuplets_ = baca.figure([collection], [6, 1], 32)
         assert len(tuplets_) == 1, repr(tuplets_)
@@ -592,7 +591,7 @@ def ovoids(collections):
 
 def passepied(collections):
     containers, collection = baca.figures.make_before_grace_containers(
-        collections[0], baca.LMR(), [abjad.Duration(1, 16)]
+        collections[0], baca.LMR()
     )
     tuplets = baca.figure([collection], [1], 32)
     baca.figures.attach_before_grace_containers(containers, tuplets[0])

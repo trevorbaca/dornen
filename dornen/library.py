@@ -381,9 +381,9 @@ def delicatissimo(collections):
 def design_1(start=None, stop=None):
     design_maker = DesignMaker()
     magenta_pitch_classes = _magenta_pitch_classes()
-    magenta_cursor = baca.Cursor.from_pitch_class_segments(magenta_pitch_classes)
+    magenta_cursor = baca.Cursor(magenta_pitch_classes, cyclic=True)
     blue_pitch_classes = _blue_pitch_classes()
-    blue_cursor = baca.Cursor.from_pitch_class_segments(blue_pitch_classes)
+    blue_cursor = baca.Cursor(blue_pitch_classes, cyclic=True)
     design_maker.partition(magenta_cursor, 2, [1])
     design_maker.partition(magenta_cursor, 2, [1])
     design_maker.partition(magenta_cursor, 2, [2])
@@ -414,9 +414,9 @@ def design_1(start=None, stop=None):
 
 def design_2(start=None, stop=None):
     blue_pitch_classes = _blue_pitch_classes()
-    blue_cursor = baca.Cursor.from_pitch_class_segments(blue_pitch_classes)
+    blue_cursor = baca.Cursor(blue_pitch_classes, cyclic=True)
     green_pitch_classes = _green_pitch_classes()
-    green_cursor = baca.Cursor.from_pitch_class_segments(green_pitch_classes)
+    green_cursor = baca.Cursor(green_pitch_classes, cyclic=True)
     design_maker = DesignMaker()
     design_maker.partition_cyclic(blue_cursor, 4, [4])
     design_maker.partition_cyclic(blue_cursor, 6, [5])
@@ -430,11 +430,9 @@ def design_2(start=None, stop=None):
     design = design_maker()
     if start is None and stop is None:
         return design
-    # cells = design.iterate(level=-2)
     cells = design
     pitch_lists = []
     for cell in cells:
-        # numbered_pitch_classes = cell.get_payload()
         numbered_pitch_classes = cell
         pitch_list = [_.number for _ in numbered_pitch_classes]
         pitch_lists.append(pitch_list)
@@ -444,11 +442,9 @@ def design_2(start=None, stop=None):
 
 def design_3(start=None, stop=None):
     green_pitch_classes = _green_pitch_classes()
-    green_cursor = baca.Cursor.from_pitch_class_segments(green_pitch_classes)
+    green_cursor = baca.Cursor(green_pitch_classes, cyclic=True)
     bright_green_pitch_classes = _bright_green_pitch_classes()
-    bright_green_cursor = baca.Cursor.from_pitch_class_segments(
-        bright_green_pitch_classes
-    )
+    bright_green_cursor = baca.Cursor(bright_green_pitch_classes, cyclic=True)
     design_maker = DesignMaker()
     design_maker.partition_cyclic(green_cursor, 12, [6, 5, 4, 3, 2, 1])
     design_maker.partition(bright_green_cursor, 6, [], ["T0"])

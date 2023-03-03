@@ -27,9 +27,9 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         baca.make_figures(
             accumulator,
             "v1",
+            tuplets,
             figure_name="W1",
             tsd=16,
-            tuplets=tuplets,
         )
     with baca.scope(design[4:5]) as collections:
         assert collections == [[3, 9, 4, 0, 10]]
@@ -41,9 +41,9 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         baca.make_figures(
             accumulator,
             "v2",
+            tuplets,
             figure_name="F1_1",
             tsd=tsd,
-            tuplets=tuplets,
         )
     with baca.scope(design[5:8]) as collections:
         assert collections == [
@@ -57,9 +57,9 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         baca.make_figures(
             accumulator,
             "v1",
+            tuplets,
             figure_name="R1",
             tsd=tsd,
-            tuplets=tuplets,
         )
     with baca.scope(design[4:5]) as collections:
         assert collections == [[3, 9, 4, 0, 10]]
@@ -70,9 +70,9 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         baca.make_figures(
             accumulator,
             "v2",
+            tuplets,
             figure_name="F1_2",
             tsd=tsd,
-            tuplets=tuplets,
         )
     with baca.scope(design[6:9]) as collections:
         assert collections == [
@@ -86,9 +86,9 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         baca.make_figures(
             accumulator,
             "v1",
+            tuplets,
             figure_name="R2",
             tsd=tsd,
-            tuplets=tuplets,
         )
     with baca.scope(design[4:5]) as collections:
         assert collections == [[3, 9, 4, 0, 10]]
@@ -99,9 +99,9 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         baca.make_figures(
             accumulator,
             "v2",
+            tuplets,
             figure_name="F1_3",
             tsd=tsd,
-            tuplets=tuplets,
         )
     with baca.scope(design[7:10]) as collections:
         assert collections == [
@@ -115,9 +115,9 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         baca.make_figures(
             accumulator,
             "v1",
+            tuplets,
             figure_name="R3",
             tsd=tsd,
-            tuplets=tuplets,
         )
     with baca.scope(design[4:5]) as collections:
         assert collections == [[3, 9, 4, 0, 10]]
@@ -128,9 +128,9 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         baca.make_figures(
             accumulator,
             "v2",
+            tuplets,
             figure_name="F1_4",
             tsd=tsd,
-            tuplets=tuplets,
         )
     with baca.scope(design[8:11]) as collections:
         assert collections == [
@@ -144,9 +144,9 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         baca.make_figures(
             accumulator,
             "v1",
+            tuplets,
             figure_name="R4",
             tsd=tsd,
-            tuplets=tuplets,
         )
     with baca.scope(design[4:5]) as collections:
         assert collections == [[3, 9, 4, 0, 10]]
@@ -156,9 +156,9 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         baca.make_figures(
             accumulator,
             "v2",
+            tuplets,
             figure_name="F1",
             tsd=tsd,
-            tuplets=tuplets,
         )
     with baca.scope(design[9:13]) as collections:
         assert collections == [
@@ -172,9 +172,9 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         baca.make_figures(
             accumulator,
             "v1",
+            tuplets,
             figure_name="R5",
             tsd=tsd,
-            tuplets=tuplets,
         )
     with baca.scope(baca.sequence.reveal(design[4:5], 1)) as collections:
         assert collections == [[3]]
@@ -184,9 +184,9 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         baca.make_figures(
             accumulator,
             "v2",
+            tuplets,
             figure_name="F1_1*",
             tsd=tsd,
-            tuplets=tuplets,
         )
     with baca.scope(design[13:]) as collections:
         assert collections == [
@@ -199,9 +199,9 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         baca.make_figures(
             accumulator,
             "v1",
+            tuplets,
             figure_name="D1",
             tsd=tsd,
-            tuplets=tuplets,
         )
     with baca.scope(design[4:5]) as collections:
         assert collections == [[3, 9, 4, 0, 10]]
@@ -211,9 +211,9 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         baca.make_figures(
             accumulator,
             "v2",
+            tuplets,
             figure_name="F1_2*",
             tsd=tsd,
-            tuplets=tuplets,
         )
     with baca.scope(design[13:]) as collections:
         assert collections == [
@@ -224,9 +224,9 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         baca.make_figures(
             accumulator,
             "v1",
+            tuplets,
             figure_name="D2",
             tsd=tsd,
-            tuplets=tuplets,
         )
     voices = baca.section.cache_voices(score, library.voice_abbreviations)
     time_signatures = accumulator.time_signatures

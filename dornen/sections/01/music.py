@@ -22,9 +22,9 @@ def make_empty_score():
         baca.make_figures(
             accumulator,
             "v1",
+            tuplets,
             figure_name="0",
             tsd=tsd,
-            tuplets=tuplets,
         )
     with cursor([[6, 2, 3, 5, 9, 8, 0]]) as collection:
         tuplets, tsd = library.passepied(collection)
@@ -35,9 +35,9 @@ def make_empty_score():
         baca.make_figures(
             accumulator,
             "v2",
+            tuplets,
             figure_name="1",
             tsd=tsd,
-            tuplets=tuplets,
         )
     with cursor([[11]]) as collection:
         tuplets, tsd = library.dotted_eighths(collection)
@@ -46,9 +46,9 @@ def make_empty_score():
         baca.make_figures(
             accumulator,
             "v1",
+            tuplets,
             figure_name="2",
             tsd=tsd,
-            tuplets=tuplets,
         )
     with cursor([[10, 7, 9, 8, 0, 5]]) as collection:
         tuplets, tsd = library.passepied(collection)
@@ -58,9 +58,9 @@ def make_empty_score():
         baca.make_figures(
             accumulator,
             "v2",
+            tuplets,
             figure_name="3",
             tsd=tsd,
-            tuplets=tuplets,
         )
     with cursor([[10, 7]]) as collection:
         tuplets, tsd = library.dotted_eighths(collection)
@@ -68,9 +68,9 @@ def make_empty_score():
         baca.make_figures(
             accumulator,
             "v1",
+            tuplets,
             figure_name="4",
             tsd=tsd,
-            tuplets=tuplets,
         )
     with cursor([[11, 6, 2, 3, 4]]) as collection:
         tuplets, tsd = library.passepied(collection)
@@ -79,9 +79,9 @@ def make_empty_score():
         baca.make_figures(
             accumulator,
             "v2",
+            tuplets,
             figure_name="5",
             tsd=tsd,
-            tuplets=tuplets,
         )
     with cursor([[7, 11]]) as collection:
         tuplets, tsd = library.dotted_eighths(collection)
@@ -91,9 +91,9 @@ def make_empty_score():
         baca.make_figures(
             accumulator,
             "v1",
+            tuplets,
             figure_name="6",
             tsd=tsd,
-            tuplets=tuplets,
         )
     with cursor([[10, 2, 3, 4, 6]]) as collection:
         tuplets, tsd = library.passepied(collection)
@@ -104,9 +104,9 @@ def make_empty_score():
         baca.make_figures(
             accumulator,
             "v2",
+            tuplets,
             figure_name="7",
             tsd=tsd,
-            tuplets=tuplets,
         )
     with cursor([[8, 0, 5, 9], [3, 4, 6, 2]], n=2) as collection:
         tuplets, tsd = library.running(collection)
@@ -114,9 +114,9 @@ def make_empty_score():
         baca.make_figures(
             accumulator,
             "v4",
+            tuplets,
             figure_name="8",
             tsd=tsd,
-            tuplets=tuplets,
         )
     with cursor([[0, 5, 9, 8]]) as collection:
         tuplets, tsd = library.dotted_eighths(collection)
@@ -124,9 +124,9 @@ def make_empty_score():
         baca.make_figures(
             accumulator,
             "v1",
+            tuplets,
             figure_name="9",
             tsd=tsd,
-            tuplets=tuplets,
         )
     with cursor(
         [[11, 10, 7], [1, 0, 10, 5, 8, 6, 11, 2, 4, 3, 9, 8, 6, 11, 2, 5]], n=2
@@ -136,9 +136,9 @@ def make_empty_score():
         baca.make_figures(
             accumulator,
             "v4",
+            tuplets,
             figure_name="10",
             tsd=tsd,
-            tuplets=tuplets,
         )
     with cursor([[6, 10]]) as collection:
         tuplets, tsd = library.dotted_eighths(collection)
@@ -148,9 +148,9 @@ def make_empty_score():
         baca.make_figures(
             accumulator,
             "v1",
+            tuplets,
             figure_name="11",
             tsd=tsd,
-            tuplets=tuplets,
         )
     with cursor([[9, 1, 11, 8, 0, 5, 7, 3, 4]]) as collection:
         tuplets, tsd = library.passepied(collection)
@@ -159,9 +159,9 @@ def make_empty_score():
         baca.make_figures(
             accumulator,
             "v2",
+            tuplets,
             figure_name="12",
             tsd=tsd,
-            tuplets=tuplets,
         )
     with cursor([[8, 0]]) as collection:
         tuplets, tsd = library.dotted_eighths(collection)
@@ -169,9 +169,9 @@ def make_empty_score():
         baca.make_figures(
             accumulator,
             "v1",
+            tuplets,
             figure_name="13",
             tsd=tsd,
-            tuplets=tuplets,
         )
     with cursor([[11, 7, 3, 4, 5, 10, 9, 1, 6]]) as collection:
         tuplets, tsd = library.passepied(collection)
@@ -182,9 +182,9 @@ def make_empty_score():
         baca.make_figures(
             accumulator,
             "v2",
+            tuplets,
             figure_name="14",
             tsd=tsd,
-            tuplets=tuplets,
         )
     with cursor([[3, 4, 5, 7]]) as collection:
         tuplets, tsd = library.passepied(collection)
@@ -193,9 +193,9 @@ def make_empty_score():
         baca.make_figures(
             accumulator,
             "v2",
+            tuplets,
             figure_name="15",
             tsd=tsd,
-            tuplets=tuplets,
         )
     with cursor([[9, 1, 6, 10, 0, 11, 8], [1, 6, 10, 9]], n=2) as collection:
         tuplets, tsd = library.running(collection)
@@ -203,9 +203,9 @@ def make_empty_score():
         baca.make_figures(
             accumulator,
             "v4",
+            tuplets,
             figure_name="16",
             tsd=tsd,
-            tuplets=tuplets,
         )
     with cursor([[11, 8, 0, 4, 5, 7, 3]]) as collection:
         tuplets, tsd = library.waves(collection, denominator=64, inverted=True)
@@ -213,9 +213,9 @@ def make_empty_score():
         baca.make_figures(
             accumulator,
             "v3",
+            tuplets,
             figure_name="17",
             tsd=tsd,
-            tuplets=tuplets,
         )
     with cursor([[5, 11, 6, 2, 0, 3, 11, 6, 5, 0, 3, 2]]) as collection:
         tuplets, tsd = library.waves(collection, denominator=64, inverted=True)
@@ -223,9 +223,9 @@ def make_empty_score():
         baca.make_figures(
             accumulator,
             "v3",
+            tuplets,
             figure_name="18",
             tsd=tsd,
-            tuplets=tuplets,
         )
     voices = baca.section.cache_voices(score, library.voice_abbreviations)
     time_signatures = accumulator.time_signatures

@@ -14,200 +14,235 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     design_2 = library.design_2(stop=14)
     design = design_2[:14]
     assert len(design) == 14
-
-    collections = design[:4]
-    tuplets, tsd = library.waves(collections, denominator=64, inverted=True)
-    baca.beam_positions(tuplets, 8)
-    baca.register(tuplets, 0, -14)
-    baca.make_figures(
-        accumulator,
-        "v1",
-        None,
-        figure_name="W1",
-        tsd=16,
-        tuplets=tuplets,
-    )
-
-    collections = baca.sequence.reveal(design[4:5], 1)
-    tuplets, tsd = library.twentieths(collections)
-    baca.beam_positions(tuplets, -8)
-    baca.register(tuplets, 6)
-    baca.extend_beam(abjad.select.leaf(tuplets, -1))
-    baca.make_figures(
-        accumulator,
-        "v2",
-        None,
-        figure_name="F1_1",
-        tsd=tsd,
-        tuplets=tuplets,
-    )
-
-    collections = design[5:8]
-    tuplets, tsd = library.running(collections)
-    baca.register(tuplets, -14, 0)
-    baca.extend_beam(abjad.select.leaf(tuplets, -1))
-    baca.make_figures(
-        accumulator,
-        "v1",
-        None,
-        figure_name="R1",
-        tsd=tsd,
-        tuplets=tuplets,
-    )
-
-    collections = baca.sequence.reveal(design[4:5], 2)
-    tuplets, tsd = library.twentieths(collections)
-    baca.register(tuplets, 6)
-    baca.extend_beam(abjad.select.leaf(tuplets, -1))
-    baca.make_figures(
-        accumulator,
-        "v2",
-        None,
-        figure_name="F1_2",
-        tsd=tsd,
-        tuplets=tuplets,
-    )
-
-    collections = design[6:9]
-    tuplets, tsd = library.running(collections)
-    baca.register(tuplets, -14, 0)
-    baca.extend_beam(abjad.select.leaf(tuplets, -1))
-    baca.make_figures(
-        accumulator,
-        "v1",
-        None,
-        figure_name="R2",
-        tsd=tsd,
-        tuplets=tuplets,
-    )
-
-    collections = baca.sequence.reveal(design[4:5], 3)
-    tuplets, tsd = library.twentieths(collections)
-    baca.register(tuplets, 6)
-    baca.extend_beam(abjad.select.leaf(tuplets, -1))
-    baca.make_figures(
-        accumulator,
-        "v2",
-        None,
-        figure_name="F1_3",
-        tsd=tsd,
-        tuplets=tuplets,
-    )
-
-    collections = design[7:10]
-    tuplets, tsd = library.running(collections)
-    baca.register(tuplets, -14, 0)
-    baca.extend_beam(abjad.select.leaf(tuplets, -1))
-    baca.make_figures(
-        accumulator,
-        "v1",
-        None,
-        figure_name="R3",
-        tsd=tsd,
-        tuplets=tuplets,
-    )
-
-    collections = baca.sequence.reveal(design[4:5], 4)
-    tuplets, tsd = library.twentieths(collections)
-    baca.register(tuplets, 6)
-    baca.extend_beam(abjad.select.leaf(tuplets, -1))
-    baca.make_figures(
-        accumulator,
-        "v2",
-        None,
-        figure_name="F1_4",
-        tsd=tsd,
-        tuplets=tuplets,
-    )
-
-    collections = design[8:11]
-    tuplets, tsd = library.running(collections)
-    baca.register(tuplets, -14, 0)
-    baca.extend_beam(abjad.select.leaf(tuplets, -1))
-    baca.make_figures(
-        accumulator,
-        "v1",
-        None,
-        figure_name="R4",
-        tsd=tsd,
-        tuplets=tuplets,
-    )
-
-    collections = baca.sequence.reveal(design[4:5], 5)
-    tuplets, tsd = library.twentieths(collections)
-    baca.register(tuplets, 6)
-    baca.make_figures(
-        accumulator,
-        "v2",
-        None,
-        figure_name="F1",
-        tsd=tsd,
-        tuplets=tuplets,
-    )
-
-    collections = design[9:13]
-    tuplets, tsd = library.running(collections)
-    baca.register(tuplets, -14, 6)
-    baca.make_figures(
-        accumulator,
-        "v1",
-        None,
-        figure_name="R5",
-        tsd=tsd,
-        tuplets=tuplets,
-    )
-
-    collections = baca.sequence.reveal(design[4:5], 1)
-    tuplets, tsd = library.twentieths(collections)
-    baca.register(tuplets, 6)
-    baca.extend_beam(abjad.select.leaf(tuplets, -1))
-    baca.make_figures(
-        accumulator,
-        "v2",
-        None,
-        figure_name="F1_1*",
-        tsd=tsd,
-        tuplets=tuplets,
-    )
-
-    collections = design[13:]
-    tuplets, tsd = library.delicatissimo(collections)
-    baca.text_script_staff_padding(tuplets, 9)
-    baca.register(tuplets, 6, -20)
-    baca.extend_beam(abjad.select.leaf(tuplets, -1))
-    baca.make_figures(
-        accumulator,
-        "v1",
-        None,
-        figure_name="D1",
-        tsd=tsd,
-        tuplets=tuplets,
-    )
-
-    collections = baca.sequence.reveal(design[4:5], 2)
-    tuplets, tsd = library.twentieths(collections)
-    baca.register(tuplets, 6)
-    baca.make_figures(
-        accumulator,
-        "v2",
-        None,
-        figure_name="F1_2*",
-        tsd=tsd,
-        tuplets=tuplets,
-    )
-
-    collections = design[13:]
-    tuplets, tsd = library.delicatissimo(collections)
-    baca.register(tuplets, -20, 6)
-    baca.make_figures(
-        accumulator,
-        "v1",
-        None,
-        figure_name="D2",
-        tsd=tsd,
-        tuplets=tuplets,
-    )
-
+    with baca.scope(design[:4]) as collections:
+        assert collections == [
+            [1, 0, 10, 5],
+            [8, 6, 11, 2],
+            [4, 3, 9, 8],
+            [6, 11, 2, 5],
+        ]
+        tuplets, tsd = library.waves(collections, denominator=64, inverted=True)
+        baca.beam_positions(tuplets, 8)
+        baca.register(tuplets, 0, -14)
+        baca.make_figures(
+            accumulator,
+            "v1",
+            None,
+            figure_name="W1",
+            tsd=16,
+            tuplets=tuplets,
+        )
+    with baca.scope(design[4:5]) as collections:
+        assert collections == [[3, 9, 4, 0, 10]]
+        collections = baca.sequence.reveal(design[4:5], 1)
+        tuplets, tsd = library.twentieths(collections)
+        baca.beam_positions(tuplets, -8)
+        baca.register(tuplets, 6)
+        baca.extend_beam(abjad.select.leaf(tuplets, -1))
+        baca.make_figures(
+            accumulator,
+            "v2",
+            None,
+            figure_name="F1_1",
+            tsd=tsd,
+            tuplets=tuplets,
+        )
+    with baca.scope(design[5:8]) as collections:
+        assert collections == [
+            [1, 9, 4, 3, 10],
+            [1, 0, 6, 11, 2],
+            [5, 8, 1, 0, 10],
+        ]
+        tuplets, tsd = library.running(collections)
+        baca.register(tuplets, -14, 0)
+        baca.extend_beam(abjad.select.leaf(tuplets, -1))
+        baca.make_figures(
+            accumulator,
+            "v1",
+            None,
+            figure_name="R1",
+            tsd=tsd,
+            tuplets=tuplets,
+        )
+    with baca.scope(design[4:5]) as collections:
+        assert collections == [[3, 9, 4, 0, 10]]
+        collections = baca.sequence.reveal(design[4:5], 2)
+        tuplets, tsd = library.twentieths(collections)
+        baca.register(tuplets, 6)
+        baca.extend_beam(abjad.select.leaf(tuplets, -1))
+        baca.make_figures(
+            accumulator,
+            "v2",
+            None,
+            figure_name="F1_2",
+            tsd=tsd,
+            tuplets=tuplets,
+        )
+    with baca.scope(design[6:9]) as collections:
+        assert collections == [
+            [1, 0, 6, 11, 2],
+            [5, 8, 1, 0, 10],
+            [11, 2, 5, 8, 6, 4],
+        ]
+        tuplets, tsd = library.running(collections)
+        baca.register(tuplets, -14, 0)
+        baca.extend_beam(abjad.select.leaf(tuplets, -1))
+        baca.make_figures(
+            accumulator,
+            "v1",
+            None,
+            figure_name="R2",
+            tsd=tsd,
+            tuplets=tuplets,
+        )
+    with baca.scope(design[4:5]) as collections:
+        assert collections == [[3, 9, 4, 0, 10]]
+        collections = baca.sequence.reveal(design[4:5], 3)
+        tuplets, tsd = library.twentieths(collections)
+        baca.register(tuplets, 6)
+        baca.extend_beam(abjad.select.leaf(tuplets, -1))
+        baca.make_figures(
+            accumulator,
+            "v2",
+            None,
+            figure_name="F1_3",
+            tsd=tsd,
+            tuplets=tuplets,
+        )
+    with baca.scope(design[7:10]) as collections:
+        assert collections == [
+            [5, 8, 1, 0, 10],
+            [11, 2, 5, 8, 6, 4],
+            [3, 9, 2, 5, 8, 6],
+        ]
+        tuplets, tsd = library.running(collections)
+        baca.register(tuplets, -14, 0)
+        baca.extend_beam(abjad.select.leaf(tuplets, -1))
+        baca.make_figures(
+            accumulator,
+            "v1",
+            None,
+            figure_name="R3",
+            tsd=tsd,
+            tuplets=tuplets,
+        )
+    with baca.scope(design[4:5]) as collections:
+        assert collections == [[3, 9, 4, 0, 10]]
+        collections = baca.sequence.reveal(design[4:5], 4)
+        tuplets, tsd = library.twentieths(collections)
+        baca.register(tuplets, 6)
+        baca.extend_beam(abjad.select.leaf(tuplets, -1))
+        baca.make_figures(
+            accumulator,
+            "v2",
+            None,
+            figure_name="F1_4",
+            tsd=tsd,
+            tuplets=tuplets,
+        )
+    with baca.scope(design[8:11]) as collections:
+        assert collections == [
+            [11, 2, 5, 8, 6, 4],
+            [3, 9, 2, 5, 8, 6],
+            [11, 3, 9, 4, 0, 10],
+        ]
+        tuplets, tsd = library.running(collections)
+        baca.register(tuplets, -14, 0)
+        baca.extend_beam(abjad.select.leaf(tuplets, -1))
+        baca.make_figures(
+            accumulator,
+            "v1",
+            None,
+            figure_name="R4",
+            tsd=tsd,
+            tuplets=tuplets,
+        )
+    with baca.scope(design[4:5]) as collections:
+        assert collections == [[3, 9, 4, 0, 10]]
+        collections = baca.sequence.reveal(design[4:5], 5)
+        tuplets, tsd = library.twentieths(collections)
+        baca.register(tuplets, 6)
+        baca.make_figures(
+            accumulator,
+            "v2",
+            None,
+            figure_name="F1",
+            tsd=tsd,
+            tuplets=tuplets,
+        )
+    with baca.scope(design[9:13]) as collections:
+        assert collections == [
+            [3, 9, 2, 5, 8, 6],
+            [11, 3, 9, 4, 0, 10],
+            [1, 9, 4, 3, 10, 1],
+            [0, 5, 8, 6, 11, 2],
+        ]
+        tuplets, tsd = library.running(collections)
+        baca.register(tuplets, -14, 6)
+        baca.make_figures(
+            accumulator,
+            "v1",
+            None,
+            figure_name="R5",
+            tsd=tsd,
+            tuplets=tuplets,
+        )
+    with baca.scope(baca.sequence.reveal(design[4:5], 1)) as collections:
+        assert collections == [[3]]
+        tuplets, tsd = library.twentieths(collections)
+        baca.register(tuplets, 6)
+        baca.extend_beam(abjad.select.leaf(tuplets, -1))
+        baca.make_figures(
+            accumulator,
+            "v2",
+            None,
+            figure_name="F1_1*",
+            tsd=tsd,
+            tuplets=tuplets,
+        )
+    with baca.scope(design[13:]) as collections:
+        assert collections == [
+            [5, 9, 11, 10, 0, 6, 7, 8, 2, 1, 3, 7, 8, 2, 1, 3, 6, 9, 11, 10, 0, 5]
+        ]
+        tuplets, tsd = library.delicatissimo(collections)
+        baca.text_script_staff_padding(tuplets, 9)
+        baca.register(tuplets, 6, -20)
+        baca.extend_beam(abjad.select.leaf(tuplets, -1))
+        baca.make_figures(
+            accumulator,
+            "v1",
+            None,
+            figure_name="D1",
+            tsd=tsd,
+            tuplets=tuplets,
+        )
+    with baca.scope(design[4:5]) as collections:
+        assert collections == [[3, 9, 4, 0, 10]]
+        collections = baca.sequence.reveal(design[4:5], 2)
+        tuplets, tsd = library.twentieths(collections)
+        baca.register(tuplets, 6)
+        baca.make_figures(
+            accumulator,
+            "v2",
+            None,
+            figure_name="F1_2*",
+            tsd=tsd,
+            tuplets=tuplets,
+        )
+    with baca.scope(design[13:]) as collections:
+        assert collections == [
+            [5, 9, 11, 10, 0, 6, 7, 8, 2, 1, 3, 7, 8, 2, 1, 3, 6, 9, 11, 10, 0, 5]
+        ]
+        tuplets, tsd = library.delicatissimo(collections)
+        baca.register(tuplets, -20, 6)
+        baca.make_figures(
+            accumulator,
+            "v1",
+            None,
+            figure_name="D2",
+            tsd=tsd,
+            tuplets=tuplets,
+        )
     voices = baca.section.cache_voices(score, library.voice_abbreviations)
     time_signatures = accumulator.time_signatures
     time_signatures = baca.section.time_signatures(time_signatures)

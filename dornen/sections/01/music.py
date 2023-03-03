@@ -22,7 +22,6 @@ def make_empty_score():
         baca.make_figures(
             accumulator,
             "v1",
-            None,
             figure_name="0",
             tsd=tsd,
             tuplets=tuplets,
@@ -36,7 +35,6 @@ def make_empty_score():
         baca.make_figures(
             accumulator,
             "v2",
-            None,
             figure_name="1",
             tsd=tsd,
             tuplets=tuplets,
@@ -48,7 +46,6 @@ def make_empty_score():
         baca.make_figures(
             accumulator,
             "v1",
-            None,
             figure_name="2",
             tsd=tsd,
             tuplets=tuplets,
@@ -61,7 +58,6 @@ def make_empty_score():
         baca.make_figures(
             accumulator,
             "v2",
-            None,
             figure_name="3",
             tsd=tsd,
             tuplets=tuplets,
@@ -72,7 +68,6 @@ def make_empty_score():
         baca.make_figures(
             accumulator,
             "v1",
-            None,
             figure_name="4",
             tsd=tsd,
             tuplets=tuplets,
@@ -84,7 +79,6 @@ def make_empty_score():
         baca.make_figures(
             accumulator,
             "v2",
-            None,
             figure_name="5",
             tsd=tsd,
             tuplets=tuplets,
@@ -97,7 +91,6 @@ def make_empty_score():
         baca.make_figures(
             accumulator,
             "v1",
-            None,
             figure_name="6",
             tsd=tsd,
             tuplets=tuplets,
@@ -111,7 +104,6 @@ def make_empty_score():
         baca.make_figures(
             accumulator,
             "v2",
-            None,
             figure_name="7",
             tsd=tsd,
             tuplets=tuplets,
@@ -122,7 +114,6 @@ def make_empty_score():
         baca.make_figures(
             accumulator,
             "v4",
-            None,
             figure_name="8",
             tsd=tsd,
             tuplets=tuplets,
@@ -133,7 +124,6 @@ def make_empty_score():
         baca.make_figures(
             accumulator,
             "v1",
-            None,
             figure_name="9",
             tsd=tsd,
             tuplets=tuplets,
@@ -146,7 +136,6 @@ def make_empty_score():
         baca.make_figures(
             accumulator,
             "v4",
-            None,
             figure_name="10",
             tsd=tsd,
             tuplets=tuplets,
@@ -159,7 +148,6 @@ def make_empty_score():
         baca.make_figures(
             accumulator,
             "v1",
-            None,
             figure_name="11",
             tsd=tsd,
             tuplets=tuplets,
@@ -171,7 +159,6 @@ def make_empty_score():
         baca.make_figures(
             accumulator,
             "v2",
-            None,
             figure_name="12",
             tsd=tsd,
             tuplets=tuplets,
@@ -182,7 +169,6 @@ def make_empty_score():
         baca.make_figures(
             accumulator,
             "v1",
-            None,
             figure_name="13",
             tsd=tsd,
             tuplets=tuplets,
@@ -196,7 +182,6 @@ def make_empty_score():
         baca.make_figures(
             accumulator,
             "v2",
-            None,
             figure_name="14",
             tsd=tsd,
             tuplets=tuplets,
@@ -208,7 +193,6 @@ def make_empty_score():
         baca.make_figures(
             accumulator,
             "v2",
-            None,
             figure_name="15",
             tsd=tsd,
             tuplets=tuplets,
@@ -219,7 +203,6 @@ def make_empty_score():
         baca.make_figures(
             accumulator,
             "v4",
-            None,
             figure_name="16",
             tsd=tsd,
             tuplets=tuplets,
@@ -230,7 +213,6 @@ def make_empty_score():
         baca.make_figures(
             accumulator,
             "v3",
-            None,
             figure_name="17",
             tsd=tsd,
             tuplets=tuplets,
@@ -241,7 +223,6 @@ def make_empty_score():
         baca.make_figures(
             accumulator,
             "v3",
-            None,
             figure_name="18",
             tsd=tsd,
             tuplets=tuplets,

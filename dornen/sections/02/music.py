@@ -27,7 +27,6 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         baca.make_figures(
             accumulator,
             "v1",
-            None,
             figure_name="W1",
             tsd=16,
             tuplets=tuplets,
@@ -42,7 +41,6 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         baca.make_figures(
             accumulator,
             "v2",
-            None,
             figure_name="F1_1",
             tsd=tsd,
             tuplets=tuplets,
@@ -59,7 +57,6 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         baca.make_figures(
             accumulator,
             "v1",
-            None,
             figure_name="R1",
             tsd=tsd,
             tuplets=tuplets,
@@ -73,7 +70,6 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         baca.make_figures(
             accumulator,
             "v2",
-            None,
             figure_name="F1_2",
             tsd=tsd,
             tuplets=tuplets,
@@ -90,7 +86,6 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         baca.make_figures(
             accumulator,
             "v1",
-            None,
             figure_name="R2",
             tsd=tsd,
             tuplets=tuplets,
@@ -104,7 +99,6 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         baca.make_figures(
             accumulator,
             "v2",
-            None,
             figure_name="F1_3",
             tsd=tsd,
             tuplets=tuplets,
@@ -121,7 +115,6 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         baca.make_figures(
             accumulator,
             "v1",
-            None,
             figure_name="R3",
             tsd=tsd,
             tuplets=tuplets,
@@ -135,7 +128,6 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         baca.make_figures(
             accumulator,
             "v2",
-            None,
             figure_name="F1_4",
             tsd=tsd,
             tuplets=tuplets,
@@ -152,7 +144,6 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         baca.make_figures(
             accumulator,
             "v1",
-            None,
             figure_name="R4",
             tsd=tsd,
             tuplets=tuplets,
@@ -165,7 +156,6 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         baca.make_figures(
             accumulator,
             "v2",
-            None,
             figure_name="F1",
             tsd=tsd,
             tuplets=tuplets,
@@ -182,7 +172,6 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         baca.make_figures(
             accumulator,
             "v1",
-            None,
             figure_name="R5",
             tsd=tsd,
             tuplets=tuplets,
@@ -195,7 +184,6 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         baca.make_figures(
             accumulator,
             "v2",
-            None,
             figure_name="F1_1*",
             tsd=tsd,
             tuplets=tuplets,
@@ -211,7 +199,6 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         baca.make_figures(
             accumulator,
             "v1",
-            None,
             figure_name="D1",
             tsd=tsd,
             tuplets=tuplets,
@@ -224,7 +211,6 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         baca.make_figures(
             accumulator,
             "v2",
-            None,
             figure_name="F1_2*",
             tsd=tsd,
             tuplets=tuplets,
@@ -238,7 +224,6 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         baca.make_figures(
             accumulator,
             "v1",
-            None,
             figure_name="D2",
             tsd=tsd,
             tuplets=tuplets,

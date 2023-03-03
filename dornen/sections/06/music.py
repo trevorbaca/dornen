@@ -13,93 +13,92 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     accumulator = baca.figures.Accumulator(score, library.voice_abbreviations)
     design = library.design_3(start=10, stop=30)
     assert len(design) == 20
-
-    collections = design[:1]
-    tuplets, tsd = library.forty_eighths(collections)
-    baca.tenuto(baca.select.pheads(tuplets))
-    baca.beam_positions(tuplets, 10)
-    baca.register(tuplets, -12)
-    baca.extend_beam(abjad.select.leaf(tuplets, -1))
-    baca.make_figures(
-        accumulator,
-        "v1",
-        None,
-        figure_name="48_1",
-        tsd=tsd,
-        tuplets=tuplets,
-    )
-
-    collections = design[1:2]
-    tuplets, tsd = library.sixteenths(collections)
-    baca.extend_beam(abjad.select.leaf(tuplets, -1))
-    baca.make_figures(
-        accumulator,
-        "v3",
-        None,
-        figure_name="16_1",
-        tsd=tsd,
-        tuplets=tuplets,
-    )
-
-    collections = design[2:5]
-    tuplets, tsd = library.running(collections)
-    baca.register(tuplets, -14, 0)
-    baca.extend_beam(abjad.select.leaf(tuplets, -1))
-    baca.make_figures(
-        accumulator,
-        "v1",
-        None,
-        figure_name="R1",
-        tsd=tsd,
-        tuplets=tuplets,
-    )
-
-    collections = design[5:6]
-    tuplets, tsd = library.twentieths(collections)
-    baca.make_figures(
-        accumulator,
-        "v4",
-        None,
-        figure_name="20_1",
-        tsd=tsd,
-        tuplets=tuplets,
-    )
-
-    collections = design[6:7]
-    tuplets, tsd = library.forty_eighths(collections)
-    baca.tenuto(baca.select.pheads(tuplets))
-    baca.register(tuplets, -12)
-    baca.make_figures(
-        accumulator,
-        "v1",
-        None,
-        figure_name="48_2",
-        tsd=tsd,
-        tuplets=tuplets,
-    )
-
-    collections = design[7:8]
-    tuplets, tsd = library.sixteenths(collections)
-    baca.make_figures(
-        accumulator,
-        "v3",
-        None,
-        figure_name="16_2",
-        tsd=tsd,
-        tuplets=tuplets,
-    )
-
-    collections = design[8:9]
-    tuplets, tsd = library.twentieths(collections)
-    baca.make_figures(
-        accumulator,
-        "v4",
-        None,
-        figure_name="20_2",
-        tsd=tsd,
-        tuplets=tuplets,
-    )
-
+    with baca.scope(design[:1]) as collections:
+        assert collections == [[10, 0]]
+        tuplets, tsd = library.forty_eighths(collections)
+        baca.tenuto(baca.select.pheads(tuplets))
+        baca.beam_positions(tuplets, 10)
+        baca.register(tuplets, -12)
+        baca.extend_beam(abjad.select.leaf(tuplets, -1))
+        baca.make_figures(
+            accumulator,
+            "v1",
+            None,
+            figure_name="48_1",
+            tsd=tsd,
+            tuplets=tuplets,
+        )
+    with baca.scope(design[1:2]) as collections:
+        assert collections == [[5]]
+        tuplets, tsd = library.sixteenths(collections)
+        baca.extend_beam(abjad.select.leaf(tuplets, -1))
+        baca.make_figures(
+            accumulator,
+            "v3",
+            None,
+            figure_name="16_1",
+            tsd=tsd,
+            tuplets=tuplets,
+        )
+    with baca.scope(design[2:5]) as collections:
+        assert collections == [[9, 11, 0, 5, 9, 11], [10, 1, 3, 6, 7], [8, 2, 3, 6]]
+        tuplets, tsd = library.running(collections)
+        baca.register(tuplets, -14, 0)
+        baca.extend_beam(abjad.select.leaf(tuplets, -1))
+        baca.make_figures(
+            accumulator,
+            "v1",
+            None,
+            figure_name="R1",
+            tsd=tsd,
+            tuplets=tuplets,
+        )
+    with baca.scope(design[5:6]) as collections:
+        assert collections == [[7, 8, 2]]
+        tuplets, tsd = library.twentieths(collections)
+        baca.make_figures(
+            accumulator,
+            "v4",
+            None,
+            figure_name="20_1",
+            tsd=tsd,
+            tuplets=tuplets,
+        )
+    with baca.scope(design[6:7]) as collections:
+        assert collections == [[1, 5]]
+        tuplets, tsd = library.forty_eighths(collections)
+        baca.tenuto(baca.select.pheads(tuplets))
+        baca.register(tuplets, -12)
+        baca.make_figures(
+            accumulator,
+            "v1",
+            None,
+            figure_name="48_2",
+            tsd=tsd,
+            tuplets=tuplets,
+        )
+    with baca.scope(design[7:8]) as collections:
+        assert collections == [[9]]
+        tuplets, tsd = library.sixteenths(collections)
+        baca.make_figures(
+            accumulator,
+            "v3",
+            None,
+            figure_name="16_2",
+            tsd=tsd,
+            tuplets=tuplets,
+        )
+    with baca.scope(design[8:9]) as collections:
+        assert collections == [[11, 10, 0]]
+        tuplets, tsd = library.twentieths(collections)
+        baca.make_figures(
+            accumulator,
+            "v4",
+            None,
+            figure_name="20_2",
+            tsd=tsd,
+            tuplets=tuplets,
+        )
     tuplets, tsd = library.rests(3, (1, 8))
     baca.markup(
         abjad.select.leaf(tuplets, 0),
@@ -113,75 +112,94 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         tsd=tsd,
         tuplets=tuplets,
     )
-
-    collections = abjad.sequence.flatten(
-        abjad.sequence.repeat(baca.sequence.reveal(design[9:10], 3), 10)
-    )
-    tuplets, tsd = library.sixty_fourths(collections)
-    baca.register(tuplets, 0)
-    baca.make_figures(
-        accumulator,
-        "v1",
-        None,
-        figure_name="D1",
-        tsd=tsd,
-        tuplets=tuplets,
-    )
-
-    collections = abjad.sequence.flatten(
-        abjad.sequence.repeat(baca.sequence.reveal(design[9:10], 4), 10)
-    )
-    tuplets, tsd = library.sixty_fourths(collections)
-    baca.register(tuplets, 0)
-    baca.make_figures(
-        accumulator,
-        "v1",
-        None,
-        figure_name="D2",
-        tsd=tsd,
-        tuplets=tuplets,
-    )
-
-    collections = abjad.sequence.flatten(
-        abjad.sequence.repeat(baca.sequence.reveal(design[9:10], 5), 10)
-    )
-    tuplets, tsd = library.sixty_fourths(collections)
-    baca.register(tuplets, 0)
-    baca.make_figures(
-        accumulator,
-        "v1",
-        None,
-        figure_name="D3",
-        tsd=tsd,
-        tuplets=tuplets,
-    )
-
-    collections = abjad.sequence.flatten(
-        abjad.sequence.repeat(baca.sequence.reveal(design[9:10], 6), 10)
-    )
-    tuplets, tsd = library.sixty_fourths(collections)
-    baca.register(tuplets, 0)
-    baca.make_figures(
-        accumulator,
-        "v1",
-        None,
-        figure_name="D4",
-        tsd=tsd,
-        tuplets=tuplets,
-    )
-
-    collections = baca.sequence.boustrophedon(design[9:10], count=4)
-    tuplets, tsd = library.sixty_fourths(collections)
-    baca.register(tuplets, 0)
-    baca.make_figures(
-        accumulator,
-        "v1",
-        None,
-        figure_name="D5",
-        tsd=tsd,
-        tuplets=tuplets,
-    )
-
+    with baca.scope(design[9:10]) as collections:
+        assert collections == eval(
+            """[[6, 4, 5, 5.5, 6.5, 9, 10, 7, 8, 11.5, 2.5, 3.5, 11, 2, 3, 10.5,
+            7, 8, 11.5, 10, 3.5, 11, 2, 3, 10.5, 2.5, 4, 5, 5.5, 6.5, 9, 6]]"""
+        )
+        collections = baca.sequence.reveal(collections, 3)
+        collections = abjad.sequence.repeat(collections, 10)
+        collections = abjad.sequence.flatten(collections)
+        tuplets, tsd = library.sixty_fourths(collections)
+        baca.register(tuplets, 0)
+        baca.make_figures(
+            accumulator,
+            "v1",
+            None,
+            figure_name="D1",
+            tsd=tsd,
+            tuplets=tuplets,
+        )
+    with baca.scope(design[9:10]) as collections:
+        assert collections == eval(
+            """[[6, 4, 5, 5.5, 6.5, 9, 10, 7, 8, 11.5, 2.5, 3.5, 11, 2, 3, 10.5,
+            7, 8, 11.5, 10, 3.5, 11, 2, 3, 10.5, 2.5, 4, 5, 5.5, 6.5, 9, 6]]"""
+        )
+        collections = baca.sequence.reveal(collections, 4)
+        collections = abjad.sequence.repeat(collections, 10)
+        collections = abjad.sequence.flatten(collections)
+        tuplets, tsd = library.sixty_fourths(collections)
+        baca.register(tuplets, 0)
+        baca.make_figures(
+            accumulator,
+            "v1",
+            None,
+            figure_name="D2",
+            tsd=tsd,
+            tuplets=tuplets,
+        )
+    with baca.scope(design[9:10]) as collections:
+        assert collections == eval(
+            """[[6, 4, 5, 5.5, 6.5, 9, 10, 7, 8, 11.5, 2.5, 3.5, 11, 2, 3, 10.5,
+            7, 8, 11.5, 10, 3.5, 11, 2, 3, 10.5, 2.5, 4, 5, 5.5, 6.5, 9, 6]]"""
+        )
+        collections = baca.sequence.reveal(collections, 5)
+        collections = abjad.sequence.repeat(collections, 10)
+        collections = abjad.sequence.flatten(collections)
+        tuplets, tsd = library.sixty_fourths(collections)
+        baca.register(tuplets, 0)
+        baca.make_figures(
+            accumulator,
+            "v1",
+            None,
+            figure_name="D3",
+            tsd=tsd,
+            tuplets=tuplets,
+        )
+    with baca.scope(design[9:10]) as collections:
+        assert collections == eval(
+            """[[6, 4, 5, 5.5, 6.5, 9, 10, 7, 8, 11.5, 2.5, 3.5, 11, 2, 3, 10.5,
+            7, 8, 11.5, 10, 3.5, 11, 2, 3, 10.5, 2.5, 4, 5, 5.5, 6.5, 9, 6]]"""
+        )
+        collections = baca.sequence.reveal(collections, 6)
+        collections = abjad.sequence.repeat(collections, 10)
+        collections = abjad.sequence.flatten(collections)
+        tuplets, tsd = library.sixty_fourths(collections)
+        baca.register(tuplets, 0)
+        baca.make_figures(
+            accumulator,
+            "v1",
+            None,
+            figure_name="D4",
+            tsd=tsd,
+            tuplets=tuplets,
+        )
+    with baca.scope(design[9:10]) as collections:
+        assert collections == eval(
+            """[[6, 4, 5, 5.5, 6.5, 9, 10, 7, 8, 11.5, 2.5, 3.5, 11, 2, 3, 10.5,
+            7, 8, 11.5, 10, 3.5, 11, 2, 3, 10.5, 2.5, 4, 5, 5.5, 6.5, 9, 6]]"""
+        )
+        collections = baca.sequence.boustrophedon(collections, count=4)
+        tuplets, tsd = library.sixty_fourths(collections)
+        baca.register(tuplets, 0)
+        baca.make_figures(
+            accumulator,
+            "v1",
+            None,
+            figure_name="D5",
+            tsd=tsd,
+            tuplets=tuplets,
+        )
     voices = baca.section.cache_voices(score, library.voice_abbreviations)
     time_signatures = accumulator.time_signatures
     time_signatures = baca.section.time_signatures(time_signatures)

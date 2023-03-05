@@ -30,6 +30,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
             tuplets,
             tsd=16,
         )
+        #
     with baca.scope(design[4:5]) as collections:
         assert collections == [[3, 9, 4, 0, 10]]
         collections = baca.sequence.reveal(design[4:5], 1)
@@ -43,6 +44,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
             tuplets,
             tsd=tsd,
         )
+        #
     with baca.scope(design[5:8]) as collections:
         assert collections == [
             [1, 9, 4, 3, 10],
@@ -58,6 +60,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
             tuplets,
             tsd=tsd,
         )
+        #
     with baca.scope(design[4:5]) as collections:
         assert collections == [[3, 9, 4, 0, 10]]
         collections = baca.sequence.reveal(design[4:5], 2)
@@ -70,6 +73,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
             tuplets,
             tsd=tsd,
         )
+        #
     with baca.scope(design[6:9]) as collections:
         assert collections == [
             [1, 0, 6, 11, 2],
@@ -85,6 +89,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
             tuplets,
             tsd=tsd,
         )
+        #
     with baca.scope(design[4:5]) as collections:
         assert collections == [[3, 9, 4, 0, 10]]
         collections = baca.sequence.reveal(design[4:5], 3)
@@ -97,6 +102,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
             tuplets,
             tsd=tsd,
         )
+        #
     with baca.scope(design[7:10]) as collections:
         assert collections == [
             [5, 8, 1, 0, 10],
@@ -112,6 +118,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
             tuplets,
             tsd=tsd,
         )
+        #
     with baca.scope(design[4:5]) as collections:
         assert collections == [[3, 9, 4, 0, 10]]
         collections = baca.sequence.reveal(design[4:5], 4)
@@ -124,6 +131,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
             tuplets,
             tsd=tsd,
         )
+        #
     with baca.scope(design[8:11]) as collections:
         assert collections == [
             [11, 2, 5, 8, 6, 4],
@@ -139,6 +147,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
             tuplets,
             tsd=tsd,
         )
+        #
     with baca.scope(design[4:5]) as collections:
         assert collections == [[3, 9, 4, 0, 10]]
         collections = baca.sequence.reveal(design[4:5], 5)
@@ -150,6 +159,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
             tuplets,
             tsd=tsd,
         )
+        #
     with baca.scope(design[9:13]) as collections:
         assert collections == [
             [3, 9, 2, 5, 8, 6],
@@ -165,6 +175,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
             tuplets,
             tsd=tsd,
         )
+        #
     with baca.scope(baca.sequence.reveal(design[4:5], 1)) as collections:
         assert collections == [[3]]
         tuplets, tsd = library.make_twentieths(collections)
@@ -176,6 +187,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
             tuplets,
             tsd=tsd,
         )
+        #
     with baca.scope(design[13:]) as collections:
         assert collections == [
             [5, 9, 11, 10, 0, 6, 7, 8, 2, 1, 3, 7, 8, 2, 1, 3, 6, 9, 11, 10, 0, 5]
@@ -190,6 +202,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
             tuplets,
             tsd=tsd,
         )
+        #
     with baca.scope(design[4:5]) as collections:
         assert collections == [[3, 9, 4, 0, 10]]
         collections = baca.sequence.reveal(design[4:5], 2)
@@ -201,6 +214,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
             tuplets,
             tsd=tsd,
         )
+        #
     with baca.scope(design[13:]) as collections:
         assert collections == [
             [5, 9, 11, 10, 0, 6, 7, 8, 2, 1, 3, 7, 8, 2, 1, 3, 6, 9, 11, 10, 0, 5]

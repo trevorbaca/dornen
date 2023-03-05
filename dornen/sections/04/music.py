@@ -16,7 +16,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     with baca.scope(design[:2]) as collections:
         assert collections == [[5, 9, 11, 10, 0, 6], [7, 8, 2, 1, 3]]
         tuplets, tsd = library.make_waves(collections, denominator=32)
-        baca.label_figure(tuplets, "W1", accumulator.figure_number)
+        baca.label_figure(tuplets, "W1", accumulator)
         accumulator.cache(
             library.v1,
             tuplets,
@@ -25,7 +25,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     with baca.scope(design[:2]) as collections:
         assert collections == [[5, 9, 11, 10, 0, 6], [7, 8, 2, 1, 3]]
         tuplets, tsd = library.make_waves(collections, denominator=64)
-        baca.label_figure(tuplets, "W2", accumulator.figure_number)
+        baca.label_figure(tuplets, "W2", accumulator)
         accumulator.cache(
             library.v1,
             tuplets,
@@ -35,7 +35,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         assert collections == [[5, 9, 11, 10, 0, 6], [7, 8, 2, 1, 3]]
         collections = [abjad.sequence.flatten(design[:2])]
         tuplets, tsd = library.make_waves(collections, denominator=64)
-        baca.label_figure(tuplets, "W3", accumulator.figure_number)
+        baca.label_figure(tuplets, "W3", accumulator)
         accumulator.cache(
             library.v1,
             tuplets,
@@ -53,7 +53,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         baca.displacement(tuplets, [0, 1])
         leaf = abjad.select.leaf(tuplets, -1)
         baca.extend_beam(leaf)
-        baca.label_figure(tuplets, "G1", accumulator.figure_number)
+        baca.label_figure(tuplets, "G1", accumulator)
         accumulator.cache(
             library.v2,
             tuplets,
@@ -63,7 +63,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         assert collections == [[3, 6, 9], [11, 10], [0]]
         tuplets, tsd = library.make_waves(collections, denominator=32, inverted=True)
         baca.register(tuplets, -8)
-        baca.label_figure(tuplets, "W4", accumulator.figure_number)
+        baca.label_figure(tuplets, "W4", accumulator)
         accumulator.cache(
             library.v1,
             tuplets,
@@ -75,7 +75,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         baca.register(tuplets, 0, -14)
         leaf = abjad.select.leaf(tuplets, -1)
         baca.extend_beam(leaf)
-        baca.label_figure(tuplets, "R1", accumulator.figure_number)
+        baca.label_figure(tuplets, "R1", accumulator)
         accumulator.cache(
             library.v3,
             tuplets,
@@ -87,14 +87,14 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         baca.register(tuplets, -14, 0)
         leaf = abjad.select.leaf(tuplets, -1)
         baca.extend_beam(leaf)
-        baca.label_figure(tuplets, "R2", accumulator.figure_number)
+        baca.label_figure(tuplets, "R2", accumulator)
         accumulator.cache(
             library.v3,
             tuplets,
             tsd=tsd,
         )
     tuplets, tsd = library.make_rests(3, (1, 8))
-    baca.label_figure(tuplets, "S1", accumulator.figure_number)
+    baca.label_figure(tuplets, "S1", accumulator)
     accumulator.cache(
         library.v4,
         tuplets,
@@ -112,7 +112,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         baca.tuplet_bracket_extra_offset(abjad.select.leaf(tuplets, 0), (0, -0.5))
         baca.tuplet_number_extra_offset(abjad.select.leaf(tuplets, 0), (0, -0.5))
         baca.register(tuplets, -20)
-        baca.label_figure(tuplets, "T1", accumulator.figure_number)
+        baca.label_figure(tuplets, "T1", accumulator)
         accumulator.cache(
             library.v4,
             tuplets,
@@ -122,7 +122,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         assert collections == [[7, 2, 1, 3], [6, 7, 8], [5, 9, 11, 10, 0, 6]]
         tuplets, tsd = library.make_running(collections)
         baca.register(tuplets, -14, 0)
-        baca.label_figure(tuplets, "R3", accumulator.figure_number)
+        baca.label_figure(tuplets, "R3", accumulator)
         accumulator.cache(
             library.v3,
             tuplets,
@@ -132,7 +132,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         assert collections == [[7, 8, 2, 1, 3], [7, 8, 2, 1]]
         tuplets, tsd = library.make_waves(collections, denominator=32)
         baca.register(tuplets, -20)
-        baca.label_figure(tuplets, "W5", accumulator.figure_number)
+        baca.label_figure(tuplets, "W5", accumulator)
         accumulator.cache(
             library.v1,
             tuplets,
@@ -145,7 +145,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         baca.displacement(tuplets, [0, 1])
         leaf = abjad.select.leaf(tuplets, -1)
         baca.extend_beam(leaf)
-        baca.label_figure(tuplets, "G2", accumulator.figure_number)
+        baca.label_figure(tuplets, "G2", accumulator)
         accumulator.cache(
             library.v2,
             tuplets,
@@ -155,7 +155,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         assert collections == [[7, 8, 2, 1, 3], [7, 8, 2, 1], [3, 6, 9]]
         tuplets, tsd = library.make_waves(collections, denominator=32)
         baca.register(tuplets, -20, -4)
-        baca.label_figure(tuplets, "W6", accumulator.figure_number)
+        baca.label_figure(tuplets, "W6", accumulator)
         accumulator.cache(
             library.v1,
             tuplets,
@@ -166,7 +166,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         tuplets, tsd = library.make_glissando_scatto(collections)
         baca.register(tuplets, -8)
         baca.displacement(tuplets, [0, 1])
-        baca.label_figure(tuplets, "G3", accumulator.figure_number)
+        baca.label_figure(tuplets, "G3", accumulator)
         accumulator.cache(
             library.v2,
             tuplets,
@@ -177,7 +177,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         tuplets, tsd = library.make_running(collections)
         baca.register(tuplets, 0, -14)
         baca.extend_beam(abjad.select.leaf(tuplets, -1))
-        baca.label_figure(tuplets, "R4", accumulator.figure_number)
+        baca.label_figure(tuplets, "R4", accumulator)
         accumulator.cache(
             library.v3,
             tuplets,
@@ -188,14 +188,14 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         tuplets, tsd = library.make_running(collections)
         baca.register(tuplets, -14, 0)
         baca.extend_beam(abjad.select.leaf(tuplets, -1))
-        baca.label_figure(tuplets, "R5", accumulator.figure_number)
+        baca.label_figure(tuplets, "R5", accumulator)
         accumulator.cache(
             library.v3,
             tuplets,
             tsd=tsd,
         )
     tuplets, tsd = library.make_rests(3, (1, 8))
-    baca.label_figure(tuplets, "S2", accumulator.figure_number)
+    baca.label_figure(tuplets, "S2", accumulator)
     accumulator.cache(
         library.v4,
         tuplets,
@@ -213,7 +213,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         baca.tuplet_bracket_extra_offset(abjad.select.leaf(tuplets, 0), (0, -0.5))
         baca.tuplet_number_extra_offset(abjad.select.leaf(tuplets, 0), (0, -0.5))
         baca.register(tuplets, -20)
-        baca.label_figure(tuplets, "T2", accumulator.figure_number)
+        baca.label_figure(tuplets, "T2", accumulator)
         accumulator.cache(
             library.v4,
             tuplets,
@@ -223,7 +223,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         assert collections == [[8, 2, 1, 3, 6], [7, 2, 1, 3], [6, 7, 8]]
         tuplets, tsd = library.make_running(collections)
         baca.register(tuplets, -14, 0)
-        baca.label_figure(tuplets, "R6", accumulator.figure_number)
+        baca.label_figure(tuplets, "R6", accumulator)
         accumulator.cache(
             library.v3,
             tuplets,

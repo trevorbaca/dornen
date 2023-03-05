@@ -19,10 +19,11 @@ def make_empty_score():
         baca.beam_positions(tuplets, 6)
         baca.register(tuplets, -8)
         baca.extend_beam(abjad.select.leaf(tuplets, -1))
+        baca.label_figure(tuplets, "0", accumulator.figure_number)
         accumulator.cache(
             library.v1,
             tuplets,
-            figure_name="0",
+            already_labeled=True,
             tsd=tsd,
         )
     with cursor([[6, 2, 3, 5, 9, 8, 0]]) as collection:

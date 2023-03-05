@@ -10,7 +10,7 @@ from dornen import library
 
 def make_empty_score(first_measure_number, previous_persistent_indicators):
     score = library.make_empty_score()
-    accumulator = baca.Accumulator(score, library.voice_abbreviations)
+    accumulator = baca.Accumulator(score)
     design = library.design_2(start=28)
     assert len(design) == 12, (repr(design), len(design))
     with baca.scope(design[:1]) as collections:
@@ -20,7 +20,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         baca.register(tuplets, -20, -8)
         baca.make_figures(
             accumulator,
-            "v2",
+            library.v2,
             tuplets,
             figure_name="O1",
             tsd=tsd,
@@ -31,7 +31,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         baca.beam_positions(tuplets, 8)
         baca.make_figures(
             accumulator,
-            "v1",
+            library.v1,
             tuplets,
             figure_name="L1",
             tsd=tsd,
@@ -42,7 +42,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         baca.extend_beam(abjad.select.leaf(tuplets, -1))
         baca.make_figures(
             accumulator,
-            "v4",
+            library.v4,
             tuplets,
             figure_name="G1",
             tsd=tsd,
@@ -56,7 +56,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         baca.register(tuplets, 4, -20)
         baca.make_figures(
             accumulator,
-            "v3",
+            library.v3,
             tuplets,
             figure_name="D1",
             tsd=tsd,
@@ -68,7 +68,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         tuplets, tsd = library.make_graced_tuplets(collections)
         baca.make_figures(
             accumulator,
-            "v4",
+            library.v4,
             tuplets,
             figure_name="G2",
             tsd=tsd,
@@ -80,7 +80,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         baca.extend_beam(abjad.select.leaf(tuplets, -1))
         baca.make_figures(
             accumulator,
-            "v2",
+            library.v2,
             tuplets,
             figure_name="O2",
             tsd=tsd,
@@ -92,7 +92,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         baca.extend_beam(abjad.select.leaf(tuplets, -1))
         baca.make_figures(
             accumulator,
-            "v1",
+            library.v1,
             tuplets,
             figure_name="L2",
             tsd=tsd,
@@ -103,7 +103,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         baca.extend_beam(abjad.select.leaf(tuplets, -1))
         baca.make_figures(
             accumulator,
-            "v4",
+            library.v4,
             tuplets,
             figure_name="G3",
             tsd=tsd,
@@ -115,7 +115,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         baca.register(tuplets, 4, -20)
         baca.make_figures(
             accumulator,
-            "v3",
+            library.v3,
             tuplets,
             figure_name="D2",
             tsd=tsd,
@@ -125,7 +125,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         tuplets, tsd = library.make_graced_tuplets(collections)
         baca.make_figures(
             accumulator,
-            "v4",
+            library.v4,
             tuplets,
             figure_name="G4",
             tsd=tsd,
@@ -135,7 +135,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         tuplets, tsd = library.make_ovoids(collections)
         baca.make_figures(
             accumulator,
-            "v2",
+            library.v2,
             tuplets,
             figure_name="O3",
             tsd=tsd,
@@ -145,7 +145,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         tuplets, tsd = library.make_glissando_scatto(collections)
         baca.make_figures(
             accumulator,
-            "v1",
+            library.v1,
             tuplets,
             figure_name="L3",
             tsd=tsd,
@@ -171,14 +171,14 @@ def SKIPS(skips):
 
 
 def postprocess(cache):
-    m = cache["v1"]
+    m = cache[library.v1]
     with baca.scope(m.get(1, 12)) as o:
         baca.register(o, -8)
         baca.displacement(o, [0, 1])
-    m = cache["v2"]
+    m = cache[library.v2]
     with baca.scope(m.get(1, 12)) as o:
         baca.register(o, -20, 4)
-    m = cache["v4"]
+    m = cache[library.v4]
     with baca.scope(m.get(1, 12)) as o:
         baca.beam_positions(o, 8)
         baca.register(o, -18, 6)

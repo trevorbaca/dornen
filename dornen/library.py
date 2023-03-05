@@ -4,6 +4,11 @@ import abjad
 import baca
 from abjadext import rmakers
 
+v1 = "Guitar.Music.1"
+v2 = "Guitar.Music.2"
+v3 = "Guitar.Music.3"
+v4 = "Guitar.Music.4"
+
 
 def _apply_operator(segment, operator):
     assert isinstance(segment, abjad.PitchClassSegment)

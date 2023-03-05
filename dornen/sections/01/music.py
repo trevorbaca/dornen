@@ -10,7 +10,7 @@ from dornen import library
 
 def make_empty_score():
     score = library.make_empty_score()
-    accumulator = baca.figures.Accumulator(score, library.voice_abbreviations)
+    accumulator = baca.Accumulator(score, library.voice_abbreviations)
     design = library.design_1(stop=22)
     assert len(design) == 22
     cursor = baca.Cursor(design)

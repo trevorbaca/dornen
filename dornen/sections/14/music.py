@@ -738,6 +738,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         baca.stem_tremolo(baca.select.pleaves(tuplets))
         baca.label_figure(tuplets, "", accumulator_2)
     voices = baca.section.cache_voices(score, library.voice_abbreviations)
+    assert len(time_signatures) == len(accumulator.time_signatures)
     time_signatures = accumulator.time_signatures
     time_signatures = baca.section.time_signatures(time_signatures)
     baca.section.set_up_score(

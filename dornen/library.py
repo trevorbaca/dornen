@@ -698,6 +698,18 @@ def make_waves(collections, denominator=64, inverted=False):
     return tuplets, denominator
 
 
+def populate(score, voice_name, tuplets):
+    assert all(isinstance(_, abjad.Tuplet) for _ in tuplets), repr(tuplets)
+    duration = abjad.get.duration(tuplets)
+    voice = score[voice_name]
+    voice.extend(tuplets)
+    other_voice_names = {v1, v2, v3, v4} - {voice_name}
+    for other_voice_name in sorted(other_voice_names):
+        voice = score[other_voice_name]
+        skip = abjad.Skip("s1", multiplier=duration.pair)
+        voice.append(skip)
+
+
 instruments = {"Guitar": abjad.Guitar(pitch_range=abjad.PitchRange("[E2, F5]"))}
 
 

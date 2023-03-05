@@ -11,6 +11,8 @@ from dornen import library
 def make_empty_score():
     score = library.make_empty_score()
     accumulator = baca.Accumulator(score)
+    score_2 = library.make_empty_score()
+    accumulator_2 = baca.Accumulator(score_2)
     design = library.design_1(stop=22)
     assert len(design) == 22
     cursor = baca.Cursor(design)
@@ -25,6 +27,13 @@ def make_empty_score():
             tuplets,
             tsd=tsd,
         )
+        #
+        tuplets, tsd = library.make_dotted_eighths(collection)
+        baca.beam_positions(tuplets, 6)
+        baca.register(tuplets, -8)
+        baca.extend_beam(abjad.select.leaf(tuplets, -1))
+        baca.label_figure(tuplets, "0", accumulator_2)
+        library.populate(score_2, library.v1, tuplets)
     with cursor([[6, 2, 3, 5, 9, 8, 0]]) as collection:
         tuplets, tsd = library.make_passepied(collection)
         baca.beam_positions(baca.select.leaves(tuplets, grace=False), -10)
@@ -37,6 +46,14 @@ def make_empty_score():
             tuplets,
             tsd=tsd,
         )
+        #
+        tuplets, tsd = library.make_passepied(collection)
+        baca.beam_positions(baca.select.leaves(tuplets, grace=False), -10)
+        baca.time_signature_extra_offset(baca.select.hleaf(tuplets, 0), (-2.5, 0))
+        baca.register(tuplets, -10)
+        baca.extend_beam(abjad.select.leaf(tuplets, -1))
+        baca.label_figure(tuplets, "1", accumulator_2)
+        library.populate(score_2, library.v2, tuplets)
     with cursor([[11]]) as collection:
         tuplets, tsd = library.make_dotted_eighths(collection)
         baca.register(tuplets, -10),
@@ -47,6 +64,12 @@ def make_empty_score():
             tuplets,
             tsd=tsd,
         )
+        #
+        tuplets, tsd = library.make_dotted_eighths(collection)
+        baca.register(tuplets, -10),
+        baca.extend_beam(abjad.select.leaf(tuplets, -1))
+        baca.label_figure(tuplets, "2", accumulator_2)
+        library.populate(score_2, library.v1, tuplets)
     with cursor([[10, 7, 9, 8, 0, 5]]) as collection:
         tuplets, tsd = library.make_passepied(collection)
         baca.time_signature_extra_offset(baca.select.hleaf(tuplets, 0), (-2.5, 0))
@@ -58,6 +81,13 @@ def make_empty_score():
             tuplets,
             tsd=tsd,
         )
+        #
+        tuplets, tsd = library.make_passepied(collection)
+        baca.time_signature_extra_offset(baca.select.hleaf(tuplets, 0), (-2.5, 0))
+        baca.register(tuplets, -8),
+        baca.extend_beam(abjad.select.leaf(tuplets, -1))
+        baca.label_figure(tuplets, "3", accumulator_2)
+        library.populate(score_2, library.v2, tuplets)
     with cursor([[10, 7]]) as collection:
         tuplets, tsd = library.make_dotted_eighths(collection)
         baca.register(tuplets, -12)
@@ -67,6 +97,11 @@ def make_empty_score():
             tuplets,
             tsd=tsd,
         )
+        #
+        tuplets, tsd = library.make_dotted_eighths(collection)
+        baca.register(tuplets, -12)
+        baca.label_figure(tuplets, "4", accumulator_2)
+        library.populate(score_2, library.v1, tuplets)
     with cursor([[11, 6, 2, 3, 4]]) as collection:
         tuplets, tsd = library.make_passepied(collection)
         baca.time_signature_extra_offset(baca.select.hleaf(tuplets, 0), (-2.5, 0))
@@ -77,6 +112,12 @@ def make_empty_score():
             tuplets,
             tsd=tsd,
         )
+        #
+        tuplets, tsd = library.make_passepied(collection)
+        baca.time_signature_extra_offset(baca.select.hleaf(tuplets, 0), (-2.5, 0))
+        baca.register(tuplets, -6)
+        baca.label_figure(tuplets, "5", accumulator_2)
+        library.populate(score_2, library.v2, tuplets)
     with cursor([[7, 11]]) as collection:
         tuplets, tsd = library.make_dotted_eighths(collection)
         baca.beam_positions(baca.select.leaves(tuplets, grace=False), 9)
@@ -88,6 +129,13 @@ def make_empty_score():
             tuplets,
             tsd=tsd,
         )
+        #
+        tuplets, tsd = library.make_dotted_eighths(collection)
+        baca.beam_positions(baca.select.leaves(tuplets, grace=False), 9)
+        baca.register(tuplets, -14)
+        baca.extend_beam(abjad.select.leaf(tuplets, -1))
+        baca.label_figure(tuplets, "6", accumulator_2)
+        library.populate(score_2, library.v1, tuplets)
     with cursor([[10, 2, 3, 4, 6]]) as collection:
         tuplets, tsd = library.make_passepied(collection)
         baca.beam_positions(baca.select.leaves(tuplets, grace=False), -10)
@@ -100,6 +148,14 @@ def make_empty_score():
             tuplets,
             tsd=tsd,
         )
+        #
+        tuplets, tsd = library.make_passepied(collection)
+        baca.beam_positions(baca.select.leaves(tuplets, grace=False), -10)
+        baca.time_signature_extra_offset(baca.select.hleaf(tuplets, 0), (-2.5, 0))
+        baca.register(tuplets, -4)
+        baca.extend_beam(abjad.select.leaf(tuplets, -1))
+        baca.label_figure(tuplets, "7", accumulator_2)
+        library.populate(score_2, library.v2, tuplets)
     with cursor([[8, 0, 5, 9], [3, 4, 6, 2]], n=2) as collection:
         tuplets, tsd = library.make_running(collection)
         baca.register(tuplets, -12)
@@ -109,6 +165,11 @@ def make_empty_score():
             tuplets,
             tsd=tsd,
         )
+        #
+        tuplets, tsd = library.make_running(collection)
+        baca.register(tuplets, -12)
+        baca.label_figure(tuplets, "8", accumulator_2)
+        library.populate(score_2, library.v4, tuplets)
     with cursor([[0, 5, 9, 8]]) as collection:
         tuplets, tsd = library.make_dotted_eighths(collection)
         baca.register(tuplets, -16)
@@ -118,6 +179,11 @@ def make_empty_score():
             tuplets,
             tsd=tsd,
         )
+        #
+        tuplets, tsd = library.make_dotted_eighths(collection)
+        baca.register(tuplets, -16)
+        baca.label_figure(tuplets, "9", accumulator_2)
+        library.populate(score_2, library.v1, tuplets)
     with cursor(
         [[11, 10, 7], [1, 0, 10, 5, 8, 6, 11, 2, 4, 3, 9, 8, 6, 11, 2, 5]], n=2
     ) as collection:
@@ -129,6 +195,11 @@ def make_empty_score():
             tuplets,
             tsd=tsd,
         )
+        #
+        tuplets, tsd = library.make_running(collection)
+        baca.register(tuplets, -6)
+        baca.label_figure(tuplets, "10", accumulator_2)
+        library.populate(score_2, library.v4, tuplets)
     with cursor([[6, 10]]) as collection:
         tuplets, tsd = library.make_dotted_eighths(collection)
         baca.beam_positions(baca.select.leaves(tuplets, grace=False), 6)
@@ -140,6 +211,13 @@ def make_empty_score():
             tuplets,
             tsd=tsd,
         )
+        #
+        tuplets, tsd = library.make_dotted_eighths(collection)
+        baca.beam_positions(baca.select.leaves(tuplets, grace=False), 6)
+        baca.register(tuplets, -18)
+        baca.extend_beam(abjad.select.leaf(tuplets, -1))
+        baca.label_figure(tuplets, "11", accumulator_2)
+        library.populate(score_2, library.v1, tuplets)
     with cursor([[9, 1, 11, 8, 0, 5, 7, 3, 4]]) as collection:
         tuplets, tsd = library.make_passepied(collection)
         baca.time_signature_extra_offset(baca.select.hleaf(tuplets, 0), (-2.5, 0))
@@ -150,6 +228,12 @@ def make_empty_score():
             tuplets,
             tsd=tsd,
         )
+        #
+        tuplets, tsd = library.make_passepied(collection)
+        baca.time_signature_extra_offset(baca.select.hleaf(tuplets, 0), (-2.5, 0))
+        baca.register(tuplets, -2)
+        baca.label_figure(tuplets, "12", accumulator_2)
+        library.populate(score_2, library.v2, tuplets)
     with cursor([[8, 0]]) as collection:
         tuplets, tsd = library.make_dotted_eighths(collection)
         baca.register(tuplets, -20)
@@ -159,6 +243,11 @@ def make_empty_score():
             tuplets,
             tsd=tsd,
         )
+        #
+        tuplets, tsd = library.make_dotted_eighths(collection)
+        baca.register(tuplets, -20)
+        baca.label_figure(tuplets, "13", accumulator_2)
+        library.populate(score_2, library.v1, tuplets)
     with cursor([[11, 7, 3, 4, 5, 10, 9, 1, 6]]) as collection:
         tuplets, tsd = library.make_passepied(collection)
         baca.beam_positions(baca.select.leaves(tuplets, grace=False), -10)
@@ -171,6 +260,14 @@ def make_empty_score():
             tuplets,
             tsd=tsd,
         )
+        #
+        tuplets, tsd = library.make_passepied(collection)
+        baca.beam_positions(baca.select.leaves(tuplets, grace=False), -10)
+        baca.time_signature_extra_offset(baca.select.hleaf(tuplets, 0), (-2.5, 0))
+        baca.register(tuplets, 0)
+        baca.extend_beam(abjad.select.leaf(tuplets, -1))
+        baca.label_figure(tuplets, "14", accumulator_2)
+        library.populate(score_2, library.v2, tuplets)
     with cursor([[3, 4, 5, 7]]) as collection:
         tuplets, tsd = library.make_passepied(collection)
         baca.time_signature_extra_offset(baca.select.hleaf(tuplets, 0), (-2.5, 0))
@@ -181,6 +278,12 @@ def make_empty_score():
             tuplets,
             tsd=tsd,
         )
+        #
+        tuplets, tsd = library.make_passepied(collection)
+        baca.time_signature_extra_offset(baca.select.hleaf(tuplets, 0), (-2.5, 0))
+        baca.register(tuplets, 2)
+        baca.label_figure(tuplets, "15", accumulator_2)
+        library.populate(score_2, library.v2, tuplets)
     with cursor([[9, 1, 6, 10, 0, 11, 8], [1, 6, 10, 9]], n=2) as collection:
         tuplets, tsd = library.make_running(collection)
         baca.register(tuplets, -12, 0)
@@ -190,6 +293,11 @@ def make_empty_score():
             tuplets,
             tsd=tsd,
         )
+        #
+        tuplets, tsd = library.make_running(collection)
+        baca.register(tuplets, -12, 0)
+        baca.label_figure(tuplets, "16", accumulator_2)
+        library.populate(score_2, library.v4, tuplets)
     with cursor([[11, 8, 0, 4, 5, 7, 3]]) as collection:
         tuplets, tsd = library.make_waves(collection, denominator=64, inverted=True)
         baca.beam_positions(baca.select.leaves(tuplets, grace=False), -6)
@@ -199,6 +307,11 @@ def make_empty_score():
             tuplets,
             tsd=tsd,
         )
+        #
+        tuplets, tsd = library.make_waves(collection, denominator=64, inverted=True)
+        baca.beam_positions(baca.select.leaves(tuplets, grace=False), -6)
+        baca.label_figure(tuplets, "17", accumulator_2)
+        library.populate(score_2, library.v3, tuplets)
     with cursor([[5, 11, 6, 2, 0, 3, 11, 6, 5, 0, 3, 2]]) as collection:
         tuplets, tsd = library.make_waves(collection, denominator=64, inverted=True)
         baca.beam_positions(baca.select.leaves(tuplets, grace=False), -6)
@@ -208,6 +321,11 @@ def make_empty_score():
             tuplets,
             tsd=tsd,
         )
+        #
+        tuplets, tsd = library.make_waves(collection, denominator=64, inverted=True)
+        baca.beam_positions(baca.select.leaves(tuplets, grace=False), -6)
+        baca.label_figure(tuplets, "18", accumulator_2)
+        library.populate(score_2, library.v3, tuplets)
     voices = baca.section.cache_voices(score, library.voice_abbreviations)
     time_signatures = accumulator.time_signatures
     time_signatures = baca.section.time_signatures(time_signatures)

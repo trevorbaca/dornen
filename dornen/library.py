@@ -699,6 +699,7 @@ def make_waves(collections, denominator=64, inverted=False):
 
 
 def populate(score, voice_name, tuplets):
+    assert isinstance(tuplets, list), repr(tuplets)
     assert all(isinstance(_, abjad.Tuplet) for _ in tuplets), repr(tuplets)
     duration = abjad.get.duration(tuplets)
     voice = score[voice_name]

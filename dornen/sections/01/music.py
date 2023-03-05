@@ -326,19 +326,22 @@ def make_empty_score():
         baca.beam_positions(baca.select.leaves(tuplets, grace=False), -6)
         baca.label_figure(tuplets, "18", accumulator_2)
         library.populate(score_2, library.v3, tuplets)
-    voices = baca.section.cache_voices(score, library.voice_abbreviations)
+    # voices = baca.section.cache_voices(score, library.voice_abbreviations)
+    voices = baca.section.cache_voices(score_2, library.voice_abbreviations)
     time_signatures = accumulator.time_signatures
     time_signatures = baca.section.time_signatures(time_signatures)
     baca.section.set_up_score(
-        score,
+        # score,
+        score_2,
         time_signatures(),
         append_anchor_skip=True,
         always_make_global_rests=True,
         first_section=True,
         manifests=library.manifests,
     )
-    accumulator.populate(score)
-    return score, voices, time_signatures
+    # accumulator.populate(score)
+    # return score, voices, time_signatures
+    return score_2, voices, time_signatures
 
 
 def GLOBALS(skips):

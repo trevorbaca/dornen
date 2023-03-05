@@ -32,20 +32,22 @@ def make_empty_score():
         baca.time_signature_extra_offset(baca.select.hleaf(tuplets, 0), (-2.5, 0))
         baca.register(tuplets, -10)
         baca.extend_beam(abjad.select.leaf(tuplets, -1))
+        baca.label_figure(tuplets, "1", accumulator.figure_number)
         accumulator.cache(
             library.v2,
             tuplets,
-            figure_name="1",
+            already_labeled=True,
             tsd=tsd,
         )
     with cursor([[11]]) as collection:
         tuplets, tsd = library.make_dotted_eighths(collection)
         baca.register(tuplets, -10),
         baca.extend_beam(abjad.select.leaf(tuplets, -1))
+        baca.label_figure(tuplets, "2", accumulator.figure_number)
         accumulator.cache(
             library.v1,
             tuplets,
-            figure_name="2",
+            already_labeled=True,
             tsd=tsd,
         )
     with cursor([[10, 7, 9, 8, 0, 5]]) as collection:
@@ -53,29 +55,32 @@ def make_empty_score():
         baca.time_signature_extra_offset(baca.select.hleaf(tuplets, 0), (-2.5, 0))
         baca.register(tuplets, -8),
         baca.extend_beam(abjad.select.leaf(tuplets, -1))
+        baca.label_figure(tuplets, "3", accumulator.figure_number)
         accumulator.cache(
             library.v2,
             tuplets,
-            figure_name="3",
+            already_labeled=True,
             tsd=tsd,
         )
     with cursor([[10, 7]]) as collection:
         tuplets, tsd = library.make_dotted_eighths(collection)
         baca.register(tuplets, -12)
+        baca.label_figure(tuplets, "4", accumulator.figure_number)
         accumulator.cache(
             library.v1,
             tuplets,
-            figure_name="4",
+            already_labeled=True,
             tsd=tsd,
         )
     with cursor([[11, 6, 2, 3, 4]]) as collection:
         tuplets, tsd = library.make_passepied(collection)
         baca.time_signature_extra_offset(baca.select.hleaf(tuplets, 0), (-2.5, 0))
         baca.register(tuplets, -6)
+        baca.label_figure(tuplets, "5", accumulator.figure_number)
         accumulator.cache(
             library.v2,
             tuplets,
-            figure_name="5",
+            already_labeled=True,
             tsd=tsd,
         )
     with cursor([[7, 11]]) as collection:
@@ -83,10 +88,11 @@ def make_empty_score():
         baca.beam_positions(baca.select.leaves(tuplets, grace=False), 9)
         baca.register(tuplets, -14)
         baca.extend_beam(abjad.select.leaf(tuplets, -1))
+        baca.label_figure(tuplets, "6", accumulator.figure_number)
         accumulator.cache(
             library.v1,
             tuplets,
-            figure_name="6",
+            already_labeled=True,
             tsd=tsd,
         )
     with cursor([[10, 2, 3, 4, 6]]) as collection:
@@ -95,28 +101,31 @@ def make_empty_score():
         baca.time_signature_extra_offset(baca.select.hleaf(tuplets, 0), (-2.5, 0))
         baca.register(tuplets, -4)
         baca.extend_beam(abjad.select.leaf(tuplets, -1))
+        baca.label_figure(tuplets, "7", accumulator.figure_number)
         accumulator.cache(
             library.v2,
             tuplets,
-            figure_name="7",
+            already_labeled=True,
             tsd=tsd,
         )
     with cursor([[8, 0, 5, 9], [3, 4, 6, 2]], n=2) as collection:
         tuplets, tsd = library.make_running(collection)
         baca.register(tuplets, -12)
+        baca.label_figure(tuplets, "8", accumulator.figure_number)
         accumulator.cache(
             library.v4,
             tuplets,
-            figure_name="8",
+            already_labeled=True,
             tsd=tsd,
         )
     with cursor([[0, 5, 9, 8]]) as collection:
         tuplets, tsd = library.make_dotted_eighths(collection)
         baca.register(tuplets, -16)
+        baca.label_figure(tuplets, "9", accumulator.figure_number)
         accumulator.cache(
             library.v1,
             tuplets,
-            figure_name="9",
+            already_labeled=True,
             tsd=tsd,
         )
     with cursor(
@@ -124,10 +133,11 @@ def make_empty_score():
     ) as collection:
         tuplets, tsd = library.make_running(collection)
         baca.register(tuplets, -6)
+        baca.label_figure(tuplets, "10", accumulator.figure_number)
         accumulator.cache(
             library.v4,
             tuplets,
-            figure_name="10",
+            already_labeled=True,
             tsd=tsd,
         )
     with cursor([[6, 10]]) as collection:
@@ -135,29 +145,32 @@ def make_empty_score():
         baca.beam_positions(baca.select.leaves(tuplets, grace=False), 6)
         baca.register(tuplets, -18)
         baca.extend_beam(abjad.select.leaf(tuplets, -1))
+        baca.label_figure(tuplets, "11", accumulator.figure_number)
         accumulator.cache(
             library.v1,
             tuplets,
-            figure_name="11",
+            already_labeled=True,
             tsd=tsd,
         )
     with cursor([[9, 1, 11, 8, 0, 5, 7, 3, 4]]) as collection:
         tuplets, tsd = library.make_passepied(collection)
         baca.time_signature_extra_offset(baca.select.hleaf(tuplets, 0), (-2.5, 0))
         baca.register(tuplets, -2)
+        baca.label_figure(tuplets, "12", accumulator.figure_number)
         accumulator.cache(
             library.v2,
             tuplets,
-            figure_name="12",
+            already_labeled=True,
             tsd=tsd,
         )
     with cursor([[8, 0]]) as collection:
         tuplets, tsd = library.make_dotted_eighths(collection)
         baca.register(tuplets, -20)
+        baca.label_figure(tuplets, "13", accumulator.figure_number)
         accumulator.cache(
             library.v1,
             tuplets,
-            figure_name="13",
+            already_labeled=True,
             tsd=tsd,
         )
     with cursor([[11, 7, 3, 4, 5, 10, 9, 1, 6]]) as collection:
@@ -166,47 +179,52 @@ def make_empty_score():
         baca.time_signature_extra_offset(baca.select.hleaf(tuplets, 0), (-2.5, 0))
         baca.register(tuplets, 0)
         baca.extend_beam(abjad.select.leaf(tuplets, -1))
+        baca.label_figure(tuplets, "14", accumulator.figure_number)
         accumulator.cache(
             library.v2,
             tuplets,
-            figure_name="14",
+            already_labeled=True,
             tsd=tsd,
         )
     with cursor([[3, 4, 5, 7]]) as collection:
         tuplets, tsd = library.make_passepied(collection)
         baca.time_signature_extra_offset(baca.select.hleaf(tuplets, 0), (-2.5, 0))
         baca.register(tuplets, 2)
+        baca.label_figure(tuplets, "15", accumulator.figure_number)
         accumulator.cache(
             library.v2,
             tuplets,
-            figure_name="15",
+            already_labeled=True,
             tsd=tsd,
         )
     with cursor([[9, 1, 6, 10, 0, 11, 8], [1, 6, 10, 9]], n=2) as collection:
         tuplets, tsd = library.make_running(collection)
         baca.register(tuplets, -12, 0)
+        baca.label_figure(tuplets, "16", accumulator.figure_number)
         accumulator.cache(
             library.v4,
             tuplets,
-            figure_name="16",
+            already_labeled=True,
             tsd=tsd,
         )
     with cursor([[11, 8, 0, 4, 5, 7, 3]]) as collection:
         tuplets, tsd = library.make_waves(collection, denominator=64, inverted=True)
         baca.beam_positions(baca.select.leaves(tuplets, grace=False), -6)
+        baca.label_figure(tuplets, "17", accumulator.figure_number)
         accumulator.cache(
             library.v3,
             tuplets,
-            figure_name="17",
+            already_labeled=True,
             tsd=tsd,
         )
     with cursor([[5, 11, 6, 2, 0, 3, 11, 6, 5, 0, 3, 2]]) as collection:
         tuplets, tsd = library.make_waves(collection, denominator=64, inverted=True)
         baca.beam_positions(baca.select.leaves(tuplets, grace=False), -6)
+        baca.label_figure(tuplets, "18", accumulator.figure_number)
         accumulator.cache(
             library.v3,
             tuplets,
-            figure_name="18",
+            already_labeled=True,
             tsd=tsd,
         )
     voices = baca.section.cache_voices(score, library.voice_abbreviations)

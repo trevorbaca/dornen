@@ -12,371 +12,417 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     accumulator = baca.Accumulator(score)
     with baca.scope([["E2"]]) as collections:
         tuplets, tsd = library.make_monads(collections)
+        baca.label_figure(tuplets, "2_1", accumulator.figure_number)
         accumulator.cache(
             library.v1,
             tuplets,
-            figure_name="2_1",
+            already_labeled=True,
             tsd=tsd,
         )
     with baca.scope([["E2"]]) as collections:
         tuplets, tsd = library.make_monads(collections)
+        baca.label_figure(tuplets, "2_2", accumulator.figure_number)
         accumulator.cache(
             library.v1,
             tuplets,
-            figure_name="2_2",
+            already_labeled=True,
             tsd=tsd,
         )
     with baca.scope([["E2"]]) as collections:
         tuplets, tsd = library.make_thirds(collections)
+        baca.label_figure(tuplets, "2_3", accumulator.figure_number)
         accumulator.cache(
             library.v1,
             tuplets,
-            figure_name="2_3",
+            already_labeled=True,
             tsd=tsd,
         )
     with baca.scope([["E2"]]) as collections:
         tuplets, tsd = library.make_thirds(collections)
+        baca.label_figure(tuplets, "2_4", accumulator.figure_number)
         accumulator.cache(
             library.v1,
             tuplets,
-            figure_name="2_4",
+            already_labeled=True,
             tsd=tsd,
         )
     with baca.scope([["E2"]]) as collections:
         tuplets, tsd = library.make_thirds(collections)
+        baca.label_figure(tuplets, "2_5", accumulator.figure_number)
         accumulator.cache(
             library.v1,
             tuplets,
-            figure_name="2_5",
+            already_labeled=True,
             tsd=tsd,
         )
     with baca.scope([["E2"]]) as collections:
         tuplets, tsd = library.make_monads(collections)
         baca.markup(baca.select.pleaf(tuplets, 0), r"\dornen-three-fingers-markup")
+        baca.label_figure(tuplets, "3_1", accumulator.figure_number)
         accumulator.cache(
             library.v1,
             tuplets,
-            figure_name="3_1",
+            already_labeled=True,
             tsd=tsd,
         )
     with baca.scope([["E2"]]) as collections:
         tuplets, tsd = library.make_monads(collections)
+        baca.label_figure(tuplets, "3_2", accumulator.figure_number)
         accumulator.cache(
             library.v1,
             tuplets,
-            figure_name="3_2",
+            already_labeled=True,
             tsd=tsd,
         )
     with baca.scope([["E2"]]) as collections:
         tuplets, tsd = library.make_thirds(collections)
+        baca.label_figure(tuplets, "3_3", accumulator.figure_number)
         accumulator.cache(
             library.v1,
             tuplets,
-            figure_name="3_3",
+            already_labeled=True,
             tsd=tsd,
         )
     with baca.scope([["E2"]]) as collections:
         tuplets, tsd = library.make_thirds(collections)
+        baca.label_figure(tuplets, "3_4", accumulator.figure_number)
         accumulator.cache(
             library.v1,
             tuplets,
-            figure_name="3_4",
+            already_labeled=True,
             tsd=tsd,
         )
     with baca.scope([["E2"]]) as collections:
         tuplets, tsd = library.make_thirds(collections)
+        baca.label_figure(tuplets, "3_5", accumulator.figure_number)
         accumulator.cache(
             library.v1,
             tuplets,
-            figure_name="3_5",
+            already_labeled=True,
             tsd=tsd,
         )
     with baca.scope([["E2"]]) as collections:
         tuplets, tsd = library.make_monads(collections)
         baca.markup(baca.select.pleaf(tuplets, 0), r"\dornen-four-fingers-markup")
+        baca.label_figure(tuplets, "4_1", accumulator.figure_number)
         accumulator.cache(
             library.v1,
             tuplets,
-            figure_name="4_1",
+            already_labeled=True,
             tsd=tsd,
         )
     with baca.scope([["E2"]]) as collections:
         tuplets, tsd = library.make_monads(collections)
+        baca.label_figure(tuplets, "4_2", accumulator.figure_number)
         accumulator.cache(
             library.v1,
             tuplets,
-            figure_name="4_2",
+            already_labeled=True,
             tsd=tsd,
         )
     with baca.scope([["E2"]]) as collections:
         tuplets, tsd = library.make_thirds(collections)
+        baca.label_figure(tuplets, "4_3", accumulator.figure_number)
         accumulator.cache(
             library.v1,
             tuplets,
-            figure_name="4_3",
+            already_labeled=True,
             tsd=tsd,
         )
     with baca.scope([["E2"]]) as collections:
         tuplets, tsd = library.make_thirds(collections)
+        baca.label_figure(tuplets, "4_4", accumulator.figure_number)
         accumulator.cache(
             library.v1,
             tuplets,
-            figure_name="4_4",
+            already_labeled=True,
             tsd=tsd,
         )
     with baca.scope([["E2"]]) as collections:
         tuplets, tsd = library.make_thirds(collections)
+        baca.label_figure(tuplets, "4_5", accumulator.figure_number)
         accumulator.cache(
             library.v1,
             tuplets,
-            figure_name="4_5",
+            already_labeled=True,
             tsd=tsd,
         )
     with baca.scope([["E2"]]) as collections:
         tuplets, tsd = library.make_monads(collections)
+        baca.label_figure(tuplets, "4_6", accumulator.figure_number)
         accumulator.cache(
             library.v1,
             tuplets,
-            figure_name="4_6",
+            already_labeled=True,
             tsd=tsd,
         )
     with baca.scope([2 * ["E2"]]) as collections:
         tuplets, tsd = library.make_thirds(collections)
+        baca.label_figure(tuplets, "4_7", accumulator.figure_number)
         accumulator.cache(
             library.v1,
             tuplets,
-            figure_name="4_7",
+            already_labeled=True,
             tsd=tsd,
         )
     with baca.scope([["E2"]]) as collections:
         tuplets, tsd = library.make_monads(collections)
+        baca.label_figure(tuplets, "4_8", accumulator.figure_number)
         accumulator.cache(
             library.v1,
             tuplets,
-            figure_name="4_8",
+            already_labeled=True,
             tsd=tsd,
         )
     with baca.scope([["E2"]]) as collections:
         tuplets, tsd = library.make_monads(collections)
+        baca.label_figure(tuplets, "4_9", accumulator.figure_number)
         accumulator.cache(
             library.v1,
             tuplets,
-            figure_name="4_9",
+            already_labeled=True,
             tsd=tsd,
         )
     with baca.scope([["E2"]]) as collections:
         tuplets, tsd = library.make_monads(collections)
+        baca.label_figure(tuplets, "4_10", accumulator.figure_number)
         accumulator.cache(
             library.v1,
             tuplets,
-            figure_name="4_10",
+            already_labeled=True,
             tsd=tsd,
         )
     with baca.scope([3 * ["E2"]]) as collections:
         tuplets, tsd = library.make_thirds(collections)
+        baca.label_figure(tuplets, "4_11", accumulator.figure_number)
         accumulator.cache(
             library.v1,
             tuplets,
-            figure_name="4_11",
+            already_labeled=True,
             tsd=tsd,
         )
     with baca.scope([["E2"]]) as collections:
         tuplets, tsd = library.make_monads(collections)
+        baca.label_figure(tuplets, "4_12", accumulator.figure_number)
         accumulator.cache(
             library.v1,
             tuplets,
-            figure_name="4_12",
+            already_labeled=True,
             tsd=tsd,
         )
     with baca.scope([["E2"]]) as collections:
         tuplets, tsd = library.make_monads(collections)
+        baca.label_figure(tuplets, "4_13", accumulator.figure_number)
         accumulator.cache(
             library.v1,
             tuplets,
-            figure_name="4_13",
+            already_labeled=True,
             tsd=tsd,
         )
     with baca.scope([["E2"]]) as collections:
         tuplets, tsd = library.make_monads(collections)
+        baca.label_figure(tuplets, "4_14", accumulator.figure_number)
         accumulator.cache(
             library.v1,
             tuplets,
-            figure_name="4_14",
+            already_labeled=True,
             tsd=tsd,
         )
     with baca.scope([4 * ["E2"]]) as collections:
         tuplets, tsd = library.make_thirds(collections)
+        baca.label_figure(tuplets, "4_15", accumulator.figure_number)
         accumulator.cache(
             library.v1,
             tuplets,
-            figure_name="4_15",
+            already_labeled=True,
             tsd=tsd,
         )
     with baca.scope([5 * ["E2"]]) as collections:
         tuplets, tsd = library.make_thirds(collections)
+        baca.label_figure(tuplets, "4_16", accumulator.figure_number)
         accumulator.cache(
             library.v1,
             tuplets,
-            figure_name="4_16",
+            already_labeled=True,
             tsd=tsd,
         )
     with baca.scope([4 * ["E2"]]) as collections:
         tuplets, tsd = library.make_thirds(collections)
+        baca.label_figure(tuplets, "4_17", accumulator.figure_number)
         accumulator.cache(
             library.v1,
             tuplets,
-            figure_name="4_17",
+            already_labeled=True,
             tsd=tsd,
         )
     with baca.scope([3 * ["E2"]]) as collections:
         tuplets, tsd = library.make_thirds(collections)
+        baca.label_figure(tuplets, "4_18", accumulator.figure_number)
         accumulator.cache(
             library.v1,
             tuplets,
-            figure_name="4_18",
+            already_labeled=True,
             tsd=tsd,
         )
     with baca.scope([2 * ["E2"]]) as collections:
         tuplets, tsd = library.make_thirds(collections)
+        baca.label_figure(tuplets, "4_19", accumulator.figure_number)
         accumulator.cache(
             library.v1,
             tuplets,
-            figure_name="4_19",
+            already_labeled=True,
             tsd=tsd,
         )
     with baca.scope([["E2"]]) as collections:
         tuplets, tsd = library.make_thirds(collections)
+        baca.label_figure(tuplets, "4_20", accumulator.figure_number)
         accumulator.cache(
             library.v1,
             tuplets,
-            figure_name="4_20",
+            already_labeled=True,
             tsd=tsd,
         )
     with baca.scope([2 * ["E2"]]) as collections:
         tuplets, tsd = library.make_thirds(collections)
+        baca.label_figure(tuplets, "4_21", accumulator.figure_number)
         accumulator.cache(
             library.v1,
             tuplets,
-            figure_name="4_21",
+            already_labeled=True,
             tsd=tsd,
         )
     with baca.scope([3 * ["E2"]]) as collections:
         tuplets, tsd = library.make_thirds(collections)
+        baca.label_figure(tuplets, "4_22", accumulator.figure_number)
         accumulator.cache(
             library.v1,
             tuplets,
-            figure_name="4_22",
+            already_labeled=True,
             tsd=tsd,
         )
     with baca.scope([4 * ["E2"]]) as collections:
         tuplets, tsd = library.make_thirds(collections)
+        baca.label_figure(tuplets, "4_23", accumulator.figure_number)
         accumulator.cache(
             library.v1,
             tuplets,
-            figure_name="4_23",
+            already_labeled=True,
             tsd=tsd,
         )
     with baca.scope([5 * ["E2"]]) as collections:
         tuplets, tsd = library.make_thirds(collections)
+        baca.label_figure(tuplets, "4_24", accumulator.figure_number)
         accumulator.cache(
             library.v1,
             tuplets,
-            figure_name="4_24",
+            already_labeled=True,
             tsd=tsd,
         )
     with baca.scope([4 * ["E2"]]) as collections:
         tuplets, tsd = library.make_thirds(collections)
+        baca.label_figure(tuplets, "4_25", accumulator.figure_number)
         accumulator.cache(
             library.v1,
             tuplets,
-            figure_name="4_25",
+            already_labeled=True,
             tsd=tsd,
         )
     with baca.scope([3 * ["E2"]]) as collections:
         tuplets, tsd = library.make_thirds(collections)
+        baca.label_figure(tuplets, "4_26", accumulator.figure_number)
         accumulator.cache(
             library.v1,
             tuplets,
-            figure_name="4_26",
+            already_labeled=True,
             tsd=tsd,
         )
     with baca.scope([2 * ["E2"]]) as collections:
         tuplets, tsd = library.make_thirds(collections)
+        baca.label_figure(tuplets, "4_27", accumulator.figure_number)
         accumulator.cache(
             library.v1,
             tuplets,
-            figure_name="4_27",
+            already_labeled=True,
             tsd=tsd,
         )
     with baca.scope([1 * ["E2"]]) as collections:
         tuplets, tsd = library.make_thirds(collections)
+        baca.label_figure(tuplets, "4_28", accumulator.figure_number)
         accumulator.cache(
             library.v1,
             tuplets,
-            figure_name="4_28",
+            already_labeled=True,
             tsd=tsd,
         )
     with baca.scope([2 * ["E2"]]) as collections:
         tuplets, tsd = library.make_thirds(collections)
+        baca.label_figure(tuplets, "4_29", accumulator.figure_number)
         accumulator.cache(
             library.v1,
             tuplets,
-            figure_name="4_29",
+            already_labeled=True,
             tsd=tsd,
         )
     with baca.scope([3 * ["E2"]]) as collections:
         tuplets, tsd = library.make_thirds(collections)
+        baca.label_figure(tuplets, "4_30", accumulator.figure_number)
         accumulator.cache(
             library.v1,
             tuplets,
-            figure_name="4_30",
+            already_labeled=True,
             tsd=tsd,
         )
     with baca.scope([4 * ["E2"]]) as collections:
         tuplets, tsd = library.make_thirds(collections)
+        baca.label_figure(tuplets, "4_31", accumulator.figure_number)
         accumulator.cache(
             library.v1,
             tuplets,
-            figure_name="4_31",
+            already_labeled=True,
             tsd=tsd,
         )
     with baca.scope([5 * ["E2"]]) as collections:
         tuplets, tsd = library.make_thirds(collections)
+        baca.label_figure(tuplets, "4_32", accumulator.figure_number)
         accumulator.cache(
             library.v1,
             tuplets,
-            figure_name="4_32",
+            already_labeled=True,
             tsd=tsd,
         )
     with baca.scope([3 * ["E2"]]) as collections:
         tuplets, tsd = library.make_thirds(collections)
+        baca.label_figure(tuplets, "4_33", accumulator.figure_number)
         accumulator.cache(
             library.v1,
             tuplets,
-            figure_name="4_33",
+            already_labeled=True,
             tsd=tsd,
         )
     with baca.scope([2 * ["E2"]]) as collections:
         tuplets, tsd = library.make_thirds(collections)
+        baca.label_figure(tuplets, "4_34", accumulator.figure_number)
         accumulator.cache(
             library.v1,
             tuplets,
-            figure_name="4_34",
+            already_labeled=True,
             tsd=tsd,
         )
     with baca.scope([1 * ["E2"]]) as collections:
         tuplets, tsd = library.make_thirds(collections)
+        baca.label_figure(tuplets, "4_35", accumulator.figure_number)
         accumulator.cache(
             library.v1,
             tuplets,
-            figure_name="4_35",
+            already_labeled=True,
             tsd=tsd,
         )
     tuplets, tsd = library.make_rests(5, (1, 8))
+    baca.label_figure(tuplets, "4_36", accumulator.figure_number)
     accumulator.cache(
         library.v1,
         tuplets,
-        figure_name="4_36",
+        already_labeled=True,
         tsd=tsd,
     )
     voices = baca.section.cache_voices(score, library.voice_abbreviations)

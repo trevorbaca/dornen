@@ -26,6 +26,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         time_signature = library.time_signature(tuplets, tsd)
         time_signatures.append(time_signature)
         baca.label_figure(tuplets, "2_1", accumulator_2)
+        library.populate(score_2, library.v1, tuplets)
     with baca.scope([["Gb~2"]]) as collections:
         tuplets, tsd = library.make_monads(collections)
         baca.label_figure(tuplets, "2_2", accumulator)
@@ -39,6 +40,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         time_signature = library.time_signature(tuplets, tsd)
         time_signatures.append(time_signature)
         baca.label_figure(tuplets, "2_2", accumulator_2)
+        library.populate(score_2, library.v1, tuplets)
     with baca.scope([["Gb~2"]]) as collections:
         tuplets, tsd = library.make_thirds(collections)
         baca.label_figure(tuplets, "2_3", accumulator)
@@ -52,6 +54,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         time_signature = library.time_signature(tuplets, tsd)
         time_signatures.append(time_signature)
         baca.label_figure(tuplets, "2_3", accumulator_2)
+        library.populate(score_2, library.v1, tuplets)
     with baca.scope([["Gb~2"]]) as collections:
         tuplets, tsd = library.make_thirds(collections)
         baca.label_figure(tuplets, "2_4", accumulator)
@@ -65,6 +68,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         time_signature = library.time_signature(tuplets, tsd)
         time_signatures.append(time_signature)
         baca.label_figure(tuplets, "2_4", accumulator_2)
+        library.populate(score_2, library.v1, tuplets)
     with baca.scope([["Gb~2"]]) as collections:
         tuplets, tsd = library.make_thirds(collections)
         baca.label_figure(tuplets, "2_5", accumulator)
@@ -78,6 +82,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         time_signature = library.time_signature(tuplets, tsd)
         time_signatures.append(time_signature)
         baca.label_figure(tuplets, "2_5", accumulator_2)
+        library.populate(score_2, library.v1, tuplets)
     with baca.scope([["Gb~2"]]) as collections:
         tuplets, tsd = library.make_monads(collections)
         baca.markup(baca.select.pleaf(tuplets, 0), r"\dornen-three-fingers-markup")
@@ -93,6 +98,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         time_signatures.append(time_signature)
         baca.markup(baca.select.pleaf(tuplets, 0), r"\dornen-three-fingers-markup")
         baca.label_figure(tuplets, "3_1", accumulator_2)
+        library.populate(score_2, library.v1, tuplets)
     with baca.scope([["Gb~2"]]) as collections:
         tuplets, tsd = library.make_monads(collections)
         baca.label_figure(tuplets, "3_2", accumulator)
@@ -106,6 +112,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         time_signature = library.time_signature(tuplets, tsd)
         time_signatures.append(time_signature)
         baca.label_figure(tuplets, "3_2", accumulator_2)
+        library.populate(score_2, library.v1, tuplets)
     with baca.scope([["Gb~2"]]) as collections:
         tuplets, tsd = library.make_thirds(collections)
         baca.label_figure(tuplets, "3_3", accumulator)
@@ -119,6 +126,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         time_signature = library.time_signature(tuplets, tsd)
         time_signatures.append(time_signature)
         baca.label_figure(tuplets, "3_3", accumulator_2)
+        library.populate(score_2, library.v1, tuplets)
     with baca.scope([["Gb~2"]]) as collections:
         tuplets, tsd = library.make_thirds(collections)
         baca.label_figure(tuplets, "3_4", accumulator)
@@ -132,6 +140,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         time_signature = library.time_signature(tuplets, tsd)
         time_signatures.append(time_signature)
         baca.label_figure(tuplets, "3_4", accumulator_2)
+        library.populate(score_2, library.v1, tuplets)
     with baca.scope([["Gb~2"]]) as collections:
         tuplets, tsd = library.make_thirds(collections)
         baca.label_figure(tuplets, "3_5", accumulator)
@@ -145,6 +154,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         time_signature = library.time_signature(tuplets, tsd)
         time_signatures.append(time_signature)
         baca.label_figure(tuplets, "3_5", accumulator_2)
+        library.populate(score_2, library.v1, tuplets)
     with baca.scope([["Gb~2"]]) as collections:
         tuplets, tsd = library.make_monads(collections)
         baca.markup(baca.select.pleaf(tuplets, 0), r"\dornen-four-fingers-markup")
@@ -160,6 +170,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         time_signatures.append(time_signature)
         baca.markup(baca.select.pleaf(tuplets, 0), r"\dornen-four-fingers-markup")
         baca.label_figure(tuplets, "4_1", accumulator_2)
+        library.populate(score_2, library.v1, tuplets)
     with baca.scope([["Gb~2"]]) as collections:
         tuplets, tsd = library.make_monads(collections)
         baca.label_figure(tuplets, "4_2", accumulator)
@@ -173,6 +184,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         time_signature = library.time_signature(tuplets, tsd)
         time_signatures.append(time_signature)
         baca.label_figure(tuplets, "4_2", accumulator_2)
+        library.populate(score_2, library.v1, tuplets)
     with baca.scope([["Gb~2"]]) as collections:
         tuplets, tsd = library.make_thirds(collections)
         baca.label_figure(tuplets, "4_3", accumulator)
@@ -186,6 +198,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         time_signature = library.time_signature(tuplets, tsd)
         time_signatures.append(time_signature)
         baca.label_figure(tuplets, "4_3", accumulator_2)
+        library.populate(score_2, library.v1, tuplets)
     with baca.scope([["Gb~2"]]) as collections:
         tuplets, tsd = library.make_thirds(collections)
         baca.label_figure(tuplets, "4_4", accumulator)
@@ -199,6 +212,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         time_signature = library.time_signature(tuplets, tsd)
         time_signatures.append(time_signature)
         baca.label_figure(tuplets, "4_4", accumulator_2)
+        library.populate(score_2, library.v1, tuplets)
     with baca.scope([["Gb~2"]]) as collections:
         tuplets, tsd = library.make_thirds(collections)
         baca.label_figure(tuplets, "4_5", accumulator)
@@ -212,6 +226,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         time_signature = library.time_signature(tuplets, tsd)
         time_signatures.append(time_signature)
         baca.label_figure(tuplets, "4_5", accumulator_2)
+        library.populate(score_2, library.v1, tuplets)
     with baca.scope([["Gb~2"]]) as collections:
         tuplets, tsd = library.make_monads(collections)
         baca.label_figure(tuplets, "4_6", accumulator)
@@ -225,6 +240,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         time_signature = library.time_signature(tuplets, tsd)
         time_signatures.append(time_signature)
         baca.label_figure(tuplets, "4_6", accumulator_2)
+        library.populate(score_2, library.v1, tuplets)
     with baca.scope([["Gb~2"]]) as collections:
         tuplets, tsd = library.make_thirds(collections)
         baca.label_figure(tuplets, "4_7", accumulator)
@@ -238,6 +254,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         time_signature = library.time_signature(tuplets, tsd)
         time_signatures.append(time_signature)
         baca.label_figure(tuplets, "4_7", accumulator_2)
+        library.populate(score_2, library.v1, tuplets)
     with baca.scope([["Gb~2"]]) as collections:
         tuplets, tsd = library.make_thirds(collections)
         baca.label_figure(tuplets, "4_8", accumulator)
@@ -251,6 +268,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         time_signature = library.time_signature(tuplets, tsd)
         time_signatures.append(time_signature)
         baca.label_figure(tuplets, "4_8", accumulator_2)
+        library.populate(score_2, library.v1, tuplets)
     with baca.scope([["Gb~2"]]) as collections:
         tuplets, tsd = library.make_thirds(collections)
         baca.label_figure(tuplets, "4_9", accumulator)
@@ -264,6 +282,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         time_signature = library.time_signature(tuplets, tsd)
         time_signatures.append(time_signature)
         baca.label_figure(tuplets, "4_9", accumulator_2)
+        library.populate(score_2, library.v1, tuplets)
     with baca.scope([["Gb~2"]]) as collections:
         tuplets, tsd = library.make_monads(collections)
         baca.label_figure(tuplets, "4_10", accumulator)
@@ -277,6 +296,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         time_signature = library.time_signature(tuplets, tsd)
         time_signatures.append(time_signature)
         baca.label_figure(tuplets, "4_10", accumulator_2)
+        library.populate(score_2, library.v1, tuplets)
     with baca.scope([["Gb~2"]]) as collections:
         tuplets, tsd = library.make_thirds(collections)
         baca.label_figure(tuplets, "4_11", accumulator)
@@ -290,6 +310,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         time_signature = library.time_signature(tuplets, tsd)
         time_signatures.append(time_signature)
         baca.label_figure(tuplets, "4_11", accumulator_2)
+        library.populate(score_2, library.v1, tuplets)
     with baca.scope([["Gb~2"]]) as collections:
         tuplets, tsd = library.make_thirds(collections)
         baca.label_figure(tuplets, "4_12", accumulator)
@@ -303,6 +324,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         time_signature = library.time_signature(tuplets, tsd)
         time_signatures.append(time_signature)
         baca.label_figure(tuplets, "4_12", accumulator_2)
+        library.populate(score_2, library.v1, tuplets)
     with baca.scope([["Gb~2"]]) as collections:
         tuplets, tsd = library.make_thirds(collections)
         baca.label_figure(tuplets, "4_13", accumulator)
@@ -316,6 +338,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         time_signature = library.time_signature(tuplets, tsd)
         time_signatures.append(time_signature)
         baca.label_figure(tuplets, "4_13", accumulator_2)
+        library.populate(score_2, library.v1, tuplets)
     with baca.scope([2 * ["Gb~2"]]) as collections:
         tuplets, tsd = library.make_monads(collections)
         baca.markup(baca.select.pleaf(tuplets, 0), r"\dornen-three-fingers-markup")
@@ -331,6 +354,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         time_signatures.append(time_signature)
         baca.markup(baca.select.pleaf(tuplets, 0), r"\dornen-three-fingers-markup")
         baca.label_figure(tuplets, "4_14", accumulator_2)
+        library.populate(score_2, library.v1, tuplets)
     with baca.scope([2 * ["Gb~2"]]) as collections:
         tuplets, tsd = library.make_monads(collections)
         baca.markup(baca.select.pleaf(tuplets, 0), r"\dornen-two-fingers-markup")

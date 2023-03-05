@@ -23,7 +23,6 @@ def make_empty_score():
         accumulator.cache(
             library.v1,
             tuplets,
-            already_labeled=True,
             tsd=tsd,
         )
     with cursor([[6, 2, 3, 5, 9, 8, 0]]) as collection:
@@ -36,7 +35,6 @@ def make_empty_score():
         accumulator.cache(
             library.v2,
             tuplets,
-            already_labeled=True,
             tsd=tsd,
         )
     with cursor([[11]]) as collection:
@@ -47,7 +45,6 @@ def make_empty_score():
         accumulator.cache(
             library.v1,
             tuplets,
-            already_labeled=True,
             tsd=tsd,
         )
     with cursor([[10, 7, 9, 8, 0, 5]]) as collection:
@@ -59,7 +56,6 @@ def make_empty_score():
         accumulator.cache(
             library.v2,
             tuplets,
-            already_labeled=True,
             tsd=tsd,
         )
     with cursor([[10, 7]]) as collection:
@@ -69,7 +65,6 @@ def make_empty_score():
         accumulator.cache(
             library.v1,
             tuplets,
-            already_labeled=True,
             tsd=tsd,
         )
     with cursor([[11, 6, 2, 3, 4]]) as collection:
@@ -80,7 +75,6 @@ def make_empty_score():
         accumulator.cache(
             library.v2,
             tuplets,
-            already_labeled=True,
             tsd=tsd,
         )
     with cursor([[7, 11]]) as collection:
@@ -92,7 +86,6 @@ def make_empty_score():
         accumulator.cache(
             library.v1,
             tuplets,
-            already_labeled=True,
             tsd=tsd,
         )
     with cursor([[10, 2, 3, 4, 6]]) as collection:
@@ -105,7 +98,6 @@ def make_empty_score():
         accumulator.cache(
             library.v2,
             tuplets,
-            already_labeled=True,
             tsd=tsd,
         )
     with cursor([[8, 0, 5, 9], [3, 4, 6, 2]], n=2) as collection:
@@ -115,7 +107,6 @@ def make_empty_score():
         accumulator.cache(
             library.v4,
             tuplets,
-            already_labeled=True,
             tsd=tsd,
         )
     with cursor([[0, 5, 9, 8]]) as collection:
@@ -125,7 +116,6 @@ def make_empty_score():
         accumulator.cache(
             library.v1,
             tuplets,
-            already_labeled=True,
             tsd=tsd,
         )
     with cursor(
@@ -137,7 +127,6 @@ def make_empty_score():
         accumulator.cache(
             library.v4,
             tuplets,
-            already_labeled=True,
             tsd=tsd,
         )
     with cursor([[6, 10]]) as collection:
@@ -149,7 +138,6 @@ def make_empty_score():
         accumulator.cache(
             library.v1,
             tuplets,
-            already_labeled=True,
             tsd=tsd,
         )
     with cursor([[9, 1, 11, 8, 0, 5, 7, 3, 4]]) as collection:
@@ -160,7 +148,6 @@ def make_empty_score():
         accumulator.cache(
             library.v2,
             tuplets,
-            already_labeled=True,
             tsd=tsd,
         )
     with cursor([[8, 0]]) as collection:
@@ -170,7 +157,6 @@ def make_empty_score():
         accumulator.cache(
             library.v1,
             tuplets,
-            already_labeled=True,
             tsd=tsd,
         )
     with cursor([[11, 7, 3, 4, 5, 10, 9, 1, 6]]) as collection:
@@ -183,7 +169,6 @@ def make_empty_score():
         accumulator.cache(
             library.v2,
             tuplets,
-            already_labeled=True,
             tsd=tsd,
         )
     with cursor([[3, 4, 5, 7]]) as collection:
@@ -194,7 +179,6 @@ def make_empty_score():
         accumulator.cache(
             library.v2,
             tuplets,
-            already_labeled=True,
             tsd=tsd,
         )
     with cursor([[9, 1, 6, 10, 0, 11, 8], [1, 6, 10, 9]], n=2) as collection:
@@ -204,7 +188,6 @@ def make_empty_score():
         accumulator.cache(
             library.v4,
             tuplets,
-            already_labeled=True,
             tsd=tsd,
         )
     with cursor([[11, 8, 0, 4, 5, 7, 3]]) as collection:
@@ -214,7 +197,6 @@ def make_empty_score():
         accumulator.cache(
             library.v3,
             tuplets,
-            already_labeled=True,
             tsd=tsd,
         )
     with cursor([[5, 11, 6, 2, 0, 3, 11, 6, 5, 0, 3, 2]]) as collection:
@@ -224,7 +206,6 @@ def make_empty_score():
         accumulator.cache(
             library.v3,
             tuplets,
-            already_labeled=True,
             tsd=tsd,
         )
     voices = baca.section.cache_voices(score, library.voice_abbreviations)

@@ -75,7 +75,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         baca.text_script_down(tuplets)
         baca.extend_beam(abjad.select.leaf(tuplets, -1))
         baca.label_figure(tuplets, "16_1", accumulator_2)
-        library.populate(score_2, library.v1, tuplets)
+        library.populate(score_2, library.v2, tuplets)
     with baca.scope(design[2:3]) as collections:
         assert collections == [[2, 5, 8]]
         tuplets, tsd = library.make_twenty_eighths(collections)
@@ -95,7 +95,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         baca.stem_up(baca.select.pleaves(tuplets))
         middle_register(tuplets)
         baca.label_figure(tuplets, "28_1", accumulator_2)
-        library.populate(score_2, library.v1, tuplets)
+        library.populate(score_2, library.v3, tuplets)
     with baca.scope(design[3:4]) as collections:
         assert collections == [[9]]
         tuplets, tsd = library.make_sixteenths(collections)
@@ -113,7 +113,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         time_signatures.append(time_signature)
         baca.extend_beam(abjad.select.leaf(tuplets, -1))
         baca.label_figure(tuplets, "16_2", accumulator_2)
-        library.populate(score_2, library.v1, tuplets)
+        library.populate(score_2, library.v2, tuplets)
     with baca.scope(design[4:5]) as collections:
         assert collections == [[1, 4, 10]]
         tuplets, tsd = library.make_twentieths(collections)
@@ -153,7 +153,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         time_signatures.append(time_signature)
         baca.extend_beam(abjad.select.leaf(tuplets, -1))
         baca.label_figure(tuplets, "16_3", accumulator_2)
-        library.populate(score_2, library.v1, tuplets)
+        library.populate(score_2, library.v2, tuplets)
     with baca.scope(design[6:7]) as collections:
         assert collections == [[6, 9, 1]]
         tuplets, tsd = library.make_twenty_eighths(collections)
@@ -173,7 +173,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         baca.stem_up(baca.select.pleaves(tuplets))
         middle_register(tuplets)
         baca.label_figure(tuplets, "28_2", accumulator_2)
-        library.populate(score_2, library.v1, tuplets)
+        library.populate(score_2, library.v3, tuplets)
     with baca.scope(design[7:8]) as collections:
         assert collections == [[4]]
         tuplets, tsd = library.make_sixteenths(collections)
@@ -191,7 +191,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         time_signatures.append(time_signature)
         baca.extend_beam(abjad.select.leaf(tuplets, -1))
         baca.label_figure(tuplets, "16_4", accumulator_2)
-        library.populate(score_2, library.v1, tuplets)
+        library.populate(score_2, library.v2, tuplets)
     with baca.scope(design[8:9]) as collections:
         assert collections == [[8, 11, 6]]
         tuplets, tsd = library.make_twentieths(collections)
@@ -227,7 +227,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         time_signature = library.time_signature(tuplets, tsd)
         time_signatures.append(time_signature)
         baca.label_figure(tuplets, "16_5", accumulator_2)
-        library.populate(score_2, library.v1, tuplets)
+        library.populate(score_2, library.v2, tuplets)
     with baca.scope(design[10:11]) as collections:
         assert collections == [[3]]
         tuplets, tsd = library.make_twenty_fourths(collections)
@@ -245,7 +245,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         time_signatures.append(time_signature)
         baca.extend_beam(abjad.select.leaf(tuplets, -1))
         baca.label_figure(tuplets, "24_1", accumulator_2)
-        library.populate(score_2, library.v1, tuplets)
+        library.populate(score_2, library.v2, tuplets)
     with baca.scope(design[11:12]) as collections:
         assert collections == [[4, 9, 7, 10]]
         tuplets, tsd = library.make_thirty_seconds(collections)
@@ -285,7 +285,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         time_signatures.append(time_signature)
         baca.extend_beam(abjad.select.leaf(tuplets, -1))
         baca.label_figure(tuplets, "24_2", accumulator_2)
-        library.populate(score_2, library.v1, tuplets)
+        library.populate(score_2, library.v2, tuplets)
     with baca.scope(design[13:14]) as collections:
         assert collections == [[8, 5, 1, 11]]
         tuplets, tsd = library.make_twenty_eighths(collections)
@@ -305,7 +305,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         baca.stem_up(baca.select.pleaves(tuplets))
         middle_register(tuplets)
         baca.label_figure(tuplets, "28_3", accumulator_2)
-        library.populate(score_2, library.v1, tuplets)
+        library.populate(score_2, library.v3, tuplets)
     with baca.scope(design[14:15]) as collections:
         assert collections == [[0]]
         tuplets, tsd = library.make_twenty_fourths(collections)
@@ -323,7 +323,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         time_signatures.append(time_signature)
         baca.extend_beam(abjad.select.leaf(tuplets, -1))
         baca.label_figure(tuplets, "24_3", accumulator_2)
-        library.populate(score_2, library.v1, tuplets)
+        library.populate(score_2, library.v2, tuplets)
     with baca.scope(design[15:16]) as collections:
         assert collections == [[8, 5, 2, 11]]
         tuplets, tsd = library.make_thirty_seconds(collections)
@@ -363,7 +363,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         time_signatures.append(time_signature)
         baca.extend_beam(abjad.select.leaf(tuplets, -1))
         baca.label_figure(tuplets, "24_4", accumulator_2)
-        library.populate(score_2, library.v1, tuplets)
+        library.populate(score_2, library.v2, tuplets)
     with baca.scope(design[17:18]) as collections:
         assert collections == [[1, 4, 9, 7]]
         tuplets, tsd = library.make_thirty_seconds(collections)
@@ -403,7 +403,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         time_signatures.append(time_signature)
         baca.extend_beam(abjad.select.leaf(tuplets, -1))
         baca.label_figure(tuplets, "24_5", accumulator_2)
-        library.populate(score_2, library.v1, tuplets)
+        library.populate(score_2, library.v2, tuplets)
     with baca.scope(design[19:20]) as collections:
         assert collections == [[3, 0, 1, 11]]
         tuplets, tsd = library.make_twenty_eighths(collections)
@@ -423,7 +423,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         baca.stem_up(baca.select.pleaves(tuplets))
         middle_register(tuplets)
         baca.label_figure(tuplets, "28_4", accumulator_2)
-        library.populate(score_2, library.v1, tuplets)
+        library.populate(score_2, library.v3, tuplets)
     with baca.scope(design[20:21]) as collections:
         assert collections == [[9]]
         tuplets, tsd = library.make_twenty_fourths(collections)
@@ -439,7 +439,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         time_signature = library.time_signature(tuplets, tsd)
         time_signatures.append(time_signature)
         baca.label_figure(tuplets, "24_6", accumulator_2)
-        library.populate(score_2, library.v1, tuplets)
+        library.populate(score_2, library.v2, tuplets)
     with baca.scope(design[21:]) as collections:
         assert collections == [[7, 10, 3, 4]]
         tuplets, tsd = library.make_thirty_seconds(collections)

@@ -73,7 +73,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         time_signatures.append(time_signature)
         baca.register(tuplets, 0)
         baca.label_figure(tuplets, "W1", accumulator_2)
-        library.populate(score_2, library.v1, tuplets)
+        library.populate(score_2, library.v3, tuplets)
     with baca.scope(design[3:4]) as collections:
         assert collections == [[11, 1, 6, 10, 11, 1]]
         tuplets, tsd = library.make_delicatissimo(collections)
@@ -157,7 +157,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         time_signatures.append(time_signature)
         baca.register(tuplets, 0)
         baca.label_figure(tuplets, "W2", accumulator_2)
-        library.populate(score_2, library.v1, tuplets)
+        library.populate(score_2, library.v3, tuplets)
     with baca.scope(design[6:7]) as collections:
         assert collections == eval(
             """[[ 1, 4, 5, 0.5, 4.5, 5.5, 7, 7.5, 8.5, 11, 8, 6, 10, 1.5, 0, 9,
@@ -181,7 +181,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         time_signatures.append(time_signature)
         baca.register(tuplets, 0)
         baca.label_figure(tuplets, "W3", accumulator_2)
-        library.populate(score_2, library.v1, tuplets)
+        library.populate(score_2, library.v3, tuplets)
     with baca.scope(design[7:8]) as collections:
         assert collections == [[1.5, 0, 9, 10, 4]]
         tuplets, tsd = library.make_thirty_seconds(collections)
@@ -223,7 +223,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         baca.register(tuplets, 0)
         baca.extend_beam(abjad.select.leaf(tuplets, -1))
         baca.label_figure(tuplets, "28_1", accumulator_2)
-        library.populate(score_2, library.v1, tuplets)
+        library.populate(score_2, library.v2, tuplets)
     with baca.scope(design[9:10]) as collections:
         assert collections == [[0, 9, 10, 1.5, 5]]
         tuplets, tsd = library.make_forty_eighths(collections)
@@ -243,7 +243,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         baca.register(tuplets, 0)
         baca.extend_beam(abjad.select.leaf(tuplets, -1))
         baca.label_figure(tuplets, "48_1", accumulator_2)
-        library.populate(score_2, library.v1, tuplets)
+        library.populate(score_2, library.v2, tuplets)
     with baca.scope(design[10:11]) as collections:
         assert collections == [[0.5, 4.5, 5.5, 1, 4]]
         tuplets, tsd = library.make_thirty_seconds(collections)
@@ -283,7 +283,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         baca.register(tuplets, 0)
         baca.extend_beam(abjad.select.leaf(tuplets, -1))
         baca.label_figure(tuplets, "28_2", accumulator_2)
-        library.populate(score_2, library.v1, tuplets)
+        library.populate(score_2, library.v2, tuplets)
     with baca.scope(design[12:13]) as collections:
         assert collections == [[1, 4, 8, 10, 11, 4]]
         tuplets, tsd = library.make_forty_eighths(collections)
@@ -303,7 +303,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         baca.register(tuplets, 0)
         baca.extend_beam(abjad.select.leaf(tuplets, -1))
         baca.label_figure(tuplets, "48_2", accumulator_2)
-        library.populate(score_2, library.v1, tuplets)
+        library.populate(score_2, library.v2, tuplets)
     with baca.scope(design[13:14]) as collections:
         assert collections == [[8, 10, 11, 1, 0, 2]]
         tuplets, tsd = library.make_thirty_seconds(collections)
@@ -343,7 +343,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         baca.register(tuplets, 0)
         baca.extend_beam(abjad.select.leaf(tuplets, -1))
         baca.label_figure(tuplets, "G1", accumulator_2)
-        library.populate(score_2, library.v1, tuplets)
+        library.populate(score_2, library.v2, tuplets)
     with baca.scope(design[16:19]) as collections:
         assert collections == [
             [4.5, 11.5, 3.5, 2.5, 10],

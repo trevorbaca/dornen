@@ -9,7 +9,7 @@ from dornen import library
 
 def make_empty_score(first_measure_number, previous_persistent_indicators):
     score = library.make_empty_score()
-    accumulator = baca.figures.Accumulator(score, library.voice_abbreviations)
+    accumulator = baca.Accumulator(score, library.voice_abbreviations)
     with baca.scope([["Gb~2"]]) as collections:
         tuplets, tsd = library.make_monads(collections)
         baca.make_figures(

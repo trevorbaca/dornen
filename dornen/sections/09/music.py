@@ -229,7 +229,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         manifests=library.manifests,
         previous_persistent_indicators=previous_persistent_indicators,
     )
-    accumulator.populate_commands(score)
+    accumulator.populate(score)
     return score, voices, time_signatures
 
 

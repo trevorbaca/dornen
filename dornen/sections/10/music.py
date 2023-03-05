@@ -11,8 +11,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     score = library.make_empty_score()
     accumulator = baca.Accumulator(score)
     tuplets, tsd = library.make_rests(3, (1, 8))
-    baca.make_figures(
-        accumulator,
+    accumulator.cache(
         library.v1,
         tuplets,
         figure_name="R_1",
@@ -23,8 +22,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         baca.markup(
             baca.select.pleaf(tuplets, 0), r"\dornen-two-finger-tamb-trill-markup"
         )
-        baca.make_figures(
-            accumulator,
+        accumulator.cache(
             library.v1,
             tuplets,
             figure_name="2_1",
@@ -32,8 +30,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         )
     with baca.scope([["Gb2"]]) as collections:
         tuplets, tsd = library.make_monads(collections)
-        baca.make_figures(
-            accumulator,
+        accumulator.cache(
             library.v1,
             tuplets,
             figure_name="2_2",
@@ -41,8 +38,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         )
     with baca.scope([["Gb2"]]) as collections:
         tuplets, tsd = library.make_thirds(collections)
-        baca.make_figures(
-            accumulator,
+        accumulator.cache(
             library.v1,
             tuplets,
             figure_name="2_3",
@@ -50,8 +46,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         )
     with baca.scope([["Gb2"]]) as collections:
         tuplets, tsd = library.make_thirds(collections)
-        baca.make_figures(
-            accumulator,
+        accumulator.cache(
             library.v1,
             tuplets,
             figure_name="2_4",
@@ -59,8 +54,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         )
     with baca.scope([["Gb2"]]) as collections:
         tuplets, tsd = library.make_thirds(collections)
-        baca.make_figures(
-            accumulator,
+        accumulator.cache(
             library.v1,
             tuplets,
             figure_name="2_5",
@@ -69,8 +63,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     with baca.scope([["Gb2"]]) as collections:
         tuplets, tsd = library.make_monads(collections)
         baca.markup(baca.select.pleaf(tuplets, 0), r"\dornen-three-fingers-markup")
-        baca.make_figures(
-            accumulator,
+        accumulator.cache(
             library.v1,
             tuplets,
             figure_name="3_1",
@@ -78,8 +71,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         )
     with baca.scope([["Gb2"]]) as collections:
         tuplets, tsd = library.make_monads(collections)
-        baca.make_figures(
-            accumulator,
+        accumulator.cache(
             library.v1,
             tuplets,
             figure_name="3_2",
@@ -87,8 +79,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         )
     with baca.scope([["Gb2"]]) as collections:
         tuplets, tsd = library.make_thirds(collections)
-        baca.make_figures(
-            accumulator,
+        accumulator.cache(
             library.v1,
             tuplets,
             figure_name="3_3",
@@ -96,8 +87,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         )
     with baca.scope([["Gb2"]]) as collections:
         tuplets, tsd = library.make_thirds(collections)
-        baca.make_figures(
-            accumulator,
+        accumulator.cache(
             library.v1,
             tuplets,
             figure_name="3_4",
@@ -105,8 +95,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         )
     with baca.scope([["Gb2"]]) as collections:
         tuplets, tsd = library.make_thirds(collections)
-        baca.make_figures(
-            accumulator,
+        accumulator.cache(
             library.v1,
             tuplets,
             figure_name="3_5",
@@ -115,8 +104,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     with baca.scope([["Gb2"]]) as collections:
         tuplets, tsd = library.make_monads(collections)
         baca.markup(baca.select.pleaf(tuplets, 0), r"\dornen-four-fingers-markup")
-        baca.make_figures(
-            accumulator,
+        accumulator.cache(
             library.v1,
             tuplets,
             figure_name="4_1",
@@ -124,8 +112,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         )
     with baca.scope([["Gb2"]]) as collections:
         tuplets, tsd = library.make_monads(collections)
-        baca.make_figures(
-            accumulator,
+        accumulator.cache(
             library.v1,
             tuplets,
             figure_name="4_2",
@@ -133,8 +120,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         )
     with baca.scope([["Gb2"]]) as collections:
         tuplets, tsd = library.make_thirds(collections)
-        baca.make_figures(
-            accumulator,
+        accumulator.cache(
             library.v1,
             tuplets,
             figure_name="4_3",
@@ -142,8 +128,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         )
     with baca.scope([["Gb2"]]) as collections:
         tuplets, tsd = library.make_monads(collections)
-        baca.make_figures(
-            accumulator,
+        accumulator.cache(
             library.v1,
             tuplets,
             figure_name="4_4",
@@ -151,8 +136,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         )
     with baca.scope([["Gb2"]]) as collections:
         tuplets, tsd = library.make_thirds(collections)
-        baca.make_figures(
-            accumulator,
+        accumulator.cache(
             library.v1,
             tuplets,
             figure_name="4_5",
@@ -160,8 +144,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         )
     with baca.scope([["Gb2"]]) as collections:
         tuplets, tsd = library.make_monads(collections)
-        baca.make_figures(
-            accumulator,
+        accumulator.cache(
             library.v1,
             tuplets,
             figure_name="4_6",
@@ -169,8 +152,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         )
     with baca.scope([["Gb2"]]) as collections:
         tuplets, tsd = library.make_thirds(collections)
-        baca.make_figures(
-            accumulator,
+        accumulator.cache(
             library.v1,
             tuplets,
             figure_name="4_7",
@@ -178,8 +160,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         )
     with baca.scope([["Gb2"]]) as collections:
         tuplets, tsd = library.make_thirds(collections)
-        baca.make_figures(
-            accumulator,
+        accumulator.cache(
             library.v1,
             tuplets,
             figure_name="4_8",
@@ -187,8 +168,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         )
     with baca.scope([["Gb2"]]) as collections:
         tuplets, tsd = library.make_thirds(collections)
-        baca.make_figures(
-            accumulator,
+        accumulator.cache(
             library.v1,
             tuplets,
             figure_name="4_9",
@@ -197,8 +177,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     with baca.scope(2 * [["Gb2"]]) as collections:
         tuplets, tsd = library.make_monads(collections)
         baca.markup(baca.select.pleaf(tuplets, 0), r"\dornen-three-fingers-markup")
-        baca.make_figures(
-            accumulator,
+        accumulator.cache(
             library.v1,
             tuplets,
             figure_name="4_10",
@@ -207,8 +186,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     with baca.scope(2 * [["Gb2"]]) as collections:
         tuplets, tsd = library.make_monads(collections)
         baca.markup(baca.select.pleaf(tuplets, 0), r"\dornen-two-fingers-markup")
-        baca.make_figures(
-            accumulator,
+        accumulator.cache(
             library.v1,
             tuplets,
             figure_name="4_11",

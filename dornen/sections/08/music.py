@@ -15,7 +15,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     assert len(design) == 12, (repr(design), len(design))
     with baca.scope(design[:1]) as collections:
         assert collections == [[11, 3, 6, 9]]
-        tuplets, tsd = library.ovoids(collections)
+        tuplets, tsd = library.make_ovoids(collections)
         baca.beam_positions(baca.select.pleaf(tuplets, 0), -7.5)
         baca.register(tuplets, -20, -8)
         baca.make_figures(
@@ -27,7 +27,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         )
     with baca.scope(design[1:2]) as collections:
         assert collections == [[7, 0]]
-        tuplets, tsd = library.glissando_scatto(collections)
+        tuplets, tsd = library.make_glissando_scatto(collections)
         baca.beam_positions(tuplets, 8)
         baca.make_figures(
             accumulator,
@@ -38,7 +38,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         )
     with baca.scope(design[2:3]) as collections:
         assert collections == [[5, 4, 10]]
-        tuplets, tsd = library.graced_tuplets(collections)
+        tuplets, tsd = library.make_graced_tuplets(collections)
         baca.extend_beam(abjad.select.leaf(tuplets, -1))
         baca.make_figures(
             accumulator,
@@ -51,7 +51,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         assert collections == [
             [1, 0, 2, 7, 11, 10, 4, 3, 5, 8, 9, 4, 3, 5, 8, 9, 10, 0, 2, 7, 11, 1]
         ]
-        tuplets, tsd = library.delicatissimo(collections)
+        tuplets, tsd = library.make_delicatissimo(collections)
         baca.beam_positions(tuplets, -7.5)
         baca.register(tuplets, 4, -20)
         baca.make_figures(
@@ -65,7 +65,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         assert collections == [
             [2, 7, 11, 1, 0, 3, 5, 8, 9, 10, 4, 5, 8, 9, 10, 4, 3, 7, 11, 1, 0, 2]
         ]
-        tuplets, tsd = library.graced_tuplets(collections)
+        tuplets, tsd = library.make_graced_tuplets(collections)
         baca.make_figures(
             accumulator,
             "v4",
@@ -75,7 +75,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         )
     with baca.scope(design[5:6]) as collections:
         assert collections == [[4, 9, 7, 10, 3, 2]]
-        tuplets, tsd = library.ovoids(collections)
+        tuplets, tsd = library.make_ovoids(collections)
         baca.beam_positions(baca.select.pleaf(tuplets, 0), -7.5)
         baca.extend_beam(abjad.select.leaf(tuplets, -1))
         baca.make_figures(
@@ -87,7 +87,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         )
     with baca.scope(design[6:7]) as collections:
         assert collections == [[8, 5, 1, 11, 0, 8]]
-        tuplets, tsd = library.glissando_scatto(collections)
+        tuplets, tsd = library.make_glissando_scatto(collections)
         baca.beam_positions(tuplets, 12)
         baca.extend_beam(abjad.select.leaf(tuplets, -1))
         baca.make_figures(
@@ -99,7 +99,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         )
     with baca.scope(design[7:8]) as collections:
         assert collections == [[5, 2]]
-        tuplets, tsd = library.graced_tuplets(collections)
+        tuplets, tsd = library.make_graced_tuplets(collections)
         baca.extend_beam(abjad.select.leaf(tuplets, -1))
         baca.make_figures(
             accumulator,
@@ -110,7 +110,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         )
     with baca.scope(design[8:9]) as collections:
         assert collections == [[8, 10, 11, 1, 4, 7]]
-        tuplets, tsd = library.delicatissimo(collections)
+        tuplets, tsd = library.make_delicatissimo(collections)
         baca.beam_positions(tuplets, -6)
         baca.register(tuplets, 4, -20)
         baca.make_figures(
@@ -122,7 +122,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         )
     with baca.scope(design[9:10]) as collections:
         assert collections == [[6, 9, 3, 0, 2, 6]]
-        tuplets, tsd = library.graced_tuplets(collections)
+        tuplets, tsd = library.make_graced_tuplets(collections)
         baca.make_figures(
             accumulator,
             "v4",
@@ -132,7 +132,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         )
     with baca.scope(design[10:11]) as collections:
         assert collections == [[9, 3, 0, 2, 7, 10]]
-        tuplets, tsd = library.ovoids(collections)
+        tuplets, tsd = library.make_ovoids(collections)
         baca.make_figures(
             accumulator,
             "v2",
@@ -142,7 +142,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         )
     with baca.scope(design[11:12]) as collections:
         assert collections == [[11, 1, 4, 8]]
-        tuplets, tsd = library.glissando_scatto(collections)
+        tuplets, tsd = library.make_glissando_scatto(collections)
         baca.make_figures(
             accumulator,
             "v1",

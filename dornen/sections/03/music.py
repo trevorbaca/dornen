@@ -23,6 +23,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
             tuplets,
             tsd=tsd,
         )
+        #
     with baca.scope(design[5:6]) as collections:
         assert collections == [[5, 11, 6, 2, 0, 3, 11, 6, 5, 0, 3, 2]]
         collections = baca.sequence.reveal(design[5:6], 1)
@@ -38,6 +39,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
             tuplets,
             tsd=tsd,
         )
+        #
     with baca.scope(design[1:2]) as collections:
         assert collections == [[3, 4, 5, 7]]
         tuplets, tsd = library.make_ovoids(collections)
@@ -52,6 +54,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
             tuplets,
             tsd=tsd,
         )
+        #
     with baca.scope(design[5:6]) as collections:
         assert collections == [[5, 11, 6, 2, 0, 3, 11, 6, 5, 0, 3, 2]]
         collections = baca.sequence.reveal(design[5:6], 1)
@@ -67,6 +70,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
             tuplets,
             tsd=tsd,
         )
+        #
     with baca.scope(design[2:3]) as collections:
         assert collections == [[9, 1, 6, 10, 0, 11, 8]]
         collections = baca.sequence.boustrophedon(design[2:3], count=2)
@@ -79,6 +83,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
             tuplets,
             tsd=tsd,
         )
+        #
     with baca.scope(design[5:6]) as collections:
         assert collections == [[5, 11, 6, 2, 0, 3, 11, 6, 5, 0, 3, 2]]
         collections = baca.sequence.reveal(design[5:6], 3)
@@ -94,6 +99,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
             tuplets,
             tsd=tsd,
         )
+        #
     with baca.scope(design[3:4]) as collections:
         assert collections == [[1, 6, 10, 9]]
         tuplets, tsd = library.make_ovoids(collections)
@@ -105,6 +111,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
             tuplets,
             tsd=tsd,
         )
+        #
     with baca.scope(design[5:6]) as collections:
         assert collections == [[5, 11, 6, 2, 0, 3, 11, 6, 5, 0, 3, 2]]
         collections = baca.sequence.reveal(design[5:6], 3)
@@ -118,6 +125,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
             tuplets,
             tsd=tsd,
         )
+        #
     with baca.scope(design[4:5]) as collections:
         assert collections == [[11, 8, 0, 4, 5, 7, 3]]
         cell_d1 = [
@@ -136,6 +144,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
             tuplets,
             tsd=tsd,
         )
+        #
     with baca.scope(design[5:6]) as collections:
         assert collections == [[5, 11, 6, 2, 0, 3, 11, 6, 5, 0, 3, 2]]
         collections = baca.sequence.reveal(design[5:6], 1)
@@ -152,6 +161,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
             tuplets,
             tsd=tsd,
         )
+        #
     with baca.scope(cell_d1) as collections:
         assert collections == eval(
             """[[11, 8, 0, 4, 5, 7, 3, 7, 5, 4, 0, 8,
@@ -170,6 +180,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
             tuplets,
             tsd=tsd,
         )
+        #
     with baca.scope(design[5:6]) as collections:
         assert collections == [[5, 11, 6, 2, 0, 3, 11, 6, 5, 0, 3, 2]]
         collections = baca.sequence.reveal(design[5:6], 5)
@@ -185,6 +196,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
             tuplets,
             tsd=tsd,
         )
+        #
     with baca.scope(cell_d1) as collections:
         assert collections == eval(
             """[[11, 8, 0, 4, 5, 7, 3, 7, 5, 4, 0, 8,
@@ -201,6 +213,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
             tuplets,
             tsd=tsd,
         )
+        #
     with baca.scope(design[1:2]) as collections:
         assert collections == [[3, 4, 5, 7]]
         tuplets, tsd = library.make_ovoids(collections)
@@ -215,6 +228,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
             tuplets,
             tsd=tsd,
         )
+        #
     with baca.scope(design[5:6]) as collections:
         assert collections == [[5, 11, 6, 2, 0, 3, 11, 6, 5, 0, 3, 2]]
         collections = baca.sequence.reveal(design[5:6], 3)
@@ -230,6 +244,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
             tuplets,
             tsd=tsd,
         )
+        #
     with baca.scope(design[2:3]) as collections:
         assert collections == [[9, 1, 6, 10, 0, 11, 8]]
         collections = [
@@ -246,6 +261,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
             tuplets,
             tsd=tsd,
         )
+        #
     with baca.scope(cell_d1) as collections:
         assert collections == eval(
             """[[11, 8, 0, 4, 5, 7, 3, 7, 5, 4, 0, 8,
@@ -264,6 +280,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
             tuplets,
             tsd=tsd,
         )
+        #
     with baca.scope(design[5:6]) as collections:
         assert collections == [[5, 11, 6, 2, 0, 3, 11, 6, 5, 0, 3, 2]]
         collections = baca.sequence.reveal(design[5:6], 9)
@@ -280,6 +297,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
             tuplets,
             tsd=tsd,
         )
+        #
     with baca.scope(cell_d1) as collections:
         assert collections == eval(
             """[[11, 8, 0, 4, 5, 7, 3, 7, 5, 4, 0, 8,
@@ -296,6 +314,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
             tuplets,
             tsd=tsd,
         )
+        #
     with baca.scope(design[3:4]) as collections:
         assert collections == [[1, 6, 10, 9]]
         tuplets, tsd = library.make_ovoids(collections)
@@ -307,6 +326,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
             tuplets,
             tsd=tsd,
         )
+        #
     with baca.scope(design[5:6]) as collections:
         assert collections == [[5, 11, 6, 2, 0, 3, 11, 6, 5, 0, 3, 2]]
         collections = [
@@ -324,6 +344,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
             tuplets,
             tsd=tsd,
         )
+        #
     with baca.scope(design[1:2]) as collections:
         assert collections == [[3, 4, 5, 7]]
         tuplets, tsd = library.make_ovoids(collections)
@@ -338,6 +359,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
             tuplets,
             tsd=tsd,
         )
+        #
     with baca.scope(cell_d1) as collections:
         assert collections == eval(
             """[[11, 8, 0, 4, 5, 7, 3, 7, 5, 4, 0, 8,
@@ -354,6 +376,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
             tuplets,
             tsd=tsd,
         )
+        #
     with baca.scope(cell_d1) as collections:
         assert collections == eval(
             """[[11, 8, 0, 4, 5, 7, 3, 7, 5, 4, 0, 8,
@@ -372,6 +395,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
             tuplets,
             tsd=tsd,
         )
+        #
     with baca.scope(design[6:7]) as collections:
         assert collections == [[8, 1, 4, 7, 10, 3, 2, 0, 1, 4, 7, 10, 8, 6, 5, 11]]
         tuplets, tsd = library.make_delicatissimo(collections)
@@ -385,6 +409,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
             tuplets,
             tsd=tsd,
         )
+        #
     with baca.scope(design[3:4]) as collections:
         assert collections == [[1, 6, 10, 9]]
         tuplets, tsd = library.make_ovoids(collections)
@@ -398,6 +423,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
             tuplets,
             tsd=tsd,
         )
+        #
     with baca.scope(design[7:9]) as collections:
         assert collections == [[6], [10, 11, 5]]
         collections = abjad.sequence.join(design[7:9])
@@ -409,6 +435,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
             tuplets,
             tsd=tsd,
         )
+        #
     with baca.scope(design[9:11]) as collections:
         assert collections == [[7], [3, 2, 4]]
         collections = abjad.sequence.join(design[9:11])
@@ -424,6 +451,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
             tuplets,
             tsd=tsd,
         )
+        #
     with baca.scope(design[11:13]) as collections:
         assert collections == [[8], [9, 1, 7]]
         collections = abjad.sequence.join(design[11:13])
@@ -437,6 +465,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
             tuplets,
             tsd=tsd,
         )
+        #
     with baca.scope(design[13:15]) as collections:
         assert collections == [[3], [2, 5, 8]]
         collections = abjad.sequence.join(design[13:15])
@@ -450,6 +479,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
             tuplets,
             tsd=tsd,
         )
+        #
     with baca.scope(design[15:17]) as collections:
         assert collections == [[9], [1, 4, 10]]
         collections = abjad.sequence.join(design[15:17])
@@ -461,6 +491,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
             tuplets,
             tsd=tsd,
         )
+        #
     with baca.scope(design[17:19]) as collections:
         assert collections == [[11], [6, 9, 1]]
         collections = abjad.sequence.join(design[17:19])
@@ -476,6 +507,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
             tuplets,
             tsd=tsd,
         )
+        #
     with baca.scope(design[2:3]) as collections:
         assert collections == [[9, 1, 6, 10, 0, 11, 8]]
         collections = [
@@ -492,6 +524,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
             tuplets,
             tsd=tsd,
         )
+        #
     with baca.scope(design[6:7]) as collections:
         assert collections == [[8, 1, 4, 7, 10, 3, 2, 0, 1, 4, 7, 10, 8, 6, 5, 11]]
         tuplets, tsd = library.make_delicatissimo(collections)
@@ -505,6 +538,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
             tuplets,
             tsd=tsd,
         )
+        #
     with baca.scope(design[19:21]) as collections:
         assert collections == [[4], [8, 11, 6]]
         collections = abjad.sequence.join(design[19:21])
@@ -517,6 +551,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
             tuplets,
             tsd=tsd,
         )
+        #
     with baca.scope(design[21:22]) as collections:
         assert collections == [[10]]
         tuplets, tsd = library.make_ovoids(collections)

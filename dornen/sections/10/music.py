@@ -313,7 +313,6 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         baca.label_figure(tuplets, "4_11", accumulator_2)
     voices = baca.section.cache_voices(score, library.voice_abbreviations)
     assert len(time_signatures) == len(accumulator.time_signatures)
-    # time_signatures = accumulator.time_signatures
     time_signatures = baca.section.time_signatures(time_signatures)
     baca.section.set_up_score(
         score,

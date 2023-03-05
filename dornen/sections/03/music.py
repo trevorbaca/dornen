@@ -656,14 +656,14 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         )
         collections = baca.sequence.reveal(cell_d1, -15)
         tuplets, tsd = library.make_delicatissimo(collections)
-        time_signature = library.time_signature(tuplets, tsd)
-        time_signatures.append(time_signature)
         baca.beam_positions(tuplets, -6.5)
         tuplets = [baca.nest(tuplets, "3:2")]
         pleaves = baca.select.pleaves(tuplets)
         baca.stem_down(pleaves)
         baca.tuplet_bracket_up(tuplets)
         baca.label_figure(tuplets, "D1_7", accumulator_2)
+        time_signature = library.time_signature(tuplets, tsd)
+        time_signatures.append(time_signature)
     with baca.scope(design[6:7]) as collections:
         assert collections == [[8, 1, 4, 7, 10, 3, 2, 0, 1, 4, 7, 10, 8, 6, 5, 11]]
         tuplets, tsd = library.make_delicatissimo(collections)
@@ -941,7 +941,6 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     assert len(design) == 22
     voices = baca.section.cache_voices(score, library.voice_abbreviations)
     assert len(time_signatures) == len(accumulator.time_signatures)
-    time_signatures = accumulator.time_signatures
     time_signatures = baca.section.time_signatures(time_signatures)
     baca.section.set_up_score(
         score,

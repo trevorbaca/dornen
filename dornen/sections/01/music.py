@@ -219,7 +219,7 @@ def make_empty_score():
         first_section=True,
         manifests=library.manifests,
     )
-    accumulator.populate_commands(score)
+    accumulator.populate(score)
     return score, voices, time_signatures
 
 

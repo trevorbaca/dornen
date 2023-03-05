@@ -570,193 +570,180 @@ number.1.Rests = {
 
 number.1.Guitar.Music.1 = {
 
+    \scaleDurations #'(1 . 1)
     {
 
-        \scaleDurations #'(1 . 1)
-        {
-
-            % [Guitar.Music.1 measure 1]
-            \once \override Beam.positions = #'(6 . 6)
-              %! MEASURE_1
-              %! SHIFTED_CLEF
-        %%% \once \override Staff.Clef.X-extent = ##f
-              %! MEASURE_1
-              %! SHIFTED_CLEF
-        %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
-              %! EXPLICIT_CLEF
-            \clef "treble"
-              %! EXPLICIT_CLEF_COLOR
-            \once \override Staff.Clef.color = #(x11-color 'blue)
-              %! EXPLICIT_CLEF_COLOR_CANCELLATION
-            %@% \override Staff.Clef.color = ##f
-              %! EXPLICIT_CLEF
-            \set Staff.forceClef = ##t
-            e'8.
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (1) \hspace #1 "0" ] }
-              %! EXPLICIT_INSTRUMENT_ALERT
-            ^ \baca-explicit-instrument-markup "(“Guitar”)"
-            [
-              %! EXPLICIT_CLEF_REDRAW_COLOR
-            \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
-
-        }
+        % [Guitar.Music.1 measure 1]
+        \once \override Beam.positions = #'(6 . 6)
+          %! MEASURE_1
+          %! SHIFTED_CLEF
+    %%% \once \override Staff.Clef.X-extent = ##f
+          %! MEASURE_1
+          %! SHIFTED_CLEF
+    %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
+          %! EXPLICIT_CLEF
+        \clef "treble"
+          %! EXPLICIT_CLEF_COLOR
+        \once \override Staff.Clef.color = #(x11-color 'blue)
+          %! EXPLICIT_CLEF_COLOR_CANCELLATION
+        %@% \override Staff.Clef.color = ##f
+          %! EXPLICIT_CLEF
+        \set Staff.forceClef = ##t
+        e'8.
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (1) \hspace #1 "0" ] }
+          %! EXPLICIT_INSTRUMENT_ALERT
+        ^ \baca-explicit-instrument-markup "(“Guitar”)"
+        [
+          %! EXPLICIT_CLEF_REDRAW_COLOR
+        \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
 
     }
 
     % [Guitar.Music.1 measure 2]
     s1 * 1/32
 
+    \scaleDurations #'(1 . 1)
     {
 
-        \scaleDurations #'(1 . 1)
-        {
-
-            % [Guitar.Music.1 measure 3]
-            \set stemLeftBeamCount = 1
-            \set stemRightBeamCount = 1
-            b'8.
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (3) \hspace #1 "2" ] }
-
-        }
+        % [Guitar.Music.1 measure 3]
+        \set stemLeftBeamCount = 1
+        \set stemRightBeamCount = 1
+        b'8.
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (3) \hspace #1 "2" ] }
 
     }
 
     % [Guitar.Music.1 measure 4]
     s1 * 1/32
 
+    \scaleDurations #'(1 . 1)
     {
 
-        \scaleDurations #'(1 . 1)
-        {
+        % [Guitar.Music.1 measure 5]
+        \set stemLeftBeamCount = 1
+        \set stemRightBeamCount = 1
+        bf'!8.
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (5) \hspace #1 "4" ] }
 
-            % [Guitar.Music.1 measure 5]
-            \set stemLeftBeamCount = 1
-            \set stemRightBeamCount = 1
-            bf'!8.
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (5) \hspace #1 "4" ] }
-
-            g'8.
-            ]
-
-        }
+        g'8.
+        ]
 
     }
 
     % [Guitar.Music.1 measure 6]
     s1 * 1/32
 
+    \scaleDurations #'(1 . 1)
     {
 
-        \scaleDurations #'(1 . 1)
-        {
+        % [Guitar.Music.1 measure 7]
+        \override Beam.positions = #'(9 . 9)
+        g'8.
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (7) \hspace #1 "6" ] }
+        [
 
-            % [Guitar.Music.1 measure 7]
-            \override Beam.positions = #'(9 . 9)
-            g'8.
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (7) \hspace #1 "6" ] }
-            [
-
-            \set stemLeftBeamCount = 1
-            \set stemRightBeamCount = 1
-            b8.
-            \revert Beam.positions
-
-        }
+        \set stemLeftBeamCount = 1
+        \set stemRightBeamCount = 1
+        b8.
+        \revert Beam.positions
 
     }
 
     % [Guitar.Music.1 measure 8]
-    s1 * 1/8
+    s1 * 1/32
 
+    % [Guitar.Music.1 measure 9]
+    s1 * 3/32
+
+    \scaleDurations #'(1 . 1)
     {
 
-        \scaleDurations #'(1 . 1)
-        {
+        % [Guitar.Music.1 measure 10]
+        \set stemLeftBeamCount = 1
+        \set stemRightBeamCount = 1
+        c'8.
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (10) \hspace #1 "9" ] }
 
-            % [Guitar.Music.1 measure 10]
-            \set stemLeftBeamCount = 1
-            \set stemRightBeamCount = 1
-            c'8.
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (10) \hspace #1 "9" ] }
+        f'8.
 
-            f'8.
+        a8.
 
-            a8.
-
-            af!8.
-            ]
-
-        }
+        af!8.
+        ]
 
     }
 
     % [Guitar.Music.1 measure 11]
     s1 * 17/64
 
+    \scaleDurations #'(1 . 1)
     {
 
-        \scaleDurations #'(1 . 1)
-        {
+        % [Guitar.Music.1 measure 12]
+        \override Beam.positions = #'(6 . 6)
+        fs!8.
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (12) \hspace #1 "11" ] }
+        [
 
-            % [Guitar.Music.1 measure 12]
-            \override Beam.positions = #'(6 . 6)
-            fs!8.
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (12) \hspace #1 "11" ] }
-            [
-
-            \set stemLeftBeamCount = 1
-            \set stemRightBeamCount = 1
-            bf!8.
-            \revert Beam.positions
-
-        }
+        \set stemLeftBeamCount = 1
+        \set stemRightBeamCount = 1
+        bf!8.
+        \revert Beam.positions
 
     }
 
     % [Guitar.Music.1 measure 13]
     s1 * 1/32
 
+    \scaleDurations #'(1 . 1)
     {
 
-        \scaleDurations #'(1 . 1)
-        {
+        % [Guitar.Music.1 measure 14]
+        \set stemLeftBeamCount = 1
+        \set stemRightBeamCount = 1
+        af!8.
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (14) \hspace #1 "13" ] }
 
-            % [Guitar.Music.1 measure 14]
-            \set stemLeftBeamCount = 1
-            \set stemRightBeamCount = 1
-            af!8.
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (14) \hspace #1 "13" ] }
-
-            c'8.
-            ]
-
-        }
+        c'8.
+        ]
 
     }
 
     % [Guitar.Music.1 measure 15]
-    s1 * 1/2
+    s1 * 1/32
+
+    % [Guitar.Music.1 measure 16]
+    s1 * 1/32
+
+    % [Guitar.Music.1 measure 17]
+    s1 * 9/64
+
+    % [Guitar.Music.1 measure 18]
+    s1 * 7/64
+
+    % [Guitar.Music.1 measure 19]
+    s1 * 3/16
 
 }
 
@@ -766,271 +753,258 @@ number.1.Guitar.Music.2 = {
     % [Guitar.Music.2 measure 1]
     s1 * 3/16
 
+    \scaleDurations #'(1 . 1)
     {
 
-        \scaleDurations #'(1 . 1)
-        {
+        % [Guitar.Music.2 measure 2]
+        \acciaccatura {
 
-            % [Guitar.Music.2 measure 2]
-            \acciaccatura {
-
-                fs'!16
-                  %! FIGURE_LABEL
-                %@% - \tweak color #blue
-                  %! FIGURE_LABEL
-                %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (2) \hspace #1 "1" ] }
-                [
-
-                d'16
-
-                ef'!16
-
-                f'16
-
-                a'16
-
-                af'!16
-                ]
-
-            }
-
-            \once \override Beam.positions = #'(-10 . -10)
-            \once \override Score.TimeSignature.extra-offset = #'(-2.5 . 0)
-            c''32
+            fs'!16
+              %! FIGURE_LABEL
+            %@% - \tweak color #blue
+              %! FIGURE_LABEL
+            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (2) \hspace #1 "1" ] }
             [
 
+            d'16
+
+            ef'!16
+
+            f'16
+
+            a'16
+
+            af'!16
+            ]
+
         }
+
+        \once \override Beam.positions = #'(-10 . -10)
+        \once \override Score.TimeSignature.extra-offset = #'(-2.5 . 0)
+        c''32
+        [
 
     }
 
     % [Guitar.Music.2 measure 3]
     s1 * 3/16
 
+    \scaleDurations #'(1 . 1)
     {
 
-        \scaleDurations #'(1 . 1)
-        {
+        % [Guitar.Music.2 measure 4]
+        \acciaccatura {
 
-            % [Guitar.Music.2 measure 4]
-            \acciaccatura {
+            bf'!16
+              %! FIGURE_LABEL
+            %@% - \tweak color #blue
+              %! FIGURE_LABEL
+            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (4) \hspace #1 "3" ] }
+            [
 
-                bf'!16
-                  %! FIGURE_LABEL
-                %@% - \tweak color #blue
-                  %! FIGURE_LABEL
-                %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (4) \hspace #1 "3" ] }
-                [
+            g'16
 
-                g'16
+            a'16
 
-                a'16
+            af'!16
 
-                af'!16
-
-                c''16
-                ]
-
-            }
-
-            \once \override Score.TimeSignature.extra-offset = #'(-2.5 . 0)
-            \set stemLeftBeamCount = 3
-            \set stemRightBeamCount = 1
-            f'32
+            c''16
+            ]
 
         }
+
+        \once \override Score.TimeSignature.extra-offset = #'(-2.5 . 0)
+        \set stemLeftBeamCount = 3
+        \set stemRightBeamCount = 1
+        f'32
 
     }
 
     % [Guitar.Music.2 measure 5]
     s1 * 3/8
 
+    \scaleDurations #'(1 . 1)
     {
 
-        \scaleDurations #'(1 . 1)
-        {
+        % [Guitar.Music.2 measure 6]
+        \acciaccatura {
 
-            % [Guitar.Music.2 measure 6]
-            \acciaccatura {
+            b'16
+              %! FIGURE_LABEL
+            %@% - \tweak color #blue
+              %! FIGURE_LABEL
+            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (6) \hspace #1 "5" ] }
+            [
 
-                b'16
-                  %! FIGURE_LABEL
-                %@% - \tweak color #blue
-                  %! FIGURE_LABEL
-                %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (6) \hspace #1 "5" ] }
-                [
+            fs'!16
 
-                fs'!16
+            d''16
 
-                d''16
-
-                ef''!16
-                ]
-
-            }
-
-            \once \override Score.TimeSignature.extra-offset = #'(-2.5 . 0)
-            e''32
+            ef''!16
             ]
 
         }
+
+        \once \override Score.TimeSignature.extra-offset = #'(-2.5 . 0)
+        e''32
+        ]
 
     }
 
     % [Guitar.Music.2 measure 7]
     s1 * 3/8
 
+    \scaleDurations #'(1 . 1)
     {
 
-        \scaleDurations #'(1 . 1)
-        {
+        % [Guitar.Music.2 measure 8]
+        \acciaccatura {
 
-            % [Guitar.Music.2 measure 8]
-            \acciaccatura {
-
-                bf'!16
-                  %! FIGURE_LABEL
-                %@% - \tweak color #blue
-                  %! FIGURE_LABEL
-                %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (8) \hspace #1 "7" ] }
-                [
-
-                d''16
-
-                ef''!16
-
-                e''16
-                ]
-
-            }
-
-            \once \override Beam.positions = #'(-10 . -10)
-            \once \override Score.TimeSignature.extra-offset = #'(-2.5 . 0)
-            fs''!32
+            bf'!16
+              %! FIGURE_LABEL
+            %@% - \tweak color #blue
+              %! FIGURE_LABEL
+            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (8) \hspace #1 "7" ] }
             [
 
+            d''16
+
+            ef''!16
+
+            e''16
+            ]
+
         }
+
+        \once \override Beam.positions = #'(-10 . -10)
+        \once \override Score.TimeSignature.extra-offset = #'(-2.5 . 0)
+        fs''!32
+        [
 
     }
 
     % [Guitar.Music.2 measure 9]
-    s1 * 95/64
+    s1 * 3/32
 
+    % [Guitar.Music.2 measure 10]
+    s1 * 3/4
+
+    % [Guitar.Music.2 measure 11]
+    s1 * 17/64
+
+    % [Guitar.Music.2 measure 12]
+    s1 * 3/8
+
+    \scaleDurations #'(1 . 1)
     {
 
-        \scaleDurations #'(1 . 1)
-        {
+        % [Guitar.Music.2 measure 13]
+        \acciaccatura {
 
-            % [Guitar.Music.2 measure 13]
-            \acciaccatura {
+            a''16
+              %! FIGURE_LABEL
+            %@% - \tweak color #blue
+              %! FIGURE_LABEL
+            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (13) \hspace #1 "12" ] }
+            [
 
-                a''16
-                  %! FIGURE_LABEL
-                %@% - \tweak color #blue
-                  %! FIGURE_LABEL
-                %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (13) \hspace #1 "12" ] }
-                [
+            cs''!16
 
-                cs''!16
+            b'16
 
-                b'16
+            af''!16
 
-                af''!16
+            c''16
 
-                c''16
+            f''16
 
-                f''16
+            g''16
 
-                g''16
-
-                ef''!16
-                ]
-
-            }
-
-            \once \override Score.TimeSignature.extra-offset = #'(-2.5 . 0)
-            e''32
+            ef''!16
             ]
 
         }
+
+        \once \override Score.TimeSignature.extra-offset = #'(-2.5 . 0)
+        e''32
+        ]
 
     }
 
     % [Guitar.Music.2 measure 14]
     s1 * 3/8
 
+    \scaleDurations #'(1 . 1)
     {
 
-        \scaleDurations #'(1 . 1)
-        {
+        % [Guitar.Music.2 measure 15]
+        \acciaccatura {
 
-            % [Guitar.Music.2 measure 15]
-            \acciaccatura {
-
-                b''16
-                  %! FIGURE_LABEL
-                %@% - \tweak color #blue
-                  %! FIGURE_LABEL
-                %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (15) \hspace #1 "14" ] }
-                [
-
-                g''16
-
-                ef''!16
-
-                e''16
-
-                f''16
-
-                bf''!16
-
-                a''16
-
-                cs''!16
-                ]
-
-            }
-
-            \once \override Beam.positions = #'(-10 . -10)
-            \once \override Score.TimeSignature.extra-offset = #'(-2.5 . 0)
-            fs''!32
+            b''16
+              %! FIGURE_LABEL
+            %@% - \tweak color #blue
+              %! FIGURE_LABEL
+            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (15) \hspace #1 "14" ] }
             [
 
-        }
+            g''16
 
-    }
+            ef''!16
 
-    {
+            e''16
 
-        \scaleDurations #'(1 . 1)
-        {
+            f''16
 
-            % [Guitar.Music.2 measure 16]
-            \acciaccatura {
+            bf''!16
 
-                ef''!16
-                  %! FIGURE_LABEL
-                %@% - \tweak color #blue
-                  %! FIGURE_LABEL
-                %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (16) \hspace #1 "15" ] }
-                [
+            a''16
 
-                e''16
-
-                f''16
-                ]
-
-            }
-
-            \once \override Score.TimeSignature.extra-offset = #'(-2.5 . 0)
-            g''32
+            cs''!16
             ]
 
         }
 
+        \once \override Beam.positions = #'(-10 . -10)
+        \once \override Score.TimeSignature.extra-offset = #'(-2.5 . 0)
+        fs''!32
+        [
+
+    }
+
+    \scaleDurations #'(1 . 1)
+    {
+
+        % [Guitar.Music.2 measure 16]
+        \acciaccatura {
+
+            ef''!16
+              %! FIGURE_LABEL
+            %@% - \tweak color #blue
+              %! FIGURE_LABEL
+            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (16) \hspace #1 "15" ] }
+            [
+
+            e''16
+
+            f''16
+            ]
+
+        }
+
+        \once \override Score.TimeSignature.extra-offset = #'(-2.5 . 0)
+        g''32
+        ]
+
     }
 
     % [Guitar.Music.2 measure 17]
-    s1 * 7/16
+    s1 * 9/64
+
+    % [Guitar.Music.2 measure 18]
+    s1 * 7/64
+
+    % [Guitar.Music.2 measure 19]
+    s1 * 3/16
 
 }
 
@@ -1038,195 +1012,235 @@ number.1.Guitar.Music.2 = {
 number.1.Guitar.Music.3 = {
 
     % [Guitar.Music.3 measure 1]
-    s1 * 107/32
+    s1 * 3/16
 
-    {
+    % [Guitar.Music.3 measure 2]
+    s1 * 1/32
 
-        \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \score
+    % [Guitar.Music.3 measure 3]
+    s1 * 3/16
+
+    % [Guitar.Music.3 measure 4]
+    s1 * 1/32
+
+    % [Guitar.Music.3 measure 5]
+    s1 * 3/8
+
+    % [Guitar.Music.3 measure 6]
+    s1 * 1/32
+
+    % [Guitar.Music.3 measure 7]
+    s1 * 3/8
+
+    % [Guitar.Music.3 measure 8]
+    s1 * 1/32
+
+    % [Guitar.Music.3 measure 9]
+    s1 * 3/32
+
+    % [Guitar.Music.3 measure 10]
+    s1 * 3/4
+
+    % [Guitar.Music.3 measure 11]
+    s1 * 17/64
+
+    % [Guitar.Music.3 measure 12]
+    s1 * 3/8
+
+    % [Guitar.Music.3 measure 13]
+    s1 * 1/32
+
+    % [Guitar.Music.3 measure 14]
+    s1 * 3/8
+
+    % [Guitar.Music.3 measure 15]
+    s1 * 1/32
+
+    % [Guitar.Music.3 measure 16]
+    s1 * 1/32
+
+    % [Guitar.Music.3 measure 17]
+    s1 * 9/64
+
+    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \score
+        {
+            \context Score = "Score"
+            \with
             {
-                \context Score = "Score"
+                \override SpacingSpanner.spacing-increment = 0.5
+                proportionalNotationDuration = ##f
+            }
+            <<
+                \context RhythmicStaff = "Rhythmic_Staff"
                 \with
                 {
-                    \override SpacingSpanner.spacing-increment = 0.5
-                    proportionalNotationDuration = ##f
+                    \remove Time_signature_engraver
+                    \remove Staff_symbol_engraver
+                    \override Stem.direction = #up
+                    \override Stem.length = 5
+                    \override TupletBracket.bracket-visibility = ##t
+                    \override TupletBracket.direction = #up
+                    \override TupletBracket.minimum-length = 4
+                    \override TupletBracket.padding = 1.25
+                    \override TupletBracket.shorten-pair = #'(-1 . -1.5)
+                    \override TupletBracket.springs-and-rods = #ly:spanner::set-spacing-rods
+                    \override TupletNumber.font-size = 0
+                    \override TupletNumber.text = #tuplet-number::calc-fraction-text
+                    tupletFullLength = ##t
                 }
-                <<
-                    \context RhythmicStaff = "Rhythmic_Staff"
-                    \with
-                    {
-                        \remove Time_signature_engraver
-                        \remove Staff_symbol_engraver
-                        \override Stem.direction = #up
-                        \override Stem.length = 5
-                        \override TupletBracket.bracket-visibility = ##t
-                        \override TupletBracket.direction = #up
-                        \override TupletBracket.minimum-length = 4
-                        \override TupletBracket.padding = 1.25
-                        \override TupletBracket.shorten-pair = #'(-1 . -1.5)
-                        \override TupletBracket.springs-and-rods = #ly:spanner::set-spacing-rods
-                        \override TupletNumber.font-size = 0
-                        \override TupletNumber.text = #tuplet-number::calc-fraction-text
-                        tupletFullLength = ##t
-                    }
-                    {
-                        c'16..
-                    }
-                >>
-                \layout
                 {
-                    indent = 0
-                    ragged-right = ##t
+                    c'16..
                 }
+            >>
+            \layout
+            {
+                indent = 0
+                ragged-right = ##t
             }
-        \scaleDurations #'(1 . 1)
-        {
-
-            % [Guitar.Music.3 measure 18]
-            \override Beam.positions = #'(-6 . -6)
-            \once \override Beam.grow-direction = #left
-            b''64 * 320/1024
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (18) \hspace #1 "17" ] }
-              %! DURATION_MULTIPLIER
-            %@% ^ \baca-duration-multiplier-markup #"320" #"1024"
-            [
-
-            af''!64 * 640/1024
-              %! DURATION_MULTIPLIER
-            %@% ^ \baca-duration-multiplier-markup #"640" #"1024"
-
-            c''64 * 896/1024
-              %! DURATION_MULTIPLIER
-            %@% ^ \baca-duration-multiplier-markup #"896" #"1024"
-
-            e''64 * 1088/1024
-              %! DURATION_MULTIPLIER
-            %@% ^ \baca-duration-multiplier-markup #"1088" #"1024"
-
-            f''64 * 1280/1024
-              %! DURATION_MULTIPLIER
-            %@% ^ \baca-duration-multiplier-markup #"1280" #"1024"
-
-            g''64 * 1408/1024
-              %! DURATION_MULTIPLIER
-            %@% ^ \baca-duration-multiplier-markup #"1408" #"1024"
-
-            ef''!64 * 1536/1024
-              %! DURATION_MULTIPLIER
-            %@% ^ \baca-duration-multiplier-markup #"1536" #"1024"
-            ]
-            \revert Beam.positions
-
         }
-        \revert TupletNumber.text
-
-    }
-
+    \scaleDurations #'(1 . 1)
     {
 
-        \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \score
-            {
-                \context Score = "Score"
-                \with
-                {
-                    \override SpacingSpanner.spacing-increment = 0.5
-                    proportionalNotationDuration = ##f
-                }
-                <<
-                    \context RhythmicStaff = "Rhythmic_Staff"
-                    \with
-                    {
-                        \remove Time_signature_engraver
-                        \remove Staff_symbol_engraver
-                        \override Stem.direction = #up
-                        \override Stem.length = 5
-                        \override TupletBracket.bracket-visibility = ##t
-                        \override TupletBracket.direction = #up
-                        \override TupletBracket.minimum-length = 4
-                        \override TupletBracket.padding = 1.25
-                        \override TupletBracket.shorten-pair = #'(-1 . -1.5)
-                        \override TupletBracket.springs-and-rods = #ly:spanner::set-spacing-rods
-                        \override TupletNumber.font-size = 0
-                        \override TupletNumber.text = #tuplet-number::calc-fraction-text
-                        tupletFullLength = ##t
-                    }
-                    {
-                        c'8.
-                    }
-                >>
-                \layout
-                {
-                    indent = 0
-                    ragged-right = ##t
-                }
-            }
-        \scaleDurations #'(1 . 1)
-        {
+        % [Guitar.Music.3 measure 18]
+        \override Beam.positions = #'(-6 . -6)
+        \once \override Beam.grow-direction = #left
+        b''64 * 320/1024
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (18) \hspace #1 "17" ] }
+          %! DURATION_MULTIPLIER
+        %@% ^ \baca-duration-multiplier-markup #"320" #"1024"
+        [
 
-            % [Guitar.Music.3 measure 19]
-            \override Beam.positions = #'(-6 . -6)
-            \once \override Beam.grow-direction = #left
-            f''64 * 192/1024
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (19) \hspace #1 "18" ] }
-              %! DURATION_MULTIPLIER
-            %@% ^ \baca-duration-multiplier-markup #"192" #"1024"
-            [
+        af''!64 * 640/1024
+          %! DURATION_MULTIPLIER
+        %@% ^ \baca-duration-multiplier-markup #"640" #"1024"
 
-            b'64 * 448/1024
-              %! DURATION_MULTIPLIER
-            %@% ^ \baca-duration-multiplier-markup #"448" #"1024"
+        c''64 * 896/1024
+          %! DURATION_MULTIPLIER
+        %@% ^ \baca-duration-multiplier-markup #"896" #"1024"
 
-            fs''!64 * 640/1024
-              %! DURATION_MULTIPLIER
-            %@% ^ \baca-duration-multiplier-markup #"640" #"1024"
+        e''64 * 1088/1024
+          %! DURATION_MULTIPLIER
+        %@% ^ \baca-duration-multiplier-markup #"1088" #"1024"
 
-            d''64 * 768/1024
-              %! DURATION_MULTIPLIER
-            %@% ^ \baca-duration-multiplier-markup #"768" #"1024"
+        f''64 * 1280/1024
+          %! DURATION_MULTIPLIER
+        %@% ^ \baca-duration-multiplier-markup #"1280" #"1024"
 
-            c''64 * 896/1024
-              %! DURATION_MULTIPLIER
-            %@% ^ \baca-duration-multiplier-markup #"896" #"1024"
+        g''64 * 1408/1024
+          %! DURATION_MULTIPLIER
+        %@% ^ \baca-duration-multiplier-markup #"1408" #"1024"
 
-            ef''!64 * 1024/1024
-              %! DURATION_MULTIPLIER
-            %@% ^ \baca-duration-multiplier-markup #"1024" #"1024"
-
-            b'64 * 1152/1024
-              %! DURATION_MULTIPLIER
-            %@% ^ \baca-duration-multiplier-markup #"1152" #"1024"
-
-            fs'!64 * 1216/1024
-              %! DURATION_MULTIPLIER
-            %@% ^ \baca-duration-multiplier-markup #"1216" #"1024"
-
-            f'64 * 1344/1024
-              %! DURATION_MULTIPLIER
-            %@% ^ \baca-duration-multiplier-markup #"1344" #"1024"
-
-            c''64 * 1408/1024
-              %! DURATION_MULTIPLIER
-            %@% ^ \baca-duration-multiplier-markup #"1408" #"1024"
-
-            ef'!64 * 1536/1024
-              %! DURATION_MULTIPLIER
-            %@% ^ \baca-duration-multiplier-markup #"1536" #"1024"
-
-            d'64 * 1664/1024
-              %! DURATION_MULTIPLIER
-            %@% ^ \baca-duration-multiplier-markup #"1664" #"1024"
-            ]
-            \revert Beam.positions
-
-        }
-        \revert TupletNumber.text
+        ef''!64 * 1536/1024
+          %! DURATION_MULTIPLIER
+        %@% ^ \baca-duration-multiplier-markup #"1536" #"1024"
+        ]
+        \revert Beam.positions
 
     }
+    \revert TupletNumber.text
+
+    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \score
+        {
+            \context Score = "Score"
+            \with
+            {
+                \override SpacingSpanner.spacing-increment = 0.5
+                proportionalNotationDuration = ##f
+            }
+            <<
+                \context RhythmicStaff = "Rhythmic_Staff"
+                \with
+                {
+                    \remove Time_signature_engraver
+                    \remove Staff_symbol_engraver
+                    \override Stem.direction = #up
+                    \override Stem.length = 5
+                    \override TupletBracket.bracket-visibility = ##t
+                    \override TupletBracket.direction = #up
+                    \override TupletBracket.minimum-length = 4
+                    \override TupletBracket.padding = 1.25
+                    \override TupletBracket.shorten-pair = #'(-1 . -1.5)
+                    \override TupletBracket.springs-and-rods = #ly:spanner::set-spacing-rods
+                    \override TupletNumber.font-size = 0
+                    \override TupletNumber.text = #tuplet-number::calc-fraction-text
+                    tupletFullLength = ##t
+                }
+                {
+                    c'8.
+                }
+            >>
+            \layout
+            {
+                indent = 0
+                ragged-right = ##t
+            }
+        }
+    \scaleDurations #'(1 . 1)
+    {
+
+        % [Guitar.Music.3 measure 19]
+        \override Beam.positions = #'(-6 . -6)
+        \once \override Beam.grow-direction = #left
+        f''64 * 192/1024
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (19) \hspace #1 "18" ] }
+          %! DURATION_MULTIPLIER
+        %@% ^ \baca-duration-multiplier-markup #"192" #"1024"
+        [
+
+        b'64 * 448/1024
+          %! DURATION_MULTIPLIER
+        %@% ^ \baca-duration-multiplier-markup #"448" #"1024"
+
+        fs''!64 * 640/1024
+          %! DURATION_MULTIPLIER
+        %@% ^ \baca-duration-multiplier-markup #"640" #"1024"
+
+        d''64 * 768/1024
+          %! DURATION_MULTIPLIER
+        %@% ^ \baca-duration-multiplier-markup #"768" #"1024"
+
+        c''64 * 896/1024
+          %! DURATION_MULTIPLIER
+        %@% ^ \baca-duration-multiplier-markup #"896" #"1024"
+
+        ef''!64 * 1024/1024
+          %! DURATION_MULTIPLIER
+        %@% ^ \baca-duration-multiplier-markup #"1024" #"1024"
+
+        b'64 * 1152/1024
+          %! DURATION_MULTIPLIER
+        %@% ^ \baca-duration-multiplier-markup #"1152" #"1024"
+
+        fs'!64 * 1216/1024
+          %! DURATION_MULTIPLIER
+        %@% ^ \baca-duration-multiplier-markup #"1216" #"1024"
+
+        f'64 * 1344/1024
+          %! DURATION_MULTIPLIER
+        %@% ^ \baca-duration-multiplier-markup #"1344" #"1024"
+
+        c''64 * 1408/1024
+          %! DURATION_MULTIPLIER
+        %@% ^ \baca-duration-multiplier-markup #"1408" #"1024"
+
+        ef'!64 * 1536/1024
+          %! DURATION_MULTIPLIER
+        %@% ^ \baca-duration-multiplier-markup #"1536" #"1024"
+
+        d'64 * 1664/1024
+          %! DURATION_MULTIPLIER
+        %@% ^ \baca-duration-multiplier-markup #"1664" #"1024"
+        ]
+        \revert Beam.positions
+
+    }
+    \revert TupletNumber.text
 
 }
 
@@ -1234,260 +1248,284 @@ number.1.Guitar.Music.3 = {
 number.1.Guitar.Music.4 = {
 
     % [Guitar.Music.4 measure 1]
-    s1 * 5/4
+    s1 * 3/16
 
+    % [Guitar.Music.4 measure 2]
+    s1 * 1/32
+
+    % [Guitar.Music.4 measure 3]
+    s1 * 3/16
+
+    % [Guitar.Music.4 measure 4]
+    s1 * 1/32
+
+    % [Guitar.Music.4 measure 5]
+    s1 * 3/8
+
+    % [Guitar.Music.4 measure 6]
+    s1 * 1/32
+
+    % [Guitar.Music.4 measure 7]
+    s1 * 3/8
+
+    % [Guitar.Music.4 measure 8]
+    s1 * 1/32
+
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 3/4
     {
 
-        \tweak text #tuplet-number::calc-fraction-text
-        \times 3/4
-        {
+        % [Guitar.Music.4 measure 9]
+        \set stemLeftBeamCount = 0
+        \set stemRightBeamCount = 4
+        af'!64
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (9) \hspace #1 "8" ] }
+        [
+          %! SPANNER_START
+        (
 
-            % [Guitar.Music.4 measure 9]
-            \set stemLeftBeamCount = 0
-            \set stemRightBeamCount = 4
-            af'!64
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (9) \hspace #1 "8" ] }
-            [
-              %! SPANNER_START
-            (
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        c'64
 
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            c'64
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        f'64
 
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            f'64
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 1
+        a'64
+          %! SPANNER_STOP
+        )
 
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 1
-            a'64
-              %! SPANNER_STOP
-            )
+    }
 
-        }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 3/4
+    {
 
-        \tweak text #tuplet-number::calc-fraction-text
-        \times 3/4
-        {
+        \set stemLeftBeamCount = 1
+        \set stemRightBeamCount = 4
+        ef'!64
+          %! SPANNER_START
+        (
 
-            \set stemLeftBeamCount = 1
-            \set stemRightBeamCount = 4
-            ef'!64
-              %! SPANNER_START
-            (
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        e'64
 
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            e'64
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        fs'!64
 
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            fs'!64
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 0
-            d'64
-              %! SPANNER_STOP
-            )
-            ]
-
-        }
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 0
+        d'64
+          %! SPANNER_STOP
+        )
+        ]
 
     }
 
     % [Guitar.Music.4 measure 10]
     s1 * 3/4
 
+    \times 2/3
     {
 
-        \times 2/3
-        {
+        % [Guitar.Music.4 measure 11]
+        \set stemLeftBeamCount = 0
+        \set stemRightBeamCount = 4
+        b'64
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (11) \hspace #1 "10" ] }
+        [
+          %! SPANNER_START
+        (
 
-            % [Guitar.Music.4 measure 11]
-            \set stemLeftBeamCount = 0
-            \set stemRightBeamCount = 4
-            b'64
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (11) \hspace #1 "10" ] }
-            [
-              %! SPANNER_START
-            (
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        bf'!64
 
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            bf'!64
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 1
+        g'64
+          %! SPANNER_STOP
+        )
 
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 1
-            g'64
-              %! SPANNER_STOP
-            )
+    }
 
-        }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 15/16
+    {
 
-        \tweak text #tuplet-number::calc-fraction-text
-        \times 15/16
-        {
+        \set stemLeftBeamCount = 1
+        \set stemRightBeamCount = 4
+        cs''!64
+          %! SPANNER_START
+        (
 
-            \set stemLeftBeamCount = 1
-            \set stemRightBeamCount = 4
-            cs''!64
-              %! SPANNER_START
-            (
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        c''64
 
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            c''64
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        bf'!64
 
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            bf'!64
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        f''64
 
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            f''64
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        af'!64
 
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            af'!64
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        fs'!64
 
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            fs'!64
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        b'64
 
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            b'64
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        d''64
 
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            d''64
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        e''64
 
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            e''64
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        ef''!64
 
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            ef''!64
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        a'64
 
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            a'64
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        af'!64
 
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            af'!64
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        fs'!64
 
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            fs'!64
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        b'64
 
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            b'64
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        d''64
 
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            d''64
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 0
-            f''64
-              %! SPANNER_STOP
-            )
-            ]
-
-        }
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 0
+        f''64
+          %! SPANNER_STOP
+        )
+        ]
 
     }
 
     % [Guitar.Music.4 measure 12]
-    s1 * 27/32
+    s1 * 3/8
 
+    % [Guitar.Music.4 measure 13]
+    s1 * 1/32
+
+    % [Guitar.Music.4 measure 14]
+    s1 * 3/8
+
+    % [Guitar.Music.4 measure 15]
+    s1 * 1/32
+
+    % [Guitar.Music.4 measure 16]
+    s1 * 1/32
+
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 6/7
     {
 
-        \tweak text #tuplet-number::calc-fraction-text
-        \times 6/7
-        {
+        % [Guitar.Music.4 measure 17]
+        \set stemLeftBeamCount = 0
+        \set stemRightBeamCount = 4
+        a'64
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (17) \hspace #1 "16" ] }
+        [
+          %! SPANNER_START
+        (
 
-            % [Guitar.Music.4 measure 17]
-            \set stemLeftBeamCount = 0
-            \set stemRightBeamCount = 4
-            a'64
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (17) \hspace #1 "16" ] }
-            [
-              %! SPANNER_START
-            (
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        cs''!64
 
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            cs''!64
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        fs'!64
 
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            fs'!64
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        bf'!64
 
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            bf'!64
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        c''64
 
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            c''64
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        b'64
 
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            b'64
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 1
+        af'!64
+          %! SPANNER_STOP
+        )
 
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 1
-            af'!64
-              %! SPANNER_STOP
-            )
+    }
 
-        }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 3/4
+    {
 
-        \tweak text #tuplet-number::calc-fraction-text
-        \times 3/4
-        {
+        \set stemLeftBeamCount = 1
+        \set stemRightBeamCount = 4
+        cs''!64
+          %! SPANNER_START
+        (
 
-            \set stemLeftBeamCount = 1
-            \set stemRightBeamCount = 4
-            cs''!64
-              %! SPANNER_START
-            (
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        fs''!64
 
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            fs''!64
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        bf'!64
 
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            bf'!64
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 0
-            a''64
-              %! SPANNER_STOP
-            )
-            ]
-
-        }
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 0
+        a''64
+          %! SPANNER_STOP
+        )
+        ]
 
     }
 
     % [Guitar.Music.4 measure 18]
-    s1 * 19/64
+    s1 * 7/64
+
+    % [Guitar.Music.4 measure 19]
+    s1 * 3/16
 
 }
 

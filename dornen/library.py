@@ -711,6 +711,16 @@ def populate(score, voice_name, tuplets):
         voice.append(skip)
 
 
+def time_signature(tuplets, tsd):
+    duration = abjad.get.duration(tuplets)
+    if tsd is not None:
+        pair = abjad.duration.with_denominator(duration, tsd)
+    else:
+        pair = duration.pair
+    time_signature = abjad.TimeSignature(pair)
+    return time_signature
+
+
 instruments = {"Guitar": abjad.Guitar(pitch_range=abjad.PitchRange("[E2, F5]"))}
 
 

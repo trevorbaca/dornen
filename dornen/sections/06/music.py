@@ -24,7 +24,6 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         accumulator.cache(
             library.v1,
             tuplets,
-            already_labeled=True,
             tsd=tsd,
         )
     with baca.scope(design[1:2]) as collections:
@@ -35,7 +34,6 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         accumulator.cache(
             library.v3,
             tuplets,
-            already_labeled=True,
             tsd=tsd,
         )
     with baca.scope(design[2:5]) as collections:
@@ -47,7 +45,6 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         accumulator.cache(
             library.v1,
             tuplets,
-            already_labeled=True,
             tsd=tsd,
         )
     with baca.scope(design[5:6]) as collections:
@@ -57,7 +54,6 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         accumulator.cache(
             library.v4,
             tuplets,
-            already_labeled=True,
             tsd=tsd,
         )
     with baca.scope(design[6:7]) as collections:
@@ -69,7 +65,6 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         accumulator.cache(
             library.v1,
             tuplets,
-            already_labeled=True,
             tsd=tsd,
         )
     with baca.scope(design[7:8]) as collections:
@@ -79,7 +74,6 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         accumulator.cache(
             library.v3,
             tuplets,
-            already_labeled=True,
             tsd=tsd,
         )
     with baca.scope(design[8:9]) as collections:
@@ -89,7 +83,6 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         accumulator.cache(
             library.v4,
             tuplets,
-            already_labeled=True,
             tsd=tsd,
         )
     tuplets, tsd = library.make_rests(3, (1, 8))
@@ -101,7 +94,6 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     accumulator.cache(
         library.v1,
         tuplets,
-        already_labeled=True,
         tsd=tsd,
     )
     with baca.scope(design[9:10]) as collections:
@@ -118,7 +110,6 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         accumulator.cache(
             library.v1,
             tuplets,
-            already_labeled=True,
             tsd=tsd,
         )
     with baca.scope(design[9:10]) as collections:
@@ -135,7 +126,6 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         accumulator.cache(
             library.v1,
             tuplets,
-            already_labeled=True,
             tsd=tsd,
         )
     with baca.scope(design[9:10]) as collections:
@@ -152,7 +142,6 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         accumulator.cache(
             library.v1,
             tuplets,
-            already_labeled=True,
             tsd=tsd,
         )
     with baca.scope(design[9:10]) as collections:
@@ -169,7 +158,6 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         accumulator.cache(
             library.v1,
             tuplets,
-            already_labeled=True,
             tsd=tsd,
         )
     with baca.scope(design[9:10]) as collections:
@@ -184,7 +172,6 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         accumulator.cache(
             library.v1,
             tuplets,
-            already_labeled=True,
             tsd=tsd,
         )
     voices = baca.section.cache_voices(score, library.voice_abbreviations)

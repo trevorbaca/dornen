@@ -426,1991 +426,1958 @@ number.6.Rests = {
 
 number.6.Guitar.Music.1 = {
 
+    \scaleDurations #'(1 . 1)
     {
 
-        \scaleDurations #'(1 . 1)
-        {
+        % [Guitar.Music.1 measure 1]
+        \override Beam.positions = #'(10 . 10)
+          %! REAPPLIED_CLEF
+        \clef "treble"
+          %! REAPPLIED_CLEF_COLOR
+        \once \override Staff.Clef.color = #(x11-color 'green4)
+          %! REAPPLIED_CLEF_COLOR_CANCELLATION
+        %@% \override Staff.Clef.color = ##f
+          %! REAPPLIED_CLEF
+        \set Staff.forceClef = ##t
+        bf'!32.
+        - \tenuto
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (1) \hspace #1 \concat { "48" \sub 1 } ] }
+          %! REAPPLIED_INSTRUMENT_ALERT
+        ^ \baca-reapplied-instrument-markup "(“Guitar”)"
+        [
+          %! REAPPLIED_CLEF_REDRAW_COLOR
+        \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-            % [Guitar.Music.1 measure 1]
-            \override Beam.positions = #'(10 . 10)
-              %! REAPPLIED_CLEF
-            \clef "treble"
-              %! REAPPLIED_CLEF_COLOR
-            \once \override Staff.Clef.color = #(x11-color 'green4)
-              %! REAPPLIED_CLEF_COLOR_CANCELLATION
-            %@% \override Staff.Clef.color = ##f
-              %! REAPPLIED_CLEF
-            \set Staff.forceClef = ##t
-            bf'!32.
-            - \tenuto
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (1) \hspace #1 \concat { "48" \sub 1 } ] }
-              %! REAPPLIED_INSTRUMENT_ALERT
-            ^ \baca-reapplied-instrument-markup "(“Guitar”)"
-            [
-              %! REAPPLIED_CLEF_REDRAW_COLOR
-            \override Staff.Clef.color = #(x11-color 'OliveDrab)
-
-            \set stemLeftBeamCount = 3
-            \set stemRightBeamCount = 1
-            c'32.
-            - \tenuto
-            \revert Beam.positions
-
-        }
+        \set stemLeftBeamCount = 3
+        \set stemRightBeamCount = 1
+        c'32.
+        - \tenuto
+        \revert Beam.positions
 
     }
 
     % [Guitar.Music.1 measure 2]
     s1 * 1/16
 
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 5/6
     {
 
-        \tweak text #tuplet-number::calc-fraction-text
-        \times 5/6
-        {
+        % [Guitar.Music.1 measure 3]
+        \set stemLeftBeamCount = 1
+        \set stemRightBeamCount = 4
+        a'64
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (3) \hspace #1 "R1" ] }
+          %! SPANNER_START
+        (
 
-            % [Guitar.Music.1 measure 3]
-            \set stemLeftBeamCount = 1
-            \set stemRightBeamCount = 4
-            a'64
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (3) \hspace #1 "R1" ] }
-              %! SPANNER_START
-            (
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        b64
 
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            b64
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        c'64
 
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            c'64
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        f'64
 
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            f'64
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        a'64
 
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            a'64
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 1
+        b'64
+          %! SPANNER_STOP
+        )
 
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 1
-            b'64
-              %! SPANNER_STOP
-            )
+    }
 
-        }
+    \times 4/5
+    {
 
-        \times 4/5
-        {
+        \set stemLeftBeamCount = 1
+        \set stemRightBeamCount = 4
+        bf'!64
+          %! SPANNER_START
+        (
 
-            \set stemLeftBeamCount = 1
-            \set stemRightBeamCount = 4
-            bf'!64
-              %! SPANNER_START
-            (
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        cs''!64
 
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            cs''!64
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        ef''!64
 
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            ef''!64
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        fs''!64
 
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            fs''!64
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 1
+        g''64
+          %! SPANNER_STOP
+        )
 
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 1
-            g''64
-              %! SPANNER_STOP
-            )
+    }
 
-        }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 3/4
+    {
 
-        \tweak text #tuplet-number::calc-fraction-text
-        \times 3/4
-        {
+        \set stemLeftBeamCount = 1
+        \set stemRightBeamCount = 4
+        af''!64
+          %! SPANNER_START
+        (
 
-            \set stemLeftBeamCount = 1
-            \set stemRightBeamCount = 4
-            af''!64
-              %! SPANNER_START
-            (
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        d''64
 
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            d''64
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        ef''!64
 
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            ef''!64
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 1
-            fs''!64
-              %! SPANNER_STOP
-            )
-
-        }
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 1
+        fs''!64
+          %! SPANNER_STOP
+        )
 
     }
 
     % [Guitar.Music.1 measure 4]
     s1 * 3/20
 
+    \scaleDurations #'(1 . 1)
     {
 
-        \scaleDurations #'(1 . 1)
-        {
+        % [Guitar.Music.1 measure 5]
+        \set stemLeftBeamCount = 1
+        \set stemRightBeamCount = 3
+        cs'!32.
+        - \tenuto
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (5) \hspace #1 \concat { "48" \sub 2 } ] }
 
-            % [Guitar.Music.1 measure 5]
-            \set stemLeftBeamCount = 1
-            \set stemRightBeamCount = 3
-            cs'!32.
-            - \tenuto
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (5) \hspace #1 \concat { "48" \sub 2 } ] }
-
-            f'32.
-            - \tenuto
-            ]
-
-        }
+        f'32.
+        - \tenuto
+        ]
 
     }
 
     % [Guitar.Music.1 measure 6]
-    s1 * 17/80
+    s1 * 1/16
 
+    % [Guitar.Music.1 measure 7]
+    s1 * 3/20
+
+    \scaleDurations #'(1 . 1)
     {
 
-        \scaleDurations #'(1 . 1)
-        {
+        % [Guitar.Music.1 measure 8]
+        r8
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (8) \hspace #1 "S1" ] }
+        ^ \dornen-raise-string-two-one-quartertone-markup
 
-            % [Guitar.Music.1 measure 8]
-            r8
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (8) \hspace #1 "S1" ] }
-            ^ \dornen-raise-string-two-one-quartertone-markup
+        r8
 
-            r8
-
-            r8
-
-        }
+        r8
 
     }
 
+    \scaleDurations #'(1 . 1)
     {
 
-        \scaleDurations #'(1 . 1)
-        {
+        % [Guitar.Music.1 measure 9]
+        \set stemLeftBeamCount = 0
+        \set stemRightBeamCount = 4
+        fs''!64
+        - \staccato
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (9) \hspace #1 "D1" ] }
+        [
 
-            % [Guitar.Music.1 measure 9]
-            \set stemLeftBeamCount = 0
-            \set stemRightBeamCount = 4
-            fs''!64
-            - \staccato
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (9) \hspace #1 "D1" ] }
-            [
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        e''64
+        - \staccato
 
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            e''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 1
-            f''64
-            - \staccato
-
-        }
-
-        \scaleDurations #'(1 . 1)
-        {
-
-            \set stemLeftBeamCount = 1
-            \set stemRightBeamCount = 4
-            fs''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            e''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 1
-            f''64
-            - \staccato
-
-        }
-
-        \scaleDurations #'(1 . 1)
-        {
-
-            \set stemLeftBeamCount = 1
-            \set stemRightBeamCount = 4
-            fs''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            e''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 1
-            f''64
-            - \staccato
-
-        }
-
-        \scaleDurations #'(1 . 1)
-        {
-
-            \set stemLeftBeamCount = 1
-            \set stemRightBeamCount = 4
-            fs''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            e''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 1
-            f''64
-            - \staccato
-
-        }
-
-        \scaleDurations #'(1 . 1)
-        {
-
-            \set stemLeftBeamCount = 1
-            \set stemRightBeamCount = 4
-            fs''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            e''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 1
-            f''64
-            - \staccato
-
-        }
-
-        \scaleDurations #'(1 . 1)
-        {
-
-            \set stemLeftBeamCount = 1
-            \set stemRightBeamCount = 4
-            fs''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            e''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 1
-            f''64
-            - \staccato
-
-        }
-
-        \scaleDurations #'(1 . 1)
-        {
-
-            \set stemLeftBeamCount = 1
-            \set stemRightBeamCount = 4
-            fs''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            e''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 1
-            f''64
-            - \staccato
-
-        }
-
-        \scaleDurations #'(1 . 1)
-        {
-
-            \set stemLeftBeamCount = 1
-            \set stemRightBeamCount = 4
-            fs''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            e''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 1
-            f''64
-            - \staccato
-
-        }
-
-        \scaleDurations #'(1 . 1)
-        {
-
-            \set stemLeftBeamCount = 1
-            \set stemRightBeamCount = 4
-            fs''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            e''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 1
-            f''64
-            - \staccato
-
-        }
-
-        \scaleDurations #'(1 . 1)
-        {
-
-            \set stemLeftBeamCount = 1
-            \set stemRightBeamCount = 4
-            fs''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            e''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 0
-            f''64
-            - \staccato
-            ]
-
-        }
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 1
+        f''64
+        - \staccato
 
     }
 
+    \scaleDurations #'(1 . 1)
     {
 
-        \scaleDurations #'(1 . 1)
-        {
+        \set stemLeftBeamCount = 1
+        \set stemRightBeamCount = 4
+        fs''!64
+        - \staccato
 
-            % [Guitar.Music.1 measure 10]
-            \set stemLeftBeamCount = 0
-            \set stemRightBeamCount = 4
-            fs''!64
-            - \staccato
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (10) \hspace #1 "D2" ] }
-            [
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        e''64
+        - \staccato
 
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            e''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            f''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 1
-            fqs''!64
-            - \staccato
-
-        }
-
-        \scaleDurations #'(1 . 1)
-        {
-
-            \set stemLeftBeamCount = 1
-            \set stemRightBeamCount = 4
-            fs''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            e''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            f''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 1
-            fqs''!64
-            - \staccato
-
-        }
-
-        \scaleDurations #'(1 . 1)
-        {
-
-            \set stemLeftBeamCount = 1
-            \set stemRightBeamCount = 4
-            fs''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            e''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            f''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 1
-            fqs''!64
-            - \staccato
-
-        }
-
-        \scaleDurations #'(1 . 1)
-        {
-
-            \set stemLeftBeamCount = 1
-            \set stemRightBeamCount = 4
-            fs''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            e''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            f''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 1
-            fqs''!64
-            - \staccato
-
-        }
-
-        \scaleDurations #'(1 . 1)
-        {
-
-            \set stemLeftBeamCount = 1
-            \set stemRightBeamCount = 4
-            fs''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            e''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            f''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 1
-            fqs''!64
-            - \staccato
-
-        }
-
-        \scaleDurations #'(1 . 1)
-        {
-
-            \set stemLeftBeamCount = 1
-            \set stemRightBeamCount = 4
-            fs''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            e''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            f''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 1
-            fqs''!64
-            - \staccato
-
-        }
-
-        \scaleDurations #'(1 . 1)
-        {
-
-            \set stemLeftBeamCount = 1
-            \set stemRightBeamCount = 4
-            fs''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            e''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            f''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 1
-            fqs''!64
-            - \staccato
-
-        }
-
-        \scaleDurations #'(1 . 1)
-        {
-
-            \set stemLeftBeamCount = 1
-            \set stemRightBeamCount = 4
-            fs''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            e''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            f''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 1
-            fqs''!64
-            - \staccato
-
-        }
-
-        \scaleDurations #'(1 . 1)
-        {
-
-            \set stemLeftBeamCount = 1
-            \set stemRightBeamCount = 4
-            fs''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            e''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            f''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 1
-            fqs''!64
-            - \staccato
-
-        }
-
-        \scaleDurations #'(1 . 1)
-        {
-
-            \set stemLeftBeamCount = 1
-            \set stemRightBeamCount = 4
-            fs''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            e''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            f''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 0
-            fqs''!64
-            - \staccato
-            ]
-
-        }
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 1
+        f''64
+        - \staccato
 
     }
 
+    \scaleDurations #'(1 . 1)
     {
 
-        \scaleDurations #'(1 . 1)
-        {
-
-            % [Guitar.Music.1 measure 11]
-            \set stemLeftBeamCount = 0
-            \set stemRightBeamCount = 4
-            fs''!64
-            - \staccato
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (11) \hspace #1 "D3" ] }
-            [
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            e''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            f''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            fqs''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 1
-            gqf''!64
-            - \staccato
-
-        }
-
-        \scaleDurations #'(1 . 1)
-        {
-
-            \set stemLeftBeamCount = 1
-            \set stemRightBeamCount = 4
-            fs''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            e''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            f''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            fqs''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 1
-            gqf''!64
-            - \staccato
-
-        }
-
-        \scaleDurations #'(1 . 1)
-        {
-
-            \set stemLeftBeamCount = 1
-            \set stemRightBeamCount = 4
-            fs''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            e''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            f''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            fqs''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 1
-            gqf''!64
-            - \staccato
-
-        }
-
-        \scaleDurations #'(1 . 1)
-        {
-
-            \set stemLeftBeamCount = 1
-            \set stemRightBeamCount = 4
-            fs''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            e''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            f''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            fqs''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 1
-            gqf''!64
-            - \staccato
-
-        }
-
-        \scaleDurations #'(1 . 1)
-        {
-
-            \set stemLeftBeamCount = 1
-            \set stemRightBeamCount = 4
-            fs''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            e''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            f''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            fqs''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 1
-            gqf''!64
-            - \staccato
-
-        }
-
-        \scaleDurations #'(1 . 1)
-        {
-
-            \set stemLeftBeamCount = 1
-            \set stemRightBeamCount = 4
-            fs''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            e''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            f''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            fqs''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 1
-            gqf''!64
-            - \staccato
-
-        }
-
-        \scaleDurations #'(1 . 1)
-        {
-
-            \set stemLeftBeamCount = 1
-            \set stemRightBeamCount = 4
-            fs''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            e''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            f''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            fqs''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 1
-            gqf''!64
-            - \staccato
-
-        }
-
-        \scaleDurations #'(1 . 1)
-        {
-
-            \set stemLeftBeamCount = 1
-            \set stemRightBeamCount = 4
-            fs''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            e''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            f''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            fqs''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 1
-            gqf''!64
-            - \staccato
-
-        }
-
-        \scaleDurations #'(1 . 1)
-        {
-
-            \set stemLeftBeamCount = 1
-            \set stemRightBeamCount = 4
-            fs''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            e''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            f''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            fqs''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 1
-            gqf''!64
-            - \staccato
-
-        }
-
-        \scaleDurations #'(1 . 1)
-        {
-
-            \set stemLeftBeamCount = 1
-            \set stemRightBeamCount = 4
-            fs''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            e''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            f''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            fqs''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 0
-            gqf''!64
-            - \staccato
-            ]
-
-        }
+        \set stemLeftBeamCount = 1
+        \set stemRightBeamCount = 4
+        fs''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        e''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 1
+        f''64
+        - \staccato
 
     }
 
+    \scaleDurations #'(1 . 1)
     {
 
-        \scaleDurations #'(1 . 1)
-        {
-
-            % [Guitar.Music.1 measure 12]
-            \set stemLeftBeamCount = 0
-            \set stemRightBeamCount = 4
-            fs''!64
-            - \staccato
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (12) \hspace #1 "D4" ] }
-            [
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            e''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            f''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            fqs''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            gqf''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 1
-            a''64
-            - \staccato
-
-        }
-
-        \scaleDurations #'(1 . 1)
-        {
-
-            \set stemLeftBeamCount = 1
-            \set stemRightBeamCount = 4
-            fs''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            e''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            f''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            fqs''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            gqf''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 1
-            a''64
-            - \staccato
-
-        }
-
-        \scaleDurations #'(1 . 1)
-        {
-
-            \set stemLeftBeamCount = 1
-            \set stemRightBeamCount = 4
-            fs''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            e''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            f''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            fqs''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            gqf''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 1
-            a''64
-            - \staccato
-
-        }
-
-        \scaleDurations #'(1 . 1)
-        {
-
-            \set stemLeftBeamCount = 1
-            \set stemRightBeamCount = 4
-            fs''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            e''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            f''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            fqs''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            gqf''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 1
-            a''64
-            - \staccato
-
-        }
-
-        \scaleDurations #'(1 . 1)
-        {
-
-            \set stemLeftBeamCount = 1
-            \set stemRightBeamCount = 4
-            fs''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            e''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            f''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            fqs''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            gqf''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 1
-            a''64
-            - \staccato
-
-        }
-
-        \scaleDurations #'(1 . 1)
-        {
-
-            \set stemLeftBeamCount = 1
-            \set stemRightBeamCount = 4
-            fs''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            e''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            f''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            fqs''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            gqf''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 1
-            a''64
-            - \staccato
-
-        }
-
-        \scaleDurations #'(1 . 1)
-        {
-
-            \set stemLeftBeamCount = 1
-            \set stemRightBeamCount = 4
-            fs''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            e''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            f''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            fqs''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            gqf''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 1
-            a''64
-            - \staccato
-
-        }
-
-        \scaleDurations #'(1 . 1)
-        {
-
-            \set stemLeftBeamCount = 1
-            \set stemRightBeamCount = 4
-            fs''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            e''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            f''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            fqs''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            gqf''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 1
-            a''64
-            - \staccato
-
-        }
-
-        \scaleDurations #'(1 . 1)
-        {
-
-            \set stemLeftBeamCount = 1
-            \set stemRightBeamCount = 4
-            fs''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            e''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            f''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            fqs''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            gqf''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 1
-            a''64
-            - \staccato
-
-        }
-
-        \scaleDurations #'(1 . 1)
-        {
-
-            \set stemLeftBeamCount = 1
-            \set stemRightBeamCount = 4
-            fs''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            e''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            f''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            fqs''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            gqf''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 0
-            a''64
-            - \staccato
-            ]
-
-        }
+        \set stemLeftBeamCount = 1
+        \set stemRightBeamCount = 4
+        fs''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        e''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 1
+        f''64
+        - \staccato
 
     }
 
+    \scaleDurations #'(1 . 1)
     {
 
-        \scaleDurations #'(1 . 1)
-        {
-
-            % [Guitar.Music.1 measure 13]
-            \set stemLeftBeamCount = 0
-            \set stemRightBeamCount = 4
-            fs''!64
-            - \staccato
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (13) \hspace #1 "D5" ] }
-            [
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            e''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            f''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            fqs''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            gqf''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            a''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            bf''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            g''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            af''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            bqs''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            dqs''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            eqf''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            b''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            d''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            ef''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            bqf''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            g''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            af''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            bqs''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            bf''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            eqf''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            b''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            d''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            ef''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            bqf''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            dqs''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            e''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            f''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            fqs''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            gqf''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            a''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 1
-            fs''!64
-            - \staccato
-
-        }
-
-        \scaleDurations #'(1 . 1)
-        {
-
-            \set stemLeftBeamCount = 1
-            \set stemRightBeamCount = 4
-            a''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            gqf''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            fqs''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            f''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            e''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            dqs''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            bqf''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            ef''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            d''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            b''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            eqf''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            bf''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            bqs''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            af''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            g''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            bqf''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            ef''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            d''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            b''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            eqf''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            dqs''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            bqs''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            af''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            g''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            bf''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            a''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            gqf''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            fqs''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            f''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            e''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 1
-            fs''!64
-            - \staccato
-
-        }
-
-        \scaleDurations #'(1 . 1)
-        {
-
-            \set stemLeftBeamCount = 1
-            \set stemRightBeamCount = 4
-            e''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            f''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            fqs''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            gqf''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            a''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            bf''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            g''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            af''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            bqs''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            dqs''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            eqf''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            b''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            d''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            ef''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            bqf''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            g''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            af''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            bqs''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            bf''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            eqf''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            b''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            d''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            ef''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            bqf''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            dqs''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            e''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            f''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            fqs''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            gqf''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            a''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 1
-            fs''!64
-            - \staccato
-
-        }
-
-        \scaleDurations #'(1 . 1)
-        {
-
-            \set stemLeftBeamCount = 1
-            \set stemRightBeamCount = 4
-            a''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            gqf''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            fqs''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            f''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            e''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            dqs''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            bqf''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            ef''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            d''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            b''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            eqf''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            bf''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            bqs''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            af''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            g''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            bqf''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            ef''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            d''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            b''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            eqf''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            dqs''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            bqs''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            af''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            g''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            bf''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            a''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            gqf''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            fqs''!64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            f''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 4
-            e''64
-            - \staccato
-
-            \set stemLeftBeamCount = 4
-            \set stemRightBeamCount = 0
-            fs''!64
-            - \staccato
-            ]
-
-        }
+        \set stemLeftBeamCount = 1
+        \set stemRightBeamCount = 4
+        fs''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        e''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 1
+        f''64
+        - \staccato
+
+    }
+
+    \scaleDurations #'(1 . 1)
+    {
+
+        \set stemLeftBeamCount = 1
+        \set stemRightBeamCount = 4
+        fs''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        e''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 1
+        f''64
+        - \staccato
+
+    }
+
+    \scaleDurations #'(1 . 1)
+    {
+
+        \set stemLeftBeamCount = 1
+        \set stemRightBeamCount = 4
+        fs''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        e''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 1
+        f''64
+        - \staccato
+
+    }
+
+    \scaleDurations #'(1 . 1)
+    {
+
+        \set stemLeftBeamCount = 1
+        \set stemRightBeamCount = 4
+        fs''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        e''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 1
+        f''64
+        - \staccato
+
+    }
+
+    \scaleDurations #'(1 . 1)
+    {
+
+        \set stemLeftBeamCount = 1
+        \set stemRightBeamCount = 4
+        fs''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        e''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 1
+        f''64
+        - \staccato
+
+    }
+
+    \scaleDurations #'(1 . 1)
+    {
+
+        \set stemLeftBeamCount = 1
+        \set stemRightBeamCount = 4
+        fs''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        e''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 0
+        f''64
+        - \staccato
+        ]
+
+    }
+
+    \scaleDurations #'(1 . 1)
+    {
+
+        % [Guitar.Music.1 measure 10]
+        \set stemLeftBeamCount = 0
+        \set stemRightBeamCount = 4
+        fs''!64
+        - \staccato
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (10) \hspace #1 "D2" ] }
+        [
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        e''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        f''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 1
+        fqs''!64
+        - \staccato
+
+    }
+
+    \scaleDurations #'(1 . 1)
+    {
+
+        \set stemLeftBeamCount = 1
+        \set stemRightBeamCount = 4
+        fs''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        e''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        f''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 1
+        fqs''!64
+        - \staccato
+
+    }
+
+    \scaleDurations #'(1 . 1)
+    {
+
+        \set stemLeftBeamCount = 1
+        \set stemRightBeamCount = 4
+        fs''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        e''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        f''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 1
+        fqs''!64
+        - \staccato
+
+    }
+
+    \scaleDurations #'(1 . 1)
+    {
+
+        \set stemLeftBeamCount = 1
+        \set stemRightBeamCount = 4
+        fs''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        e''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        f''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 1
+        fqs''!64
+        - \staccato
+
+    }
+
+    \scaleDurations #'(1 . 1)
+    {
+
+        \set stemLeftBeamCount = 1
+        \set stemRightBeamCount = 4
+        fs''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        e''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        f''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 1
+        fqs''!64
+        - \staccato
+
+    }
+
+    \scaleDurations #'(1 . 1)
+    {
+
+        \set stemLeftBeamCount = 1
+        \set stemRightBeamCount = 4
+        fs''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        e''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        f''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 1
+        fqs''!64
+        - \staccato
+
+    }
+
+    \scaleDurations #'(1 . 1)
+    {
+
+        \set stemLeftBeamCount = 1
+        \set stemRightBeamCount = 4
+        fs''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        e''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        f''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 1
+        fqs''!64
+        - \staccato
+
+    }
+
+    \scaleDurations #'(1 . 1)
+    {
+
+        \set stemLeftBeamCount = 1
+        \set stemRightBeamCount = 4
+        fs''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        e''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        f''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 1
+        fqs''!64
+        - \staccato
+
+    }
+
+    \scaleDurations #'(1 . 1)
+    {
+
+        \set stemLeftBeamCount = 1
+        \set stemRightBeamCount = 4
+        fs''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        e''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        f''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 1
+        fqs''!64
+        - \staccato
+
+    }
+
+    \scaleDurations #'(1 . 1)
+    {
+
+        \set stemLeftBeamCount = 1
+        \set stemRightBeamCount = 4
+        fs''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        e''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        f''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 0
+        fqs''!64
+        - \staccato
+        ]
+
+    }
+
+    \scaleDurations #'(1 . 1)
+    {
+
+        % [Guitar.Music.1 measure 11]
+        \set stemLeftBeamCount = 0
+        \set stemRightBeamCount = 4
+        fs''!64
+        - \staccato
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (11) \hspace #1 "D3" ] }
+        [
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        e''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        f''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        fqs''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 1
+        gqf''!64
+        - \staccato
+
+    }
+
+    \scaleDurations #'(1 . 1)
+    {
+
+        \set stemLeftBeamCount = 1
+        \set stemRightBeamCount = 4
+        fs''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        e''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        f''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        fqs''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 1
+        gqf''!64
+        - \staccato
+
+    }
+
+    \scaleDurations #'(1 . 1)
+    {
+
+        \set stemLeftBeamCount = 1
+        \set stemRightBeamCount = 4
+        fs''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        e''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        f''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        fqs''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 1
+        gqf''!64
+        - \staccato
+
+    }
+
+    \scaleDurations #'(1 . 1)
+    {
+
+        \set stemLeftBeamCount = 1
+        \set stemRightBeamCount = 4
+        fs''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        e''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        f''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        fqs''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 1
+        gqf''!64
+        - \staccato
+
+    }
+
+    \scaleDurations #'(1 . 1)
+    {
+
+        \set stemLeftBeamCount = 1
+        \set stemRightBeamCount = 4
+        fs''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        e''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        f''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        fqs''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 1
+        gqf''!64
+        - \staccato
+
+    }
+
+    \scaleDurations #'(1 . 1)
+    {
+
+        \set stemLeftBeamCount = 1
+        \set stemRightBeamCount = 4
+        fs''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        e''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        f''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        fqs''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 1
+        gqf''!64
+        - \staccato
+
+    }
+
+    \scaleDurations #'(1 . 1)
+    {
+
+        \set stemLeftBeamCount = 1
+        \set stemRightBeamCount = 4
+        fs''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        e''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        f''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        fqs''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 1
+        gqf''!64
+        - \staccato
+
+    }
+
+    \scaleDurations #'(1 . 1)
+    {
+
+        \set stemLeftBeamCount = 1
+        \set stemRightBeamCount = 4
+        fs''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        e''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        f''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        fqs''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 1
+        gqf''!64
+        - \staccato
+
+    }
+
+    \scaleDurations #'(1 . 1)
+    {
+
+        \set stemLeftBeamCount = 1
+        \set stemRightBeamCount = 4
+        fs''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        e''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        f''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        fqs''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 1
+        gqf''!64
+        - \staccato
+
+    }
+
+    \scaleDurations #'(1 . 1)
+    {
+
+        \set stemLeftBeamCount = 1
+        \set stemRightBeamCount = 4
+        fs''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        e''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        f''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        fqs''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 0
+        gqf''!64
+        - \staccato
+        ]
+
+    }
+
+    \scaleDurations #'(1 . 1)
+    {
+
+        % [Guitar.Music.1 measure 12]
+        \set stemLeftBeamCount = 0
+        \set stemRightBeamCount = 4
+        fs''!64
+        - \staccato
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (12) \hspace #1 "D4" ] }
+        [
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        e''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        f''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        fqs''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        gqf''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 1
+        a''64
+        - \staccato
+
+    }
+
+    \scaleDurations #'(1 . 1)
+    {
+
+        \set stemLeftBeamCount = 1
+        \set stemRightBeamCount = 4
+        fs''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        e''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        f''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        fqs''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        gqf''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 1
+        a''64
+        - \staccato
+
+    }
+
+    \scaleDurations #'(1 . 1)
+    {
+
+        \set stemLeftBeamCount = 1
+        \set stemRightBeamCount = 4
+        fs''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        e''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        f''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        fqs''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        gqf''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 1
+        a''64
+        - \staccato
+
+    }
+
+    \scaleDurations #'(1 . 1)
+    {
+
+        \set stemLeftBeamCount = 1
+        \set stemRightBeamCount = 4
+        fs''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        e''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        f''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        fqs''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        gqf''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 1
+        a''64
+        - \staccato
+
+    }
+
+    \scaleDurations #'(1 . 1)
+    {
+
+        \set stemLeftBeamCount = 1
+        \set stemRightBeamCount = 4
+        fs''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        e''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        f''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        fqs''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        gqf''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 1
+        a''64
+        - \staccato
+
+    }
+
+    \scaleDurations #'(1 . 1)
+    {
+
+        \set stemLeftBeamCount = 1
+        \set stemRightBeamCount = 4
+        fs''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        e''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        f''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        fqs''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        gqf''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 1
+        a''64
+        - \staccato
+
+    }
+
+    \scaleDurations #'(1 . 1)
+    {
+
+        \set stemLeftBeamCount = 1
+        \set stemRightBeamCount = 4
+        fs''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        e''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        f''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        fqs''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        gqf''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 1
+        a''64
+        - \staccato
+
+    }
+
+    \scaleDurations #'(1 . 1)
+    {
+
+        \set stemLeftBeamCount = 1
+        \set stemRightBeamCount = 4
+        fs''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        e''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        f''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        fqs''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        gqf''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 1
+        a''64
+        - \staccato
+
+    }
+
+    \scaleDurations #'(1 . 1)
+    {
+
+        \set stemLeftBeamCount = 1
+        \set stemRightBeamCount = 4
+        fs''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        e''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        f''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        fqs''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        gqf''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 1
+        a''64
+        - \staccato
+
+    }
+
+    \scaleDurations #'(1 . 1)
+    {
+
+        \set stemLeftBeamCount = 1
+        \set stemRightBeamCount = 4
+        fs''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        e''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        f''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        fqs''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        gqf''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 0
+        a''64
+        - \staccato
+        ]
+
+    }
+
+    \scaleDurations #'(1 . 1)
+    {
+
+        % [Guitar.Music.1 measure 13]
+        \set stemLeftBeamCount = 0
+        \set stemRightBeamCount = 4
+        fs''!64
+        - \staccato
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (13) \hspace #1 "D5" ] }
+        [
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        e''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        f''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        fqs''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        gqf''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        a''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        bf''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        g''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        af''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        bqs''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        dqs''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        eqf''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        b''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        d''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        ef''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        bqf''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        g''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        af''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        bqs''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        bf''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        eqf''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        b''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        d''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        ef''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        bqf''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        dqs''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        e''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        f''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        fqs''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        gqf''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        a''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 1
+        fs''!64
+        - \staccato
+
+    }
+
+    \scaleDurations #'(1 . 1)
+    {
+
+        \set stemLeftBeamCount = 1
+        \set stemRightBeamCount = 4
+        a''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        gqf''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        fqs''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        f''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        e''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        dqs''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        bqf''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        ef''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        d''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        b''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        eqf''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        bf''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        bqs''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        af''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        g''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        bqf''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        ef''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        d''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        b''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        eqf''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        dqs''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        bqs''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        af''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        g''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        bf''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        a''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        gqf''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        fqs''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        f''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        e''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 1
+        fs''!64
+        - \staccato
+
+    }
+
+    \scaleDurations #'(1 . 1)
+    {
+
+        \set stemLeftBeamCount = 1
+        \set stemRightBeamCount = 4
+        e''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        f''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        fqs''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        gqf''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        a''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        bf''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        g''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        af''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        bqs''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        dqs''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        eqf''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        b''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        d''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        ef''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        bqf''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        g''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        af''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        bqs''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        bf''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        eqf''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        b''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        d''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        ef''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        bqf''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        dqs''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        e''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        f''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        fqs''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        gqf''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        a''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 1
+        fs''!64
+        - \staccato
+
+    }
+
+    \scaleDurations #'(1 . 1)
+    {
+
+        \set stemLeftBeamCount = 1
+        \set stemRightBeamCount = 4
+        a''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        gqf''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        fqs''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        f''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        e''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        dqs''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        bqf''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        ef''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        d''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        b''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        eqf''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        bf''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        bqs''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        af''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        g''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        bqf''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        ef''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        d''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        b''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        eqf''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        dqs''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        bqs''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        af''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        g''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        bf''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        a''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        gqf''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        fqs''!64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        f''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 4
+        e''64
+        - \staccato
+
+        \set stemLeftBeamCount = 4
+        \set stemRightBeamCount = 0
+        fs''!64
+        - \staccato
+        ]
 
     }
 
@@ -2420,7 +2387,43 @@ number.6.Guitar.Music.1 = {
 number.6.Guitar.Music.2 = {
 
     % [Guitar.Music.2 measure 1]
-    s1 * 1901/320
+    s1 * 3/32
+
+    % [Guitar.Music.2 measure 2]
+    s1 * 1/16
+
+    % [Guitar.Music.2 measure 3]
+    s1 * 3/16
+
+    % [Guitar.Music.2 measure 4]
+    s1 * 3/20
+
+    % [Guitar.Music.2 measure 5]
+    s1 * 3/32
+
+    % [Guitar.Music.2 measure 6]
+    s1 * 1/16
+
+    % [Guitar.Music.2 measure 7]
+    s1 * 3/20
+
+    % [Guitar.Music.2 measure 8]
+    s1 * 3/8
+
+    % [Guitar.Music.2 measure 9]
+    s1 * 15/32
+
+    % [Guitar.Music.2 measure 10]
+    s1 * 5/8
+
+    % [Guitar.Music.2 measure 11]
+    s1 * 25/32
+
+    % [Guitar.Music.2 measure 12]
+    s1 * 15/16
+
+    % [Guitar.Music.2 measure 13]
+    s1 * 125/64
 
 }
 
@@ -2431,48 +2434,64 @@ number.6.Guitar.Music.3 = {
     \override Script.direction = #down
     s1 * 3/32
 
+    \scaleDurations #'(1 . 1)
     {
 
-        \scaleDurations #'(1 . 1)
-        {
-
-            % [Guitar.Music.3 measure 2]
-            f16
-            - \accent
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (2) \hspace #1 \concat { "16" \sub 1 } ] }
-            [
-
-        }
+        % [Guitar.Music.3 measure 2]
+        f16
+        - \accent
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (2) \hspace #1 \concat { "16" \sub 1 } ] }
+        [
 
     }
 
     % [Guitar.Music.3 measure 3]
-    s1 * 69/160
+    s1 * 3/16
 
+    % [Guitar.Music.3 measure 4]
+    s1 * 3/20
+
+    % [Guitar.Music.3 measure 5]
+    s1 * 3/32
+
+    \scaleDurations #'(1 . 1)
     {
 
-        \scaleDurations #'(1 . 1)
-        {
-
-            % [Guitar.Music.3 measure 6]
-            a16
-            - \accent
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (6) \hspace #1 \concat { "16" \sub 2 } ] }
-            ]
-
-        }
+        % [Guitar.Music.3 measure 6]
+        a16
+        - \accent
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (6) \hspace #1 \concat { "16" \sub 2 } ] }
+        ]
 
     }
 
     % [Guitar.Music.3 measure 7]
-    s1 * 1693/320
+    s1 * 3/20
     \revert Script.direction
+
+    % [Guitar.Music.3 measure 8]
+    s1 * 3/8
+
+    % [Guitar.Music.3 measure 9]
+    s1 * 15/32
+
+    % [Guitar.Music.3 measure 10]
+    s1 * 5/8
+
+    % [Guitar.Music.3 measure 11]
+    s1 * 25/32
+
+    % [Guitar.Music.3 measure 12]
+    s1 * 15/16
+
+    % [Guitar.Music.3 measure 13]
+    s1 * 125/64
 
 }
 
@@ -2481,66 +2500,82 @@ number.6.Guitar.Music.4 = {
 
     % [Guitar.Music.4 measure 1]
     \override Beam.positions = #'(5.5 . 5.5)
-    s1 * 11/32
+    s1 * 3/32
 
+    % [Guitar.Music.4 measure 2]
+    s1 * 1/16
+
+    % [Guitar.Music.4 measure 3]
+    s1 * 3/16
+
+    \tweak edge-height #'(0.7 . 0)
+    \times 4/5
     {
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 4/5
-        {
+        % [Guitar.Music.4 measure 4]
+        g''16
+        - \staccato
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (4) \hspace #1 \concat { "20" \sub 1 } ] }
+        [
 
-            % [Guitar.Music.4 measure 4]
-            g''16
-            - \staccato
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (4) \hspace #1 \concat { "20" \sub 1 } ] }
-            [
+        af'!16
+        - \staccato
 
-            af'!16
-            - \staccato
-
-            d''16
-            - \staccato
-            ]
-
-        }
+        d''16
+        - \staccato
+        ]
 
     }
 
     % [Guitar.Music.4 measure 5]
-    s1 * 5/32
+    s1 * 3/32
 
+    % [Guitar.Music.4 measure 6]
+    s1 * 1/16
+
+    \tweak edge-height #'(0.7 . 0)
+    \times 4/5
     {
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 4/5
-        {
+        % [Guitar.Music.4 measure 7]
+        b'16
+        - \staccato
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (7) \hspace #1 \concat { "20" \sub 2 } ] }
+        [
 
-            % [Guitar.Music.4 measure 7]
-            b'16
-            - \staccato
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (7) \hspace #1 \concat { "20" \sub 2 } ] }
-            [
+        bf'!16
+        - \staccato
 
-            bf'!16
-            - \staccato
-
-            c''16
-            - \staccato
-            ]
-            \revert Beam.positions
-
-        }
+        c''16
+        - \staccato
+        ]
+        \revert Beam.positions
 
     }
 
     % [Guitar.Music.4 measure 8]
-    s1 * 329/64
+    s1 * 3/8
+
+    % [Guitar.Music.4 measure 9]
+    s1 * 15/32
+
+    % [Guitar.Music.4 measure 10]
+    s1 * 5/8
+
+    % [Guitar.Music.4 measure 11]
+    s1 * 25/32
+
+    % [Guitar.Music.4 measure 12]
+    s1 * 15/16
+
+    % [Guitar.Music.4 measure 13]
+    s1 * 125/64
 
 }
 

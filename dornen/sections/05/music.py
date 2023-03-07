@@ -419,6 +419,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         time_signatures.append(time_signature)
         baca.extend_beam(abjad.select.leaf(tuplets, -1))
         baca.label_figure(tuplets, "16_2*", accumulator_2)
+        library.populate(score_2, library.v3, tuplets)
     tuplets, tsd = library.make_rests(3, (1, 8))
     baca.label_figure(tuplets, "R1", accumulator)
     accumulator.cache(
@@ -563,11 +564,11 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         time_signature = library.time_signature(tuplets, tsd)
         time_signatures.append(time_signature)
         baca.label_figure(tuplets, "20_6*", accumulator_2)
-    voices = baca.section.cache_voices(score, library.voice_abbreviations)
-    assert len(time_signatures) == len(accumulator.time_signatures)
+        library.populate(score_2, library.v4, tuplets)
+    voices = baca.section.cache_voices(score_2, library.voice_abbreviations)
     time_signatures = baca.section.time_signatures(time_signatures)
     baca.section.set_up_score(
-        score,
+        score_2,
         time_signatures(),
         append_anchor_skip=True,
         always_make_global_rests=True,
@@ -575,8 +576,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         manifests=library.manifests,
         previous_persistent_indicators=previous_persistent_indicators,
     )
-    accumulator.populate(score)
-    return score, voices, time_signatures
+    return score_2, voices, time_signatures
 
 
 def postprocess(cache):
@@ -594,9 +594,13 @@ def postprocess(cache):
         baca.register(o, 4)
     m = cache[library.v3]
     with baca.scope(m.leaves()) as o:
+        baca.register(o, -20)
         baca.accent(o.pheads())
         baca.script_down(o)
-        baca.register(o, -20)
+    with baca.scope(m.get(3)) as o:
+        baca.beam_positions(o, -9)
+    with baca.scope(m.get(17)) as o:
+        baca.beam_positions(o, -12)
     m = cache[library.v4]
     with baca.scope(m.leaves()) as o:
         baca.staccato(o.pheads())

@@ -1248,499 +1248,479 @@ number.14.Rests = {
 
 number.14.Guitar.Music.1 = {
 
+    \scaleDurations #'(1 . 1)
     {
 
-        \scaleDurations #'(1 . 1)
-        {
+        % [Guitar.Music.1 measure 1]
+        \override Beam.positions = #'(10 . 10)
+          %! REAPPLIED_CLEF
+        \clef "treble"
+          %! REAPPLIED_CLEF_COLOR
+        \once \override Staff.Clef.color = #(x11-color 'green4)
+          %! REAPPLIED_CLEF_COLOR_CANCELLATION
+        %@% \override Staff.Clef.color = ##f
+          %! REAPPLIED_CLEF
+        \set Staff.forceClef = ##t
+        d'32.
+        - \tenuto
+          %! REAPPLIED_DYNAMIC_COLOR
+          %! REAPPLIED_DYNAMIC
+        - \tweak color #(x11-color 'green4)
+          %! REAPPLIED_DYNAMIC
+        _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (1) ] }
+          %! REAPPLIED_INSTRUMENT_ALERT
+        ^ \baca-reapplied-instrument-markup "(“Guitar”)"
+        ^ \dornen-lh-only-until-rascado-markup
+        [
+          %! REAPPLIED_CLEF_REDRAW_COLOR
+        \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-            % [Guitar.Music.1 measure 1]
-            \override Beam.positions = #'(10 . 10)
-              %! REAPPLIED_CLEF
-            \clef "treble"
-              %! REAPPLIED_CLEF_COLOR
-            \once \override Staff.Clef.color = #(x11-color 'green4)
-              %! REAPPLIED_CLEF_COLOR_CANCELLATION
-            %@% \override Staff.Clef.color = ##f
-              %! REAPPLIED_CLEF
-            \set Staff.forceClef = ##t
-            d'32.
-            - \tenuto
-              %! REAPPLIED_DYNAMIC_COLOR
-              %! REAPPLIED_DYNAMIC
-            - \tweak color #(x11-color 'green4)
-              %! REAPPLIED_DYNAMIC
-            _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (1) ] }
-              %! REAPPLIED_INSTRUMENT_ALERT
-            ^ \baca-reapplied-instrument-markup "(“Guitar”)"
-            ^ \dornen-lh-only-until-rascado-markup
-            [
-              %! REAPPLIED_CLEF_REDRAW_COLOR
-            \override Staff.Clef.color = #(x11-color 'OliveDrab)
-
-            \set stemLeftBeamCount = 3
-            \set stemRightBeamCount = 1
-            cs'!32.
-            - \tenuto
-
-        }
+        \set stemLeftBeamCount = 3
+        \set stemRightBeamCount = 1
+        cs'!32.
+        - \tenuto
 
     }
 
     % [Guitar.Music.1 measure 2]
-    s1 * 39/80
+    s1 * 3/20
 
+    % [Guitar.Music.1 measure 3]
+    s1 * 1/16
+
+    % [Guitar.Music.1 measure 4]
+    s1 * 3/20
+
+    % [Guitar.Music.1 measure 5]
+    s1 * 1/8
+
+    \scaleDurations #'(1 . 1)
     {
 
-        \scaleDurations #'(1 . 1)
-        {
+        % [Guitar.Music.1 measure 6]
+        \set stemLeftBeamCount = 1
+        \set stemRightBeamCount = 3
+        ef'!32.
+        - \tenuto
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (6) ] }
 
-            % [Guitar.Music.1 measure 6]
-            \set stemLeftBeamCount = 1
-            \set stemRightBeamCount = 3
-            ef'!32.
-            - \tenuto
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (6) ] }
-
-            fs'!32.
-            - \tenuto
-            ]
-
-        }
+        fs'!32.
+        - \tenuto
+        ]
 
     }
 
+    \scaleDurations #'(1 . 1)
     {
 
-        \scaleDurations #'(1 . 1)
-        {
-
-            % [Guitar.Music.1 measure 7]
-            r32
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (7) ] }
-
-        }
+        % [Guitar.Music.1 measure 7]
+        r32
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (7) ] }
 
     }
 
+    \scaleDurations #'(1 . 1)
     {
 
-        \scaleDurations #'(1 . 1)
-        {
+        % [Guitar.Music.1 measure 8]
+        d'32.
+        - \tenuto
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (8) ] }
+        ^ \dornen-rh-reaches-for-screw-markup
+        [
 
-            % [Guitar.Music.1 measure 8]
-            d'32.
-            - \tenuto
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (8) ] }
-            ^ \dornen-rh-reaches-for-screw-markup
-            [
-
-            \set stemLeftBeamCount = 3
-            \set stemRightBeamCount = 1
-            cs'!32.
-            - \tenuto
-
-        }
+        \set stemLeftBeamCount = 3
+        \set stemRightBeamCount = 1
+        cs'!32.
+        - \tenuto
 
     }
 
     % [Guitar.Music.1 measure 9]
-    s1 * 39/80
+    s1 * 3/20
 
+    % [Guitar.Music.1 measure 10]
+    s1 * 1/16
+
+    % [Guitar.Music.1 measure 11]
+    s1 * 3/20
+
+    % [Guitar.Music.1 measure 12]
+    s1 * 1/8
+
+    \scaleDurations #'(1 . 1)
     {
 
-        \scaleDurations #'(1 . 1)
-        {
+        % [Guitar.Music.1 measure 13]
+        \set stemLeftBeamCount = 1
+        \set stemRightBeamCount = 3
+        ef'!32.
+        - \tenuto
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (13) ] }
 
-            % [Guitar.Music.1 measure 13]
-            \set stemLeftBeamCount = 1
-            \set stemRightBeamCount = 3
-            ef'!32.
-            - \tenuto
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (13) ] }
-
-            fs'!32.
-            - \tenuto
-            ]
-
-        }
+        fs'!32.
+        - \tenuto
+        ]
 
     }
 
+    \scaleDurations #'(1 . 1)
     {
 
-        \scaleDurations #'(1 . 1)
-        {
-
-            % [Guitar.Music.1 measure 14]
-            r32
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (14) ] }
-
-        }
+        % [Guitar.Music.1 measure 14]
+        r32
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (14) ] }
 
     }
 
+    \scaleDurations #'(1 . 1)
     {
 
-        \scaleDurations #'(1 . 1)
-        {
+        % [Guitar.Music.1 measure 15]
+        d'32.
+        - \tenuto
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (15) ] }
+        ^ \dornen-rh-places-screw-on-string-markup
+        [
 
-            % [Guitar.Music.1 measure 15]
-            d'32.
-            - \tenuto
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (15) ] }
-            ^ \dornen-rh-places-screw-on-string-markup
-            [
-
-            \set stemLeftBeamCount = 3
-            \set stemRightBeamCount = 1
-            cs'!32.
-            - \tenuto
-
-        }
+        \set stemLeftBeamCount = 3
+        \set stemRightBeamCount = 1
+        cs'!32.
+        - \tenuto
 
     }
 
     % [Guitar.Music.1 measure 16]
-    s1 * 39/80
+    s1 * 3/20
 
+    % [Guitar.Music.1 measure 17]
+    s1 * 1/16
+
+    % [Guitar.Music.1 measure 18]
+    s1 * 3/20
+
+    % [Guitar.Music.1 measure 19]
+    s1 * 1/8
+
+    \scaleDurations #'(1 . 1)
     {
 
-        \scaleDurations #'(1 . 1)
-        {
+        % [Guitar.Music.1 measure 20]
+        \set stemLeftBeamCount = 1
+        \set stemRightBeamCount = 3
+        ef'!32.
+        - \tenuto
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (20) ] }
 
-            % [Guitar.Music.1 measure 20]
-            \set stemLeftBeamCount = 1
-            \set stemRightBeamCount = 3
-            ef'!32.
-            - \tenuto
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (20) ] }
-
-            fs'!32.
-            - \tenuto
-            ]
-
-        }
+        fs'!32.
+        - \tenuto
+        ]
 
     }
 
+    \scaleDurations #'(1 . 1)
     {
 
-        \scaleDurations #'(1 . 1)
-        {
-
-            % [Guitar.Music.1 measure 21]
-            r32
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (21) ] }
-
-        }
+        % [Guitar.Music.1 measure 21]
+        r32
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (21) ] }
 
     }
 
+    \scaleDurations #'(1 . 1)
     {
 
-        \scaleDurations #'(1 . 1)
-        {
+        % [Guitar.Music.1 measure 22]
+        d'32.
+        - \tenuto
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (22) ] }
+        [
 
-            % [Guitar.Music.1 measure 22]
-            d'32.
-            - \tenuto
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (22) ] }
-            [
-
-            \set stemLeftBeamCount = 3
-            \set stemRightBeamCount = 1
-            cs'!32.
-            - \tenuto
-
-        }
+        \set stemLeftBeamCount = 3
+        \set stemRightBeamCount = 1
+        cs'!32.
+        - \tenuto
 
     }
 
     % [Guitar.Music.1 measure 23]
-    s1 * 39/80
+    s1 * 3/20
 
+    % [Guitar.Music.1 measure 24]
+    s1 * 1/16
+
+    % [Guitar.Music.1 measure 25]
+    s1 * 3/20
+
+    % [Guitar.Music.1 measure 26]
+    s1 * 1/8
+
+    \scaleDurations #'(1 . 1)
     {
 
-        \scaleDurations #'(1 . 1)
-        {
+        % [Guitar.Music.1 measure 27]
+        \set stemLeftBeamCount = 1
+        \set stemRightBeamCount = 3
+        ef'!32.
+        - \tenuto
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (27) ] }
 
-            % [Guitar.Music.1 measure 27]
-            \set stemLeftBeamCount = 1
-            \set stemRightBeamCount = 3
-            ef'!32.
-            - \tenuto
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (27) ] }
-
-            fs'!32.
-            - \tenuto
-            ]
-
-        }
+        fs'!32.
+        - \tenuto
+        ]
 
     }
 
+    \scaleDurations #'(1 . 1)
     {
 
-        \scaleDurations #'(1 . 1)
-        {
-
-            % [Guitar.Music.1 measure 28]
-            r32
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (28) ] }
-
-        }
+        % [Guitar.Music.1 measure 28]
+        r32
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (28) ] }
 
     }
 
+    \scaleDurations #'(1 . 1)
     {
 
-        \scaleDurations #'(1 . 1)
-        {
+        % [Guitar.Music.1 measure 29]
+        d'32.
+        - \tenuto
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (29) ] }
+        [
 
-            % [Guitar.Music.1 measure 29]
-            d'32.
-            - \tenuto
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (29) ] }
-            [
-
-            \set stemLeftBeamCount = 3
-            \set stemRightBeamCount = 1
-            cs'!32.
-            - \tenuto
-
-        }
+        \set stemLeftBeamCount = 3
+        \set stemRightBeamCount = 1
+        cs'!32.
+        - \tenuto
 
     }
 
     % [Guitar.Music.1 measure 30]
-    s1 * 39/80
+    s1 * 3/20
 
+    % [Guitar.Music.1 measure 31]
+    s1 * 1/16
+
+    % [Guitar.Music.1 measure 32]
+    s1 * 3/20
+
+    % [Guitar.Music.1 measure 33]
+    s1 * 1/8
+
+    \scaleDurations #'(1 . 1)
     {
 
-        \scaleDurations #'(1 . 1)
-        {
+        % [Guitar.Music.1 measure 34]
+        \set stemLeftBeamCount = 1
+        \set stemRightBeamCount = 3
+        ef'!32.
+        - \tenuto
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (34) ] }
 
-            % [Guitar.Music.1 measure 34]
-            \set stemLeftBeamCount = 1
-            \set stemRightBeamCount = 3
-            ef'!32.
-            - \tenuto
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (34) ] }
-
-            fs'!32.
-            - \tenuto
-            ]
-
-        }
+        fs'!32.
+        - \tenuto
+        ]
 
     }
 
+    \scaleDurations #'(1 . 1)
     {
 
-        \scaleDurations #'(1 . 1)
-        {
-
-            % [Guitar.Music.1 measure 35]
-            r32
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (35) ] }
-
-        }
+        % [Guitar.Music.1 measure 35]
+        r32
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (35) ] }
 
     }
 
+    \scaleDurations #'(1 . 1)
     {
 
-        \scaleDurations #'(1 . 1)
-        {
+        % [Guitar.Music.1 measure 36]
+        d'32.
+        - \tenuto
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (36) ] }
+        [
 
-            % [Guitar.Music.1 measure 36]
-            d'32.
-            - \tenuto
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (36) ] }
-            [
-
-            cs'!32.
-            - \tenuto
-            ]
-
-        }
+        cs'!32.
+        - \tenuto
+        ]
 
     }
 
     % [Guitar.Music.1 measure 37]
-    s1 * 39/80
+    s1 * 3/20
 
+    % [Guitar.Music.1 measure 38]
+    s1 * 1/16
+
+    % [Guitar.Music.1 measure 39]
+    s1 * 3/20
+
+    \scaleDurations #'(1 . 1)
     {
 
-        \scaleDurations #'(1 . 1)
-        {
+        % [Guitar.Music.1 measure 40]
+        r8
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (41) ] }
 
-            % [Guitar.Music.1 measure 41]
-            r8
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (41) ] }
+        % [Guitar.Music.1 measure 41]
+        r8
 
-            r8
+        r8
 
-            r8
+        r8
 
-            r8
-
-            r8
-            \revert Beam.positions
-
-        }
+        r8
 
     }
 
+    \tweak edge-height #'(0.7 . 0)
+    \times 2/3
     {
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 2/3
-        {
+        e'2
+        :32
+        - \tenuto
+          %! EXPLICIT_DYNAMIC_COLOR
+          %! EXPLICIT_DYNAMIC
+        - \tweak color #(x11-color 'blue)
+          %! EXPLICIT_DYNAMIC
+        \p
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (42) ] }
+        ^ \dornen-rascado-explanation-markup
+        - \tweak stencil ##f
+        ~
+        \revert Beam.positions
 
-            % [Guitar.Music.1 measure 42]
-            e2
-            :32
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-            - \tweak color #(x11-color 'blue)
-              %! EXPLICIT_DYNAMIC
-            \p
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (42) ] }
-            ^ \dornen-rascado-explanation-markup
-            - \tweak stencil ##f
-            ~
+        e'2
+        :32
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
-            e2
-            :32
-            - \tweak stencil ##f
-            ~
-            \repeatTie
+        e'2
+        :32
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
-            e2
-            :32
-            - \tweak stencil ##f
-            ~
-            \repeatTie
+        e'2
+        :32
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
-            e2
-            :32
-            - \tweak stencil ##f
-            ~
-            \repeatTie
+        e'2
+        :32
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
-            e2
-            :32
-            - \tweak stencil ##f
-            ~
-            \repeatTie
+        e'2
+        :32
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
-            e2
-            :32
-            - \tweak stencil ##f
-            ~
-            \repeatTie
+        e'2
+        :32
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
-            e2
-            :32
-            - \tweak stencil ##f
-            ~
-            \repeatTie
+        e'2
+        :32
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
-            e2
-            :32
-            - \tweak stencil ##f
-            ~
-            \repeatTie
+        e'2
+        :32
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
-            e2
-            :32
-            - \tweak stencil ##f
-            ~
-            \repeatTie
+        e'2
+        :32
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
-            e2
-            :32
-            - \tweak stencil ##f
-            ~
-            \repeatTie
+        e'2
+        :32
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
-            e2
-            :32
-            - \tweak stencil ##f
-            ~
-            \repeatTie
+        e'2
+        :32
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
-            e2
-            :32
-            - \tweak stencil ##f
-            ~
-            \repeatTie
-
-            \once \override Score.RehearsalMark.direction = #down
-            \once \override Score.RehearsalMark.padding = 12
-            \once \override Score.RehearsalMark.self-alignment-X = #right
-            \mark \dornen-colophon-markup
-            e2
-            :32
-            \repeatTie
-
-        }
+        \once \override Score.RehearsalMark.direction = #down
+        \once \override Score.RehearsalMark.padding = 12
+        \once \override Score.RehearsalMark.self-alignment-X = #right
+        \mark \dornen-colophon-markup
+        e'2
+        :32
+        \repeatTie
 
     }
 
@@ -1751,241 +1731,271 @@ number.14.Guitar.Music.2 = {
 
     % [Guitar.Music.2 measure 1]
     \override Beam.positions = #'(-5.5 . -5.5)
-    s1 * 73/160
+    s1 * 3/32
 
+    % [Guitar.Music.2 measure 2]
+    s1 * 3/20
+
+    % [Guitar.Music.2 measure 3]
+    s1 * 1/16
+
+    % [Guitar.Music.2 measure 4]
+    s1 * 3/20
+
+    \scaleDurations #'(1 . 1)
     {
 
-        \scaleDurations #'(1 . 1)
-        {
+        % [Guitar.Music.2 measure 5]
+        \set stemLeftBeamCount = 0
+        \set stemRightBeamCount = 3
+        e''32
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (5) ] }
+        [
+          %! SPANNER_START
+        (
 
-            % [Guitar.Music.2 measure 5]
-            \set stemLeftBeamCount = 0
-            \set stemRightBeamCount = 3
-            e''32
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (5) ] }
-            [
-              %! SPANNER_START
-            (
+        \set stemLeftBeamCount = 3
+        \set stemRightBeamCount = 3
+        bf''!32
 
-            \set stemLeftBeamCount = 3
-            \set stemRightBeamCount = 3
-            bf''!32
+        \set stemLeftBeamCount = 3
+        \set stemRightBeamCount = 3
+        g''32
 
-            \set stemLeftBeamCount = 3
-            \set stemRightBeamCount = 3
-            g''32
-
-            \set stemLeftBeamCount = 3
-            \set stemRightBeamCount = 0
-            c'''32
-              %! SPANNER_STOP
-            )
-            ]
-
-        }
+        \set stemLeftBeamCount = 3
+        \set stemRightBeamCount = 0
+        c'''32
+          %! SPANNER_STOP
+        )
+        ]
 
     }
 
     % [Guitar.Music.2 measure 6]
-    s1 * 93/160
+    s1 * 3/32
 
+    % [Guitar.Music.2 measure 7]
+    s1 * 1/32
+
+    % [Guitar.Music.2 measure 8]
+    s1 * 3/32
+
+    % [Guitar.Music.2 measure 9]
+    s1 * 3/20
+
+    % [Guitar.Music.2 measure 10]
+    s1 * 1/16
+
+    % [Guitar.Music.2 measure 11]
+    s1 * 3/20
+
+    \scaleDurations #'(1 . 1)
     {
 
-        \scaleDurations #'(1 . 1)
-        {
+        % [Guitar.Music.2 measure 12]
+        \set stemLeftBeamCount = 0
+        \set stemRightBeamCount = 3
+        e''32
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (12) ] }
+        [
+          %! SPANNER_START
+        (
 
-            % [Guitar.Music.2 measure 12]
-            \set stemLeftBeamCount = 0
-            \set stemRightBeamCount = 3
-            e''32
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (12) ] }
-            [
-              %! SPANNER_START
-            (
+        \set stemLeftBeamCount = 3
+        \set stemRightBeamCount = 3
+        bf''!32
 
-            \set stemLeftBeamCount = 3
-            \set stemRightBeamCount = 3
-            bf''!32
+        \set stemLeftBeamCount = 3
+        \set stemRightBeamCount = 3
+        g''32
 
-            \set stemLeftBeamCount = 3
-            \set stemRightBeamCount = 3
-            g''32
-
-            \set stemLeftBeamCount = 3
-            \set stemRightBeamCount = 0
-            c'''32
-              %! SPANNER_STOP
-            )
-            ]
-
-        }
+        \set stemLeftBeamCount = 3
+        \set stemRightBeamCount = 0
+        c'''32
+          %! SPANNER_STOP
+        )
+        ]
 
     }
 
     % [Guitar.Music.2 measure 13]
-    s1 * 93/160
+    s1 * 3/32
 
+    % [Guitar.Music.2 measure 14]
+    s1 * 1/32
+
+    % [Guitar.Music.2 measure 15]
+    s1 * 3/32
+
+    % [Guitar.Music.2 measure 16]
+    s1 * 3/20
+
+    % [Guitar.Music.2 measure 17]
+    s1 * 1/16
+
+    % [Guitar.Music.2 measure 18]
+    s1 * 3/20
+
+    \scaleDurations #'(1 . 1)
     {
 
-        \scaleDurations #'(1 . 1)
-        {
+        % [Guitar.Music.2 measure 19]
+        \set stemLeftBeamCount = 0
+        \set stemRightBeamCount = 3
+        e''32
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (19) ] }
+        [
+          %! SPANNER_START
+        (
 
-            % [Guitar.Music.2 measure 19]
-            \set stemLeftBeamCount = 0
-            \set stemRightBeamCount = 3
-            e''32
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (19) ] }
-            [
-              %! SPANNER_START
-            (
+        \set stemLeftBeamCount = 3
+        \set stemRightBeamCount = 3
+        bf''!32
 
-            \set stemLeftBeamCount = 3
-            \set stemRightBeamCount = 3
-            bf''!32
+        \set stemLeftBeamCount = 3
+        \set stemRightBeamCount = 3
+        g''32
 
-            \set stemLeftBeamCount = 3
-            \set stemRightBeamCount = 3
-            g''32
-
-            \set stemLeftBeamCount = 3
-            \set stemRightBeamCount = 0
-            c'''32
-              %! SPANNER_STOP
-            )
-            ]
-
-        }
+        \set stemLeftBeamCount = 3
+        \set stemRightBeamCount = 0
+        c'''32
+          %! SPANNER_STOP
+        )
+        ]
 
     }
 
     % [Guitar.Music.2 measure 20]
-    s1 * 93/160
+    s1 * 3/32
 
+    % [Guitar.Music.2 measure 21]
+    s1 * 1/32
+
+    % [Guitar.Music.2 measure 22]
+    s1 * 3/32
+
+    % [Guitar.Music.2 measure 23]
+    s1 * 3/20
+
+    % [Guitar.Music.2 measure 24]
+    s1 * 1/16
+
+    % [Guitar.Music.2 measure 25]
+    s1 * 3/20
+
+    \scaleDurations #'(1 . 1)
     {
 
-        \scaleDurations #'(1 . 1)
-        {
+        % [Guitar.Music.2 measure 26]
+        \set stemLeftBeamCount = 0
+        \set stemRightBeamCount = 3
+        e''32
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (26) ] }
+        [
+          %! SPANNER_START
+        (
 
-            % [Guitar.Music.2 measure 26]
-            \set stemLeftBeamCount = 0
-            \set stemRightBeamCount = 3
-            e''32
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (26) ] }
-            [
-              %! SPANNER_START
-            (
+        \set stemLeftBeamCount = 3
+        \set stemRightBeamCount = 3
+        bf''!32
 
-            \set stemLeftBeamCount = 3
-            \set stemRightBeamCount = 3
-            bf''!32
+        \set stemLeftBeamCount = 3
+        \set stemRightBeamCount = 3
+        g''32
 
-            \set stemLeftBeamCount = 3
-            \set stemRightBeamCount = 3
-            g''32
-
-            \set stemLeftBeamCount = 3
-            \set stemRightBeamCount = 0
-            c'''32
-              %! SPANNER_STOP
-            )
-            ]
-
-        }
+        \set stemLeftBeamCount = 3
+        \set stemRightBeamCount = 0
+        c'''32
+          %! SPANNER_STOP
+        )
+        ]
 
     }
 
     % [Guitar.Music.2 measure 27]
-    s1 * 93/160
+    s1 * 3/32
 
+    % [Guitar.Music.2 measure 28]
+    s1 * 1/32
+
+    % [Guitar.Music.2 measure 29]
+    s1 * 3/32
+
+    % [Guitar.Music.2 measure 30]
+    s1 * 3/20
+
+    % [Guitar.Music.2 measure 31]
+    s1 * 1/16
+
+    % [Guitar.Music.2 measure 32]
+    s1 * 3/20
+
+    \scaleDurations #'(1 . 1)
     {
 
-        \scaleDurations #'(1 . 1)
-        {
+        % [Guitar.Music.2 measure 33]
+        \set stemLeftBeamCount = 0
+        \set stemRightBeamCount = 3
+        e''32
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (33) ] }
+        [
+          %! SPANNER_START
+        (
 
-            % [Guitar.Music.2 measure 33]
-            \set stemLeftBeamCount = 0
-            \set stemRightBeamCount = 3
-            e''32
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (33) ] }
-            [
-              %! SPANNER_START
-            (
+        \set stemLeftBeamCount = 3
+        \set stemRightBeamCount = 3
+        bf''!32
 
-            \set stemLeftBeamCount = 3
-            \set stemRightBeamCount = 3
-            bf''!32
+        \set stemLeftBeamCount = 3
+        \set stemRightBeamCount = 3
+        g''32
 
-            \set stemLeftBeamCount = 3
-            \set stemRightBeamCount = 3
-            g''32
-
-            \set stemLeftBeamCount = 3
-            \set stemRightBeamCount = 0
-            c'''32
-              %! SPANNER_STOP
-            )
-            ]
-
-        }
+        \set stemLeftBeamCount = 3
+        \set stemRightBeamCount = 0
+        c'''32
+          %! SPANNER_STOP
+        )
+        ]
 
     }
 
     % [Guitar.Music.2 measure 34]
-    s1 * 93/160
+    s1 * 3/32
 
-    {
+    % [Guitar.Music.2 measure 35]
+    s1 * 1/32
 
-        \scaleDurations #'(1 . 1)
-        {
+    % [Guitar.Music.2 measure 36]
+    s1 * 3/32
 
-            % [Guitar.Music.2 measure 40]
-            \set stemLeftBeamCount = 0
-            \set stemRightBeamCount = 3
-            e''32
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (40) ] }
-            [
-              %! SPANNER_START
-            (
+    % [Guitar.Music.2 measure 37]
+    s1 * 3/20
 
-            \set stemLeftBeamCount = 3
-            \set stemRightBeamCount = 3
-            bf''!32
+    % [Guitar.Music.2 measure 38]
+    s1 * 1/16
 
-            \set stemLeftBeamCount = 3
-            \set stemRightBeamCount = 3
-            g''32
+    % [Guitar.Music.2 measure 39]
+    s1 * 3/20
 
-            \set stemLeftBeamCount = 3
-            \set stemRightBeamCount = 0
-            c'''32
-              %! SPANNER_STOP
-            )
-            ]
+    % [Guitar.Music.2 measure 40]
+    s1 * 5/8
 
-        }
-
-    }
-
-    % [Guitar.Music.2 measure 41]
-    s1 * 119/24
+    s1 * 13/3
     \revert Beam.positions
 
 }
@@ -1995,139 +2005,198 @@ number.14.Guitar.Music.3 = {
 
     % [Guitar.Music.3 measure 1]
     \override Script.direction = #down
-    s1 * 39/160
+    s1 * 3/32
 
+    % [Guitar.Music.3 measure 2]
+    s1 * 3/20
+
+    \scaleDurations #'(1 . 1)
     {
 
-        \scaleDurations #'(1 . 1)
-        {
-
-            % [Guitar.Music.3 measure 3]
-            c'16
-            - \accent
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (3) ] }
-            [
-            ]
-
-        }
+        % [Guitar.Music.3 measure 3]
+        c'16
+        - \accent
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (3) ] }
+        [
+        ]
 
     }
 
     % [Guitar.Music.3 measure 4]
-    s1 * 103/160
+    s1 * 3/20
 
+    % [Guitar.Music.3 measure 5]
+    s1 * 1/8
+
+    % [Guitar.Music.3 measure 6]
+    s1 * 3/32
+
+    % [Guitar.Music.3 measure 7]
+    s1 * 1/32
+
+    % [Guitar.Music.3 measure 8]
+    s1 * 3/32
+
+    % [Guitar.Music.3 measure 9]
+    s1 * 3/20
+
+    \scaleDurations #'(1 . 1)
     {
 
-        \scaleDurations #'(1 . 1)
-        {
-
-            % [Guitar.Music.3 measure 10]
-            c'16
-            - \accent
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (10) ] }
-            [
-            ]
-
-        }
+        % [Guitar.Music.3 measure 10]
+        c'16
+        - \accent
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (10) ] }
+        [
+        ]
 
     }
 
     % [Guitar.Music.3 measure 11]
-    s1 * 103/160
+    s1 * 3/20
 
+    % [Guitar.Music.3 measure 12]
+    s1 * 1/8
+
+    % [Guitar.Music.3 measure 13]
+    s1 * 3/32
+
+    % [Guitar.Music.3 measure 14]
+    s1 * 1/32
+
+    % [Guitar.Music.3 measure 15]
+    s1 * 3/32
+
+    % [Guitar.Music.3 measure 16]
+    s1 * 3/20
+
+    \scaleDurations #'(1 . 1)
     {
 
-        \scaleDurations #'(1 . 1)
-        {
-
-            % [Guitar.Music.3 measure 17]
-            c'16
-            - \accent
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (17) ] }
-            [
-            ]
-
-        }
+        % [Guitar.Music.3 measure 17]
+        c'16
+        - \accent
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (17) ] }
+        [
+        ]
 
     }
 
     % [Guitar.Music.3 measure 18]
-    s1 * 103/160
+    s1 * 3/20
 
+    % [Guitar.Music.3 measure 19]
+    s1 * 1/8
+
+    % [Guitar.Music.3 measure 20]
+    s1 * 3/32
+
+    % [Guitar.Music.3 measure 21]
+    s1 * 1/32
+
+    % [Guitar.Music.3 measure 22]
+    s1 * 3/32
+
+    % [Guitar.Music.3 measure 23]
+    s1 * 3/20
+
+    \scaleDurations #'(1 . 1)
     {
 
-        \scaleDurations #'(1 . 1)
-        {
-
-            % [Guitar.Music.3 measure 24]
-            c'16
-            - \accent
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (24) ] }
-            [
-            ]
-
-        }
+        % [Guitar.Music.3 measure 24]
+        c'16
+        - \accent
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (24) ] }
+        [
+        ]
 
     }
 
     % [Guitar.Music.3 measure 25]
-    s1 * 103/160
+    s1 * 3/20
 
+    % [Guitar.Music.3 measure 26]
+    s1 * 1/8
+
+    % [Guitar.Music.3 measure 27]
+    s1 * 3/32
+
+    % [Guitar.Music.3 measure 28]
+    s1 * 1/32
+
+    % [Guitar.Music.3 measure 29]
+    s1 * 3/32
+
+    % [Guitar.Music.3 measure 30]
+    s1 * 3/20
+
+    \scaleDurations #'(1 . 1)
     {
 
-        \scaleDurations #'(1 . 1)
-        {
-
-            % [Guitar.Music.3 measure 31]
-            c'16
-            - \accent
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (31) ] }
-            [
-            ]
-
-        }
+        % [Guitar.Music.3 measure 31]
+        c'16
+        - \accent
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (31) ] }
+        [
+        ]
 
     }
 
     % [Guitar.Music.3 measure 32]
-    s1 * 103/160
+    s1 * 3/20
 
+    % [Guitar.Music.3 measure 33]
+    s1 * 1/8
+
+    % [Guitar.Music.3 measure 34]
+    s1 * 3/32
+
+    % [Guitar.Music.3 measure 35]
+    s1 * 1/32
+
+    % [Guitar.Music.3 measure 36]
+    s1 * 3/32
+
+    % [Guitar.Music.3 measure 37]
+    s1 * 3/20
+
+    \scaleDurations #'(1 . 1)
     {
 
-        \scaleDurations #'(1 . 1)
-        {
-
-            % [Guitar.Music.3 measure 38]
-            c'16
-            - \accent
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (38) ] }
-            [
-            ]
-
-        }
+        % [Guitar.Music.3 measure 38]
+        c'16
+        - \accent
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (38) ] }
+        [
+        ]
 
     }
 
     % [Guitar.Music.3 measure 39]
-    s1 * 157/30
+    s1 * 3/20
+
+    % [Guitar.Music.3 measure 40]
+    s1 * 5/8
+
+    s1 * 13/3
     \revert Script.direction
 
 }
@@ -2139,389 +2208,388 @@ number.14.Guitar.Music.4 = {
     \override Beam.positions = #'(5.5 . 5.5)
     s1 * 3/32
 
+    \tweak edge-height #'(0.7 . 0)
+    \times 4/5
     {
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 4/5
-        {
+        % [Guitar.Music.4 measure 2]
+        b'16
+        - \staccato
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (2) ] }
+        [
 
-            % [Guitar.Music.4 measure 2]
-            b'16
-            - \staccato
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (2) ] }
-            [
+        a'16
+        - \staccato
 
-            a'16
-            - \staccato
-
-            \set stemLeftBeamCount = 2
-            \set stemRightBeamCount = 1
-            g''16
-            - \staccato
-
-        }
+        \set stemLeftBeamCount = 2
+        \set stemRightBeamCount = 1
+        g''16
+        - \staccato
 
     }
 
     % [Guitar.Music.4 measure 3]
     s1 * 1/16
 
+    \tweak edge-height #'(0.7 . 0)
+    \times 4/5
     {
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 4/5
-        {
+        % [Guitar.Music.4 measure 4]
+        \override Beam.positions = #'(6 . 6)
+        \override Stem.direction = #up
+        \set stemLeftBeamCount = 1
+        \set stemRightBeamCount = 2
+        ef''!16
+        - \staccato
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (4) ] }
 
-            % [Guitar.Music.4 measure 4]
-            \override Beam.positions = #'(6 . 6)
-            \override Stem.direction = #up
-            \set stemLeftBeamCount = 1
-            \set stemRightBeamCount = 2
-            ef''!16
-            - \staccato
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (4) ] }
+        fs''!16
+        - \staccato
 
-            fs''!16
-            - \staccato
-
-            f''16
-            - \staccato
-            ]
-            \revert Beam.positions
-            \revert Stem.direction
-
-        }
+        f''16
+        - \staccato
+        ]
+        \revert Beam.positions
+        \revert Stem.direction
 
     }
 
     % [Guitar.Music.4 measure 5]
-    s1 * 11/32
+    s1 * 1/8
 
+    % [Guitar.Music.4 measure 6]
+    s1 * 3/32
+
+    % [Guitar.Music.4 measure 7]
+    s1 * 1/32
+
+    % [Guitar.Music.4 measure 8]
+    s1 * 3/32
+
+    \tweak edge-height #'(0.7 . 0)
+    \times 4/5
     {
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 4/5
-        {
+        % [Guitar.Music.4 measure 9]
+        b'16
+        - \staccato
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (9) ] }
+        [
 
-            % [Guitar.Music.4 measure 9]
-            b'16
-            - \staccato
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (9) ] }
-            [
+        a'16
+        - \staccato
 
-            a'16
-            - \staccato
-
-            \set stemLeftBeamCount = 2
-            \set stemRightBeamCount = 1
-            g''16
-            - \staccato
-
-        }
+        \set stemLeftBeamCount = 2
+        \set stemRightBeamCount = 1
+        g''16
+        - \staccato
 
     }
 
     % [Guitar.Music.4 measure 10]
     s1 * 1/16
 
+    \tweak edge-height #'(0.7 . 0)
+    \times 4/5
     {
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 4/5
-        {
+        % [Guitar.Music.4 measure 11]
+        \override Beam.positions = #'(6 . 6)
+        \override Stem.direction = #up
+        \set stemLeftBeamCount = 1
+        \set stemRightBeamCount = 2
+        ef''!16
+        - \staccato
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (11) ] }
 
-            % [Guitar.Music.4 measure 11]
-            \override Beam.positions = #'(6 . 6)
-            \override Stem.direction = #up
-            \set stemLeftBeamCount = 1
-            \set stemRightBeamCount = 2
-            ef''!16
-            - \staccato
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (11) ] }
+        fs''!16
+        - \staccato
 
-            fs''!16
-            - \staccato
-
-            f''16
-            - \staccato
-            ]
-            \revert Beam.positions
-            \revert Stem.direction
-
-        }
+        f''16
+        - \staccato
+        ]
+        \revert Beam.positions
+        \revert Stem.direction
 
     }
 
     % [Guitar.Music.4 measure 12]
-    s1 * 11/32
+    s1 * 1/8
 
+    % [Guitar.Music.4 measure 13]
+    s1 * 3/32
+
+    % [Guitar.Music.4 measure 14]
+    s1 * 1/32
+
+    % [Guitar.Music.4 measure 15]
+    s1 * 3/32
+
+    \tweak edge-height #'(0.7 . 0)
+    \times 4/5
     {
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 4/5
-        {
+        % [Guitar.Music.4 measure 16]
+        b'16
+        - \staccato
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (16) ] }
+        [
 
-            % [Guitar.Music.4 measure 16]
-            b'16
-            - \staccato
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (16) ] }
-            [
+        a'16
+        - \staccato
 
-            a'16
-            - \staccato
-
-            \set stemLeftBeamCount = 2
-            \set stemRightBeamCount = 1
-            g''16
-            - \staccato
-
-        }
+        \set stemLeftBeamCount = 2
+        \set stemRightBeamCount = 1
+        g''16
+        - \staccato
 
     }
 
     % [Guitar.Music.4 measure 17]
     s1 * 1/16
 
+    \tweak edge-height #'(0.7 . 0)
+    \times 4/5
     {
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 4/5
-        {
+        % [Guitar.Music.4 measure 18]
+        \override Beam.positions = #'(6 . 6)
+        \override Stem.direction = #up
+        \set stemLeftBeamCount = 1
+        \set stemRightBeamCount = 2
+        ef''!16
+        - \staccato
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (18) ] }
 
-            % [Guitar.Music.4 measure 18]
-            \override Beam.positions = #'(6 . 6)
-            \override Stem.direction = #up
-            \set stemLeftBeamCount = 1
-            \set stemRightBeamCount = 2
-            ef''!16
-            - \staccato
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (18) ] }
+        fs''!16
+        - \staccato
 
-            fs''!16
-            - \staccato
-
-            f''16
-            - \staccato
-            ]
-            \revert Beam.positions
-            \revert Stem.direction
-
-        }
+        f''16
+        - \staccato
+        ]
+        \revert Beam.positions
+        \revert Stem.direction
 
     }
 
     % [Guitar.Music.4 measure 19]
-    s1 * 11/32
+    s1 * 1/8
 
+    % [Guitar.Music.4 measure 20]
+    s1 * 3/32
+
+    % [Guitar.Music.4 measure 21]
+    s1 * 1/32
+
+    % [Guitar.Music.4 measure 22]
+    s1 * 3/32
+
+    \tweak edge-height #'(0.7 . 0)
+    \times 4/5
     {
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 4/5
-        {
+        % [Guitar.Music.4 measure 23]
+        b'16
+        - \staccato
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (23) ] }
+        [
 
-            % [Guitar.Music.4 measure 23]
-            b'16
-            - \staccato
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (23) ] }
-            [
+        a'16
+        - \staccato
 
-            a'16
-            - \staccato
-
-            \set stemLeftBeamCount = 2
-            \set stemRightBeamCount = 1
-            g''16
-            - \staccato
-
-        }
+        \set stemLeftBeamCount = 2
+        \set stemRightBeamCount = 1
+        g''16
+        - \staccato
 
     }
 
     % [Guitar.Music.4 measure 24]
     s1 * 1/16
 
+    \tweak edge-height #'(0.7 . 0)
+    \times 4/5
     {
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 4/5
-        {
+        % [Guitar.Music.4 measure 25]
+        \override Beam.positions = #'(6 . 6)
+        \override Stem.direction = #up
+        \set stemLeftBeamCount = 1
+        \set stemRightBeamCount = 2
+        ef''!16
+        - \staccato
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (25) ] }
 
-            % [Guitar.Music.4 measure 25]
-            \override Beam.positions = #'(6 . 6)
-            \override Stem.direction = #up
-            \set stemLeftBeamCount = 1
-            \set stemRightBeamCount = 2
-            ef''!16
-            - \staccato
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (25) ] }
+        fs''!16
+        - \staccato
 
-            fs''!16
-            - \staccato
-
-            f''16
-            - \staccato
-            ]
-            \revert Beam.positions
-            \revert Stem.direction
-
-        }
+        f''16
+        - \staccato
+        ]
+        \revert Beam.positions
+        \revert Stem.direction
 
     }
 
     % [Guitar.Music.4 measure 26]
-    s1 * 11/32
+    s1 * 1/8
 
+    % [Guitar.Music.4 measure 27]
+    s1 * 3/32
+
+    % [Guitar.Music.4 measure 28]
+    s1 * 1/32
+
+    % [Guitar.Music.4 measure 29]
+    s1 * 3/32
+
+    \tweak edge-height #'(0.7 . 0)
+    \times 4/5
     {
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 4/5
-        {
+        % [Guitar.Music.4 measure 30]
+        b'16
+        - \staccato
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (30) ] }
+        [
 
-            % [Guitar.Music.4 measure 30]
-            b'16
-            - \staccato
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (30) ] }
-            [
+        a'16
+        - \staccato
 
-            a'16
-            - \staccato
-
-            \set stemLeftBeamCount = 2
-            \set stemRightBeamCount = 1
-            g''16
-            - \staccato
-
-        }
+        \set stemLeftBeamCount = 2
+        \set stemRightBeamCount = 1
+        g''16
+        - \staccato
 
     }
 
     % [Guitar.Music.4 measure 31]
     s1 * 1/16
 
+    \tweak edge-height #'(0.7 . 0)
+    \times 4/5
     {
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 4/5
-        {
+        % [Guitar.Music.4 measure 32]
+        \override Beam.positions = #'(6 . 6)
+        \override Stem.direction = #up
+        \set stemLeftBeamCount = 1
+        \set stemRightBeamCount = 2
+        ef''!16
+        - \staccato
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (32) ] }
 
-            % [Guitar.Music.4 measure 32]
-            \override Beam.positions = #'(6 . 6)
-            \override Stem.direction = #up
-            \set stemLeftBeamCount = 1
-            \set stemRightBeamCount = 2
-            ef''!16
-            - \staccato
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (32) ] }
+        fs''!16
+        - \staccato
 
-            fs''!16
-            - \staccato
-
-            f''16
-            - \staccato
-            ]
-            \revert Beam.positions
-            \revert Stem.direction
-
-        }
+        f''16
+        - \staccato
+        ]
+        \revert Beam.positions
+        \revert Stem.direction
 
     }
 
     % [Guitar.Music.4 measure 33]
-    s1 * 11/32
+    s1 * 1/8
 
+    % [Guitar.Music.4 measure 34]
+    s1 * 3/32
+
+    % [Guitar.Music.4 measure 35]
+    s1 * 1/32
+
+    % [Guitar.Music.4 measure 36]
+    s1 * 3/32
+
+    \tweak edge-height #'(0.7 . 0)
+    \times 4/5
     {
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 4/5
-        {
+        % [Guitar.Music.4 measure 37]
+        b'16
+        - \staccato
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (37) ] }
+        [
 
-            % [Guitar.Music.4 measure 37]
-            b'16
-            - \staccato
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (37) ] }
-            [
+        a'16
+        - \staccato
 
-            a'16
-            - \staccato
-
-            \set stemLeftBeamCount = 2
-            \set stemRightBeamCount = 1
-            g''16
-            - \staccato
-
-        }
+        \set stemLeftBeamCount = 2
+        \set stemRightBeamCount = 1
+        g''16
+        - \staccato
 
     }
 
     % [Guitar.Music.4 measure 38]
     s1 * 1/16
 
+    \tweak edge-height #'(0.7 . 0)
+    \times 4/5
     {
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 4/5
-        {
+        % [Guitar.Music.4 measure 39]
+        \override Beam.positions = #'(6 . 6)
+        \override Stem.direction = #up
+        \set stemLeftBeamCount = 1
+        \set stemRightBeamCount = 2
+        ef''!16
+        - \staccato
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (39) ] }
 
-            % [Guitar.Music.4 measure 39]
-            \override Beam.positions = #'(6 . 6)
-            \override Stem.direction = #up
-            \set stemLeftBeamCount = 1
-            \set stemRightBeamCount = 2
-            ef''!16
-            - \staccato
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (39) ] }
+        fs''!16
+        - \staccato
 
-            fs''!16
-            - \staccato
-
-            f''16
-            - \staccato
-            ]
-            \revert Beam.positions
-            \revert Stem.direction
-
-        }
+        f''16
+        - \staccato
+        ]
+        \revert Beam.positions
+        \revert Stem.direction
 
     }
 
     % [Guitar.Music.4 measure 40]
-    s1 * 61/12
+    s1 * 5/8
+
+    s1 * 13/3
     \revert Beam.positions
 
 }

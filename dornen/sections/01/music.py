@@ -1,5 +1,3 @@
-import types
-
 import abjad
 import baca
 
@@ -12,7 +10,7 @@ from dornen import library
 
 def make_empty_score():
     score = library.make_empty_score()
-    accumulator = types.SimpleNamespace(figure_number=1)
+    accumulator = baca.SimpleNamespace(figure_number=1)
     time_signatures = []
     design = library.design_1(stop=22)
     assert len(design) == 22

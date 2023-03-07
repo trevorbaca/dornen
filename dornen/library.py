@@ -553,7 +553,7 @@ def make_graced_tuplets(collections):
             treatment = "7:8"
         else:
             treatment = "7:5"
-        containers, collection = baca.figures.make_before_grace_containers(
+        containers, collection = baca.make_before_grace_containers(
             collection,
             baca.lmr(left_length=1, right_counts=[2], right_cyclic=True),
         )
@@ -563,7 +563,7 @@ def make_graced_tuplets(collections):
             16,
             treatments=[treatment],
         )
-        baca.figures.attach_before_grace_containers(containers, tuplets_[0])
+        baca.attach_before_grace_containers(containers, tuplets_[0])
         tuplets.extend(tuplets_)
     groups = rmakers.nongrace_leaves_in_each_tuplet(tuplets)
     rmakers.beam_groups(groups, beam_lone_notes=True)
@@ -578,12 +578,12 @@ def make_monads(collections):
 def make_ovoids(collections):
     tuplets = []
     for collection in collections:
-        containers, collection = baca.figures.make_before_grace_containers(
+        containers, collection = baca.make_before_grace_containers(
             collection, baca.lmr(left_length=1)
         )
         tuplets_ = baca.figure([collection], [6, 1], 32)
         assert len(tuplets_) == 1, repr(tuplets_)
-        baca.figures.attach_before_grace_containers(containers, tuplets_[0])
+        baca.attach_before_grace_containers(containers, tuplets_[0])
         groups = rmakers.nongrace_leaves_in_each_tuplet(tuplets_)
         rmakers.beam_groups(groups)
         tuplets.extend(tuplets_)
@@ -591,11 +591,11 @@ def make_ovoids(collections):
 
 
 def make_passepied(collections):
-    containers, collection = baca.figures.make_before_grace_containers(
+    containers, collection = baca.make_before_grace_containers(
         collections[0], baca.LMR()
     )
     tuplets = baca.figure([collection], [1], 32)
-    baca.figures.attach_before_grace_containers(containers, tuplets[0])
+    baca.attach_before_grace_containers(containers, tuplets[0])
     for collection in collections[1:]:
         tuplets_ = baca.figure(collection, [1], 16)
         tuplets.extend(tuplets_)

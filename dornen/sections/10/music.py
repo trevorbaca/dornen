@@ -8,14 +8,14 @@ from dornen import library
 
 
 def make_empty_score(first_measure_number, previous_persistent_indicators):
-    score_2 = library.make_empty_score()
-    accumulator_2 = baca.Accumulator(score_2)
+    score = library.make_empty_score()
+    accumulator = baca.SimpleNamespace(figure_number=1)
     time_signatures = []
     tuplets, tsd = library.make_rests(3, (1, 8))
     time_signature = library.time_signature(tuplets, tsd)
     time_signatures.append(time_signature)
-    baca.label_figure(tuplets, "R_1", accumulator_2)
-    library.populate(score_2, library.v1, tuplets)
+    baca.label_figure(tuplets, "R_1", accumulator)
+    library.populate(score, library.v1, tuplets)
     with baca.scope(2 * [["Gb2"]]) as collections:
         tuplets, tsd = library.make_monads(collections)
         time_signature = library.time_signature(tuplets, tsd)
@@ -23,136 +23,136 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         baca.markup(
             baca.select.pleaf(tuplets, 0), r"\dornen-two-finger-tamb-trill-markup"
         )
-        baca.label_figure(tuplets, "2_1", accumulator_2)
-        library.populate(score_2, library.v1, tuplets)
+        baca.label_figure(tuplets, "2_1", accumulator)
+        library.populate(score, library.v1, tuplets)
     with baca.scope([["Gb2"]]) as collections:
         tuplets, tsd = library.make_monads(collections)
         time_signature = library.time_signature(tuplets, tsd)
         time_signatures.append(time_signature)
-        baca.label_figure(tuplets, "2_2", accumulator_2)
-        library.populate(score_2, library.v1, tuplets)
+        baca.label_figure(tuplets, "2_2", accumulator)
+        library.populate(score, library.v1, tuplets)
     with baca.scope([["Gb2"]]) as collections:
         tuplets, tsd = library.make_thirds(collections)
         time_signature = library.time_signature(tuplets, tsd)
         time_signatures.append(time_signature)
-        baca.label_figure(tuplets, "2_3", accumulator_2)
-        library.populate(score_2, library.v1, tuplets)
+        baca.label_figure(tuplets, "2_3", accumulator)
+        library.populate(score, library.v1, tuplets)
     with baca.scope([["Gb2"]]) as collections:
         tuplets, tsd = library.make_thirds(collections)
         time_signature = library.time_signature(tuplets, tsd)
         time_signatures.append(time_signature)
-        baca.label_figure(tuplets, "2_4", accumulator_2)
-        library.populate(score_2, library.v1, tuplets)
+        baca.label_figure(tuplets, "2_4", accumulator)
+        library.populate(score, library.v1, tuplets)
     with baca.scope([["Gb2"]]) as collections:
         tuplets, tsd = library.make_thirds(collections)
         time_signature = library.time_signature(tuplets, tsd)
         time_signatures.append(time_signature)
-        baca.label_figure(tuplets, "2_5", accumulator_2)
-        library.populate(score_2, library.v1, tuplets)
+        baca.label_figure(tuplets, "2_5", accumulator)
+        library.populate(score, library.v1, tuplets)
     with baca.scope([["Gb2"]]) as collections:
         tuplets, tsd = library.make_monads(collections)
         time_signature = library.time_signature(tuplets, tsd)
         time_signatures.append(time_signature)
         baca.markup(baca.select.pleaf(tuplets, 0), r"\dornen-three-fingers-markup")
-        baca.label_figure(tuplets, "3_1", accumulator_2)
-        library.populate(score_2, library.v1, tuplets)
+        baca.label_figure(tuplets, "3_1", accumulator)
+        library.populate(score, library.v1, tuplets)
     with baca.scope([["Gb2"]]) as collections:
         tuplets, tsd = library.make_monads(collections)
         time_signature = library.time_signature(tuplets, tsd)
         time_signatures.append(time_signature)
-        baca.label_figure(tuplets, "3_2", accumulator_2)
-        library.populate(score_2, library.v1, tuplets)
+        baca.label_figure(tuplets, "3_2", accumulator)
+        library.populate(score, library.v1, tuplets)
     with baca.scope([["Gb2"]]) as collections:
         tuplets, tsd = library.make_thirds(collections)
         time_signature = library.time_signature(tuplets, tsd)
         time_signatures.append(time_signature)
-        baca.label_figure(tuplets, "3_3", accumulator_2)
-        library.populate(score_2, library.v1, tuplets)
+        baca.label_figure(tuplets, "3_3", accumulator)
+        library.populate(score, library.v1, tuplets)
     with baca.scope([["Gb2"]]) as collections:
         tuplets, tsd = library.make_thirds(collections)
         time_signature = library.time_signature(tuplets, tsd)
         time_signatures.append(time_signature)
-        baca.label_figure(tuplets, "3_4", accumulator_2)
-        library.populate(score_2, library.v1, tuplets)
+        baca.label_figure(tuplets, "3_4", accumulator)
+        library.populate(score, library.v1, tuplets)
     with baca.scope([["Gb2"]]) as collections:
         tuplets, tsd = library.make_thirds(collections)
         time_signature = library.time_signature(tuplets, tsd)
         time_signatures.append(time_signature)
-        baca.label_figure(tuplets, "3_5", accumulator_2)
-        library.populate(score_2, library.v1, tuplets)
+        baca.label_figure(tuplets, "3_5", accumulator)
+        library.populate(score, library.v1, tuplets)
     with baca.scope([["Gb2"]]) as collections:
         tuplets, tsd = library.make_monads(collections)
         time_signature = library.time_signature(tuplets, tsd)
         time_signatures.append(time_signature)
         baca.markup(baca.select.pleaf(tuplets, 0), r"\dornen-four-fingers-markup")
-        baca.label_figure(tuplets, "4_1", accumulator_2)
-        library.populate(score_2, library.v1, tuplets)
+        baca.label_figure(tuplets, "4_1", accumulator)
+        library.populate(score, library.v1, tuplets)
     with baca.scope([["Gb2"]]) as collections:
         tuplets, tsd = library.make_monads(collections)
         time_signature = library.time_signature(tuplets, tsd)
         time_signatures.append(time_signature)
-        baca.label_figure(tuplets, "4_2", accumulator_2)
-        library.populate(score_2, library.v1, tuplets)
+        baca.label_figure(tuplets, "4_2", accumulator)
+        library.populate(score, library.v1, tuplets)
     with baca.scope([["Gb2"]]) as collections:
         tuplets, tsd = library.make_thirds(collections)
         time_signature = library.time_signature(tuplets, tsd)
         time_signatures.append(time_signature)
-        baca.label_figure(tuplets, "4_3", accumulator_2)
-        library.populate(score_2, library.v1, tuplets)
+        baca.label_figure(tuplets, "4_3", accumulator)
+        library.populate(score, library.v1, tuplets)
     with baca.scope([["Gb2"]]) as collections:
         tuplets, tsd = library.make_monads(collections)
         time_signature = library.time_signature(tuplets, tsd)
         time_signatures.append(time_signature)
-        baca.label_figure(tuplets, "4_4", accumulator_2)
-        library.populate(score_2, library.v1, tuplets)
+        baca.label_figure(tuplets, "4_4", accumulator)
+        library.populate(score, library.v1, tuplets)
     with baca.scope([["Gb2"]]) as collections:
         tuplets, tsd = library.make_thirds(collections)
         time_signature = library.time_signature(tuplets, tsd)
         time_signatures.append(time_signature)
-        baca.label_figure(tuplets, "4_5", accumulator_2)
-        library.populate(score_2, library.v1, tuplets)
+        baca.label_figure(tuplets, "4_5", accumulator)
+        library.populate(score, library.v1, tuplets)
     with baca.scope([["Gb2"]]) as collections:
         tuplets, tsd = library.make_monads(collections)
         time_signature = library.time_signature(tuplets, tsd)
         time_signatures.append(time_signature)
-        baca.label_figure(tuplets, "4_6", accumulator_2)
-        library.populate(score_2, library.v1, tuplets)
+        baca.label_figure(tuplets, "4_6", accumulator)
+        library.populate(score, library.v1, tuplets)
     with baca.scope([["Gb2"]]) as collections:
         tuplets, tsd = library.make_thirds(collections)
         time_signature = library.time_signature(tuplets, tsd)
         time_signatures.append(time_signature)
-        baca.label_figure(tuplets, "4_7", accumulator_2)
-        library.populate(score_2, library.v1, tuplets)
+        baca.label_figure(tuplets, "4_7", accumulator)
+        library.populate(score, library.v1, tuplets)
     with baca.scope([["Gb2"]]) as collections:
         tuplets, tsd = library.make_thirds(collections)
         time_signature = library.time_signature(tuplets, tsd)
         time_signatures.append(time_signature)
-        baca.label_figure(tuplets, "4_8", accumulator_2)
-        library.populate(score_2, library.v1, tuplets)
+        baca.label_figure(tuplets, "4_8", accumulator)
+        library.populate(score, library.v1, tuplets)
     with baca.scope([["Gb2"]]) as collections:
         tuplets, tsd = library.make_thirds(collections)
         time_signature = library.time_signature(tuplets, tsd)
         time_signatures.append(time_signature)
-        baca.label_figure(tuplets, "4_9", accumulator_2)
-        library.populate(score_2, library.v1, tuplets)
+        baca.label_figure(tuplets, "4_9", accumulator)
+        library.populate(score, library.v1, tuplets)
     with baca.scope(2 * [["Gb2"]]) as collections:
         tuplets, tsd = library.make_monads(collections)
         time_signature = library.time_signature(tuplets, tsd)
         time_signatures.append(time_signature)
         baca.markup(baca.select.pleaf(tuplets, 0), r"\dornen-three-fingers-markup")
-        baca.label_figure(tuplets, "4_10", accumulator_2)
-        library.populate(score_2, library.v1, tuplets)
+        baca.label_figure(tuplets, "4_10", accumulator)
+        library.populate(score, library.v1, tuplets)
     with baca.scope(2 * [["Gb2"]]) as collections:
         tuplets, tsd = library.make_monads(collections)
         time_signature = library.time_signature(tuplets, tsd)
         time_signatures.append(time_signature)
         baca.markup(baca.select.pleaf(tuplets, 0), r"\dornen-two-fingers-markup")
-        baca.label_figure(tuplets, "4_11", accumulator_2)
-        library.populate(score_2, library.v1, tuplets)
-    voices = baca.section.cache_voices(score_2, library.voice_abbreviations)
+        baca.label_figure(tuplets, "4_11", accumulator)
+        library.populate(score, library.v1, tuplets)
+    voices = baca.section.cache_voices(score, library.voice_abbreviations)
     time_signatures = baca.section.time_signatures(time_signatures)
     baca.section.set_up_score(
-        score_2,
+        score,
         time_signatures(),
         append_anchor_skip=True,
         always_make_global_rests=True,
@@ -160,7 +160,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         manifests=library.manifests,
         previous_persistent_indicators=previous_persistent_indicators,
     )
-    return score_2, voices, time_signatures
+    return score, voices, time_signatures
 
 
 def postprocess(cache):

@@ -369,11 +369,11 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         time_signatures.append(time_signature)
         baca.markup(baca.select.pleaf(tuplets, 0), r"\dornen-two-fingers-markup")
         baca.label_figure(tuplets, "4_15", accumulator_2)
-    voices = baca.section.cache_voices(score, library.voice_abbreviations)
-    assert len(time_signatures) == len(accumulator.time_signatures)
+        library.populate(score_2, library.v1, tuplets)
+    voices = baca.section.cache_voices(score_2, library.voice_abbreviations)
     time_signatures = baca.section.time_signatures(time_signatures)
     baca.section.set_up_score(
-        score,
+        score_2,
         time_signatures(),
         append_anchor_skip=True,
         always_make_global_rests=True,
@@ -381,8 +381,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         manifests=library.manifests,
         previous_persistent_indicators=previous_persistent_indicators,
     )
-    accumulator.populate(score)
-    return score, voices, time_signatures
+    return score_2, voices, time_signatures
 
 
 def postprocess(cache):

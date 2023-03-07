@@ -1345,1935 +1345,1751 @@ number.13.Rests = {
 
 number.13.Guitar.Music.1 = {
 
+    \tweak edge-height #'(0.7 . 0)
+    \times 4/5
     {
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 4/5
-        {
-
-            % [Guitar.Music.1 measure 1]
-            \override TextScript.staff-padding = 8
-            \override TextSpanner.staff-padding = 5
-              %! REAPPLIED_CLEF
-            \clef "treble"
-              %! REAPPLIED_CLEF_COLOR
-            \once \override Staff.Clef.color = #(x11-color 'green4)
-              %! REAPPLIED_CLEF_COLOR_CANCELLATION
-            %@% \override Staff.Clef.color = ##f
-              %! REAPPLIED_CLEF
-            \set Staff.forceClef = ##t
-            e2
-            :32
-              %! REAPPLIED_DYNAMIC_COLOR
-              %! REAPPLIED_DYNAMIC
-            - \tweak color #(x11-color 'green4)
-              %! REAPPLIED_DYNAMIC
-            \mp
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (1) \hspace #1 \concat { "2" \sub 1 } ] }
-              %! REAPPLIED_INSTRUMENT_ALERT
-            ^ \baca-reapplied-instrument-markup "(“Guitar”)"
-            - \tweak stencil ##f
-            ~
-              %! REAPPLIED_CLEF_REDRAW_COLOR
-            \override Staff.Clef.color = #(x11-color 'OliveDrab)
-
-        }
+        % [Guitar.Music.1 measure 1]
+        \override TextScript.staff-padding = 8
+        \override TextSpanner.staff-padding = 5
+          %! REAPPLIED_CLEF
+        \clef "treble"
+          %! REAPPLIED_CLEF_COLOR
+        \once \override Staff.Clef.color = #(x11-color 'green4)
+          %! REAPPLIED_CLEF_COLOR_CANCELLATION
+        %@% \override Staff.Clef.color = ##f
+          %! REAPPLIED_CLEF
+        \set Staff.forceClef = ##t
+        e2
+        :32
+          %! REAPPLIED_DYNAMIC_COLOR
+          %! REAPPLIED_DYNAMIC
+        - \tweak color #(x11-color 'green4)
+          %! REAPPLIED_DYNAMIC
+        \mp
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (1) \hspace #1 \concat { "2" \sub 1 } ] }
+          %! REAPPLIED_INSTRUMENT_ALERT
+        ^ \baca-reapplied-instrument-markup "(“Guitar”)"
+        - \tweak stencil ##f
+        ~
+          %! REAPPLIED_CLEF_REDRAW_COLOR
+        \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
     }
 
+    \tweak edge-height #'(0.7 . 0)
+    \times 4/5
     {
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 4/5
-        {
-
-            % [Guitar.Music.1 measure 2]
-            e2
-            :32
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
-            - \tweak color #(x11-color 'blue)
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
-            \mp
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (2) \hspace #1 \concat { "2" \sub 2 } ] }
-              %! SPANNER_START
-            - \tweak bound-details.right.padding 0.5
-              %! SPANNER_START
-            - \tweak bound-details.right.stencil-align-dir-y #center
-              %! SPANNER_START
-            - \abjad-dashed-line-with-arrow
-              %! SPANNER_START
-            - \baca-text-spanner-left-text "tamb. tr."
-              %! SPANNER_START
-            - \baca-text-spanner-right-text "kn. rasg."
-              %! SPANNER_START
-            \startTextSpan
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_START
-            - \tweak color #(x11-color 'blue)
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_START
-            \<
-            - \tweak stencil ##f
-            ~
-            \repeatTie
-
-        }
+        % [Guitar.Music.1 measure 2]
+        e2
+        :32
+          %! EXPLICIT_DYNAMIC_COLOR
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
+        - \tweak color #(x11-color 'blue)
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
+        \mp
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (2) \hspace #1 \concat { "2" \sub 2 } ] }
+          %! SPANNER_START
+        - \tweak bound-details.right.padding 0.5
+          %! SPANNER_START
+        - \tweak bound-details.right.stencil-align-dir-y #center
+          %! SPANNER_START
+        - \abjad-dashed-line-with-arrow
+          %! SPANNER_START
+        - \baca-text-spanner-left-text "tamb. tr."
+          %! SPANNER_START
+        - \baca-text-spanner-right-text "kn. rasg."
+          %! SPANNER_START
+        \startTextSpan
+          %! EXPLICIT_DYNAMIC_COLOR
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        - \tweak color #(x11-color 'blue)
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        \<
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
     }
 
+    \tweak edge-height #'(0.7 . 0)
+    \times 2/3
     {
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 2/3
-        {
-
-            % [Guitar.Music.1 measure 3]
-            e2
-            :32
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
-            - \tweak color #(x11-color 'blue)
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
-            \mf
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (3) \hspace #1 \concat { "2" \sub 3 } ] }
-              %! SPANNER_STOP
-            \stopTextSpan
-            - \tweak stencil ##f
-            ~
-            \repeatTie
-
-        }
+        % [Guitar.Music.1 measure 3]
+        e2
+        :32
+          %! EXPLICIT_DYNAMIC_COLOR
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
+        - \tweak color #(x11-color 'blue)
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
+        \mf
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (3) \hspace #1 \concat { "2" \sub 3 } ] }
+          %! SPANNER_STOP
+        \stopTextSpan
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
     }
 
+    \tweak edge-height #'(0.7 . 0)
+    \times 2/3
     {
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 2/3
-        {
-
-            % [Guitar.Music.1 measure 4]
-            e2
-            :32
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
-            - \tweak color #(x11-color 'blue)
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
-            \mf
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (4) \hspace #1 \concat { "2" \sub 4 } ] }
-              %! SPANNER_START
-            - \tweak bound-details.right.padding 0.5
-              %! SPANNER_START
-            - \tweak bound-details.right.stencil-align-dir-y #center
-              %! SPANNER_START
-            - \abjad-dashed-line-with-arrow
-              %! SPANNER_START
-            - \baca-text-spanner-left-text "trans."
-              %! SPANNER_START
-            - \baca-text-spanner-right-text "tamb. tr."
-              %! SPANNER_START
-            \startTextSpan
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_START
-            - \tweak color #(x11-color 'blue)
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_START
-            \>
-            - \tweak stencil ##f
-            ~
-            \repeatTie
-
-        }
+        % [Guitar.Music.1 measure 4]
+        e2
+        :32
+          %! EXPLICIT_DYNAMIC_COLOR
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
+        - \tweak color #(x11-color 'blue)
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
+        \mf
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (4) \hspace #1 \concat { "2" \sub 4 } ] }
+          %! SPANNER_START
+        - \tweak bound-details.right.padding 0.5
+          %! SPANNER_START
+        - \tweak bound-details.right.stencil-align-dir-y #center
+          %! SPANNER_START
+        - \abjad-dashed-line-with-arrow
+          %! SPANNER_START
+        - \baca-text-spanner-left-text "trans."
+          %! SPANNER_START
+        - \baca-text-spanner-right-text "tamb. tr."
+          %! SPANNER_START
+        \startTextSpan
+          %! EXPLICIT_DYNAMIC_COLOR
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        - \tweak color #(x11-color 'blue)
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        \>
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
     }
 
+    \tweak edge-height #'(0.7 . 0)
+    \times 2/3
     {
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 2/3
-        {
-
-            % [Guitar.Music.1 measure 5]
-            e2
-            :32
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
-            - \tweak color #(x11-color 'blue)
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
-            \mp
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (5) \hspace #1 \concat { "2" \sub 5 } ] }
-              %! SPANNER_STOP
-            \stopTextSpan
-            - \tweak stencil ##f
-            ~
-            \repeatTie
-
-        }
+        % [Guitar.Music.1 measure 5]
+        e2
+        :32
+          %! EXPLICIT_DYNAMIC_COLOR
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
+        - \tweak color #(x11-color 'blue)
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
+        \mp
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (5) \hspace #1 \concat { "2" \sub 5 } ] }
+          %! SPANNER_STOP
+        \stopTextSpan
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
     }
 
+    \tweak edge-height #'(0.7 . 0)
+    \times 4/5
     {
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 4/5
-        {
-
-            % [Guitar.Music.1 measure 6]
-            e2
-            :32
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (6) \hspace #1 \concat { "3" \sub 1 } ] }
-            ^ \dornen-three-fingers-markup
-            - \tweak stencil ##f
-            ~
-            \repeatTie
-
-        }
+        % [Guitar.Music.1 measure 6]
+        e2
+        :32
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (6) \hspace #1 \concat { "3" \sub 1 } ] }
+        ^ \dornen-three-fingers-markup
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
     }
 
+    \tweak edge-height #'(0.7 . 0)
+    \times 4/5
     {
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 4/5
-        {
-
-            % [Guitar.Music.1 measure 7]
-            e2
-            :32
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
-            - \tweak color #(x11-color 'blue)
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
-            \mp
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (7) \hspace #1 \concat { "3" \sub 2 } ] }
-              %! SPANNER_START
-            - \tweak bound-details.right.padding 0.5
-              %! SPANNER_START
-            - \tweak bound-details.right.stencil-align-dir-y #center
-              %! SPANNER_START
-            - \abjad-dashed-line-with-arrow
-              %! SPANNER_START
-            - \baca-text-spanner-left-text "trans."
-              %! SPANNER_START
-            - \baca-text-spanner-right-text "kn. rasg."
-              %! SPANNER_START
-            \startTextSpan
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_START
-            - \tweak color #(x11-color 'blue)
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_START
-            \<
-            - \tweak stencil ##f
-            ~
-            \repeatTie
-
-        }
+        % [Guitar.Music.1 measure 7]
+        e2
+        :32
+          %! EXPLICIT_DYNAMIC_COLOR
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
+        - \tweak color #(x11-color 'blue)
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
+        \mp
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (7) \hspace #1 \concat { "3" \sub 2 } ] }
+          %! SPANNER_START
+        - \tweak bound-details.right.padding 0.5
+          %! SPANNER_START
+        - \tweak bound-details.right.stencil-align-dir-y #center
+          %! SPANNER_START
+        - \abjad-dashed-line-with-arrow
+          %! SPANNER_START
+        - \baca-text-spanner-left-text "trans."
+          %! SPANNER_START
+        - \baca-text-spanner-right-text "kn. rasg."
+          %! SPANNER_START
+        \startTextSpan
+          %! EXPLICIT_DYNAMIC_COLOR
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        - \tweak color #(x11-color 'blue)
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        \<
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
     }
 
+    \tweak edge-height #'(0.7 . 0)
+    \times 2/3
     {
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 2/3
-        {
-
-            % [Guitar.Music.1 measure 8]
-            e2
-            :32
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
-            - \tweak color #(x11-color 'blue)
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
-            \f
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (8) \hspace #1 \concat { "3" \sub 3 } ] }
-              %! SPANNER_STOP
-            \stopTextSpan
-            - \tweak stencil ##f
-            ~
-            \repeatTie
-
-        }
+        % [Guitar.Music.1 measure 8]
+        e2
+        :32
+          %! EXPLICIT_DYNAMIC_COLOR
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
+        - \tweak color #(x11-color 'blue)
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
+        \f
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (8) \hspace #1 \concat { "3" \sub 3 } ] }
+          %! SPANNER_STOP
+        \stopTextSpan
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
     }
 
+    \tweak edge-height #'(0.7 . 0)
+    \times 2/3
     {
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 2/3
-        {
-
-            % [Guitar.Music.1 measure 9]
-            e2
-            :32
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
-            - \tweak color #(x11-color 'blue)
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
-            \f
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (9) \hspace #1 \concat { "3" \sub 4 } ] }
-              %! SPANNER_START
-            - \tweak bound-details.right.padding 0.5
-              %! SPANNER_START
-            - \tweak bound-details.right.stencil-align-dir-y #center
-              %! SPANNER_START
-            - \abjad-dashed-line-with-arrow
-              %! SPANNER_START
-            - \baca-text-spanner-left-text "trans."
-              %! SPANNER_START
-            - \baca-text-spanner-right-text "tamb. tr."
-              %! SPANNER_START
-            \startTextSpan
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_START
-            - \tweak color #(x11-color 'blue)
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_START
-            \>
-            - \tweak stencil ##f
-            ~
-            \repeatTie
-
-        }
+        % [Guitar.Music.1 measure 9]
+        e2
+        :32
+          %! EXPLICIT_DYNAMIC_COLOR
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
+        - \tweak color #(x11-color 'blue)
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
+        \f
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (9) \hspace #1 \concat { "3" \sub 4 } ] }
+          %! SPANNER_START
+        - \tweak bound-details.right.padding 0.5
+          %! SPANNER_START
+        - \tweak bound-details.right.stencil-align-dir-y #center
+          %! SPANNER_START
+        - \abjad-dashed-line-with-arrow
+          %! SPANNER_START
+        - \baca-text-spanner-left-text "trans."
+          %! SPANNER_START
+        - \baca-text-spanner-right-text "tamb. tr."
+          %! SPANNER_START
+        \startTextSpan
+          %! EXPLICIT_DYNAMIC_COLOR
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        - \tweak color #(x11-color 'blue)
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        \>
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
     }
 
+    \tweak edge-height #'(0.7 . 0)
+    \times 2/3
     {
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 2/3
-        {
-
-            % [Guitar.Music.1 measure 10]
-            e2
-            :32
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
-            - \tweak color #(x11-color 'blue)
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
-            \mp
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (10) \hspace #1 \concat { "3" \sub 5 } ] }
-              %! SPANNER_STOP
-            \stopTextSpan
-            - \tweak stencil ##f
-            ~
-            \repeatTie
-
-        }
+        % [Guitar.Music.1 measure 10]
+        e2
+        :32
+          %! EXPLICIT_DYNAMIC_COLOR
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
+        - \tweak color #(x11-color 'blue)
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
+        \mp
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (10) \hspace #1 \concat { "3" \sub 5 } ] }
+          %! SPANNER_STOP
+        \stopTextSpan
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
     }
 
+    \tweak edge-height #'(0.7 . 0)
+    \times 4/5
     {
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 4/5
-        {
-
-            % [Guitar.Music.1 measure 11]
-            e2
-            :32
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (11) \hspace #1 \concat { "4" \sub 1 } ] }
-            ^ \dornen-four-fingers-markup
-            - \tweak stencil ##f
-            ~
-            \repeatTie
-
-        }
+        % [Guitar.Music.1 measure 11]
+        e2
+        :32
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (11) \hspace #1 \concat { "4" \sub 1 } ] }
+        ^ \dornen-four-fingers-markup
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
     }
 
+    \tweak edge-height #'(0.7 . 0)
+    \times 4/5
     {
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 4/5
-        {
-
-            % [Guitar.Music.1 measure 12]
-            e2
-            :32
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
-            - \tweak color #(x11-color 'blue)
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
-            \mp
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (12) \hspace #1 \concat { "4" \sub 2 } ] }
-              %! SPANNER_START
-            - \tweak bound-details.right.padding 0.5
-              %! SPANNER_START
-            - \tweak bound-details.right.stencil-align-dir-y #center
-              %! SPANNER_START
-            - \abjad-dashed-line-with-arrow
-              %! SPANNER_START
-            - \baca-text-spanner-left-text "trans."
-              %! SPANNER_START
-            - \baca-text-spanner-right-text "kn. rasg."
-              %! SPANNER_START
-            \startTextSpan
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_START
-            - \tweak color #(x11-color 'blue)
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_START
-            \<
-            - \tweak stencil ##f
-            ~
-            \repeatTie
-
-        }
+        % [Guitar.Music.1 measure 12]
+        e2
+        :32
+          %! EXPLICIT_DYNAMIC_COLOR
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
+        - \tweak color #(x11-color 'blue)
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
+        \mp
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (12) \hspace #1 \concat { "4" \sub 2 } ] }
+          %! SPANNER_START
+        - \tweak bound-details.right.padding 0.5
+          %! SPANNER_START
+        - \tweak bound-details.right.stencil-align-dir-y #center
+          %! SPANNER_START
+        - \abjad-dashed-line-with-arrow
+          %! SPANNER_START
+        - \baca-text-spanner-left-text "trans."
+          %! SPANNER_START
+        - \baca-text-spanner-right-text "kn. rasg."
+          %! SPANNER_START
+        \startTextSpan
+          %! EXPLICIT_DYNAMIC_COLOR
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        - \tweak color #(x11-color 'blue)
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        \<
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
     }
 
+    \tweak edge-height #'(0.7 . 0)
+    \times 2/3
     {
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 2/3
-        {
-
-            % [Guitar.Music.1 measure 13]
-            e2
-            :32
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
-            - \tweak color #(x11-color 'blue)
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
-            \ff
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (13) \hspace #1 \concat { "4" \sub 3 } ] }
-              %! SPANNER_STOP
-            \stopTextSpan
-            - \tweak stencil ##f
-            ~
-            \repeatTie
-
-        }
+        % [Guitar.Music.1 measure 13]
+        e2
+        :32
+          %! EXPLICIT_DYNAMIC_COLOR
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
+        - \tweak color #(x11-color 'blue)
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
+        \ff
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (13) \hspace #1 \concat { "4" \sub 3 } ] }
+          %! SPANNER_STOP
+        \stopTextSpan
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
     }
 
+    \tweak edge-height #'(0.7 . 0)
+    \times 2/3
     {
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 2/3
-        {
-
-            % [Guitar.Music.1 measure 14]
-            e2
-            :32
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
-            - \tweak color #(x11-color 'blue)
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
-            \ff
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (14) \hspace #1 \concat { "4" \sub 4 } ] }
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_START
-            - \tweak color #(x11-color 'blue)
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_START
-            \>
-            - \tweak stencil ##f
-            ~
-            \repeatTie
-
-        }
+        % [Guitar.Music.1 measure 14]
+        e2
+        :32
+          %! EXPLICIT_DYNAMIC_COLOR
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
+        - \tweak color #(x11-color 'blue)
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
+        \ff
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (14) \hspace #1 \concat { "4" \sub 4 } ] }
+          %! EXPLICIT_DYNAMIC_COLOR
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        - \tweak color #(x11-color 'blue)
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        \>
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
     }
 
+    \tweak edge-height #'(0.7 . 0)
+    \times 2/3
     {
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 2/3
-        {
-
-            % [Guitar.Music.1 measure 15]
-            e2
-            :32
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
-            - \tweak color #(x11-color 'blue)
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
-            \mf
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (15) \hspace #1 \concat { "4" \sub 5 } ] }
-            - \tweak stencil ##f
-            ~
-            \repeatTie
-
-        }
+        % [Guitar.Music.1 measure 15]
+        e2
+        :32
+          %! EXPLICIT_DYNAMIC_COLOR
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
+        - \tweak color #(x11-color 'blue)
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
+        \mf
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (15) \hspace #1 \concat { "4" \sub 5 } ] }
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
     }
 
+    \tweak edge-height #'(0.7 . 0)
+    \times 4/5
     {
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 4/5
-        {
-
-            % [Guitar.Music.1 measure 16]
-            e2
-            :32
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
-            - \tweak color #(x11-color 'blue)
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
-            \mf
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (16) \hspace #1 \concat { "4" \sub 6 } ] }
-              %! SPANNER_START
-            - \tweak bound-details.right.padding 0.5
-              %! SPANNER_START
-            - \tweak bound-details.right.stencil-align-dir-y #center
-              %! SPANNER_START
-            - \abjad-dashed-line-with-arrow
-              %! SPANNER_START
-            - \baca-text-spanner-left-text "trans."
-              %! SPANNER_START
-            - \baca-text-spanner-right-text "nail rasg."
-              %! SPANNER_START
-            \startTextSpan
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_START
-            - \tweak color #(x11-color 'blue)
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_START
-            \<
-            - \tweak stencil ##f
-            ~
-            \repeatTie
-
-        }
+        % [Guitar.Music.1 measure 16]
+        e2
+        :32
+          %! EXPLICIT_DYNAMIC_COLOR
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
+        - \tweak color #(x11-color 'blue)
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
+        \mf
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (16) \hspace #1 \concat { "4" \sub 6 } ] }
+          %! SPANNER_START
+        - \tweak bound-details.right.padding 0.5
+          %! SPANNER_START
+        - \tweak bound-details.right.stencil-align-dir-y #center
+          %! SPANNER_START
+        - \abjad-dashed-line-with-arrow
+          %! SPANNER_START
+        - \baca-text-spanner-left-text "trans."
+          %! SPANNER_START
+        - \baca-text-spanner-right-text "nail rasg."
+          %! SPANNER_START
+        \startTextSpan
+          %! EXPLICIT_DYNAMIC_COLOR
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        - \tweak color #(x11-color 'blue)
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        \<
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
     }
 
+    \tweak edge-height #'(0.7 . 0)
+    \times 2/3
     {
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 2/3
-        {
+        % [Guitar.Music.1 measure 17]
+        e2
+        :32
+          %! EXPLICIT_DYNAMIC_COLOR
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
+        - \tweak color #(x11-color 'blue)
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
+        \f
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (17) \hspace #1 \concat { "4" \sub 7 } ] }
+          %! SPANNER_STOP
+        \stopTextSpan
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
-            % [Guitar.Music.1 measure 17]
-            e2
-            :32
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
-            - \tweak color #(x11-color 'blue)
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
-            \f
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (17) \hspace #1 \concat { "4" \sub 7 } ] }
-              %! SPANNER_STOP
-            \stopTextSpan
-            - \tweak stencil ##f
-            ~
-            \repeatTie
-
-            e2
-            :32
-            - \tweak stencil ##f
-            ~
-            \repeatTie
-
-        }
+        e2
+        :32
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
     }
 
+    \tweak edge-height #'(0.7 . 0)
+    \times 4/5
     {
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 4/5
-        {
-
-            % [Guitar.Music.1 measure 18]
-            e2
-            :32
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
-            - \tweak color #(x11-color 'blue)
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
-            \f
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (18) \hspace #1 \concat { "4" \sub 8 } ] }
-              %! SPANNER_START
-            - \tweak bound-details.right.padding 0.5
-              %! SPANNER_START
-            - \tweak bound-details.right.stencil-align-dir-y #center
-              %! SPANNER_START
-            - \abjad-dashed-line-with-arrow
-              %! SPANNER_START
-            - \baca-text-spanner-left-text "trans."
-              %! SPANNER_START
-            - \baca-text-spanner-right-text "kn. rasg."
-              %! SPANNER_START
-            \startTextSpan
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_START
-            - \tweak color #(x11-color 'blue)
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_START
-            \>
-            - \tweak stencil ##f
-            ~
-            \repeatTie
-
-        }
+        % [Guitar.Music.1 measure 18]
+        e2
+        :32
+          %! EXPLICIT_DYNAMIC_COLOR
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
+        - \tweak color #(x11-color 'blue)
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
+        \f
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (18) \hspace #1 \concat { "4" \sub 8 } ] }
+          %! SPANNER_START
+        - \tweak bound-details.right.padding 0.5
+          %! SPANNER_START
+        - \tweak bound-details.right.stencil-align-dir-y #center
+          %! SPANNER_START
+        - \abjad-dashed-line-with-arrow
+          %! SPANNER_START
+        - \baca-text-spanner-left-text "trans."
+          %! SPANNER_START
+        - \baca-text-spanner-right-text "kn. rasg."
+          %! SPANNER_START
+        \startTextSpan
+          %! EXPLICIT_DYNAMIC_COLOR
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        - \tweak color #(x11-color 'blue)
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        \>
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
     }
 
+    \tweak edge-height #'(0.7 . 0)
+    \times 4/5
     {
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 4/5
-        {
-
-            % [Guitar.Music.1 measure 19]
-            e2
-            :32
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
-            - \tweak color #(x11-color 'blue)
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
-            \mf
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (19) \hspace #1 \concat { "4" \sub 9 } ] }
-              %! SPANNER_STOP
-            \stopTextSpan
-            - \tweak stencil ##f
-            ~
-            \repeatTie
-
-        }
+        % [Guitar.Music.1 measure 19]
+        e2
+        :32
+          %! EXPLICIT_DYNAMIC_COLOR
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
+        - \tweak color #(x11-color 'blue)
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
+        \mf
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (19) \hspace #1 \concat { "4" \sub 9 } ] }
+          %! SPANNER_STOP
+        \stopTextSpan
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
     }
 
+    \tweak edge-height #'(0.7 . 0)
+    \times 4/5
     {
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 4/5
-        {
-
-            % [Guitar.Music.1 measure 20]
-            e2
-            :32
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
-            - \tweak color #(x11-color 'blue)
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
-            \mf
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (20) \hspace #1 \concat { "4" \sub 10 } ] }
-              %! SPANNER_START
-            - \tweak bound-details.right.padding 0.5
-              %! SPANNER_START
-            - \tweak bound-details.right.stencil-align-dir-y #center
-              %! SPANNER_START
-            - \abjad-dashed-line-with-arrow
-              %! SPANNER_START
-            - \baca-text-spanner-left-text "trans."
-              %! SPANNER_START
-            - \baca-text-spanner-right-text "nail. rasg."
-              %! SPANNER_START
-            \startTextSpan
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_START
-            - \tweak color #(x11-color 'blue)
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_START
-            \<
-            - \tweak stencil ##f
-            ~
-            \repeatTie
-
-        }
+        % [Guitar.Music.1 measure 20]
+        e2
+        :32
+          %! EXPLICIT_DYNAMIC_COLOR
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
+        - \tweak color #(x11-color 'blue)
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
+        \mf
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (20) \hspace #1 \concat { "4" \sub 10 } ] }
+          %! SPANNER_START
+        - \tweak bound-details.right.padding 0.5
+          %! SPANNER_START
+        - \tweak bound-details.right.stencil-align-dir-y #center
+          %! SPANNER_START
+        - \abjad-dashed-line-with-arrow
+          %! SPANNER_START
+        - \baca-text-spanner-left-text "trans."
+          %! SPANNER_START
+        - \baca-text-spanner-right-text "nail. rasg."
+          %! SPANNER_START
+        \startTextSpan
+          %! EXPLICIT_DYNAMIC_COLOR
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        - \tweak color #(x11-color 'blue)
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        \<
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
     }
 
+    \times 2/3
     {
 
-        \times 2/3
-        {
+        % [Guitar.Music.1 measure 21]
+        e2
+        :32
+          %! EXPLICIT_DYNAMIC_COLOR
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
+        - \tweak color #(x11-color 'blue)
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
+        \ff
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (21) \hspace #1 \concat { "4" \sub 11 } ] }
+          %! SPANNER_STOP
+        \stopTextSpan
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
-            % [Guitar.Music.1 measure 21]
-            e2
-            :32
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
-            - \tweak color #(x11-color 'blue)
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
-            \ff
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (21) \hspace #1 \concat { "4" \sub 11 } ] }
-              %! SPANNER_STOP
-            \stopTextSpan
-            - \tweak stencil ##f
-            ~
-            \repeatTie
+        e2
+        :32
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
-            e2
-            :32
-            - \tweak stencil ##f
-            ~
-            \repeatTie
-
-            e2
-            :32
-            - \tweak stencil ##f
-            ~
-            \repeatTie
-
-        }
+        e2
+        :32
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
     }
 
+    \tweak edge-height #'(0.7 . 0)
+    \times 4/5
     {
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 4/5
-        {
-
-            % [Guitar.Music.1 measure 22]
-            e2
-            :32
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
-            - \tweak color #(x11-color 'blue)
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
-            \ff
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (22) \hspace #1 \concat { "4" \sub 12 } ] }
-              %! SPANNER_START
-            - \tweak bound-details.right.padding 0.5
-              %! SPANNER_START
-            - \tweak bound-details.right.stencil-align-dir-y #center
-              %! SPANNER_START
-            - \abjad-dashed-line-with-arrow
-              %! SPANNER_START
-            - \baca-text-spanner-left-text "trans."
-              %! SPANNER_START
-            - \baca-text-spanner-right-text "kn. rasg."
-              %! SPANNER_START
-            \startTextSpan
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_START
-            - \tweak color #(x11-color 'blue)
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_START
-            \>
-            - \tweak stencil ##f
-            ~
-            \repeatTie
-
-        }
+        % [Guitar.Music.1 measure 22]
+        e2
+        :32
+          %! EXPLICIT_DYNAMIC_COLOR
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
+        - \tweak color #(x11-color 'blue)
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
+        \ff
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (22) \hspace #1 \concat { "4" \sub 12 } ] }
+          %! SPANNER_START
+        - \tweak bound-details.right.padding 0.5
+          %! SPANNER_START
+        - \tweak bound-details.right.stencil-align-dir-y #center
+          %! SPANNER_START
+        - \abjad-dashed-line-with-arrow
+          %! SPANNER_START
+        - \baca-text-spanner-left-text "trans."
+          %! SPANNER_START
+        - \baca-text-spanner-right-text "kn. rasg."
+          %! SPANNER_START
+        \startTextSpan
+          %! EXPLICIT_DYNAMIC_COLOR
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        - \tweak color #(x11-color 'blue)
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        \>
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
     }
 
+    \tweak edge-height #'(0.7 . 0)
+    \times 4/5
     {
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 4/5
-        {
-
-            % [Guitar.Music.1 measure 23]
-            e2
-            :32
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
-            - \tweak color #(x11-color 'blue)
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
-            \mf
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (23) \hspace #1 \concat { "4" \sub 13 } ] }
-              %! SPANNER_STOP
-            \stopTextSpan
-            - \tweak stencil ##f
-            ~
-            \repeatTie
-
-        }
+        % [Guitar.Music.1 measure 23]
+        e2
+        :32
+          %! EXPLICIT_DYNAMIC_COLOR
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
+        - \tweak color #(x11-color 'blue)
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
+        \mf
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (23) \hspace #1 \concat { "4" \sub 13 } ] }
+          %! SPANNER_STOP
+        \stopTextSpan
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
     }
 
+    \tweak edge-height #'(0.7 . 0)
+    \times 4/5
     {
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 4/5
-        {
-
-            % [Guitar.Music.1 measure 24]
-            e2
-            :32
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
-            - \tweak color #(x11-color 'blue)
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
-            \mf
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (24) \hspace #1 \concat { "4" \sub 14 } ] }
-              %! SPANNER_START
-            - \tweak bound-details.right.padding 0.5
-              %! SPANNER_START
-            - \tweak bound-details.right.stencil-align-dir-y #center
-              %! SPANNER_START
-            - \abjad-dashed-line-with-arrow
-              %! SPANNER_START
-            - \baca-text-spanner-left-text "trans."
-              %! SPANNER_START
-            - \baca-text-spanner-right-text "nail rasg."
-              %! SPANNER_START
-            \startTextSpan
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_START
-            - \tweak color #(x11-color 'blue)
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_START
-            \<
-            - \tweak stencil ##f
-            ~
-            \repeatTie
-
-        }
+        % [Guitar.Music.1 measure 24]
+        e2
+        :32
+          %! EXPLICIT_DYNAMIC_COLOR
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
+        - \tweak color #(x11-color 'blue)
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
+        \mf
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (24) \hspace #1 \concat { "4" \sub 14 } ] }
+          %! SPANNER_START
+        - \tweak bound-details.right.padding 0.5
+          %! SPANNER_START
+        - \tweak bound-details.right.stencil-align-dir-y #center
+          %! SPANNER_START
+        - \abjad-dashed-line-with-arrow
+          %! SPANNER_START
+        - \baca-text-spanner-left-text "trans."
+          %! SPANNER_START
+        - \baca-text-spanner-right-text "nail rasg."
+          %! SPANNER_START
+        \startTextSpan
+          %! EXPLICIT_DYNAMIC_COLOR
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        - \tweak color #(x11-color 'blue)
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        \<
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
     }
 
+    \tweak edge-height #'(0.7 . 0)
+    \times 2/3
     {
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 2/3
-        {
+        % [Guitar.Music.1 measure 25]
+        e2
+        :32
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (25) \hspace #1 \concat { "4" \sub 15 } ] }
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
-            % [Guitar.Music.1 measure 25]
-            e2
-            :32
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (25) \hspace #1 \concat { "4" \sub 15 } ] }
-            - \tweak stencil ##f
-            ~
-            \repeatTie
+        e2
+        :32
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
-            e2
-            :32
-            - \tweak stencil ##f
-            ~
-            \repeatTie
+        e2
+        :32
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
-            e2
-            :32
-            - \tweak stencil ##f
-            ~
-            \repeatTie
-
-            e2
-            :32
-            - \tweak stencil ##f
-            ~
-            \repeatTie
-
-        }
+        e2
+        :32
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
     }
 
+    \tweak edge-height #'(0.7 . 0)
+    \times 2/3
     {
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 2/3
-        {
+        % [Guitar.Music.1 measure 26]
+        e2
+        :32
+          %! EXPLICIT_DYNAMIC_COLOR
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
+        - \tweak color #(x11-color 'blue)
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
+        \ffff
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (26) \hspace #1 \concat { "4" \sub 16 } ] }
+          %! SPANNER_STOP
+        \stopTextSpan
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
-            % [Guitar.Music.1 measure 26]
-            e2
-            :32
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
-            - \tweak color #(x11-color 'blue)
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
-            \ffff
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (26) \hspace #1 \concat { "4" \sub 16 } ] }
-              %! SPANNER_STOP
-            \stopTextSpan
-            - \tweak stencil ##f
-            ~
-            \repeatTie
+        e2
+        :32
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
-            e2
-            :32
-            - \tweak stencil ##f
-            ~
-            \repeatTie
+        e2
+        :32
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
-            e2
-            :32
-            - \tweak stencil ##f
-            ~
-            \repeatTie
+        e2
+        :32
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
-            e2
-            :32
-            - \tweak stencil ##f
-            ~
-            \repeatTie
-
-            e2
-            :32
-            - \tweak stencil ##f
-            ~
-            \repeatTie
-
-        }
+        e2
+        :32
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
     }
 
+    \tweak edge-height #'(0.7 . 0)
+    \times 2/3
     {
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 2/3
-        {
+        % [Guitar.Music.1 measure 27]
+        e2
+        :32
+          %! EXPLICIT_DYNAMIC_COLOR
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
+        - \tweak color #(x11-color 'blue)
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
+        \ffff
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (27) \hspace #1 \concat { "4" \sub 17 } ] }
+          %! SPANNER_START
+        - \tweak bound-details.right.padding 0.5
+          %! SPANNER_START
+        - \tweak bound-details.right.stencil-align-dir-y #center
+          %! SPANNER_START
+        - \abjad-dashed-line-with-arrow
+          %! SPANNER_START
+        - \baca-text-spanner-left-text "trans."
+          %! SPANNER_START
+        - \baca-text-spanner-right-text "ponticello"
+          %! SPANNER_START
+        \startTextSpan
+          %! EXPLICIT_DYNAMIC_COLOR
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        - \tweak color #(x11-color 'blue)
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        \>
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
-            % [Guitar.Music.1 measure 27]
-            e2
-            :32
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
-            - \tweak color #(x11-color 'blue)
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
-            \ffff
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (27) \hspace #1 \concat { "4" \sub 17 } ] }
-              %! SPANNER_START
-            - \tweak bound-details.right.padding 0.5
-              %! SPANNER_START
-            - \tweak bound-details.right.stencil-align-dir-y #center
-              %! SPANNER_START
-            - \abjad-dashed-line-with-arrow
-              %! SPANNER_START
-            - \baca-text-spanner-left-text "trans."
-              %! SPANNER_START
-            - \baca-text-spanner-right-text "ponticello"
-              %! SPANNER_START
-            \startTextSpan
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_START
-            - \tweak color #(x11-color 'blue)
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_START
-            \>
-            - \tweak stencil ##f
-            ~
-            \repeatTie
+        e2
+        :32
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
-            e2
-            :32
-            - \tweak stencil ##f
-            ~
-            \repeatTie
+        e2
+        :32
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
-            e2
-            :32
-            - \tweak stencil ##f
-            ~
-            \repeatTie
-
-            e2
-            :32
-            - \tweak stencil ##f
-            ~
-            \repeatTie
-
-        }
+        e2
+        :32
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
     }
 
+    \times 2/3
     {
 
-        \times 2/3
-        {
+        % [Guitar.Music.1 measure 28]
+        e2
+        :32
+          %! EXPLICIT_DYNAMIC_COLOR
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
+        - \tweak color #(x11-color 'blue)
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
+        \ff
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (28) \hspace #1 \concat { "4" \sub 18 } ] }
+          %! EXPLICIT_DYNAMIC_COLOR
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        - \tweak color #(x11-color 'blue)
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        \<
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
-            % [Guitar.Music.1 measure 28]
-            e2
-            :32
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
-            - \tweak color #(x11-color 'blue)
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
-            \ff
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (28) \hspace #1 \concat { "4" \sub 18 } ] }
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_START
-            - \tweak color #(x11-color 'blue)
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_START
-            \<
-            - \tweak stencil ##f
-            ~
-            \repeatTie
+        e2
+        :32
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
-            e2
-            :32
-            - \tweak stencil ##f
-            ~
-            \repeatTie
-
-            e2
-            :32
-            - \tweak stencil ##f
-            ~
-            \repeatTie
-
-        }
+        e2
+        :32
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
     }
 
+    \tweak edge-height #'(0.7 . 0)
+    \times 2/3
     {
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 2/3
-        {
+        % [Guitar.Music.1 measure 29]
+        e2
+        :32
+          %! EXPLICIT_DYNAMIC_COLOR
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
+        - \tweak color #(x11-color 'blue)
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
+        \fff
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (29) \hspace #1 \concat { "4" \sub 19 } ] }
+          %! EXPLICIT_DYNAMIC_COLOR
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        - \tweak color #(x11-color 'blue)
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        \>
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
-            % [Guitar.Music.1 measure 29]
-            e2
-            :32
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
-            - \tweak color #(x11-color 'blue)
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
-            \fff
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (29) \hspace #1 \concat { "4" \sub 19 } ] }
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_START
-            - \tweak color #(x11-color 'blue)
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_START
-            \>
-            - \tweak stencil ##f
-            ~
-            \repeatTie
-
-            e2
-            :32
-            - \tweak stencil ##f
-            ~
-            \repeatTie
-
-        }
+        e2
+        :32
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
     }
 
+    \tweak edge-height #'(0.7 . 0)
+    \times 2/3
     {
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 2/3
-        {
-
-            % [Guitar.Music.1 measure 30]
-            e2
-            :32
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
-            - \tweak color #(x11-color 'blue)
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
-            \f
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (30) \hspace #1 \concat { "4" \sub 20 } ] }
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_START
-            - \tweak color #(x11-color 'blue)
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_START
-            \<
-            - \tweak stencil ##f
-            ~
-            \repeatTie
-
-        }
+        % [Guitar.Music.1 measure 30]
+        e2
+        :32
+          %! EXPLICIT_DYNAMIC_COLOR
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
+        - \tweak color #(x11-color 'blue)
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
+        \f
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (30) \hspace #1 \concat { "4" \sub 20 } ] }
+          %! EXPLICIT_DYNAMIC_COLOR
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        - \tweak color #(x11-color 'blue)
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        \<
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
     }
 
+    \tweak edge-height #'(0.7 . 0)
+    \times 2/3
     {
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 2/3
-        {
+        % [Guitar.Music.1 measure 31]
+        e2
+        :32
+          %! EXPLICIT_DYNAMIC_COLOR
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
+        - \tweak color #(x11-color 'blue)
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
+        \ff
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (31) \hspace #1 \concat { "4" \sub 21 } ] }
+          %! EXPLICIT_DYNAMIC_COLOR
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        - \tweak color #(x11-color 'blue)
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        \>
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
-            % [Guitar.Music.1 measure 31]
-            e2
-            :32
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
-            - \tweak color #(x11-color 'blue)
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
-            \ff
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (31) \hspace #1 \concat { "4" \sub 21 } ] }
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_START
-            - \tweak color #(x11-color 'blue)
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_START
-            \>
-            - \tweak stencil ##f
-            ~
-            \repeatTie
-
-            e2
-            :32
-            - \tweak stencil ##f
-            ~
-            \repeatTie
-
-        }
+        e2
+        :32
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
     }
 
+    \times 2/3
     {
 
-        \times 2/3
-        {
+        % [Guitar.Music.1 measure 32]
+        e2
+        :32
+          %! EXPLICIT_DYNAMIC_COLOR
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
+        - \tweak color #(x11-color 'blue)
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
+        \mf
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (32) \hspace #1 \concat { "4" \sub 22 } ] }
+          %! EXPLICIT_DYNAMIC_COLOR
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        - \tweak color #(x11-color 'blue)
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        \<
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
-            % [Guitar.Music.1 measure 32]
-            e2
-            :32
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
-            - \tweak color #(x11-color 'blue)
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
-            \mf
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (32) \hspace #1 \concat { "4" \sub 22 } ] }
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_START
-            - \tweak color #(x11-color 'blue)
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_START
-            \<
-            - \tweak stencil ##f
-            ~
-            \repeatTie
+        e2
+        :32
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
-            e2
-            :32
-            - \tweak stencil ##f
-            ~
-            \repeatTie
-
-            e2
-            :32
-            - \tweak stencil ##f
-            ~
-            \repeatTie
-
-        }
+        e2
+        :32
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
     }
 
+    \tweak edge-height #'(0.7 . 0)
+    \times 2/3
     {
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 2/3
-        {
+        % [Guitar.Music.1 measure 33]
+        e2
+        :32
+          %! EXPLICIT_DYNAMIC_COLOR
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
+        - \tweak color #(x11-color 'blue)
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
+        \f
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (33) \hspace #1 \concat { "4" \sub 23 } ] }
+          %! EXPLICIT_DYNAMIC_COLOR
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        - \tweak color #(x11-color 'blue)
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        \>
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
-            % [Guitar.Music.1 measure 33]
-            e2
-            :32
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
-            - \tweak color #(x11-color 'blue)
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
-            \f
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (33) \hspace #1 \concat { "4" \sub 23 } ] }
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_START
-            - \tweak color #(x11-color 'blue)
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_START
-            \>
-            - \tweak stencil ##f
-            ~
-            \repeatTie
+        e2
+        :32
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
-            e2
-            :32
-            - \tweak stencil ##f
-            ~
-            \repeatTie
+        e2
+        :32
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
-            e2
-            :32
-            - \tweak stencil ##f
-            ~
-            \repeatTie
-
-            e2
-            :32
-            - \tweak stencil ##f
-            ~
-            \repeatTie
-
-        }
+        e2
+        :32
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
     }
 
+    \tweak edge-height #'(0.7 . 0)
+    \times 2/3
     {
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 2/3
-        {
+        % [Guitar.Music.1 measure 34]
+        e2
+        :32
+          %! EXPLICIT_DYNAMIC_COLOR
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
+        - \tweak color #(x11-color 'blue)
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
+        \mp
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (34) \hspace #1 \concat { "4" \sub 24 } ] }
+          %! EXPLICIT_DYNAMIC_COLOR
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        - \tweak color #(x11-color 'blue)
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        \<
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
-            % [Guitar.Music.1 measure 34]
-            e2
-            :32
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
-            - \tweak color #(x11-color 'blue)
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
-            \mp
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (34) \hspace #1 \concat { "4" \sub 24 } ] }
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_START
-            - \tweak color #(x11-color 'blue)
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_START
-            \<
-            - \tweak stencil ##f
-            ~
-            \repeatTie
+        e2
+        :32
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
-            e2
-            :32
-            - \tweak stencil ##f
-            ~
-            \repeatTie
+        e2
+        :32
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
-            e2
-            :32
-            - \tweak stencil ##f
-            ~
-            \repeatTie
+        e2
+        :32
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
-            e2
-            :32
-            - \tweak stencil ##f
-            ~
-            \repeatTie
-
-            e2
-            :32
-            - \tweak stencil ##f
-            ~
-            \repeatTie
-
-        }
+        e2
+        :32
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
     }
 
+    \tweak edge-height #'(0.7 . 0)
+    \times 2/3
     {
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 2/3
-        {
+        % [Guitar.Music.1 measure 35]
+        e2
+        :32
+          %! EXPLICIT_DYNAMIC_COLOR
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
+        - \tweak color #(x11-color 'blue)
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
+        \mf
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (35) \hspace #1 \concat { "4" \sub 25 } ] }
+          %! EXPLICIT_DYNAMIC_COLOR
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        - \tweak color #(x11-color 'blue)
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        \>
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
-            % [Guitar.Music.1 measure 35]
-            e2
-            :32
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
-            - \tweak color #(x11-color 'blue)
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
-            \mf
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (35) \hspace #1 \concat { "4" \sub 25 } ] }
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_START
-            - \tweak color #(x11-color 'blue)
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_START
-            \>
-            - \tweak stencil ##f
-            ~
-            \repeatTie
+        e2
+        :32
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
-            e2
-            :32
-            - \tweak stencil ##f
-            ~
-            \repeatTie
+        e2
+        :32
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
-            e2
-            :32
-            - \tweak stencil ##f
-            ~
-            \repeatTie
-
-            e2
-            :32
-            - \tweak stencil ##f
-            ~
-            \repeatTie
-
-        }
+        e2
+        :32
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
     }
 
+    \times 2/3
     {
 
-        \times 2/3
-        {
+        % [Guitar.Music.1 measure 36]
+        e2
+        :32
+          %! EXPLICIT_DYNAMIC_COLOR
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
+        - \tweak color #(x11-color 'blue)
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
+        \p
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (36) \hspace #1 \concat { "4" \sub 26 } ] }
+          %! EXPLICIT_DYNAMIC_COLOR
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        - \tweak color #(x11-color 'blue)
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        \<
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
-            % [Guitar.Music.1 measure 36]
-            e2
-            :32
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
-            - \tweak color #(x11-color 'blue)
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
-            \p
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (36) \hspace #1 \concat { "4" \sub 26 } ] }
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_START
-            - \tweak color #(x11-color 'blue)
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_START
-            \<
-            - \tweak stencil ##f
-            ~
-            \repeatTie
+        e2
+        :32
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
-            e2
-            :32
-            - \tweak stencil ##f
-            ~
-            \repeatTie
-
-            e2
-            :32
-            - \tweak stencil ##f
-            ~
-            \repeatTie
-
-        }
+        e2
+        :32
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
     }
 
+    \tweak edge-height #'(0.7 . 0)
+    \times 2/3
     {
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 2/3
-        {
+        % [Guitar.Music.1 measure 37]
+        e2
+        :32
+          %! EXPLICIT_DYNAMIC_COLOR
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
+        - \tweak color #(x11-color 'blue)
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
+        \mp
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (37) \hspace #1 \concat { "4" \sub 27 } ] }
+          %! SPANNER_STOP
+        \stopTextSpan
+          %! EXPLICIT_DYNAMIC_COLOR
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        - \tweak color #(x11-color 'blue)
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        \>
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
-            % [Guitar.Music.1 measure 37]
-            e2
-            :32
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
-            - \tweak color #(x11-color 'blue)
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
-            \mp
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (37) \hspace #1 \concat { "4" \sub 27 } ] }
-              %! SPANNER_STOP
-            \stopTextSpan
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_START
-            - \tweak color #(x11-color 'blue)
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_START
-            \>
-            - \tweak stencil ##f
-            ~
-            \repeatTie
-
-            e2
-            :32
-            - \tweak stencil ##f
-            ~
-            \repeatTie
-
-        }
+        e2
+        :32
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
     }
 
+    \tweak edge-height #'(0.7 . 0)
+    \times 2/3
     {
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 2/3
-        {
-
-            % [Guitar.Music.1 measure 38]
-            e2
-            :32
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
-            - \tweak color #(x11-color 'blue)
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
-            \pp
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (38) \hspace #1 \concat { "4" \sub 28 } ] }
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_START
-            - \tweak color #(x11-color 'blue)
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_START
-            \<
-            - \tweak stencil ##f
-            ~
-            \repeatTie
-
-        }
+        % [Guitar.Music.1 measure 38]
+        e2
+        :32
+          %! EXPLICIT_DYNAMIC_COLOR
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
+        - \tweak color #(x11-color 'blue)
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
+        \pp
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (38) \hspace #1 \concat { "4" \sub 28 } ] }
+          %! EXPLICIT_DYNAMIC_COLOR
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        - \tweak color #(x11-color 'blue)
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        \<
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
     }
 
+    \tweak edge-height #'(0.7 . 0)
+    \times 2/3
     {
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 2/3
-        {
+        % [Guitar.Music.1 measure 39]
+        e2
+        :32
+          %! EXPLICIT_DYNAMIC_COLOR
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
+        - \tweak color #(x11-color 'blue)
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
+        \p
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (39) \hspace #1 \concat { "4" \sub 29 } ] }
+          %! EXPLICIT_DYNAMIC_COLOR
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        - \tweak color #(x11-color 'blue)
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        \>
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
-            % [Guitar.Music.1 measure 39]
-            e2
-            :32
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
-            - \tweak color #(x11-color 'blue)
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
-            \p
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (39) \hspace #1 \concat { "4" \sub 29 } ] }
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_START
-            - \tweak color #(x11-color 'blue)
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_START
-            \>
-            - \tweak stencil ##f
-            ~
-            \repeatTie
-
-            e2
-            :32
-            - \tweak stencil ##f
-            ~
-            \repeatTie
-
-        }
+        e2
+        :32
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
     }
 
+    \times 2/3
     {
 
-        \times 2/3
-        {
+        % [Guitar.Music.1 measure 40]
+        e2
+        :32
+          %! EXPLICIT_DYNAMIC_COLOR
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
+        - \tweak color #(x11-color 'blue)
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
+        \ppp
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (40) \hspace #1 \concat { "4" \sub 30 } ] }
+          %! EXPLICIT_DYNAMIC_COLOR
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        - \tweak color #(x11-color 'blue)
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        \<
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
-            % [Guitar.Music.1 measure 40]
-            e2
-            :32
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
-            - \tweak color #(x11-color 'blue)
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
-            \ppp
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (40) \hspace #1 \concat { "4" \sub 30 } ] }
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_START
-            - \tweak color #(x11-color 'blue)
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_START
-            \<
-            - \tweak stencil ##f
-            ~
-            \repeatTie
+        e2
+        :32
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
-            e2
-            :32
-            - \tweak stencil ##f
-            ~
-            \repeatTie
-
-            e2
-            :32
-            - \tweak stencil ##f
-            ~
-            \repeatTie
-
-        }
+        e2
+        :32
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
     }
 
+    \tweak edge-height #'(0.7 . 0)
+    \times 2/3
     {
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 2/3
-        {
+        % [Guitar.Music.1 measure 41]
+        e2
+        :32
+          %! EXPLICIT_DYNAMIC_COLOR
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
+        - \tweak color #(x11-color 'blue)
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
+        \pp
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (41) \hspace #1 \concat { "4" \sub 31 } ] }
+          %! SPANNER_START
+        - \tweak bound-details.right.padding 0.5
+          %! SPANNER_START
+        - \tweak bound-details.right.stencil-align-dir-y #center
+          %! SPANNER_START
+        - \abjad-dashed-line-with-arrow
+          %! SPANNER_START
+        - \baca-text-spanner-left-text "gradually slow rasgueado"
+          %! SPANNER_START
+        - \baca-text-spanner-right-text "still"
+          %! SPANNER_START
+        \startTextSpan
+          %! EXPLICIT_DYNAMIC_COLOR
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        - \tweak color #(x11-color 'blue)
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        \>
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
-            % [Guitar.Music.1 measure 41]
-            e2
-            :32
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
-            - \tweak color #(x11-color 'blue)
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
-            \pp
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (41) \hspace #1 \concat { "4" \sub 31 } ] }
-              %! SPANNER_START
-            - \tweak bound-details.right.padding 0.5
-              %! SPANNER_START
-            - \tweak bound-details.right.stencil-align-dir-y #center
-              %! SPANNER_START
-            - \abjad-dashed-line-with-arrow
-              %! SPANNER_START
-            - \baca-text-spanner-left-text "gradually slow rasgueado"
-              %! SPANNER_START
-            - \baca-text-spanner-right-text "still"
-              %! SPANNER_START
-            \startTextSpan
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_START
-            - \tweak color #(x11-color 'blue)
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_START
-            \>
-            - \tweak stencil ##f
-            ~
-            \repeatTie
+        e2
+        :32
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
-            e2
-            :32
-            - \tweak stencil ##f
-            ~
-            \repeatTie
+        e2
+        :32
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
-            e2
-            :32
-            - \tweak stencil ##f
-            ~
-            \repeatTie
-
-            e2
-            :32
-            - \tweak stencil ##f
-            ~
-            \repeatTie
-
-        }
+        e2
+        :32
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
     }
 
+    \tweak edge-height #'(0.7 . 0)
+    \times 2/3
     {
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 2/3
-        {
+        % [Guitar.Music.1 measure 42]
+        e2
+        :32
+          %! EXPLICIT_DYNAMIC_COLOR
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
+        - \tweak color #(x11-color 'blue)
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
+        \pppp
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (42) \hspace #1 \concat { "4" \sub 32 } ] }
+          %! EXPLICIT_DYNAMIC_COLOR
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        - \tweak color #(x11-color 'blue)
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        \<
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
-            % [Guitar.Music.1 measure 42]
-            e2
-            :32
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
-            - \tweak color #(x11-color 'blue)
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
-            \pppp
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (42) \hspace #1 \concat { "4" \sub 32 } ] }
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_START
-            - \tweak color #(x11-color 'blue)
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_START
-            \<
-            - \tweak stencil ##f
-            ~
-            \repeatTie
+        e2
+        :32
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
-            e2
-            :32
-            - \tweak stencil ##f
-            ~
-            \repeatTie
+        e2
+        :32
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
-            e2
-            :32
-            - \tweak stencil ##f
-            ~
-            \repeatTie
+        e2
+        :32
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
-            e2
-            :32
-            - \tweak stencil ##f
-            ~
-            \repeatTie
-
-            e2
-            :32
-            - \tweak stencil ##f
-            ~
-            \repeatTie
-
-        }
+        e2
+        :32
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
     }
 
+    \times 2/3
     {
 
-        \times 2/3
-        {
+        % [Guitar.Music.1 measure 43]
+        e2
+        :32
+          %! EXPLICIT_DYNAMIC_COLOR
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
+        - \tweak color #(x11-color 'blue)
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
+        \ppp
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (43) \hspace #1 \concat { "4" \sub 33 } ] }
+          %! EXPLICIT_DYNAMIC_COLOR
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        - \tweak color #(x11-color 'blue)
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        \>
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
-            % [Guitar.Music.1 measure 43]
-            e2
-            :32
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
-            - \tweak color #(x11-color 'blue)
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
-            \ppp
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (43) \hspace #1 \concat { "4" \sub 33 } ] }
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_START
-            - \tweak color #(x11-color 'blue)
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_START
-            \>
-            - \tweak stencil ##f
-            ~
-            \repeatTie
+        e2
+        :32
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
-            e2
-            :32
-            - \tweak stencil ##f
-            ~
-            \repeatTie
-
-            e2
-            :32
-            - \tweak stencil ##f
-            ~
-            \repeatTie
-
-        }
+        e2
+        :32
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
     }
 
+    \tweak edge-height #'(0.7 . 0)
+    \times 2/3
     {
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 2/3
-        {
+        % [Guitar.Music.1 measure 44]
+        e2
+        :32
+          %! EXPLICIT_DYNAMIC_COLOR
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
+        - \tweak color #(x11-color 'blue)
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
+        \ppppp
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (44) \hspace #1 \concat { "4" \sub 34 } ] }
+          %! EXPLICIT_DYNAMIC_COLOR
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        - \tweak color #(x11-color 'blue)
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        \<
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
-            % [Guitar.Music.1 measure 44]
-            e2
-            :32
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
-            - \tweak color #(x11-color 'blue)
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
-            \ppppp
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (44) \hspace #1 \concat { "4" \sub 34 } ] }
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_START
-            - \tweak color #(x11-color 'blue)
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_START
-            \<
-            - \tweak stencil ##f
-            ~
-            \repeatTie
-
-            e2
-            :32
-            - \tweak stencil ##f
-            ~
-            \repeatTie
-
-        }
+        e2
+        :32
+        - \tweak stencil ##f
+        ~
+        \repeatTie
 
     }
 
+    \tweak edge-height #'(0.7 . 0)
+    \times 2/3
     {
 
-        \tweak edge-height #'(0.7 . 0)
-        \times 2/3
-        {
-
-            % [Guitar.Music.1 measure 45]
-            e2
-            :32
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
-            - \tweak color #(x11-color 'blue)
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
-            \pppp
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (45) \hspace #1 \concat { "4" \sub 35 } ] }
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_START
-            - \tweak color #(x11-color 'blue)
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_START
-            - \tweak to-barline ##t
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_START
-            - \tweak circled-tip ##t
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_START
-            \>
-            \repeatTie
-
-        }
+        % [Guitar.Music.1 measure 45]
+        e2
+        :32
+          %! EXPLICIT_DYNAMIC_COLOR
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
+        - \tweak color #(x11-color 'blue)
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
+        \pppp
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (45) \hspace #1 \concat { "4" \sub 35 } ] }
+          %! EXPLICIT_DYNAMIC_COLOR
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        - \tweak color #(x11-color 'blue)
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        - \tweak to-barline ##t
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        - \tweak circled-tip ##t
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        \>
+        \repeatTie
 
     }
 
+    \scaleDurations #'(1 . 1)
     {
 
-        \scaleDurations #'(1 . 1)
-        {
+        % [Guitar.Music.1 measure 46]
+        \once \override TextScript.staff-padding = 5.5
+        r8
+          %! EXPLICIT_DYNAMIC_COLOR
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
+        - \tweak color #(x11-color 'blue)
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_STOP
+        \!
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (46) \hspace #1 \concat { "4" \sub 36 } ] }
+          %! SPANNER_STOP
+        \stopTextSpan
 
-            % [Guitar.Music.1 measure 46]
-            \once \override TextScript.staff-padding = 5.5
-            r8
-              %! EXPLICIT_DYNAMIC_COLOR
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
-            - \tweak color #(x11-color 'blue)
-              %! EXPLICIT_DYNAMIC
-              %! SPANNER_STOP
-            \!
-              %! FIGURE_LABEL
-            %@% - \tweak color #blue
-              %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (46) \hspace #1 \concat { "4" \sub 36 } ] }
-              %! SPANNER_STOP
-            \stopTextSpan
+        r8
 
-            r8
+        r8
 
-            r8
+        r8
 
-            r8
-
-            r8
-            \revert TextScript.staff-padding
-            \revert TextSpanner.staff-padding
-
-        }
+        r8
+        \revert TextScript.staff-padding
+        \revert TextSpanner.staff-padding
 
     }
 
@@ -3283,7 +3099,142 @@ number.13.Guitar.Music.1 = {
 number.13.Guitar.Music.2 = {
 
     % [Guitar.Music.2 measure 1]
-    s1 * 3779/120
+    s1 * 2/5
+
+    % [Guitar.Music.2 measure 2]
+    s1 * 2/5
+
+    % [Guitar.Music.2 measure 3]
+    s1 * 1/3
+
+    % [Guitar.Music.2 measure 4]
+    s1 * 1/3
+
+    % [Guitar.Music.2 measure 5]
+    s1 * 1/3
+
+    % [Guitar.Music.2 measure 6]
+    s1 * 2/5
+
+    % [Guitar.Music.2 measure 7]
+    s1 * 2/5
+
+    % [Guitar.Music.2 measure 8]
+    s1 * 1/3
+
+    % [Guitar.Music.2 measure 9]
+    s1 * 1/3
+
+    % [Guitar.Music.2 measure 10]
+    s1 * 1/3
+
+    % [Guitar.Music.2 measure 11]
+    s1 * 2/5
+
+    % [Guitar.Music.2 measure 12]
+    s1 * 2/5
+
+    % [Guitar.Music.2 measure 13]
+    s1 * 1/3
+
+    % [Guitar.Music.2 measure 14]
+    s1 * 1/3
+
+    % [Guitar.Music.2 measure 15]
+    s1 * 1/3
+
+    % [Guitar.Music.2 measure 16]
+    s1 * 2/5
+
+    % [Guitar.Music.2 measure 17]
+    s1 * 2/3
+
+    % [Guitar.Music.2 measure 18]
+    s1 * 2/5
+
+    % [Guitar.Music.2 measure 19]
+    s1 * 2/5
+
+    % [Guitar.Music.2 measure 20]
+    s1 * 2/5
+
+    % [Guitar.Music.2 measure 21]
+    s1 * 1/1
+
+    % [Guitar.Music.2 measure 22]
+    s1 * 2/5
+
+    % [Guitar.Music.2 measure 23]
+    s1 * 2/5
+
+    % [Guitar.Music.2 measure 24]
+    s1 * 2/5
+
+    % [Guitar.Music.2 measure 25]
+    s1 * 4/3
+
+    % [Guitar.Music.2 measure 26]
+    s1 * 5/3
+
+    % [Guitar.Music.2 measure 27]
+    s1 * 4/3
+
+    % [Guitar.Music.2 measure 28]
+    s1 * 1/1
+
+    % [Guitar.Music.2 measure 29]
+    s1 * 2/3
+
+    % [Guitar.Music.2 measure 30]
+    s1 * 1/3
+
+    % [Guitar.Music.2 measure 31]
+    s1 * 2/3
+
+    % [Guitar.Music.2 measure 32]
+    s1 * 1/1
+
+    % [Guitar.Music.2 measure 33]
+    s1 * 4/3
+
+    % [Guitar.Music.2 measure 34]
+    s1 * 5/3
+
+    % [Guitar.Music.2 measure 35]
+    s1 * 4/3
+
+    % [Guitar.Music.2 measure 36]
+    s1 * 1/1
+
+    % [Guitar.Music.2 measure 37]
+    s1 * 2/3
+
+    % [Guitar.Music.2 measure 38]
+    s1 * 1/3
+
+    % [Guitar.Music.2 measure 39]
+    s1 * 2/3
+
+    % [Guitar.Music.2 measure 40]
+    s1 * 1/1
+
+    % [Guitar.Music.2 measure 41]
+    s1 * 4/3
+
+    % [Guitar.Music.2 measure 42]
+    s1 * 5/3
+
+    % [Guitar.Music.2 measure 43]
+    s1 * 1/1
+
+    % [Guitar.Music.2 measure 44]
+    s1 * 2/3
+
+    % [Guitar.Music.2 measure 45]
+    s1 * 1/3
+
+    % [Guitar.Music.2 measure 46]
+    s1 * 5/8
 
 }
 
@@ -3291,7 +3242,142 @@ number.13.Guitar.Music.2 = {
 number.13.Guitar.Music.3 = {
 
     % [Guitar.Music.3 measure 1]
-    s1 * 3779/120
+    s1 * 2/5
+
+    % [Guitar.Music.3 measure 2]
+    s1 * 2/5
+
+    % [Guitar.Music.3 measure 3]
+    s1 * 1/3
+
+    % [Guitar.Music.3 measure 4]
+    s1 * 1/3
+
+    % [Guitar.Music.3 measure 5]
+    s1 * 1/3
+
+    % [Guitar.Music.3 measure 6]
+    s1 * 2/5
+
+    % [Guitar.Music.3 measure 7]
+    s1 * 2/5
+
+    % [Guitar.Music.3 measure 8]
+    s1 * 1/3
+
+    % [Guitar.Music.3 measure 9]
+    s1 * 1/3
+
+    % [Guitar.Music.3 measure 10]
+    s1 * 1/3
+
+    % [Guitar.Music.3 measure 11]
+    s1 * 2/5
+
+    % [Guitar.Music.3 measure 12]
+    s1 * 2/5
+
+    % [Guitar.Music.3 measure 13]
+    s1 * 1/3
+
+    % [Guitar.Music.3 measure 14]
+    s1 * 1/3
+
+    % [Guitar.Music.3 measure 15]
+    s1 * 1/3
+
+    % [Guitar.Music.3 measure 16]
+    s1 * 2/5
+
+    % [Guitar.Music.3 measure 17]
+    s1 * 2/3
+
+    % [Guitar.Music.3 measure 18]
+    s1 * 2/5
+
+    % [Guitar.Music.3 measure 19]
+    s1 * 2/5
+
+    % [Guitar.Music.3 measure 20]
+    s1 * 2/5
+
+    % [Guitar.Music.3 measure 21]
+    s1 * 1/1
+
+    % [Guitar.Music.3 measure 22]
+    s1 * 2/5
+
+    % [Guitar.Music.3 measure 23]
+    s1 * 2/5
+
+    % [Guitar.Music.3 measure 24]
+    s1 * 2/5
+
+    % [Guitar.Music.3 measure 25]
+    s1 * 4/3
+
+    % [Guitar.Music.3 measure 26]
+    s1 * 5/3
+
+    % [Guitar.Music.3 measure 27]
+    s1 * 4/3
+
+    % [Guitar.Music.3 measure 28]
+    s1 * 1/1
+
+    % [Guitar.Music.3 measure 29]
+    s1 * 2/3
+
+    % [Guitar.Music.3 measure 30]
+    s1 * 1/3
+
+    % [Guitar.Music.3 measure 31]
+    s1 * 2/3
+
+    % [Guitar.Music.3 measure 32]
+    s1 * 1/1
+
+    % [Guitar.Music.3 measure 33]
+    s1 * 4/3
+
+    % [Guitar.Music.3 measure 34]
+    s1 * 5/3
+
+    % [Guitar.Music.3 measure 35]
+    s1 * 4/3
+
+    % [Guitar.Music.3 measure 36]
+    s1 * 1/1
+
+    % [Guitar.Music.3 measure 37]
+    s1 * 2/3
+
+    % [Guitar.Music.3 measure 38]
+    s1 * 1/3
+
+    % [Guitar.Music.3 measure 39]
+    s1 * 2/3
+
+    % [Guitar.Music.3 measure 40]
+    s1 * 1/1
+
+    % [Guitar.Music.3 measure 41]
+    s1 * 4/3
+
+    % [Guitar.Music.3 measure 42]
+    s1 * 5/3
+
+    % [Guitar.Music.3 measure 43]
+    s1 * 1/1
+
+    % [Guitar.Music.3 measure 44]
+    s1 * 2/3
+
+    % [Guitar.Music.3 measure 45]
+    s1 * 1/3
+
+    % [Guitar.Music.3 measure 46]
+    s1 * 5/8
 
 }
 
@@ -3299,7 +3385,142 @@ number.13.Guitar.Music.3 = {
 number.13.Guitar.Music.4 = {
 
     % [Guitar.Music.4 measure 1]
-    s1 * 3779/120
+    s1 * 2/5
+
+    % [Guitar.Music.4 measure 2]
+    s1 * 2/5
+
+    % [Guitar.Music.4 measure 3]
+    s1 * 1/3
+
+    % [Guitar.Music.4 measure 4]
+    s1 * 1/3
+
+    % [Guitar.Music.4 measure 5]
+    s1 * 1/3
+
+    % [Guitar.Music.4 measure 6]
+    s1 * 2/5
+
+    % [Guitar.Music.4 measure 7]
+    s1 * 2/5
+
+    % [Guitar.Music.4 measure 8]
+    s1 * 1/3
+
+    % [Guitar.Music.4 measure 9]
+    s1 * 1/3
+
+    % [Guitar.Music.4 measure 10]
+    s1 * 1/3
+
+    % [Guitar.Music.4 measure 11]
+    s1 * 2/5
+
+    % [Guitar.Music.4 measure 12]
+    s1 * 2/5
+
+    % [Guitar.Music.4 measure 13]
+    s1 * 1/3
+
+    % [Guitar.Music.4 measure 14]
+    s1 * 1/3
+
+    % [Guitar.Music.4 measure 15]
+    s1 * 1/3
+
+    % [Guitar.Music.4 measure 16]
+    s1 * 2/5
+
+    % [Guitar.Music.4 measure 17]
+    s1 * 2/3
+
+    % [Guitar.Music.4 measure 18]
+    s1 * 2/5
+
+    % [Guitar.Music.4 measure 19]
+    s1 * 2/5
+
+    % [Guitar.Music.4 measure 20]
+    s1 * 2/5
+
+    % [Guitar.Music.4 measure 21]
+    s1 * 1/1
+
+    % [Guitar.Music.4 measure 22]
+    s1 * 2/5
+
+    % [Guitar.Music.4 measure 23]
+    s1 * 2/5
+
+    % [Guitar.Music.4 measure 24]
+    s1 * 2/5
+
+    % [Guitar.Music.4 measure 25]
+    s1 * 4/3
+
+    % [Guitar.Music.4 measure 26]
+    s1 * 5/3
+
+    % [Guitar.Music.4 measure 27]
+    s1 * 4/3
+
+    % [Guitar.Music.4 measure 28]
+    s1 * 1/1
+
+    % [Guitar.Music.4 measure 29]
+    s1 * 2/3
+
+    % [Guitar.Music.4 measure 30]
+    s1 * 1/3
+
+    % [Guitar.Music.4 measure 31]
+    s1 * 2/3
+
+    % [Guitar.Music.4 measure 32]
+    s1 * 1/1
+
+    % [Guitar.Music.4 measure 33]
+    s1 * 4/3
+
+    % [Guitar.Music.4 measure 34]
+    s1 * 5/3
+
+    % [Guitar.Music.4 measure 35]
+    s1 * 4/3
+
+    % [Guitar.Music.4 measure 36]
+    s1 * 1/1
+
+    % [Guitar.Music.4 measure 37]
+    s1 * 2/3
+
+    % [Guitar.Music.4 measure 38]
+    s1 * 1/3
+
+    % [Guitar.Music.4 measure 39]
+    s1 * 2/3
+
+    % [Guitar.Music.4 measure 40]
+    s1 * 1/1
+
+    % [Guitar.Music.4 measure 41]
+    s1 * 4/3
+
+    % [Guitar.Music.4 measure 42]
+    s1 * 5/3
+
+    % [Guitar.Music.4 measure 43]
+    s1 * 1/1
+
+    % [Guitar.Music.4 measure 44]
+    s1 * 2/3
+
+    % [Guitar.Music.4 measure 45]
+    s1 * 1/3
+
+    % [Guitar.Music.4 measure 46]
+    s1 * 5/8
 
 }
 

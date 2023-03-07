@@ -1225,7 +1225,7 @@ number.9.Guitar.Music.3 = {
                 ragged-right = ##t
             }
         }
-    \scaleDurations #'(1 . 1)
+    \times 1/1
     {
 
         % [Guitar.Music.3 measure 3]
@@ -1310,7 +1310,7 @@ number.9.Guitar.Music.3 = {
                 ragged-right = ##t
             }
         }
-    \scaleDurations #'(1 . 1)
+    \times 1/1
     {
 
         % [Guitar.Music.3 measure 7]
@@ -1450,7 +1450,7 @@ number.9.Guitar.Music.3 = {
                 ragged-right = ##t
             }
         }
-    \scaleDurations #'(1 . 1)
+    \times 1/1
     {
 
         % [Guitar.Music.3 measure 8]

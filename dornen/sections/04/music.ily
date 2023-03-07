@@ -613,7 +613,7 @@ number.4.Guitar.Music.1 = {
                 ragged-right = ##t
             }
         }
-    \scaleDurations #'(1 . 1)
+    \times 1/1
     {
 
         % [Guitar.Music.1 measure 1]
@@ -702,7 +702,7 @@ number.4.Guitar.Music.1 = {
                 ragged-right = ##t
             }
         }
-    \scaleDurations #'(1 . 1)
+    \times 1/1
     {
 
         \once \override Beam.grow-direction = #left
@@ -767,7 +767,7 @@ number.4.Guitar.Music.1 = {
                 ragged-right = ##t
             }
         }
-    \scaleDurations #'(1 . 1)
+    \times 1/1
     {
 
         % [Guitar.Music.1 measure 2]
@@ -843,7 +843,7 @@ number.4.Guitar.Music.1 = {
                 ragged-right = ##t
             }
         }
-    \scaleDurations #'(1 . 1)
+    \times 1/1
     {
 
         \once \override Beam.grow-direction = #left
@@ -910,7 +910,7 @@ number.4.Guitar.Music.1 = {
                 ragged-right = ##t
             }
         }
-    \scaleDurations #'(1 . 1)
+    \times 1/1
     {
 
         % [Guitar.Music.1 measure 3]
@@ -1009,7 +1009,7 @@ number.4.Guitar.Music.1 = {
                 ragged-right = ##t
             }
         }
-    \scaleDurations #'(1 . 1)
+    \times 1/1
     {
 
         % [Guitar.Music.1 measure 5]
@@ -1071,7 +1071,7 @@ number.4.Guitar.Music.1 = {
                 ragged-right = ##t
             }
         }
-    \scaleDurations #'(1 . 1)
+    \times 1/1
     {
 
         \once \override Beam.grow-direction = #right
@@ -1148,7 +1148,7 @@ number.4.Guitar.Music.1 = {
                 ragged-right = ##t
             }
         }
-    \scaleDurations #'(1 . 1)
+    \times 1/1
     {
 
         % [Guitar.Music.1 measure 11]
@@ -1218,7 +1218,7 @@ number.4.Guitar.Music.1 = {
                 ragged-right = ##t
             }
         }
-    \scaleDurations #'(1 . 1)
+    \times 1/1
     {
 
         \once \override Beam.grow-direction = #left
@@ -1285,7 +1285,7 @@ number.4.Guitar.Music.1 = {
                 ragged-right = ##t
             }
         }
-    \scaleDurations #'(1 . 1)
+    \times 1/1
     {
 
         % [Guitar.Music.1 measure 13]
@@ -1355,7 +1355,7 @@ number.4.Guitar.Music.1 = {
                 ragged-right = ##t
             }
         }
-    \scaleDurations #'(1 . 1)
+    \times 1/1
     {
 
         \once \override Beam.grow-direction = #left
@@ -1416,7 +1416,7 @@ number.4.Guitar.Music.1 = {
                 ragged-right = ##t
             }
         }
-    \scaleDurations #'(1 . 1)
+    \times 1/1
     {
 
         \once \override Beam.grow-direction = #right

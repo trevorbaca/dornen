@@ -681,7 +681,6 @@ def make_waves(collections, denominator=64, inverted=False):
                 [collection],
                 [1],
                 denominator,
-                tsd=denominator,
                 treatments=["accel"],
             )
         else:
@@ -689,7 +688,6 @@ def make_waves(collections, denominator=64, inverted=False):
                 [collection],
                 [1],
                 denominator,
-                tsd=denominator,
                 treatments=["rit"],
             )
         tuplets.extend(tuplets_)

@@ -677,22 +677,18 @@ def make_waves(collections, denominator=64, inverted=False):
     assert 16 <= denominator, repr(denominator)
     tuplets = []
     for i, collection in enumerate(collections):
+        tuplets_ = baca.from_collections(
+            [collection],
+            [1],
+            denominator,
+        )
         if inverted:
             i += 1
         if i % 2 == 0:
-            tuplets_ = baca.from_collections(
-                [collection],
-                [1],
-                denominator,
-                treatments=["accel"],
-            )
+            treatment = "accel"
         else:
-            tuplets_ = baca.from_collections(
-                [collection],
-                [1],
-                denominator,
-                treatments=["rit"],
-            )
+            treatment = "rit"
+        tuplets_ = [baca.prolate(_, treatment) for _ in tuplets_]
         tuplets.extend(tuplets_)
     groups = rmakers.nongrace_leaves_in_each_tuplet(tuplets)
     rmakers.beam(groups)

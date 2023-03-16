@@ -538,7 +538,8 @@ def make_forty_eighths(collections):
 
 
 def make_glissando_scatto(collections):
-    tuplets = baca.make_tuplets(collections, [2, 2, 2, 1, 2, 2, 2], 32, treatments=[-2])
+    tuplets = baca.make_tuplets(collections, [2, 2, 2, 1, 2, 2, 2], 32)
+    tuplets = [baca.prolate(_, -2, 32) for _ in tuplets]
     groups = rmakers.nongrace_leaves_in_each_tuplet(tuplets)
     rmakers.beam_groups(groups)
     for ntrun in baca.select.ntruns(tuplets):
@@ -557,12 +558,8 @@ def make_graced_tuplets(collections):
             collection,
             baca.lmr(left_length=1, right_counts=[2], right_cyclic=True),
         )
-        tuplets_ = baca.make_tuplets(
-            [collection],
-            [1],
-            16,
-            treatments=[treatment],
-        )
+        tuplets_ = baca.make_tuplets([collection], [1], 16)
+        tuplets_ = [baca.prolate(_, treatment) for _ in tuplets_]
         baca.attach_before_grace_containers(containers, tuplets_[0])
         tuplets.extend(tuplets_)
     groups = rmakers.nongrace_leaves_in_each_tuplet(tuplets)

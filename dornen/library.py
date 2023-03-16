@@ -469,7 +469,7 @@ def group_rleaves(argument):
 
 
 def make_delicatissimo(collections):
-    tuplets = baca.make_tuplets(collections, [1], 32)
+    tuplets = baca.from_collections(collections, [1], 32)
     groups = rmakers.nongrace_leaves_in_each_tuplet(tuplets)
     rmakers.beam_groups(groups)
     pheads = baca.select.pheads(tuplets)
@@ -478,7 +478,7 @@ def make_delicatissimo(collections):
 
 
 def make_dotted_eighths(collections):
-    tuplets = baca.make_tuplets(collections, [3], 16)
+    tuplets = baca.from_collections(collections, [3], 16)
     groups = rmakers.nongrace_leaves_in_each_tuplet(tuplets)
     rmakers.beam(groups, beam_lone_notes=True)
     return tuplets, 8
@@ -531,14 +531,14 @@ def make_empty_score():
 
 
 def make_forty_eighths(collections):
-    tuplets = baca.make_tuplets(collections, [3], 64)
+    tuplets = baca.from_collections(collections, [3], 64)
     groups = rmakers.nongrace_leaves_in_each_tuplet(tuplets)
     rmakers.beam(groups)
     return tuplets, 32
 
 
 def make_glissando_scatto(collections):
-    tuplets = baca.make_tuplets(collections, [2, 2, 2, 1, 2, 2, 2], 32)
+    tuplets = baca.from_collections(collections, [2, 2, 2, 1, 2, 2, 2], 32)
     tuplets = [baca.prolate(_, -2, 32) for _ in tuplets]
     groups = rmakers.nongrace_leaves_in_each_tuplet(tuplets)
     rmakers.beam_groups(groups)
@@ -558,7 +558,7 @@ def make_graced_tuplets(collections):
             collection,
             baca.lmr(left_length=1, right_counts=[2], right_cyclic=True),
         )
-        tuplets_ = baca.make_tuplets([collection], [1], 16)
+        tuplets_ = baca.from_collections([collection], [1], 16)
         tuplets_ = [baca.prolate(_, treatment) for _ in tuplets_]
         baca.attach_before_grace_containers(containers, tuplets_[0])
         tuplets.extend(tuplets_)
@@ -568,7 +568,7 @@ def make_graced_tuplets(collections):
 
 
 def make_monads(collections):
-    tuplets = baca.make_tuplets(collections, [1], 2, treatments=["5:4"])
+    tuplets = baca.from_collections(collections, [1], 2, treatments=["5:4"])
     return tuplets, 5
 
 
@@ -578,7 +578,7 @@ def make_ovoids(collections):
         containers, collection = baca.make_before_grace_containers(
             collection, baca.lmr(left_length=1)
         )
-        tuplets_ = baca.make_tuplets([collection], [6, 1], 32)
+        tuplets_ = baca.from_collections([collection], [6, 1], 32)
         assert len(tuplets_) == 1, repr(tuplets_)
         baca.attach_before_grace_containers(containers, tuplets_[0])
         groups = rmakers.nongrace_leaves_in_each_tuplet(tuplets_)
@@ -591,10 +591,10 @@ def make_passepied(collections):
     containers, collection = baca.make_before_grace_containers(
         collections[0], baca.LMR()
     )
-    tuplets = baca.make_tuplets([collection], [1], 32)
+    tuplets = baca.from_collections([collection], [1], 32)
     baca.attach_before_grace_containers(containers, tuplets[0])
     for collection in collections[1:]:
-        tuplets_ = baca.make_tuplets(collection, [1], 16)
+        tuplets_ = baca.from_collections(collection, [1], 16)
         tuplets.extend(tuplets_)
     groups = rmakers.nongrace_leaves_in_each_tuplet(tuplets)
     rmakers.beam_groups(groups, beam_lone_notes=True)
@@ -603,14 +603,14 @@ def make_passepied(collections):
 
 def make_rests(count, duration):
     numerator, denominator = duration
-    tuplets = baca.make_tuplets([count * [1]], [numerator], denominator)
+    tuplets = baca.from_collections([count * [1]], [numerator], denominator)
     lts = baca.select.lts(tuplets)
     rmakers.force_rest(lts)
     return tuplets, denominator
 
 
 def make_running(collections):
-    tuplets = baca.make_tuplets(collections, [1], 64, treatments=[-1])
+    tuplets = baca.from_collections(collections, [1], 64, treatments=[-1])
     groups = rmakers.nongrace_leaves_in_each_tuplet(tuplets)
     rmakers.beam_groups(groups)
     for tuplet in _select_nontrivial_tuplets(tuplets):
@@ -619,14 +619,14 @@ def make_running(collections):
 
 
 def make_sixteenths(collections):
-    tuplets = baca.make_tuplets(collections, [1], 16)
+    tuplets = baca.from_collections(collections, [1], 16)
     groups = rmakers.nongrace_leaves_in_each_tuplet(tuplets)
     rmakers.beam(groups, beam_lone_notes=True)
     return tuplets, 16
 
 
 def make_sixty_fourths(collections):
-    tuplets = baca.make_tuplets(collections, [1], 64)
+    tuplets = baca.from_collections(collections, [1], 64)
     groups = rmakers.nongrace_leaves_in_each_tuplet(tuplets)
     rmakers.beam_groups(groups)
     baca.staccato(baca.select.pheads(tuplets))
@@ -634,33 +634,33 @@ def make_sixty_fourths(collections):
 
 
 def make_thirds(collections):
-    tuplets = baca.make_tuplets(collections, [1], 2, treatments=["3:2"])
+    tuplets = baca.from_collections(collections, [1], 2, treatments=["3:2"])
     return tuplets, 3
 
 
 def make_thirty_seconds(collections):
-    tuplets = baca.make_tuplets(collections, [1], 32)
+    tuplets = baca.from_collections(collections, [1], 32)
     groups = rmakers.nongrace_leaves_in_each_tuplet(tuplets)
     rmakers.beam_groups(groups)
     return tuplets, 32
 
 
 def make_twentieths(collections):
-    tuplets = baca.make_tuplets(collections, [1], 16, treatments=["5:4"])
+    tuplets = baca.from_collections(collections, [1], 16, treatments=["5:4"])
     groups = rmakers.nongrace_leaves_in_each_tuplet(tuplets)
     rmakers.beam(groups, beam_lone_notes=True)
     return tuplets, 20
 
 
 def make_twenty_eighths(collections):
-    tuplets = baca.make_tuplets(collections, [1], 16, treatments=["7:4"])
+    tuplets = baca.from_collections(collections, [1], 16, treatments=["7:4"])
     groups = rmakers.nongrace_leaves_in_each_tuplet(tuplets)
     rmakers.beam(groups)
     return tuplets, 28
 
 
 def make_twenty_fourths(collections):
-    tuplets = baca.make_tuplets(collections, [1], 16, treatments=["3:2"])
+    tuplets = baca.from_collections(collections, [1], 16, treatments=["3:2"])
     groups = rmakers.nongrace_leaves_in_each_tuplet(tuplets)
     rmakers.beam(groups, beam_lone_notes=True)
     return tuplets, 24
@@ -674,14 +674,14 @@ def make_waves(collections, denominator=64, inverted=False):
         if inverted:
             i += 1
         if i % 2 == 0:
-            tuplets_ = baca.make_tuplets(
+            tuplets_ = baca.from_collections(
                 [collection],
                 [1],
                 denominator,
                 treatments=["accel"],
             )
         else:
-            tuplets_ = baca.make_tuplets(
+            tuplets_ = baca.from_collections(
                 [collection],
                 [1],
                 denominator,

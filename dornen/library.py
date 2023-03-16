@@ -568,7 +568,8 @@ def make_graced_tuplets(collections):
 
 
 def make_monads(collections):
-    tuplets = baca.from_collections(collections, [1], 2, treatments=["5:4"])
+    tuplets = baca.from_collections(collections, [1], 2)
+    tuplets = [baca.prolate(_, "5:4") for _ in tuplets]
     return tuplets, 5
 
 
@@ -610,7 +611,8 @@ def make_rests(count, duration):
 
 
 def make_running(collections):
-    tuplets = baca.from_collections(collections, [1], 64, treatments=[-1])
+    tuplets = baca.from_collections(collections, [1], 64)
+    tuplets = [baca.prolate(_, -1, 64) for _ in tuplets]
     groups = rmakers.nongrace_leaves_in_each_tuplet(tuplets)
     rmakers.beam_groups(groups)
     for tuplet in _select_nontrivial_tuplets(tuplets):
@@ -634,7 +636,8 @@ def make_sixty_fourths(collections):
 
 
 def make_thirds(collections):
-    tuplets = baca.from_collections(collections, [1], 2, treatments=["3:2"])
+    tuplets = baca.from_collections(collections, [1], 2)
+    tuplets = [baca.prolate(_, "3:2") for _ in tuplets]
     return tuplets, 3
 
 
@@ -646,21 +649,24 @@ def make_thirty_seconds(collections):
 
 
 def make_twentieths(collections):
-    tuplets = baca.from_collections(collections, [1], 16, treatments=["5:4"])
+    tuplets = baca.from_collections(collections, [1], 16)
+    tuplets = [baca.prolate(_, "5:4") for _ in tuplets]
     groups = rmakers.nongrace_leaves_in_each_tuplet(tuplets)
     rmakers.beam(groups, beam_lone_notes=True)
     return tuplets, 20
 
 
 def make_twenty_eighths(collections):
-    tuplets = baca.from_collections(collections, [1], 16, treatments=["7:4"])
+    tuplets = baca.from_collections(collections, [1], 16)
+    tuplets = [baca.prolate(_, "7:4") for _ in tuplets]
     groups = rmakers.nongrace_leaves_in_each_tuplet(tuplets)
     rmakers.beam(groups)
     return tuplets, 28
 
 
 def make_twenty_fourths(collections):
-    tuplets = baca.from_collections(collections, [1], 16, treatments=["3:2"])
+    tuplets = baca.from_collections(collections, [1], 16)
+    tuplets = [baca.prolate(_, "3:2") for _ in tuplets]
     groups = rmakers.nongrace_leaves_in_each_tuplet(tuplets)
     rmakers.beam(groups, beam_lone_notes=True)
     return tuplets, 24

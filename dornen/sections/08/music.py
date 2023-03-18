@@ -1,4 +1,3 @@
-import abjad
 import baca
 
 from dornen import library
@@ -36,7 +35,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         tuplets, tsd = library.make_graced_tuplets(collections)
         time_signature = library.time_signature(tuplets, tsd)
         time_signatures.append(time_signature)
-        baca.extend_beam(abjad.select.leaf(tuplets, -1))
+        library.extend_beam(tuplets)
         label(tuplets, "G1")
         library.populate(score, library.v4, tuplets)
     with baca.scope(design[3:4]) as collections:
@@ -65,7 +64,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         time_signature = library.time_signature(tuplets, tsd)
         time_signatures.append(time_signature)
         baca.beam_positions(baca.select.pleaf(tuplets, 0), -7.5)
-        baca.extend_beam(abjad.select.leaf(tuplets, -1))
+        library.extend_beam(tuplets)
         label(tuplets, "O2")
         library.populate(score, library.v2, tuplets)
     with baca.scope(design[6:7]) as collections:
@@ -74,7 +73,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         time_signature = library.time_signature(tuplets, tsd)
         time_signatures.append(time_signature)
         baca.beam_positions(tuplets, 12)
-        baca.extend_beam(abjad.select.leaf(tuplets, -1))
+        library.extend_beam(tuplets)
         label(tuplets, "L2")
         library.populate(score, library.v1, tuplets)
     with baca.scope(design[7:8]) as collections:
@@ -82,7 +81,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         tuplets, tsd = library.make_graced_tuplets(collections)
         time_signature = library.time_signature(tuplets, tsd)
         time_signatures.append(time_signature)
-        baca.extend_beam(abjad.select.leaf(tuplets, -1))
+        library.extend_beam(tuplets)
         label(tuplets, "G3")
         library.populate(score, library.v4, tuplets)
     with baca.scope(design[8:9]) as collections:

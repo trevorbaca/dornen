@@ -32,7 +32,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         pleaves = baca.select.pleaves(tuplets)
         baca.stem_up(pleaves)
         baca.register(tuplets, 0)
-        baca.extend_beam(abjad.select.leaf(tuplets, -1))
+        library.extend_beam(tuplets)
         label(tuplets, "G1_1")
         library.populate(score, library.v4, tuplets)
     with baca.scope(design[1:2]) as collections:
@@ -43,8 +43,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         pleaf = baca.select.pleaf(tuplets, 0)
         baca.beam_positions(pleaf, -8)
         baca.register(tuplets, -14, -6)
-        leaf = abjad.select.leaf(tuplets, -1)
-        baca.extend_beam(leaf)
+        library.extend_beam(tuplets)
         label(tuplets, "O1")
         library.populate(score, library.v2, tuplets)
     with baca.scope(design[5:6]) as collections:
@@ -56,8 +55,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         pleaves = baca.select.pleaves(tuplets)
         baca.stem_up(pleaves)
         baca.register(tuplets, 0)
-        leaf = abjad.select.leaf(tuplets, -1)
-        baca.extend_beam(leaf)
+        library.extend_beam(tuplets)
         label(tuplets, "G1_1*")
         library.populate(score, library.v4, tuplets)
     with baca.scope(design[2:3]) as collections:
@@ -79,8 +77,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         pleaves = baca.select.pleaves(tuplets)
         baca.stem_up(pleaves)
         baca.register(tuplets, 0)
-        leaf = abjad.select.leaf(tuplets, -1)
-        baca.extend_beam(leaf)
+        library.extend_beam(tuplets)
         label(tuplets, "G1_2")
         library.populate(score, library.v4, tuplets)
     with baca.scope(design[3:4]) as collections:
@@ -115,8 +112,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         baca.beam_positions(tuplets, -6.5)
         pleaves = baca.select.pleaves(tuplets)
         baca.stem_down(pleaves)
-        leaf = abjad.select.leaf(tuplets, -1)
-        baca.extend_beam(leaf)
+        library.extend_beam(tuplets)
         label(tuplets, "D1_1")
         library.populate(score, library.v1, tuplets)
     with baca.scope(design[5:6]) as collections:
@@ -129,8 +125,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         pleaves = baca.select.pleaves(tuplets)
         baca.stem_up(pleaves)
         baca.register(tuplets, 0)
-        leaf = abjad.select.leaf(tuplets, -1)
-        baca.extend_beam(leaf)
+        library.extend_beam(tuplets)
         label(tuplets, "G1_4")
         library.populate(score, library.v4, tuplets)
     with baca.scope(cell_d1) as collections:
@@ -145,8 +140,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         baca.beam_positions(tuplets, -6.5)
         pleaves = baca.select.pleaves(tuplets)
         baca.stem_down(pleaves)
-        leaf = abjad.select.leaf(tuplets, -1)
-        baca.extend_beam(leaf)
+        library.extend_beam(tuplets)
         label(tuplets, "D1_2")
         library.populate(score, library.v1, tuplets)
     with baca.scope(design[5:6]) as collections:
@@ -158,8 +152,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         pleaves = baca.select.pleaves(tuplets)
         baca.stem_up(pleaves)
         baca.register(tuplets, 0)
-        leaf = abjad.select.leaf(tuplets, -1)
-        baca.extend_beam(leaf)
+        library.extend_beam(tuplets)
         label(tuplets, "G1_5")
         library.populate(score, library.v4, tuplets)
     with baca.scope(cell_d1) as collections:
@@ -184,8 +177,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         pleaf = baca.select.pleaf(tuplets, 0)
         baca.beam_positions(pleaf, -8)
         baca.register(tuplets, -14, -6)
-        leaf = abjad.select.leaf(tuplets, -1)
-        baca.extend_beam(leaf)
+        library.extend_beam(tuplets)
         label(tuplets, "O1*")
         library.populate(score, library.v2, tuplets)
     with baca.scope(design[5:6]) as collections:
@@ -197,8 +189,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         pleaves = baca.select.pleaves(tuplets)
         baca.stem_up(pleaves)
         baca.register(tuplets, 0)
-        leaf = abjad.select.leaf(tuplets, -1)
-        baca.extend_beam(leaf)
+        library.extend_beam(tuplets)
         label(tuplets, "G1_6")
         library.populate(score, library.v4, tuplets)
     with baca.scope(design[2:3]) as collections:
@@ -227,8 +218,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         baca.beam_positions(tuplets, -6.5)
         pleaves = baca.select.pleaves(tuplets)
         baca.stem_down(pleaves)
-        leaf = abjad.select.leaf(tuplets, -1)
-        baca.extend_beam(leaf)
+        library.extend_beam(tuplets)
         label(tuplets, "D1_4")
         library.populate(score, library.v1, tuplets)
     with baca.scope(design[5:6]) as collections:
@@ -241,8 +231,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         pleaves = baca.select.pleaves(tuplets)
         baca.stem_up(pleaves)
         baca.register(tuplets, 0, -14)
-        leaf = abjad.select.leaf(tuplets, -1)
-        baca.extend_beam(leaf)
+        library.extend_beam(tuplets)
         label(tuplets, "G1_7")
         library.populate(score, library.v4, tuplets)
     with baca.scope(cell_d1) as collections:
@@ -291,8 +280,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         pleaf = baca.select.pleaf(tuplets, 0)
         baca.beam_positions(pleaf, -8)
         baca.register(tuplets, -14, -6)
-        leaf = abjad.select.leaf(tuplets, -1)
-        baca.extend_beam(leaf)
+        library.extend_beam(tuplets)
         label(tuplets, "O1**")
         library.populate(score, library.v2, tuplets)
     with baca.scope(cell_d1) as collections:
@@ -343,8 +331,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         time_signatures.append(time_signature)
         baca.text_script_color(tuplets, "#red")
         baca.register(tuplets, -14, -6)
-        leaf = abjad.select.leaf(tuplets, -1)
-        baca.extend_beam(leaf)
+        library.extend_beam(tuplets)
         label(tuplets, "O2**")
         library.populate(score, library.v2, tuplets)
     with baca.scope(design[7:9]) as collections:
@@ -365,8 +352,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         pleaf = baca.select.pleaf(tuplets, 0)
         baca.beam_positions(pleaf, -8)
         baca.register(tuplets, -14, -6)
-        leaf = abjad.select.leaf(tuplets, -1)
-        baca.extend_beam(leaf)
+        library.extend_beam(tuplets)
         label(tuplets, "O4")
         library.populate(score, library.v2, tuplets)
     with baca.scope(design[11:13]) as collections:
@@ -376,8 +362,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         time_signature = library.time_signature(tuplets, tsd)
         time_signatures.append(time_signature)
         baca.register(tuplets, -14, -6)
-        leaf = abjad.select.leaf(tuplets, -1)
-        baca.extend_beam(leaf)
+        library.extend_beam(tuplets)
         label(tuplets, "O5")
         library.populate(score, library.v2, tuplets)
     with baca.scope(design[13:15]) as collections:
@@ -387,8 +372,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         time_signature = library.time_signature(tuplets, tsd)
         time_signatures.append(time_signature)
         baca.register(tuplets, -14, -6)
-        leaf = abjad.select.leaf(tuplets, -1)
-        baca.extend_beam(leaf)
+        library.extend_beam(tuplets)
         label(tuplets, "O6")
         library.populate(score, library.v2, tuplets)
     with baca.scope(design[15:17]) as collections:
@@ -409,8 +393,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         pleaf = baca.select.pleaf(tuplets, 0)
         baca.beam_positions(pleaf, -8)
         baca.register(tuplets, -14, -6)
-        leaf = abjad.select.leaf(tuplets, -1)
-        baca.extend_beam(leaf)
+        library.extend_beam(tuplets)
         label(tuplets, "O8")
         library.populate(score, library.v2, tuplets)
     with baca.scope(design[2:3]) as collections:
@@ -445,7 +428,6 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         time_signature = library.time_signature(tuplets, tsd)
         time_signatures.append(time_signature)
         baca.register(tuplets, -14, -6)
-        # baca.extend_beam(abjad.select.leaf(tuplets, -1))
         label(tuplets, "O9")
         library.populate(score, library.v2, tuplets)
     with baca.scope(design[21:22]) as collections:

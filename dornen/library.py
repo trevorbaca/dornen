@@ -471,6 +471,10 @@ def design_3(start=None, stop=None):
     return pitch_lists
 
 
+def extend_beam(components):
+    baca.extend_beam(abjad.select.leaf(components, -1))
+
+
 def group_rleaves(argument):
     result = baca.select.rleaves(argument)
     result = abjad.select.group(result)

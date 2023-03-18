@@ -1,4 +1,3 @@
-import abjad
 import baca
 
 from dornen import library
@@ -21,7 +20,7 @@ def make_empty_score():
         time_signatures.append(time_signature)
         baca.beam_positions(tuplets, 6)
         baca.register(tuplets, -8)
-        baca.extend_beam(abjad.select.leaf(tuplets, -1))
+        library.extend_beam(tuplets)
         label(tuplets, "0")
         library.populate(score, library.v1, tuplets)
     with cursor([[6, 2, 3, 5, 9, 8, 0]]) as collection:
@@ -31,7 +30,7 @@ def make_empty_score():
         baca.beam_positions(baca.select.leaves(tuplets, grace=False), -10)
         baca.time_signature_extra_offset(baca.select.hleaf(tuplets, 0), (-2.5, 0))
         baca.register(tuplets, -10)
-        baca.extend_beam(abjad.select.leaf(tuplets, -1))
+        library.extend_beam(tuplets)
         label(tuplets, "1")
         library.populate(score, library.v2, tuplets)
     with cursor([[11]]) as collection:
@@ -39,7 +38,7 @@ def make_empty_score():
         time_signature = library.time_signature(tuplets, tsd)
         time_signatures.append(time_signature)
         baca.register(tuplets, -10),
-        baca.extend_beam(abjad.select.leaf(tuplets, -1))
+        library.extend_beam(tuplets)
         label(tuplets, "2")
         library.populate(score, library.v1, tuplets)
     with cursor([[10, 7, 9, 8, 0, 5]]) as collection:
@@ -48,7 +47,7 @@ def make_empty_score():
         time_signatures.append(time_signature)
         baca.time_signature_extra_offset(baca.select.hleaf(tuplets, 0), (-2.5, 0))
         baca.register(tuplets, -8),
-        baca.extend_beam(abjad.select.leaf(tuplets, -1))
+        library.extend_beam(tuplets)
         label(tuplets, "3")
         library.populate(score, library.v2, tuplets)
     with cursor([[10, 7]]) as collection:
@@ -72,7 +71,7 @@ def make_empty_score():
         time_signatures.append(time_signature)
         baca.beam_positions(baca.select.leaves(tuplets, grace=False), 9)
         baca.register(tuplets, -14)
-        baca.extend_beam(abjad.select.leaf(tuplets, -1))
+        library.extend_beam(tuplets)
         label(tuplets, "6")
         library.populate(score, library.v1, tuplets)
     with cursor([[10, 2, 3, 4, 6]]) as collection:
@@ -82,7 +81,7 @@ def make_empty_score():
         baca.beam_positions(baca.select.leaves(tuplets, grace=False), -10)
         baca.time_signature_extra_offset(baca.select.hleaf(tuplets, 0), (-2.5, 0))
         baca.register(tuplets, -4)
-        baca.extend_beam(abjad.select.leaf(tuplets, -1))
+        library.extend_beam(tuplets)
         label(tuplets, "7")
         library.populate(score, library.v2, tuplets)
     with cursor([[8, 0, 5, 9], [3, 4, 6, 2]], n=2) as collection:
@@ -114,7 +113,7 @@ def make_empty_score():
         time_signatures.append(time_signature)
         baca.beam_positions(baca.select.leaves(tuplets, grace=False), 6)
         baca.register(tuplets, -18)
-        baca.extend_beam(abjad.select.leaf(tuplets, -1))
+        library.extend_beam(tuplets)
         label(tuplets, "11")
         library.populate(score, library.v1, tuplets)
     with cursor([[9, 1, 11, 8, 0, 5, 7, 3, 4]]) as collection:
@@ -139,7 +138,7 @@ def make_empty_score():
         baca.beam_positions(baca.select.leaves(tuplets, grace=False), -10)
         baca.time_signature_extra_offset(baca.select.hleaf(tuplets, 0), (-2.5, 0))
         baca.register(tuplets, 0)
-        baca.extend_beam(abjad.select.leaf(tuplets, -1))
+        library.extend_beam(tuplets)
         label(tuplets, "14")
         library.populate(score, library.v2, tuplets)
     with cursor([[3, 4, 5, 7]]) as collection:

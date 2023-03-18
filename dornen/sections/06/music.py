@@ -10,15 +10,13 @@ from dornen import library
 
 def make_empty_score(first_measure_number, previous_persistent_indicators):
     score = library.make_empty_score()
-    label = library.Labeler()
-    time_signatures = []
+    label, tracker = library.Labeler(), library.TimeSignatureTracker()
     design = library.design_3(start=10, stop=30)
     assert len(design) == 20
     with baca.scope(design[:1]) as collections:
         assert collections == [[10, 0]]
         tuplets, tsd = library.make_forty_eighths(collections)
-        time_signature = library.time_signature(tuplets, tsd)
-        time_signatures.append(time_signature)
+        tracker(tuplets, tsd)
         baca.tenuto(baca.select.pheads(tuplets))
         baca.beam_positions(tuplets, 10)
         baca.register(tuplets, -12)
@@ -28,16 +26,14 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     with baca.scope(design[1:2]) as collections:
         assert collections == [[5]]
         tuplets, tsd = library.make_sixteenths(collections)
-        time_signature = library.time_signature(tuplets, tsd)
-        time_signatures.append(time_signature)
+        tracker(tuplets, tsd)
         library.extend_beam(tuplets)
         label(tuplets, "16_1")
         library.populate(score, library.v3, tuplets)
     with baca.scope(design[2:5]) as collections:
         assert collections == [[9, 11, 0, 5, 9, 11], [10, 1, 3, 6, 7], [8, 2, 3, 6]]
         tuplets, tsd = library.make_running(collections)
-        time_signature = library.time_signature(tuplets, tsd)
-        time_signatures.append(time_signature)
+        tracker(tuplets, tsd)
         baca.register(tuplets, -14, 0)
         library.extend_beam(tuplets)
         label(tuplets, "R1")
@@ -45,15 +41,13 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     with baca.scope(design[5:6]) as collections:
         assert collections == [[7, 8, 2]]
         tuplets, tsd = library.make_twentieths(collections)
-        time_signature = library.time_signature(tuplets, tsd)
-        time_signatures.append(time_signature)
+        tracker(tuplets, tsd)
         label(tuplets, "20_1")
         library.populate(score, library.v4, tuplets)
     with baca.scope(design[6:7]) as collections:
         assert collections == [[1, 5]]
         tuplets, tsd = library.make_forty_eighths(collections)
-        time_signature = library.time_signature(tuplets, tsd)
-        time_signatures.append(time_signature)
+        tracker(tuplets, tsd)
         baca.tenuto(baca.select.pheads(tuplets))
         baca.register(tuplets, -12)
         label(tuplets, "48_2")
@@ -61,20 +55,17 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
     with baca.scope(design[7:8]) as collections:
         assert collections == [[9]]
         tuplets, tsd = library.make_sixteenths(collections)
-        time_signature = library.time_signature(tuplets, tsd)
-        time_signatures.append(time_signature)
+        tracker(tuplets, tsd)
         label(tuplets, "16_2")
         library.populate(score, library.v3, tuplets)
     with baca.scope(design[8:9]) as collections:
         assert collections == [[11, 10, 0]]
         tuplets, tsd = library.make_twentieths(collections)
-        time_signature = library.time_signature(tuplets, tsd)
-        time_signatures.append(time_signature)
+        tracker(tuplets, tsd)
         label(tuplets, "20_2")
         library.populate(score, library.v4, tuplets)
     tuplets, tsd = library.make_rests(3, (1, 8))
-    time_signature = library.time_signature(tuplets, tsd)
-    time_signatures.append(time_signature)
+    tracker(tuplets, tsd)
     baca.markup(
         abjad.select.leaf(tuplets, 0),
         r"\dornen-raise-string-two-one-quartertone-markup",
@@ -90,8 +81,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         collections = abjad.sequence.repeat(collections, 10)
         collections = abjad.sequence.flatten(collections)
         tuplets, tsd = library.make_sixty_fourths(collections)
-        time_signature = library.time_signature(tuplets, tsd)
-        time_signatures.append(time_signature)
+        tracker(tuplets, tsd)
         baca.register(tuplets, 0)
         label(tuplets, "D1")
         library.populate(score, library.v1, tuplets)
@@ -104,8 +94,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         collections = abjad.sequence.repeat(collections, 10)
         collections = abjad.sequence.flatten(collections)
         tuplets, tsd = library.make_sixty_fourths(collections)
-        time_signature = library.time_signature(tuplets, tsd)
-        time_signatures.append(time_signature)
+        tracker(tuplets, tsd)
         baca.register(tuplets, 0)
         label(tuplets, "D2")
         library.populate(score, library.v1, tuplets)
@@ -118,8 +107,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         collections = abjad.sequence.repeat(collections, 10)
         collections = abjad.sequence.flatten(collections)
         tuplets, tsd = library.make_sixty_fourths(collections)
-        time_signature = library.time_signature(tuplets, tsd)
-        time_signatures.append(time_signature)
+        tracker(tuplets, tsd)
         baca.register(tuplets, 0)
         label(tuplets, "D3")
         library.populate(score, library.v1, tuplets)
@@ -132,8 +120,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         collections = abjad.sequence.repeat(collections, 10)
         collections = abjad.sequence.flatten(collections)
         tuplets, tsd = library.make_sixty_fourths(collections)
-        time_signature = library.time_signature(tuplets, tsd)
-        time_signatures.append(time_signature)
+        tracker(tuplets, tsd)
         baca.register(tuplets, 0)
         label(tuplets, "D4")
         library.populate(score, library.v1, tuplets)
@@ -144,13 +131,12 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         )
         collections_ = baca.sequence.boustrophedon(collections, count=4)
         tuplets, tsd = library.make_sixty_fourths(collections_)
-        time_signature = library.time_signature(tuplets, tsd)
-        time_signatures.append(time_signature)
+        tracker(tuplets, tsd)
         baca.register(tuplets, 0)
         label(tuplets, "D5")
         library.populate(score, library.v1, tuplets)
     voices = baca.section.cache_voices(score, library.voice_abbreviations)
-    time_signatures = baca.section.time_signatures(time_signatures)
+    time_signatures = baca.section.time_signatures(tracker.time_signatures)
     baca.section.set_up_score(
         score,
         time_signatures(),

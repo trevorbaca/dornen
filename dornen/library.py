@@ -375,12 +375,26 @@ class DesignMaker:
         self._result.extend(parts)
 
 
-@dataclasses.dataclass(order=True, slots=True, unsafe_hash=True)
+@dataclasses.dataclass
 class Labeler:
     figure_number: int = 1
 
     def __call__(self, components, string):
         baca.label_figure(components, string, self)
+
+
+class TimeSignatureTracker:
+    def __init__(self):
+        self.time_signatures = []
+
+    def __call__(self, tuplets, tsd):
+        duration = abjad.get.duration(tuplets)
+        if tsd is not None:
+            pair = abjad.duration.with_denominator(duration, tsd)
+        else:
+            pair = duration.pair
+        time_signature = abjad.TimeSignature(pair)
+        self.time_signatures.append(time_signature)
 
 
 def design_1(start=None, stop=None):

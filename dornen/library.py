@@ -1,3 +1,4 @@
+import dataclasses
 import inspect
 
 import abjad
@@ -372,6 +373,14 @@ class DesignMaker:
         )
         parts = [abjad.PitchClassSegment(_) for _ in parts]
         self._result.extend(parts)
+
+
+@dataclasses.dataclass(order=True, slots=True, unsafe_hash=True)
+class Labeler:
+    figure_number: int = 1
+
+    def __call__(self, components, string):
+        baca.label_figure(components, string, self)
 
 
 def design_1(start=None, stop=None):

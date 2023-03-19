@@ -497,8 +497,7 @@ def group_rleaves(argument):
 
 def make_delicatissimo(collections):
     tuplets = [baca.container_from_collection(_, [1], 32) for _ in collections]
-    groups = [abjad.select.leaves(_, grace=False) for _ in tuplets]
-    rmakers.beam_groups(groups)
+    rmakers.beam_groups(tuplets)
     pheads = baca.select.pheads(tuplets)
     baca.staccato(pheads)
     return tuplets, 32
@@ -506,8 +505,7 @@ def make_delicatissimo(collections):
 
 def make_dotted_eighths(collections):
     tuplets = [baca.container_from_collection(_, [3], 16) for _ in collections]
-    groups = [abjad.select.leaves(_, grace=False) for _ in tuplets]
-    rmakers.beam(groups, beam_lone_notes=True)
+    rmakers.beam(tuplets, beam_lone_notes=True)
     return tuplets, 8
 
 
@@ -559,8 +557,7 @@ def make_empty_score():
 
 def make_forty_eighths(collections):
     tuplets = [baca.container_from_collection(_, [3], 64) for _ in collections]
-    groups = [abjad.select.leaves(_, grace=False) for _ in tuplets]
-    rmakers.beam(groups)
+    rmakers.beam(tuplets)
     return tuplets, 32
 
 
@@ -569,8 +566,7 @@ def make_glissando_scatto(collections):
     for collection in collections:
         tuplet = baca.from_collection(collection, [2, 2, 2, 1, 2, 2, 2], 32, -2)
         tuplets.append(tuplet)
-    groups = [abjad.select.leaves(_, grace=False) for _ in tuplets]
-    rmakers.beam_groups(groups)
+    rmakers.beam_groups(tuplets)
     for ntrun in baca.select.ntruns(tuplets):
         baca.glissando(ntrun)
     return tuplets, 16
@@ -643,8 +639,7 @@ def make_running(collections):
     for collection in collections:
         tuplet = baca.from_collection(collection, [1], 64, -1)
         tuplets.append(tuplet)
-    groups = [abjad.select.leaves(_, grace=False) for _ in tuplets]
-    rmakers.beam_groups(groups)
+    rmakers.beam_groups(tuplets)
     for tuplet in _select_nontrivial_tuplets(tuplets):
         baca.slur(tuplet)
     return tuplets, None
@@ -652,15 +647,13 @@ def make_running(collections):
 
 def make_sixteenths(collections):
     tuplets = [baca.container_from_collection(_, [1], 16) for _ in collections]
-    groups = [abjad.select.leaves(_, grace=False) for _ in tuplets]
-    rmakers.beam(groups, beam_lone_notes=True)
+    rmakers.beam(tuplets, beam_lone_notes=True)
     return tuplets, 16
 
 
 def make_sixty_fourths(collections):
     tuplets = [baca.container_from_collection(_, [1], 64) for _ in collections]
-    groups = [abjad.select.leaves(_, grace=False) for _ in tuplets]
-    rmakers.beam_groups(groups)
+    rmakers.beam_groups(tuplets)
     baca.staccato(baca.select.pheads(tuplets))
     return tuplets, 64
 
@@ -675,8 +668,7 @@ def make_thirds(collections):
 
 def make_thirty_seconds(collections):
     tuplets = [baca.container_from_collection(_, [1], 32) for _ in collections]
-    groups = [abjad.select.leaves(_, grace=False) for _ in tuplets]
-    rmakers.beam_groups(groups)
+    rmakers.beam_groups(tuplets)
     return tuplets, 32
 
 
@@ -685,8 +677,7 @@ def make_twentieths(collections):
     for collection in collections:
         tuplet = baca.from_collection(collection, [1], 16, "5:4")
         tuplets.append(tuplet)
-    groups = [abjad.select.leaves(_, grace=False) for _ in tuplets]
-    rmakers.beam(groups, beam_lone_notes=True)
+    rmakers.beam(tuplets, beam_lone_notes=True)
     return tuplets, 20
 
 
@@ -695,8 +686,7 @@ def make_twenty_eighths(collections):
     for collection in collections:
         tuplet = baca.from_collection(collection, [1], 16, "7:4")
         tuplets.append(tuplet)
-    groups = [abjad.select.leaves(_, grace=False) for _ in tuplets]
-    rmakers.beam(groups)
+    rmakers.beam(tuplets)
     return tuplets, 28
 
 
@@ -705,8 +695,7 @@ def make_twenty_fourths(collections):
     for collection in collections:
         tuplet = baca.from_collection(collection, [1], 16, "3:2")
         tuplets.append(tuplet)
-    groups = [abjad.select.leaves(_, grace=False) for _ in tuplets]
-    rmakers.beam(groups, beam_lone_notes=True)
+    rmakers.beam(tuplets, beam_lone_notes=True)
     return tuplets, 24
 
 
@@ -723,8 +712,7 @@ def make_waves(collections, denominator=64, inverted=False):
             treatment = "rit"
         tuplet = baca.from_collection(collection, [1], denominator, treatment)
         tuplets.append(tuplet)
-    groups = [abjad.select.leaves(_, grace=False) for _ in tuplets]
-    rmakers.beam(groups)
+    rmakers.beam(tuplets)
     return tuplets, denominator
 
 

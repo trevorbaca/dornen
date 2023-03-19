@@ -13,8 +13,8 @@ def make_empty_score():
     design = library.design_1(stop=22)
     assert len(design) == 22
     cursor = baca.Cursor(design)
-    with cursor([[4]]) as collection:
-        tuplets, tsd = library.make_dotted_eighths(collection)
+    with cursor([[4]]) as collections:
+        tuplets, tsd = library.make_dotted_eighths(collections[0])
         tracker(tuplets, tsd)
         baca.beam_positions(tuplets, 6)
         baca.register(tuplets, -8)
@@ -30,8 +30,8 @@ def make_empty_score():
         library.extend_beam(tuplets)
         label(tuplets, "1")
         library.populate(score, library.v2, tuplets)
-    with cursor([[11]]) as collection:
-        tuplets, tsd = library.make_dotted_eighths(collection)
+    with cursor([[11]]) as collections:
+        tuplets, tsd = library.make_dotted_eighths(collections[0])
         tracker(tuplets, tsd)
         baca.register(tuplets, -10),
         library.extend_beam(tuplets)
@@ -45,8 +45,8 @@ def make_empty_score():
         library.extend_beam(tuplets)
         label(tuplets, "3")
         library.populate(score, library.v2, tuplets)
-    with cursor([[10, 7]]) as collection:
-        tuplets, tsd = library.make_dotted_eighths(collection)
+    with cursor([[10, 7]]) as collections:
+        tuplets, tsd = library.make_dotted_eighths(collections[0])
         tracker(tuplets, tsd)
         baca.register(tuplets, -12)
         label(tuplets, "4")
@@ -58,8 +58,8 @@ def make_empty_score():
         baca.register(tuplets, -6)
         label(tuplets, "5")
         library.populate(score, library.v2, tuplets)
-    with cursor([[7, 11]]) as collection:
-        tuplets, tsd = library.make_dotted_eighths(collection)
+    with cursor([[7, 11]]) as collections:
+        tuplets, tsd = library.make_dotted_eighths(collections[0])
         tracker(tuplets, tsd)
         baca.beam_positions(baca.select.leaves(tuplets, grace=False), 9)
         baca.register(tuplets, -14)
@@ -81,8 +81,8 @@ def make_empty_score():
         baca.register(tuplets, -12)
         label(tuplets, "8")
         library.populate(score, library.v4, tuplets)
-    with cursor([[0, 5, 9, 8]]) as collection:
-        tuplets, tsd = library.make_dotted_eighths(collection)
+    with cursor([[0, 5, 9, 8]]) as collections:
+        tuplets, tsd = library.make_dotted_eighths(collections[0])
         tracker(tuplets, tsd)
         baca.register(tuplets, -16)
         label(tuplets, "9")
@@ -95,8 +95,8 @@ def make_empty_score():
         baca.register(tuplets, -6)
         label(tuplets, "10")
         library.populate(score, library.v4, tuplets)
-    with cursor([[6, 10]]) as collection:
-        tuplets, tsd = library.make_dotted_eighths(collection)
+    with cursor([[6, 10]]) as collections:
+        tuplets, tsd = library.make_dotted_eighths(collections[0])
         tracker(tuplets, tsd)
         baca.beam_positions(baca.select.leaves(tuplets, grace=False), 6)
         baca.register(tuplets, -18)
@@ -110,8 +110,8 @@ def make_empty_score():
         baca.register(tuplets, -2)
         label(tuplets, "12")
         library.populate(score, library.v2, tuplets)
-    with cursor([[8, 0]]) as collection:
-        tuplets, tsd = library.make_dotted_eighths(collection)
+    with cursor([[8, 0]]) as collections:
+        tuplets, tsd = library.make_dotted_eighths(collections[0])
         tracker(tuplets, tsd)
         baca.register(tuplets, -20)
         label(tuplets, "13")

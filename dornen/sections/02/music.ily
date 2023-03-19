@@ -1161,7 +1161,6 @@ number.2.Guitar.Music.1 = {
     % [Guitar.Music.1 measure 12]
     s1 * 1/20
 
-    \scaleDurations #'(1 . 1)
     {
 
         % [Guitar.Music.1 measure 13]
@@ -1287,7 +1286,6 @@ number.2.Guitar.Music.1 = {
     % [Guitar.Music.1 measure 14]
     s1 * 1/10
 
-    \scaleDurations #'(1 . 1)
     {
 
         % [Guitar.Music.1 measure 15]

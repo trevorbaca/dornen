@@ -1214,7 +1214,6 @@ number.3.Guitar.Music.1 = {
     % [Guitar.Music.1 measure 8]
     s1 * 1/7
 
-    \scaleDurations #'(1 . 1)
     {
 
         % [Guitar.Music.1 measure 9]
@@ -1252,7 +1251,6 @@ number.3.Guitar.Music.1 = {
     % [Guitar.Music.1 measure 10]
     s1 * 1/14
 
-    \scaleDurations #'(1 . 1)
     {
 
         % [Guitar.Music.1 measure 11]
@@ -1284,7 +1282,6 @@ number.3.Guitar.Music.1 = {
     % [Guitar.Music.1 measure 12]
     s1 * 3/14
 
-    \scaleDurations #'(1 . 1)
     {
 
         % [Guitar.Music.1 measure 13]
@@ -1426,7 +1423,6 @@ number.3.Guitar.Music.1 = {
     }
     \revert TupletNumber.text
 
-    \scaleDurations #'(1 . 1)
     {
 
         % [Guitar.Music.1 measure 17]
@@ -1519,7 +1515,6 @@ number.3.Guitar.Music.1 = {
     % [Guitar.Music.1 measure 18]
     s1 * 5/14
 
-    \scaleDurations #'(1 . 1)
     {
 
         % [Guitar.Music.1 measure 19]
@@ -1573,7 +1568,6 @@ number.3.Guitar.Music.1 = {
     % [Guitar.Music.1 measure 22]
     s1 * 7/32
 
-    \scaleDurations #'(1 . 1)
     {
 
         % [Guitar.Music.1 measure 23]
@@ -1642,7 +1636,6 @@ number.3.Guitar.Music.1 = {
     \times 2/3
     {
 
-        \scaleDurations #'(1 . 1)
         {
 
             % [Guitar.Music.1 measure 24]
@@ -1737,7 +1730,6 @@ number.3.Guitar.Music.1 = {
 
     }
 
-    \scaleDurations #'(1 . 1)
     {
 
         % [Guitar.Music.1 measure 25]
@@ -1925,7 +1917,6 @@ number.3.Guitar.Music.1 = {
     }
     \revert TupletNumber.text
 
-    \scaleDurations #'(1 . 1)
     {
 
         % [Guitar.Music.1 measure 34]

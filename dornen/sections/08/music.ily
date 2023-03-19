@@ -669,7 +669,6 @@ number.8.Guitar.Music.3 = {
     % [Guitar.Music.3 measure 3]
     s1 * 1/7
 
-    \scaleDurations #'(1 . 1)
     {
 
         % [Guitar.Music.3 measure 4]
@@ -805,7 +804,6 @@ number.8.Guitar.Music.3 = {
     % [Guitar.Music.3 measure 8]
     s1 * 1/7
 
-    \scaleDurations #'(1 . 1)
     {
 
         % [Guitar.Music.3 measure 9]

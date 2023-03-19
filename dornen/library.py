@@ -496,7 +496,7 @@ def group_rleaves(argument):
 
 
 def make_delicatissimo(collections):
-    tuplets = [baca.from_collection(_, [1], 32) for _ in collections]
+    tuplets = [baca.container_from_collection(_, [1], 32) for _ in collections]
     groups = [abjad.select.leaves(_, grace=False) for _ in tuplets]
     rmakers.beam_groups(groups)
     pheads = baca.select.pheads(tuplets)
@@ -736,12 +736,12 @@ def make_waves(collections, denominator=64, inverted=False):
     return tuplets, denominator
 
 
-def populate(score, voice_name, tuplets):
-    assert isinstance(tuplets, list), repr(tuplets)
-    assert all(isinstance(_, abjad.Tuplet) for _ in tuplets), repr(tuplets)
-    duration = abjad.get.duration(tuplets)
+def populate(score, voice_name, containers):
+    assert isinstance(containers, list), repr(containers)
+    assert all(isinstance(_, abjad.Container) for _ in containers), repr(containers)
+    duration = abjad.get.duration(containers)
     voice = score[voice_name]
-    voice.extend(tuplets)
+    voice.extend(containers)
     other_voice_names = {v1, v2, v3, v4} - {voice_name}
     for other_voice_name in sorted(other_voice_names):
         voice = score[other_voice_name]

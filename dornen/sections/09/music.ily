@@ -537,7 +537,6 @@ number.9.Rests = {
 
 number.9.Guitar.Music.1 = {
 
-    \scaleDurations #'(1 . 1)
     {
 
         % [Guitar.Music.1 measure 1]
@@ -591,7 +590,6 @@ number.9.Guitar.Music.1 = {
 
     }
 
-    \scaleDurations #'(1 . 1)
     {
 
         % [Guitar.Music.1 measure 2]
@@ -634,7 +632,6 @@ number.9.Guitar.Music.1 = {
     % [Guitar.Music.1 measure 3]
     s1 * 3/16
 
-    \scaleDurations #'(1 . 1)
     {
 
         % [Guitar.Music.1 measure 4]
@@ -674,7 +671,6 @@ number.9.Guitar.Music.1 = {
 
     }
 
-    \scaleDurations #'(1 . 1)
     {
 
         % [Guitar.Music.1 measure 5]

@@ -3061,7 +3061,6 @@ number.13.Guitar.Music.1 = {
 
     }
 
-    \scaleDurations #'(1 . 1)
     {
 
         % [Guitar.Music.1 measure 46]

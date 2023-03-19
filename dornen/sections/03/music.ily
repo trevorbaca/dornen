@@ -2029,7 +2029,6 @@ number.3.Guitar.Music.2 = {
     % [Guitar.Music.2 measure 2]
     s1 * 1/14
 
-    \scaleDurations #'(1 . 1)
     {
 
         % [Guitar.Music.2 measure 3]
@@ -2068,7 +2067,6 @@ number.3.Guitar.Music.2 = {
     % [Guitar.Music.2 measure 6]
     s1 * 1/7
 
-    \scaleDurations #'(1 . 1)
     {
 
         % [Guitar.Music.2 measure 7]
@@ -2117,7 +2115,6 @@ number.3.Guitar.Music.2 = {
     % [Guitar.Music.2 measure 13]
     s1 * 5/16
 
-    \scaleDurations #'(1 . 1)
     {
 
         % [Guitar.Music.2 measure 14]
@@ -2162,7 +2159,6 @@ number.3.Guitar.Music.2 = {
     % [Guitar.Music.2 measure 19]
     s1 * 3/16
 
-    \scaleDurations #'(1 . 1)
     {
 
         % [Guitar.Music.2 measure 20]
@@ -2196,7 +2192,6 @@ number.3.Guitar.Music.2 = {
     % [Guitar.Music.2 measure 21]
     s1 * 13/16
 
-    \scaleDurations #'(1 . 1)
     {
 
         % [Guitar.Music.2 measure 22]
@@ -2235,7 +2230,6 @@ number.3.Guitar.Music.2 = {
     % [Guitar.Music.2 measure 25]
     s1 * 1/2
 
-    \scaleDurations #'(1 . 1)
     {
 
         % [Guitar.Music.2 measure 26]
@@ -2265,7 +2259,6 @@ number.3.Guitar.Music.2 = {
 
     }
 
-    \scaleDurations #'(1 . 1)
     {
 
         % [Guitar.Music.2 measure 27]
@@ -2294,7 +2287,6 @@ number.3.Guitar.Music.2 = {
 
     }
 
-    \scaleDurations #'(1 . 1)
     {
 
         % [Guitar.Music.2 measure 28]
@@ -2324,7 +2316,6 @@ number.3.Guitar.Music.2 = {
 
     }
 
-    \scaleDurations #'(1 . 1)
     {
 
         % [Guitar.Music.2 measure 29]
@@ -2352,7 +2343,6 @@ number.3.Guitar.Music.2 = {
 
     }
 
-    \scaleDurations #'(1 . 1)
     {
 
         % [Guitar.Music.2 measure 30]
@@ -2380,7 +2370,6 @@ number.3.Guitar.Music.2 = {
 
     }
 
-    \scaleDurations #'(1 . 1)
     {
 
         % [Guitar.Music.2 measure 31]
@@ -2409,7 +2398,6 @@ number.3.Guitar.Music.2 = {
 
     }
 
-    \scaleDurations #'(1 . 1)
     {
 
         % [Guitar.Music.2 measure 32]
@@ -2445,7 +2433,6 @@ number.3.Guitar.Music.2 = {
     % [Guitar.Music.2 measure 34]
     s1 * 1/2
 
-    \scaleDurations #'(1 . 1)
     {
 
         % [Guitar.Music.2 measure 35]
@@ -2474,7 +2461,6 @@ number.3.Guitar.Music.2 = {
 
     }
 
-    \scaleDurations #'(1 . 1)
     {
 
         % [Guitar.Music.2 measure 36]

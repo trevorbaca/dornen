@@ -742,7 +742,6 @@ number.9.Guitar.Music.1 = {
     s1 * 11/16
     \revert Beam.positions
 
-    \scaleDurations #'(1 . 1)
     {
 
         % [Guitar.Music.1 measure 9]
@@ -780,7 +779,6 @@ number.9.Guitar.Music.1 = {
     % [Guitar.Music.1 measure 11]
     s1 * 15/64
 
-    \scaleDurations #'(1 . 1)
     {
 
         % [Guitar.Music.1 measure 12]
@@ -816,7 +814,6 @@ number.9.Guitar.Music.1 = {
     % [Guitar.Music.1 measure 14]
     s1 * 9/32
 
-    \scaleDurations #'(1 . 1)
     {
 
         % [Guitar.Music.1 measure 15]
@@ -1008,7 +1005,6 @@ number.9.Guitar.Music.2 = {
 
     }
 
-    \scaleDurations #'(1 . 1)
     {
 
         % [Guitar.Music.2 measure 11]
@@ -1062,7 +1058,6 @@ number.9.Guitar.Music.2 = {
 
     }
 
-    \scaleDurations #'(1 . 1)
     {
 
         % [Guitar.Music.2 measure 14]

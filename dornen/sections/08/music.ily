@@ -530,7 +530,6 @@ number.8.Guitar.Music.1 = {
 
 number.8.Guitar.Music.2 = {
 
-    \scaleDurations #'(1 . 1)
     {
 
         % [Guitar.Music.2 measure 1]
@@ -573,7 +572,6 @@ number.8.Guitar.Music.2 = {
     % [Guitar.Music.2 measure 5]
     s1 * 6/7
 
-    \scaleDurations #'(1 . 1)
     {
 
         % [Guitar.Music.2 measure 6]
@@ -619,7 +617,6 @@ number.8.Guitar.Music.2 = {
     % [Guitar.Music.2 measure 10]
     s1 * 2/7
 
-    \scaleDurations #'(1 . 1)
     {
 
         % [Guitar.Music.2 measure 11]

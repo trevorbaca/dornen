@@ -1248,7 +1248,6 @@ number.14.Rests = {
 
 number.14.Guitar.Music.1 = {
 
-    \scaleDurations #'(1 . 1)
     {
 
         % [Guitar.Music.1 measure 1]
@@ -1298,7 +1297,6 @@ number.14.Guitar.Music.1 = {
     % [Guitar.Music.1 measure 5]
     s1 * 1/8
 
-    \scaleDurations #'(1 . 1)
     {
 
         % [Guitar.Music.1 measure 6]
@@ -1317,7 +1315,6 @@ number.14.Guitar.Music.1 = {
 
     }
 
-    \scaleDurations #'(1 . 1)
     {
 
         % [Guitar.Music.1 measure 7]
@@ -1329,7 +1326,6 @@ number.14.Guitar.Music.1 = {
 
     }
 
-    \scaleDurations #'(1 . 1)
     {
 
         % [Guitar.Music.1 measure 8]
@@ -1361,7 +1357,6 @@ number.14.Guitar.Music.1 = {
     % [Guitar.Music.1 measure 12]
     s1 * 1/8
 
-    \scaleDurations #'(1 . 1)
     {
 
         % [Guitar.Music.1 measure 13]
@@ -1380,7 +1375,6 @@ number.14.Guitar.Music.1 = {
 
     }
 
-    \scaleDurations #'(1 . 1)
     {
 
         % [Guitar.Music.1 measure 14]
@@ -1392,7 +1386,6 @@ number.14.Guitar.Music.1 = {
 
     }
 
-    \scaleDurations #'(1 . 1)
     {
 
         % [Guitar.Music.1 measure 15]
@@ -1424,7 +1417,6 @@ number.14.Guitar.Music.1 = {
     % [Guitar.Music.1 measure 19]
     s1 * 1/8
 
-    \scaleDurations #'(1 . 1)
     {
 
         % [Guitar.Music.1 measure 20]
@@ -1443,7 +1435,6 @@ number.14.Guitar.Music.1 = {
 
     }
 
-    \scaleDurations #'(1 . 1)
     {
 
         % [Guitar.Music.1 measure 21]
@@ -1455,7 +1446,6 @@ number.14.Guitar.Music.1 = {
 
     }
 
-    \scaleDurations #'(1 . 1)
     {
 
         % [Guitar.Music.1 measure 22]
@@ -1486,7 +1476,6 @@ number.14.Guitar.Music.1 = {
     % [Guitar.Music.1 measure 26]
     s1 * 1/8
 
-    \scaleDurations #'(1 . 1)
     {
 
         % [Guitar.Music.1 measure 27]
@@ -1505,7 +1494,6 @@ number.14.Guitar.Music.1 = {
 
     }
 
-    \scaleDurations #'(1 . 1)
     {
 
         % [Guitar.Music.1 measure 28]
@@ -1517,7 +1505,6 @@ number.14.Guitar.Music.1 = {
 
     }
 
-    \scaleDurations #'(1 . 1)
     {
 
         % [Guitar.Music.1 measure 29]
@@ -1548,7 +1535,6 @@ number.14.Guitar.Music.1 = {
     % [Guitar.Music.1 measure 33]
     s1 * 1/8
 
-    \scaleDurations #'(1 . 1)
     {
 
         % [Guitar.Music.1 measure 34]
@@ -1567,7 +1553,6 @@ number.14.Guitar.Music.1 = {
 
     }
 
-    \scaleDurations #'(1 . 1)
     {
 
         % [Guitar.Music.1 measure 35]
@@ -1579,7 +1564,6 @@ number.14.Guitar.Music.1 = {
 
     }
 
-    \scaleDurations #'(1 . 1)
     {
 
         % [Guitar.Music.1 measure 36]
@@ -1606,7 +1590,6 @@ number.14.Guitar.Music.1 = {
     % [Guitar.Music.1 measure 39]
     s1 * 3/20
 
-    \scaleDurations #'(1 . 1)
     {
 
         % [Guitar.Music.1 measure 40]
@@ -1742,7 +1725,6 @@ number.14.Guitar.Music.2 = {
     % [Guitar.Music.2 measure 4]
     s1 * 3/20
 
-    \scaleDurations #'(1 . 1)
     {
 
         % [Guitar.Music.2 measure 5]
@@ -1792,7 +1774,6 @@ number.14.Guitar.Music.2 = {
     % [Guitar.Music.2 measure 11]
     s1 * 3/20
 
-    \scaleDurations #'(1 . 1)
     {
 
         % [Guitar.Music.2 measure 12]
@@ -1842,7 +1823,6 @@ number.14.Guitar.Music.2 = {
     % [Guitar.Music.2 measure 18]
     s1 * 3/20
 
-    \scaleDurations #'(1 . 1)
     {
 
         % [Guitar.Music.2 measure 19]
@@ -1892,7 +1872,6 @@ number.14.Guitar.Music.2 = {
     % [Guitar.Music.2 measure 25]
     s1 * 3/20
 
-    \scaleDurations #'(1 . 1)
     {
 
         % [Guitar.Music.2 measure 26]
@@ -1942,7 +1921,6 @@ number.14.Guitar.Music.2 = {
     % [Guitar.Music.2 measure 32]
     s1 * 3/20
 
-    \scaleDurations #'(1 . 1)
     {
 
         % [Guitar.Music.2 measure 33]
@@ -2010,7 +1988,6 @@ number.14.Guitar.Music.3 = {
     % [Guitar.Music.3 measure 2]
     s1 * 3/20
 
-    \scaleDurations #'(1 . 1)
     {
 
         % [Guitar.Music.3 measure 3]
@@ -2043,7 +2020,6 @@ number.14.Guitar.Music.3 = {
     % [Guitar.Music.3 measure 9]
     s1 * 3/20
 
-    \scaleDurations #'(1 . 1)
     {
 
         % [Guitar.Music.3 measure 10]
@@ -2076,7 +2052,6 @@ number.14.Guitar.Music.3 = {
     % [Guitar.Music.3 measure 16]
     s1 * 3/20
 
-    \scaleDurations #'(1 . 1)
     {
 
         % [Guitar.Music.3 measure 17]
@@ -2109,7 +2084,6 @@ number.14.Guitar.Music.3 = {
     % [Guitar.Music.3 measure 23]
     s1 * 3/20
 
-    \scaleDurations #'(1 . 1)
     {
 
         % [Guitar.Music.3 measure 24]
@@ -2142,7 +2116,6 @@ number.14.Guitar.Music.3 = {
     % [Guitar.Music.3 measure 30]
     s1 * 3/20
 
-    \scaleDurations #'(1 . 1)
     {
 
         % [Guitar.Music.3 measure 31]
@@ -2175,7 +2148,6 @@ number.14.Guitar.Music.3 = {
     % [Guitar.Music.3 measure 37]
     s1 * 3/20
 
-    \scaleDurations #'(1 . 1)
     {
 
         % [Guitar.Music.3 measure 38]

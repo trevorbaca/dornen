@@ -501,7 +501,7 @@ def make_delicatissimo(collections):
 def make_dotted_eighths(collection):
     tuplet = baca.container_from_collection(collection, [3], 16)
     rmakers.beam([tuplet], beam_lone_notes=True)
-    return [tuplet], 8
+    return tuplet, 8
 
 
 def make_empty_score():

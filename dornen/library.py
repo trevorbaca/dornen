@@ -610,10 +610,8 @@ def make_ovoids(collections):
         )
         tuplet = baca.from_collection(collection, [6, 1], 32)
         baca.attach_before_grace_containers(containers, tuplet)
-        groups = rmakers.nongrace_leaves_in_each_tuplet(tuplet)
-        # HERE
-        # groups = [abjad.select.leaves(_, grace=False) for _ in tuplets]
-        rmakers.beam_groups(groups)
+        group = abjad.select.leaves(tuplet, grace=False)
+        rmakers.beam_groups([group])
         tuplets.append(tuplet)
     return tuplets, None
 

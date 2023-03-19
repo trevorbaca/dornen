@@ -797,7 +797,6 @@ number.7.Guitar.Music.1 = {
     % [Guitar.Music.1 measure 11]
     s1 * 1/24
 
-    \scaleDurations #'(1 . 1)
     {
 
         % [Guitar.Music.1 measure 12]
@@ -837,7 +836,6 @@ number.7.Guitar.Music.1 = {
     % [Guitar.Music.1 measure 15]
     s1 * 1/24
 
-    \scaleDurations #'(1 . 1)
     {
 
         % [Guitar.Music.1 measure 16]
@@ -870,7 +868,6 @@ number.7.Guitar.Music.1 = {
     % [Guitar.Music.1 measure 17]
     s1 * 1/24
 
-    \scaleDurations #'(1 . 1)
     {
 
         % [Guitar.Music.1 measure 18]
@@ -909,7 +906,6 @@ number.7.Guitar.Music.1 = {
     % [Guitar.Music.1 measure 21]
     s1 * 1/24
 
-    \scaleDurations #'(1 . 1)
     {
 
         % [Guitar.Music.1 measure 22]
@@ -950,7 +946,6 @@ number.7.Guitar.Music.2 = {
     \override Beam.positions = #'(-7 . -7)
     s1 * 3/20
 
-    \scaleDurations #'(1 . 1)
     {
 
         % [Guitar.Music.2 measure 2]
@@ -968,7 +963,6 @@ number.7.Guitar.Music.2 = {
     % [Guitar.Music.2 measure 3]
     s1 * 3/28
 
-    \scaleDurations #'(1 . 1)
     {
 
         % [Guitar.Music.2 measure 4]
@@ -985,7 +979,6 @@ number.7.Guitar.Music.2 = {
     % [Guitar.Music.2 measure 5]
     s1 * 3/20
 
-    \scaleDurations #'(1 . 1)
     {
 
         % [Guitar.Music.2 measure 6]
@@ -1002,7 +995,6 @@ number.7.Guitar.Music.2 = {
     % [Guitar.Music.2 measure 7]
     s1 * 3/28
 
-    \scaleDurations #'(1 . 1)
     {
 
         % [Guitar.Music.2 measure 8]
@@ -1019,7 +1011,6 @@ number.7.Guitar.Music.2 = {
     % [Guitar.Music.2 measure 9]
     s1 * 3/20
 
-    \scaleDurations #'(1 . 1)
     {
 
         % [Guitar.Music.2 measure 10]

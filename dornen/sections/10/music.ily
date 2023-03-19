@@ -649,7 +649,6 @@ number.10.Rests = {
 
 number.10.Guitar.Music.1 = {
 
-    \scaleDurations #'(1 . 1)
     {
 
         % [Guitar.Music.1 measure 1]

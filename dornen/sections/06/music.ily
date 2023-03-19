@@ -426,7 +426,6 @@ number.6.Rests = {
 
 number.6.Guitar.Music.1 = {
 
-    \scaleDurations #'(1 . 1)
     {
 
         % [Guitar.Music.1 measure 1]
@@ -559,7 +558,6 @@ number.6.Guitar.Music.1 = {
     % [Guitar.Music.1 measure 4]
     s1 * 3/20
 
-    \scaleDurations #'(1 . 1)
     {
 
         % [Guitar.Music.1 measure 5]
@@ -584,7 +582,6 @@ number.6.Guitar.Music.1 = {
     % [Guitar.Music.1 measure 7]
     s1 * 3/20
 
-    \scaleDurations #'(1 . 1)
     {
 
         % [Guitar.Music.1 measure 8]
@@ -601,7 +598,6 @@ number.6.Guitar.Music.1 = {
 
     }
 
-    \scaleDurations #'(1 . 1)
     {
 
         % [Guitar.Music.1 measure 9]
@@ -627,7 +623,6 @@ number.6.Guitar.Music.1 = {
 
     }
 
-    \scaleDurations #'(1 . 1)
     {
 
         \set stemLeftBeamCount = 1
@@ -647,7 +642,6 @@ number.6.Guitar.Music.1 = {
 
     }
 
-    \scaleDurations #'(1 . 1)
     {
 
         \set stemLeftBeamCount = 1
@@ -667,7 +661,6 @@ number.6.Guitar.Music.1 = {
 
     }
 
-    \scaleDurations #'(1 . 1)
     {
 
         \set stemLeftBeamCount = 1
@@ -687,7 +680,6 @@ number.6.Guitar.Music.1 = {
 
     }
 
-    \scaleDurations #'(1 . 1)
     {
 
         \set stemLeftBeamCount = 1
@@ -707,7 +699,6 @@ number.6.Guitar.Music.1 = {
 
     }
 
-    \scaleDurations #'(1 . 1)
     {
 
         \set stemLeftBeamCount = 1
@@ -727,7 +718,6 @@ number.6.Guitar.Music.1 = {
 
     }
 
-    \scaleDurations #'(1 . 1)
     {
 
         \set stemLeftBeamCount = 1
@@ -747,7 +737,6 @@ number.6.Guitar.Music.1 = {
 
     }
 
-    \scaleDurations #'(1 . 1)
     {
 
         \set stemLeftBeamCount = 1
@@ -767,7 +756,6 @@ number.6.Guitar.Music.1 = {
 
     }
 
-    \scaleDurations #'(1 . 1)
     {
 
         \set stemLeftBeamCount = 1
@@ -787,7 +775,6 @@ number.6.Guitar.Music.1 = {
 
     }
 
-    \scaleDurations #'(1 . 1)
     {
 
         \set stemLeftBeamCount = 1
@@ -808,7 +795,6 @@ number.6.Guitar.Music.1 = {
 
     }
 
-    \scaleDurations #'(1 . 1)
     {
 
         % [Guitar.Music.1 measure 10]
@@ -839,7 +825,6 @@ number.6.Guitar.Music.1 = {
 
     }
 
-    \scaleDurations #'(1 . 1)
     {
 
         \set stemLeftBeamCount = 1
@@ -864,7 +849,6 @@ number.6.Guitar.Music.1 = {
 
     }
 
-    \scaleDurations #'(1 . 1)
     {
 
         \set stemLeftBeamCount = 1
@@ -889,7 +873,6 @@ number.6.Guitar.Music.1 = {
 
     }
 
-    \scaleDurations #'(1 . 1)
     {
 
         \set stemLeftBeamCount = 1
@@ -914,7 +897,6 @@ number.6.Guitar.Music.1 = {
 
     }
 
-    \scaleDurations #'(1 . 1)
     {
 
         \set stemLeftBeamCount = 1
@@ -939,7 +921,6 @@ number.6.Guitar.Music.1 = {
 
     }
 
-    \scaleDurations #'(1 . 1)
     {
 
         \set stemLeftBeamCount = 1
@@ -964,7 +945,6 @@ number.6.Guitar.Music.1 = {
 
     }
 
-    \scaleDurations #'(1 . 1)
     {
 
         \set stemLeftBeamCount = 1
@@ -989,7 +969,6 @@ number.6.Guitar.Music.1 = {
 
     }
 
-    \scaleDurations #'(1 . 1)
     {
 
         \set stemLeftBeamCount = 1
@@ -1014,7 +993,6 @@ number.6.Guitar.Music.1 = {
 
     }
 
-    \scaleDurations #'(1 . 1)
     {
 
         \set stemLeftBeamCount = 1
@@ -1039,7 +1017,6 @@ number.6.Guitar.Music.1 = {
 
     }
 
-    \scaleDurations #'(1 . 1)
     {
 
         \set stemLeftBeamCount = 1
@@ -1065,7 +1042,6 @@ number.6.Guitar.Music.1 = {
 
     }
 
-    \scaleDurations #'(1 . 1)
     {
 
         % [Guitar.Music.1 measure 11]
@@ -1101,7 +1077,6 @@ number.6.Guitar.Music.1 = {
 
     }
 
-    \scaleDurations #'(1 . 1)
     {
 
         \set stemLeftBeamCount = 1
@@ -1131,7 +1106,6 @@ number.6.Guitar.Music.1 = {
 
     }
 
-    \scaleDurations #'(1 . 1)
     {
 
         \set stemLeftBeamCount = 1
@@ -1161,7 +1135,6 @@ number.6.Guitar.Music.1 = {
 
     }
 
-    \scaleDurations #'(1 . 1)
     {
 
         \set stemLeftBeamCount = 1
@@ -1191,7 +1164,6 @@ number.6.Guitar.Music.1 = {
 
     }
 
-    \scaleDurations #'(1 . 1)
     {
 
         \set stemLeftBeamCount = 1
@@ -1221,7 +1193,6 @@ number.6.Guitar.Music.1 = {
 
     }
 
-    \scaleDurations #'(1 . 1)
     {
 
         \set stemLeftBeamCount = 1
@@ -1251,7 +1222,6 @@ number.6.Guitar.Music.1 = {
 
     }
 
-    \scaleDurations #'(1 . 1)
     {
 
         \set stemLeftBeamCount = 1
@@ -1281,7 +1251,6 @@ number.6.Guitar.Music.1 = {
 
     }
 
-    \scaleDurations #'(1 . 1)
     {
 
         \set stemLeftBeamCount = 1
@@ -1311,7 +1280,6 @@ number.6.Guitar.Music.1 = {
 
     }
 
-    \scaleDurations #'(1 . 1)
     {
 
         \set stemLeftBeamCount = 1
@@ -1341,7 +1309,6 @@ number.6.Guitar.Music.1 = {
 
     }
 
-    \scaleDurations #'(1 . 1)
     {
 
         \set stemLeftBeamCount = 1
@@ -1372,7 +1339,6 @@ number.6.Guitar.Music.1 = {
 
     }
 
-    \scaleDurations #'(1 . 1)
     {
 
         % [Guitar.Music.1 measure 12]
@@ -1413,7 +1379,6 @@ number.6.Guitar.Music.1 = {
 
     }
 
-    \scaleDurations #'(1 . 1)
     {
 
         \set stemLeftBeamCount = 1
@@ -1448,7 +1413,6 @@ number.6.Guitar.Music.1 = {
 
     }
 
-    \scaleDurations #'(1 . 1)
     {
 
         \set stemLeftBeamCount = 1
@@ -1483,7 +1447,6 @@ number.6.Guitar.Music.1 = {
 
     }
 
-    \scaleDurations #'(1 . 1)
     {
 
         \set stemLeftBeamCount = 1
@@ -1518,7 +1481,6 @@ number.6.Guitar.Music.1 = {
 
     }
 
-    \scaleDurations #'(1 . 1)
     {
 
         \set stemLeftBeamCount = 1
@@ -1553,7 +1515,6 @@ number.6.Guitar.Music.1 = {
 
     }
 
-    \scaleDurations #'(1 . 1)
     {
 
         \set stemLeftBeamCount = 1
@@ -1588,7 +1549,6 @@ number.6.Guitar.Music.1 = {
 
     }
 
-    \scaleDurations #'(1 . 1)
     {
 
         \set stemLeftBeamCount = 1
@@ -1623,7 +1583,6 @@ number.6.Guitar.Music.1 = {
 
     }
 
-    \scaleDurations #'(1 . 1)
     {
 
         \set stemLeftBeamCount = 1
@@ -1658,7 +1617,6 @@ number.6.Guitar.Music.1 = {
 
     }
 
-    \scaleDurations #'(1 . 1)
     {
 
         \set stemLeftBeamCount = 1
@@ -1693,7 +1651,6 @@ number.6.Guitar.Music.1 = {
 
     }
 
-    \scaleDurations #'(1 . 1)
     {
 
         \set stemLeftBeamCount = 1
@@ -1729,7 +1686,6 @@ number.6.Guitar.Music.1 = {
 
     }
 
-    \scaleDurations #'(1 . 1)
     {
 
         % [Guitar.Music.1 measure 13]
@@ -1900,7 +1856,6 @@ number.6.Guitar.Music.1 = {
 
     }
 
-    \scaleDurations #'(1 . 1)
     {
 
         \set stemLeftBeamCount = 1
@@ -2060,7 +2015,6 @@ number.6.Guitar.Music.1 = {
 
     }
 
-    \scaleDurations #'(1 . 1)
     {
 
         \set stemLeftBeamCount = 1
@@ -2220,7 +2174,6 @@ number.6.Guitar.Music.1 = {
 
     }
 
-    \scaleDurations #'(1 . 1)
     {
 
         \set stemLeftBeamCount = 1
@@ -2434,7 +2387,6 @@ number.6.Guitar.Music.3 = {
     \override Script.direction = #down
     s1 * 3/32
 
-    \scaleDurations #'(1 . 1)
     {
 
         % [Guitar.Music.3 measure 2]
@@ -2457,7 +2409,6 @@ number.6.Guitar.Music.3 = {
     % [Guitar.Music.3 measure 5]
     s1 * 3/32
 
-    \scaleDurations #'(1 . 1)
     {
 
         % [Guitar.Music.3 measure 6]

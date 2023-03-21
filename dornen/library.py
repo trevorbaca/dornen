@@ -588,7 +588,7 @@ def make_graced_tuplets(collections):
     for i, collection in enumerate(collections):
         containers, collection = baca.make_before_grace_containers(
             collection,
-            baca.lmr(left_length=1, right_counts=[2], right_cyclic=True),
+            baca.LMR(left_length=1, right_counts=[2], right_cyclic=True),
         )
         if i % 2 == 0:
             ratio = "7:8"
@@ -613,7 +613,7 @@ def make_ovoids(collections):
     tuplets = []
     for collection in collections:
         containers, collection = baca.make_before_grace_containers(
-            collection, baca.lmr(left_length=1)
+            collection, baca.LMR(left_length=1)
         )
         tuplet = baca.container_from_collection(collection, [6, 1], 32)
         baca.attach_before_grace_containers(containers, tuplet)

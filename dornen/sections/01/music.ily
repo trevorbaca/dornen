@@ -592,7 +592,7 @@ number.1.Guitar.Music.1 = {
           %! FIGURE_LABEL
         %@% - \tweak color #blue
           %! FIGURE_LABEL
-        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (1) \hspace #1 "0" ] }
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (1) \hspace #1 \concat { "E" \sub 1 } ] }
           %! EXPLICIT_INSTRUMENT_ALERT
         ^ \baca-explicit-instrument-markup "(“Guitar”)"
         [
@@ -613,7 +613,7 @@ number.1.Guitar.Music.1 = {
           %! FIGURE_LABEL
         %@% - \tweak color #blue
           %! FIGURE_LABEL
-        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (3) \hspace #1 "2" ] }
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (3) \hspace #1 \concat { "E" \sub 2 } ] }
 
     }
 
@@ -629,7 +629,7 @@ number.1.Guitar.Music.1 = {
           %! FIGURE_LABEL
         %@% - \tweak color #blue
           %! FIGURE_LABEL
-        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (5) \hspace #1 "4" ] }
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (5) \hspace #1 \concat { "E" \sub 3 } ] }
 
         g'8.
         ]
@@ -647,7 +647,7 @@ number.1.Guitar.Music.1 = {
           %! FIGURE_LABEL
         %@% - \tweak color #blue
           %! FIGURE_LABEL
-        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (7) \hspace #1 "6" ] }
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (7) \hspace #1 \concat { "E" \sub 4 } ] }
         [
 
         \set stemLeftBeamCount = 1
@@ -672,7 +672,7 @@ number.1.Guitar.Music.1 = {
           %! FIGURE_LABEL
         %@% - \tweak color #blue
           %! FIGURE_LABEL
-        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (10) \hspace #1 "9" ] }
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (10) \hspace #1 \concat { "E" \sub 5 } ] }
 
         f'8.
 
@@ -694,7 +694,7 @@ number.1.Guitar.Music.1 = {
           %! FIGURE_LABEL
         %@% - \tweak color #blue
           %! FIGURE_LABEL
-        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (12) \hspace #1 "11" ] }
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (12) \hspace #1 \concat { "E" \sub 6 } ] }
         [
 
         \set stemLeftBeamCount = 1
@@ -716,7 +716,7 @@ number.1.Guitar.Music.1 = {
           %! FIGURE_LABEL
         %@% - \tweak color #blue
           %! FIGURE_LABEL
-        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (14) \hspace #1 "13" ] }
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (14) \hspace #1 \concat { "E" \sub 7 } ] }
 
         c'8.
         ]
@@ -755,7 +755,7 @@ number.1.Guitar.Music.2 = {
               %! FIGURE_LABEL
             %@% - \tweak color #blue
               %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (2) \hspace #1 "1" ] }
+            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (2) \hspace #1 \concat { "P" \sub 1 } ] }
             [
 
             d'16
@@ -790,7 +790,7 @@ number.1.Guitar.Music.2 = {
               %! FIGURE_LABEL
             %@% - \tweak color #blue
               %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (4) \hspace #1 "3" ] }
+            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (4) \hspace #1 \concat { "P" \sub 2 } ] }
             [
 
             g'16
@@ -823,7 +823,7 @@ number.1.Guitar.Music.2 = {
               %! FIGURE_LABEL
             %@% - \tweak color #blue
               %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (6) \hspace #1 "5" ] }
+            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (6) \hspace #1 \concat { "P" \sub 3 } ] }
             [
 
             fs'!16
@@ -853,7 +853,7 @@ number.1.Guitar.Music.2 = {
               %! FIGURE_LABEL
             %@% - \tweak color #blue
               %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (8) \hspace #1 "7" ] }
+            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (8) \hspace #1 \concat { "P" \sub 4 } ] }
             [
 
             d''16
@@ -893,7 +893,7 @@ number.1.Guitar.Music.2 = {
               %! FIGURE_LABEL
             %@% - \tweak color #blue
               %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (13) \hspace #1 "12" ] }
+            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (13) \hspace #1 \concat { "P" \sub 5 } ] }
             [
 
             cs''!16
@@ -931,7 +931,7 @@ number.1.Guitar.Music.2 = {
               %! FIGURE_LABEL
             %@% - \tweak color #blue
               %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (15) \hspace #1 "14" ] }
+            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (15) \hspace #1 \concat { "P" \sub 6 } ] }
             [
 
             g''16
@@ -967,7 +967,7 @@ number.1.Guitar.Music.2 = {
               %! FIGURE_LABEL
             %@% - \tweak color #blue
               %! FIGURE_LABEL
-            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (16) \hspace #1 "15" ] }
+            %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (16) \hspace #1 \concat { "P" \sub 7 } ] }
             [
 
             e''16
@@ -1059,7 +1059,7 @@ number.1.Guitar.Music.3 = {
           %! FIGURE_LABEL
         %@% - \tweak color #blue
           %! FIGURE_LABEL
-        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (18) \hspace #1 "17" ] }
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (18) \hspace #1 \concat { "W" \sub 1 } ] }
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"320" #"1024"
         [
@@ -1104,7 +1104,7 @@ number.1.Guitar.Music.3 = {
           %! FIGURE_LABEL
         %@% - \tweak color #blue
           %! FIGURE_LABEL
-        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (19) \hspace #1 "18" ] }
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (19) \hspace #1 \concat { "W" \sub 2 } ] }
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"192" #"1024"
         [
@@ -1198,7 +1198,7 @@ number.1.Guitar.Music.4 = {
           %! FIGURE_LABEL
         %@% - \tweak color #blue
           %! FIGURE_LABEL
-        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (9) \hspace #1 "8" ] }
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (9) \hspace #1 \concat { "R" \sub 1 } ] }
         [
           %! SPANNER_START
         (
@@ -1259,7 +1259,7 @@ number.1.Guitar.Music.4 = {
           %! FIGURE_LABEL
         %@% - \tweak color #blue
           %! FIGURE_LABEL
-        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (11) \hspace #1 "10" ] }
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (11) \hspace #1 \concat { "R" \sub 2 } ] }
         [
           %! SPANNER_START
         (
@@ -1377,7 +1377,7 @@ number.1.Guitar.Music.4 = {
           %! FIGURE_LABEL
         %@% - \tweak color #blue
           %! FIGURE_LABEL
-        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (17) \hspace #1 "16" ] }
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (17) \hspace #1 \concat { "R" \sub 3 } ] }
         [
           %! SPANNER_START
         (

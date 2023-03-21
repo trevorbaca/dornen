@@ -18,39 +18,39 @@ def make_empty_score():
         baca.register(tuplet, -8)
         baca.beam_positions(tuplet, 6)
         library.extend_beam(tuplet)
-        accumulator(library.v1, [tuplet], tsd, "0")
-    with baca.scope(design[1:2]) as collection:
-        assert collection == [[6, 2, 3, 5, 9, 8, 0]]
-        tuplets, tsd = library.make_passepied(collection)
-        baca.beam_positions(baca.select.leaves(tuplets, grace=False), -10)
-        baca.time_signature_extra_offset(baca.select.hleaf(tuplets, 0), (-2.5, 0))
-        baca.register(tuplets, -10)
-        library.extend_beam(tuplets)
-        accumulator(library.v2, tuplets, tsd, "1")
+        accumulator(library.v1, tuplet, tsd, "0")
+    with baca.scope(design[1]) as collection:
+        assert collection == [6, 2, 3, 5, 9, 8, 0]
+        tuplet, tsd = library.make_passepied(collection)
+        baca.beam_positions(baca.select.leaves(tuplet, grace=False), -10)
+        baca.time_signature_extra_offset(baca.select.hleaf(tuplet, 0), (-2.5, 0))
+        baca.register(tuplet, -10)
+        library.extend_beam(tuplet)
+        accumulator(library.v2, tuplet, tsd, "1")
     with baca.scope(design[2]) as collection:
         assert collection == [11]
         tuplet, tsd = library.make_dotted_eighths(collection)
         baca.register(tuplet, -10),
         library.extend_beam(tuplet)
         accumulator(library.v1, [tuplet], tsd, "2")
-    with baca.scope(design[3:4]) as collection:
-        assert collection == [[10, 7, 9, 8, 0, 5]]
-        tuplets, tsd = library.make_passepied(collection)
-        baca.time_signature_extra_offset(baca.select.hleaf(tuplets, 0), (-2.5, 0))
-        baca.register(tuplets, -8),
-        library.extend_beam(tuplets)
-        accumulator(library.v2, tuplets, tsd, "3")
+    with baca.scope(design[3]) as collection:
+        assert collection == [10, 7, 9, 8, 0, 5]
+        tuplet, tsd = library.make_passepied(collection)
+        baca.time_signature_extra_offset(baca.select.hleaf(tuplet, 0), (-2.5, 0))
+        baca.register(tuplet, -8),
+        library.extend_beam(tuplet)
+        accumulator(library.v2, tuplet, tsd, "3")
     with baca.scope(design[4]) as collection:
         assert collection == [10, 7]
         tuplet, tsd = library.make_dotted_eighths(collection)
         baca.register(tuplet, -12)
         accumulator(library.v1, [tuplet], tsd, "4")
-    with baca.scope(design[5:6]) as collection:
-        assert collection == [[11, 6, 2, 3, 4]]
-        tuplets, tsd = library.make_passepied(collection)
-        baca.time_signature_extra_offset(baca.select.hleaf(tuplets, 0), (-2.5, 0))
-        baca.register(tuplets, -6)
-        accumulator(library.v2, tuplets, tsd, "5")
+    with baca.scope(design[5]) as collection:
+        assert collection == [11, 6, 2, 3, 4]
+        tuplet, tsd = library.make_passepied(collection)
+        baca.time_signature_extra_offset(baca.select.hleaf(tuplet, 0), (-2.5, 0))
+        baca.register(tuplet, -6)
+        accumulator(library.v2, tuplet, tsd, "5")
     with baca.scope(design[6]) as collection:
         assert collection == [7, 11]
         tuplet, tsd = library.make_dotted_eighths(collection)
@@ -58,14 +58,14 @@ def make_empty_score():
         baca.register(tuplet, -14)
         library.extend_beam(tuplet)
         accumulator(library.v1, [tuplet], tsd, "6")
-    with baca.scope(design[7:8]) as collection:
-        assert collection == [[10, 2, 3, 4, 6]]
-        tuplets, tsd = library.make_passepied(collection)
-        baca.beam_positions(baca.select.leaves(tuplets, grace=False), -10)
-        baca.time_signature_extra_offset(baca.select.hleaf(tuplets, 0), (-2.5, 0))
-        baca.register(tuplets, -4)
-        library.extend_beam(tuplets)
-        accumulator(library.v2, tuplets, tsd, "7")
+    with baca.scope(design[7]) as collection:
+        assert collection == [10, 2, 3, 4, 6]
+        tuplet, tsd = library.make_passepied(collection)
+        baca.beam_positions(baca.select.leaves(tuplet, grace=False), -10)
+        baca.time_signature_extra_offset(baca.select.hleaf(tuplet, 0), (-2.5, 0))
+        baca.register(tuplet, -4)
+        library.extend_beam(tuplet)
+        accumulator(library.v2, tuplet, tsd, "7")
     with baca.scope(design[8:10]) as collection:
         assert collection == [[8, 0, 5, 9], [3, 4, 6, 2]]
         tuplets, tsd = library.make_running(collection)
@@ -91,31 +91,31 @@ def make_empty_score():
         baca.register(tuplet, -18)
         library.extend_beam(tuplet)
         accumulator(library.v1, [tuplet], tsd, "11")
-    with baca.scope(design[14:15]) as collection:
-        assert collection == [[9, 1, 11, 8, 0, 5, 7, 3, 4]]
-        tuplets, tsd = library.make_passepied(collection)
-        baca.time_signature_extra_offset(baca.select.hleaf(tuplets, 0), (-2.5, 0))
-        baca.register(tuplets, -2)
-        accumulator(library.v2, tuplets, tsd, "12")
+    with baca.scope(design[14]) as collection:
+        assert collection == [9, 1, 11, 8, 0, 5, 7, 3, 4]
+        tuplet, tsd = library.make_passepied(collection)
+        baca.time_signature_extra_offset(baca.select.hleaf(tuplet, 0), (-2.5, 0))
+        baca.register(tuplet, -2)
+        accumulator(library.v2, tuplet, tsd, "12")
     with baca.scope(design[15]) as collection:
         assert collection == [8, 0]
         tuplet, tsd = library.make_dotted_eighths(collection)
         baca.register(tuplet, -20)
         accumulator(library.v1, [tuplet], tsd, "13")
-    with baca.scope(design[16:17]) as collection:
-        assert collection == [[11, 7, 3, 4, 5, 10, 9, 1, 6]]
-        tuplets, tsd = library.make_passepied(collection)
-        baca.beam_positions(baca.select.leaves(tuplets, grace=False), -10)
-        baca.time_signature_extra_offset(baca.select.hleaf(tuplets, 0), (-2.5, 0))
-        baca.register(tuplets, 0)
-        library.extend_beam(tuplets)
-        accumulator(library.v2, tuplets, tsd, "14")
-    with baca.scope(design[17:18]) as collection:
-        assert collection == [[3, 4, 5, 7]]
-        tuplets, tsd = library.make_passepied(collection)
-        baca.time_signature_extra_offset(baca.select.hleaf(tuplets, 0), (-2.5, 0))
-        baca.register(tuplets, 2)
-        accumulator(library.v2, tuplets, tsd, "15")
+    with baca.scope(design[16]) as collection:
+        assert collection == [11, 7, 3, 4, 5, 10, 9, 1, 6]
+        tuplet, tsd = library.make_passepied(collection)
+        baca.beam_positions(baca.select.leaves(tuplet, grace=False), -10)
+        baca.time_signature_extra_offset(baca.select.hleaf(tuplet, 0), (-2.5, 0))
+        baca.register(tuplet, 0)
+        library.extend_beam(tuplet)
+        accumulator(library.v2, tuplet, tsd, "14")
+    with baca.scope(design[17]) as collection:
+        assert collection == [3, 4, 5, 7]
+        tuplet, tsd = library.make_passepied(collection)
+        baca.time_signature_extra_offset(baca.select.hleaf(tuplet, 0), (-2.5, 0))
+        baca.register(tuplet, 2)
+        accumulator(library.v2, tuplet, tsd, "15")
     with baca.scope(design[18:20]) as collection:
         assert collection == [[9, 1, 6, 10, 0, 11, 8], [1, 6, 10, 9]]
         tuplets, tsd = library.make_running(collection)

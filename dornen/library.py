@@ -623,21 +623,13 @@ def make_ovoids(collections):
     return tuplets, None
 
 
-def make_passepied(collections):
-    assert len(collections) == 1, repr(collections)
-    tuplets = []
-    containers, collection = baca.make_before_grace_containers(
-        collections[0], baca.LMR()
-    )
+def make_passepied(collection):
+    collection = getattr(collection, "argument", collection)
+    bgcs, collection = baca.make_before_grace_containers(collection, baca.LMR())
     tuplet = baca.container_from_collection(collection, [1], 32)
-    tuplets.append(tuplet)
-    baca.attach_before_grace_containers(containers, tuplet)
-    for collection in collections[1:]:
-        tuplet = baca.container_from_collection(collection, [1], 16)
-        tuplets.append(tuplet)
-    groups = [abjad.select.leaves(_, grace=False) for _ in tuplets]
-    rmakers.beam_groups(groups, beam_lone_notes=True)
-    return tuplets, None
+    rmakers.beam_groups([tuplet], beam_lone_notes=True)
+    baca.attach_before_grace_containers(bgcs, tuplet)
+    return tuplet, None
 
 
 def make_rests(count, duration):
@@ -750,8 +742,11 @@ def make_waves(collections, denominator=64, inverted=False):
     return tuplets, denominator
 
 
-def populate(score, voice_name, containers):
-    assert isinstance(containers, list), repr(containers)
+def populate(score, voice_name, argument):
+    if isinstance(argument, list):
+        containers = argument
+    else:
+        containers = [argument]
     assert all(isinstance(_, abjad.Container) for _ in containers), repr(containers)
     duration = abjad.get.duration(containers)
     voice = score[voice_name]

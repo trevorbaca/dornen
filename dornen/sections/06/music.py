@@ -10,68 +10,52 @@ from dornen import library
 
 def make_empty_score(first_measure_number, previous_persistent_indicators):
     score = library.make_empty_score()
-    label, tracker = library.Labeler(), library.TimeSignatureTracker()
+    accumulator = library.Accumulator(score)
     design = library.design_3(start=10, stop=30)
     assert len(design) == 20
     with baca.scope(design[:1]) as collections:
         assert collections == [[10, 0]]
         tuplets, tsd = library.make_forty_eighths(collections)
-        tracker(tuplets, tsd)
         baca.tenuto(baca.select.pheads(tuplets))
         baca.beam_positions(tuplets, 10)
         baca.register(tuplets, -12)
         library.extend_beam(tuplets)
-        label(tuplets, "48_1")
-        library.populate(score, library.v1, tuplets)
+        accumulator(library.v1, tuplets, tsd, "48_1")
     with baca.scope(design[1:2]) as collections:
         assert collections == [[5]]
         tuplets, tsd = library.make_sixteenths(collections)
-        tracker(tuplets, tsd)
         library.extend_beam(tuplets)
-        label(tuplets, "16_1")
-        library.populate(score, library.v3, tuplets)
+        accumulator(library.v3, tuplets, tsd, "16_1")
     with baca.scope(design[2:5]) as collections:
         assert collections == [[9, 11, 0, 5, 9, 11], [10, 1, 3, 6, 7], [8, 2, 3, 6]]
         tuplets, tsd = library.make_running(collections)
-        tracker(tuplets, tsd)
         baca.register(tuplets, -14, 0)
         library.extend_beam(tuplets)
-        label(tuplets, "R1")
-        library.populate(score, library.v1, tuplets)
+        accumulator(library.v1, tuplets, tsd, "R1")
     with baca.scope(design[5:6]) as collections:
         assert collections == [[7, 8, 2]]
         tuplets, tsd = library.make_twentieths(collections)
-        tracker(tuplets, tsd)
-        label(tuplets, "20_1")
-        library.populate(score, library.v4, tuplets)
+        accumulator(library.v4, tuplets, tsd, "20_1")
     with baca.scope(design[6:7]) as collections:
         assert collections == [[1, 5]]
         tuplets, tsd = library.make_forty_eighths(collections)
-        tracker(tuplets, tsd)
         baca.tenuto(baca.select.pheads(tuplets))
         baca.register(tuplets, -12)
-        label(tuplets, "48_2")
-        library.populate(score, library.v1, tuplets)
+        accumulator(library.v1, tuplets, tsd, "48_2")
     with baca.scope(design[7:8]) as collections:
         assert collections == [[9]]
         tuplets, tsd = library.make_sixteenths(collections)
-        tracker(tuplets, tsd)
-        label(tuplets, "16_2")
-        library.populate(score, library.v3, tuplets)
+        accumulator(library.v3, tuplets, tsd, "16_2")
     with baca.scope(design[8:9]) as collections:
         assert collections == [[11, 10, 0]]
         tuplets, tsd = library.make_twentieths(collections)
-        tracker(tuplets, tsd)
-        label(tuplets, "20_2")
-        library.populate(score, library.v4, tuplets)
+        accumulator(library.v4, tuplets, tsd, "20_2")
     tuplets, tsd = library.make_rests(3, (1, 8))
-    tracker(tuplets, tsd)
     baca.markup(
         abjad.select.leaf(tuplets, 0),
         r"\dornen-raise-string-two-one-quartertone-markup",
     )
-    label(tuplets, "S1")
-    library.populate(score, library.v1, tuplets)
+    accumulator(library.v1, tuplets, tsd, "S1")
     with baca.scope(design[9:10]) as collections:
         assert collections == eval(
             """[[6, 4, 5, 5.5, 6.5, 9, 10, 7, 8, 11.5, 2.5, 3.5, 11, 2, 3, 10.5,
@@ -81,10 +65,8 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         collections = abjad.sequence.repeat(collections, 10)
         collections = abjad.sequence.flatten(collections)
         tuplets, tsd = library.make_sixty_fourths(collections)
-        tracker(tuplets, tsd)
         baca.register(tuplets, 0)
-        label(tuplets, "D1")
-        library.populate(score, library.v1, tuplets)
+        accumulator(library.v1, tuplets, tsd, "D1")
     with baca.scope(design[9:10]) as collections:
         assert collections == eval(
             """[[6, 4, 5, 5.5, 6.5, 9, 10, 7, 8, 11.5, 2.5, 3.5, 11, 2, 3, 10.5,
@@ -94,10 +76,8 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         collections = abjad.sequence.repeat(collections, 10)
         collections = abjad.sequence.flatten(collections)
         tuplets, tsd = library.make_sixty_fourths(collections)
-        tracker(tuplets, tsd)
         baca.register(tuplets, 0)
-        label(tuplets, "D2")
-        library.populate(score, library.v1, tuplets)
+        accumulator(library.v1, tuplets, tsd, "D2")
     with baca.scope(design[9:10]) as collections:
         assert collections == eval(
             """[[6, 4, 5, 5.5, 6.5, 9, 10, 7, 8, 11.5, 2.5, 3.5, 11, 2, 3, 10.5,
@@ -107,10 +87,8 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         collections = abjad.sequence.repeat(collections, 10)
         collections = abjad.sequence.flatten(collections)
         tuplets, tsd = library.make_sixty_fourths(collections)
-        tracker(tuplets, tsd)
         baca.register(tuplets, 0)
-        label(tuplets, "D3")
-        library.populate(score, library.v1, tuplets)
+        accumulator(library.v1, tuplets, tsd, "D3")
     with baca.scope(design[9:10]) as collections:
         assert collections == eval(
             """[[6, 4, 5, 5.5, 6.5, 9, 10, 7, 8, 11.5, 2.5, 3.5, 11, 2, 3, 10.5,
@@ -120,10 +98,8 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         collections = abjad.sequence.repeat(collections, 10)
         collections = abjad.sequence.flatten(collections)
         tuplets, tsd = library.make_sixty_fourths(collections)
-        tracker(tuplets, tsd)
         baca.register(tuplets, 0)
-        label(tuplets, "D4")
-        library.populate(score, library.v1, tuplets)
+        accumulator(library.v1, tuplets, tsd, "D4")
     with baca.scope(design[9:10]) as collections:
         assert collections == eval(
             """[[6, 4, 5, 5.5, 6.5, 9, 10, 7, 8, 11.5, 2.5, 3.5, 11, 2, 3, 10.5,
@@ -131,12 +107,10 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         )
         collections_ = baca.sequence.boustrophedon(collections, count=4)
         tuplets, tsd = library.make_sixty_fourths(collections_)
-        tracker(tuplets, tsd)
         baca.register(tuplets, 0)
-        label(tuplets, "D5")
-        library.populate(score, library.v1, tuplets)
+        accumulator(library.v1, tuplets, tsd, "D5")
     voices = baca.section.cache_voices(score, library.voice_abbreviations)
-    time_signatures = baca.section.time_signatures(tracker.time_signatures)
+    time_signatures = baca.section.time_signatures(accumulator.time_signatures)
     baca.section.set_up_score(
         score,
         time_signatures(),

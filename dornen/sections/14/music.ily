@@ -1590,16 +1590,18 @@ number.14.Guitar.Music.1 = {
     % [Guitar.Music.1 measure 39]
     s1 * 3/20
 
+    % [Guitar.Music.1 measure 40]
+    s1 * 1/8
+
     {
 
-        % [Guitar.Music.1 measure 40]
+        % [Guitar.Music.1 measure 41]
         r8
           %! FIGURE_LABEL
         %@% - \tweak color #blue
           %! FIGURE_LABEL
         %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (41) ] }
 
-        % [Guitar.Music.1 measure 41]
         r8
 
         r8
@@ -1607,6 +1609,7 @@ number.14.Guitar.Music.1 = {
         r8
 
         r8
+        \revert Beam.positions
 
     }
 
@@ -1614,9 +1617,9 @@ number.14.Guitar.Music.1 = {
     \times 2/3
     {
 
-        e'2
+        % [Guitar.Music.1 measure 42]
+        e2
         :32
-        - \tenuto
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
         - \tweak color #(x11-color 'blue)
@@ -1629,69 +1632,68 @@ number.14.Guitar.Music.1 = {
         ^ \dornen-rascado-explanation-markup
         - \tweak stencil ##f
         ~
-        \revert Beam.positions
 
-        e'2
+        e2
         :32
         - \tweak stencil ##f
         ~
         \repeatTie
 
-        e'2
+        e2
         :32
         - \tweak stencil ##f
         ~
         \repeatTie
 
-        e'2
+        e2
         :32
         - \tweak stencil ##f
         ~
         \repeatTie
 
-        e'2
+        e2
         :32
         - \tweak stencil ##f
         ~
         \repeatTie
 
-        e'2
+        e2
         :32
         - \tweak stencil ##f
         ~
         \repeatTie
 
-        e'2
+        e2
         :32
         - \tweak stencil ##f
         ~
         \repeatTie
 
-        e'2
+        e2
         :32
         - \tweak stencil ##f
         ~
         \repeatTie
 
-        e'2
+        e2
         :32
         - \tweak stencil ##f
         ~
         \repeatTie
 
-        e'2
+        e2
         :32
         - \tweak stencil ##f
         ~
         \repeatTie
 
-        e'2
+        e2
         :32
         - \tweak stencil ##f
         ~
         \repeatTie
 
-        e'2
+        e2
         :32
         - \tweak stencil ##f
         ~
@@ -1701,7 +1703,7 @@ number.14.Guitar.Music.1 = {
         \once \override Score.RehearsalMark.padding = 12
         \once \override Score.RehearsalMark.self-alignment-X = #right
         \mark \dornen-colophon-markup
-        e'2
+        e2
         :32
         \repeatTie
 
@@ -1970,11 +1972,43 @@ number.14.Guitar.Music.2 = {
     % [Guitar.Music.2 measure 39]
     s1 * 3/20
 
-    % [Guitar.Music.2 measure 40]
-    s1 * 5/8
+    {
 
-    s1 * 13/3
+        % [Guitar.Music.2 measure 40]
+        \set stemLeftBeamCount = 0
+        \set stemRightBeamCount = 3
+        e''32
+          %! FIGURE_LABEL
+        %@% - \tweak color #blue
+          %! FIGURE_LABEL
+        %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (40) ] }
+        [
+          %! SPANNER_START
+        (
+
+        \set stemLeftBeamCount = 3
+        \set stemRightBeamCount = 3
+        bf''!32
+
+        \set stemLeftBeamCount = 3
+        \set stemRightBeamCount = 3
+        g''32
+
+        \set stemLeftBeamCount = 3
+        \set stemRightBeamCount = 0
+        c'''32
+          %! SPANNER_STOP
+        )
+        ]
+
+    }
+
+    % [Guitar.Music.2 measure 41]
+    s1 * 5/8
     \revert Beam.positions
+
+    % [Guitar.Music.2 measure 42]
+    s1 * 13/3
 
 }
 
@@ -2166,10 +2200,14 @@ number.14.Guitar.Music.3 = {
     s1 * 3/20
 
     % [Guitar.Music.3 measure 40]
-    s1 * 5/8
+    s1 * 1/8
 
-    s1 * 13/3
+    % [Guitar.Music.3 measure 41]
+    s1 * 5/8
     \revert Script.direction
+
+    % [Guitar.Music.3 measure 42]
+    s1 * 13/3
 
 }
 
@@ -2559,10 +2597,14 @@ number.14.Guitar.Music.4 = {
     }
 
     % [Guitar.Music.4 measure 40]
-    s1 * 5/8
+    s1 * 1/8
 
-    s1 * 13/3
+    % [Guitar.Music.4 measure 41]
+    s1 * 5/8
     \revert Beam.positions
+
+    % [Guitar.Music.4 measure 42]
+    s1 * 13/3
 
 }
 

@@ -11,293 +11,211 @@ from dornen import library
 
 def make_empty_score(first_measure_number, previous_persistent_indicators):
     score = library.make_empty_score()
-    label, tracker = library.Labeler(), library.TimeSignatureTracker()
+    accumulator = library.Accumulator(score)
     design = library.design_2(start=14, stop=28)
     assert len(design) == 14
     with baca.scope(design[:1]) as collections:
         assert collections == [[2, 1]]
         tuplets, tsd = library.make_forty_eighths(collections)
-        tracker(tuplets, tsd)
         baca.markup(
             baca.select.pleaf(tuplets, 0), r"\dornen-lh-only-until-rascado-markup"
         )
         library.extend_beam(tuplets)
-        label(tuplets, "")
-        library.populate(score, library.v1, tuplets)
+        accumulator(library.v1, tuplets, tsd, "")
     with baca.scope(design[1:2]) as collections:
         assert collections == [[11, 9, 7]]
         tuplets, tsd = library.make_twentieths(collections)
-        tracker(tuplets, tsd)
         library.extend_beam(tuplets)
-        label(tuplets, "")
-        library.populate(score, library.v4, tuplets)
+        accumulator(library.v4, tuplets, tsd, "")
     with baca.scope(design[2:3]) as collections:
         assert collections == [[0]]
         tuplets, tsd = library.make_sixteenths(collections)
-        tracker(tuplets, tsd)
-        label(tuplets, "")
-        library.populate(score, library.v3, tuplets)
+        accumulator(library.v3, tuplets, tsd, "")
     with baca.scope(design[3:4]) as collections:
         assert collections == [[3, 6, 5]]
         tuplets, tsd = library.make_twentieths(collections)
-        tracker(tuplets, tsd)
         baca.beam_positions(tuplets, 6)
         baca.stem_up(baca.select.pleaves(tuplets))
-        label(tuplets, "")
-        library.populate(score, library.v4, tuplets)
+        accumulator(library.v4, tuplets, tsd, "")
     with baca.scope(design[4:5]) as collections:
         assert collections == [[4, 10, 7, 0]]
         tuplets, tsd = library.make_thirty_seconds(collections)
-        tracker(tuplets, tsd)
         baca.slur(baca.select.tleaves(tuplets))
-        label(tuplets, "")
-        library.populate(score, library.v2, tuplets)
+        accumulator(library.v2, tuplets, tsd, "")
     with baca.scope(design[5:6]) as collections:
         assert collections == [[3, 6]]
         tuplets, tsd = library.make_forty_eighths(collections)
-        tracker(tuplets, tsd)
-        label(tuplets, "")
-        library.populate(score, library.v1, tuplets)
+        accumulator(library.v1, tuplets, tsd, "")
     with baca.scope([["C4"]]) as collections:
         tuplets, tsd = library.make_thirty_seconds(collections)
-        tracker(tuplets, tsd)
         rmakers.force_rest(baca.select.lt(tuplets, 0))
-        label(tuplets, "")
-        library.populate(score, library.v1, tuplets)
+        accumulator(library.v1, tuplets, tsd, "")
     with baca.scope(design[:1]) as collections:
         assert collections == [[2, 1]]
         tuplets, tsd = library.make_forty_eighths(collections)
-        tracker(tuplets, tsd)
         baca.markup(
             baca.select.pleaf(tuplets, 0), r"\dornen-rh-reaches-for-screw-markup"
         )
         library.extend_beam(tuplets)
-        label(tuplets, "")
-        library.populate(score, library.v1, tuplets)
+        accumulator(library.v1, tuplets, tsd, "")
     with baca.scope(design[1:2]) as collections:
         assert collections == [[11, 9, 7]]
         tuplets, tsd = library.make_twentieths(collections)
-        tracker(tuplets, tsd)
         library.extend_beam(tuplets)
-        label(tuplets, "")
-        library.populate(score, library.v4, tuplets)
+        accumulator(library.v4, tuplets, tsd, "")
     with baca.scope(design[2:3]) as collections:
         assert collections == [[0]]
         tuplets, tsd = library.make_sixteenths(collections)
-        tracker(tuplets, tsd)
-        label(tuplets, "")
-        library.populate(score, library.v3, tuplets)
+        accumulator(library.v3, tuplets, tsd, "")
     with baca.scope(design[3:4]) as collections:
         assert collections == [[3, 6, 5]]
         tuplets, tsd = library.make_twentieths(collections)
-        tracker(tuplets, tsd)
         baca.beam_positions(tuplets, 6)
         baca.stem_up(baca.select.pleaves(tuplets))
-        label(tuplets, "")
-        library.populate(score, library.v4, tuplets)
+        accumulator(library.v4, tuplets, tsd, "")
     with baca.scope(design[4:5]) as collections:
         assert collections == [[4, 10, 7, 0]]
         tuplets, tsd = library.make_thirty_seconds(collections)
-        tracker(tuplets, tsd)
         baca.slur(baca.select.tleaves(tuplets))
-        label(tuplets, "")
-        library.populate(score, library.v2, tuplets)
+        accumulator(library.v2, tuplets, tsd, "")
     with baca.scope(design[5:6]) as collections:
         assert collections == [[3, 6]]
         tuplets, tsd = library.make_forty_eighths(collections)
-        tracker(tuplets, tsd)
-        label(tuplets, "")
-        library.populate(score, library.v1, tuplets)
+        accumulator(library.v1, tuplets, tsd, "")
     with baca.scope([["C4"]]) as collections:
         tuplets, tsd = library.make_thirty_seconds(collections)
-        tracker(tuplets, tsd)
         rmakers.force_rest(baca.select.lt(tuplets, 0))
-        label(tuplets, "")
-        library.populate(score, library.v1, tuplets)
+        accumulator(library.v1, tuplets, tsd, "")
     with baca.scope(design[:1]) as collections:
         assert collections == [[2, 1]]
         tuplets, tsd = library.make_forty_eighths(collections)
-        tracker(tuplets, tsd)
         baca.markup(
             baca.select.pleaf(tuplets, 0), r"\dornen-rh-places-screw-on-string-markup"
         )
         library.extend_beam(tuplets)
-        label(tuplets, "")
-        library.populate(score, library.v1, tuplets)
+        accumulator(library.v1, tuplets, tsd, "")
     with baca.scope(design[1:2]) as collections:
         assert collections == [[11, 9, 7]]
         tuplets, tsd = library.make_twentieths(collections)
-        tracker(tuplets, tsd)
         library.extend_beam(tuplets)
-        label(tuplets, "")
-        library.populate(score, library.v4, tuplets)
+        accumulator(library.v4, tuplets, tsd, "")
     with baca.scope(design[2:3]) as collections:
         assert collections == [[0]]
         tuplets, tsd = library.make_sixteenths(collections)
-        tracker(tuplets, tsd)
-        label(tuplets, "")
-        library.populate(score, library.v3, tuplets)
+        accumulator(library.v3, tuplets, tsd, "")
     with baca.scope(design[3:4]) as collections:
         assert collections == [[3, 6, 5]]
         tuplets, tsd = library.make_twentieths(collections)
-        tracker(tuplets, tsd)
         baca.beam_positions(tuplets, 6)
         baca.stem_up(baca.select.pleaves(tuplets))
-        label(tuplets, "")
-        library.populate(score, library.v4, tuplets)
+        accumulator(library.v4, tuplets, tsd, "")
     with baca.scope(design[4:5]) as collections:
         assert collections == [[4, 10, 7, 0]]
         tuplets, tsd = library.make_thirty_seconds(collections)
-        tracker(tuplets, tsd)
         baca.slur(baca.select.tleaves(tuplets))
-        label(tuplets, "")
-        library.populate(score, library.v2, tuplets)
+        accumulator(library.v2, tuplets, tsd, "")
     with baca.scope(design[5:6]) as collections:
         assert collections == [[3, 6]]
         tuplets, tsd = library.make_forty_eighths(collections)
-        tracker(tuplets, tsd)
-        label(tuplets, "")
-        library.populate(score, library.v1, tuplets)
+        accumulator(library.v1, tuplets, tsd, "")
     with baca.scope([["C4"]]) as collections:
         tuplets, tsd = library.make_thirty_seconds(collections)
-        tracker(tuplets, tsd)
         rmakers.force_rest(baca.select.lt(tuplets, 0))
-        label(tuplets, "")
-        library.populate(score, library.v1, tuplets)
+        accumulator(library.v1, tuplets, tsd, "")
     with baca.scope(design[:1]) as collections:
         assert collections == [[2, 1]]
         tuplets, tsd = library.make_forty_eighths(collections)
-        tracker(tuplets, tsd)
         library.extend_beam(tuplets)
-        label(tuplets, "")
-        library.populate(score, library.v1, tuplets)
+        accumulator(library.v1, tuplets, tsd, "")
     with baca.scope(design[1:2]) as collections:
         assert collections == [[11, 9, 7]]
         tuplets, tsd = library.make_twentieths(collections)
-        tracker(tuplets, tsd)
         library.extend_beam(tuplets)
-        label(tuplets, "")
-        library.populate(score, library.v4, tuplets)
+        accumulator(library.v4, tuplets, tsd, "")
     with baca.scope(design[2:3]) as collections:
         assert collections == [[0]]
         tuplets, tsd = library.make_sixteenths(collections)
-        tracker(tuplets, tsd)
-        label(tuplets, "")
-        library.populate(score, library.v3, tuplets)
+        accumulator(library.v3, tuplets, tsd, "")
     with baca.scope(design[3:4]) as collections:
         assert collections == [[3, 6, 5]]
         tuplets, tsd = library.make_twentieths(collections)
-        tracker(tuplets, tsd)
         baca.beam_positions(tuplets, 6)
         baca.stem_up(baca.select.pleaves(tuplets))
-        label(tuplets, "")
-        library.populate(score, library.v4, tuplets)
+        accumulator(library.v4, tuplets, tsd, "")
     with baca.scope(design[4:5]) as collections:
         assert collections == [[4, 10, 7, 0]]
         tuplets, tsd = library.make_thirty_seconds(collections)
-        tracker(tuplets, tsd)
         baca.slur(baca.select.tleaves(tuplets))
-        label(tuplets, "")
-        library.populate(score, library.v2, tuplets)
+        accumulator(library.v2, tuplets, tsd, "")
     with baca.scope(design[5:6]) as collections:
         assert collections == [[3, 6]]
         tuplets, tsd = library.make_forty_eighths(collections)
-        tracker(tuplets, tsd)
-        label(tuplets, "")
-        library.populate(score, library.v1, tuplets)
+        accumulator(library.v1, tuplets, tsd, "")
     with baca.scope([["C4"]]) as collections:
         tuplets, tsd = library.make_thirty_seconds(collections)
-        tracker(tuplets, tsd)
         rmakers.force_rest(baca.select.lt(tuplets, 0))
-        label(tuplets, "")
-        library.populate(score, library.v1, tuplets)
+        accumulator(library.v1, tuplets, tsd, "")
     with baca.scope(design[:1]) as collections:
         assert collections == [[2, 1]]
         tuplets, tsd = library.make_forty_eighths(collections)
-        tracker(tuplets, tsd)
         library.extend_beam(tuplets)
-        label(tuplets, "")
-        library.populate(score, library.v1, tuplets)
+        accumulator(library.v1, tuplets, tsd, "")
     with baca.scope(design[1:2]) as collections:
         assert collections == [[11, 9, 7]]
         tuplets, tsd = library.make_twentieths(collections)
-        tracker(tuplets, tsd)
         library.extend_beam(tuplets)
-        label(tuplets, "")
-        library.populate(score, library.v4, tuplets)
+        accumulator(library.v4, tuplets, tsd, "")
     with baca.scope(design[2:3]) as collections:
         assert collections == [[0]]
         tuplets, tsd = library.make_sixteenths(collections)
-        tracker(tuplets, tsd)
-        label(tuplets, "")
-        library.populate(score, library.v3, tuplets)
+        accumulator(library.v3, tuplets, tsd, "")
     with baca.scope(design[3:4]) as collections:
         assert collections == [[3, 6, 5]]
         tuplets, tsd = library.make_twentieths(collections)
-        tracker(tuplets, tsd)
         baca.beam_positions(tuplets, 6)
         baca.stem_up(baca.select.pleaves(tuplets))
-        label(tuplets, "")
-        library.populate(score, library.v4, tuplets)
+        accumulator(library.v4, tuplets, tsd, "")
     with baca.scope(design[4:5]) as collections:
         assert collections == [[4, 10, 7, 0]]
         tuplets, tsd = library.make_thirty_seconds(collections)
-        tracker(tuplets, tsd)
         baca.slur(baca.select.tleaves(tuplets))
-        label(tuplets, "")
-        library.populate(score, library.v2, tuplets)
+        accumulator(library.v2, tuplets, tsd, "")
     with baca.scope(design[5:6]) as collections:
         assert collections == [[3, 6]]
         tuplets, tsd = library.make_forty_eighths(collections)
-        tracker(tuplets, tsd)
-        label(tuplets, "")
-        library.populate(score, library.v1, tuplets)
+        accumulator(library.v1, tuplets, tsd, "")
     with baca.scope([["C4"]]) as collections:
         tuplets, tsd = library.make_thirty_seconds(collections)
-        tracker(tuplets, tsd)
         rmakers.force_rest(baca.select.lt(tuplets, 0))
-        label(tuplets, "")
-        library.populate(score, library.v1, tuplets)
+        accumulator(library.v1, tuplets, tsd, "")
     with baca.scope(design[:1]) as collections:
         assert collections == [[2, 1]]
         tuplets, tsd = library.make_forty_eighths(collections)
-        tracker(tuplets, tsd)
-        label(tuplets, "")
-        library.populate(score, library.v1, tuplets)
+        accumulator(library.v1, tuplets, tsd, "")
     with baca.scope(design[1:2]) as collections:
         assert collections == [[11, 9, 7]]
         tuplets, tsd = library.make_twentieths(collections)
-        tracker(tuplets, tsd)
         library.extend_beam(tuplets)
-        label(tuplets, "")
-        library.populate(score, library.v4, tuplets)
+        accumulator(library.v4, tuplets, tsd, "")
     with baca.scope(design[2:3]) as collections:
         assert collections == [[0]]
         tuplets, tsd = library.make_sixteenths(collections)
-        tracker(tuplets, tsd)
-        label(tuplets, "")
-        library.populate(score, library.v3, tuplets)
+        accumulator(library.v3, tuplets, tsd, "")
     with baca.scope(design[3:4]) as collections:
         assert collections == [[3, 6, 5]]
         tuplets, tsd = library.make_twentieths(collections)
-        tracker(tuplets, tsd)
         baca.beam_positions(tuplets, 6)
         baca.stem_up(baca.select.pleaves(tuplets))
-        label(tuplets, "")
-        library.populate(score, library.v4, tuplets)
+        accumulator(library.v4, tuplets, tsd, "")
     with baca.scope(design[4:5]) as collections:
         assert collections == [[4, 10, 7, 0]]
         tuplets, tsd = library.make_thirty_seconds(collections)
-        tracker(tuplets, tsd)
         baca.slur(baca.select.tleaves(tuplets))
-        label(tuplets, "")
+        accumulator(library.v2, tuplets, tsd, "")
     tuplets, tsd = library.make_rests(5, (1, 8))
-    tracker(tuplets, tsd)
-    label(tuplets, "")
-    library.populate(score, library.v1, tuplets)
+    accumulator(library.v1, tuplets, tsd, "")
     with baca.scope([13 * ["E2"]]) as collections:
         tuplets, tsd = library.make_thirds(collections)
-        tracker(tuplets, tsd)
         baca.dynamic(baca.select.phead(tuplets, 0), "p")
         baca.markup(
             baca.select.pleaf(tuplets, 0),
@@ -308,10 +226,9 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         for qrun in baca.select.qruns(tuplets):
             baca.repeat_tie(qrun[1:])
         baca.stem_tremolo(baca.select.pleaves(tuplets))
-        label(tuplets, "")
-        library.populate(score, library.v1, tuplets)
+        accumulator(library.v1, tuplets, tsd, "")
     voices = baca.section.cache_voices(score, library.voice_abbreviations)
-    time_signatures = baca.section.time_signatures(tracker.time_signatures)
+    time_signatures = baca.section.time_signatures(accumulator.time_signatures)
     baca.section.set_up_score(
         score,
         time_signatures(),

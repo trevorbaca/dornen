@@ -837,7 +837,6 @@ number.4.Guitar.Music.1 = {
     }
     \revert TupletNumber.text
 
-    \scaleDurations #'(1 . 1)
     {
 
         c'32

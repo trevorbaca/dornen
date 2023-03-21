@@ -369,6 +369,19 @@ class DesignMaker:
         self._result.extend(parts)
 
 
+class Accumulator:
+    def __init__(self, score):
+        self._score = score
+        self.figure_number = 1
+        self.time_signatures = []
+
+    def __call__(self, voice_name, argument, tsd, figure_name=None):
+        time_signature = make_time_signature(argument, tsd)
+        self.time_signatures.append(time_signature)
+        baca.label_figure(argument, figure_name, self)
+        populate(self._score, voice_name, argument)
+
+
 @dataclasses.dataclass
 class Labeler:
     figure_number: int = 1
@@ -679,6 +692,16 @@ def make_thirty_seconds(collections):
     return tuplets, 32
 
 
+def make_time_signature(tuplets, tsd):
+    duration = abjad.get.duration(tuplets)
+    if tsd is not None:
+        pair = abjad.duration.with_denominator(duration, tsd)
+    else:
+        pair = duration.pair
+    time_signature = abjad.TimeSignature(pair)
+    return time_signature
+
+
 def make_twentieths(collections):
     assert len(collections) == 1, repr(collections)
     tuplets = []
@@ -738,16 +761,6 @@ def populate(score, voice_name, containers):
         voice = score[other_voice_name]
         skip = abjad.Skip("s1", multiplier=duration.pair)
         voice.append(skip)
-
-
-def time_signature(tuplets, tsd):
-    duration = abjad.get.duration(tuplets)
-    if tsd is not None:
-        pair = abjad.duration.with_denominator(duration, tsd)
-    else:
-        pair = duration.pair
-    time_signature = abjad.TimeSignature(pair)
-    return time_signature
 
 
 instruments = {"Guitar": abjad.Guitar(pitch_range=abjad.PitchRange("[E2, F5]"))}

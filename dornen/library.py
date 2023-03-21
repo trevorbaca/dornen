@@ -724,7 +724,7 @@ def make_twenty_fourths(collections):
     return tuplets, 24
 
 
-def make_waves(collections, denominator=64, inverted=False):
+def make_waves(collections, denominator=64, *, inverted=False):
     # assert len(collections) == 1, repr(collections)
     assert abjad.math.is_positive_integer_power_of_two(denominator)
     assert 16 <= denominator, repr(denominator)
@@ -732,12 +732,15 @@ def make_waves(collections, denominator=64, inverted=False):
     for i, collection in enumerate(collections):
         if inverted:
             i += 1
-        if i % 2 == 0:
-            treatment = "accel"
+        if len(collection) == 1:
+            container = baca.container_from_collection(collection, [1], denominator)
         else:
-            treatment = "rit"
-        tuplet = baca.from_collection(collection, [1], denominator, treatment)
-        tuplets.append(tuplet)
+            container = baca.from_collection(collection, [1], denominator)
+            if i % 2 == 0:
+                baca.style_accelerando(container)
+            else:
+                baca.style_ritardando(container)
+        tuplets.append(container)
     rmakers.beam(tuplets)
     return tuplets, denominator
 

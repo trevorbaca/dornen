@@ -11,6 +11,7 @@ v4 = "Guitar.Music.4"
 
 
 def _apply_operator(segment, operator):
+    segment = abjad.PitchClassSegment(segment)
     assert isinstance(segment, abjad.PitchClassSegment)
     assert isinstance(operator, str), repr(operator)
     if operator.startswith("T"):
@@ -25,7 +26,8 @@ def _apply_operator(segment, operator):
         segment = baca.pcollections.alpha(segment)
     else:
         raise Exception(f"unrecognized operator: {operator!r}.")
-    return segment
+    numbers = [_.number for _ in segment]
+    return numbers
 
 
 def _blue_pitch_classes():
@@ -337,12 +339,7 @@ class DesignMaker:
     def __call__(self):
         design = self._result
         _check_duplicate_pitch_classes(design)
-        pitch_lists = []
-        for cell in design:
-            numbered_pitch_classes = cell
-            pitch_list = [_.number for _ in numbered_pitch_classes]
-            pitch_lists.append(pitch_list)
-        return pitch_lists
+        return design
 
     def partition(
         self, cursor, number, counts, operators=None, *, cyclic=False
@@ -355,8 +352,9 @@ class DesignMaker:
         cells = cursor.next(number)
         list_ = []
         for cell in cells:
+            assert all(isinstance(_, int | float) for _ in cell), repr(cell)
             list_.extend(cell)
-        segment = abjad.PitchClassSegment(list_)
+        segment = list_
         operators = operators or []
         for operator in operators:
             segment = _apply_operator(segment, operator)
@@ -370,9 +368,8 @@ class DesignMaker:
 def design_1():
     design_maker = DesignMaker()
     magenta_pitch_classes = _magenta_pitch_classes()
-    # TODO: remove cursor?
-    magenta_cursor = baca.Cursor(magenta_pitch_classes, cyclic=True)
     blue_pitch_classes = _blue_pitch_classes()
+    magenta_cursor = baca.Cursor(magenta_pitch_classes, cyclic=True)
     blue_cursor = baca.Cursor(blue_pitch_classes, cyclic=True)
     design_maker.partition(magenta_cursor, 2, [1])
     design_maker.partition(magenta_cursor, 2, [1])

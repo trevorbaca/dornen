@@ -337,7 +337,12 @@ class DesignMaker:
     def __call__(self):
         design = self._result
         _check_duplicate_pitch_classes(design)
-        return design
+        pitch_lists = []
+        for cell in design:
+            numbered_pitch_classes = cell
+            pitch_list = [_.number for _ in numbered_pitch_classes]
+            pitch_lists.append(pitch_list)
+        return pitch_lists
 
     def partition(
         self, cursor, number, counts, operators=None, *, cyclic=False
@@ -362,7 +367,7 @@ class DesignMaker:
         self._result.extend(parts)
 
 
-def design_1(start=None, stop=None):
+def design_1():
     design_maker = DesignMaker()
     magenta_pitch_classes = _magenta_pitch_classes()
     # TODO: remove cursor?
@@ -385,19 +390,10 @@ def design_1(start=None, stop=None):
     design_maker.partition(magenta_cursor, 8, [1, 3], ["alpha"], cyclic=True)
     design_maker.partition(blue_cursor, 8, [1, 4], ["alpha"], cyclic=True)
     design = design_maker()
-    if start is None and stop is None:
-        return design
-    cells = design
-    pitch_lists = []
-    for cell in cells:
-        numbered_pitch_classes = cell
-        pitch_list = [_.number for _ in numbered_pitch_classes]
-        pitch_lists.append(pitch_list)
-    pitch_lists = pitch_lists[start:stop]
-    return pitch_lists
+    return design
 
 
-def design_2(start=None, stop=None):
+def design_2():
     blue_pitch_classes = _blue_pitch_classes()
     blue_cursor = baca.Cursor(blue_pitch_classes, cyclic=True)
     green_pitch_classes = _green_pitch_classes()
@@ -413,19 +409,10 @@ def design_2(start=None, stop=None):
     design_maker.partition(blue_cursor, 4, [6], ["alpha"], cyclic=True)
     design_maker.partition(green_cursor, 4, [6], ["alpha"], cyclic=True)
     design = design_maker()
-    if start is None and stop is None:
-        return design
-    cells = design
-    pitch_lists = []
-    for cell in cells:
-        numbered_pitch_classes = cell
-        pitch_list = [_.number for _ in numbered_pitch_classes]
-        pitch_lists.append(pitch_list)
-    pitch_lists = pitch_lists[start:stop]
-    return pitch_lists
+    return design
 
 
-def design_3(start=None, stop=None):
+def design_3():
     green_pitch_classes = _green_pitch_classes()
     green_cursor = baca.Cursor(green_pitch_classes, cyclic=True)
     bright_green_pitch_classes = _bright_green_pitch_classes()
@@ -439,16 +426,7 @@ def design_3(start=None, stop=None):
     design_maker.partition(green_cursor, 4, [6], ["alpha"], cyclic=True)
     design_maker.partition(bright_green_cursor, 4, [5], ["alpha"], cyclic=True)
     design = design_maker()
-    if start is None and stop is None:
-        return design
-    cells = design
-    pitch_lists = []
-    for cell in cells:
-        numbered_pitch_classes = cell
-        pitch_list = [_.number for _ in numbered_pitch_classes]
-        pitch_lists.append(pitch_list)
-    pitch_lists = pitch_lists[start:stop]
-    return pitch_lists
+    return design
 
 
 def extend_beam(components):

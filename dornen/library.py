@@ -1,4 +1,3 @@
-import dataclasses
 import inspect
 
 import abjad
@@ -255,6 +254,20 @@ def _magenta_pitch_classes():
     return magenta_pitch_classes
 
 
+class Accumulator:
+    def __init__(self, score):
+        self._score = score
+        self.figure_number = 1
+        self.time_signatures = []
+
+    def __call__(self, voice_name, argument, tsd, figure_name=None):
+        time_signature = make_time_signature(argument, tsd)
+        self.time_signatures.append(time_signature)
+        baca.label_figure(argument, figure_name, self)
+        populate(self._score, voice_name, argument)
+
+
+# TODO: change to function
 class DesignChecker:
     __slots__ = ("_design",)
 
@@ -316,6 +329,7 @@ class DesignChecker:
         return self._design
 
 
+# TODO: change to function
 class DesignMaker:
     def __init__(self):
         self._result = []
@@ -369,44 +383,10 @@ class DesignMaker:
         self._result.extend(parts)
 
 
-class Accumulator:
-    def __init__(self, score):
-        self._score = score
-        self.figure_number = 1
-        self.time_signatures = []
-
-    def __call__(self, voice_name, argument, tsd, figure_name=None):
-        time_signature = make_time_signature(argument, tsd)
-        self.time_signatures.append(time_signature)
-        baca.label_figure(argument, figure_name, self)
-        populate(self._score, voice_name, argument)
-
-
-@dataclasses.dataclass
-class Labeler:
-    figure_number: int = 1
-
-    def __call__(self, components, string):
-        baca.label_figure(components, string, self)
-
-
-class TimeSignatureTracker:
-    def __init__(self):
-        self.time_signatures = []
-
-    def __call__(self, tuplets, tsd):
-        duration = abjad.get.duration(tuplets)
-        if tsd is not None:
-            pair = abjad.duration.with_denominator(duration, tsd)
-        else:
-            pair = duration.pair
-        time_signature = abjad.TimeSignature(pair)
-        self.time_signatures.append(time_signature)
-
-
 def design_1(start=None, stop=None):
     design_maker = DesignMaker()
     magenta_pitch_classes = _magenta_pitch_classes()
+    # TODO: remove cursor?
     magenta_cursor = baca.Cursor(magenta_pitch_classes, cyclic=True)
     blue_pitch_classes = _blue_pitch_classes()
     blue_cursor = baca.Cursor(blue_pitch_classes, cyclic=True)

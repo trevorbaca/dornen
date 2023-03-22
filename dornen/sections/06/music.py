@@ -11,7 +11,7 @@ from dornen import library
 def make_empty_score(first_measure_number, previous_persistent_indicators):
     score = library.make_empty_score()
     accumulator = library.Accumulator(score)
-    design = library.design_3(start=10, stop=30)
+    design = library.design_3()[10:30]
     assert len(design) == 20
     with baca.scope(design[:1]) as collections:
         assert collections == [[10, 0]]

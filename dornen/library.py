@@ -10,8 +10,8 @@ v3 = "Guitar.Music.3"
 v4 = "Guitar.Music.4"
 
 
-def _apply_operator(segment, operator):
-    segment = abjad.PitchClassSegment(segment)
+def _apply_operator(numbers, operator):
+    segment = abjad.PitchClassSegment(numbers)
     assert isinstance(segment, abjad.PitchClassSegment)
     assert isinstance(operator, str), repr(operator)
     if operator.startswith("T"):
@@ -30,7 +30,14 @@ def _apply_operator(segment, operator):
     return numbers
 
 
-def _blue_pitch_classes():
+def _check_duplicate_pitch_classes(design):
+    leaves = abjad.sequence.flatten(design, depth=-1)
+    for leaf_1, leaf_2 in abjad.sequence.nwise(leaves):
+        if leaf_1 == leaf_2:
+            raise Exception(f"duplicate {leaf_1!r}.")
+
+
+def _make_blue_pcs():
     blue_pitch_classes = [[1, 0, 10], [5, 8, 6, 11, 2], [4, 3, 9]]
     blue_pitch_classes = baca.sequence.helianthate(blue_pitch_classes, -1, -1)
     assert len(blue_pitch_classes) == 45
@@ -84,7 +91,7 @@ def _blue_pitch_classes():
     return blue_pitch_classes
 
 
-def _bright_green_pitch_classes():
+def _make_bright_green_pcs():
     bright_green_pitch_classes = [
         [6, 4, 5, 5.5, 6.5, 9],
         [10, 7, 8, 11.5],
@@ -135,14 +142,7 @@ def _bright_green_pitch_classes():
     return bright_green_pitch_classes
 
 
-def _check_duplicate_pitch_classes(design):
-    leaves = abjad.sequence.flatten(design, depth=-1)
-    for leaf_1, leaf_2 in abjad.sequence.nwise(leaves):
-        if leaf_1 == leaf_2:
-            raise Exception(f"duplicate {leaf_1!r}.")
-
-
-def _green_pitch_classes():
+def _make_green_pcs():
     green_pitch_classes = [[5, 9, 11, 10, 0], [6, 7, 8, 2, 1, 3]]
     green_pitch_classes = baca.sequence.helianthate(green_pitch_classes, -1, -1)
     assert len(green_pitch_classes) == 60
@@ -211,7 +211,7 @@ def _green_pitch_classes():
     return green_pitch_classes
 
 
-def _magenta_pitch_classes():
+def _make_magenta_pcs():
     magenta_pitch_classes = [[4, 6, 2, 3], [5, 9, 8, 0], [11, 10, 7]]
     magenta_pitch_classes = baca.sequence.helianthate(magenta_pitch_classes, -1, -1)
     assert len(magenta_pitch_classes) == 36
@@ -256,6 +256,18 @@ def _magenta_pitch_classes():
     return magenta_pitch_classes
 
 
+def _partition(lists, counts, operators=None, *, cyclic=False):
+    segment = abjad.sequence.flatten(lists)
+    operators = operators or []
+    for operator in operators:
+        segment = _apply_operator(segment, operator)
+    parts = abjad.sequence.partition_by_counts(
+        segment, counts, cyclic=cyclic, overhang=True
+    )
+    parts = [list(_) for _ in parts]
+    return parts
+
+
 class Accumulator:
     def __init__(self, score):
         self._score = score
@@ -269,105 +281,93 @@ class Accumulator:
         populate(self._score, voice_name, argument)
 
 
-def partition(cursor, number, counts, operators=None, *, cyclic=False):
-    lists = cursor.next(number)
-    segment = abjad.sequence.flatten(lists)
-    operators = operators or []
-    for operator in operators:
-        segment = _apply_operator(segment, operator)
-    parts = abjad.sequence.partition_by_counts(
-        segment, counts, cyclic=cyclic, overhang=True
-    )
-    return parts
-
-
 def design_1():
-    magenta_pitch_classes = _magenta_pitch_classes()
-    blue_pitch_classes = _blue_pitch_classes()
-    magenta_cursor = baca.Cursor(magenta_pitch_classes, cyclic=True)
-    blue_cursor = baca.Cursor(blue_pitch_classes, cyclic=True)
+    magenta_pitch_classes = _make_magenta_pcs()
+    blue_pitch_classes = _make_blue_pcs()
+    magenta = abjad.CyclicTuple(magenta_pitch_classes)
+    blue = abjad.CyclicTuple(blue_pitch_classes)
     result = []
-    parts = partition(magenta_cursor, 2, [1])
+    parts = _partition(magenta[:2], [1])
     result.extend(parts)
-    parts = partition(magenta_cursor, 2, [1])
+    parts = _partition(magenta[2:4], [1])
     result.extend(parts)
-    parts = partition(magenta_cursor, 2, [2])
+    parts = _partition(magenta[4:6], [2])
     result.extend(parts)
-    parts = partition(magenta_cursor, 2, [2])
+    parts = _partition(magenta[6:8], [2])
     result.extend(parts)
-    parts = partition(magenta_cursor, 2, [4])
+    parts = _partition(magenta[8:10], [4])
     result.extend(parts)
-    parts = partition(magenta_cursor, 2, [4])
+    parts = _partition(magenta[10:12], [4])
     result.extend(parts)
-    parts = partition(blue_cursor, 4, [], ["T0"])
+    parts = _partition(blue[:4], [], ["T0"])
     result.extend(parts)
-    parts = partition(magenta_cursor, 3, [2], ["T1"])
+    parts = _partition(magenta[12:15], [2], ["T1"])
     result.extend(parts)
-    parts = partition(magenta_cursor, 3, [2], ["T1"])
+    parts = _partition(magenta[15:18], [2], ["T1"])
     result.extend(parts)
-    parts = partition(magenta_cursor, 3, [4], ["T1"])
+    parts = _partition(magenta[18:21], [4], ["T1"])
     result.extend(parts)
-    parts = partition(magenta_cursor, 3, [4], ["T1"])
+    parts = _partition(magenta[21:24], [4], ["T1"])
     result.extend(parts)
-    parts = partition(blue_cursor, 4, [], ["T2"])
+    parts = _partition(blue[4:8], [], ["T2"])
     result.extend(parts)
-    parts = partition(blue_cursor, 4, [], ["T2"])
+    parts = _partition(blue[8:12], [], ["T2"])
     result.extend(parts)
-    parts = partition(magenta_cursor, 8, [1, 3], ["alpha"], cyclic=True)
+    parts = _partition(magenta[24:32], [1, 3], ["alpha"], cyclic=True)
     result.extend(parts)
-    parts = partition(blue_cursor, 8, [1, 4], ["alpha"], cyclic=True)
+    parts = _partition(blue[12:20], [1, 4], ["alpha"], cyclic=True)
     result.extend(parts)
     _check_duplicate_pitch_classes(result)
     return result
 
 
 def design_2():
-    blue_pitch_classes = _blue_pitch_classes()
-    blue_cursor = baca.Cursor(blue_pitch_classes, cyclic=True)
-    green_pitch_classes = _green_pitch_classes()
-    green_cursor = baca.Cursor(green_pitch_classes, cyclic=True)
+    blue_pitch_classes = _make_blue_pcs()
+    green_pitch_classes = _make_green_pcs()
+    blue = abjad.CyclicTuple(blue_pitch_classes)
+    green = abjad.CyclicTuple(green_pitch_classes)
     result = []
-    parts = partition(blue_cursor, 4, [4], cyclic=True)
+    parts = _partition(blue[:4], [4], cyclic=True)
     result.extend(parts)
-    parts = partition(blue_cursor, 6, [5], cyclic=True)
+    parts = _partition(blue[4:10], [5], cyclic=True)
     result.extend(parts)
-    parts = partition(blue_cursor, 8, [6], cyclic=True)
+    parts = _partition(blue[10:18], [6], cyclic=True)
     result.extend(parts)
-    parts = partition(green_cursor, 4, [], ["T0"])
+    parts = _partition(green[:4], [], ["T0"])
     result.extend(parts)
-    parts = partition(blue_cursor, 12, [2, 3, 1, 3, 4], ["T1"], cyclic=True)
+    parts = _partition(blue[18:30], [2, 3, 1, 3, 4], ["T1"], cyclic=True)
     result.extend(parts)
-    parts = partition(green_cursor, 4, [], ["T2"])
+    parts = _partition(green[4:8], [], ["T2"])
     result.extend(parts)
-    parts = partition(green_cursor, 4, [], ["T2"])
+    parts = _partition(green[8:12], [], ["T2"])
     result.extend(parts)
-    parts = partition(blue_cursor, 4, [6], ["alpha"], cyclic=True)
+    parts = _partition(blue[30:34], [6], ["alpha"], cyclic=True)
     result.extend(parts)
-    parts = partition(green_cursor, 4, [6], ["alpha"], cyclic=True)
+    parts = _partition(green[12:16], [6], ["alpha"], cyclic=True)
     result.extend(parts)
     _check_duplicate_pitch_classes(result)
     return result
 
 
 def design_3():
-    green_pitch_classes = _green_pitch_classes()
-    green_cursor = baca.Cursor(green_pitch_classes, cyclic=True)
-    bright_green_pitch_classes = _bright_green_pitch_classes()
-    bright_green_cursor = baca.Cursor(bright_green_pitch_classes, cyclic=True)
+    green_pitch_classes = _make_green_pcs()
+    bright_green_pitch_classes = _make_bright_green_pcs()
+    green = abjad.CyclicTuple(green_pitch_classes)
+    bright_green = abjad.CyclicTuple(bright_green_pitch_classes)
     result = []
-    parts = partition(green_cursor, 12, [6, 5, 4, 3, 2, 1], cyclic=True)
+    parts = _partition(green[:12], [6, 5, 4, 3, 2, 1], cyclic=True)
     result.extend(parts)
-    parts = partition(bright_green_cursor, 6, [], ["T0"])
+    parts = _partition(bright_green[:6], [], ["T0"])
     result.extend(parts)
-    parts = partition(green_cursor, 6, [6], ["T1"], cyclic=True)
+    parts = _partition(green[12:18], [6], ["T1"], cyclic=True)
     result.extend(parts)
-    parts = partition(bright_green_cursor, 4, [], ["T2"])
+    parts = _partition(bright_green[6:10], [], ["T2"])
     result.extend(parts)
-    parts = partition(bright_green_cursor, 4, [5], ["T2"], cyclic=True)
+    parts = _partition(bright_green[10:14], [5], ["T2"], cyclic=True)
     result.extend(parts)
-    parts = partition(green_cursor, 4, [6], ["alpha"], cyclic=True)
+    parts = _partition(green[18:22], [6], ["alpha"], cyclic=True)
     result.extend(parts)
-    parts = partition(bright_green_cursor, 4, [5], ["alpha"], cyclic=True)
+    parts = _partition(bright_green[14:18], [5], ["alpha"], cyclic=True)
     result.extend(parts)
     _check_duplicate_pitch_classes(result)
     return result

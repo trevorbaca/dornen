@@ -339,10 +339,9 @@ class DesignMaker:
         _check_duplicate_pitch_classes(design)
         return design
 
-    def __repr__(self):
-        return f"{type(self).__name__}()"
-
-    def partition(self, cursor, number, counts, operators=None) -> None:
+    def partition(
+        self, cursor, number, counts, operators=None, *, cyclic=False
+    ) -> None:
         """
         Partitions next ``number`` cells in ``cursor`` by ``counts``.
 
@@ -357,29 +356,9 @@ class DesignMaker:
         for operator in operators:
             segment = _apply_operator(segment, operator)
         sequence = list(segment)
-        parts = abjad.sequence.partition_by_counts(sequence, counts, overhang=True)
-        parts_ = [abjad.PitchClassSegment(_) for _ in parts]
-        self._result.extend(parts_)
-
-    def partition_cyclic(self, cursor, number, counts, operators=None):
-        """
-        Partitions next ``number`` cells in ``cursor`` cyclically by ``counts``
-
-        Applies optional ``operators`` to parts in resulting partition.
-        """
-        cells = cursor.next(number)
-        list_ = []
-        for cell in cells:
-            list_.extend(cell)
-        segment = abjad.PitchClassSegment(list_)
-        operators = operators or []
-        for operator in operators:
-            segment = _apply_operator(segment, operator)
-        sequence = list(segment)
         parts = abjad.sequence.partition_by_counts(
-            sequence, counts, cyclic=True, overhang=True
+            sequence, counts, cyclic=cyclic, overhang=True
         )
-        parts = [abjad.PitchClassSegment(_) for _ in parts]
         self._result.extend(parts)
 
 
@@ -403,8 +382,8 @@ def design_1(start=None, stop=None):
     design_maker.partition(magenta_cursor, 3, [4], ["T1"])
     design_maker.partition(blue_cursor, 4, [], ["T2"])
     design_maker.partition(blue_cursor, 4, [], ["T2"])
-    design_maker.partition_cyclic(magenta_cursor, 8, [1, 3], ["alpha"])
-    design_maker.partition_cyclic(blue_cursor, 8, [1, 4], ["alpha"])
+    design_maker.partition(magenta_cursor, 8, [1, 3], ["alpha"], cyclic=True)
+    design_maker.partition(blue_cursor, 8, [1, 4], ["alpha"], cyclic=True)
     design = design_maker()
     if start is None and stop is None:
         return design
@@ -424,15 +403,15 @@ def design_2(start=None, stop=None):
     green_pitch_classes = _green_pitch_classes()
     green_cursor = baca.Cursor(green_pitch_classes, cyclic=True)
     design_maker = DesignMaker()
-    design_maker.partition_cyclic(blue_cursor, 4, [4])
-    design_maker.partition_cyclic(blue_cursor, 6, [5])
-    design_maker.partition_cyclic(blue_cursor, 8, [6])
+    design_maker.partition(blue_cursor, 4, [4], cyclic=True)
+    design_maker.partition(blue_cursor, 6, [5], cyclic=True)
+    design_maker.partition(blue_cursor, 8, [6], cyclic=True)
     design_maker.partition(green_cursor, 4, [], ["T0"])
-    design_maker.partition_cyclic(blue_cursor, 12, [2, 3, 1, 3, 4], ["T1"])
+    design_maker.partition(blue_cursor, 12, [2, 3, 1, 3, 4], ["T1"], cyclic=True)
     design_maker.partition(green_cursor, 4, [], ["T2"])
     design_maker.partition(green_cursor, 4, [], ["T2"])
-    design_maker.partition_cyclic(blue_cursor, 4, [6], ["alpha"])
-    design_maker.partition_cyclic(green_cursor, 4, [6], ["alpha"])
+    design_maker.partition(blue_cursor, 4, [6], ["alpha"], cyclic=True)
+    design_maker.partition(green_cursor, 4, [6], ["alpha"], cyclic=True)
     design = design_maker()
     if start is None and stop is None:
         return design
@@ -452,13 +431,13 @@ def design_3(start=None, stop=None):
     bright_green_pitch_classes = _bright_green_pitch_classes()
     bright_green_cursor = baca.Cursor(bright_green_pitch_classes, cyclic=True)
     design_maker = DesignMaker()
-    design_maker.partition_cyclic(green_cursor, 12, [6, 5, 4, 3, 2, 1])
+    design_maker.partition(green_cursor, 12, [6, 5, 4, 3, 2, 1], cyclic=True)
     design_maker.partition(bright_green_cursor, 6, [], ["T0"])
-    design_maker.partition_cyclic(green_cursor, 6, [6], ["T1"])
+    design_maker.partition(green_cursor, 6, [6], ["T1"], cyclic=True)
     design_maker.partition(bright_green_cursor, 4, [], ["T2"])
-    design_maker.partition_cyclic(bright_green_cursor, 4, [5], ["T2"])
-    design_maker.partition_cyclic(green_cursor, 4, [6], ["alpha"])
-    design_maker.partition_cyclic(bright_green_cursor, 4, [5], ["alpha"])
+    design_maker.partition(bright_green_cursor, 4, [5], ["T2"], cyclic=True)
+    design_maker.partition(green_cursor, 4, [6], ["alpha"], cyclic=True)
+    design_maker.partition(bright_green_cursor, 4, [5], ["alpha"], cyclic=True)
     design = design_maker()
     if start is None and stop is None:
         return design

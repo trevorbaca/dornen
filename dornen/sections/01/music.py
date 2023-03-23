@@ -1,4 +1,5 @@
 import baca
+from abjadext import rmakers
 
 from dornen import library
 
@@ -131,6 +132,7 @@ def make_empty_score():
         tuplets, tsd = library.make_waves(collection, denominator=64, inverted=True)
         baca.beam_positions(baca.select.leaves(tuplets, grace=False), -6)
         accumulator(library.v3, tuplets, tsd, "W_2")
+    rmakers.swap_trivial(score)
     voices = baca.section.cache_voices(score, library.voice_abbreviations)
     time_signatures = baca.section.time_signatures(accumulator.time_signatures)
     baca.section.set_up_score(

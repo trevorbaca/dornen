@@ -78,7 +78,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         assert collections == [[11, 1, 4, 8]]
         tuplets, tsd = library.make_glissando_scatto(collections)
         accumulator(library.v1, tuplets, tsd, "L3")
-    rmakers.hide_trivial(score)
+    rmakers.swap_trivial(score)
     voices = baca.section.cache_voices(score, library.voice_abbreviations)
     time_signatures = baca.section.time_signatures(accumulator.time_signatures)
     baca.section.set_up_score(

@@ -404,7 +404,6 @@ number.8.Guitar.Music.1 = {
       %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 
-    \scaleDurations #'(1 . 1)
     {
 
         % [Guitar.Music.1 measure 2]

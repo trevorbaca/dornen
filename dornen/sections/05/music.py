@@ -1,5 +1,6 @@
 import abjad
 import baca
+from abjadext import rmakers
 
 from dornen import library
 
@@ -167,6 +168,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         assert collections == [[7, 2, 1]]
         tuplets, tsd = library.make_twentieths(collections)
         accumulator(library.v4, tuplets, tsd, "20_6*")
+    rmakers.swap_trivial(score)
     voices = baca.section.cache_voices(score, library.voice_abbreviations)
     time_signatures = baca.section.time_signatures(accumulator.time_signatures)
     baca.section.set_up_score(

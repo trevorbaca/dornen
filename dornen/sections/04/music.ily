@@ -837,7 +837,6 @@ number.4.Guitar.Music.1 = {
     }
     \revert TupletNumber.text
 
-    \scaleDurations #'(1 . 1)
     {
 
         c'32
@@ -1121,7 +1120,6 @@ number.4.Guitar.Music.2 = {
     % [Guitar.Music.2 measure 13]
     s1 * 3/8
 
-    \scaleDurations #'(1 . 1)
     {
 
         % [Guitar.Music.2 measure 14]
@@ -1457,7 +1455,6 @@ number.4.Guitar.Music.3 = {
     % [Guitar.Music.3 measure 14]
     s1 * 1/8
 
-    \scaleDurations #'(1 . 1)
     {
 
         % [Guitar.Music.3 measure 15]
@@ -1743,7 +1740,6 @@ number.4.Guitar.Music.4 = {
     % [Guitar.Music.4 measure 7]
     s1 * 9/64
 
-    \scaleDurations #'(1 . 1)
     {
 
         % [Guitar.Music.4 measure 8]
@@ -1813,7 +1809,6 @@ number.4.Guitar.Music.4 = {
     % [Guitar.Music.4 measure 16]
     s1 * 3/16
 
-    \scaleDurations #'(1 . 1)
     {
 
         % [Guitar.Music.4 measure 17]

@@ -491,9 +491,7 @@ def make_ovoids(collections):
     assert len(collections) == 1, repr(collections)
     tuplets = []
     for collection in collections:
-        bgcs, collection = baca.make_bgcs(
-            collection, baca.LMR(left_length=1)
-        )
+        bgcs, collection = baca.make_bgcs(collection, baca.LMR(left_length=1))
         tuplet = baca.from_collection(collection, [6, 1], 32)
         baca.attach_bgcs(bgcs, tuplet)
         group = abjad.select.leaves(tuplet, grace=False)

@@ -466,17 +466,15 @@ def make_glissando_scatto(collections):
 def make_graced_tuplets(collections):
     # assert len(collections) == 1, repr(collections)
     tuplets = []
+    lmr = baca.LMR(left_length=1, right_counts=[2], right_cyclic=True)
     for i, collection in enumerate(collections):
-        containers, collection = baca.make_before_grace_containers(
-            collection,
-            baca.LMR(left_length=1, right_counts=[2], right_cyclic=True),
-        )
+        bgcs, collection = baca.make_bgcs(collection, lmr)
         if i % 2 == 0:
             ratio = "7:8"
         else:
             ratio = "7:5"
         tuplet = baca.from_collection(collection, [1], 16, ratio)
-        baca.attach_before_grace_containers(containers, tuplet)
+        baca.attach_bgcs(bgcs, tuplet)
         tuplets.append(tuplet)
     groups = [abjad.select.leaves(_, grace=False) for _ in tuplets]
     rmakers.beam_groups(groups, beam_lone_notes=True)
@@ -493,11 +491,11 @@ def make_ovoids(collections):
     assert len(collections) == 1, repr(collections)
     tuplets = []
     for collection in collections:
-        containers, collection = baca.make_before_grace_containers(
+        bgcs, collection = baca.make_bgcs(
             collection, baca.LMR(left_length=1)
         )
         tuplet = baca.from_collection(collection, [6, 1], 32)
-        baca.attach_before_grace_containers(containers, tuplet)
+        baca.attach_bgcs(bgcs, tuplet)
         group = abjad.select.leaves(tuplet, grace=False)
         rmakers.beam_groups([group])
         tuplets.append(tuplet)
@@ -506,10 +504,10 @@ def make_ovoids(collections):
 
 def make_passepied(collection):
     collection = getattr(collection, "argument", collection)
-    bgcs, collection = baca.make_before_grace_containers(collection, baca.LMR())
+    bgcs, collection = baca.make_bgcs(collection, baca.LMR())
     tuplet = baca.from_collection(collection, [1], 32)
     rmakers.beam_groups([tuplet], beam_lone_notes=True)
-    baca.attach_before_grace_containers(bgcs, tuplet)
+    baca.attach_bgcs(bgcs, tuplet)
     return tuplet, None
 
 

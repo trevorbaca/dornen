@@ -32,7 +32,7 @@ def populate_score(score):
         tuplet, tsd = library.make_dotted_eighths(collection)
         baca.register(tuplet, -10),
         library.extend_beam(tuplet)
-        accumulator(library.v1, [tuplet], tsd, "E_2")
+        accumulator(library.v1, tuplet, tsd, "E_2")
     with baca.scope(design[3]) as collection:
         assert collection == [10, 7, 9, 8, 0, 5]
         tuplet, tsd = library.make_passepied(collection)
@@ -44,7 +44,7 @@ def populate_score(score):
         assert collection == [10, 7]
         tuplet, tsd = library.make_dotted_eighths(collection)
         baca.register(tuplet, -12)
-        accumulator(library.v1, [tuplet], tsd, "E_3")
+        accumulator(library.v1, tuplet, tsd, "E_3")
     with baca.scope(design[5]) as collection:
         assert collection == [11, 6, 2, 3, 4]
         tuplet, tsd = library.make_passepied(collection)
@@ -57,7 +57,7 @@ def populate_score(score):
         baca.beam_positions(baca.select.leaves(tuplet, grace=False), 9)
         baca.register(tuplet, -14)
         library.extend_beam(tuplet)
-        accumulator(library.v1, [tuplet], tsd, "E_4")
+        accumulator(library.v1, tuplet, tsd, "E_4")
     with baca.scope(design[7]) as collection:
         assert collection == [10, 2, 3, 4, 6]
         tuplet, tsd = library.make_passepied(collection)
@@ -68,22 +68,22 @@ def populate_score(score):
         accumulator(library.v2, tuplet, tsd, "P_4")
     with baca.scope(design[8:10]) as collection:
         assert collection == [[8, 0, 5, 9], [3, 4, 6, 2]]
-        tuplets, tsd = library.make_running(collection)
+        tuplets = library.make_running(collection)
         baca.register(tuplets, -12)
-        accumulator(library.v4, tuplets, tsd, "R_1")
+        accumulator(library.v4, tuplets, None, "R_1")
     with baca.scope(design[10]) as collection:
         assert collection == [0, 5, 9, 8]
         tuplet, tsd = library.make_dotted_eighths(collection)
         baca.register(tuplet, -16)
-        accumulator(library.v1, [tuplet], tsd, "E_5")
+        accumulator(library.v1, tuplet, tsd, "E_5")
     with baca.scope(design[11:13]) as collection:
         assert collection == [
             [11, 10, 7],
             [1, 0, 10, 5, 8, 6, 11, 2, 4, 3, 9, 8, 6, 11, 2, 5],
         ]
-        tuplets, tsd = library.make_running(collection)
+        tuplets = library.make_running(collection)
         baca.register(tuplets, -6)
-        accumulator(library.v4, tuplets, tsd, "R_2")
+        accumulator(library.v4, tuplets, None, "R_2")
     with baca.scope(design[13]) as collection:
         assert collection == [6, 10]
         tuplet, tsd = library.make_dotted_eighths(collection)
@@ -118,9 +118,9 @@ def populate_score(score):
         accumulator(library.v2, tuplet, tsd, "P_7")
     with baca.scope(design[18:20]) as collection:
         assert collection == [[9, 1, 6, 10, 0, 11, 8], [1, 6, 10, 9]]
-        tuplets, tsd = library.make_running(collection)
+        tuplets = library.make_running(collection)
         baca.register(tuplets, -12, 0)
-        accumulator(library.v4, tuplets, tsd, "R_3")
+        accumulator(library.v4, tuplets, None, "R_3")
     with baca.scope(design[20:21]) as collection:
         assert collection == [[11, 8, 0, 4, 5, 7, 3]]
         tuplets, tsd = library.make_waves(collection, denominator=64, inverted=True)

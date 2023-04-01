@@ -28,9 +28,9 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         baca.register(tuplets, 0)
         library.extend_beam(tuplets)
         accumulator(library.v4, tuplets, tsd, "G1_1")
-    with baca.scope(design[1:2]) as collections:
-        assert collections == [[3, 4, 5, 7]]
-        tuplets, tsd = library.make_ovoids(collections)
+    with baca.scope(design[1]) as collection:
+        assert collection == [3, 4, 5, 7]
+        tuplets, tsd = library.make_ovoid(collection)
         pleaf = baca.select.pleaf(tuplets, 0)
         baca.beam_positions(pleaf, -8)
         baca.register(tuplets, -14, -6)
@@ -61,9 +61,9 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         baca.register(tuplets, 0)
         library.extend_beam(tuplets)
         accumulator(library.v4, tuplets, tsd, "G1_2")
-    with baca.scope(design[3:4]) as collections:
-        assert collections == [[1, 6, 10, 9]]
-        tuplets, tsd = library.make_ovoids(collections)
+    with baca.scope(design[3]) as collection:
+        assert collection == [1, 6, 10, 9]
+        tuplets, tsd = library.make_ovoid(collection)
         baca.text_script_color(tuplets, "#red")
         baca.register(tuplets, -14, -6)
         accumulator(library.v2, tuplets, tsd, "O2")
@@ -129,9 +129,9 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         pleaves = baca.select.pleaves(tuplets)
         baca.stem_down(tuplets)
         accumulator(library.v1, tuplets, tsd, "D1_3")
-    with baca.scope(design[1:2]) as collections:
-        assert collections == [[3, 4, 5, 7]]
-        tuplets, tsd = library.make_ovoids(collections)
+    with baca.scope(design[1]) as collection:
+        assert collection == [3, 4, 5, 7]
+        tuplets, tsd = library.make_ovoid(collection)
         pleaf = baca.select.pleaf(tuplets, 0)
         baca.beam_positions(pleaf, -8)
         baca.register(tuplets, -14, -6)
@@ -190,9 +190,9 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         pleaves = baca.select.pleaves(tuplets)
         baca.stem_down(pleaves)
         accumulator(library.v1, tuplets, tsd, "D1_5")
-    with baca.scope(design[3:4]) as collections:
-        assert collections == [[1, 6, 10, 9]]
-        tuplets, tsd = library.make_ovoids(collections)
+    with baca.scope(design[3]) as collection:
+        assert collection == [1, 6, 10, 9]
+        tuplets, tsd = library.make_ovoid(collection)
         baca.text_script_color(tuplets, "#red")
         baca.register(tuplets, -14, -6)
         accumulator(library.v2, tuplets, tsd, "O2*")
@@ -208,9 +208,9 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         baca.stem_up(pleaves)
         baca.register(tuplets, 0, -14)
         accumulator(library.v4, tuplets, tsd, "G1_8")
-    with baca.scope(design[1:2]) as collections:
-        assert collections == [[3, 4, 5, 7]]
-        tuplets, tsd = library.make_ovoids(collections)
+    with baca.scope(design[1]) as collection:
+        assert collection == [3, 4, 5, 7]
+        tuplets, tsd = library.make_ovoid(collection)
         pleaf = baca.select.pleaf(tuplets, 0)
         baca.beam_positions(pleaf, -8)
         baca.register(tuplets, -14, -6)
@@ -248,9 +248,9 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         baca.stem_down(pleaves)
         baca.register(tuplets, 6, -20)
         accumulator(library.v1, tuplets, tsd, "D2")
-    with baca.scope(design[3:4]) as collections:
-        assert collections == [[1, 6, 10, 9]]
-        tuplets, tsd = library.make_ovoids(collections)
+    with baca.scope(design[3]) as collection:
+        assert collection == [1, 6, 10, 9]
+        tuplets, tsd = library.make_ovoid(collection)
         baca.text_script_color(tuplets, "#red")
         baca.register(tuplets, -14, -6)
         library.extend_beam(tuplets)
@@ -258,13 +258,17 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
     with baca.scope(design[7:9]) as collections:
         assert collections == [[6], [10, 11, 5]]
         collections = abjad.sequence.join(design[7:9])
-        tuplets, tsd = library.make_ovoids(collections)
+        assert len(collections) == 1
+        collection = collections[0]
+        tuplets, tsd = library.make_ovoid(collection)
         baca.register(tuplets, -14, -6)
         accumulator(library.v2, tuplets, tsd, "O3")
     with baca.scope(design[9:11]) as collections:
         assert collections == [[7], [3, 2, 4]]
         collections = abjad.sequence.join(design[9:11])
-        tuplets, tsd = library.make_ovoids(collections)
+        assert len(collections) == 1
+        collection = collections[0]
+        tuplets, tsd = library.make_ovoid(collection)
         pleaf = baca.select.pleaf(tuplets, 0)
         baca.beam_positions(pleaf, -8)
         baca.register(tuplets, -14, -6)
@@ -273,27 +277,27 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
     with baca.scope(design[11:13]) as collections:
         assert collections == [[8], [9, 1, 7]]
         collections = abjad.sequence.join(design[11:13])
-        tuplets, tsd = library.make_ovoids(collections)
+        tuplets, tsd = library.make_ovoid(collections[0])
         baca.register(tuplets, -14, -6)
         library.extend_beam(tuplets)
         accumulator(library.v2, tuplets, tsd, "O5")
     with baca.scope(design[13:15]) as collections:
         assert collections == [[3], [2, 5, 8]]
         collections = abjad.sequence.join(design[13:15])
-        tuplets, tsd = library.make_ovoids(collections)
+        tuplets, tsd = library.make_ovoid(collections[0])
         baca.register(tuplets, -14, -6)
         library.extend_beam(tuplets)
         accumulator(library.v2, tuplets, tsd, "O6")
     with baca.scope(design[15:17]) as collections:
         assert collections == [[9], [1, 4, 10]]
         collections = abjad.sequence.join(design[15:17])
-        tuplets, tsd = library.make_ovoids(collections)
+        tuplets, tsd = library.make_ovoid(collections[0])
         baca.register(tuplets, -14, -6)
         accumulator(library.v2, tuplets, tsd, "O7")
     with baca.scope(design[17:19]) as collections:
         assert collections == [[11], [6, 9, 1]]
         collections = abjad.sequence.join(design[17:19])
-        tuplets, tsd = library.make_ovoids(collections)
+        tuplets, tsd = library.make_ovoid(collections[0])
         pleaf = baca.select.pleaf(tuplets, 0)
         baca.beam_positions(pleaf, -8)
         baca.register(tuplets, -14, -6)
@@ -321,12 +325,12 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
     with baca.scope(design[19:21]) as collections:
         assert collections == [[4], [8, 11, 6]]
         collections = abjad.sequence.join(design[19:21])
-        tuplets, tsd = library.make_ovoids(collections)
+        tuplets, tsd = library.make_ovoid(collections[0])
         baca.register(tuplets, -14, -6)
         accumulator(library.v2, tuplets, tsd, "O9")
-    with baca.scope(design[21:22]) as collections:
-        assert collections == [[10]]
-        tuplets, tsd = library.make_ovoids(collections)
+    with baca.scope(design[21]) as collection:
+        assert collection == [10]
+        tuplets, tsd = library.make_ovoid(collection)
         baca.register(tuplets, -14, -6)
         accumulator(library.v2, tuplets, tsd, "O10")
     rmakers.swap_trivial(score)

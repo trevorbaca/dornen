@@ -8,8 +8,7 @@ from dornen import library
 #########################################################################################
 
 
-def make_empty_score():
-    score = library.make_empty_score()
+def populate_score(score):
     accumulator = library.Accumulator(score)
     design = library.design_1()[:22]
     assert len(design) == 22
@@ -143,7 +142,7 @@ def make_empty_score():
         first_section=True,
         manifests=library.manifests,
     )
-    return score, voices, time_signatures
+    return voices, time_signatures
 
 
 def GLOBALS(skips):
@@ -160,7 +159,8 @@ def postprocess(cache):
 
 @baca.build.timed("make_score")
 def make_score():
-    score, voices, time_signatures = make_empty_score()
+    score = library.make_empty_score()
+    voices, time_signatures = populate_score(score)
     GLOBALS(score["Skips"])
     cache = baca.section.cache_leaves(
         score,

@@ -377,12 +377,6 @@ def extend_beam(components):
     baca.extend_beam(abjad.select.leaf(components, -1))
 
 
-def group_rleaves(argument):
-    result = baca.select.rleaves(argument)
-    result = abjad.select.group(result)
-    return result
-
-
 def make_delicatissimo(collections):
     assert len(collections) == 1, repr(collections)
     tuplets = [baca.from_collection(_, [1], 32) for _ in collections]
@@ -534,7 +528,7 @@ def make_sixteenths(collections):
 
 
 def make_sixty_fourths(collections):
-    # assert len(collections) == 1, repr(collections)
+    assert 1 < len(collections), repr(collections)
     tuplets = [baca.from_collection(_, [1], 64) for _ in collections]
     rmakers.beam_groups(tuplets)
     baca.staccato(baca.select.pheads(tuplets))

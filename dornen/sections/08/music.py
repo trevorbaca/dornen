@@ -14,10 +14,10 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
     assert len(design) == 12, (repr(design), len(design))
     with baca.scope(design[0]) as collection:
         assert collection == [11, 3, 6, 9]
-        tuplets, tsd = library.make_ovoid(collection)
-        baca.beam_positions(baca.select.pleaf(tuplets, 0), -7.5)
-        baca.register(tuplets, -20, -8)
-        accumulator(library.v2, tuplets, tsd, "O1")
+        tuplet = library.make_ovoid(collection)
+        baca.beam_positions(baca.select.pleaf(tuplet, 0), -7.5)
+        baca.register(tuplet, -20, -8)
+        accumulator(library.v2, tuplet, None, "O1")
     with baca.scope(design[1:2]) as collections:
         assert collections == [[7, 0]]
         tuplets, tsd = library.make_glissando_scatto(collections)
@@ -44,10 +44,10 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         accumulator(library.v4, tuplets, tsd, "G2")
     with baca.scope(design[5]) as collection:
         assert collection == [4, 9, 7, 10, 3, 2]
-        tuplets, tsd = library.make_ovoid(collection)
-        baca.beam_positions(baca.select.pleaf(tuplets, 0), -7.5)
-        library.extend_beam(tuplets)
-        accumulator(library.v2, tuplets, tsd, "O2")
+        tuplet = library.make_ovoid(collection)
+        baca.beam_positions(baca.select.pleaf(tuplet, 0), -7.5)
+        library.extend_beam(tuplet)
+        accumulator(library.v2, tuplet, None, "O2")
     with baca.scope(design[6:7]) as collections:
         assert collections == [[8, 5, 1, 11, 0, 8]]
         tuplets, tsd = library.make_glissando_scatto(collections)
@@ -71,8 +71,8 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         accumulator(library.v4, tuplets, tsd, "G4")
     with baca.scope(design[10]) as collection:
         assert collection == [9, 3, 0, 2, 7, 10]
-        tuplets, tsd = library.make_ovoid(collection)
-        accumulator(library.v2, tuplets, tsd, "O3")
+        tuplet = library.make_ovoid(collection)
+        accumulator(library.v2, tuplet, None, "O3")
     with baca.scope(design[11:12]) as collections:
         assert collections == [[11, 1, 4, 8]]
         tuplets, tsd = library.make_glissando_scatto(collections)

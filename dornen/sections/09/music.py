@@ -118,9 +118,9 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
             [3, 2, 8, 7, 5],
             [4, 4.5, 7.5, 6, 9],
         ]
-        tuplets, tsd = library.make_running(collections)
+        tuplets = library.make_running(collections)
         baca.register(tuplets, 0)
-        accumulator(library.v1, tuplets, tsd, "R1")
+        accumulator(library.v1, tuplets, None, "R1")
     with baca.scope(design[19:20]) as collections:
         assert collections == [[10.5, 11]]
         tuplets, tsd = library.make_twentieths(collections)

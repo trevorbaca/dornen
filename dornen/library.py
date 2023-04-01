@@ -487,17 +487,14 @@ def make_monads(collections):
     return tuplets, 5
 
 
-def make_ovoids(collections):
-    assert len(collections) == 1, repr(collections)
-    tuplets = []
-    for collection in collections:
-        bgcs, collection = baca.make_bgcs(collection, baca.LMR(left_length=1))
-        tuplet = baca.from_collection(collection, [6, 1], 32)
-        baca.attach_bgcs(bgcs, tuplet)
-        group = abjad.select.leaves(tuplet, grace=False)
-        rmakers.beam_groups([group])
-        tuplets.append(tuplet)
-    return tuplets, None
+def make_ovoid(collection):
+    collection = getattr(collection, "argument", collection)
+    bgcs, collection = baca.make_bgcs(collection, baca.LMR(left_length=1))
+    tuplet = baca.from_collection(collection, [6, 1], 32)
+    baca.attach_bgcs(bgcs, tuplet)
+    group = abjad.select.leaves(tuplet, grace=False)
+    rmakers.beam_groups([group])
+    return [tuplet], None
 
 
 def make_passepied(collection):
@@ -518,16 +515,15 @@ def make_rests(count, duration):
 
 
 def make_running(collections):
-    # assert len(collections) == 1, repr(collections)
+    assert 1 < len(collections), repr(collections)
     tuplets = []
     for collection in collections:
         tuplet = baca.from_collection(collection, [1], 64, -1)
-        tuplets.append(tuplet)
-    rmakers.beam_groups(tuplets)
-    for tuplet in tuplets:
         if 1 < len(tuplet):
             baca.slur(tuplet)
-    return tuplets, None
+        tuplets.append(tuplet)
+    rmakers.beam_groups(tuplets)
+    return tuplets
 
 
 def make_sixteenths(collections):

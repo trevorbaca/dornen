@@ -12,9 +12,9 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
     accumulator = library.Accumulator(score)
     design = library.design_2()[28:]
     assert len(design) == 12, (repr(design), len(design))
-    with baca.scope(design[:1]) as collections:
-        assert collections == [[11, 3, 6, 9]]
-        tuplets, tsd = library.make_ovoids(collections)
+    with baca.scope(design[0]) as collection:
+        assert collection == [11, 3, 6, 9]
+        tuplets, tsd = library.make_ovoid(collection)
         baca.beam_positions(baca.select.pleaf(tuplets, 0), -7.5)
         baca.register(tuplets, -20, -8)
         accumulator(library.v2, tuplets, tsd, "O1")
@@ -42,9 +42,9 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         ]
         tuplets, tsd = library.make_graced_tuplets(collections)
         accumulator(library.v4, tuplets, tsd, "G2")
-    with baca.scope(design[5:6]) as collections:
-        assert collections == [[4, 9, 7, 10, 3, 2]]
-        tuplets, tsd = library.make_ovoids(collections)
+    with baca.scope(design[5]) as collection:
+        assert collection == [4, 9, 7, 10, 3, 2]
+        tuplets, tsd = library.make_ovoid(collection)
         baca.beam_positions(baca.select.pleaf(tuplets, 0), -7.5)
         library.extend_beam(tuplets)
         accumulator(library.v2, tuplets, tsd, "O2")
@@ -69,9 +69,9 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         assert collections == [[6, 9, 3, 0, 2, 6]]
         tuplets, tsd = library.make_graced_tuplets(collections)
         accumulator(library.v4, tuplets, tsd, "G4")
-    with baca.scope(design[10:11]) as collections:
-        assert collections == [[9, 3, 0, 2, 7, 10]]
-        tuplets, tsd = library.make_ovoids(collections)
+    with baca.scope(design[10]) as collection:
+        assert collection == [9, 3, 0, 2, 7, 10]
+        tuplets, tsd = library.make_ovoid(collection)
         accumulator(library.v2, tuplets, tsd, "O3")
     with baca.scope(design[11:12]) as collections:
         assert collections == [[11, 1, 4, 8]]

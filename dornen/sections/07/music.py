@@ -17,8 +17,7 @@ def middle_register(argument):
     baca.register(argument, -12, 0)
 
 
-def make_empty_score(first_measure_number, previous_persistent_indicators):
-    score = library.make_empty_score()
+def populate_score(score, first_measure_number, previous_persistent_indicators):
     accumulator = library.Accumulator(score)
     design = library.design_1()[28:]
     assert len(design) == 22, len(design)
@@ -164,7 +163,7 @@ def make_empty_score(first_measure_number, previous_persistent_indicators):
         manifests=library.manifests,
         previous_persistent_indicators=previous_persistent_indicators,
     )
-    return score, voices, time_signatures
+    return voices, time_signatures
 
 
 def postprocess(cache):
@@ -186,8 +185,9 @@ def postprocess(cache):
 
 @baca.build.timed("make_score")
 def make_score(first_measure_number, previous_persistent_indicators):
-    score, voices, time_signatures = make_empty_score(
-        first_measure_number, previous_persistent_indicators
+    score = library.make_empty_score()
+    voices, time_signatures = populate_score(
+        score, first_measure_number, previous_persistent_indicators
     )
     baca.section.reapply(
         voices,

@@ -112,45 +112,35 @@ def postprocess(cache):
             baca.repeat_tie(qrun[1:])
         baca.stem_tremolo(o.pleaves())
     with baca.scope(m[2]) as o:
-        for group in library.group_rleaves(o):
-            baca.hairpin(group, "p < mp")
-            baca.text_spanner(group, "tamb. tr. => kn. rasg.")
+        baca.hairpin(o.rleaves(), "p < mp")
+        baca.text_spanner(o.rleaves(), "tamb. tr. => kn. rasg.")
     with baca.scope(m[4]) as o:
-        for group in library.group_rleaves(o):
-            baca.hairpin(group, "mp > p")
-            baca.text_spanner(group, "trans. => tamb. tr.")
+        baca.hairpin(o.rleaves(), "mp > p")
+        baca.text_spanner(o.rleaves(), "trans. => tamb. tr.")
     with baca.scope(m[7]) as o:
-        for group in library.group_rleaves(o):
-            baca.hairpin(group, "p < mf")
-            baca.text_spanner(group, "trans. => kn. rasg.")
+        baca.hairpin(o.rleaves(), "p < mf")
+        baca.text_spanner(o.rleaves(), "trans. => kn. rasg.")
     with baca.scope(m[9]) as o:
-        for group in library.group_rleaves(o):
-            baca.hairpin(group, "mf > p")
-            baca.text_spanner(group, "trans. => tamb. tr.")
+        baca.hairpin(o.rleaves(), "mf > p")
+        baca.text_spanner(o.rleaves(), "trans. => tamb. tr.")
     with baca.scope(m[12]) as o:
-        for group in library.group_rleaves(o):
-            baca.hairpin(group, "p < mp")
-            baca.text_spanner(group, "trans. => kn. rasg.")
+        baca.hairpin(o.rleaves(), "p < mp")
+        baca.text_spanner(o.rleaves(), "trans. => kn. rasg.")
     with baca.scope(m[14]) as o:
-        for group in library.group_rleaves(o):
-            baca.hairpin(group, "mp > p")
-            baca.text_spanner(group, "trans. => tamb. tr.")
+        baca.hairpin(o.rleaves(), "mp > p")
+        baca.text_spanner(o.rleaves(), "trans. => tamb. tr.")
     with baca.scope(m[16]) as o:
-        for group in library.group_rleaves(o):
-            baca.hairpin(group, "p < mf")
-            baca.text_spanner(group, "trans. => kn. rasg.")
+        baca.hairpin(o.rleaves(), "p < mf")
+        baca.text_spanner(o.rleaves(), "trans. => kn. rasg.")
     with baca.scope(m[18]) as o:
-        for group in library.group_rleaves(o):
-            baca.hairpin(group, "mf > p")
-            baca.text_spanner(group, "trans. => tamb. tr.")
+        baca.hairpin(o.rleaves(), "mf > p")
+        baca.text_spanner(o.rleaves(), "trans. => tamb. tr.")
     with baca.scope(m[20]) as o:
-        for group in library.group_rleaves(o):
-            baca.hairpin(group, "p < f")
-            baca.text_spanner(group, "trans. => kn. rasg.")
+        baca.hairpin(o.rleaves(), "p < f")
+        baca.text_spanner(o.rleaves(), "trans. => kn. rasg.")
     with baca.scope(m.get(22, 24)) as o:
-        for group in library.group_rleaves(o):
-            baca.hairpin(group, "f > mp")
-            baca.text_spanner(group, "trans. => tamb. tr.")
+        baca.hairpin(o.rleaves(), "f > mp")
+        baca.text_spanner(o.rleaves(), "trans. => tamb. tr.")
     with baca.scope(m.leaves()) as o:
         baca.text_spanner_staff_padding(o, 5)
         baca.text_script_staff_padding(o, 8)

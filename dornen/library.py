@@ -494,7 +494,7 @@ def make_ovoid(collection):
     baca.attach_bgcs(bgcs, tuplet)
     group = abjad.select.leaves(tuplet, grace=False)
     rmakers.beam_groups([group])
-    return [tuplet], None
+    return tuplet
 
 
 def make_passepied(collection):

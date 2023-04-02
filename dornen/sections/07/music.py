@@ -152,18 +152,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         middle_register(tuplets)
         accumulator(library.v1, tuplets, tsd, "32_4")
     rmakers.swap_trivial(score)
-    voices = baca.section.cache_voices(score, library.voice_abbreviations)
-    time_signatures = baca.section.wrap(accumulator.time_signatures)
-    baca.section.set_up_score(
-        score,
-        time_signatures(),
-        append_anchor_skip=True,
-        always_make_global_rests=True,
-        first_measure_number=first_measure_number,
-        manifests=library.manifests,
-        previous_persistent_indicators=previous_persistent_indicators,
-    )
-    return voices, time_signatures
+    return accumulator.time_signatures
 
 
 def postprocess(cache):
@@ -186,8 +175,19 @@ def postprocess(cache):
 @baca.build.timed("make_score")
 def make_score(first_measure_number, previous_persistent_indicators):
     score = library.make_empty_score()
-    voices, time_signatures = populate_score(
+    time_signatures = populate_score(
         score, first_measure_number, previous_persistent_indicators
+    )
+    time_signatures = baca.section.wrap(time_signatures)
+    voices = baca.section.cache_voices(score, library.voice_abbreviations)
+    baca.section.set_up_score(
+        score,
+        time_signatures(),
+        append_anchor_skip=True,
+        always_make_global_rests=True,
+        first_measure_number=first_measure_number,
+        manifests=library.manifests,
+        previous_persistent_indicators=previous_persistent_indicators,
     )
     baca.section.reapply_persistent_indicators(
         voices,

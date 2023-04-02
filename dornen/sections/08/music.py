@@ -11,7 +11,7 @@ from dornen import library
 def populate_score(score, first_measure_number, previous_persistent_indicators):
     accumulator = library.Accumulator(score)
     design = library.design_2()[28:]
-    assert len(design) == 12, (repr(design), len(design))
+    assert len(design) == 12
     with baca.scope(design[0]) as collection:
         assert collection == [11, 3, 6, 9]
         tuplet = library.make_ovoid(collection)

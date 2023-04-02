@@ -121,14 +121,14 @@ def populate_score(score):
         tuplets = library.make_running(collection)
         baca.register(tuplets, -12, 0)
         accumulator(library.v4, tuplets, None, "R_3")
-    with baca.scope(design[20:21]) as collection:
-        assert collection == [[11, 8, 0, 4, 5, 7, 3]]
-        tuplets, tsd = library.make_waves(collection, denominator=64, inverted=True)
+    with baca.scope(design[20:21]) as collections:
+        assert collections == [[11, 8, 0, 4, 5, 7, 3]]
+        tuplets, tsd = library.make_waves(collections, denominator=64, inverted=True)
         baca.beam_positions(baca.select.leaves(tuplets, grace=False), -6)
         accumulator(library.v3, tuplets, tsd, "W_1")
-    with baca.scope(design[21:22]) as collection:
-        assert collection == [[5, 11, 6, 2, 0, 3, 11, 6, 5, 0, 3, 2]]
-        tuplets, tsd = library.make_waves(collection, denominator=64, inverted=True)
+    with baca.scope(design[21:22]) as collections:
+        assert collections == [[5, 11, 6, 2, 0, 3, 11, 6, 5, 0, 3, 2]]
+        tuplets, tsd = library.make_waves(collections, denominator=64, inverted=True)
         baca.beam_positions(baca.select.leaves(tuplets, grace=False), -6)
         accumulator(library.v3, tuplets, tsd, "W_2")
     rmakers.swap_trivial(score)

@@ -1479,6 +1479,12 @@ number.12.Guitar.Music.1 = {
         ~
         \repeatTie
 
+    }
+
+    \tweak edge-height #'(0.7 . 0)
+    \times 4/5
+    {
+
         f2
         :32
         - \tweak stencil ##f
@@ -1511,6 +1517,12 @@ number.12.Guitar.Music.1 = {
         - \tweak stencil ##f
         ~
         \repeatTie
+
+    }
+
+    \tweak edge-height #'(0.7 . 0)
+    \times 4/5
+    {
 
         f2
         :32

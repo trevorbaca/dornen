@@ -138,8 +138,17 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         baca.register(tuplets, -20, 6)
         accumulator(library.v1, tuplets, tsd, "D2")
     rmakers.swap_trivial(score)
+    return accumulator.time_signatures
+
+
+@baca.build.timed("make_score")
+def make_score(first_measure_number, previous_persistent_indicators):
+    score = library.make_empty_score()
+    time_signatures = populate_score(
+        score, first_measure_number, previous_persistent_indicators
+    )
+    time_signatures = baca.section.wrap(time_signatures)
     voices = baca.section.cache_voices(score, library.voice_abbreviations)
-    time_signatures = baca.section.wrap(accumulator.time_signatures)
     baca.section.set_up_score(
         score,
         time_signatures(),
@@ -149,16 +158,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         manifests=library.manifests,
         previous_persistent_indicators=previous_persistent_indicators,
     )
-    return voices, time_signatures
-
-
-@baca.build.timed("make_score")
-def make_score(first_measure_number, previous_persistent_indicators):
-    score = library.make_empty_score()
-    voices, time_signatures = populate_score(
-        score, first_measure_number, previous_persistent_indicators
-    )
-    baca.section.reapply(
+    baca.section.reapply_persistent_indicators(
         voices,
         previous_persistent_indicators,
         manifests=library.manifests,

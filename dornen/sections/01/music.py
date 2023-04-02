@@ -132,17 +132,7 @@ def populate_score(score):
         baca.beam_positions(baca.select.leaves(tuplets, grace=False), -6)
         accumulator(library.v3, tuplets, tsd, "W_2")
     rmakers.swap_trivial(score)
-    voices = baca.section.cache_voices(score, library.voice_abbreviations)
-    time_signatures = baca.section.wrap(accumulator.time_signatures)
-    baca.section.set_up_score(
-        score,
-        time_signatures(),
-        append_anchor_skip=True,
-        always_make_global_rests=True,
-        first_section=True,
-        manifests=library.manifests,
-    )
-    return voices, time_signatures
+    return accumulator.time_signatures
 
 
 def GLOBALS(skips):
@@ -160,7 +150,16 @@ def postprocess(cache):
 @baca.build.timed("make_score")
 def make_score():
     score = library.make_empty_score()
-    voices, time_signatures = populate_score(score)
+    time_signatures = populate_score(score)
+    time_signatures = baca.section.wrap(time_signatures)
+    baca.section.set_up_score(
+        score,
+        time_signatures(),
+        append_anchor_skip=True,
+        always_make_global_rests=True,
+        first_section=True,
+        manifests=library.manifests,
+    )
     GLOBALS(score["Skips"])
     cache = baca.section.cache_leaves(
         score,

@@ -37,6 +37,17 @@ def _check_duplicate_pitch_classes(design):
             raise Exception(f"duplicate {leaf_1!r}.")
 
 
+def _assert_are_collections(argument):
+    assert isinstance(argument, list), repr(argument)
+    for item in argument:
+        _assert_is_collection(item)
+
+
+def _assert_is_collection(argument):
+    assert isinstance(argument, list), repr(argument)
+    assert all(isinstance(_, int | float) for _ in argument), repr(argument)
+
+
 def _make_blue_pcs():
     blue_pitch_classes = [[1, 0, 10], [5, 8, 6, 11, 2], [4, 3, 9]]
     blue_pitch_classes = baca.sequence.helianthate(blue_pitch_classes, -1, -1)
@@ -561,14 +572,12 @@ def make_time_signature(tuplets, tsd):
     return time_signature
 
 
-def make_twentieths(collections):
-    assert len(collections) == 1, repr(collections)
-    tuplets = []
-    for collection in collections:
-        tuplet = baca.from_collection(collection, [1], 16, "5:4")
-        tuplets.append(tuplet)
-    rmakers.beam(tuplets, beam_lone_notes=True)
-    return tuplets, 20
+def make_twentieths(collection):
+    collection = getattr(collection, "argument", collection)
+    _assert_is_collection(collection)
+    tuplet = baca.from_collection(collection, [1], 16, "5:4")
+    rmakers.beam([tuplet], beam_lone_notes=True)
+    return tuplet, 20
 
 
 def make_twenty_eighths(collections):
@@ -592,7 +601,8 @@ def make_twenty_fourths(collections):
 
 
 def make_waves(collections, denominator=64, *, inverted=False):
-    # assert len(collections) == 1, repr(collections)
+    collections = getattr(collections, "argument", collections)
+    assert all(isinstance(_, list) for _ in collections), repr(collections)
     assert abjad.math.is_positive_integer_power_of_two(denominator)
     assert 16 <= denominator, repr(denominator)
     tuplets = []

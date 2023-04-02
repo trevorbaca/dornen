@@ -11,7 +11,7 @@ from dornen import library
 def populate_score(score, first_measure_number, previous_persistent_indicators):
     accumulator = library.Accumulator(score)
     design = library.design_3()[20:]
-    assert len(design) == 20, (repr(design), len(design))
+    assert len(design) == 20
     with baca.scope(design[:1]) as collections:
         assert collections == [[10, 0, 11, 1, 6, 7]]
         tuplets, tsd = library.make_delicatissimo(collections)
@@ -121,11 +121,11 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         tuplets = library.make_running(collections)
         baca.register(tuplets, 0)
         accumulator(library.v1, tuplets, None, "R1")
-    with baca.scope(design[19:20]) as collections:
-        assert collections == [[10.5, 11]]
-        tuplets, tsd = library.make_twentieths(collections)
-        baca.register(tuplets, 0)
-        accumulator(library.v2, tuplets, tsd, "20_1")
+    with baca.scope(design[19]) as collection:
+        assert collection == [10.5, 11]
+        tuplet, tsd = library.make_twentieths(collection)
+        baca.register(tuplet, 0)
+        accumulator(library.v2, tuplet, tsd, "20_1")
     rmakers.swap_trivial(score)
     return accumulator.time_signatures
 

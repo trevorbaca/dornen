@@ -10,143 +10,103 @@ from dornen import library
 
 def populate_score(score, first_measure_number, previous_persistent_indicators):
     accumulator = library.Accumulator(score)
-    with baca.scope([["E2"]]) as collections:
-        tuplets, tsd = library.make_monads(collections)
-        accumulator(library.v1, tuplets, tsd, "2_1")
-    with baca.scope([["E2"]]) as collections:
-        tuplets, tsd = library.make_monads(collections)
-        accumulator(library.v1, tuplets, tsd, "2_2")
-    with baca.scope([["E2"]]) as collections:
-        tuplets, tsd = library.make_thirds(collections)
-        accumulator(library.v1, tuplets, tsd, "2_3")
-    with baca.scope([["E2"]]) as collections:
-        tuplets, tsd = library.make_thirds(collections)
-        accumulator(library.v1, tuplets, tsd, "2_4")
-    with baca.scope([["E2"]]) as collections:
-        tuplets, tsd = library.make_thirds(collections)
-        accumulator(library.v1, tuplets, tsd, "2_5")
-    with baca.scope([["E2"]]) as collections:
-        tuplets, tsd = library.make_monads(collections)
-        baca.markup(baca.select.pleaf(tuplets, 0), r"\dornen-three-fingers-markup")
-        accumulator(library.v1, tuplets, tsd, "3_1")
-    with baca.scope([["E2"]]) as collections:
-        tuplets, tsd = library.make_monads(collections)
-        accumulator(library.v1, tuplets, tsd, "3_2")
-    with baca.scope([["E2"]]) as collections:
-        tuplets, tsd = library.make_thirds(collections)
-        accumulator(library.v1, tuplets, tsd, "3_3")
-    with baca.scope([["E2"]]) as collections:
-        tuplets, tsd = library.make_thirds(collections)
-        accumulator(library.v1, tuplets, tsd, "3_4")
-    with baca.scope([["E2"]]) as collections:
-        tuplets, tsd = library.make_thirds(collections)
-        accumulator(library.v1, tuplets, tsd, "3_5")
-    with baca.scope([["E2"]]) as collections:
-        tuplets, tsd = library.make_monads(collections)
-        baca.markup(baca.select.pleaf(tuplets, 0), r"\dornen-four-fingers-markup")
-        accumulator(library.v1, tuplets, tsd, "4_1")
-    with baca.scope([["E2"]]) as collections:
-        tuplets, tsd = library.make_monads(collections)
-        accumulator(library.v1, tuplets, tsd, "4_2")
-    with baca.scope([["E2"]]) as collections:
-        tuplets, tsd = library.make_thirds(collections)
-        accumulator(library.v1, tuplets, tsd, "4_3")
-    with baca.scope([["E2"]]) as collections:
-        tuplets, tsd = library.make_thirds(collections)
-        accumulator(library.v1, tuplets, tsd, "4_4")
-    with baca.scope([["E2"]]) as collections:
-        tuplets, tsd = library.make_thirds(collections)
-        accumulator(library.v1, tuplets, tsd, "4_5")
-    with baca.scope([["E2"]]) as collections:
-        tuplets, tsd = library.make_monads(collections)
-        accumulator(library.v1, tuplets, tsd, "4_6")
-    with baca.scope([2 * ["E2"]]) as collections:
-        tuplets, tsd = library.make_thirds(collections)
-        accumulator(library.v1, tuplets, tsd, "4_7")
-    with baca.scope([["E2"]]) as collections:
-        tuplets, tsd = library.make_monads(collections)
-        accumulator(library.v1, tuplets, tsd, "4_8")
-    with baca.scope([["E2"]]) as collections:
-        tuplets, tsd = library.make_monads(collections)
-        accumulator(library.v1, tuplets, tsd, "4_9")
-    with baca.scope([["E2"]]) as collections:
-        tuplets, tsd = library.make_monads(collections)
-        accumulator(library.v1, tuplets, tsd, "4_10")
-    with baca.scope([3 * ["E2"]]) as collections:
-        tuplets, tsd = library.make_thirds(collections)
-        accumulator(library.v1, tuplets, tsd, "4_11")
-    with baca.scope([["E2"]]) as collections:
-        tuplets, tsd = library.make_monads(collections)
-        accumulator(library.v1, tuplets, tsd, "4_12")
-    with baca.scope([["E2"]]) as collections:
-        tuplets, tsd = library.make_monads(collections)
-        accumulator(library.v1, tuplets, tsd, "4_13")
-    with baca.scope([["E2"]]) as collections:
-        tuplets, tsd = library.make_monads(collections)
-        accumulator(library.v1, tuplets, tsd, "4_14")
-    with baca.scope([4 * ["E2"]]) as collections:
-        tuplets, tsd = library.make_thirds(collections)
-        accumulator(library.v1, tuplets, tsd, "4_15")
-    with baca.scope([5 * ["E2"]]) as collections:
-        tuplets, tsd = library.make_thirds(collections)
-        accumulator(library.v1, tuplets, tsd, "4_16")
-    with baca.scope([4 * ["E2"]]) as collections:
-        tuplets, tsd = library.make_thirds(collections)
-        accumulator(library.v1, tuplets, tsd, "4_17")
-    with baca.scope([3 * ["E2"]]) as collections:
-        tuplets, tsd = library.make_thirds(collections)
-        accumulator(library.v1, tuplets, tsd, "4_18")
-    with baca.scope([2 * ["E2"]]) as collections:
-        tuplets, tsd = library.make_thirds(collections)
-        accumulator(library.v1, tuplets, tsd, "4_19")
-    with baca.scope([["E2"]]) as collections:
-        tuplets, tsd = library.make_thirds(collections)
-        accumulator(library.v1, tuplets, tsd, "4_20")
-    with baca.scope([2 * ["E2"]]) as collections:
-        tuplets, tsd = library.make_thirds(collections)
-        accumulator(library.v1, tuplets, tsd, "4_21")
-    with baca.scope([3 * ["E2"]]) as collections:
-        tuplets, tsd = library.make_thirds(collections)
-        accumulator(library.v1, tuplets, tsd, "4_22")
-    with baca.scope([4 * ["E2"]]) as collections:
-        tuplets, tsd = library.make_thirds(collections)
-        accumulator(library.v1, tuplets, tsd, "4_23")
-    with baca.scope([5 * ["E2"]]) as collections:
-        tuplets, tsd = library.make_thirds(collections)
-        accumulator(library.v1, tuplets, tsd, "4_24")
-    with baca.scope([4 * ["E2"]]) as collections:
-        tuplets, tsd = library.make_thirds(collections)
-        accumulator(library.v1, tuplets, tsd, "4_25")
-    with baca.scope([3 * ["E2"]]) as collections:
-        tuplets, tsd = library.make_thirds(collections)
-        accumulator(library.v1, tuplets, tsd, "4_26")
-    with baca.scope([2 * ["E2"]]) as collections:
-        tuplets, tsd = library.make_thirds(collections)
-        accumulator(library.v1, tuplets, tsd, "4_27")
-    with baca.scope([1 * ["E2"]]) as collections:
-        tuplets, tsd = library.make_thirds(collections)
-        accumulator(library.v1, tuplets, tsd, "4_28")
-    with baca.scope([2 * ["E2"]]) as collections:
-        tuplets, tsd = library.make_thirds(collections)
-        accumulator(library.v1, tuplets, tsd, "4_29")
-    with baca.scope([3 * ["E2"]]) as collections:
-        tuplets, tsd = library.make_thirds(collections)
-        accumulator(library.v1, tuplets, tsd, "4_30")
-    with baca.scope([4 * ["E2"]]) as collections:
-        tuplets, tsd = library.make_thirds(collections)
-        accumulator(library.v1, tuplets, tsd, "4_31")
-    with baca.scope([5 * ["E2"]]) as collections:
-        tuplets, tsd = library.make_thirds(collections)
-        accumulator(library.v1, tuplets, tsd, "4_32")
-    with baca.scope([3 * ["E2"]]) as collections:
-        tuplets, tsd = library.make_thirds(collections)
-        accumulator(library.v1, tuplets, tsd, "4_33")
-    with baca.scope([2 * ["E2"]]) as collections:
-        tuplets, tsd = library.make_thirds(collections)
-        accumulator(library.v1, tuplets, tsd, "4_34")
-    with baca.scope([1 * ["E2"]]) as collections:
-        tuplets, tsd = library.make_thirds(collections)
-        accumulator(library.v1, tuplets, tsd, "4_35")
+    collections = [["E2"]]
+    tuplets, tsd = library.make_monads(collections)
+    accumulator(library.v1, tuplets, tsd, "2_1")
+    tuplets, tsd = library.make_monads(collections)
+    accumulator(library.v1, tuplets, tsd, "2_2")
+    tuplets, tsd = library.make_thirds(collections)
+    accumulator(library.v1, tuplets, tsd, "2_3")
+    tuplets, tsd = library.make_thirds(collections)
+    accumulator(library.v1, tuplets, tsd, "2_4")
+    tuplets, tsd = library.make_thirds(collections)
+    accumulator(library.v1, tuplets, tsd, "2_5")
+    tuplets, tsd = library.make_monads(collections)
+    baca.markup(baca.select.pleaf(tuplets, 0), r"\dornen-three-fingers-markup")
+    accumulator(library.v1, tuplets, tsd, "3_1")
+    tuplets, tsd = library.make_monads(collections)
+    accumulator(library.v1, tuplets, tsd, "3_2")
+    tuplets, tsd = library.make_thirds(collections)
+    accumulator(library.v1, tuplets, tsd, "3_3")
+    tuplets, tsd = library.make_thirds(collections)
+    accumulator(library.v1, tuplets, tsd, "3_4")
+    tuplets, tsd = library.make_thirds(collections)
+    accumulator(library.v1, tuplets, tsd, "3_5")
+    tuplets, tsd = library.make_monads(collections)
+    baca.markup(baca.select.pleaf(tuplets, 0), r"\dornen-four-fingers-markup")
+    accumulator(library.v1, tuplets, tsd, "4_1")
+    tuplets, tsd = library.make_monads(collections)
+    accumulator(library.v1, tuplets, tsd, "4_2")
+    tuplets, tsd = library.make_thirds(collections)
+    accumulator(library.v1, tuplets, tsd, "4_3")
+    tuplets, tsd = library.make_thirds(collections)
+    accumulator(library.v1, tuplets, tsd, "4_4")
+    tuplets, tsd = library.make_thirds(collections)
+    accumulator(library.v1, tuplets, tsd, "4_5")
+    tuplets, tsd = library.make_monads(collections)
+    accumulator(library.v1, tuplets, tsd, "4_6")
+    tuplets, tsd = library.make_thirds([["E2", "E2"]])
+    accumulator(library.v1, tuplets, tsd, "4_7")
+    tuplets, tsd = library.make_monads(collections)
+    accumulator(library.v1, tuplets, tsd, "4_8")
+    tuplets, tsd = library.make_monads(collections)
+    accumulator(library.v1, tuplets, tsd, "4_9")
+    tuplets, tsd = library.make_monads(collections)
+    accumulator(library.v1, tuplets, tsd, "4_10")
+
+    def collections(n):
+        return [n * ["E2"]]
+
+    tuplets, tsd = library.make_thirds(collections(3))
+    accumulator(library.v1, tuplets, tsd, "4_11")
+    tuplets, tsd = library.make_monads(collections(1))
+    accumulator(library.v1, tuplets, tsd, "4_12")
+    tuplets, tsd = library.make_monads(collections(1))
+    accumulator(library.v1, tuplets, tsd, "4_13")
+    tuplets, tsd = library.make_monads(collections(1))
+    accumulator(library.v1, tuplets, tsd, "4_14")
+    tuplets, tsd = library.make_thirds(collections(4))
+    accumulator(library.v1, tuplets, tsd, "4_15")
+    tuplets, tsd = library.make_thirds(collections(5))
+    accumulator(library.v1, tuplets, tsd, "4_16")
+    tuplets, tsd = library.make_thirds(collections(4))
+    accumulator(library.v1, tuplets, tsd, "4_17")
+    tuplets, tsd = library.make_thirds(collections(3))
+    accumulator(library.v1, tuplets, tsd, "4_18")
+    tuplets, tsd = library.make_thirds(collections(2))
+    accumulator(library.v1, tuplets, tsd, "4_19")
+    tuplets, tsd = library.make_thirds(collections(1))
+    accumulator(library.v1, tuplets, tsd, "4_20")
+    tuplets, tsd = library.make_thirds(collections(2))
+    accumulator(library.v1, tuplets, tsd, "4_21")
+    tuplets, tsd = library.make_thirds(collections(3))
+    accumulator(library.v1, tuplets, tsd, "4_22")
+    tuplets, tsd = library.make_thirds(collections(4))
+    accumulator(library.v1, tuplets, tsd, "4_23")
+    tuplets, tsd = library.make_thirds(collections(5))
+    accumulator(library.v1, tuplets, tsd, "4_24")
+    tuplets, tsd = library.make_thirds(collections(4))
+    accumulator(library.v1, tuplets, tsd, "4_25")
+    tuplets, tsd = library.make_thirds(collections(3))
+    accumulator(library.v1, tuplets, tsd, "4_26")
+    tuplets, tsd = library.make_thirds(collections(2))
+    accumulator(library.v1, tuplets, tsd, "4_27")
+    tuplets, tsd = library.make_thirds(collections(1))
+    accumulator(library.v1, tuplets, tsd, "4_28")
+    tuplets, tsd = library.make_thirds(collections(2))
+    accumulator(library.v1, tuplets, tsd, "4_29")
+    tuplets, tsd = library.make_thirds(collections(3))
+    accumulator(library.v1, tuplets, tsd, "4_30")
+    tuplets, tsd = library.make_thirds(collections(4))
+    accumulator(library.v1, tuplets, tsd, "4_31")
+    tuplets, tsd = library.make_thirds(collections(5))
+    accumulator(library.v1, tuplets, tsd, "4_32")
+    tuplets, tsd = library.make_thirds(collections(3))
+    accumulator(library.v1, tuplets, tsd, "4_33")
+    tuplets, tsd = library.make_thirds(collections(2))
+    accumulator(library.v1, tuplets, tsd, "4_34")
+    tuplets, tsd = library.make_thirds(collections(1))
+    accumulator(library.v1, tuplets, tsd, "4_35")
     tuplets, tsd = library.make_rests(5, (1, 8))
     accumulator(library.v1, tuplets, tsd, "4_36")
     rmakers.swap_trivial(score)

@@ -12,23 +12,35 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
     accumulator = library.Accumulator(score)
     design = library.design_2()[28:]
     assert len(design) == 12
-    with baca.scope(design[0]) as collection:
+
+    @baca.call
+    def block():
+        collection = design[0]
         assert collection == [11, 3, 6, 9]
         tuplet = library.make_ovoid(collection)
         baca.beam_positions(baca.select.pleaf(tuplet, 0), -7.5)
         baca.register(tuplet, -20, -8)
         accumulator(library.v2, tuplet, None, "O1")
-    with baca.scope(design[1:2]) as collections:
+
+    @baca.call
+    def block():
+        collections = design[1:2]
         assert collections == [[7, 0]]
         tuplets, tsd = library.make_glissando_scatto(collections)
         baca.beam_positions(tuplets, 8)
         accumulator(library.v1, tuplets, tsd, "L1")
-    with baca.scope(design[2:3]) as collections:
+
+    @baca.call
+    def block():
+        collections = design[2:3]
         assert collections == [[5, 4, 10]]
         tuplets, tsd = library.make_graced_tuplets(collections)
         library.extend_beam(tuplets)
         accumulator(library.v4, tuplets, tsd, "G1")
-    with baca.scope(design[3:4]) as collections:
+
+    @baca.call
+    def block():
+        collections = design[3:4]
         assert collections == [
             [1, 0, 2, 7, 11, 10, 4, 3, 5, 8, 9, 4, 3, 5, 8, 9, 10, 0, 2, 7, 11, 1]
         ]
@@ -36,47 +48,72 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         baca.beam_positions(tuplets, -7.5)
         baca.register(tuplets, 4, -20)
         accumulator(library.v3, tuplets, tsd, "D1")
-    with baca.scope(design[4:5]) as collections:
+
+    @baca.call
+    def block():
+        collections = design[4:5]
         assert collections == [
             [2, 7, 11, 1, 0, 3, 5, 8, 9, 10, 4, 5, 8, 9, 10, 4, 3, 7, 11, 1, 0, 2]
         ]
         tuplets, tsd = library.make_graced_tuplets(collections)
         accumulator(library.v4, tuplets, tsd, "G2")
-    with baca.scope(design[5]) as collection:
+
+    @baca.call
+    def block():
+        collection = design[5]
         assert collection == [4, 9, 7, 10, 3, 2]
         tuplet = library.make_ovoid(collection)
         baca.beam_positions(baca.select.pleaf(tuplet, 0), -7.5)
         library.extend_beam(tuplet)
         accumulator(library.v2, tuplet, None, "O2")
-    with baca.scope(design[6:7]) as collections:
+
+    @baca.call
+    def block():
+        collections = design[6:7]
         assert collections == [[8, 5, 1, 11, 0, 8]]
         tuplets, tsd = library.make_glissando_scatto(collections)
         baca.beam_positions(tuplets, 12)
         library.extend_beam(tuplets)
         accumulator(library.v1, tuplets, tsd, "L2")
-    with baca.scope(design[7:8]) as collections:
+
+    @baca.call
+    def block():
+        collections = design[7:8]
         assert collections == [[5, 2]]
         tuplets, tsd = library.make_graced_tuplets(collections)
         library.extend_beam(tuplets)
         accumulator(library.v4, tuplets, tsd, "G3")
-    with baca.scope(design[8:9]) as collections:
+
+    @baca.call
+    def block():
+        collections = design[8:9]
         assert collections == [[8, 10, 11, 1, 4, 7]]
         tuplets, tsd = library.make_delicatissimo(collections)
         baca.beam_positions(tuplets, -6)
         baca.register(tuplets, 4, -20)
         accumulator(library.v3, tuplets, tsd, "D2")
-    with baca.scope(design[9:10]) as collections:
+
+    @baca.call
+    def block():
+        collections = design[9:10]
         assert collections == [[6, 9, 3, 0, 2, 6]]
         tuplets, tsd = library.make_graced_tuplets(collections)
         accumulator(library.v4, tuplets, tsd, "G4")
-    with baca.scope(design[10]) as collection:
+
+    @baca.call
+    def block():
+        collection = design[10]
         assert collection == [9, 3, 0, 2, 7, 10]
         tuplet = library.make_ovoid(collection)
         accumulator(library.v2, tuplet, None, "O3")
-    with baca.scope(design[11:12]) as collections:
+
+    @baca.call
+    def block():
+        collections = design[11:12]
         assert collections == [[11, 1, 4, 8]]
         tuplets, tsd = library.make_glissando_scatto(collections)
         accumulator(library.v1, tuplets, tsd, "L3")
+
     rmakers.swap_trivial(score)
     return accumulator.time_signatures
 

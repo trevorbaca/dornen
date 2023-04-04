@@ -515,14 +515,6 @@ def make_passepied(collection):
     return tuplet, None
 
 
-def make_rests(count, duration):
-    numerator, denominator = duration
-    tuplet = baca.from_collection(count * [1], [numerator], denominator)
-    lts = baca.select.lts(tuplet)
-    rmakers.force_rest(lts)
-    return [tuplet], denominator
-
-
 def make_running(collections):
     _assert_are_collections(collections)
     tuplets = []

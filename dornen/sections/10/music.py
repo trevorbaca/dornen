@@ -1,3 +1,4 @@
+import abjad
 import baca
 from abjadext import rmakers
 
@@ -10,8 +11,7 @@ from dornen import library
 
 def populate_score(score, first_measure_number, previous_persistent_indicators):
     accumulator = library.Accumulator(score)
-    tuplets, tsd = library.make_rests(3, (1, 8))
-    accumulator(library.v1, tuplets, tsd, "R_1")
+    accumulator(library.v1, abjad.Container("r8 r8 r8"), 8, "R_1")
     collection, collections = ["Gb2"], [["Gb2"]]
     tuplets, tsd = library.make_monads(2 * collections)
     string = r"\dornen-two-finger-tamb-trill-markup"

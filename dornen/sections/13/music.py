@@ -1,3 +1,4 @@
+import abjad
 import baca
 from abjadext import rmakers
 
@@ -110,8 +111,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
     accumulator(library.v1, tuplet, tsd, "4_34")
     tuplet, tsd = library.make_thirds(collection(1))
     accumulator(library.v1, tuplet, tsd, "4_35")
-    tuplets, tsd = library.make_rests(5, (1, 8))
-    accumulator(library.v1, tuplets, tsd, "4_36")
+    accumulator(library.v1, abjad.Container("r8 r8 r8 r8 r8"), 8, "4_36")
     rmakers.swap_trivial(score)
     return accumulator.time_signatures
 

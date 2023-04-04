@@ -74,12 +74,10 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
 
     @baca.call
     def block():
-        tuplets, tsd = library.make_rests(3, (1, 8))
-        baca.markup(
-            abjad.select.leaf(tuplets, 0),
-            r"\dornen-raise-string-two-one-quartertone-markup",
-        )
-        accumulator(library.v1, tuplets, tsd, "S1")
+        container = abjad.Container("r8 r8 r8")
+        leaf = abjad.select.leaf(container, 0)
+        baca.markup(leaf, r"\dornen-raise-string-two-one-quartertone-markup")
+        accumulator(library.v1, container, 8, "S1")
 
     @baca.call
     def block():

@@ -56,11 +56,11 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
 
     @baca.call
     def block():
-        collections = design[4:5]
-        assert collections == [[4, 10, 7, 0]]
-        tuplets, tsd = library.make_thirty_seconds(collections)
-        baca.slur(baca.select.tleaves(tuplets))
-        accumulator(library.v2, tuplets, tsd, "32_1")
+        collection = design[4]
+        assert collection == [4, 10, 7, 0]
+        tuplet, tsd = library.make_thirty_seconds(collection)
+        baca.slur(baca.select.tleaves(tuplet))
+        accumulator(library.v2, tuplet, tsd, "32_1")
 
     @baca.call
     def block():
@@ -94,11 +94,11 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
 
     @baca.call
     def block():
-        collections = design[9:10]
-        assert collections == [[10, 5, 4, 11]]
-        tuplets, tsd = library.make_thirty_seconds(collections)
-        baca.slur(baca.select.tleaves(tuplets))
-        accumulator(library.v2, tuplets, tsd, "32_2")
+        collection = design[9]
+        assert collection == [10, 5, 4, 11]
+        tuplet, tsd = library.make_thirty_seconds(collection)
+        baca.slur(baca.select.tleaves(tuplet))
+        accumulator(library.v2, tuplet, tsd, "32_2")
 
     @baca.call
     def block():
@@ -164,11 +164,11 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
 
     @baca.call
     def block():
-        collections = design[4:5]
-        assert collections == [[4, 10, 7, 0]]
-        tuplets, tsd = library.make_thirty_seconds(collections)
-        baca.slur(baca.select.tleaves(tuplets))
-        accumulator(library.v2, tuplets, tsd, "32_1*")
+        collection = design[4]
+        assert collection == [4, 10, 7, 0]
+        tuplet, tsd = library.make_thirty_seconds(collection)
+        baca.slur(baca.select.tleaves(tuplet))
+        accumulator(library.v2, tuplet, tsd, "32_1*")
 
     @baca.call
     def block():
@@ -223,11 +223,11 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
 
     @baca.call
     def block():
-        collections = design[9:10]
-        assert collections == [[10, 5, 4, 11]]
-        tuplets, tsd = library.make_thirty_seconds(collections)
-        baca.slur(baca.select.tleaves(tuplets))
-        accumulator(library.v2, tuplets, tsd, "32_2*")
+        collection = design[9]
+        assert collection == [10, 5, 4, 11]
+        tuplet, tsd = library.make_thirty_seconds(collection)
+        baca.slur(baca.select.tleaves(tuplet))
+        accumulator(library.v2, tuplet, tsd, "32_2*")
 
     @baca.call
     def block():

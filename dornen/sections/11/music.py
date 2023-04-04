@@ -71,39 +71,65 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
 
 def postprocess(cache):
     m = cache[library.v1]
-    with baca.scope(m.leaves()) as o:
+
+    @baca.call(m.leaves())
+    def _(o):
         baca.register(o, -20)
         for qrun in baca.select.qruns(o):
             baca.repeat_tie(qrun[1:])
-        baca.stem_tremolo(o.pleaves())
-    with baca.scope(m.get(2, 3)) as o:
+        baca.stem_tremolo(baca.select.pleaves(o))
+
+    @baca.call(m.get(2, 3))
+    def _(o):
         baca.hairpin(o, "pp < p")
-    with baca.scope(m.get(4, 5)) as o:
+
+    @baca.call(m.get(4, 5))
+    def _(o):
         baca.hairpin(o, "p > pp")
-    with baca.scope(m.get(7, 8)) as o:
+
+    @baca.call(m.get(7, 8))
+    def _(o):
         baca.hairpin(o, "pp < mp")
-    with baca.scope(m.get(9, 10)) as o:
+
+    @baca.call(m.get(9, 10))
+    def _(o):
         baca.hairpin(o, "mp > pp")
-    with baca.scope(m[12]) as o:
-        baca.hairpin(o.rleaves(), "pp < p")
-        baca.text_spanner(o.rleaves(), "trans. => kn. rasg.")
-    with baca.scope(m[14]) as o:
-        baca.hairpin(o.rleaves(), "p > pp")
-        baca.text_spanner(o.rleaves(), "trans. => tamb. tr.")
-    with baca.scope(m[16]) as o:
-        baca.hairpin(o.rleaves(), "pp < mp")
-        baca.text_spanner(o.rleaves(), "trans. => kn. rasg.")
-    with baca.scope(m[18]) as o:
-        baca.hairpin(o.rleaves(), "mp > pp")
-        baca.text_spanner(o.rleaves(), "trans. => tamb. tr.")
-    with baca.scope(m[20]) as o:
-        baca.text_spanner(o.rleaves(), "trans. => kn. rasg.")
-    with baca.scope(m.get(22, 24)) as o:
-        baca.hairpin(o.rleaves(), "mf > p")
-        baca.text_spanner(o.rleaves(), "trans. => tamb. tr.")
-    with baca.scope(m.get(1, 11)) as o:
+
+    @baca.call(baca.select.rleaves(m[12]))
+    def _(o):
+        baca.hairpin(o, "pp < p")
+        baca.text_spanner(o, "trans. => kn. rasg.")
+
+    @baca.call(baca.select.rleaves(m[14]))
+    def _(o):
+        baca.hairpin(o, "p > pp")
+        baca.text_spanner(o, "trans. => tamb. tr.")
+
+    @baca.call(baca.select.rleaves(m[16]))
+    def _(o):
+        baca.hairpin(o, "pp < mp")
+        baca.text_spanner(o, "trans. => kn. rasg.")
+
+    @baca.call(m[18])
+    def _(o):
+        baca.hairpin(baca.select.rleaves(o), "mp > pp")
+        baca.text_spanner(baca.select.rleaves(o), "trans. => tamb. tr.")
+
+    @baca.call(m[20])
+    def _(o):
+        baca.text_spanner(baca.select.rleaves(o), "trans. => kn. rasg.")
+
+    @baca.call(baca.select.rleaves(m.get(22, 24)))
+    def _(o):
+        baca.hairpin(o, "mf > p")
+        baca.text_spanner(o, "trans. => tamb. tr.")
+
+    @baca.call(m.get(1, 11))
+    def _(o):
         baca.text_script_staff_padding(o, 5)
-    with baca.scope(m.get(12, 25)) as o:
+
+    @baca.call(m.get(12, 25))
+    def _(o):
         baca.text_spanner_staff_padding(o, 5)
         baca.text_script_staff_padding(o, 8)
 

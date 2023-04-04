@@ -188,10 +188,14 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
 
 def postprocess(cache):
     m = cache[library.v1]
-    with baca.scope(m.get(1, 3)) as o:
+
+    @baca.call(m.get(1, 3))
+    def block(o):
         baca.beam_positions(o, 9)
         baca.register(o, -20, 4)
-    with baca.scope(m.get(4, 12)) as o:
+
+    @baca.call(m.get(4, 12))
+    def block(o):
         baca.beam_positions(o, 6)
         baca.register(o, -20, 4)
 

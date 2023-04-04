@@ -187,12 +187,19 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
 
 def postprocess(cache):
     m = cache[library.v1]
-    with baca.scope(m.get(1, 8)) as o:
+
+    @baca.call(m.get(1, 8))
+    def _(o):
         baca.beam_positions(o, 6)
-    with baca.scope(m.get(9, 18)) as o:
+
+    @baca.call(m.get(9, 18))
+    def _(o):
         baca.beam_positions(o, 8)
+
     m = cache[library.v3]
-    with baca.scope(m.get(1, 18)) as o:
+
+    @baca.call(m.get(1, 18))
+    def _(o):
         baca.beam_positions(o, -4)
 
 

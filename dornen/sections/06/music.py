@@ -129,13 +129,18 @@ def SKIPS(skips):
 
 def postprocess(cache):
     m = cache[library.v3]
-    with baca.scope(m.get(1, 7)) as o:
-        baca.accent(o.pheads())
+
+    @baca.call(m.get(1, 7))
+    def _(o):
+        baca.accent(baca.select.pheads(o))
         baca.script_down(o)
         baca.register(o, -20)
+
     m = cache[library.v4]
-    with baca.scope(m.get(1, 7)) as o:
-        baca.staccato(o.pheads())
+
+    @baca.call(m.get(1, 7))
+    def _(o):
+        baca.staccato(baca.select.pheads(o))
         baca.beam_positions(o, 5.5)
         baca.register(o, -4)
 

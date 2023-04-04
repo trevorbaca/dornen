@@ -550,11 +550,11 @@ def make_thirds(collection):
     return tuplet, 3
 
 
-def make_thirty_seconds(collections):
-    assert len(collections) == 1, repr(collections)
-    tuplets = [baca.from_collection(_, [1], 32) for _ in collections]
-    rmakers.beam_groups(tuplets)
-    return tuplets, 32
+def make_thirty_seconds(collection):
+    _assert_is_collection(collection)
+    tuplet = baca.from_collection(collection, [1], 32)
+    rmakers.beam_groups([tuplet])
+    return tuplet, 32
 
 
 def make_time_signature(tuplets, tsd):
@@ -574,24 +574,18 @@ def make_twentieths(collection):
     return tuplet, 20
 
 
-def make_twenty_eighths(collections):
-    assert len(collections) == 1, repr(collections)
-    tuplets = []
-    for collection in collections:
-        tuplet = baca.from_collection(collection, [1], 16, "7:4")
-        tuplets.append(tuplet)
-    rmakers.beam(tuplets)
-    return tuplets, 28
+def make_twenty_eighths(collection):
+    _assert_is_collection(collection)
+    tuplet = baca.from_collection(collection, [1], 16, "7:4")
+    rmakers.beam([tuplet])
+    return tuplet, 28
 
 
-def make_twenty_fourths(collections):
-    assert len(collections) == 1, repr(collections)
-    tuplets = []
-    for collection in collections:
-        tuplet = baca.from_collection(collection, [1], 16, "3:2")
-        tuplets.append(tuplet)
-    rmakers.beam(tuplets, beam_lone_notes=True)
-    return tuplets, 24
+def make_twenty_fourths(collection):
+    _assert_is_collection(collection)
+    tuplet = baca.from_collection(collection, [1], 16, "3:2")
+    rmakers.beam([tuplet], beam_lone_notes=True)
+    return tuplet, 24
 
 
 def make_waves(collections, denominator=64, *, inverted=False):

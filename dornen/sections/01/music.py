@@ -97,7 +97,7 @@ def populate_score(score):
         assert collection == [[8, 0, 5, 9], [3, 4, 6, 2]]
         tuplets = library.make_running(collection)
         baca.register(tuplets, -12)
-        accumulator(library.v4, tuplets, None, "R_1")
+        accumulator(library.v4, tuplets, "R_1")
 
     @baca.call
     def block():
@@ -116,7 +116,7 @@ def populate_score(score):
         ]
         tuplets = library.make_running(collection)
         baca.register(tuplets, -6)
-        accumulator(library.v4, tuplets, None, "R_2")
+        accumulator(library.v4, tuplets, "R_2")
 
     @baca.call
     def block():
@@ -171,13 +171,13 @@ def populate_score(score):
         assert collection == [[9, 1, 6, 10, 0, 11, 8], [1, 6, 10, 9]]
         tuplets = library.make_running(collection)
         baca.register(tuplets, -12, 0)
-        accumulator(library.v4, tuplets, None, "R_3")
+        accumulator(library.v4, tuplets, "R_3")
 
     @baca.call
     def block():
-        collections = design[20:21]
-        assert collections == [[11, 8, 0, 4, 5, 7, 3]]
-        tuplets, tsd = library.make_waves(collections, denominator=64, inverted=True)
+        collection = design[20]
+        assert collection == [11, 8, 0, 4, 5, 7, 3]
+        tuplets, tsd = library.make_waves([collection], denominator=64, inverted=True)
         baca.beam_positions(baca.select.leaves(tuplets, grace=False), -6)
         accumulator(library.v3, tuplets, tsd, "W_1")
 

@@ -48,7 +48,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         tuplets = library.make_running(collections)
         baca.register(tuplets, -14, 0)
         library.extend_beam(tuplets)
-        accumulator(library.v1, tuplets, None, "R1")
+        accumulator(library.v1, tuplets, "R1")
 
     @baca.call
     def block():
@@ -70,7 +70,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         tuplets = library.make_running(collections)
         baca.register(tuplets, -14, 0)
         library.extend_beam(tuplets)
-        accumulator(library.v1, tuplets, None, "R2")
+        accumulator(library.v1, tuplets, "R2")
 
     @baca.call
     def block():
@@ -92,7 +92,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         tuplets = library.make_running(collections)
         baca.register(tuplets, -14, 0)
         library.extend_beam(tuplets)
-        accumulator(library.v1, tuplets, None, "R3")
+        accumulator(library.v1, tuplets, "R3")
 
     @baca.call
     def block():
@@ -114,7 +114,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         tuplets = library.make_running(collections)
         baca.register(tuplets, -14, 0)
         library.extend_beam(tuplets)
-        accumulator(library.v1, tuplets, None, "R4")
+        accumulator(library.v1, tuplets, "R4")
 
     @baca.call
     def block():
@@ -134,7 +134,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         ]
         tuplets = library.make_running(collections)
         baca.register(tuplets, -14, 6)
-        accumulator(library.v1, tuplets, None, "R5")
+        accumulator(library.v1, tuplets, "R5")
 
     @baca.call
     def block():

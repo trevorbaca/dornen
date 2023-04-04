@@ -13,9 +13,8 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
     accumulator = library.Accumulator(score)
     design = library.design_1()[16:38]
     assert len(design) == 22
-    cell_d1 = [
-        abjad.sequence.flatten(baca.sequence.boustrophedon(design[4:5], count=4))
-    ]
+    cell_d1 = baca.sequence.boustrophedon(design[4:5], count=4)
+    cell_d1 = abjad.sequence.flatten(cell_d1)
 
     @baca.call
     def block():
@@ -105,15 +104,13 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
 
     @baca.call
     def block():
-        collections = design[4:5]
-        assert collections == [[11, 8, 0, 4, 5, 7, 3]]
-        collections = baca.sequence.reveal(cell_d1, 4)
-        tuplets, tsd = library.make_delicatissimo(collections)
-        baca.beam_positions(tuplets, -6.5)
-        pleaves = baca.select.pleaves(tuplets)
+        collection = cell_d1[:4]
+        tuplet, tsd = library.make_delicatissimo(collection)
+        baca.beam_positions(tuplet, -6.5)
+        pleaves = baca.select.pleaves(tuplet)
         baca.stem_down(pleaves)
-        library.extend_beam(tuplets)
-        accumulator(library.v1, tuplets, tsd, "D1_1")
+        library.extend_beam(tuplet)
+        accumulator(library.v1, tuplet, tsd, "D1_1")
 
     @baca.call
     def block():
@@ -130,12 +127,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
 
     @baca.call
     def block():
-        collections = cell_d1
-        assert collections == eval(
-            """[[11, 8, 0, 4, 5, 7, 3, 7, 5, 4, 0, 8,
-            11, 8, 0, 4, 5, 7, 3, 7, 5, 4, 0, 8, 11]]"""
-        )
-        collections = baca.sequence.reveal(cell_d1, 3)
+        collections = cell_d1[:3]
         tuplets, tsd = library.make_delicatissimo(collections)
         baca.beam_positions(tuplets, -6.5)
         pleaves = baca.select.pleaves(tuplets)
@@ -157,12 +149,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
 
     @baca.call
     def block():
-        collections = cell_d1
-        assert collections == eval(
-            """[[11, 8, 0, 4, 5, 7, 3, 7, 5, 4, 0, 8,
-            11, 8, 0, 4, 5, 7, 3, 7, 5, 4, 0, 8, 11]]"""
-        )
-        collections = baca.sequence.reveal(cell_d1, 10)
+        collections = cell_d1[:10]
         tuplets, tsd = library.make_delicatissimo(collections)
         baca.beam_positions(tuplets, -6.5)
         baca.stem_down(tuplets)
@@ -207,12 +194,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
 
     @baca.call
     def block():
-        collections = cell_d1
-        assert collections == eval(
-            """[[11, 8, 0, 4, 5, 7, 3, 7, 5, 4, 0, 8,
-            11, 8, 0, 4, 5, 7, 3, 7, 5, 4, 0, 8, 11]]"""
-        )
-        collections = baca.sequence.reveal(cell_d1, 15)
+        collections = cell_d1[:15]
         tuplets, tsd = library.make_delicatissimo(collections)
         baca.beam_positions(tuplets, -6.5)
         pleaves = baca.select.pleaves(tuplets)
@@ -235,12 +217,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
 
     @baca.call
     def block():
-        collections = cell_d1
-        assert collections == eval(
-            """[[11, 8, 0, 4, 5, 7, 3, 7, 5, 4, 0, 8,
-            11, 8, 0, 4, 5, 7, 3, 7, 5, 4, 0, 8, 11]]"""
-        )
-        collections = baca.sequence.reveal(cell_d1, 6)
+        collections = cell_d1[:6]
         tuplets, tsd = library.make_delicatissimo(collections)
         baca.beam_positions(tuplets, -6.5)
         pleaves = baca.select.pleaves(tuplets)
@@ -284,12 +261,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
 
     @baca.call
     def block():
-        collections = cell_d1
-        assert collections == eval(
-            """[[11, 8, 0, 4, 5, 7, 3, 7, 5, 4, 0, 8,
-            11, 8, 0, 4, 5, 7, 3, 7, 5, 4, 0, 8, 11]]"""
-        )
-        collections = baca.sequence.reveal(cell_d1, 10)
+        collections = cell_d1[:10]
         tuplets, tsd = library.make_delicatissimo(collections)
         baca.beam_positions(tuplets, -6.5)
         pleaves = baca.select.pleaves(tuplets)
@@ -298,30 +270,25 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
 
     @baca.call
     def block():
-        collections = cell_d1
-        assert collections == eval(
-            """[[11, 8, 0, 4, 5, 7, 3, 7, 5, 4, 0, 8,
-            11, 8, 0, 4, 5, 7, 3, 7, 5, 4, 0, 8, 11]]"""
-        )
-        collections = baca.sequence.reveal(cell_d1, -15)
-        tuplets, tsd = library.make_delicatissimo(collections)
-        baca.beam_positions(tuplets, -6.5)
-        tuplets = [baca.nest(tuplets, "3:2")]
-        pleaves = baca.select.pleaves(tuplets)
+        collection = cell_d1[-15:]
+        tuplet, tsd = library.make_delicatissimo(collection)
+        baca.beam_positions(tuplet, -6.5)
+        tuplet = baca.nest([tuplet], "3:2")
+        pleaves = baca.select.pleaves(tuplet)
         baca.stem_down(pleaves)
-        baca.tuplet_bracket_up(tuplets)
-        accumulator(library.v1, tuplets, tsd, "D1_7")
+        baca.tuplet_bracket_up(tuplet)
+        accumulator(library.v1, tuplet, tsd, "D1_7")
 
     @baca.call
     def block():
-        collections = design[6:7]
-        assert collections == [[8, 1, 4, 7, 10, 3, 2, 0, 1, 4, 7, 10, 8, 6, 5, 11]]
-        tuplets, tsd = library.make_delicatissimo(collections)
-        baca.beam_positions(tuplets, -6.5)
-        pleaves = baca.select.pleaves(tuplets)
+        collection = design[6]
+        assert collection == [8, 1, 4, 7, 10, 3, 2, 0, 1, 4, 7, 10, 8, 6, 5, 11]
+        tuplet, tsd = library.make_delicatissimo(collection)
+        baca.beam_positions(tuplet, -6.5)
+        pleaves = baca.select.pleaves(tuplet)
         baca.stem_down(pleaves)
-        baca.register(tuplets, 6, -20)
-        accumulator(library.v1, tuplets, tsd, "D2")
+        baca.register(tuplet, 6, -20)
+        accumulator(library.v1, tuplet, tsd, "D2")
 
     @baca.call
     def block():
@@ -415,14 +382,14 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
 
     @baca.call
     def block():
-        collections = design[6:7]
-        assert collections == [[8, 1, 4, 7, 10, 3, 2, 0, 1, 4, 7, 10, 8, 6, 5, 11]]
-        tuplets, tsd = library.make_delicatissimo(collections)
-        baca.beam_positions(tuplets, -6.5)
-        pleaves = baca.select.pleaves(tuplets)
+        collection = design[6]
+        assert collection == [8, 1, 4, 7, 10, 3, 2, 0, 1, 4, 7, 10, 8, 6, 5, 11]
+        tuplet, tsd = library.make_delicatissimo(collection)
+        baca.beam_positions(tuplet, -6.5)
+        pleaves = baca.select.pleaves(tuplet)
         baca.stem_down(pleaves)
-        baca.register(tuplets, 6, -20)
-        accumulator(library.v1, tuplets, tsd, "D2*")
+        baca.register(tuplet, 6, -20)
+        accumulator(library.v1, tuplet, tsd, "D2*")
 
     @baca.call
     def block():

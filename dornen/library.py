@@ -388,13 +388,13 @@ def extend_beam(components):
     baca.extend_beam(abjad.select.leaf(components, -1))
 
 
-def make_delicatissimo(collections):
-    assert len(collections) == 1, repr(collections)
-    tuplets = [baca.from_collection(_, [1], 32) for _ in collections]
-    rmakers.beam_groups(tuplets)
-    pheads = baca.select.pheads(tuplets)
+def make_delicatissimo(collection):
+    _assert_is_collection(collection)
+    tuplet = baca.from_collection(collection, [1], 32)
+    rmakers.beam_groups([tuplet])
+    pheads = baca.select.pheads(tuplet)
     baca.staccato(pheads)
-    return tuplets, 32
+    return tuplet, 32
 
 
 def make_dotted_eighths(collection):
@@ -493,7 +493,6 @@ def make_monads(collections):
 
 
 def make_ovoid(collection):
-    collection = getattr(collection, "argument", collection)
     bgcs, collection = baca.make_bgcs(collection, baca.LMR(left_length=1))
     tuplet = baca.from_collection(collection, [6, 1], 32)
     baca.attach_bgcs(bgcs, tuplet)
@@ -503,7 +502,6 @@ def make_ovoid(collection):
 
 
 def make_passepied(collection):
-    collection = getattr(collection, "argument", collection)
     bgcs, collection = baca.make_bgcs(collection, baca.LMR())
     tuplet = baca.from_collection(collection, [1], 32)
     rmakers.beam_groups([tuplet], beam_lone_notes=True)
@@ -573,7 +571,6 @@ def make_time_signature(tuplets, tsd):
 
 
 def make_twentieths(collection):
-    collection = getattr(collection, "argument", collection)
     _assert_is_collection(collection)
     tuplet = baca.from_collection(collection, [1], 16, "5:4")
     rmakers.beam([tuplet], beam_lone_notes=True)
@@ -601,7 +598,6 @@ def make_twenty_fourths(collections):
 
 
 def make_waves(collections, denominator=64, *, inverted=False):
-    collections = getattr(collections, "argument", collections)
     assert all(isinstance(_, list) for _ in collections), repr(collections)
     assert abjad.math.is_positive_integer_power_of_two(denominator)
     assert 16 <= denominator, repr(denominator)

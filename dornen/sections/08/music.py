@@ -126,14 +126,22 @@ def SKIPS(skips):
 
 def postprocess(cache):
     m = cache[library.v1]
-    with baca.scope(m.get(1, 12)) as o:
+
+    @baca.call(m.get(1, 12))
+    def _(o):
         baca.register(o, -8)
         baca.displacement(o, [0, 1])
+
     m = cache[library.v2]
-    with baca.scope(m.get(1, 12)) as o:
+
+    @baca.call(m.get(1, 12))
+    def _(o):
         baca.register(o, -20, 4)
+
     m = cache[library.v4]
-    with baca.scope(m.get(1, 12)) as o:
+
+    @baca.call(m.get(1, 12))
+    def _(o):
         baca.beam_positions(o, 8)
         baca.register(o, -18, 6)
 

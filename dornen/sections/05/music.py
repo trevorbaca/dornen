@@ -264,29 +264,46 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
 
 def postprocess(cache):
     m = cache[library.v1]
-    with baca.scope(m.leaves()) as o:
-        baca.tenuto(o.pheads())
+
+    @baca.call(m.leaves())
+    def _(o):
+        baca.tenuto(baca.select.pheads(o))
         baca.beam_positions(o, 10)
         baca.register(o, -12)
+
     m = cache[library.v2]
-    with baca.scope(m.get(1, 22)) as o:
+
+    @baca.call(m.get(1, 22))
+    def _(o):
         baca.beam_positions(o, -5.5)
         baca.register(o, 4)
-    with baca.scope(m.get(25, 30)) as o:
+
+    @baca.call(m.get(25, 30))
+    def _(o):
         baca.beam_positions(o, -5.5)
         baca.register(o, 4)
+
     m = cache[library.v3]
-    with baca.scope(m.leaves()) as o:
+
+    @baca.call(m.leaves())
+    def _(o):
         baca.register(o, -20)
-        baca.accent(o.pheads())
+        baca.accent(baca.select.pheads(o))
         baca.script_down(o)
-    with baca.scope(m.get(3)) as o:
+
+    @baca.call(m.get(3))
+    def _(o):
         baca.beam_positions(o, -9)
-    with baca.scope(m.get(17)) as o:
+
+    @baca.call(m.get(17))
+    def _(o):
         baca.beam_positions(o, -12)
+
     m = cache[library.v4]
-    with baca.scope(m.leaves()) as o:
-        baca.staccato(o.pheads())
+
+    @baca.call(m.leaves())
+    def _(o):
+        baca.staccato(baca.select.pheads(o))
         baca.beam_positions(o, 5.5)
         baca.register(o, -4)
 

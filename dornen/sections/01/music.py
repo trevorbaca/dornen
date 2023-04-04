@@ -1,3 +1,4 @@
+import abjad
 import baca
 from abjadext import rmakers
 
@@ -198,10 +199,14 @@ def GLOBALS(skips):
 
 
 def postprocess(cache):
-    with baca.scope(cache[library.v1][1]) as o:
-        baca.instrument(o.leaf(0), "Guitar", library.manifests)
-        baca.clef(o.leaf(0), "treble")
-    with baca.scope(cache[library.v3][18, 19]) as o:
+    @baca.call(cache[library.v1][1])
+    def _(o):
+        leaf = abjad.select.leaf(o, 0)
+        baca.instrument(leaf, "Guitar", library.manifests)
+        baca.clef(leaf, "treble")
+
+    @baca.call(cache[library.v3][18, 19])
+    def _(o):
         baca.register(o, 0, -12)
 
 

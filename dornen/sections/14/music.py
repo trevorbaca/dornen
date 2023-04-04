@@ -35,10 +35,10 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
 
     @baca.call
     def block():
-        collections = design[2:3]
-        assert collections == [[0]]
-        tuplets, tsd = library.make_sixteenths(collections)
-        accumulator(library.v3, tuplets, tsd, "")
+        collection = design[2]
+        assert collection == [0]
+        tuplet, tsd = library.make_sixteenths(collection)
+        accumulator(library.v3, tuplet, tsd, "")
 
     @baca.call
     def block():
@@ -92,10 +92,10 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
 
     @baca.call
     def block():
-        collections = design[2:3]
-        assert collections == [[0]]
-        tuplets, tsd = library.make_sixteenths(collections)
-        accumulator(library.v3, tuplets, tsd, "")
+        collection = design[2]
+        assert collection == [0]
+        tuplet, tsd = library.make_sixteenths(collection)
+        accumulator(library.v3, tuplet, tsd, "")
 
     @baca.call
     def block():
@@ -149,10 +149,10 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
 
     @baca.call
     def block():
-        collections = design[2:3]
-        assert collections == [[0]]
-        tuplets, tsd = library.make_sixteenths(collections)
-        accumulator(library.v3, tuplets, tsd, "")
+        collection = design[2]
+        assert collection == [0]
+        tuplet, tsd = library.make_sixteenths(collection)
+        accumulator(library.v3, tuplet, tsd, "")
 
     @baca.call
     def block():
@@ -203,10 +203,10 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
 
     @baca.call
     def block():
-        collections = design[2:3]
-        assert collections == [[0]]
-        tuplets, tsd = library.make_sixteenths(collections)
-        accumulator(library.v3, tuplets, tsd, "")
+        collection = design[2]
+        assert collection == [0]
+        tuplet, tsd = library.make_sixteenths(collection)
+        accumulator(library.v3, tuplet, tsd, "")
 
     @baca.call
     def block():
@@ -257,10 +257,10 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
 
     @baca.call
     def block():
-        collections = design[2:3]
-        assert collections == [[0]]
-        tuplets, tsd = library.make_sixteenths(collections)
-        accumulator(library.v3, tuplets, tsd, "")
+        collection = design[2]
+        assert collection == [0]
+        tuplet, tsd = library.make_sixteenths(collection)
+        accumulator(library.v3, tuplet, tsd, "")
 
     @baca.call
     def block():
@@ -310,10 +310,10 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
 
     @baca.call
     def block():
-        collections = design[2:3]
-        assert collections == [[0]]
-        tuplets, tsd = library.make_sixteenths(collections)
-        accumulator(library.v3, tuplets, tsd, "")
+        collection = design[2]
+        assert collection == [0]
+        tuplet, tsd = library.make_sixteenths(collection)
+        accumulator(library.v3, tuplet, tsd, "")
 
     @baca.call
     def block():
@@ -339,19 +339,19 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
 
     @baca.call
     def block():
-        collections = [13 * ["E2"]]
-        tuplets, tsd = library.make_thirds(collections)
-        baca.dynamic(baca.select.phead(tuplets, 0), "p")
+        collection = 13 * ["E2"]
+        tuplet, tsd = library.make_thirds(collection)
+        baca.dynamic(baca.select.phead(tuplet, 0), "p")
         baca.markup(
-            baca.select.pleaf(tuplets, 0),
+            baca.select.pleaf(tuplet, 0),
             r"\dornen-rascado-explanation-markup",
             direction=abjad.UP,
         )
-        baca.register(tuplets, -20)
-        for qrun in baca.select.qruns(tuplets):
+        baca.register(tuplet, -20)
+        for qrun in baca.select.qruns(tuplet):
             baca.repeat_tie(qrun[1:])
-        baca.stem_tremolo(baca.select.pleaves(tuplets))
-        accumulator(library.v1, tuplets, tsd, "")
+        baca.stem_tremolo(baca.select.pleaves(tuplet))
+        accumulator(library.v1, tuplet, tsd, "")
 
     rmakers.swap_trivial(score)
     return accumulator.time_signatures

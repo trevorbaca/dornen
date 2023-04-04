@@ -59,12 +59,12 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
 
     @baca.call
     def block():
-        collections = design[5:6]
-        assert collections == [[4, 7, 8]]
-        tuplets, tsd = library.make_glissando_scatto(collections)
-        baca.register(tuplets, -20)
-        baca.displacement(tuplets, [0, 1])
-        accumulator(library.v1, tuplets, tsd, "L1")
+        collection = design[5]
+        assert collection == [4, 7, 8]
+        tuplet, tsd = library.make_glissando_scatto(collection)
+        baca.register(tuplet, -20)
+        baca.displacement(tuplet, [0, 1])
+        accumulator(library.v1, tuplet, tsd, "L1")
 
     @baca.call
     def block():

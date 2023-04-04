@@ -83,56 +83,28 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
 
     @baca.call
     def block():
-        collections = design[9:10]
-        assert collections == eval(
-            """[[6, 4, 5, 5.5, 6.5, 9, 10, 7, 8, 11.5, 2.5, 3.5, 11, 2, 3, 10.5,
-            7, 8, 11.5, 10, 3.5, 11, 2, 3, 10.5, 2.5, 4, 5, 5.5, 6.5, 9, 6]]"""
-        )
-        collections = baca.sequence.reveal(collections, 3)
-        collections = abjad.sequence.repeat(collections, 10)
-        collections = abjad.sequence.flatten(collections)
+        collections = 10 * [design[9][:3]]
         tuplets, tsd = library.make_sixty_fourths(collections)
         baca.register(tuplets, 0)
         accumulator(library.v1, tuplets, tsd, "D1")
 
     @baca.call
     def block():
-        collections = design[9:10]
-        assert collections == eval(
-            """[[6, 4, 5, 5.5, 6.5, 9, 10, 7, 8, 11.5, 2.5, 3.5, 11, 2, 3, 10.5,
-            7, 8, 11.5, 10, 3.5, 11, 2, 3, 10.5, 2.5, 4, 5, 5.5, 6.5, 9, 6]]"""
-        )
-        collections = baca.sequence.reveal(collections, 4)
-        collections = abjad.sequence.repeat(collections, 10)
-        collections = abjad.sequence.flatten(collections)
+        collections = 10 * [design[9][:4]]
         tuplets, tsd = library.make_sixty_fourths(collections)
         baca.register(tuplets, 0)
         accumulator(library.v1, tuplets, tsd, "D2")
 
     @baca.call
     def block():
-        collections = design[9:10]
-        assert collections == eval(
-            """[[6, 4, 5, 5.5, 6.5, 9, 10, 7, 8, 11.5, 2.5, 3.5, 11, 2, 3, 10.5,
-            7, 8, 11.5, 10, 3.5, 11, 2, 3, 10.5, 2.5, 4, 5, 5.5, 6.5, 9, 6]]"""
-        )
-        collections = baca.sequence.reveal(collections, 5)
-        collections = abjad.sequence.repeat(collections, 10)
-        collections = abjad.sequence.flatten(collections)
+        collections = 10 * [design[9][:5]]
         tuplets, tsd = library.make_sixty_fourths(collections)
         baca.register(tuplets, 0)
         accumulator(library.v1, tuplets, tsd, "D3")
 
     @baca.call
     def block():
-        collections = design[9:10]
-        assert collections == eval(
-            """[[6, 4, 5, 5.5, 6.5, 9, 10, 7, 8, 11.5, 2.5, 3.5, 11, 2, 3, 10.5,
-            7, 8, 11.5, 10, 3.5, 11, 2, 3, 10.5, 2.5, 4, 5, 5.5, 6.5, 9, 6]]"""
-        )
-        collections = baca.sequence.reveal(collections, 6)
-        collections = abjad.sequence.repeat(collections, 10)
-        collections = abjad.sequence.flatten(collections)
+        collections = 10 * [design[9][:6]]
         tuplets, tsd = library.make_sixty_fourths(collections)
         baca.register(tuplets, 0)
         accumulator(library.v1, tuplets, tsd, "D4")

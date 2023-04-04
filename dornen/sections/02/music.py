@@ -29,8 +29,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
 
     @baca.call
     def block():
-        collection = design[4]
-        collection = baca.sequence.reveal(collection, 1)
+        collection = design[4][:1]
         assert collection == [3]
         tuplet, tsd = library.make_twentieths(collection)
         baca.beam_positions(tuplet, -8)
@@ -53,9 +52,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
 
     @baca.call
     def block():
-        collection = design[4]
-        assert collection == [3, 9, 4, 0, 10]
-        collection = baca.sequence.reveal(collection, 2)
+        collection = design[4][:2]
         assert collection == [3, 9]
         tuplet, tsd = library.make_twentieths(collection)
         baca.register(tuplet, 6)
@@ -77,9 +74,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
 
     @baca.call
     def block():
-        collection = design[4]
-        assert collection == [3, 9, 4, 0, 10]
-        collection = baca.sequence.reveal(collection, 3)
+        collection = design[4][:3]
         assert collection == [3, 9, 4]
         tuplet, tsd = library.make_twentieths(collection)
         baca.register(tuplet, 6)
@@ -101,9 +96,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
 
     @baca.call
     def block():
-        collection = design[4]
-        assert collection == [3, 9, 4, 0, 10]
-        collection = baca.sequence.reveal(collection, 4)
+        collection = design[4][:4]
         assert collection == [3, 9, 4, 0]
         tuplet, tsd = library.make_twentieths(collection)
         baca.register(tuplet, 6)
@@ -125,9 +118,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
 
     @baca.call
     def block():
-        collection = design[4]
-        assert collection == [3, 9, 4, 0, 10]
-        collection = baca.sequence.reveal(design[4], 5)
+        collection = design[4][:5]
         tuplet, tsd = library.make_twentieths(collection)
         baca.register(tuplet, 6)
         accumulator(library.v2, tuplet, tsd, "F1")
@@ -147,7 +138,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
 
     @baca.call
     def block():
-        collection = baca.sequence.reveal(design[4], 1)
+        collection = design[4][:1]
         assert collection == [3]
         tuplet, tsd = library.make_twentieths(collection)
         baca.register(tuplet, 6)
@@ -170,9 +161,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
 
     @baca.call
     def block():
-        collection = design[4]
-        assert collection == [3, 9, 4, 0, 10]
-        collection = baca.sequence.reveal(design[4], 2)
+        collection = design[4][:2]
         tuplet, tsd = library.make_twentieths(collection)
         baca.register(tuplet, 6)
         accumulator(library.v2, tuplet, tsd, "F1_2*")

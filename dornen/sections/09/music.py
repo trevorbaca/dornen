@@ -15,21 +15,21 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
 
     @baca.call
     def block():
-        collections = design[:1]
-        assert collections == [[10, 0, 11, 1, 6, 7]]
-        tuplets, tsd = library.make_delicatissimo(collections)
-        baca.register(tuplets, -4, -20)
-        library.extend_beam(tuplets)
-        accumulator(library.v1, tuplets, tsd, "D1")
+        collection = design[0]
+        assert collection == [10, 0, 11, 1, 6, 7]
+        tuplet, tsd = library.make_delicatissimo(collection)
+        baca.register(tuplet, -4, -20)
+        library.extend_beam(tuplet)
+        accumulator(library.v1, tuplet, tsd, "D1")
 
     @baca.call
     def block():
-        collections = design[1:2]
-        assert collections == [[8, 9, 3, 2, 4, 8]]
-        tuplets, tsd = library.make_delicatissimo(collections)
-        baca.register(tuplets, -4, -20)
-        library.extend_beam(tuplets)
-        accumulator(library.v1, tuplets, tsd, "D2")
+        collection = design[1]
+        assert collection == [8, 9, 3, 2, 4, 8]
+        tuplet, tsd = library.make_delicatissimo(collection)
+        baca.register(tuplet, -4, -20)
+        library.extend_beam(tuplet)
+        accumulator(library.v1, tuplet, tsd, "D2")
 
     @baca.call
     def block():
@@ -41,21 +41,21 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
 
     @baca.call
     def block():
-        collections = design[3:4]
-        assert collections == [[11, 1, 6, 10, 11, 1]]
-        tuplets, tsd = library.make_delicatissimo(collections)
-        baca.register(tuplets, -4, -20)
-        library.extend_beam(tuplets)
-        accumulator(library.v1, tuplets, tsd, "D3")
+        collection = design[3]
+        assert collection == [11, 1, 6, 10, 11, 1]
+        tuplet, tsd = library.make_delicatissimo(collection)
+        baca.register(tuplet, -4, -20)
+        library.extend_beam(tuplet)
+        accumulator(library.v1, tuplet, tsd, "D3")
 
     @baca.call
     def block():
-        collections = design[4:5]
-        assert collections == [[6, 10, 0, 9, 3, 2]]
-        tuplets, tsd = library.make_delicatissimo(collections)
-        baca.register(tuplets, -4, -20)
-        library.extend_beam(tuplets)
-        accumulator(library.v1, tuplets, tsd, "D4")
+        collection = design[4]
+        assert collection == [6, 10, 0, 9, 3, 2]
+        tuplet, tsd = library.make_delicatissimo(collection)
+        baca.register(tuplet, -4, -20)
+        library.extend_beam(tuplet)
+        accumulator(library.v1, tuplet, tsd, "D4")
 
     @baca.call
     def block():

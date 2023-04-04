@@ -24,11 +24,11 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
 
     @baca.call
     def block():
-        collections = design[1:2]
-        assert collections == [[7, 0]]
-        tuplets, tsd = library.make_glissando_scatto(collections)
-        baca.beam_positions(tuplets, 8)
-        accumulator(library.v1, tuplets, tsd, "L1")
+        collection = design[1]
+        assert collection == [7, 0]
+        tuplet, tsd = library.make_glissando_scatto(collection)
+        baca.beam_positions(tuplet, 8)
+        accumulator(library.v1, tuplet, tsd, "L1")
 
     @baca.call
     def block():
@@ -71,12 +71,12 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
 
     @baca.call
     def block():
-        collections = design[6:7]
-        assert collections == [[8, 5, 1, 11, 0, 8]]
-        tuplets, tsd = library.make_glissando_scatto(collections)
-        baca.beam_positions(tuplets, 12)
-        library.extend_beam(tuplets)
-        accumulator(library.v1, tuplets, tsd, "L2")
+        collection = design[6]
+        assert collection == [8, 5, 1, 11, 0, 8]
+        tuplet, tsd = library.make_glissando_scatto(collection)
+        baca.beam_positions(tuplet, 12)
+        library.extend_beam(tuplet)
+        accumulator(library.v1, tuplet, tsd, "L2")
 
     @baca.call
     def block():
@@ -111,10 +111,10 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
 
     @baca.call
     def block():
-        collections = design[11:12]
-        assert collections == [[11, 1, 4, 8]]
-        tuplets, tsd = library.make_glissando_scatto(collections)
-        accumulator(library.v1, tuplets, tsd, "L3")
+        collection = design[11]
+        assert collection == [11, 1, 4, 8]
+        tuplet, tsd = library.make_glissando_scatto(collection)
+        accumulator(library.v1, tuplet, tsd, "L3")
 
     rmakers.swap_trivial(score)
     return accumulator.time_signatures

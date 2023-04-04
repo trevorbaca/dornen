@@ -38,18 +38,18 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
 
     @baca.call
     def block():
-        collections = design[2:3]
-        assert collections == [[7, 8, 2, 1]]
-        tuplets, tsd = library.make_glissando_scatto(collections)
+        collection = design[2]
+        assert collection == [7, 8, 2, 1]
+        tuplet, tsd = library.make_glissando_scatto(collection)
         baca.markup(
-            baca.select.pleaf(tuplets, 0),
+            baca.select.pleaf(tuplet, 0),
             r"\dornen-glissando-attack-first-note-only-markup",
         )
-        baca.beam_positions(tuplets, -12)
-        baca.register(tuplets, -8)
-        baca.displacement(tuplets, [0, 1])
-        library.extend_beam(tuplets)
-        accumulator(library.v2, tuplets, tsd, "G1")
+        baca.beam_positions(tuplet, -12)
+        baca.register(tuplet, -8)
+        baca.displacement(tuplet, [0, 1])
+        library.extend_beam(tuplet)
+        accumulator(library.v2, tuplet, tsd, "G1")
 
     @baca.call
     def block():
@@ -115,13 +115,13 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
 
     @baca.call
     def block():
-        collections = design[3:4]
-        assert collections == [[3, 6, 9]]
-        tuplets, tsd = library.make_glissando_scatto(collections)
-        baca.register(tuplets, -8)
-        baca.displacement(tuplets, [0, 1])
-        library.extend_beam(tuplets)
-        accumulator(library.v2, tuplets, tsd, "G2")
+        collection = design[3]
+        assert collection == [3, 6, 9]
+        tuplet, tsd = library.make_glissando_scatto(collection)
+        baca.register(tuplet, -8)
+        baca.displacement(tuplet, [0, 1])
+        library.extend_beam(tuplet)
+        accumulator(library.v2, tuplet, tsd, "G2")
 
     @baca.call
     def block():
@@ -133,12 +133,12 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
 
     @baca.call
     def block():
-        collections = design[4:5]
-        assert collections == [[11, 10]]
-        tuplets, tsd = library.make_glissando_scatto(collections)
-        baca.register(tuplets, -8)
-        baca.displacement(tuplets, [0, 1])
-        accumulator(library.v2, tuplets, tsd, "G3")
+        collection = design[4]
+        assert collection == [11, 10]
+        tuplet, tsd = library.make_glissando_scatto(collection)
+        baca.register(tuplet, -8)
+        baca.displacement(tuplet, [0, 1])
+        accumulator(library.v2, tuplet, tsd, "G3")
 
     @baca.call
     def block():

@@ -35,17 +35,17 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
 
     @baca.call
     def block():
-        collections = design[1:2]
-        assert collections == [[3]]
-        tuplets, tsd = library.make_sixteenths(collections)
+        collection = design[1]
+        assert collection == [3]
+        tuplet, tsd = library.make_sixteenths(collection)
         baca.markup(
-            baca.select.pleaf(tuplets, 0),
+            baca.select.pleaf(tuplet, 0),
             r"\dornen-dull-but-beautiful-markup",
             direction=abjad.DOWN,
         )
-        baca.text_script_down(tuplets)
-        library.extend_beam(tuplets)
-        accumulator(library.v2, tuplets, tsd, "16_1")
+        baca.text_script_down(tuplet)
+        library.extend_beam(tuplet)
+        accumulator(library.v2, tuplet, tsd, "16_1")
 
     @baca.call
     def block():
@@ -58,11 +58,11 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
 
     @baca.call
     def block():
-        collections = design[3:4]
-        assert collections == [[9]]
-        tuplets, tsd = library.make_sixteenths(collections)
-        library.extend_beam(tuplets)
-        accumulator(library.v2, tuplets, tsd, "16_2")
+        collection = design[3]
+        assert collection == [9]
+        tuplet, tsd = library.make_sixteenths(collection)
+        library.extend_beam(tuplet)
+        accumulator(library.v2, tuplet, tsd, "16_2")
 
     @baca.call
     def block():
@@ -76,11 +76,11 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
 
     @baca.call
     def block():
-        collections = design[5:6]
-        assert collections == [[11]]
-        tuplets, tsd = library.make_sixteenths(collections)
-        library.extend_beam(tuplets)
-        accumulator(library.v2, tuplets, tsd, "16_3")
+        collection = design[5]
+        assert collection == [11]
+        tuplet, tsd = library.make_sixteenths(collection)
+        library.extend_beam(tuplet)
+        accumulator(library.v2, tuplet, tsd, "16_3")
 
     @baca.call
     def block():
@@ -93,11 +93,11 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
 
     @baca.call
     def block():
-        collections = design[7:8]
-        assert collections == [[4]]
-        tuplets, tsd = library.make_sixteenths(collections)
-        library.extend_beam(tuplets)
-        accumulator(library.v2, tuplets, tsd, "16_4")
+        collection = design[7]
+        assert collection == [4]
+        tuplet, tsd = library.make_sixteenths(collection)
+        library.extend_beam(tuplet)
+        accumulator(library.v2, tuplet, tsd, "16_4")
 
     @baca.call
     def block():
@@ -110,10 +110,10 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
 
     @baca.call
     def block():
-        collections = design[9:10]
-        assert collections == [[10]]
-        tuplets, tsd = library.make_sixteenths(collections)
-        accumulator(library.v2, tuplets, tsd, "16_5")
+        collection = design[9]
+        assert collection == [10]
+        tuplet, tsd = library.make_sixteenths(collection)
+        accumulator(library.v2, tuplet, tsd, "16_5")
 
     @baca.call
     def block():

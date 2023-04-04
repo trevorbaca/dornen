@@ -457,16 +457,13 @@ def make_forty_eighths(collection):
     return tuplet, 32
 
 
-def make_glissando_scatto(collections):
-    assert len(collections) == 1, repr(collections)
-    tuplets = []
-    for collection in collections:
-        tuplet = baca.from_collection(collection, [2, 2, 2, 1, 2, 2, 2], 32, -2)
-        tuplets.append(tuplet)
-    rmakers.beam_groups(tuplets)
-    for ntrun in baca.select.ntruns(tuplets):
+def make_glissando_scatto(collection):
+    _assert_is_collection(collection)
+    tuplet = baca.from_collection(collection, [2, 2, 2, 1, 2, 2, 2], 32, -2)
+    rmakers.beam_groups([tuplet])
+    for ntrun in baca.select.ntruns(tuplet):
         baca.glissando(ntrun)
-    return tuplets, 16
+    return tuplet, 16
 
 
 def make_graced_tuplets(collections):
@@ -532,11 +529,11 @@ def make_running(collections):
     return tuplets
 
 
-def make_sixteenths(collections):
-    assert len(collections) == 1, repr(collections)
-    tuplets = [baca.from_collection(_, [1], 16) for _ in collections]
-    rmakers.beam(tuplets, beam_lone_notes=True)
-    return tuplets, 16
+def make_sixteenths(collection):
+    _assert_is_collection(collection)
+    tuplet = baca.from_collection(collection, [1], 16)
+    rmakers.beam([tuplet], beam_lone_notes=True)
+    return tuplet, 16
 
 
 def make_sixty_fourths(collections):
@@ -547,13 +544,10 @@ def make_sixty_fourths(collections):
     return tuplets, 64
 
 
-def make_thirds(collections):
-    assert len(collections) == 1, repr(collections)
-    tuplets = []
-    for collection in collections:
-        tuplet = baca.from_collection(collection, [1], 2, "3:2")
-        tuplets.append(tuplet)
-    return tuplets, 3
+def make_thirds(collection):
+    _assert_is_collection(collection)
+    tuplet = baca.from_collection(collection, [1], 2, "3:2")
+    return tuplet, 3
 
 
 def make_thirty_seconds(collections):

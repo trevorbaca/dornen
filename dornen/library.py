@@ -450,11 +450,11 @@ def make_empty_score():
     return score
 
 
-def make_forty_eighths(collections):
-    assert len(collections) == 1, repr(collections)
-    tuplets = [baca.from_collection(_, [3], 64) for _ in collections]
-    rmakers.beam(tuplets)
-    return tuplets, 32
+def make_forty_eighths(collection):
+    _assert_is_collection(collection)
+    tuplet = baca.from_collection(collection, [3], 64)
+    rmakers.beam([tuplet])
+    return tuplet, 32
 
 
 def make_glissando_scatto(collections):

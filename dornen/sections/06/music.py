@@ -16,14 +16,14 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
 
     @baca.call
     def block():
-        collections = design[:1]
-        assert collections == [[10, 0]]
-        tuplets, tsd = library.make_forty_eighths(collections)
-        baca.tenuto(baca.select.pheads(tuplets))
-        baca.beam_positions(tuplets, 10)
-        baca.register(tuplets, -12)
-        library.extend_beam(tuplets)
-        accumulator(library.v1, tuplets, tsd, "48_1")
+        collection = design[0]
+        assert collection == [10, 0]
+        tuplet, tsd = library.make_forty_eighths(collection)
+        baca.tenuto(baca.select.pheads(tuplet))
+        baca.beam_positions(tuplet, 10)
+        baca.register(tuplet, -12)
+        library.extend_beam(tuplet)
+        accumulator(library.v1, tuplet, tsd, "48_1")
 
     @baca.call
     def block():
@@ -51,12 +51,12 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
 
     @baca.call
     def block():
-        collections = design[6:7]
-        assert collections == [[1, 5]]
-        tuplets, tsd = library.make_forty_eighths(collections)
-        baca.tenuto(baca.select.pheads(tuplets))
-        baca.register(tuplets, -12)
-        accumulator(library.v1, tuplets, tsd, "48_2")
+        collection = design[6]
+        assert collection == [1, 5]
+        tuplet, tsd = library.make_forty_eighths(collection)
+        baca.tenuto(baca.select.pheads(tuplet))
+        baca.register(tuplet, -12)
+        accumulator(library.v1, tuplet, tsd, "48_2")
 
     @baca.call
     def block():

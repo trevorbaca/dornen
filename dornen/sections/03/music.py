@@ -26,10 +26,9 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
 
     @baca.call
     def block():
-        collections = design[5:6]
-        assert collections == [[5, 11, 6, 2, 0, 3, 11, 6, 5, 0, 3, 2]]
-        collections = baca.sequence.reveal(design[5:6], 1)
-        tuplets, tsd = library.make_graced_tuplets(collections)
+        collection = design[5][:1]
+        assert collection == [5]
+        tuplets, tsd = library.make_graced_tuplets([collection])
         baca.beam_positions(tuplets, 12)
         pleaves = baca.select.pleaves(tuplets)
         baca.stem_up(pleaves)
@@ -50,10 +49,9 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
 
     @baca.call
     def block():
-        collections = design[5:6]
-        assert collections == [[5, 11, 6, 2, 0, 3, 11, 6, 5, 0, 3, 2]]
-        collections = baca.sequence.reveal(design[5:6], 1)
-        tuplets, tsd = library.make_graced_tuplets(collections)
+        collection = design[5][:1]
+        assert collection == [5]
+        tuplets, tsd = library.make_graced_tuplets([collection])
         pleaves = baca.select.pleaves(tuplets)
         baca.stem_up(pleaves)
         baca.register(tuplets, 0)
@@ -72,10 +70,9 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
 
     @baca.call
     def block():
-        collections = design[5:6]
-        assert collections == [[5, 11, 6, 2, 0, 3, 11, 6, 5, 0, 3, 2]]
-        collections = baca.sequence.reveal(design[5:6], 3)
-        tuplets, tsd = library.make_graced_tuplets(collections)
+        collection = design[5][:3]
+        assert collection == [5, 11, 6]
+        tuplets, tsd = library.make_graced_tuplets([collection])
         pleaves = baca.select.pleaves(tuplets)
         baca.stem_up(pleaves)
         baca.register(tuplets, 0)
@@ -93,10 +90,9 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
 
     @baca.call
     def block():
-        collections = design[5:6]
-        assert collections == [[5, 11, 6, 2, 0, 3, 11, 6, 5, 0, 3, 2]]
-        collections = baca.sequence.reveal(design[5:6], 3)
-        tuplets, tsd = library.make_graced_tuplets(collections)
+        collection = design[5][:3]
+        assert collection == [5, 11, 6]
+        tuplets, tsd = library.make_graced_tuplets([collection])
         pleaves = baca.select.pleaves(tuplets)
         baca.stem_up(pleaves)
         baca.register(tuplets, 0)
@@ -114,10 +110,9 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
 
     @baca.call
     def block():
-        collections = design[5:6]
-        assert collections == [[5, 11, 6, 2, 0, 3, 11, 6, 5, 0, 3, 2]]
-        collections = baca.sequence.reveal(design[5:6], 1)
-        tuplets, tsd = library.make_graced_tuplets(collections)
+        collection = design[5][:1]
+        assert collection == [5]
+        tuplets, tsd = library.make_graced_tuplets([collection])
         baca.beam_positions(tuplets, 12)
         pleaves = baca.select.pleaves(tuplets)
         baca.stem_up(pleaves)
@@ -137,10 +132,9 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
 
     @baca.call
     def block():
-        collections = design[5:6]
-        assert collections == [[5, 11, 6, 2, 0, 3, 11, 6, 5, 0, 3, 2]]
-        collections = baca.sequence.reveal(design[5:6], 5)
-        tuplets, tsd = library.make_graced_tuplets(collections)
+        collection = design[5][:5]
+        assert collection == [5, 11, 6, 2, 0]
+        tuplets, tsd = library.make_graced_tuplets([collection])
         pleaves = baca.select.pleaves(tuplets)
         baca.stem_up(pleaves)
         baca.register(tuplets, 0)
@@ -168,10 +162,9 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
 
     @baca.call
     def block():
-        collections = design[5:6]
-        assert collections == [[5, 11, 6, 2, 0, 3, 11, 6, 5, 0, 3, 2]]
-        collections = baca.sequence.reveal(design[5:6], 3)
-        tuplets, tsd = library.make_graced_tuplets(collections)
+        collection = design[5][:3]
+        assert collection == [5, 11, 6]
+        tuplets, tsd = library.make_graced_tuplets([collection])
         pleaves = baca.select.pleaves(tuplets)
         baca.stem_up(pleaves)
         baca.register(tuplets, 0)
@@ -204,10 +197,9 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
 
     @baca.call
     def block():
-        collections = design[5:6]
-        assert collections == [[5, 11, 6, 2, 0, 3, 11, 6, 5, 0, 3, 2]]
-        collections = baca.sequence.reveal(design[5:6], 9)
-        tuplets, tsd = library.make_graced_tuplets(collections)
+        collection = design[5][:9]
+        assert collection == [5, 11, 6, 2, 0, 3, 11, 6, 5]
+        tuplets, tsd = library.make_graced_tuplets([collection])
         baca.beam_positions(tuplets, 6)
         pleaves = baca.select.pleaves(tuplets)
         baca.stem_up(pleaves)

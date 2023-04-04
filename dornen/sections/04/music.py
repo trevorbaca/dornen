@@ -41,10 +41,8 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         collection = design[2]
         assert collection == [7, 8, 2, 1]
         tuplet, tsd = library.make_glissando_scatto(collection)
-        baca.markup(
-            baca.select.pleaf(tuplet, 0),
-            r"\dornen-glissando-attack-first-note-only-markup",
-        )
+        leaf = baca.select.pleaf(tuplet, 0)
+        baca.markup(leaf, r"\dornen-glissando-attack-first-note-only-markup")
         baca.beam_positions(tuplet, -12)
         baca.register(tuplet, -8)
         baca.displacement(tuplet, [0, 1])
@@ -79,8 +77,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
 
     @baca.call
     def block():
-        container = abjad.Container("r8 r8 r8")
-        accumulator(library.v4, container, 8, "S1")
+        accumulator(library.v4, abjad.Container("r8 r8 r8"), 8, "S1")
 
     @baca.call
     def block():
@@ -160,16 +157,14 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
 
     @baca.call
     def block():
-        container = abjad.Container("r8 r8 r8")
-        accumulator(library.v4, container, 8, "S2")
+        accumulator(library.v4, abjad.Container("r8 r8 r8"), 8, "S2")
 
     @baca.call
     def block():
         collections = 2 * [["Gb2"]]
         tuplets, tsd = library.make_monads(collections)
-        baca.markup(
-            baca.select.pleaf(tuplets, 0), r"\dornen-two-finger-tamb-trill-markup"
-        )
+        leaf = baca.select.pleaf(tuplets, 0)
+        baca.markup(leaf, r"\dornen-two-finger-tamb-trill-markup")
         baca.repeat_tie(baca.select.phead(tuplets, 1))
         baca.stem_tremolo(baca.select.pleaves(tuplets))
         baca.stem_up(baca.select.pleaves(tuplets))

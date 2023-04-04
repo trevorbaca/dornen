@@ -66,7 +66,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         tuplets = library.make_running(collections)
         baca.register(tuplets, 0, -14)
         library.extend_beam(tuplets)
-        accumulator(library.v3, tuplets, None, "R1")
+        accumulator(library.v3, tuplets, "R1")
 
     @baca.call
     def block():
@@ -75,7 +75,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         tuplets = library.make_running(collections)
         baca.register(tuplets, -14, 0)
         library.extend_beam(tuplets)
-        accumulator(library.v3, tuplets, None, "R2")
+        accumulator(library.v3, tuplets, "R2")
 
     @baca.call
     def block():
@@ -103,7 +103,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         assert collections == [[7, 2, 1, 3], [6, 7, 8], [5, 9, 11, 10, 0, 6]]
         tuplets = library.make_running(collections)
         baca.register(tuplets, -14, 0)
-        accumulator(library.v3, tuplets, None, "R3")
+        accumulator(library.v3, tuplets, "R3")
 
     @baca.call
     def block():
@@ -147,7 +147,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         tuplets = library.make_running(collections)
         baca.register(tuplets, 0, -14)
         library.extend_beam(tuplets)
-        accumulator(library.v3, tuplets, None, "R4")
+        accumulator(library.v3, tuplets, "R4")
 
     @baca.call
     def block():
@@ -156,7 +156,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         tuplets = library.make_running(collections)
         baca.register(tuplets, -14, 0)
         library.extend_beam(tuplets)
-        accumulator(library.v3, tuplets, None, "R5")
+        accumulator(library.v3, tuplets, "R5")
 
     @baca.call
     def block():
@@ -185,7 +185,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         assert collections == [[8, 2, 1, 3, 6], [7, 2, 1, 3], [6, 7, 8]]
         tuplets = library.make_running(collections)
         baca.register(tuplets, -14, 0)
-        accumulator(library.v3, tuplets, None, "R6")
+        accumulator(library.v3, tuplets, "R6")
 
     rmakers.swap_trivial(score)
     return accumulator.time_signatures

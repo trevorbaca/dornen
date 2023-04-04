@@ -285,7 +285,13 @@ class Accumulator:
         self.figure_number = 1
         self.time_signatures = []
 
-    def __call__(self, voice_name, argument, tsd, figure_name=None):
+    def __call__(self, voice_name, argument, *others):
+        tsd, figure_name = None, None
+        for other in others:
+            if isinstance(other, int):
+                tsd = other
+            elif isinstance(other, str):
+                figure_name = other
         time_signature = make_time_signature(argument, tsd)
         self.time_signatures.append(time_signature)
         baca.label_figure(argument, figure_name, self)

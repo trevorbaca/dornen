@@ -20,7 +20,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         tuplet = library.make_ovoid(collection)
         baca.beam_positions(baca.select.pleaf(tuplet, 0), -7.5)
         baca.register(tuplet, -20, -8)
-        accumulator(library.v2, tuplet, None, "O1")
+        accumulator(library.v2, tuplet, "O1")
 
     @baca.call
     def block():
@@ -67,7 +67,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         tuplet = library.make_ovoid(collection)
         baca.beam_positions(baca.select.pleaf(tuplet, 0), -7.5)
         library.extend_beam(tuplet)
-        accumulator(library.v2, tuplet, None, "O2")
+        accumulator(library.v2, tuplet, "O2")
 
     @baca.call
     def block():
@@ -107,7 +107,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         collection = design[10]
         assert collection == [9, 3, 0, 2, 7, 10]
         tuplet = library.make_ovoid(collection)
-        accumulator(library.v2, tuplet, None, "O3")
+        accumulator(library.v2, tuplet, "O3")
 
     @baca.call
     def block():

@@ -45,7 +45,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         baca.beam_positions(pleaf, -8)
         baca.register(tuplet, -14, -6)
         library.extend_beam(tuplet)
-        accumulator(library.v2, tuplet, None, "O1")
+        accumulator(library.v2, tuplet, "O1")
 
     @baca.call
     def block():
@@ -86,7 +86,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         tuplet = library.make_ovoid(collection)
         baca.text_script_color(tuplet, "#red")
         baca.register(tuplet, -14, -6)
-        accumulator(library.v2, tuplet, None, "O2")
+        accumulator(library.v2, tuplet, "O2")
 
     @baca.call
     def block():
@@ -158,7 +158,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         baca.beam_positions(pleaf, -8)
         baca.register(tuplet, -14, -6)
         library.extend_beam(tuplet)
-        accumulator(library.v2, tuplet, None, "O1*")
+        accumulator(library.v2, tuplet, "O1*")
 
     @baca.call
     def block():
@@ -223,7 +223,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         tuplet = library.make_ovoid(collection)
         baca.text_script_color(tuplet, "#red")
         baca.register(tuplet, -14, -6)
-        accumulator(library.v2, tuplet, None, "O2*")
+        accumulator(library.v2, tuplet, "O2*")
 
     @baca.call
     def block():
@@ -249,7 +249,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         baca.beam_positions(pleaf, -8)
         baca.register(tuplet, -14, -6)
         library.extend_beam(tuplet)
-        accumulator(library.v2, tuplet, None, "O1**")
+        accumulator(library.v2, tuplet, "O1**")
 
     @baca.call
     def block():
@@ -290,7 +290,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         baca.text_script_color(tuplet, "#red")
         baca.register(tuplet, -14, -6)
         library.extend_beam(tuplet)
-        accumulator(library.v2, tuplet, None, "O2**")
+        accumulator(library.v2, tuplet, "O2**")
 
     @baca.call
     def block():
@@ -301,7 +301,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         collection = collections[0]
         tuplet = library.make_ovoid(collection)
         baca.register(tuplet, -14, -6)
-        accumulator(library.v2, tuplet, None, "O3")
+        accumulator(library.v2, tuplet, "O3")
 
     @baca.call
     def block():
@@ -315,7 +315,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         baca.beam_positions(pleaf, -8)
         baca.register(tuplet, -14, -6)
         library.extend_beam(tuplet)
-        accumulator(library.v2, tuplet, None, "O4")
+        accumulator(library.v2, tuplet, "O4")
 
     @baca.call
     def block():
@@ -325,7 +325,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         tuplet = library.make_ovoid(collections[0])
         baca.register(tuplet, -14, -6)
         library.extend_beam(tuplet)
-        accumulator(library.v2, tuplet, None, "O5")
+        accumulator(library.v2, tuplet, "O5")
 
     @baca.call
     def block():
@@ -335,7 +335,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         tuplet = library.make_ovoid(collections[0])
         baca.register(tuplet, -14, -6)
         library.extend_beam(tuplet)
-        accumulator(library.v2, tuplet, None, "O6")
+        accumulator(library.v2, tuplet, "O6")
 
     @baca.call
     def block():
@@ -344,7 +344,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         collections = abjad.sequence.join(design[15:17])
         tuplet = library.make_ovoid(collections[0])
         baca.register(tuplet, -14, -6)
-        accumulator(library.v2, tuplet, None, "O7")
+        accumulator(library.v2, tuplet, "O7")
 
     @baca.call
     def block():
@@ -356,7 +356,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         baca.beam_positions(pleaf, -8)
         baca.register(tuplet, -14, -6)
         library.extend_beam(tuplet)
-        accumulator(library.v2, tuplet, None, "O8")
+        accumulator(library.v2, tuplet, "O8")
 
     @baca.call
     def block():
@@ -390,7 +390,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         collections = abjad.sequence.join(design[19:21])
         tuplet = library.make_ovoid(collections[0])
         baca.register(tuplet, -14, -6)
-        accumulator(library.v2, tuplet, None, "O9")
+        accumulator(library.v2, tuplet, "O9")
 
     @baca.call
     def block():
@@ -398,7 +398,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         assert collection == [10]
         tuplet = library.make_ovoid(collection)
         baca.register(tuplet, -14, -6)
-        accumulator(library.v2, tuplet, None, "O10")
+        accumulator(library.v2, tuplet, "O10")
 
     rmakers.swap_trivial(score)
     return accumulator.time_signatures

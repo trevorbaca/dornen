@@ -18,9 +18,9 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
 
     @baca.call
     def block():
-        collections = design[:1]
-        assert collections == [[11, 7, 3, 4, 5, 10, 9, 1, 6]]
-        tuplets, tsd = library.make_waves(collections, denominator=64, inverted=True)
+        collection = design[0]
+        assert collection == [11, 7, 3, 4, 5, 10, 9, 1, 6]
+        tuplets, tsd = library.make_waves([collection], denominator=64, inverted=True)
         baca.register(tuplets, 0, -14)
         accumulator(library.v1, tuplets, tsd, "W1")
 
@@ -60,9 +60,8 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
 
     @baca.call
     def block():
-        collections = design[2:3]
-        assert collections == [[9, 1, 6, 10, 0, 11, 8]]
         collections = baca.sequence.boustrophedon(design[2:3], count=2)
+        assert collections == [[9, 1, 6, 10, 0, 11, 8], [11, 0, 10, 6, 1, 9]]
         tuplets, tsd = library.make_waves(collections, denominator=64, inverted=True)
         baca.beam_positions(tuplets, 7)
         baca.register(tuplets, 0, -14)
@@ -122,13 +121,13 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
 
     @baca.call
     def block():
-        collections = cell_d1[:3]
-        tuplets, tsd = library.make_delicatissimo(collections)
-        baca.beam_positions(tuplets, -6.5)
-        pleaves = baca.select.pleaves(tuplets)
+        collection = cell_d1[:3]
+        tuplet, tsd = library.make_delicatissimo(collection)
+        baca.beam_positions(tuplet, -6.5)
+        pleaves = baca.select.pleaves(tuplet)
         baca.stem_down(pleaves)
-        library.extend_beam(tuplets)
-        accumulator(library.v1, tuplets, tsd, "D1_2")
+        library.extend_beam(tuplet)
+        accumulator(library.v1, tuplet, tsd, "D1_2")
 
     @baca.call
     def block():
@@ -143,11 +142,11 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
 
     @baca.call
     def block():
-        collections = cell_d1[:10]
-        tuplets, tsd = library.make_delicatissimo(collections)
-        baca.beam_positions(tuplets, -6.5)
-        baca.stem_down(tuplets)
-        accumulator(library.v1, tuplets, tsd, "D1_3")
+        collection = cell_d1[:10]
+        tuplet, tsd = library.make_delicatissimo(collection)
+        baca.beam_positions(tuplet, -6.5)
+        baca.stem_down(tuplet)
+        accumulator(library.v1, tuplet, tsd, "D1_3")
 
     @baca.call
     def block():
@@ -173,12 +172,9 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
 
     @baca.call
     def block():
-        collections = design[2:3]
-        assert collections == [[9, 1, 6, 10, 0, 11, 8]]
-        collections = [
-            abjad.sequence.flatten(baca.sequence.boustrophedon(design[2:3], count=2))
-        ]
-        tuplets, tsd = library.make_waves(collections, denominator=64)
+        collections = baca.sequence.boustrophedon(design[2:3], count=2)
+        collection = abjad.sequence.flatten(collections)
+        tuplets, tsd = library.make_waves([collection], denominator=64)
         baca.beam_positions(tuplets, 7)
         pleaves = baca.select.pleaves(tuplets)
         baca.stem_up(pleaves)
@@ -187,13 +183,13 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
 
     @baca.call
     def block():
-        collections = cell_d1[:15]
-        tuplets, tsd = library.make_delicatissimo(collections)
-        baca.beam_positions(tuplets, -6.5)
-        pleaves = baca.select.pleaves(tuplets)
+        collection = cell_d1[:15]
+        tuplet, tsd = library.make_delicatissimo(collection)
+        baca.beam_positions(tuplet, -6.5)
+        pleaves = baca.select.pleaves(tuplet)
         baca.stem_down(pleaves)
-        library.extend_beam(tuplets)
-        accumulator(library.v1, tuplets, tsd, "D1_4")
+        library.extend_beam(tuplet)
+        accumulator(library.v1, tuplet, tsd, "D1_4")
 
     @baca.call
     def block():
@@ -209,12 +205,12 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
 
     @baca.call
     def block():
-        collections = cell_d1[:6]
-        tuplets, tsd = library.make_delicatissimo(collections)
-        baca.beam_positions(tuplets, -6.5)
-        pleaves = baca.select.pleaves(tuplets)
+        collection = cell_d1[:6]
+        tuplet, tsd = library.make_delicatissimo(collection)
+        baca.beam_positions(tuplet, -6.5)
+        pleaves = baca.select.pleaves(tuplet)
         baca.stem_down(pleaves)
-        accumulator(library.v1, tuplets, tsd, "D1_5")
+        accumulator(library.v1, tuplet, tsd, "D1_5")
 
     @baca.call
     def block():
@@ -227,12 +223,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
 
     @baca.call
     def block():
-        collections = design[5:6]
-        assert collections == [[5, 11, 6, 2, 0, 3, 11, 6, 5, 0, 3, 2]]
-        collections = [
-            list(_)
-            for _ in abjad.sequence.flatten(abjad.sequence.repeat(design[5:6], n=2))
-        ]
+        collections = 2 * design[5:6]
         tuplets, tsd = library.make_graced_tuplets(collections)
         baca.beam_positions(tuplets, 6)
         pleaves = baca.select.pleaves(tuplets)
@@ -253,12 +244,12 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
 
     @baca.call
     def block():
-        collections = cell_d1[:10]
-        tuplets, tsd = library.make_delicatissimo(collections)
-        baca.beam_positions(tuplets, -6.5)
-        pleaves = baca.select.pleaves(tuplets)
+        collection = cell_d1[:10]
+        tuplet, tsd = library.make_delicatissimo(collection)
+        baca.beam_positions(tuplet, -6.5)
+        pleaves = baca.select.pleaves(tuplet)
         baca.stem_down(pleaves)
-        accumulator(library.v1, tuplets, tsd, "D1_6")
+        accumulator(library.v1, tuplet, tsd, "D1_6")
 
     @baca.call
     def block():
@@ -294,22 +285,14 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
 
     @baca.call
     def block():
-        collections = design[7:9]
-        assert collections == [[6], [10, 11, 5]]
-        collections = abjad.sequence.join(design[7:9])
-        assert len(collections) == 1
-        collection = collections[0]
+        collection = abjad.sequence.flatten(design[7:9])
         tuplet = library.make_ovoid(collection)
         baca.register(tuplet, -14, -6)
         accumulator(library.v2, tuplet, "O3")
 
     @baca.call
     def block():
-        collections = design[9:11]
-        assert collections == [[7], [3, 2, 4]]
-        collections = abjad.sequence.join(design[9:11])
-        assert len(collections) == 1
-        collection = collections[0]
+        collection = abjad.sequence.flatten(design[9:11])
         tuplet = library.make_ovoid(collection)
         pleaf = baca.select.pleaf(tuplet, 0)
         baca.beam_positions(pleaf, -8)
@@ -319,39 +302,31 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
 
     @baca.call
     def block():
-        collections = design[11:13]
-        assert collections == [[8], [9, 1, 7]]
-        collections = abjad.sequence.join(design[11:13])
-        tuplet = library.make_ovoid(collections[0])
+        collection = abjad.sequence.flatten(design[11:13])
+        tuplet = library.make_ovoid(collection)
         baca.register(tuplet, -14, -6)
         library.extend_beam(tuplet)
         accumulator(library.v2, tuplet, "O5")
 
     @baca.call
     def block():
-        collections = design[13:15]
-        assert collections == [[3], [2, 5, 8]]
-        collections = abjad.sequence.join(design[13:15])
-        tuplet = library.make_ovoid(collections[0])
+        collection = abjad.sequence.flatten(design[13:15])
+        tuplet = library.make_ovoid(collection)
         baca.register(tuplet, -14, -6)
         library.extend_beam(tuplet)
         accumulator(library.v2, tuplet, "O6")
 
     @baca.call
     def block():
-        collections = design[15:17]
-        assert collections == [[9], [1, 4, 10]]
-        collections = abjad.sequence.join(design[15:17])
-        tuplet = library.make_ovoid(collections[0])
+        collection = abjad.sequence.flatten(design[15:17])
+        tuplet = library.make_ovoid(collection)
         baca.register(tuplet, -14, -6)
         accumulator(library.v2, tuplet, "O7")
 
     @baca.call
     def block():
-        collections = design[17:19]
-        assert collections == [[11], [6, 9, 1]]
-        collections = abjad.sequence.join(design[17:19])
-        tuplet = library.make_ovoid(collections[0])
+        collection = abjad.sequence.flatten(design[17:19])
+        tuplet = library.make_ovoid(collection)
         pleaf = baca.select.pleaf(tuplet, 0)
         baca.beam_positions(pleaf, -8)
         baca.register(tuplet, -14, -6)
@@ -360,12 +335,9 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
 
     @baca.call
     def block():
-        collections = design[2:3]
-        assert collections == [[9, 1, 6, 10, 0, 11, 8]]
-        collections = [
-            abjad.sequence.flatten(baca.sequence.boustrophedon(design[2:3], count=2))
-        ]
-        tuplets, tsd = library.make_waves(collections, denominator=64)
+        collections = baca.sequence.boustrophedon(design[2:3], count=2)
+        collection = abjad.sequence.flatten(collections)
+        tuplets, tsd = library.make_waves([collection], denominator=64)
         baca.beam_positions(tuplets, 7)
         pleaves = baca.select.pleaves(tuplets)
         baca.stem_up(pleaves)
@@ -385,10 +357,8 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
 
     @baca.call
     def block():
-        collections = design[19:21]
-        assert collections == [[4], [8, 11, 6]]
-        collections = abjad.sequence.join(design[19:21])
-        tuplet = library.make_ovoid(collections[0])
+        collection = abjad.sequence.flatten(design[19:21])
+        tuplet = library.make_ovoid(collection)
         baca.register(tuplet, -14, -6)
         accumulator(library.v2, tuplet, "O9")
 

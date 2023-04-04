@@ -31,9 +31,9 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
     @baca.call
     def block():
         collections = design[:2]
-        assert collections == [[5, 9, 11, 10, 0, 6], [7, 8, 2, 1, 3]]
-        collections = [abjad.sequence.flatten(design[:2])]
-        tuplets, tsd = library.make_waves(collections, denominator=64)
+        collection = abjad.sequence.flatten(collections)
+        assert collection == [5, 9, 11, 10, 0, 6, 7, 8, 2, 1, 3]
+        tuplets, tsd = library.make_waves([collection], denominator=64)
         accumulator(library.v1, tuplets, tsd, "W3")
 
     @baca.call
@@ -79,8 +79,8 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
 
     @baca.call
     def block():
-        tuplets, tsd = library.make_rests(3, (1, 8))
-        accumulator(library.v4, tuplets, tsd, "S1")
+        container = abjad.Container("r8 r8 r8")
+        accumulator(library.v4, container, 8, "S1")
 
     @baca.call
     def block():
@@ -160,8 +160,8 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
 
     @baca.call
     def block():
-        tuplets, tsd = library.make_rests(3, (1, 8))
-        accumulator(library.v4, tuplets, tsd, "S2")
+        container = abjad.Container("r8 r8 r8")
+        accumulator(library.v4, container, 8, "S2")
 
     @baca.call
     def block():

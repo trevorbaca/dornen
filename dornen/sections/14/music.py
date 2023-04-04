@@ -334,8 +334,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
 
     @baca.call
     def block():
-        tuplets, tsd = library.make_rests(5, (1, 8))
-        accumulator(library.v1, tuplets, tsd)
+        accumulator(library.v1, abjad.Container("r8 r8 r8 r8 r8"), 8)
 
     @baca.call
     def block():

@@ -93,9 +93,9 @@ def populate_score(score):
 
     @baca.call
     def block():
-        collection = design[8:10]
-        assert collection == [[8, 0, 5, 9], [3, 4, 6, 2]]
-        tuplets = library.make_running(collection)
+        collections = design[8:10]
+        assert collections == [[8, 0, 5, 9], [3, 4, 6, 2]]
+        tuplets = library.make_running(collections)
         baca.register(tuplets, -12)
         accumulator(library.v4, tuplets, "R_1")
 
@@ -109,12 +109,12 @@ def populate_score(score):
 
     @baca.call
     def block():
-        collection = design[11:13]
-        assert collection == [
+        collections = design[11:13]
+        assert collections == [
             [11, 10, 7],
             [1, 0, 10, 5, 8, 6, 11, 2, 4, 3, 9, 8, 6, 11, 2, 5],
         ]
-        tuplets = library.make_running(collection)
+        tuplets = library.make_running(collections)
         baca.register(tuplets, -6)
         accumulator(library.v4, tuplets, "R_2")
 
@@ -167,9 +167,9 @@ def populate_score(score):
 
     @baca.call
     def block():
-        collection = design[18:20]
-        assert collection == [[9, 1, 6, 10, 0, 11, 8], [1, 6, 10, 9]]
-        tuplets = library.make_running(collection)
+        collections = design[18:20]
+        assert collections == [[9, 1, 6, 10, 0, 11, 8], [1, 6, 10, 9]]
+        tuplets = library.make_running(collections)
         baca.register(tuplets, -12, 0)
         accumulator(library.v4, tuplets, "R_3")
 

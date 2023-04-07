@@ -206,12 +206,12 @@ number.4.Skips = {
     %@% \bacaStartTextSpanMN
 
     % [Skips measure 9]
+      %! EXPLICIT_TIME_SIGNATURE_COLOR
+    \baca-time-signature-color #'blue
       %! EXPLICIT_TIME_SIGNATURE
     #(ly:expect-warning "strange time signature found")
       %! EXPLICIT_TIME_SIGNATURE
     \time 4/5
-      %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
     s1 * 4/5
       %! CLOCK_TIME
     %@% \bacaStopTextSpanCT
@@ -433,12 +433,12 @@ number.4.Skips = {
     %@% \bacaStartTextSpanMN
 
     % [Skips measure 18]
+      %! EXPLICIT_TIME_SIGNATURE_COLOR
+    \baca-time-signature-color #'blue
       %! EXPLICIT_TIME_SIGNATURE
     #(ly:expect-warning "strange time signature found")
       %! EXPLICIT_TIME_SIGNATURE
     \time 4/5
-      %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
     s1 * 4/5
       %! CLOCK_TIME
     %@% \bacaStopTextSpanCT
@@ -582,16 +582,16 @@ number.4.Guitar.Music.1 = {
     {
 
         % [Guitar.Music.1 measure 1]
-        \override Beam.positions = #'(9 . 9)
-        \once \override Beam.grow-direction = #right
-          %! REAPPLIED_CLEF
-        \clef "treble"
           %! REAPPLIED_CLEF_COLOR
         \once \override Staff.Clef.color = #(x11-color 'green4)
+        \override Beam.positions = #'(9 . 9)
           %! REAPPLIED_CLEF_COLOR_CANCELLATION
         %@% \override Staff.Clef.color = ##f
           %! REAPPLIED_CLEF
         \set Staff.forceClef = ##t
+        \once \override Beam.grow-direction = #right
+          %! REAPPLIED_CLEF
+        \clef "treble"
         f32 * 1984/1024
           %! FIGURE_LABEL
         %@% - \tweak color #blue

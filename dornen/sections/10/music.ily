@@ -35,12 +35,12 @@ number.10.Skips = {
     %@% \bacaStartTextSpanMN
 
     % [Skips measure 2]
+      %! EXPLICIT_TIME_SIGNATURE_COLOR
+    \baca-time-signature-color #'blue
       %! EXPLICIT_TIME_SIGNATURE
     #(ly:expect-warning "strange time signature found")
       %! EXPLICIT_TIME_SIGNATURE
     \time 4/5
-      %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
     s1 * 4/5
       %! CLOCK_TIME
     %@% \bacaStopTextSpanCT
@@ -62,12 +62,12 @@ number.10.Skips = {
     %@% \bacaStartTextSpanMN
 
     % [Skips measure 3]
+      %! EXPLICIT_TIME_SIGNATURE_COLOR
+    \baca-time-signature-color #'blue
       %! EXPLICIT_TIME_SIGNATURE
     #(ly:expect-warning "strange time signature found")
       %! EXPLICIT_TIME_SIGNATURE
     \time 2/5
-      %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
     s1 * 2/5
       %! CLOCK_TIME
     %@% \bacaStopTextSpanCT
@@ -89,12 +89,12 @@ number.10.Skips = {
     %@% \bacaStartTextSpanMN
 
     % [Skips measure 4]
+      %! EXPLICIT_TIME_SIGNATURE_COLOR
+    \baca-time-signature-color #'blue
       %! EXPLICIT_TIME_SIGNATURE
     #(ly:expect-warning "strange time signature found")
       %! EXPLICIT_TIME_SIGNATURE
     \time 1/3
-      %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
     s1 * 1/3
       %! CLOCK_TIME
     %@% \bacaStopTextSpanCT
@@ -158,12 +158,12 @@ number.10.Skips = {
     %@% \bacaStartTextSpanMN
 
     % [Skips measure 7]
+      %! EXPLICIT_TIME_SIGNATURE_COLOR
+    \baca-time-signature-color #'blue
       %! EXPLICIT_TIME_SIGNATURE
     #(ly:expect-warning "strange time signature found")
       %! EXPLICIT_TIME_SIGNATURE
     \time 2/5
-      %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
     s1 * 2/5
       %! CLOCK_TIME
     %@% \bacaStopTextSpanCT
@@ -206,12 +206,12 @@ number.10.Skips = {
     %@% \bacaStartTextSpanMN
 
     % [Skips measure 9]
+      %! EXPLICIT_TIME_SIGNATURE_COLOR
+    \baca-time-signature-color #'blue
       %! EXPLICIT_TIME_SIGNATURE
     #(ly:expect-warning "strange time signature found")
       %! EXPLICIT_TIME_SIGNATURE
     \time 1/3
-      %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
     s1 * 1/3
       %! CLOCK_TIME
     %@% \bacaStopTextSpanCT
@@ -275,12 +275,12 @@ number.10.Skips = {
     %@% \bacaStartTextSpanMN
 
     % [Skips measure 12]
+      %! EXPLICIT_TIME_SIGNATURE_COLOR
+    \baca-time-signature-color #'blue
       %! EXPLICIT_TIME_SIGNATURE
     #(ly:expect-warning "strange time signature found")
       %! EXPLICIT_TIME_SIGNATURE
     \time 2/5
-      %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
     s1 * 2/5
       %! CLOCK_TIME
     %@% \bacaStopTextSpanCT
@@ -323,12 +323,12 @@ number.10.Skips = {
     %@% \bacaStartTextSpanMN
 
     % [Skips measure 14]
+      %! EXPLICIT_TIME_SIGNATURE_COLOR
+    \baca-time-signature-color #'blue
       %! EXPLICIT_TIME_SIGNATURE
     #(ly:expect-warning "strange time signature found")
       %! EXPLICIT_TIME_SIGNATURE
     \time 1/3
-      %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
     s1 * 1/3
       %! CLOCK_TIME
     %@% \bacaStopTextSpanCT
@@ -350,12 +350,12 @@ number.10.Skips = {
     %@% \bacaStartTextSpanMN
 
     % [Skips measure 15]
+      %! EXPLICIT_TIME_SIGNATURE_COLOR
+    \baca-time-signature-color #'blue
       %! EXPLICIT_TIME_SIGNATURE
     #(ly:expect-warning "strange time signature found")
       %! EXPLICIT_TIME_SIGNATURE
     \time 2/5
-      %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
     s1 * 2/5
       %! CLOCK_TIME
     %@% \bacaStopTextSpanCT
@@ -377,12 +377,12 @@ number.10.Skips = {
     %@% \bacaStartTextSpanMN
 
     % [Skips measure 16]
+      %! EXPLICIT_TIME_SIGNATURE_COLOR
+    \baca-time-signature-color #'blue
       %! EXPLICIT_TIME_SIGNATURE
     #(ly:expect-warning "strange time signature found")
       %! EXPLICIT_TIME_SIGNATURE
     \time 1/3
-      %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
     s1 * 1/3
       %! CLOCK_TIME
     %@% \bacaStopTextSpanCT
@@ -404,12 +404,12 @@ number.10.Skips = {
     %@% \bacaStartTextSpanMN
 
     % [Skips measure 17]
+      %! EXPLICIT_TIME_SIGNATURE_COLOR
+    \baca-time-signature-color #'blue
       %! EXPLICIT_TIME_SIGNATURE
     #(ly:expect-warning "strange time signature found")
       %! EXPLICIT_TIME_SIGNATURE
     \time 2/5
-      %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
     s1 * 2/5
       %! CLOCK_TIME
     %@% \bacaStopTextSpanCT
@@ -431,12 +431,12 @@ number.10.Skips = {
     %@% \bacaStartTextSpanMN
 
     % [Skips measure 18]
+      %! EXPLICIT_TIME_SIGNATURE_COLOR
+    \baca-time-signature-color #'blue
       %! EXPLICIT_TIME_SIGNATURE
     #(ly:expect-warning "strange time signature found")
       %! EXPLICIT_TIME_SIGNATURE
     \time 1/3
-      %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
     s1 * 1/3
       %! CLOCK_TIME
     %@% \bacaStopTextSpanCT
@@ -500,12 +500,12 @@ number.10.Skips = {
     %@% \bacaStartTextSpanMN
 
     % [Skips measure 21]
+      %! EXPLICIT_TIME_SIGNATURE_COLOR
+    \baca-time-signature-color #'blue
       %! EXPLICIT_TIME_SIGNATURE
     #(ly:expect-warning "strange time signature found")
       %! EXPLICIT_TIME_SIGNATURE
     \time 4/5
-      %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
     s1 * 4/5
       %! CLOCK_TIME
     %@% \bacaStopTextSpanCT
@@ -652,15 +652,15 @@ number.10.Guitar.Music.1 = {
     {
 
         % [Guitar.Music.1 measure 1]
-        \override TextScript.staff-padding = 5
-          %! REAPPLIED_CLEF
-        \clef "treble"
           %! REAPPLIED_CLEF_COLOR
         \once \override Staff.Clef.color = #(x11-color 'green4)
           %! REAPPLIED_CLEF_COLOR_CANCELLATION
         %@% \override Staff.Clef.color = ##f
+        \override TextScript.staff-padding = 5
           %! REAPPLIED_CLEF
         \set Staff.forceClef = ##t
+          %! REAPPLIED_CLEF
+        \clef "treble"
         r8
           %! FIGURE_LABEL
         %@% - \tweak color #blue

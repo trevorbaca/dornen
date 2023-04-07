@@ -35,12 +35,12 @@ number.2.Skips = {
     %@% \bacaStartTextSpanMN
 
     % [Skips measure 2]
+      %! EXPLICIT_TIME_SIGNATURE_COLOR
+    \baca-time-signature-color #'blue
       %! EXPLICIT_TIME_SIGNATURE
     #(ly:expect-warning "strange time signature found")
       %! EXPLICIT_TIME_SIGNATURE
     \time 1/20
-      %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
     s1 * 1/20
       %! CLOCK_TIME
     %@% \bacaStopTextSpanCT
@@ -87,12 +87,12 @@ number.2.Skips = {
     %@% \bacaStartTextSpanMN
 
     % [Skips measure 4]
+      %! EXPLICIT_TIME_SIGNATURE_COLOR
+    \baca-time-signature-color #'blue
       %! EXPLICIT_TIME_SIGNATURE
     #(ly:expect-warning "strange time signature found")
       %! EXPLICIT_TIME_SIGNATURE
     \time 2/20
-      %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
     s1 * 2/20
       %! CLOCK_TIME
     %@% \bacaStopTextSpanCT
@@ -139,12 +139,12 @@ number.2.Skips = {
     %@% \bacaStartTextSpanMN
 
     % [Skips measure 6]
+      %! EXPLICIT_TIME_SIGNATURE_COLOR
+    \baca-time-signature-color #'blue
       %! EXPLICIT_TIME_SIGNATURE
     #(ly:expect-warning "strange time signature found")
       %! EXPLICIT_TIME_SIGNATURE
     \time 3/20
-      %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
     s1 * 3/20
       %! CLOCK_TIME
     %@% \bacaStopTextSpanCT
@@ -191,12 +191,12 @@ number.2.Skips = {
     %@% \bacaStartTextSpanMN
 
     % [Skips measure 8]
+      %! EXPLICIT_TIME_SIGNATURE_COLOR
+    \baca-time-signature-color #'blue
       %! EXPLICIT_TIME_SIGNATURE
     #(ly:expect-warning "strange time signature found")
       %! EXPLICIT_TIME_SIGNATURE
     \time 4/20
-      %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
     s1 * 4/20
       %! CLOCK_TIME
     %@% \bacaStopTextSpanCT
@@ -243,12 +243,12 @@ number.2.Skips = {
     %@% \bacaStartTextSpanMN
 
     % [Skips measure 10]
+      %! EXPLICIT_TIME_SIGNATURE_COLOR
+    \baca-time-signature-color #'blue
       %! EXPLICIT_TIME_SIGNATURE
     #(ly:expect-warning "strange time signature found")
       %! EXPLICIT_TIME_SIGNATURE
     \time 5/20
-      %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
     s1 * 5/20
       %! CLOCK_TIME
     %@% \bacaStopTextSpanCT
@@ -295,12 +295,12 @@ number.2.Skips = {
     %@% \bacaStartTextSpanMN
 
     % [Skips measure 12]
+      %! EXPLICIT_TIME_SIGNATURE_COLOR
+    \baca-time-signature-color #'blue
       %! EXPLICIT_TIME_SIGNATURE
     #(ly:expect-warning "strange time signature found")
       %! EXPLICIT_TIME_SIGNATURE
     \time 1/20
-      %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
     s1 * 1/20
       %! CLOCK_TIME
     %@% \bacaStopTextSpanCT
@@ -347,12 +347,12 @@ number.2.Skips = {
     %@% \bacaStartTextSpanMN
 
     % [Skips measure 14]
+      %! EXPLICIT_TIME_SIGNATURE_COLOR
+    \baca-time-signature-color #'blue
       %! EXPLICIT_TIME_SIGNATURE
     #(ly:expect-warning "strange time signature found")
       %! EXPLICIT_TIME_SIGNATURE
     \time 2/20
-      %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #'blue
     s1 * 2/20
       %! CLOCK_TIME
     %@% \bacaStopTextSpanCT
@@ -484,16 +484,16 @@ number.2.Guitar.Music.1 = {
     {
 
         % [Guitar.Music.1 measure 1]
-        \override Beam.positions = #'(8 . 8)
-        \once \override Beam.grow-direction = #left
-          %! REAPPLIED_CLEF
-        \clef "treble"
           %! REAPPLIED_CLEF_COLOR
         \once \override Staff.Clef.color = #(x11-color 'green4)
+        \override Beam.positions = #'(8 . 8)
           %! REAPPLIED_CLEF_COLOR_CANCELLATION
         %@% \override Staff.Clef.color = ##f
           %! REAPPLIED_CLEF
         \set Staff.forceClef = ##t
+        \once \override Beam.grow-direction = #left
+          %! REAPPLIED_CLEF
+        \clef "treble"
         cs''!64 * 448/1024
           %! FIGURE_LABEL
         %@% - \tweak color #blue

@@ -627,8 +627,8 @@ instruments = {"Guitar": abjad.Guitar(pitch_range=abjad.PitchRange("[E2, F5]"))}
 
 
 metronome_marks = {
-    "44": abjad.MetronomeMark((1, 8), 44),
-    "66": abjad.MetronomeMark((1, 8), 66),
+    "44": abjad.MetronomeMark(abjad.Duration(1, 8), 44),
+    "66": abjad.MetronomeMark(abjad.Duration(1, 8), 66),
 }
 
 

@@ -340,6 +340,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
     def block():
         collection = 13 * ["E2"]
         tuplet, tsd = library.make_thirds(collection)
+        accumulator(library.v1, tuplet, tsd)
         baca.dynamic(baca.select.phead(tuplet, 0), "p")
         baca.markup(
             baca.select.pleaf(tuplet, 0),
@@ -350,7 +351,6 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         for qrun in baca.select.qruns(tuplet):
             baca.repeat_tie(qrun[1:])
         baca.stem_tremolo(baca.select.pleaves(tuplet))
-        accumulator(library.v1, tuplet, tsd)
 
     rmakers.swap_trivial(score)
     return accumulator.time_signatures

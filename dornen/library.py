@@ -478,9 +478,12 @@ def make_forty_eighths(collection):
 def make_glissando_scatto(collection):
     _assert_is_collection(collection)
     tuplet = baca.from_collection(collection, [2, 2, 2, 1, 2, 2, 2], 32, -2)
+    voice = abjad.Voice([tuplet])
     rmakers.beam_groups([tuplet])
     for ntrun in baca.select.ntruns(tuplet):
         baca.glissando(ntrun)
+    tuplets = abjad.mutate.eject_contents(voice)
+    tuplet = tuplets[0]
     return tuplet, 16
 
 

@@ -83,6 +83,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
     def block():
         collections = 2 * [["Gb2"]]
         tuplets, tsd = library.make_monads(collections)
+        accumulator(library.v4, tuplets, tsd, "T1")
         pleaf = baca.select.pleaf(tuplets, 0)
         baca.markup(pleaf, r"\dornen-two-finger-tamb-trill-markup")
         baca.repeat_tie(baca.select.phead(tuplets, 1))
@@ -92,7 +93,6 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         baca.tuplet_bracket_extra_offset(abjad.select.leaf(tuplets, 0), (0, -0.5))
         baca.tuplet_number_extra_offset(abjad.select.leaf(tuplets, 0), (0, -0.5))
         baca.register(tuplets, -20)
-        accumulator(library.v4, tuplets, tsd, "T1")
 
     @baca.call
     def block():
@@ -163,6 +163,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
     def block():
         collections = 2 * [["Gb2"]]
         tuplets, tsd = library.make_monads(collections)
+        accumulator(library.v4, tuplets, tsd, "T2")
         leaf = baca.select.pleaf(tuplets, 0)
         baca.markup(leaf, r"\dornen-two-finger-tamb-trill-markup")
         baca.repeat_tie(baca.select.phead(tuplets, 1))
@@ -172,7 +173,6 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         baca.tuplet_bracket_extra_offset(abjad.select.leaf(tuplets, 0), (0, -0.5))
         baca.tuplet_number_extra_offset(abjad.select.leaf(tuplets, 0), (0, -0.5))
         baca.register(tuplets, -20)
-        accumulator(library.v4, tuplets, tsd, "T2")
 
     @baca.call
     def block():

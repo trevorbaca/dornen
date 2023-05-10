@@ -409,16 +409,20 @@ def extend_beam(components):
 def make_delicatissimo(collection):
     _assert_is_collection(collection)
     tuplet = baca.from_collection(collection, [1], 32)
+    voice = abjad.Voice([tuplet], name="Temporary")
     rmakers.beam_groups([tuplet])
     pheads = baca.select.pheads(tuplet)
     baca.staccato(pheads)
+    voice[:] = []
     return tuplet, 32
 
 
 def make_dotted_eighths(collection):
     _assert_is_collection(collection)
     tuplet = baca.from_collection(collection, [3], 16)
+    voice = abjad.Voice([tuplet], name="Temporary")
     rmakers.beam([tuplet], beam_lone_notes=True)
+    voice[:] = []
     return tuplet, 8
 
 
@@ -471,7 +475,9 @@ def make_empty_score():
 def make_forty_eighths(collection):
     _assert_is_collection(collection)
     tuplet = baca.from_collection(collection, [3], 64)
+    voice = abjad.Voice([tuplet], name="Temporary")
     rmakers.beam([tuplet])
+    voice[:] = []
     return tuplet, 32
 
 
@@ -489,7 +495,7 @@ def make_glissando_scatto(collection):
 
 def make_graced_tuplets(collections):
     _assert_are_collections(collections)
-    tuplets = []
+    tuplets = abjad.Voice(name="Temporary")
     lmr = baca.LMR(left_length=1, right_counts=[2], right_cyclic=True)
     all_bgcs = []
     for i, collection in enumerate(collections):
@@ -505,6 +511,7 @@ def make_graced_tuplets(collections):
     rmakers.beam(all_bgcs)
     groups = [abjad.select.leaves(_, grace=False) for _ in tuplets]
     rmakers.beam_groups(groups, beam_lone_notes=True)
+    tuplets = abjad.mutate.eject_contents(tuplets)
     return tuplets, 14
 
 
@@ -517,21 +524,25 @@ def make_monads(collections):
 def make_ovoid(collection):
     _assert_is_collection(collection)
     bgcs, collection = baca.make_bgcs(collection, baca.LMR(left_length=1))
-    rmakers.beam(bgcs)
     tuplet = baca.from_collection(collection, [6, 1], 32)
+    voice = abjad.Voice([tuplet], name="Temporary")
     baca.attach_bgcs(bgcs, tuplet)
     group = abjad.select.leaves(tuplet, grace=False)
     rmakers.beam_groups([group])
+    rmakers.beam(bgcs)
+    voice[:] = []
     return tuplet
 
 
 def make_passepied(collection):
     _assert_is_collection(collection)
     bgcs, collection = baca.make_bgcs(collection, baca.LMR())
-    rmakers.beam(bgcs)
     tuplet = baca.from_collection(collection, [1], 32)
+    voice = abjad.Voice([tuplet], name="Temporary")
     rmakers.beam_groups([tuplet], beam_lone_notes=True)
     baca.attach_bgcs(bgcs, tuplet)
+    rmakers.beam(bgcs)
+    voice[:] = []
     return tuplet, None
 
 
@@ -540,25 +551,32 @@ def make_running(collections):
     tuplets = []
     for collection in collections:
         tuplet = baca.from_collection(collection, [1], 64, -1)
+        tuplets.append(tuplet)
+    voice = abjad.Voice(tuplets, name="Temporary")
+    rmakers.beam_groups(tuplets)
+    for tuplet in tuplets:
         if 1 < len(tuplet):
             baca.slur(tuplet)
-        tuplets.append(tuplet)
-    rmakers.beam_groups(tuplets)
+    voice[:] = []
     return tuplets
 
 
 def make_sixteenths(collection):
     _assert_is_collection(collection)
     tuplet = baca.from_collection(collection, [1], 16)
+    voice = abjad.Voice([tuplet], name="Temporary")
     rmakers.beam([tuplet], beam_lone_notes=True)
+    voice[:] = []
     return tuplet, 16
 
 
 def make_sixty_fourths(collections):
     _assert_are_collections(collections)
     tuplets = [baca.from_collection(_, [1], 64) for _ in collections]
+    voice = abjad.Voice(tuplets, name="Temporary")
     rmakers.beam_groups(tuplets)
     baca.staccato(baca.select.pheads(tuplets))
+    voice[:] = []
     return tuplets, 64
 
 
@@ -571,7 +589,9 @@ def make_thirds(collection):
 def make_thirty_seconds(collection):
     _assert_is_collection(collection)
     tuplet = baca.from_collection(collection, [1], 32)
+    voice = abjad.Voice([tuplet], name="Temporary")
     rmakers.beam_groups([tuplet])
+    voice[:] = []
     return tuplet, 32
 
 
@@ -588,21 +608,27 @@ def make_time_signature(tuplets, tsd):
 def make_twentieths(collection):
     _assert_is_collection(collection)
     tuplet = baca.from_collection(collection, [1], 16, "5:4")
+    voice = abjad.Voice([tuplet], name="Temporary")
     rmakers.beam([tuplet], beam_lone_notes=True)
+    voice[:] = []
     return tuplet, 20
 
 
 def make_twenty_eighths(collection):
     _assert_is_collection(collection)
     tuplet = baca.from_collection(collection, [1], 16, "7:4")
+    voice = abjad.Voice([tuplet], name="Temporary")
     rmakers.beam([tuplet])
+    voice[:] = []
     return tuplet, 28
 
 
 def make_twenty_fourths(collection):
     _assert_is_collection(collection)
     tuplet = baca.from_collection(collection, [1], 16, "3:2")
+    voice = abjad.Voice([tuplet], name="Temporary")
     rmakers.beam([tuplet], beam_lone_notes=True)
+    voice[:] = []
     return tuplet, 24
 
 
@@ -610,20 +636,22 @@ def make_waves(collections, denominator=64, *, inverted=False):
     _assert_are_collections(collections)
     assert abjad.math.is_positive_integer_power_of_two(denominator)
     assert 16 <= denominator, repr(denominator)
-    tuplets = []
+    voice = abjad.Voice(name="Temporary")
     for i, collection in enumerate(collections):
         if inverted:
             i += 1
         if len(collection) == 1:
             container = baca.from_collection(collection, [1], denominator)
+            voice.append(container)
         else:
             container = baca.from_collection(collection, [1], denominator)
+            voice.append(container)
             if i % 2 == 0:
                 baca.style_accelerando(container)
             else:
                 baca.style_ritardando(container)
-        tuplets.append(container)
-    rmakers.beam(tuplets)
+    rmakers.beam(voice)
+    tuplets = abjad.mutate.eject_contents(voice)
     return tuplets, denominator
 
 

@@ -491,8 +491,10 @@ def make_graced_tuplets(collections):
     _assert_are_collections(collections)
     tuplets = []
     lmr = baca.LMR(left_length=1, right_counts=[2], right_cyclic=True)
+    all_bgcs = []
     for i, collection in enumerate(collections):
         bgcs, collection = baca.make_bgcs(collection, lmr)
+        all_bgcs.extend(bgcs)
         if i % 2 == 0:
             ratio = "7:8"
         else:
@@ -500,6 +502,7 @@ def make_graced_tuplets(collections):
         tuplet = baca.from_collection(collection, [1], 16, ratio)
         baca.attach_bgcs(bgcs, tuplet)
         tuplets.append(tuplet)
+    rmakers.beam(all_bgcs)
     groups = [abjad.select.leaves(_, grace=False) for _ in tuplets]
     rmakers.beam_groups(groups, beam_lone_notes=True)
     return tuplets, 14
@@ -514,6 +517,7 @@ def make_monads(collections):
 def make_ovoid(collection):
     _assert_is_collection(collection)
     bgcs, collection = baca.make_bgcs(collection, baca.LMR(left_length=1))
+    rmakers.beam(bgcs)
     tuplet = baca.from_collection(collection, [6, 1], 32)
     baca.attach_bgcs(bgcs, tuplet)
     group = abjad.select.leaves(tuplet, grace=False)
@@ -524,6 +528,7 @@ def make_ovoid(collection):
 def make_passepied(collection):
     _assert_is_collection(collection)
     bgcs, collection = baca.make_bgcs(collection, baca.LMR())
+    rmakers.beam(bgcs)
     tuplet = baca.from_collection(collection, [1], 32)
     rmakers.beam_groups([tuplet], beam_lone_notes=True)
     baca.attach_bgcs(bgcs, tuplet)

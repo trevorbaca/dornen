@@ -225,6 +225,7 @@
         \override StemTremolo.flag-count = 4
         \override StemTremolo.slope = 0.5
         \override TextScript.font-name = #"Palatino"
+        \override TextSpanner.to-barline = ##t
         % DISCOVERY: overriding textscript.x-extent = ##f
         %            makes lilypond ignore self-alignment-x tweaks;
         %            probably should never be done at stylesheet level.

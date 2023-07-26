@@ -124,7 +124,9 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
 
 
 def SKIPS(skips):
-    baca.metronome_mark(skips[9 - 1], library.metronome_marks["44"], library.manifests)
+    baca.metronome_mark(
+        skips[9 - 1], library.metronome_marks["44"], manifests=library.manifests
+    )
 
 
 def postprocess(cache):

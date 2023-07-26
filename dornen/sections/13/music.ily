@@ -1399,15 +1399,15 @@ number.13.Guitar.Music.1 = {
           %! FIGURE_LABEL
         %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (2) \hspace #1 \concat { "2" \sub 2 } ] }
           %! SPANNER_START
-        - \tweak bound-details.right.padding 0.5
-          %! SPANNER_START
-        - \tweak bound-details.right.stencil-align-dir-y #center
-          %! SPANNER_START
         - \abjad-dashed-line-with-arrow
           %! SPANNER_START
         - \baca-text-spanner-left-text "tamb. tr."
           %! SPANNER_START
         - \baca-text-spanner-right-text "kn. rasg."
+          %! SPANNER_START
+        - \tweak bound-details.right.padding 0.5
+          %! SPANNER_START
+        - \tweak bound-details.right.stencil-align-dir-y #center
           %! SPANNER_START
         \startTextSpan
           %! EXPLICIT_DYNAMIC_COLOR
@@ -1468,15 +1468,15 @@ number.13.Guitar.Music.1 = {
           %! FIGURE_LABEL
         %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (4) \hspace #1 \concat { "2" \sub 4 } ] }
           %! SPANNER_START
-        - \tweak bound-details.right.padding 0.5
-          %! SPANNER_START
-        - \tweak bound-details.right.stencil-align-dir-y #center
-          %! SPANNER_START
         - \abjad-dashed-line-with-arrow
           %! SPANNER_START
         - \baca-text-spanner-left-text "trans."
           %! SPANNER_START
         - \baca-text-spanner-right-text "tamb. tr."
+          %! SPANNER_START
+        - \tweak bound-details.right.padding 0.5
+          %! SPANNER_START
+        - \tweak bound-details.right.stencil-align-dir-y #center
           %! SPANNER_START
         \startTextSpan
           %! EXPLICIT_DYNAMIC_COLOR
@@ -1555,15 +1555,15 @@ number.13.Guitar.Music.1 = {
           %! FIGURE_LABEL
         %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (7) \hspace #1 \concat { "3" \sub 2 } ] }
           %! SPANNER_START
-        - \tweak bound-details.right.padding 0.5
-          %! SPANNER_START
-        - \tweak bound-details.right.stencil-align-dir-y #center
-          %! SPANNER_START
         - \abjad-dashed-line-with-arrow
           %! SPANNER_START
         - \baca-text-spanner-left-text "trans."
           %! SPANNER_START
         - \baca-text-spanner-right-text "kn. rasg."
+          %! SPANNER_START
+        - \tweak bound-details.right.padding 0.5
+          %! SPANNER_START
+        - \tweak bound-details.right.stencil-align-dir-y #center
           %! SPANNER_START
         \startTextSpan
           %! EXPLICIT_DYNAMIC_COLOR
@@ -1624,15 +1624,15 @@ number.13.Guitar.Music.1 = {
           %! FIGURE_LABEL
         %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (9) \hspace #1 \concat { "3" \sub 4 } ] }
           %! SPANNER_START
-        - \tweak bound-details.right.padding 0.5
-          %! SPANNER_START
-        - \tweak bound-details.right.stencil-align-dir-y #center
-          %! SPANNER_START
         - \abjad-dashed-line-with-arrow
           %! SPANNER_START
         - \baca-text-spanner-left-text "trans."
           %! SPANNER_START
         - \baca-text-spanner-right-text "tamb. tr."
+          %! SPANNER_START
+        - \tweak bound-details.right.padding 0.5
+          %! SPANNER_START
+        - \tweak bound-details.right.stencil-align-dir-y #center
           %! SPANNER_START
         \startTextSpan
           %! EXPLICIT_DYNAMIC_COLOR
@@ -1711,15 +1711,15 @@ number.13.Guitar.Music.1 = {
           %! FIGURE_LABEL
         %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (12) \hspace #1 \concat { "4" \sub 2 } ] }
           %! SPANNER_START
-        - \tweak bound-details.right.padding 0.5
-          %! SPANNER_START
-        - \tweak bound-details.right.stencil-align-dir-y #center
-          %! SPANNER_START
         - \abjad-dashed-line-with-arrow
           %! SPANNER_START
         - \baca-text-spanner-left-text "trans."
           %! SPANNER_START
         - \baca-text-spanner-right-text "kn. rasg."
+          %! SPANNER_START
+        - \tweak bound-details.right.padding 0.5
+          %! SPANNER_START
+        - \tweak bound-details.right.stencil-align-dir-y #center
           %! SPANNER_START
         \startTextSpan
           %! EXPLICIT_DYNAMIC_COLOR
@@ -1835,15 +1835,15 @@ number.13.Guitar.Music.1 = {
           %! FIGURE_LABEL
         %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (16) \hspace #1 \concat { "4" \sub 6 } ] }
           %! SPANNER_START
-        - \tweak bound-details.right.padding 0.5
-          %! SPANNER_START
-        - \tweak bound-details.right.stencil-align-dir-y #center
-          %! SPANNER_START
         - \abjad-dashed-line-with-arrow
           %! SPANNER_START
         - \baca-text-spanner-left-text "trans."
           %! SPANNER_START
         - \baca-text-spanner-right-text "nail rasg."
+          %! SPANNER_START
+        - \tweak bound-details.right.padding 0.5
+          %! SPANNER_START
+        - \tweak bound-details.right.stencil-align-dir-y #center
           %! SPANNER_START
         \startTextSpan
           %! EXPLICIT_DYNAMIC_COLOR
@@ -1910,15 +1910,15 @@ number.13.Guitar.Music.1 = {
           %! FIGURE_LABEL
         %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (18) \hspace #1 \concat { "4" \sub 8 } ] }
           %! SPANNER_START
-        - \tweak bound-details.right.padding 0.5
-          %! SPANNER_START
-        - \tweak bound-details.right.stencil-align-dir-y #center
-          %! SPANNER_START
         - \abjad-dashed-line-with-arrow
           %! SPANNER_START
         - \baca-text-spanner-left-text "trans."
           %! SPANNER_START
         - \baca-text-spanner-right-text "kn. rasg."
+          %! SPANNER_START
+        - \tweak bound-details.right.padding 0.5
+          %! SPANNER_START
+        - \tweak bound-details.right.stencil-align-dir-y #center
           %! SPANNER_START
         \startTextSpan
           %! EXPLICIT_DYNAMIC_COLOR
@@ -1979,15 +1979,15 @@ number.13.Guitar.Music.1 = {
           %! FIGURE_LABEL
         %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (20) \hspace #1 \concat { "4" \sub 10 } ] }
           %! SPANNER_START
-        - \tweak bound-details.right.padding 0.5
-          %! SPANNER_START
-        - \tweak bound-details.right.stencil-align-dir-y #center
-          %! SPANNER_START
         - \abjad-dashed-line-with-arrow
           %! SPANNER_START
         - \baca-text-spanner-left-text "trans."
           %! SPANNER_START
         - \baca-text-spanner-right-text "nail. rasg."
+          %! SPANNER_START
+        - \tweak bound-details.right.padding 0.5
+          %! SPANNER_START
+        - \tweak bound-details.right.stencil-align-dir-y #center
           %! SPANNER_START
         \startTextSpan
           %! EXPLICIT_DYNAMIC_COLOR
@@ -2059,15 +2059,15 @@ number.13.Guitar.Music.1 = {
           %! FIGURE_LABEL
         %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (22) \hspace #1 \concat { "4" \sub 12 } ] }
           %! SPANNER_START
-        - \tweak bound-details.right.padding 0.5
-          %! SPANNER_START
-        - \tweak bound-details.right.stencil-align-dir-y #center
-          %! SPANNER_START
         - \abjad-dashed-line-with-arrow
           %! SPANNER_START
         - \baca-text-spanner-left-text "trans."
           %! SPANNER_START
         - \baca-text-spanner-right-text "kn. rasg."
+          %! SPANNER_START
+        - \tweak bound-details.right.padding 0.5
+          %! SPANNER_START
+        - \tweak bound-details.right.stencil-align-dir-y #center
           %! SPANNER_START
         \startTextSpan
           %! EXPLICIT_DYNAMIC_COLOR
@@ -2128,15 +2128,15 @@ number.13.Guitar.Music.1 = {
           %! FIGURE_LABEL
         %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (24) \hspace #1 \concat { "4" \sub 14 } ] }
           %! SPANNER_START
-        - \tweak bound-details.right.padding 0.5
-          %! SPANNER_START
-        - \tweak bound-details.right.stencil-align-dir-y #center
-          %! SPANNER_START
         - \abjad-dashed-line-with-arrow
           %! SPANNER_START
         - \baca-text-spanner-left-text "trans."
           %! SPANNER_START
         - \baca-text-spanner-right-text "nail rasg."
+          %! SPANNER_START
+        - \tweak bound-details.right.padding 0.5
+          %! SPANNER_START
+        - \tweak bound-details.right.stencil-align-dir-y #center
           %! SPANNER_START
         \startTextSpan
           %! EXPLICIT_DYNAMIC_COLOR
@@ -2256,15 +2256,15 @@ number.13.Guitar.Music.1 = {
           %! FIGURE_LABEL
         %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (27) \hspace #1 \concat { "4" \sub 17 } ] }
           %! SPANNER_START
-        - \tweak bound-details.right.padding 0.5
-          %! SPANNER_START
-        - \tweak bound-details.right.stencil-align-dir-y #center
-          %! SPANNER_START
         - \abjad-dashed-line-with-arrow
           %! SPANNER_START
         - \baca-text-spanner-left-text "trans."
           %! SPANNER_START
         - \baca-text-spanner-right-text "ponticello"
+          %! SPANNER_START
+        - \tweak bound-details.right.padding 0.5
+          %! SPANNER_START
+        - \tweak bound-details.right.stencil-align-dir-y #center
           %! SPANNER_START
         \startTextSpan
           %! EXPLICIT_DYNAMIC_COLOR
@@ -2850,15 +2850,15 @@ number.13.Guitar.Music.1 = {
           %! FIGURE_LABEL
         %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (41) \hspace #1 \concat { "4" \sub 31 } ] }
           %! SPANNER_START
-        - \tweak bound-details.right.padding 0.5
-          %! SPANNER_START
-        - \tweak bound-details.right.stencil-align-dir-y #center
-          %! SPANNER_START
         - \abjad-dashed-line-with-arrow
           %! SPANNER_START
         - \baca-text-spanner-left-text "gradually slow rasgueado"
           %! SPANNER_START
         - \baca-text-spanner-right-text "still"
+          %! SPANNER_START
+        - \tweak bound-details.right.padding 0.5
+          %! SPANNER_START
+        - \tweak bound-details.right.stencil-align-dir-y #center
           %! SPANNER_START
         \startTextSpan
           %! EXPLICIT_DYNAMIC_COLOR
@@ -3044,6 +3044,9 @@ number.13.Guitar.Music.1 = {
         %@% - \tweak color #blue
           %! FIGURE_LABEL
         %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (45) \hspace #1 \concat { "4" \sub 35 } ] }
+          %! EXPLICIT_DYNAMIC
+          %! SPANNER_START
+        - \tweak circled-tip ##t
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
@@ -3051,9 +3054,6 @@ number.13.Guitar.Music.1 = {
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         - \tweak to-barline ##t
-          %! EXPLICIT_DYNAMIC
-          %! SPANNER_START
-        - \tweak circled-tip ##t
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
         \>

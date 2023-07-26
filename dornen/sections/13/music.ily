@@ -12,13 +12,13 @@ number.13.Skips = {
     \time 2/5
     s1 * 2/5
       %! REAPPLIED_METRONOME_MARK_WITH_COLOR
-    - \abjad-invisible-line
+    - \baca-invisible-line
       %! REAPPLIED_METRONOME_MARK_WITH_COLOR
     - \baca-metronome-mark-spanner-colored-left-text 3 0 1 "66" #'green4
       %! REAPPLIED_METRONOME_MARK_WITH_COLOR
     \bacaStartTextSpanMM
       %! REAPPLIED_METRONOME_MARK
-    %@% - \abjad-invisible-line
+    %@% - \baca-invisible-line
       %! REAPPLIED_METRONOME_MARK
     %@% - \baca-metronome-mark-spanner-left-text 3 0 1 "66"
       %! REAPPLIED_METRONOME_MARK
@@ -1399,7 +1399,7 @@ number.13.Guitar.Music.1 = {
           %! FIGURE_LABEL
         %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (2) \hspace #1 \concat { "2" \sub 2 } ] }
           %! SPANNER_START
-        - \abjad-dashed-line-with-arrow
+        - \baca-dashed-line-with-arrow
           %! SPANNER_START
         - \baca-text-spanner-left-text "tamb. tr."
           %! SPANNER_START
@@ -1468,7 +1468,7 @@ number.13.Guitar.Music.1 = {
           %! FIGURE_LABEL
         %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (4) \hspace #1 \concat { "2" \sub 4 } ] }
           %! SPANNER_START
-        - \abjad-dashed-line-with-arrow
+        - \baca-dashed-line-with-arrow
           %! SPANNER_START
         - \baca-text-spanner-left-text "trans."
           %! SPANNER_START
@@ -1555,7 +1555,7 @@ number.13.Guitar.Music.1 = {
           %! FIGURE_LABEL
         %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (7) \hspace #1 \concat { "3" \sub 2 } ] }
           %! SPANNER_START
-        - \abjad-dashed-line-with-arrow
+        - \baca-dashed-line-with-arrow
           %! SPANNER_START
         - \baca-text-spanner-left-text "trans."
           %! SPANNER_START
@@ -1624,7 +1624,7 @@ number.13.Guitar.Music.1 = {
           %! FIGURE_LABEL
         %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (9) \hspace #1 \concat { "3" \sub 4 } ] }
           %! SPANNER_START
-        - \abjad-dashed-line-with-arrow
+        - \baca-dashed-line-with-arrow
           %! SPANNER_START
         - \baca-text-spanner-left-text "trans."
           %! SPANNER_START
@@ -1711,7 +1711,7 @@ number.13.Guitar.Music.1 = {
           %! FIGURE_LABEL
         %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (12) \hspace #1 \concat { "4" \sub 2 } ] }
           %! SPANNER_START
-        - \abjad-dashed-line-with-arrow
+        - \baca-dashed-line-with-arrow
           %! SPANNER_START
         - \baca-text-spanner-left-text "trans."
           %! SPANNER_START
@@ -1835,7 +1835,7 @@ number.13.Guitar.Music.1 = {
           %! FIGURE_LABEL
         %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (16) \hspace #1 \concat { "4" \sub 6 } ] }
           %! SPANNER_START
-        - \abjad-dashed-line-with-arrow
+        - \baca-dashed-line-with-arrow
           %! SPANNER_START
         - \baca-text-spanner-left-text "trans."
           %! SPANNER_START
@@ -1910,7 +1910,7 @@ number.13.Guitar.Music.1 = {
           %! FIGURE_LABEL
         %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (18) \hspace #1 \concat { "4" \sub 8 } ] }
           %! SPANNER_START
-        - \abjad-dashed-line-with-arrow
+        - \baca-dashed-line-with-arrow
           %! SPANNER_START
         - \baca-text-spanner-left-text "trans."
           %! SPANNER_START
@@ -1979,7 +1979,7 @@ number.13.Guitar.Music.1 = {
           %! FIGURE_LABEL
         %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (20) \hspace #1 \concat { "4" \sub 10 } ] }
           %! SPANNER_START
-        - \abjad-dashed-line-with-arrow
+        - \baca-dashed-line-with-arrow
           %! SPANNER_START
         - \baca-text-spanner-left-text "trans."
           %! SPANNER_START
@@ -2059,7 +2059,7 @@ number.13.Guitar.Music.1 = {
           %! FIGURE_LABEL
         %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (22) \hspace #1 \concat { "4" \sub 12 } ] }
           %! SPANNER_START
-        - \abjad-dashed-line-with-arrow
+        - \baca-dashed-line-with-arrow
           %! SPANNER_START
         - \baca-text-spanner-left-text "trans."
           %! SPANNER_START
@@ -2128,7 +2128,7 @@ number.13.Guitar.Music.1 = {
           %! FIGURE_LABEL
         %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (24) \hspace #1 \concat { "4" \sub 14 } ] }
           %! SPANNER_START
-        - \abjad-dashed-line-with-arrow
+        - \baca-dashed-line-with-arrow
           %! SPANNER_START
         - \baca-text-spanner-left-text "trans."
           %! SPANNER_START
@@ -2256,7 +2256,7 @@ number.13.Guitar.Music.1 = {
           %! FIGURE_LABEL
         %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (27) \hspace #1 \concat { "4" \sub 17 } ] }
           %! SPANNER_START
-        - \abjad-dashed-line-with-arrow
+        - \baca-dashed-line-with-arrow
           %! SPANNER_START
         - \baca-text-spanner-left-text "trans."
           %! SPANNER_START
@@ -2850,7 +2850,7 @@ number.13.Guitar.Music.1 = {
           %! FIGURE_LABEL
         %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (41) \hspace #1 \concat { "4" \sub 31 } ] }
           %! SPANNER_START
-        - \abjad-dashed-line-with-arrow
+        - \baca-dashed-line-with-arrow
           %! SPANNER_START
         - \baca-text-spanner-left-text "gradually slow rasgueado"
           %! SPANNER_START

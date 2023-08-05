@@ -257,10 +257,8 @@
 
     \override BarLine.X-extent = #'(0 . 0)
 
-    \override Beam.breakable = ##t
     \override Beam.damping = 99
 
-    \override Glissando.breakable = ##t
     \override Glissando.thickness = 3
 
     \override Hairpin.to-barline = ##f
@@ -287,7 +285,6 @@
     %      probably should never be done at stylesheet level.
     % NOTE:    may be best to override NO text script properties.
 
-    \override TupletBracket.breakable = ##t
     \override TupletBracket.full-length-to-extent = ##f
     \override TupletBracket.padding = 2
 

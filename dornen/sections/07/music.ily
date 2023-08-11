@@ -5,9 +5,6 @@ number.7.Skips = {
     #(ly:expect-warning "strange time signature found")
       %! EXPLICIT_TIME_SIGNATURE_COLOR
     \baca-time-signature-color #'blue
-      %! +SECTION
-      %! EMPTY_START_BAR
-    \bar ""
       %! EXPLICIT_TIME_SIGNATURE
     \time 3/20
     s1 * 3/20

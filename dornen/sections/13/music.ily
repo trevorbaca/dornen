@@ -3,6 +3,8 @@ number.13.Skips = {
     % [Skips measure 1]
       %! EXPLICIT_TIME_SIGNATURE
     #(ly:expect-warning "strange time signature found")
+      %! RED_START_BAR
+    %@% \baca-thick-red-bar-line
       %! EXPLICIT_TIME_SIGNATURE_COLOR
     \baca-time-signature-color #'blue
       %! EXPLICIT_TIME_SIGNATURE

@@ -7,14 +7,18 @@ import baca
 #       Workaround leaves this page laid out on only two systems.
 #       LilyPond "already have slur" warnings are not the cause.
 
-spacing = baca.make_layout(
-    baca.page(
-        1,
-        baca.system(measure=1, y_offset=80, distances=(20, 24)),
-        baca.system(measure=11, y_offset=140, distances=(20, 24)),
-    ),
-    spacing=(1, 72),
-)
+
+def main():
+    spacing = baca.make_layout(
+        baca.page(
+            1,
+            baca.system(measure=1, y_offset=80, distances=(20, 24)),
+            baca.system(measure=11, y_offset=140, distances=(20, 24)),
+        ),
+        spacing=(1, 72),
+    )
+    baca.section.make_layout_ly(spacing)
+
 
 if __name__ == "__main__":
-    baca.section.make_layout_ly(spacing)
+    main()

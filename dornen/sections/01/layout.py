@@ -1,14 +1,15 @@
 import baca
 
-# NOTE: LilyPond coredumps when line-breaking this page to three systems.
-#       Unclear why this happens;
-#       Does not appear immediately related to acciaccature.
-#       Will probably require reductive testing.
-#       Workaround leaves this page laid out on only two systems.
-#       LilyPond "already have slur" warnings are not the cause.
-
 
 def main():
+    """
+    LilyPond coredumps when line-breaking this page to three systems.
+    Unclear why this happens;
+    Does not appear immediately related to acciaccature.
+    Will probably require reductive testing.
+    Workaround leaves this page laid out on only two systems.
+    LilyPond "already have slur" warnings are not the cause.
+    """
     spacing = baca.make_layout(
         baca.page(
             1,

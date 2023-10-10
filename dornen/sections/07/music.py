@@ -279,7 +279,6 @@ def persist_score(score, environment):
         do_not_require_short_instrument_names=True,
         error_on_not_yet_pitched=True,
         global_rests_in_topmost_staff=True,
-        transpose_score=True,
     )
     baca.tags.activate(score, baca.tags.LOCAL_MEASURE_NUMBER)
     lilypond_file = baca.lilypond.file(

@@ -18,7 +18,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         collection = design[0]
         assert collection == [11, 3, 6, 9]
         tuplet = library.make_ovoid(collection)
-        baca.beam_positions(baca.select.pleaf(tuplet, 0), -7.5)
+        baca.override.beam_positions(baca.select.pleaf(tuplet, 0), -7.5)
         baca.register(tuplet, -20, -8)
         accumulator(library.v2, tuplet, "O1")
 
@@ -27,7 +27,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         collection = design[1]
         assert collection == [7, 0]
         tuplet, tsd = library.make_glissando_scatto(collection)
-        baca.beam_positions(tuplet, 8)
+        baca.override.beam_positions(tuplet, 8)
         accumulator(library.v1, tuplet, tsd, "L1")
 
     @baca.call
@@ -47,7 +47,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
             ]"""
         )
         tuplet, tsd = library.make_delicatissimo(collection)
-        baca.beam_positions(tuplet, -7.5)
+        baca.override.beam_positions(tuplet, -7.5)
         baca.register(tuplet, 4, -20)
         accumulator(library.v3, tuplet, tsd, "D1")
 
@@ -65,7 +65,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         collection = design[5]
         assert collection == [4, 9, 7, 10, 3, 2]
         tuplet = library.make_ovoid(collection)
-        baca.beam_positions(baca.select.pleaf(tuplet, 0), -7.5)
+        baca.override.beam_positions(baca.select.pleaf(tuplet, 0), -7.5)
         library.extend_beam(tuplet)
         accumulator(library.v2, tuplet, "O2")
 
@@ -74,7 +74,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         collection = design[6]
         assert collection == [8, 5, 1, 11, 0, 8]
         tuplet, tsd = library.make_glissando_scatto(collection)
-        baca.beam_positions(tuplet, 12)
+        baca.override.beam_positions(tuplet, 12)
         library.extend_beam(tuplet)
         accumulator(library.v1, tuplet, tsd, "L2")
 
@@ -91,7 +91,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         collection = design[8]
         assert collection == [8, 10, 11, 1, 4, 7]
         tuplet, tsd = library.make_delicatissimo(collection)
-        baca.beam_positions(tuplet, -6)
+        baca.override.beam_positions(tuplet, -6)
         baca.register(tuplet, 4, -20)
         accumulator(library.v3, tuplet, tsd, "D2")
 
@@ -144,7 +144,7 @@ def postprocess(cache):
 
     @baca.call(m.get(1, 12))
     def _(o):
-        baca.beam_positions(o, 8)
+        baca.override.beam_positions(o, 8)
         baca.register(o, -18, 6)
 
 

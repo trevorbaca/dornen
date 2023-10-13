@@ -102,7 +102,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         collection = design[8]
         assert collection == [5, 0.5, 4.5, 5.5, 1]
         tuplet, tsd = library.make_twenty_eighths(collection)
-        baca.beam_positions(tuplet, -5)
+        baca.override.beam_positions(tuplet, -5)
         baca.register(tuplet, 0)
         library.extend_beam(tuplet)
         accumulator(library.v2, tuplet, tsd, "28_1")
@@ -190,17 +190,17 @@ def postprocess(cache):
 
     @baca.call(m.get(1, 8))
     def _(o):
-        baca.beam_positions(o, 6)
+        baca.override.beam_positions(o, 6)
 
     @baca.call(m.get(9, 18))
     def _(o):
-        baca.beam_positions(o, 8)
+        baca.override.beam_positions(o, 8)
 
     m = cache[library.v3]
 
     @baca.call(m.get(1, 18))
     def _(o):
-        baca.beam_positions(o, -4)
+        baca.override.beam_positions(o, -4)
 
 
 @baca.build.timed("make_score")

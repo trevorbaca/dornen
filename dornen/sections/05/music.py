@@ -50,7 +50,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         collection = design[3]
         assert collection == [3, 6, 5]
         tuplet, tsd = library.make_twentieths(collection)
-        baca.beam_positions(tuplet, 6)
+        baca.override.beam_positions(tuplet, 6)
         baca.override.stem_up(baca.select.pleaves(tuplet))
         accumulator(library.v4, tuplet, tsd, "20_2")
 
@@ -158,7 +158,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         collection = design[3]
         assert collection == [3, 6, 5]
         tuplet, tsd = library.make_twentieths(collection)
-        baca.beam_positions(tuplet, 6)
+        baca.override.beam_positions(tuplet, 6)
         baca.override.stem_up(baca.select.pleaves(tuplet))
         accumulator(library.v4, tuplet, tsd, "20_2*")
 
@@ -268,19 +268,19 @@ def postprocess(cache):
     @baca.call(m.leaves())
     def _(o):
         baca.tenuto(baca.select.pheads(o))
-        baca.beam_positions(o, 10)
+        baca.override.beam_positions(o, 10)
         baca.register(o, -12)
 
     m = cache[library.v2]
 
     @baca.call(m.get(1, 22))
     def _(o):
-        baca.beam_positions(o, -5.5)
+        baca.override.beam_positions(o, -5.5)
         baca.register(o, 4)
 
     @baca.call(m.get(25, 30))
     def _(o):
-        baca.beam_positions(o, -5.5)
+        baca.override.beam_positions(o, -5.5)
         baca.register(o, 4)
 
     m = cache[library.v3]
@@ -293,18 +293,18 @@ def postprocess(cache):
 
     @baca.call(m.get(3))
     def _(o):
-        baca.beam_positions(o, -9)
+        baca.override.beam_positions(o, -9)
 
     @baca.call(m.get(17))
     def _(o):
-        baca.beam_positions(o, -12)
+        baca.override.beam_positions(o, -12)
 
     m = cache[library.v4]
 
     @baca.call(m.leaves())
     def _(o):
         baca.staccato(baca.select.pheads(o))
-        baca.beam_positions(o, 5.5)
+        baca.override.beam_positions(o, 5.5)
         baca.register(o, -4)
 
 

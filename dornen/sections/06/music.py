@@ -20,7 +20,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         assert collection == [10, 0]
         tuplet, tsd = library.make_forty_eighths(collection)
         baca.tenuto(baca.select.pheads(tuplet))
-        baca.beam_positions(tuplet, 10)
+        baca.override.beam_positions(tuplet, 10)
         baca.register(tuplet, -12)
         library.extend_beam(tuplet)
         accumulator(library.v1, tuplet, tsd, "48_1")
@@ -143,7 +143,7 @@ def postprocess(cache):
     @baca.call(m.get(1, 7))
     def _(o):
         baca.staccato(baca.select.pheads(o))
-        baca.beam_positions(o, 5.5)
+        baca.override.beam_positions(o, 5.5)
         baca.register(o, -4)
 
 

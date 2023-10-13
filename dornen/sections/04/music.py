@@ -43,7 +43,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         tuplet, tsd = library.make_glissando_scatto(collection)
         leaf = baca.select.pleaf(tuplet, 0)
         baca.markup(leaf, r"\dornen-glissando-attack-first-note-only-markup")
-        baca.beam_positions(tuplet, -12)
+        baca.override.beam_positions(tuplet, -12)
         baca.register(tuplet, -8)
         baca.displacement(tuplet, [0, 1])
         library.extend_beam(tuplet)
@@ -199,12 +199,12 @@ def postprocess(cache):
 
     @baca.call(m.get(1, 3))
     def block(o):
-        baca.beam_positions(o, 9)
+        baca.override.beam_positions(o, 9)
         baca.register(o, -20, 4)
 
     @baca.call(m.get(4, 12))
     def block(o):
-        baca.beam_positions(o, 6)
+        baca.override.beam_positions(o, 6)
         baca.register(o, -20, 4)
 
 

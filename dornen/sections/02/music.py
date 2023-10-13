@@ -154,7 +154,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
             ]"""
         )
         tuplet, tsd = library.make_delicatissimo(collection)
-        baca.text_script_staff_padding(tuplet, 9)
+        baca.override.text_script_staff_padding(tuplet, 9)
         baca.register(tuplet, 6, -20)
         library.extend_beam(tuplet)
         accumulator(library.v1, tuplet, tsd, "D1")

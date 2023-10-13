@@ -89,7 +89,7 @@ def postprocess(cache):
     with baca.scope(m.get(18, 21)) as o:
         baca.hairpin(o.rleaves(), "mp > pp")
     with baca.scope(m.leaves()) as o:
-        baca.text_script_staff_padding(o, 5)
+        baca.override.text_script_staff_padding(o, 5)
 
 
 @baca.build.timed("make_score")

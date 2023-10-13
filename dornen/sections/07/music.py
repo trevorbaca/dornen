@@ -43,7 +43,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
             r"\dornen-dull-but-beautiful-markup",
             direction=abjad.DOWN,
         )
-        baca.text_script_down(tuplet)
+        baca.override.text_script_down(tuplet)
         library.extend_beam(tuplet)
         accumulator(library.v2, tuplet, tsd, "16_1")
 
@@ -52,7 +52,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         collection = design[2]
         assert collection == [2, 5, 8]
         tuplet, tsd = library.make_twenty_eighths(collection)
-        baca.stem_up(baca.select.pleaves(tuplet))
+        baca.override.stem_up(baca.select.pleaves(tuplet))
         middle_register(tuplet)
         accumulator(library.v3, tuplet, tsd, "28_1")
 
@@ -87,7 +87,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         collection = design[6]
         assert collection == [6, 9, 1]
         tuplet, tsd = library.make_twenty_eighths(collection)
-        baca.stem_up(baca.select.pleaves(tuplet))
+        baca.override.stem_up(baca.select.pleaves(tuplet))
         middle_register(tuplet)
         accumulator(library.v3, tuplet, tsd, "28_2")
 
@@ -146,7 +146,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         collection = design[13]
         assert collection == [8, 5, 1, 11]
         tuplet, tsd = library.make_twenty_eighths(collection)
-        baca.stem_up(baca.select.pleaves(tuplet))
+        baca.override.stem_up(baca.select.pleaves(tuplet))
         middle_register(tuplet)
         accumulator(library.v3, tuplet, tsd, "28_3")
 
@@ -199,7 +199,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         collection = design[19]
         assert collection == [3, 0, 1, 11]
         tuplet, tsd = library.make_twenty_eighths(collection)
-        baca.stem_up(baca.select.pleaves(tuplet))
+        baca.override.stem_up(baca.select.pleaves(tuplet))
         middle_register(tuplet)
         accumulator(library.v3, tuplet, tsd, "28_4")
 

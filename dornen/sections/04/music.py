@@ -88,10 +88,14 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         baca.markup(pleaf, r"\dornen-two-finger-tamb-trill-markup")
         baca.repeat_tie(baca.select.phead(tuplets, 1))
         baca.stem_tremolo(baca.select.pleaves(tuplets))
-        baca.stem_up(baca.select.pleaves(tuplets))
-        baca.tuplet_bracket_staff_padding(tuplets, 0)
-        baca.tuplet_bracket_extra_offset(abjad.select.leaf(tuplets, 0), (0, -0.5))
-        baca.tuplet_number_extra_offset(abjad.select.leaf(tuplets, 0), (0, -0.5))
+        baca.override.stem_up(baca.select.pleaves(tuplets))
+        baca.override.tuplet_bracket_staff_padding(tuplets, 0)
+        baca.override.tuplet_bracket_extra_offset(
+            abjad.select.leaf(tuplets, 0), (0, -0.5)
+        )
+        baca.override.tuplet_number_extra_offset(
+            abjad.select.leaf(tuplets, 0), (0, -0.5)
+        )
         baca.register(tuplets, -20)
 
     @baca.call
@@ -168,10 +172,14 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         baca.markup(leaf, r"\dornen-two-finger-tamb-trill-markup")
         baca.repeat_tie(baca.select.phead(tuplets, 1))
         baca.stem_tremolo(baca.select.pleaves(tuplets))
-        baca.stem_up(baca.select.pleaves(tuplets))
-        baca.tuplet_bracket_staff_padding(tuplets, 0)
-        baca.tuplet_bracket_extra_offset(abjad.select.leaf(tuplets, 0), (0, -0.5))
-        baca.tuplet_number_extra_offset(abjad.select.leaf(tuplets, 0), (0, -0.5))
+        baca.override.stem_up(baca.select.pleaves(tuplets))
+        baca.override.tuplet_bracket_staff_padding(tuplets, 0)
+        baca.override.tuplet_bracket_extra_offset(
+            abjad.select.leaf(tuplets, 0), (0, -0.5)
+        )
+        baca.override.tuplet_number_extra_offset(
+            abjad.select.leaf(tuplets, 0), (0, -0.5)
+        )
         baca.register(tuplets, -20)
 
     @baca.call

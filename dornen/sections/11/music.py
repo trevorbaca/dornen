@@ -126,12 +126,12 @@ def postprocess(cache):
 
     @baca.call(m.get(1, 11))
     def _(o):
-        baca.text_script_staff_padding(o, 5)
+        baca.override.text_script_staff_padding(o, 5)
 
     @baca.call(m.get(12, 25))
     def _(o):
-        baca.text_spanner_staff_padding(o, 5)
-        baca.text_script_staff_padding(o, 8)
+        baca.override.text_spanner_staff_padding(o, 5)
+        baca.override.text_script_staff_padding(o, 8)
 
 
 @baca.build.timed("make_score")

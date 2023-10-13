@@ -197,10 +197,10 @@ def postprocess(cache):
         baca.text_spanner(o.rleaves(), "trans. => ponticello")
     with baca.scope(m.get(41, 45)) as o:
         baca.text_spanner(o.rleaves(), "gradually slow rasgueado => still")
-        baca.text_script_staff_padding(o.rleaf(-1), 5.5)
+        baca.override.text_script_staff_padding(o.rleaf(-1), 5.5)
     with baca.scope(m.leaves()) as o:
-        baca.text_spanner_staff_padding(o, 5)
-        baca.text_script_staff_padding(o, 8)
+        baca.override.text_spanner_staff_padding(o, 5)
+        baca.override.text_script_staff_padding(o, 8)
 
 
 @baca.build.timed("make_score")

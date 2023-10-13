@@ -20,7 +20,7 @@ def populate_score(score):
         assert collection == [4]
         tuplet, tsd = library.make_dotted_eighths(collection)
         baca.register(tuplet, -8)
-        baca.beam_positions(tuplet, 6)
+        baca.override.beam_positions(tuplet, 6)
         library.extend_beam(tuplet)
         accumulator(library.v1, tuplet, tsd, "E_1")
 
@@ -29,7 +29,7 @@ def populate_score(score):
         collection = design[1]
         assert collection == [6, 2, 3, 5, 9, 8, 0]
         tuplet, tsd = library.make_passepied(collection)
-        baca.beam_positions(abjad.select.leaves(tuplet, grace=False), -10)
+        baca.override.beam_positions(abjad.select.leaves(tuplet, grace=False), -10)
         baca.override.time_signature_extra_offset(
             baca.select.hleaf(tuplet, 0), (-2.5, 0)
         )
@@ -82,7 +82,7 @@ def populate_score(score):
         collection = design[6]
         assert collection == [7, 11]
         tuplet, tsd = library.make_dotted_eighths(collection)
-        baca.beam_positions(abjad.select.leaves(tuplet, grace=False), 9)
+        baca.override.beam_positions(abjad.select.leaves(tuplet, grace=False), 9)
         baca.register(tuplet, -14)
         library.extend_beam(tuplet)
         accumulator(library.v1, tuplet, tsd, "E_4")
@@ -92,7 +92,7 @@ def populate_score(score):
         collection = design[7]
         assert collection == [10, 2, 3, 4, 6]
         tuplet, tsd = library.make_passepied(collection)
-        baca.beam_positions(abjad.select.leaves(tuplet, grace=False), -10)
+        baca.override.beam_positions(abjad.select.leaves(tuplet, grace=False), -10)
         baca.override.time_signature_extra_offset(
             baca.select.hleaf(tuplet, 0), (-2.5, 0)
         )
@@ -132,7 +132,7 @@ def populate_score(score):
         collection = design[13]
         assert collection == [6, 10]
         tuplet, tsd = library.make_dotted_eighths(collection)
-        baca.beam_positions(abjad.select.leaves(tuplet, grace=False), 6)
+        baca.override.beam_positions(abjad.select.leaves(tuplet, grace=False), 6)
         baca.register(tuplet, -18)
         library.extend_beam(tuplet)
         accumulator(library.v1, [tuplet], tsd, "E_6")
@@ -161,7 +161,7 @@ def populate_score(score):
         collection = design[16]
         assert collection == [11, 7, 3, 4, 5, 10, 9, 1, 6]
         tuplet, tsd = library.make_passepied(collection)
-        baca.beam_positions(abjad.select.leaves(tuplet, grace=False), -10)
+        baca.override.beam_positions(abjad.select.leaves(tuplet, grace=False), -10)
         baca.override.time_signature_extra_offset(
             baca.select.hleaf(tuplet, 0), (-2.5, 0)
         )
@@ -193,7 +193,7 @@ def populate_score(score):
         collection = design[20]
         assert collection == [11, 8, 0, 4, 5, 7, 3]
         tuplets, tsd = library.make_waves([collection], denominator=64, inverted=True)
-        baca.beam_positions(abjad.select.leaves(tuplets, grace=False), -6)
+        baca.override.beam_positions(abjad.select.leaves(tuplets, grace=False), -6)
         accumulator(library.v3, tuplets, tsd, "W_1")
 
     @baca.call
@@ -201,7 +201,7 @@ def populate_score(score):
         collections = design[21:22]
         assert collections == [[5, 11, 6, 2, 0, 3, 11, 6, 5, 0, 3, 2]]
         tuplets, tsd = library.make_waves(collections, denominator=64, inverted=True)
-        baca.beam_positions(abjad.select.leaves(tuplets, grace=False), -6)
+        baca.override.beam_positions(abjad.select.leaves(tuplets, grace=False), -6)
         accumulator(library.v3, tuplets, tsd, "W_2")
 
     rmakers.swap_trivial(score)

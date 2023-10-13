@@ -45,7 +45,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         collection = design[3]
         assert collection == [3, 6, 5]
         tuplet, tsd = library.make_twentieths(collection)
-        baca.beam_positions(tuplet, 6)
+        baca.override.beam_positions(tuplet, 6)
         baca.override.stem_up(baca.select.pleaves(tuplet))
         accumulator(library.v4, tuplet, tsd)
 
@@ -102,7 +102,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         collection = design[3]
         assert collection == [3, 6, 5]
         tuplet, tsd = library.make_twentieths(collection)
-        baca.beam_positions(tuplet, 6)
+        baca.override.beam_positions(tuplet, 6)
         baca.override.stem_up(baca.select.pleaves(tuplet))
         accumulator(library.v4, tuplet, tsd)
 
@@ -159,7 +159,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         collection = design[3]
         assert collection == [3, 6, 5]
         tuplet, tsd = library.make_twentieths(collection)
-        baca.beam_positions(tuplet, 6)
+        baca.override.beam_positions(tuplet, 6)
         baca.override.stem_up(baca.select.pleaves(tuplet))
         accumulator(library.v4, tuplet, tsd)
 
@@ -213,7 +213,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         collection = design[3]
         assert collection == [3, 6, 5]
         tuplet, tsd = library.make_twentieths(collection)
-        baca.beam_positions(tuplet, 6)
+        baca.override.beam_positions(tuplet, 6)
         baca.override.stem_up(baca.select.pleaves(tuplet))
         accumulator(library.v4, tuplet, tsd)
 
@@ -267,7 +267,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         collection = design[3]
         assert collection == [3, 6, 5]
         tuplet, tsd = library.make_twentieths(collection)
-        baca.beam_positions(tuplet, 6)
+        baca.override.beam_positions(tuplet, 6)
         baca.override.stem_up(baca.select.pleaves(tuplet))
         accumulator(library.v4, tuplet, tsd)
 
@@ -320,7 +320,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         collection = design[3]
         assert collection == [3, 6, 5]
         tuplet, tsd = library.make_twentieths(collection)
-        baca.beam_positions(tuplet, 6)
+        baca.override.beam_positions(tuplet, 6)
         baca.override.stem_up(baca.select.pleaves(tuplet))
         accumulator(library.v4, tuplet, tsd)
 
@@ -359,12 +359,12 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
 def postprocess(cache):
     m = cache[library.v1]
     with baca.scope(m.get(1, 41)) as o:
-        baca.beam_positions(o, 10)
+        baca.override.beam_positions(o, 10)
         baca.register(o, -12)
         baca.tenuto(o.pheads())
     m = cache[library.v2]
     with baca.scope(m.get(1, 41)) as o:
-        baca.beam_positions(o, -5.5)
+        baca.override.beam_positions(o, -5.5)
         baca.register(o, 4)
     m = cache[library.v3]
     with baca.scope(m.get(1, 41)) as o:
@@ -373,7 +373,7 @@ def postprocess(cache):
         baca.override.script_down(o)
     m = cache[library.v4]
     with baca.scope(m.get(1, 41)) as o:
-        baca.beam_positions(o, 5.5)
+        baca.override.beam_positions(o, 5.5)
         baca.register(o, -4)
         baca.staccato(o.pheads())
     m = cache[library.v1]

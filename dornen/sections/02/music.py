@@ -23,7 +23,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
             [6, 11, 2, 5],
         ]
         tuplets, tsd = library.make_waves(collections, denominator=64, inverted=True)
-        baca.beam_positions(tuplets, 8)
+        baca.override.beam_positions(tuplets, 8)
         baca.register(tuplets, 0, -14)
         accumulator(library.v1, tuplets, 16, "W1")
 
@@ -32,7 +32,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         collection = design[4][:1]
         assert collection == [3]
         tuplet, tsd = library.make_twentieths(collection)
-        baca.beam_positions(tuplet, -8)
+        baca.override.beam_positions(tuplet, -8)
         baca.register(tuplet, 6)
         library.extend_beam(tuplet)
         accumulator(library.v2, tuplet, tsd, "F1_1")

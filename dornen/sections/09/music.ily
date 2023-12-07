@@ -5,14 +5,14 @@ number.9.Skips = {
     %@% \baca-thick-red-bar-line
       %! EXPLICIT_TIME_SIGNATURE_COLOR
     \baca-time-signature-color #blue
+      %! EXPLICIT_TIME_SIGNATURE
+    \time 6/32
       %! RED_START_BAR
     %@% \tweak break-visibility ##(#t #t #f)
       %! RED_START_BAR
     %@% \tweak color #red
       %! RED_START_BAR
     %@% \mark \markup \with-dimensions-from \null "09"
-      %! EXPLICIT_TIME_SIGNATURE
-    \time 6/32
     s1 * 6/32
       %! REAPPLIED_METRONOME_MARK_WITH_COLOR
     - \baca-invisible-line
@@ -222,10 +222,10 @@ number.9.Skips = {
     % [Skips measure 10]
       %! EXPLICIT_TIME_SIGNATURE
     #(ly:expect-warning "strange time signature found")
-      %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #blue
       %! EXPLICIT_TIME_SIGNATURE
     \time 5/28
+      %! EXPLICIT_TIME_SIGNATURE_COLOR
+    \baca-time-signature-color #blue
     s1 * 5/28
       %! CLOCK_TIME
     %@% \bacaStopTextSpanCT
@@ -299,10 +299,10 @@ number.9.Skips = {
     % [Skips measure 13]
       %! EXPLICIT_TIME_SIGNATURE
     #(ly:expect-warning "strange time signature found")
-      %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #blue
       %! EXPLICIT_TIME_SIGNATURE
     \time 6/28
+      %! EXPLICIT_TIME_SIGNATURE_COLOR
+    \baca-time-signature-color #blue
     s1 * 6/28
       %! CLOCK_TIME
     %@% \bacaStopTextSpanCT
@@ -376,10 +376,10 @@ number.9.Skips = {
     % [Skips measure 16]
       %! EXPLICIT_TIME_SIGNATURE
     #(ly:expect-warning "strange time signature found")
-      %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #blue
       %! EXPLICIT_TIME_SIGNATURE
     \time 39/112
+      %! EXPLICIT_TIME_SIGNATURE_COLOR
+    \baca-time-signature-color #blue
     s1 * 39/112
       %! CLOCK_TIME
     %@% \bacaStopTextSpanCT
@@ -428,10 +428,10 @@ number.9.Skips = {
     % [Skips measure 18]
       %! EXPLICIT_TIME_SIGNATURE
     #(ly:expect-warning "strange time signature found")
-      %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #blue
       %! EXPLICIT_TIME_SIGNATURE
     \time 2/20
+      %! EXPLICIT_TIME_SIGNATURE_COLOR
+    \baca-time-signature-color #blue
     s1 * 2/20
       %! CLOCK_TIME
     %@% \bacaStopTextSpanCT

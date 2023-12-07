@@ -721,6 +721,8 @@ number.12.Guitar.Music.1 = {
     {
 
         % [Guitar.Music.1 measure 1]
+          %! REAPPLIED_CLEF
+        \clef "treble"
           %! REAPPLIED_CLEF_COLOR
         \once \override Staff.Clef.color = #(x11-color 'green4)
           %! REAPPLIED_CLEF_COLOR_CANCELLATION
@@ -729,8 +731,6 @@ number.12.Guitar.Music.1 = {
         \override TextSpanner.staff-padding = 5
           %! REAPPLIED_CLEF
         \set Staff.forceClef = ##t
-          %! REAPPLIED_CLEF
-        \clef "treble"
         f2
         :32
           %! REAPPLIED_DYNAMIC_COLOR

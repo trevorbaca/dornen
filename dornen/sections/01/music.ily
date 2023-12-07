@@ -573,6 +573,8 @@ number.1.Guitar.Music.1 = {
     {
 
         % [Guitar.Music.1 measure 1]
+          %! EXPLICIT_CLEF
+        \clef "treble"
         \once \override Beam.positions = #'(6 . 6)
           %! MEASURE_1
           %! SHIFTED_CLEF
@@ -586,8 +588,6 @@ number.1.Guitar.Music.1 = {
         %@% \override Staff.Clef.color = ##f
           %! EXPLICIT_CLEF
         \set Staff.forceClef = ##t
-          %! EXPLICIT_CLEF
-        \clef "treble"
         e'8.
           %! FIGURE_LABEL
         %@% - \tweak color #blue

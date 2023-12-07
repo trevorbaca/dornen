@@ -587,6 +587,8 @@ number.4.Guitar.Music.1 = {
     {
 
         % [Guitar.Music.1 measure 1]
+          %! REAPPLIED_CLEF
+        \clef "treble"
           %! REAPPLIED_CLEF_COLOR
         \once \override Staff.Clef.color = #(x11-color 'green4)
         \override Beam.positions = #'(9 . 9)
@@ -595,8 +597,6 @@ number.4.Guitar.Music.1 = {
           %! REAPPLIED_CLEF
         \set Staff.forceClef = ##t
         \once \override Beam.grow-direction = #right
-          %! REAPPLIED_CLEF
-        \clef "treble"
         f32 * 1984/1024
           %! FIGURE_LABEL
         %@% - \tweak color #blue

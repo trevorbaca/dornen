@@ -545,6 +545,8 @@ number.9.Guitar.Music.1 = {
     {
 
         % [Guitar.Music.1 measure 1]
+          %! REAPPLIED_CLEF
+        \clef "treble"
           %! REAPPLIED_CLEF_COLOR
         \once \override Staff.Clef.color = #(x11-color 'green4)
         \override Beam.positions = #'(6 . 6)
@@ -554,8 +556,6 @@ number.9.Guitar.Music.1 = {
         \set Staff.forceClef = ##t
         \set stemLeftBeamCount = 0
         \set stemRightBeamCount = 3
-          %! REAPPLIED_CLEF
-        \clef "treble"
         bf'!32
         - \staccato
           %! FIGURE_LABEL

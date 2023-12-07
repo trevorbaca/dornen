@@ -1256,6 +1256,8 @@ number.14.Guitar.Music.1 = {
     {
 
         % [Guitar.Music.1 measure 1]
+          %! REAPPLIED_CLEF
+        \clef "treble"
           %! REAPPLIED_CLEF_COLOR
         \once \override Staff.Clef.color = #(x11-color 'green4)
         \override Beam.positions = #'(10 . 10)
@@ -1263,8 +1265,6 @@ number.14.Guitar.Music.1 = {
         %@% \override Staff.Clef.color = ##f
           %! REAPPLIED_CLEF
         \set Staff.forceClef = ##t
-          %! REAPPLIED_CLEF
-        \clef "treble"
         d'32.
         - \tenuto
           %! REAPPLIED_DYNAMIC_COLOR

@@ -556,7 +556,7 @@ def make_running(collections):
     rmakers.beam_groups(tuplets)
     for tuplet in tuplets:
         if 1 < len(tuplet):
-            baca.slur(tuplet)
+            baca.spanners.slur(tuplet)
     voice[:] = []
     return tuplets
 

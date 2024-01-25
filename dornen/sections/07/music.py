@@ -31,7 +31,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         middle_register(tuplet)
         library.extend_beam(tuplet)
         accumulator(library.v1, tuplet, tsd, "20_1")
-        baca.slur(baca.select.tleaves(tuplet))
+        baca.spanners.slur(baca.select.tleaves(tuplet))
 
     @baca.call
     def block():
@@ -72,7 +72,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         middle_register(tuplet)
         library.extend_beam(tuplet)
         accumulator(library.v1, tuplet, tsd, "20_2")
-        baca.slur(baca.select.tleaves(tuplet))
+        baca.spanners.slur(baca.select.tleaves(tuplet))
 
     @baca.call
     def block():
@@ -106,7 +106,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         tuplet, tsd = library.make_twentieths(collection)
         middle_register(tuplet)
         accumulator(library.v1, tuplet, tsd, "20_3")
-        baca.slur(baca.select.tleaves(tuplet))
+        baca.spanners.slur(baca.select.tleaves(tuplet))
 
     @baca.call
     def block():
@@ -131,7 +131,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         middle_register(tuplet)
         library.extend_beam(tuplet)
         accumulator(library.v1, tuplet, tsd, "32_1")
-        baca.slur(baca.select.tleaves(tuplet))
+        baca.spanners.slur(baca.select.tleaves(tuplet))
 
     @baca.call
     def block():
@@ -166,7 +166,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         middle_register(tuplet)
         library.extend_beam(tuplet)
         accumulator(library.v1, tuplet, tsd, "32_2")
-        baca.slur(baca.select.tleaves(tuplet))
+        baca.spanners.slur(baca.select.tleaves(tuplet))
 
     @baca.call
     def block():
@@ -184,7 +184,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         middle_register(tuplet)
         library.extend_beam(tuplet)
         accumulator(library.v1, tuplet, tsd, "32_3")
-        baca.slur(baca.select.tleaves(tuplet))
+        baca.spanners.slur(baca.select.tleaves(tuplet))
 
     @baca.call
     def block():
@@ -217,7 +217,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         tuplet, tsd = library.make_thirty_seconds(collection)
         middle_register(tuplet)
         accumulator(library.v1, tuplet, tsd, "32_4")
-        baca.slur(baca.select.tleaves(tuplet))
+        baca.spanners.slur(baca.select.tleaves(tuplet))
 
     rmakers.swap_trivial(score)
     return accumulator.time_signatures

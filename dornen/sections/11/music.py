@@ -81,38 +81,38 @@ def postprocess(cache):
 
     @baca.call(m.get(2, 3))
     def _(o):
-        baca.hairpin(o, "pp < p")
+        baca.spanners.hairpin(o, "pp < p")
 
     @baca.call(m.get(4, 5))
     def _(o):
-        baca.hairpin(o, "p > pp")
+        baca.spanners.hairpin(o, "p > pp")
 
     @baca.call(m.get(7, 8))
     def _(o):
-        baca.hairpin(o, "pp < mp")
+        baca.spanners.hairpin(o, "pp < mp")
 
     @baca.call(m.get(9, 10))
     def _(o):
-        baca.hairpin(o, "mp > pp")
+        baca.spanners.hairpin(o, "mp > pp")
 
     @baca.call(baca.select.rleaves(m[12]))
     def _(o):
-        baca.hairpin(o, "pp < p")
+        baca.spanners.hairpin(o, "pp < p")
         baca.text_spanner(o, "trans. => kn. rasg.")
 
     @baca.call(baca.select.rleaves(m[14]))
     def _(o):
-        baca.hairpin(o, "p > pp")
+        baca.spanners.hairpin(o, "p > pp")
         baca.text_spanner(o, "trans. => tamb. tr.")
 
     @baca.call(baca.select.rleaves(m[16]))
     def _(o):
-        baca.hairpin(o, "pp < mp")
+        baca.spanners.hairpin(o, "pp < mp")
         baca.text_spanner(o, "trans. => kn. rasg.")
 
     @baca.call(m[18])
     def _(o):
-        baca.hairpin(baca.select.rleaves(o), "mp > pp")
+        baca.spanners.hairpin(baca.select.rleaves(o), "mp > pp")
         baca.text_spanner(baca.select.rleaves(o), "trans. => tamb. tr.")
 
     @baca.call(m[20])
@@ -121,7 +121,7 @@ def postprocess(cache):
 
     @baca.call(baca.select.rleaves(m.get(22, 24)))
     def _(o):
-        baca.hairpin(o, "mf > p")
+        baca.spanners.hairpin(o, "mf > p")
         baca.text_spanner(o, "trans. => tamb. tr.")
 
     @baca.call(m.get(1, 11))

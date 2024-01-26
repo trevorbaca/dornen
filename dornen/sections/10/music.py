@@ -73,21 +73,21 @@ def postprocess(cache):
             baca.repeat_tie(qrun[1:])
         baca.stem_tremolo(o.pleaves())
     with baca.scope(m[2]) as o:
-        baca.hairpin(o.rleaves(), "ppp < pp")
+        baca.spanners.hairpin(o.rleaves(), "ppp < pp")
     with baca.scope(m[4]) as o:
-        baca.hairpin(o.rleaves(), "pp > ppp")
+        baca.spanners.hairpin(o.rleaves(), "pp > ppp")
     with baca.scope(m[7]) as o:
-        baca.hairpin(o.rleaves(), "ppp < p")
+        baca.spanners.hairpin(o.rleaves(), "ppp < p")
     with baca.scope(m[9]) as o:
-        baca.hairpin(o.rleaves(), "p > ppp")
+        baca.spanners.hairpin(o.rleaves(), "p > ppp")
     with baca.scope(m[12]) as o:
-        baca.hairpin(o.rleaves(), "ppp < pp")
+        baca.spanners.hairpin(o.rleaves(), "ppp < pp")
     with baca.scope(m[14]) as o:
-        baca.hairpin(o.rleaves(), "pp < p")
+        baca.spanners.hairpin(o.rleaves(), "pp < p")
     with baca.scope(m[16]) as o:
-        baca.hairpin(o.rleaves(), "p < mp")
+        baca.spanners.hairpin(o.rleaves(), "p < mp")
     with baca.scope(m.get(18, 21)) as o:
-        baca.hairpin(o.rleaves(), "mp > pp")
+        baca.spanners.hairpin(o.rleaves(), "mp > pp")
     with baca.scope(m.leaves()) as o:
         baca.override.text_script_staff_padding(o, 5)
 

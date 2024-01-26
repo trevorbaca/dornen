@@ -77,34 +77,34 @@ def postprocess(cache):
             baca.repeat_tie(qrun[1:])
         baca.stem_tremolo(o.pleaves())
     with baca.scope(m[2]) as o:
-        baca.hairpin(o.rleaves(), "p < mp")
+        baca.spanners.hairpin(o.rleaves(), "p < mp")
         baca.text_spanner(o.rleaves(), "tamb. tr. => kn. rasg.")
     with baca.scope(m[4]) as o:
-        baca.hairpin(o.rleaves(), "mp > p")
+        baca.spanners.hairpin(o.rleaves(), "mp > p")
         baca.text_spanner(o.rleaves(), "trans. => tamb. tr.")
     with baca.scope(m[7]) as o:
-        baca.hairpin(o.rleaves(), "p < mf")
+        baca.spanners.hairpin(o.rleaves(), "p < mf")
         baca.text_spanner(o.rleaves(), "trans. => kn. rasg.")
     with baca.scope(m[9]) as o:
-        baca.hairpin(o.rleaves(), "mf > p")
+        baca.spanners.hairpin(o.rleaves(), "mf > p")
         baca.text_spanner(o.rleaves(), "trans. => tamb. tr.")
     with baca.scope(m[12]) as o:
-        baca.hairpin(o.rleaves(), "p < mp")
+        baca.spanners.hairpin(o.rleaves(), "p < mp")
         baca.text_spanner(o.rleaves(), "trans. => kn. rasg.")
     with baca.scope(m[14]) as o:
-        baca.hairpin(o.rleaves(), "mp > p")
+        baca.spanners.hairpin(o.rleaves(), "mp > p")
         baca.text_spanner(o.rleaves(), "trans. => tamb. tr.")
     with baca.scope(m[16]) as o:
-        baca.hairpin(o.rleaves(), "p < mf")
+        baca.spanners.hairpin(o.rleaves(), "p < mf")
         baca.text_spanner(o.rleaves(), "trans. => kn. rasg.")
     with baca.scope(m[18]) as o:
-        baca.hairpin(o.rleaves(), "mf > p")
+        baca.spanners.hairpin(o.rleaves(), "mf > p")
         baca.text_spanner(o.rleaves(), "trans. => tamb. tr.")
     with baca.scope(m[20]) as o:
-        baca.hairpin(o.rleaves(), "p < f")
+        baca.spanners.hairpin(o.rleaves(), "p < f")
         baca.text_spanner(o.rleaves(), "trans. => kn. rasg.")
     with baca.scope(m.get(22, 24)) as o:
-        baca.hairpin(o.rleaves(), "f > mp")
+        baca.spanners.hairpin(o.rleaves(), "f > mp")
         baca.text_spanner(o.rleaves(), "trans. => tamb. tr.")
     with baca.scope(m.leaves()) as o:
         baca.override.text_spanner_staff_padding(o, 5)

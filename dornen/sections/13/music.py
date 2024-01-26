@@ -124,75 +124,75 @@ def postprocess(cache):
             baca.repeat_tie(qurn[1:])
         baca.stem_tremolo(o.pleaves())
     with baca.scope(m[2]) as o:
-        baca.hairpin(o.rleaves(), "mp < mf")
+        baca.spanners.hairpin(o.rleaves(), "mp < mf")
         baca.text_spanner(o.rleaves(), "tamb. tr. => kn. rasg.")
     with baca.scope(m[4]) as o:
-        baca.hairpin(o.rleaves(), "mf > mp")
+        baca.spanners.hairpin(o.rleaves(), "mf > mp")
         baca.text_spanner(o.rleaves(), "trans. => tamb. tr.")
     with baca.scope(m[7]) as o:
-        baca.hairpin(o.rleaves(), "mp < f")
+        baca.spanners.hairpin(o.rleaves(), "mp < f")
         baca.text_spanner(o.rleaves(), "trans. => kn. rasg.")
     with baca.scope(m[9]) as o:
-        baca.hairpin(o.rleaves(), "f > mp")
+        baca.spanners.hairpin(o.rleaves(), "f > mp")
         baca.text_spanner(o.rleaves(), "trans. => tamb. tr.")
     with baca.scope(m[12]) as o:
-        baca.hairpin(o.rleaves(), "mp < ff")
+        baca.spanners.hairpin(o.rleaves(), "mp < ff")
         baca.text_spanner(o.rleaves(), "trans. => kn. rasg.")
     with baca.scope(m[14]) as o:
-        baca.hairpin(o.rleaves(), "ff > mf")
+        baca.spanners.hairpin(o.rleaves(), "ff > mf")
     with baca.scope(m[16]) as o:
-        baca.hairpin(o.rleaves(), "mf < f")
+        baca.spanners.hairpin(o.rleaves(), "mf < f")
         baca.text_spanner(o.rleaves(), "trans. => nail rasg.")
     with baca.scope(m[18]) as o:
-        baca.hairpin(o.rleaves(), "f > mf")
+        baca.spanners.hairpin(o.rleaves(), "f > mf")
         baca.text_spanner(o.rleaves(), "trans. => kn. rasg.")
     with baca.scope(m[20]) as o:
-        baca.hairpin(o.rleaves(), "mf < ff")
+        baca.spanners.hairpin(o.rleaves(), "mf < ff")
         baca.text_spanner(o.rleaves(), "trans. => nail. rasg.")
     with baca.scope(m[22]) as o:
-        baca.hairpin(o.rleaves(), "ff > mf")
+        baca.spanners.hairpin(o.rleaves(), "ff > mf")
         baca.text_spanner(o.rleaves(), "trans. => kn. rasg.")
     with baca.scope(m.get(24, 25)) as o:
-        baca.hairpin(o.rleaves(), "mf < ffff")
+        baca.spanners.hairpin(o.rleaves(), "mf < ffff")
         baca.text_spanner(o.rleaves(), "trans. => nail rasg.")
     with baca.scope(m[27]) as o:
-        baca.hairpin(o, "ffff >", bookend=False)
+        baca.spanners.hairpin(o, "ffff >")
     with baca.scope(m[28]) as o:
-        baca.hairpin(o, "ff <", bookend=False)
+        baca.spanners.hairpin(o, "ff <")
     with baca.scope(m[29]) as o:
-        baca.hairpin(o, "fff >", bookend=False)
+        baca.spanners.hairpin(o, "fff >")
     with baca.scope(m[30]) as o:
-        baca.hairpin(o, "f <", bookend=False)
+        baca.spanners.hairpin(o, "f <")
     with baca.scope(m[31]) as o:
-        baca.hairpin(o, "ff >", bookend=False)
+        baca.spanners.hairpin(o, "ff >")
     with baca.scope(m[32]) as o:
-        baca.hairpin(o, "mf <", bookend=False)
+        baca.spanners.hairpin(o, "mf <")
     with baca.scope(m[33]) as o:
-        baca.hairpin(o, "f >", bookend=False)
+        baca.spanners.hairpin(o, "f >")
     with baca.scope(m[34]) as o:
-        baca.hairpin(o, "mp <", bookend=False)
+        baca.spanners.hairpin(o, "mp <")
     with baca.scope(m[35]) as o:
-        baca.hairpin(o, "mf >", bookend=False)
+        baca.spanners.hairpin(o, "mf >")
     with baca.scope(m[36]) as o:
-        baca.hairpin(o, "p <", bookend=False)
+        baca.spanners.hairpin(o, "p <")
     with baca.scope(m[37]) as o:
-        baca.hairpin(o, "mp >", bookend=False)
+        baca.spanners.hairpin(o, "mp >")
     with baca.scope(m[38]) as o:
-        baca.hairpin(o, "pp <", bookend=False)
+        baca.spanners.hairpin(o, "pp <")
     with baca.scope(m[39]) as o:
-        baca.hairpin(o, "p >", bookend=False)
+        baca.spanners.hairpin(o, "p >")
     with baca.scope(m[40]) as o:
-        baca.hairpin(o, "ppp <", bookend=False)
+        baca.spanners.hairpin(o, "ppp <")
     with baca.scope(m[41]) as o:
-        baca.hairpin(o, "pp >", bookend=False)
+        baca.spanners.hairpin(o, "pp >")
     with baca.scope(m[42]) as o:
-        baca.hairpin(o, "pppp <", bookend=False)
+        baca.spanners.hairpin(o, "pppp <")
     with baca.scope(m[43]) as o:
-        baca.hairpin(o, "ppp >", bookend=False)
+        baca.spanners.hairpin(o, "ppp >")
     with baca.scope(m[44]) as o:
-        baca.hairpin(o, "ppppp <", bookend=False)
+        baca.spanners.hairpin(o, "ppppp <")
     with baca.scope(m[45]) as o:
-        baca.hairpin(o.rleaves(), "pppp >o niente")
+        baca.spanners.hairpin(o.rleaves(), "pppp >o niente")
     with baca.scope(m.get(27, 36)) as o:
         baca.text_spanner(o.rleaves(), "trans. => ponticello")
     with baca.scope(m.get(41, 45)) as o:

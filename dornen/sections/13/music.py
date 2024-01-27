@@ -125,36 +125,36 @@ def postprocess(cache):
         baca.stem_tremolo(o.pleaves())
     with baca.scope(m[2]) as o:
         baca.spanners.hairpin(o.rleaves(), "mp < mf")
-        baca.text_spanner(o.rleaves(), "tamb. tr. => kn. rasg.")
+        baca.piecewise.text(o.rleaves(), "tamb. tr. => kn. rasg.")
     with baca.scope(m[4]) as o:
         baca.spanners.hairpin(o.rleaves(), "mf > mp")
-        baca.text_spanner(o.rleaves(), "trans. => tamb. tr.")
+        baca.piecewise.text(o.rleaves(), "trans. => tamb. tr.")
     with baca.scope(m[7]) as o:
         baca.spanners.hairpin(o.rleaves(), "mp < f")
-        baca.text_spanner(o.rleaves(), "trans. => kn. rasg.")
+        baca.piecewise.text(o.rleaves(), "trans. => kn. rasg.")
     with baca.scope(m[9]) as o:
         baca.spanners.hairpin(o.rleaves(), "f > mp")
-        baca.text_spanner(o.rleaves(), "trans. => tamb. tr.")
+        baca.piecewise.text(o.rleaves(), "trans. => tamb. tr.")
     with baca.scope(m[12]) as o:
         baca.spanners.hairpin(o.rleaves(), "mp < ff")
-        baca.text_spanner(o.rleaves(), "trans. => kn. rasg.")
+        baca.piecewise.text(o.rleaves(), "trans. => kn. rasg.")
     with baca.scope(m[14]) as o:
         baca.spanners.hairpin(o.rleaves(), "ff > mf")
     with baca.scope(m[16]) as o:
         baca.spanners.hairpin(o.rleaves(), "mf < f")
-        baca.text_spanner(o.rleaves(), "trans. => nail rasg.")
+        baca.piecewise.text(o.rleaves(), "trans. => nail rasg.")
     with baca.scope(m[18]) as o:
         baca.spanners.hairpin(o.rleaves(), "f > mf")
-        baca.text_spanner(o.rleaves(), "trans. => kn. rasg.")
+        baca.piecewise.text(o.rleaves(), "trans. => kn. rasg.")
     with baca.scope(m[20]) as o:
         baca.spanners.hairpin(o.rleaves(), "mf < ff")
-        baca.text_spanner(o.rleaves(), "trans. => nail. rasg.")
+        baca.piecewise.text(o.rleaves(), "trans. => nail. rasg.")
     with baca.scope(m[22]) as o:
         baca.spanners.hairpin(o.rleaves(), "ff > mf")
-        baca.text_spanner(o.rleaves(), "trans. => kn. rasg.")
+        baca.piecewise.text(o.rleaves(), "trans. => kn. rasg.")
     with baca.scope(m.get(24, 25)) as o:
         baca.spanners.hairpin(o.rleaves(), "mf < ffff")
-        baca.text_spanner(o.rleaves(), "trans. => nail rasg.")
+        baca.piecewise.text(o.rleaves(), "trans. => nail rasg.")
     with baca.scope(m[27]) as o:
         baca.spanners.hairpin(o, "ffff >")
     with baca.scope(m[28]) as o:
@@ -194,9 +194,9 @@ def postprocess(cache):
     with baca.scope(m[45]) as o:
         baca.spanners.hairpin(o.rleaves(), "pppp >o niente")
     with baca.scope(m.get(27, 36)) as o:
-        baca.text_spanner(o.rleaves(), "trans. => ponticello")
+        baca.piecewise.text(o.rleaves(), "trans. => ponticello")
     with baca.scope(m.get(41, 45)) as o:
-        baca.text_spanner(o.rleaves(), "gradually slow rasgueado => still")
+        baca.piecewise.text(o.rleaves(), "gradually slow rasgueado => still")
         baca.override.text_script_staff_padding(o.rleaf(-1), 5.5)
     with baca.scope(m.leaves()) as o:
         baca.override.text_spanner_staff_padding(o, 5)

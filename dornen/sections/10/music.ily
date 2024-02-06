@@ -691,10 +691,8 @@ number.10.Guitar.Music.1 = {
         :32
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \ppp
           %! FIGURE_LABEL
         %@% - \tweak color #blue
@@ -758,10 +756,8 @@ number.10.Guitar.Music.1 = {
         :32
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \pp
           %! FIGURE_LABEL
         %@% - \tweak color #blue
@@ -830,10 +826,8 @@ number.10.Guitar.Music.1 = {
         :32
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \ppp
           %! FIGURE_LABEL
         %@% - \tweak color #blue
@@ -886,10 +880,8 @@ number.10.Guitar.Music.1 = {
         :32
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \p
           %! FIGURE_LABEL
         %@% - \tweak color #blue
@@ -958,10 +950,8 @@ number.10.Guitar.Music.1 = {
         :32
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \ppp
           %! FIGURE_LABEL
         %@% - \tweak color #blue
@@ -1014,10 +1004,8 @@ number.10.Guitar.Music.1 = {
         :32
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \pp
           %! FIGURE_LABEL
         %@% - \tweak color #blue
@@ -1069,10 +1057,8 @@ number.10.Guitar.Music.1 = {
         :32
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \p
           %! FIGURE_LABEL
         %@% - \tweak color #blue
@@ -1124,10 +1110,8 @@ number.10.Guitar.Music.1 = {
         :32
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \mp
           %! FIGURE_LABEL
         %@% - \tweak color #blue

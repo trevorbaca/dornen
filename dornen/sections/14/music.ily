@@ -1267,11 +1267,6 @@ number.14.Guitar.Music.1 = {
         \set Staff.forceClef = ##t
         d'32.
         - \tenuto
-          %! REAPPLIED_DYNAMIC_COLOR
-          %! REAPPLIED_DYNAMIC
-        - \tweak color #(x11-color 'green4)
-          %! REAPPLIED_DYNAMIC
-        _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))
           %! FIGURE_LABEL
         %@% - \tweak color #blue
           %! FIGURE_LABEL

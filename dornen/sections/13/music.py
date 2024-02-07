@@ -192,7 +192,7 @@ def postprocess(cache):
     with baca.scope(m[44]) as o:
         baca.spanners.hairpin(o, "ppppp <")
     with baca.scope(m[45]) as o:
-        baca.spanners.hairpin(o.rleaves(), "pppp >o niente")
+        baca.spanners.hairpin(o.rleaves(), "pppp >o !")
     with baca.scope(m.get(27, 36)) as o:
         baca.piecewise.text(o.rleaves(), "trans. => ponticello")
     with baca.scope(m.get(41, 45)) as o:

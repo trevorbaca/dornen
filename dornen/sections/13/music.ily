@@ -2989,15 +2989,12 @@ number.13.Guitar.Music.1 = {
         % [Guitar.Music.1 measure 46]
         \once \override TextScript.staff-padding = 5.5
         r8
-          %! EXPLICIT_DYNAMIC_COLOR
-          %! EXPLICIT_DYNAMIC
-        - \tweak color #blue
-          %! EXPLICIT_DYNAMIC
-        \!
           %! FIGURE_LABEL
         %@% - \tweak color #blue
           %! FIGURE_LABEL
         %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (46) \hspace #1 \concat { "4" \sub 36 } ] }
+          %! SPANNER_STOP
+        \!
           %! SPANNER_STOP
         \stopTextSpan
 

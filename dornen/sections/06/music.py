@@ -133,7 +133,7 @@ def postprocess(cache):
     m = cache[library.v3]
 
     @baca.call(m.get(1, 7))
-    def _(o):
+    def block(o):
         baca.accent(baca.select.pheads(o))
         baca.override.script_down(o)
         baca.register(o, -20)
@@ -141,7 +141,7 @@ def postprocess(cache):
     m = cache[library.v4]
 
     @baca.call(m.get(1, 7))
-    def _(o):
+    def block(o):
         baca.staccato(baca.select.pheads(o))
         baca.override.beam_positions(o, 5.5)
         baca.register(o, -4)

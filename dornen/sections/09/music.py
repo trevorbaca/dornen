@@ -189,17 +189,17 @@ def postprocess(cache):
     m = cache[library.v1]
 
     @baca.call(m.get(1, 8))
-    def _(o):
+    def block(o):
         baca.override.beam_positions(o, 6)
 
     @baca.call(m.get(9, 18))
-    def _(o):
+    def block(o):
         baca.override.beam_positions(o, 8)
 
     m = cache[library.v3]
 
     @baca.call(m.get(1, 18))
-    def _(o):
+    def block(o):
         baca.override.beam_positions(o, -4)
 
 

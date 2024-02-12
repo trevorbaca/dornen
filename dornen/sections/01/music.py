@@ -216,13 +216,13 @@ def GLOBALS(skips):
 
 def postprocess(cache):
     @baca.call(cache[library.v1][1])
-    def _(o):
+    def block(o):
         leaf = abjad.select.leaf(o, 0)
         baca.instrument(leaf, "Guitar", library.manifests)
         baca.clef(leaf, "treble")
 
     @baca.call(cache[library.v3][18, 19])
-    def _(o):
+    def block(o):
         baca.register(o, 0, -12)
 
 

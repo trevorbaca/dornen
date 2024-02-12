@@ -130,20 +130,20 @@ def postprocess(cache):
     m = cache[library.v1]
 
     @baca.call(m.get(1, 12))
-    def _(o):
+    def block(o):
         baca.register(o, -8)
         baca.displacement(o, [0, 1])
 
     m = cache[library.v2]
 
     @baca.call(m.get(1, 12))
-    def _(o):
+    def block(o):
         baca.register(o, -20, 4)
 
     m = cache[library.v4]
 
     @baca.call(m.get(1, 12))
-    def _(o):
+    def block(o):
         baca.override.beam_positions(o, 8)
         baca.register(o, -18, 6)
 

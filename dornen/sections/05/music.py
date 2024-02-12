@@ -266,7 +266,7 @@ def postprocess(cache):
     m = cache[library.v1]
 
     @baca.call(m.leaves())
-    def _(o):
+    def block(o):
         baca.tenuto(baca.select.pheads(o))
         baca.override.beam_positions(o, 10)
         baca.register(o, -12)
@@ -274,35 +274,35 @@ def postprocess(cache):
     m = cache[library.v2]
 
     @baca.call(m.get(1, 22))
-    def _(o):
+    def block(o):
         baca.override.beam_positions(o, -5.5)
         baca.register(o, 4)
 
     @baca.call(m.get(25, 30))
-    def _(o):
+    def block(o):
         baca.override.beam_positions(o, -5.5)
         baca.register(o, 4)
 
     m = cache[library.v3]
 
     @baca.call(m.leaves())
-    def _(o):
+    def block(o):
         baca.register(o, -20)
         baca.accent(baca.select.pheads(o))
         baca.override.script_down(o)
 
     @baca.call(m.get(3))
-    def _(o):
+    def block(o):
         baca.override.beam_positions(o, -9)
 
     @baca.call(m.get(17))
-    def _(o):
+    def block(o):
         baca.override.beam_positions(o, -12)
 
     m = cache[library.v4]
 
     @baca.call(m.leaves())
-    def _(o):
+    def block(o):
         baca.staccato(baca.select.pheads(o))
         baca.override.beam_positions(o, 5.5)
         baca.register(o, -4)

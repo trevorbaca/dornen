@@ -73,63 +73,67 @@ def postprocess(cache):
     m = cache[library.v1]
 
     @baca.call(m.leaves())
-    def _(o):
+    def block(o):
         baca.register(o, -20)
         for qrun in baca.select.qruns(o):
             baca.repeat_tie(qrun[1:])
         baca.stem_tremolo(baca.select.pleaves(o))
 
     @baca.call(m.get(2, 3))
-    def _(o):
+    def block(o):
         baca.spanners.hairpin(o, "pp < p")
 
     @baca.call(m.get(4, 5))
-    def _(o):
+    def block(o):
         baca.spanners.hairpin(o, "p > pp")
 
     @baca.call(m.get(7, 8))
-    def _(o):
+    def block(o):
         baca.spanners.hairpin(o, "pp < mp")
 
     @baca.call(m.get(9, 10))
-    def _(o):
+    def block(o):
         baca.spanners.hairpin(o, "mp > pp")
 
     @baca.call(baca.select.rleaves(m[12]))
-    def _(o):
+    def block(o):
         baca.spanners.hairpin(o, "pp < p")
-        baca.mspanners.text([o], "trans. => kn. rasg.")
+        baca.mspanners.text(
+            [o],
+            "trans. => kn. rasg.",
+            do_not_rleak=True,
+        )
 
     @baca.call(baca.select.rleaves(m[14]))
-    def _(o):
+    def block(o):
         baca.spanners.hairpin(o, "p > pp")
         baca.mspanners.text([o], "trans. => tamb. tr.")
 
     @baca.call(baca.select.rleaves(m[16]))
-    def _(o):
+    def block(o):
         baca.spanners.hairpin(o, "pp < mp")
         baca.mspanners.text([o], "trans. => kn. rasg.")
 
     @baca.call(m[18])
-    def _(o):
+    def block(o):
         baca.spanners.hairpin(baca.select.rleaves(o), "mp > pp")
         baca.mspanners.text([baca.select.rleaves(o)], "trans. => tamb. tr.")
 
     @baca.call(m[20])
-    def _(o):
+    def block(o):
         baca.mspanners.text([baca.select.rleaves(o)], "trans. => kn. rasg.")
 
     @baca.call(baca.select.rleaves(m.get(22, 24)))
-    def _(o):
+    def block(o):
         baca.spanners.hairpin(o, "mf > p")
         baca.mspanners.text([o], "trans. => tamb. tr.")
 
     @baca.call(m.get(1, 11))
-    def _(o):
+    def block(o):
         baca.override.text_script_staff_padding(o, 5)
 
     @baca.call(m.get(12, 25))
-    def _(o):
+    def block(o):
         baca.override.text_spanner_staff_padding(o, 5)
         baca.override.text_script_staff_padding(o, 8)
 

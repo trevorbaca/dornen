@@ -95,58 +95,34 @@ def postprocess(cache):
     def block(o):
         baca.spanners.hairpin(o, "mp > pp")
 
-    @baca.call(baca.select.rleaves(m[12]))
+    @baca.call(m[12])
     def block(o):
-        baca.spanners.hairpin(o, "pp < p")
-        baca.mspanners.text(
-            [o],
-            "trans. => kn. rasg.",
-            do_not_rleak=True,
-        )
+        baca.spanners.hairpin(o, "pp < p", rleak=True)
+        baca.mspanners.text([o], "trans. => kn. rasg.")
 
-    @baca.call(baca.select.rleaves(m[14]))
+    @baca.call(m[14])
     def block(o):
-        baca.spanners.hairpin(o, "p > pp")
-        baca.mspanners.text(
-            [o],
-            "trans. => tamb. tr.",
-            do_not_rleak=True,
-        )
+        baca.spanners.hairpin(o, "p > pp", rleak=True)
+        baca.mspanners.text([o], "trans. => tamb. tr.")
 
-    @baca.call(baca.select.rleaves(m[16]))
+    @baca.call(m[16])
     def block(o):
-        baca.spanners.hairpin(o, "pp < mp")
-        baca.mspanners.text(
-            [o],
-            "trans. => kn. rasg.",
-            do_not_rleak=True,
-        )
+        baca.spanners.hairpin(o, "pp < mp", rleak=True)
+        baca.mspanners.text([o], "trans. => kn. rasg.")
 
     @baca.call(m[18])
     def block(o):
-        baca.spanners.hairpin(baca.select.rleaves(o), "mp > pp")
-        baca.mspanners.text(
-            [baca.select.rleaves(o)],
-            "trans. => tamb. tr.",
-            do_not_rleak=True,
-        )
+        baca.spanners.hairpin(o, "mp > pp", rleak=True)
+        baca.mspanners.text([o], "trans. => tamb. tr.")
 
     @baca.call(m[20])
     def block(o):
-        baca.mspanners.text(
-            [baca.select.rleaves(o)],
-            "trans. => kn. rasg.",
-            do_not_rleak=True,
-        )
+        baca.mspanners.text(o, "trans. => kn. rasg.")
 
-    @baca.call(baca.select.rleaves(m.get(22, 24)))
+    @baca.call(m.get(22, 24))
     def block(o):
-        baca.spanners.hairpin(o, "mf > p")
-        baca.mspanners.text(
-            [o],
-            "trans. => tamb. tr.",
-            do_not_rleak=True,
-        )
+        baca.spanners.hairpin(o, "mf > p", rleak=True)
+        baca.mspanners.text([o], "trans. => tamb. tr.")
 
     @baca.call(m.get(1, 11))
     def block(o):

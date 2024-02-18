@@ -73,21 +73,21 @@ def postprocess(cache):
             baca.repeat_tie(qrun[1:])
         baca.stem_tremolo(o.pleaves())
     with baca.scope(m[2]) as o:
-        baca.hairpinlib.exact(o, "ppp<pp", rleak=True)
+        baca.hairpins.exact(o, "ppp<pp", rleak=True)
     with baca.scope(m[4]) as o:
-        baca.hairpinlib.exact(o, "pp>ppp", rleak=True)
+        baca.hairpins.exact(o, "pp>ppp", rleak=True)
     with baca.scope(m[7]) as o:
-        baca.hairpinlib.exact(o, "ppp<p", rleak=True)
+        baca.hairpins.exact(o, "ppp<p", rleak=True)
     with baca.scope(m[9]) as o:
-        baca.hairpinlib.exact(o, "p>ppp", rleak=True)
+        baca.hairpins.exact(o, "p>ppp", rleak=True)
     with baca.scope(m[12]) as o:
-        baca.hairpinlib.exact(o, "ppp<pp", rleak=True)
+        baca.hairpins.exact(o, "ppp<pp", rleak=True)
     with baca.scope(m[14]) as o:
-        baca.hairpinlib.exact(o, "pp<p", rleak=True)
+        baca.hairpins.exact(o, "pp<p", rleak=True)
     with baca.scope(m[16]) as o:
-        baca.hairpinlib.exact(o, "p<mp", rleak=True)
+        baca.hairpins.exact(o, "p<mp", rleak=True)
     with baca.scope(m.get(18, 21)) as o:
-        baca.hairpinlib.exact(o, "mp>pp", rleak=True)
+        baca.hairpins.exact(o, "mp>pp", rleak=True)
     with baca.scope(m.leaves()) as o:
         baca.override.text_script_staff_padding(o, 5)
 

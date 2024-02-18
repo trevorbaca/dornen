@@ -81,38 +81,38 @@ def postprocess(cache):
 
     @baca.call(m.get(2, 3))
     def block(o):
-        baca.spanners.hairpin(o, "pp < p")
+        baca.hairpinlib.exact(o, "pp<p")
 
     @baca.call(m.get(4, 5))
     def block(o):
-        baca.spanners.hairpin(o, "p > pp")
+        baca.hairpinlib.exact(o, "p>pp")
 
     @baca.call(m.get(7, 8))
     def block(o):
-        baca.spanners.hairpin(o, "pp < mp")
+        baca.hairpinlib.exact(o, "pp<mp")
 
     @baca.call(m.get(9, 10))
     def block(o):
-        baca.spanners.hairpin(o, "mp > pp")
+        baca.hairpinlib.exact(o, "mp>pp")
 
     @baca.call(m[12])
     def block(o):
-        baca.spanners.hairpin(o, "pp < p", rleak=True)
+        baca.hairpinlib.exact(o, "pp<p", rleak=True)
         baca.mspanners.text([o], "trans. => kn. rasg.")
 
     @baca.call(m[14])
     def block(o):
-        baca.spanners.hairpin(o, "p > pp", rleak=True)
+        baca.hairpinlib.exact(o, "p>pp", rleak=True)
         baca.mspanners.text([o], "trans. => tamb. tr.")
 
     @baca.call(m[16])
     def block(o):
-        baca.spanners.hairpin(o, "pp < mp", rleak=True)
+        baca.hairpinlib.exact(o, "pp<mp", rleak=True)
         baca.mspanners.text([o], "trans. => kn. rasg.")
 
     @baca.call(m[18])
     def block(o):
-        baca.spanners.hairpin(o, "mp > pp", rleak=True)
+        baca.hairpinlib.exact(o, "mp>pp", rleak=True)
         baca.mspanners.text([o], "trans. => tamb. tr.")
 
     @baca.call(m[20])
@@ -121,7 +121,7 @@ def postprocess(cache):
 
     @baca.call(m.get(22, 24))
     def block(o):
-        baca.spanners.hairpin(o, "mf > p", rleak=True)
+        baca.hairpinlib.exact(o, "mf>p", rleak=True)
         baca.mspanners.text([o], "trans. => tamb. tr.")
 
     @baca.call(m.get(1, 11))

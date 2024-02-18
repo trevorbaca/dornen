@@ -124,75 +124,75 @@ def postprocess(cache):
             baca.repeat_tie(qurn[1:])
         baca.stem_tremolo(o.pleaves())
     with baca.scope(m[2]) as o:
-        baca.hairpinlib.exact(o, "mp<mf", rleak=True)
+        baca.hairpins.exact(o, "mp<mf", rleak=True)
         baca.mspanners.text([o], "tamb. tr. => kn. rasg.")
     with baca.scope(m[4]) as o:
-        baca.hairpinlib.exact(o, "mf>mp", rleak=True)
+        baca.hairpins.exact(o, "mf>mp", rleak=True)
         baca.mspanners.text([o], "trans. => tamb. tr.")
     with baca.scope(m[7]) as o:
-        baca.hairpinlib.exact(o, "mp<f", rleak=True)
+        baca.hairpins.exact(o, "mp<f", rleak=True)
         baca.mspanners.text([o], "trans. => kn. rasg.")
     with baca.scope(m[9]) as o:
-        baca.hairpinlib.exact(o, "f>mp", rleak=True)
+        baca.hairpins.exact(o, "f>mp", rleak=True)
         baca.mspanners.text([o], "trans. => tamb. tr.")
     with baca.scope(m[12]) as o:
-        baca.hairpinlib.exact(o, "mp<ff", rleak=True)
+        baca.hairpins.exact(o, "mp<ff", rleak=True)
         baca.mspanners.text([o], "trans. => kn. rasg.")
     with baca.scope(m[14]) as o:
-        baca.hairpinlib.exact(o, "ff>mf", rleak=True)
+        baca.hairpins.exact(o, "ff>mf", rleak=True)
     with baca.scope(m[16]) as o:
-        baca.hairpinlib.exact(o, "mf<f", rleak=True)
+        baca.hairpins.exact(o, "mf<f", rleak=True)
         baca.mspanners.text([o], "trans. => nail rasg.")
     with baca.scope(m[18]) as o:
-        baca.hairpinlib.exact(o, "f>mf", rleak=True)
+        baca.hairpins.exact(o, "f>mf", rleak=True)
         baca.mspanners.text([o], "trans. => kn. rasg.")
     with baca.scope(m[20]) as o:
-        baca.hairpinlib.exact(o, "mf<ff", rleak=True)
+        baca.hairpins.exact(o, "mf<ff", rleak=True)
         baca.mspanners.text([o], "trans. => nail. rasg.")
     with baca.scope(m[22]) as o:
-        baca.hairpinlib.exact(o, "ff>mf", rleak=True)
+        baca.hairpins.exact(o, "ff>mf", rleak=True)
         baca.mspanners.text([o], "trans. => kn. rasg.")
     with baca.scope(m.get(24, 25)) as o:
-        baca.hairpinlib.exact(o, "mf<ffff", rleak=True)
+        baca.hairpins.exact(o, "mf<ffff", rleak=True)
         baca.mspanners.text([o], "trans. => nail rasg.")
     with baca.scope(m[27]) as o:
-        baca.hairpinlib.exact(o, "ffff>")
+        baca.hairpins.exact(o, "ffff>")
     with baca.scope(m[28]) as o:
-        baca.hairpinlib.exact(o, "ff<")
+        baca.hairpins.exact(o, "ff<")
     with baca.scope(m[29]) as o:
-        baca.hairpinlib.exact(o, "fff>")
+        baca.hairpins.exact(o, "fff>")
     with baca.scope(m[30]) as o:
-        baca.hairpinlib.exact(o, "f<")
+        baca.hairpins.exact(o, "f<")
     with baca.scope(m[31]) as o:
-        baca.hairpinlib.exact(o, "ff>")
+        baca.hairpins.exact(o, "ff>")
     with baca.scope(m[32]) as o:
-        baca.hairpinlib.exact(o, "mf<")
+        baca.hairpins.exact(o, "mf<")
     with baca.scope(m[33]) as o:
-        baca.hairpinlib.exact(o, "f>")
+        baca.hairpins.exact(o, "f>")
     with baca.scope(m[34]) as o:
-        baca.hairpinlib.exact(o, "mp<")
+        baca.hairpins.exact(o, "mp<")
     with baca.scope(m[35]) as o:
-        baca.hairpinlib.exact(o, "mf>")
+        baca.hairpins.exact(o, "mf>")
     with baca.scope(m[36]) as o:
-        baca.hairpinlib.exact(o, "p<")
+        baca.hairpins.exact(o, "p<")
     with baca.scope(m[37]) as o:
-        baca.hairpinlib.exact(o, "mp>")
+        baca.hairpins.exact(o, "mp>")
     with baca.scope(m[38]) as o:
-        baca.hairpinlib.exact(o, "pp<")
+        baca.hairpins.exact(o, "pp<")
     with baca.scope(m[39]) as o:
-        baca.hairpinlib.exact(o, "p>")
+        baca.hairpins.exact(o, "p>")
     with baca.scope(m[40]) as o:
-        baca.hairpinlib.exact(o, "ppp<")
+        baca.hairpins.exact(o, "ppp<")
     with baca.scope(m[41]) as o:
-        baca.hairpinlib.exact(o, "pp>")
+        baca.hairpins.exact(o, "pp>")
     with baca.scope(m[42]) as o:
-        baca.hairpinlib.exact(o, "pppp<")
+        baca.hairpins.exact(o, "pppp<")
     with baca.scope(m[43]) as o:
-        baca.hairpinlib.exact(o, "ppp>")
+        baca.hairpins.exact(o, "ppp>")
     with baca.scope(m[44]) as o:
-        baca.hairpinlib.exact(o, "ppppp<")
+        baca.hairpins.exact(o, "ppppp<")
     with baca.scope(m[45]) as o:
-        baca.hairpinlib.exact(o, "pppp>o!", rleak=True)
+        baca.hairpins.exact(o, "pppp>o!", rleak=True)
     with baca.scope(m.get(27, 36)) as o:
         baca.mspanners.text([o], "trans. => ponticello")
     with baca.scope(m.get(41, 45)) as o:

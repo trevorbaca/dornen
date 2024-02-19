@@ -77,34 +77,34 @@ def postprocess(cache):
             baca.repeat_tie(qrun[1:])
         baca.stem_tremolo(o.pleaves())
     with baca.scope(m[2]) as o:
-        baca.hairpins.exact(o, "p<mp", rleak=True)
+        baca.hairpin(o, "p<mp", rleak=True)
         baca.mspanners.text([o], "tamb. tr. => kn. rasg.")
     with baca.scope(m[4]) as o:
-        baca.hairpins.exact(o, "mp>p", rleak=True)
+        baca.hairpin(o, "mp>p", rleak=True)
         baca.mspanners.text([o], "trans. => tamb. tr.")
     with baca.scope(m[7]) as o:
-        baca.hairpins.exact(o, "p<mf", rleak=True)
+        baca.hairpin(o, "p<mf", rleak=True)
         baca.mspanners.text([o], "trans. => kn. rasg.")
     with baca.scope(m[9]) as o:
-        baca.hairpins.exact(o, "mf>p", rleak=True)
+        baca.hairpin(o, "mf>p", rleak=True)
         baca.mspanners.text([o], "trans. => tamb. tr.")
     with baca.scope(m[12]) as o:
-        baca.hairpins.exact(o, "p<mp", rleak=True)
+        baca.hairpin(o, "p<mp", rleak=True)
         baca.mspanners.text([o], "trans. => kn. rasg.")
     with baca.scope(m[14]) as o:
-        baca.hairpins.exact(o, "mp>p", rleak=True)
+        baca.hairpin(o, "mp>p", rleak=True)
         baca.mspanners.text([o], "trans. => tamb. tr.")
     with baca.scope(m[16]) as o:
-        baca.hairpins.exact(o, "p<mf", rleak=True)
+        baca.hairpin(o, "p<mf", rleak=True)
         baca.mspanners.text([o], "trans. => kn. rasg.")
     with baca.scope(m[18]) as o:
-        baca.hairpins.exact(o, "mf>p", rleak=True)
+        baca.hairpin(o, "mf>p", rleak=True)
         baca.mspanners.text([o], "trans. => tamb. tr.")
     with baca.scope(m[20]) as o:
-        baca.hairpins.exact(o, "p<f", rleak=True)
+        baca.hairpin(o, "p<f", rleak=True)
         baca.mspanners.text([o], "trans. => kn. rasg.")
     with baca.scope(m.get(22, 24)) as o:
-        baca.hairpins.exact(o, "f>mp", rleak=True)
+        baca.hairpin(o, "f>mp", rleak=True)
         baca.mspanners.text([o], "trans. => tamb. tr.")
     with baca.scope(m.leaves()) as o:
         baca.override.text_spanner_staff_padding(o, 5)

@@ -487,7 +487,7 @@ def make_glissando_scatto(collection):
     voice = abjad.Voice([tuplet])
     rmakers.beam_groups([tuplet])
     for ntrun in baca.select.ntruns(tuplet):
-        baca.glissando(ntrun)
+        baca.basic_glissando(ntrun)
     tuplets = abjad.mutate.eject_contents(voice)
     tuplet = tuplets[0]
     return tuplet, 16

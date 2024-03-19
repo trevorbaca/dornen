@@ -51,7 +51,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         assert collection == [3, 6, 5]
         tuplet, tsd = library.make_twentieths(collection)
         baca.override.beam_positions(tuplet, 6)
-        baca.override.stem_up(baca.select.pleaves(tuplet))
+        baca.override.stem_direction_up(baca.select.pleaves(tuplet))
         accumulator(library.v4, tuplet, tsd, "20_2")
 
     @baca.call
@@ -159,7 +159,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         assert collection == [3, 6, 5]
         tuplet, tsd = library.make_twentieths(collection)
         baca.override.beam_positions(tuplet, 6)
-        baca.override.stem_up(baca.select.pleaves(tuplet))
+        baca.override.stem_direction_up(baca.select.pleaves(tuplet))
         accumulator(library.v4, tuplet, tsd, "20_2*")
 
     @baca.call
@@ -207,7 +207,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
             baca.select.pleaf(tuplets, 0), r"\dornen-two-finger-tamb-trill-markup"
         )
         baca.stem_tremolo(baca.select.pleaves(tuplets))
-        baca.override.stem_up(baca.select.pleaves(tuplets))
+        baca.override.stem_direction_up(baca.select.pleaves(tuplets))
         baca.override.tuplet_bracket_staff_padding(tuplets, 0)
         baca.override.tuplet_bracket_extra_offset(tuplets, (0, -0.5))
         baca.override.tuplet_number_extra_offset(tuplets, (0, -0.5))
@@ -289,7 +289,7 @@ def postprocess(cache):
     def block(o):
         baca.register(o, -20)
         baca.accent(baca.select.pheads(o))
-        baca.override.script_down(o)
+        baca.override.script_direction_down(o)
 
     @baca.call(m.get(3))
     def block(o):

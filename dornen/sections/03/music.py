@@ -31,7 +31,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         tuplets, tsd = library.make_graced_tuplets([collection])
         baca.override.beam_positions(tuplets, 12)
         pleaves = baca.select.pleaves(tuplets)
-        baca.override.stem_up(pleaves)
+        baca.override.stem_direction_up(pleaves)
         baca.register(tuplets, 0)
         library.extend_beam(tuplets)
         accumulator(library.v4, tuplets, tsd, "G1_1")
@@ -53,7 +53,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         assert collection == [5]
         tuplets, tsd = library.make_graced_tuplets([collection])
         pleaves = baca.select.pleaves(tuplets)
-        baca.override.stem_up(pleaves)
+        baca.override.stem_direction_up(pleaves)
         baca.register(tuplets, 0)
         library.extend_beam(tuplets)
         accumulator(library.v4, tuplets, tsd, "G1_1*")
@@ -73,7 +73,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         assert collection == [5, 11, 6]
         tuplets, tsd = library.make_graced_tuplets([collection])
         pleaves = baca.select.pleaves(tuplets)
-        baca.override.stem_up(pleaves)
+        baca.override.stem_direction_up(pleaves)
         baca.register(tuplets, 0)
         library.extend_beam(tuplets)
         accumulator(library.v4, tuplets, tsd, "G1_2")
@@ -93,7 +93,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         assert collection == [5, 11, 6]
         tuplets, tsd = library.make_graced_tuplets([collection])
         pleaves = baca.select.pleaves(tuplets)
-        baca.override.stem_up(pleaves)
+        baca.override.stem_direction_up(pleaves)
         baca.register(tuplets, 0)
         accumulator(library.v4, tuplets, tsd, "G1_3")
 
@@ -103,7 +103,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         tuplet, tsd = library.make_delicatissimo(collection)
         baca.override.beam_positions(tuplet, -6.5)
         pleaves = baca.select.pleaves(tuplet)
-        baca.override.stem_down(pleaves)
+        baca.override.stem_direction_down(pleaves)
         library.extend_beam(tuplet)
         accumulator(library.v1, tuplet, tsd, "D1_1")
 
@@ -114,7 +114,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         tuplets, tsd = library.make_graced_tuplets([collection])
         baca.override.beam_positions(tuplets, 12)
         pleaves = baca.select.pleaves(tuplets)
-        baca.override.stem_up(pleaves)
+        baca.override.stem_direction_up(pleaves)
         baca.register(tuplets, 0)
         library.extend_beam(tuplets)
         accumulator(library.v4, tuplets, tsd, "G1_4")
@@ -125,7 +125,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         tuplet, tsd = library.make_delicatissimo(collection)
         baca.override.beam_positions(tuplet, -6.5)
         pleaves = baca.select.pleaves(tuplet)
-        baca.override.stem_down(pleaves)
+        baca.override.stem_direction_down(pleaves)
         library.extend_beam(tuplet)
         accumulator(library.v1, tuplet, tsd, "D1_2")
 
@@ -135,7 +135,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         assert collection == [5, 11, 6, 2, 0]
         tuplets, tsd = library.make_graced_tuplets([collection])
         pleaves = baca.select.pleaves(tuplets)
-        baca.override.stem_up(pleaves)
+        baca.override.stem_direction_up(pleaves)
         baca.register(tuplets, 0)
         library.extend_beam(tuplets)
         accumulator(library.v4, tuplets, tsd, "G1_5")
@@ -145,7 +145,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         collection = cell_d1[:10]
         tuplet, tsd = library.make_delicatissimo(collection)
         baca.override.beam_positions(tuplet, -6.5)
-        baca.override.stem_down(tuplet)
+        baca.override.stem_direction_down(tuplet)
         accumulator(library.v1, tuplet, tsd, "D1_3")
 
     @baca.call
@@ -165,7 +165,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         assert collection == [5, 11, 6]
         tuplets, tsd = library.make_graced_tuplets([collection])
         pleaves = baca.select.pleaves(tuplets)
-        baca.override.stem_up(pleaves)
+        baca.override.stem_direction_up(pleaves)
         baca.register(tuplets, 0)
         library.extend_beam(tuplets)
         accumulator(library.v4, tuplets, tsd, "G1_6")
@@ -177,7 +177,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         tuplets, tsd = library.make_waves([collection], denominator=64)
         baca.override.beam_positions(tuplets, 7)
         pleaves = baca.select.pleaves(tuplets)
-        baca.override.stem_up(pleaves)
+        baca.override.stem_direction_up(pleaves)
         baca.register(tuplets, 0, -14)
         accumulator(library.v1, tuplets, tsd, "W2*")
 
@@ -187,7 +187,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         tuplet, tsd = library.make_delicatissimo(collection)
         baca.override.beam_positions(tuplet, -6.5)
         pleaves = baca.select.pleaves(tuplet)
-        baca.override.stem_down(pleaves)
+        baca.override.stem_direction_down(pleaves)
         library.extend_beam(tuplet)
         accumulator(library.v1, tuplet, tsd, "D1_4")
 
@@ -198,7 +198,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         tuplets, tsd = library.make_graced_tuplets([collection])
         baca.override.beam_positions(tuplets, 6)
         pleaves = baca.select.pleaves(tuplets)
-        baca.override.stem_up(pleaves)
+        baca.override.stem_direction_up(pleaves)
         baca.register(tuplets, 0, -14)
         library.extend_beam(tuplets)
         accumulator(library.v4, tuplets, tsd, "G1_7")
@@ -209,7 +209,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         tuplet, tsd = library.make_delicatissimo(collection)
         baca.override.beam_positions(tuplet, -6.5)
         pleaves = baca.select.pleaves(tuplet)
-        baca.override.stem_down(pleaves)
+        baca.override.stem_direction_down(pleaves)
         accumulator(library.v1, tuplet, tsd, "D1_5")
 
     @baca.call
@@ -227,7 +227,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         tuplets, tsd = library.make_graced_tuplets(collections)
         baca.override.beam_positions(tuplets, 6)
         pleaves = baca.select.pleaves(tuplets)
-        baca.override.stem_up(pleaves)
+        baca.override.stem_direction_up(pleaves)
         baca.register(tuplets, 0, -14)
         accumulator(library.v4, tuplets, tsd, "G1_8")
 
@@ -248,7 +248,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         tuplet, tsd = library.make_delicatissimo(collection)
         baca.override.beam_positions(tuplet, -6.5)
         pleaves = baca.select.pleaves(tuplet)
-        baca.override.stem_down(pleaves)
+        baca.override.stem_direction_down(pleaves)
         accumulator(library.v1, tuplet, tsd, "D1_6")
 
     @baca.call
@@ -258,8 +258,8 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         baca.override.beam_positions(tuplet, -6.5)
         tuplet = baca.nest([tuplet], "3:2")
         pleaves = baca.select.pleaves(tuplet)
-        baca.override.stem_down(pleaves)
-        baca.override.tuplet_bracket_up(tuplet)
+        baca.override.stem_direction_down(pleaves)
+        baca.override.tuplet_bracket_direction_up(tuplet)
         accumulator(library.v1, tuplet, tsd, "D1_7")
 
     @baca.call
@@ -269,7 +269,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         tuplet, tsd = library.make_delicatissimo(collection)
         baca.override.beam_positions(tuplet, -6.5)
         pleaves = baca.select.pleaves(tuplet)
-        baca.override.stem_down(pleaves)
+        baca.override.stem_direction_down(pleaves)
         baca.register(tuplet, 6, -20)
         accumulator(library.v1, tuplet, tsd, "D2")
 
@@ -340,7 +340,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         tuplets, tsd = library.make_waves([collection], denominator=64)
         baca.override.beam_positions(tuplets, 7)
         pleaves = baca.select.pleaves(tuplets)
-        baca.override.stem_up(pleaves)
+        baca.override.stem_direction_up(pleaves)
         baca.register(tuplets, 0, -14)
         accumulator(library.v1, tuplets, tsd, "W2**")
 
@@ -351,7 +351,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         tuplet, tsd = library.make_delicatissimo(collection)
         baca.override.beam_positions(tuplet, -6.5)
         pleaves = baca.select.pleaves(tuplet)
-        baca.override.stem_down(pleaves)
+        baca.override.stem_direction_down(pleaves)
         baca.register(tuplet, 6, -20)
         accumulator(library.v1, tuplet, tsd, "D2*")
 

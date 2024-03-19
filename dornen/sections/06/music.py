@@ -135,7 +135,7 @@ def postprocess(cache):
     @baca.call(m.get(1, 7))
     def block(o):
         baca.accent(baca.select.pheads(o))
-        baca.override.script_down(o)
+        baca.override.script_direction_down(o)
         baca.register(o, -20)
 
     m = cache[library.v4]

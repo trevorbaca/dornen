@@ -1059,7 +1059,7 @@ number.3.Rests = {
 
 number.3.Guitar.Music.1 = {
 
-    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { 8 ~ 64 }
+    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) { \rhythm { 8 } + \rhythm { 64 } }
     \times 1/1
     {
 
@@ -1357,7 +1357,7 @@ number.3.Guitar.Music.1 = {
     % [Guitar.Music.1 measure 15]
     s1 * 1/7
 
-    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { 8. ~ 64 }
+    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) { \rhythm { 8. } + \rhythm { 64 } }
     \times 1/1
     {
 
@@ -1851,7 +1851,7 @@ number.3.Guitar.Music.1 = {
     % [Guitar.Music.1 measure 32]
     s1 * 7/32
 
-    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { 8. ~ 64 }
+    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) { \rhythm { 8. } + \rhythm { 64 } }
     \times 1/1
     {
 

@@ -634,7 +634,7 @@ number.4.Guitar.Music.1 = {
     }
     \revert TupletNumber.text
 
-    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { 8 ~ 32 }
+    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) { \rhythm { 8 } + \rhythm { 32 } }
     \times 1/1
     {
 
@@ -703,7 +703,7 @@ number.4.Guitar.Music.1 = {
     }
     \revert TupletNumber.text
 
-    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { 16 ~ 64 }
+    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) { \rhythm { 16 } + \rhythm { 64 } }
     \times 1/1
     {
 
@@ -733,7 +733,7 @@ number.4.Guitar.Music.1 = {
     }
     \revert TupletNumber.text
 
-    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { 8 ~ 32. }
+    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) { \rhythm { 8 } + \rhythm { 32. } }
     \times 1/1
     {
 
@@ -863,7 +863,7 @@ number.4.Guitar.Music.1 = {
     % [Guitar.Music.1 measure 10]
     s1 * 5/32
 
-    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { 8 ~ 32 }
+    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) { \rhythm { 8 } + \rhythm { 32 } }
     \times 1/1
     {
 
@@ -928,7 +928,7 @@ number.4.Guitar.Music.1 = {
     s1 * 1/8
     \revert Beam.positions
 
-    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { 8 ~ 32 }
+    \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) { \rhythm { 8 } + \rhythm { 32 } }
     \times 1/1
     {
 

@@ -936,7 +936,7 @@ number.5.Guitar.Music.1 = {
           %! FIGURE_LABEL
         %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (1) \hspace #1 \concat { "48" \sub 1 } ] }
           %! REAPPLIED_INSTRUMENT_ALERT
-        ^ \baca-reapplied-instrument-markup "(“Guitar”)"
+        %@% ^ \baca-reapplied-instrument-markup "(“Guitar”)"
         ^ \dornen-slurs-fluid-all-other-parts-markup
         [
           %! REAPPLIED_CLEF_REDRAW_COLOR

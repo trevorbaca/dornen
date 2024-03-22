@@ -507,7 +507,7 @@ number.2.Guitar.Music.1 = {
           %! DURATION_MULTIPLIER
         %@% ^ \baca-duration-multiplier-markup #"448" #"1024"
           %! REAPPLIED_INSTRUMENT_ALERT
-        ^ \baca-reapplied-instrument-markup "(“Guitar”)"
+        %@% ^ \baca-reapplied-instrument-markup "(“Guitar”)"
         [
           %! REAPPLIED_CLEF_REDRAW_COLOR
         \override Staff.Clef.color = #(x11-color 'OliveDrab)

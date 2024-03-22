@@ -405,7 +405,7 @@ number.8.Guitar.Music.1 = {
     \set Staff.forceClef = ##t
     s1 * 7/32
       %! REAPPLIED_INSTRUMENT_ALERT
-    ^ \baca-reapplied-instrument-markup "(“Guitar”)"
+    %@% ^ \baca-reapplied-instrument-markup "(“Guitar”)"
       %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
 

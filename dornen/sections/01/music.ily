@@ -594,7 +594,7 @@ number.1.Guitar.Music.1 = {
           %! FIGURE_LABEL
         %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (1) \hspace #1 \concat { "E" \sub 1 } ] }
           %! EXPLICIT_INSTRUMENT_ALERT
-        ^ \baca-explicit-instrument-markup "(“Guitar”)"
+        %@% ^ \baca-explicit-instrument-markup "(“Guitar”)"
         [
           %! EXPLICIT_CLEF_REDRAW_COLOR
         \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)

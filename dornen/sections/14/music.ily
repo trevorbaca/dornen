@@ -1272,7 +1272,7 @@ number.14.Guitar.Music.1 = {
           %! FIGURE_LABEL
         %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (1) ] }
           %! REAPPLIED_INSTRUMENT_ALERT
-        ^ \baca-reapplied-instrument-markup "(“Guitar”)"
+        %@% ^ \baca-reapplied-instrument-markup "(“Guitar”)"
         ^ \dornen-lh-only-until-rascado-markup
         [
           %! REAPPLIED_CLEF_REDRAW_COLOR

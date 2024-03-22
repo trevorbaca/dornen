@@ -712,7 +712,7 @@ number.7.Guitar.Music.1 = {
           %! FIGURE_LABEL
         %@% - \markup \concat { [ \raise #0.25 \fontsize #-2 (1) \hspace #1 \concat { "20" \sub 1 } ] }
           %! REAPPLIED_INSTRUMENT_ALERT
-        ^ \baca-reapplied-instrument-markup "(“Guitar”)"
+        %@% ^ \baca-reapplied-instrument-markup "(“Guitar”)"
         [
           %! SPANNER_START
         (

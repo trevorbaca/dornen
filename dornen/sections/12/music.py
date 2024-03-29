@@ -78,34 +78,34 @@ def postprocess(cache):
         baca.stem_tremolo(o.pleaves())
     with baca.scope(m[2]) as o:
         baca.hairpin(o, "p<mp", rleak=True)
-        baca.mspanners.text([o], "tamb. tr. => kn. rasg.")
+        baca.spanners.text([o], "tamb. tr. => kn. rasg.", rleak=True)
     with baca.scope(m[4]) as o:
         baca.hairpin(o, "mp>p", rleak=True)
-        baca.mspanners.text([o], "trans. => tamb. tr.")
+        baca.spanners.text([o], "trans. => tamb. tr.", rleak=True)
     with baca.scope(m[7]) as o:
         baca.hairpin(o, "p<mf", rleak=True)
-        baca.mspanners.text([o], "trans. => kn. rasg.")
+        baca.spanners.text([o], "trans. => kn. rasg.", rleak=True)
     with baca.scope(m[9]) as o:
         baca.hairpin(o, "mf>p", rleak=True)
-        baca.mspanners.text([o], "trans. => tamb. tr.")
+        baca.spanners.text([o], "trans. => tamb. tr.", rleak=True)
     with baca.scope(m[12]) as o:
         baca.hairpin(o, "p<mp", rleak=True)
-        baca.mspanners.text([o], "trans. => kn. rasg.")
+        baca.spanners.text([o], "trans. => kn. rasg.", rleak=True)
     with baca.scope(m[14]) as o:
         baca.hairpin(o, "mp>p", rleak=True)
-        baca.mspanners.text([o], "trans. => tamb. tr.")
+        baca.spanners.text([o], "trans. => tamb. tr.", rleak=True)
     with baca.scope(m[16]) as o:
         baca.hairpin(o, "p<mf", rleak=True)
-        baca.mspanners.text([o], "trans. => kn. rasg.")
+        baca.spanners.text([o], "trans. => kn. rasg.", rleak=True)
     with baca.scope(m[18]) as o:
         baca.hairpin(o, "mf>p", rleak=True)
-        baca.mspanners.text([o], "trans. => tamb. tr.")
+        baca.spanners.text([o], "trans. => tamb. tr.", rleak=True)
     with baca.scope(m[20]) as o:
         baca.hairpin(o, "p<f", rleak=True)
-        baca.mspanners.text([o], "trans. => kn. rasg.")
+        baca.spanners.text([o], "trans. => kn. rasg.", rleak=True)
     with baca.scope(m.get(22, 24)) as o:
         baca.hairpin(o, "f>mp", rleak=True)
-        baca.mspanners.text([o], "trans. => tamb. tr.")
+        baca.spanners.text([o], "trans. => tamb. tr.", rleak=True)
     with baca.scope(m.leaves()) as o:
         baca.override.text_spanner_staff_padding(o, 5)
         baca.override.text_script_staff_padding(o, 8)

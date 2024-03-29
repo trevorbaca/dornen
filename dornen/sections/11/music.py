@@ -98,31 +98,31 @@ def postprocess(cache):
     @baca.call(m[12])
     def block(o):
         baca.hairpin(o, "pp<p", rleak=True)
-        baca.mspanners.text([o], "trans. => kn. rasg.")
+        baca.spanners.text([o], "trans. => kn. rasg.", rleak=True)
 
     @baca.call(m[14])
     def block(o):
         baca.hairpin(o, "p>pp", rleak=True)
-        baca.mspanners.text([o], "trans. => tamb. tr.")
+        baca.spanners.text([o], "trans. => tamb. tr.", rleak=True)
 
     @baca.call(m[16])
     def block(o):
         baca.hairpin(o, "pp<mp", rleak=True)
-        baca.mspanners.text([o], "trans. => kn. rasg.")
+        baca.spanners.text([o], "trans. => kn. rasg.", rleak=True)
 
     @baca.call(m[18])
     def block(o):
         baca.hairpin(o, "mp>pp", rleak=True)
-        baca.mspanners.text([o], "trans. => tamb. tr.")
+        baca.spanners.text([o], "trans. => tamb. tr.", rleak=True)
 
     @baca.call(m[20])
     def block(o):
-        baca.mspanners.text(o, "trans. => kn. rasg.")
+        baca.spanners.text(o, "trans. => kn. rasg.", rleak=True)
 
     @baca.call(m.get(22, 24))
     def block(o):
         baca.hairpin(o, "mf>p", rleak=True)
-        baca.mspanners.text([o], "trans. => tamb. tr.")
+        baca.spanners.text([o], "trans. => tamb. tr.", rleak=True)
 
     @baca.call(m.get(1, 11))
     def block(o):

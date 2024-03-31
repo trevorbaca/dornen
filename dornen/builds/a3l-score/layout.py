@@ -2,8 +2,8 @@ import baca
 
 
 def main():
-    layout = baca.layout.layout(
-        baca.layout.page(
+    layout = baca.layout.Layout(
+        baca.layout.Page(
             1,
             baca.layout.System(1, y_offset=60, distances=(17,)),
             baca.layout.System(15, y_offset=100, distances=(17,)),
@@ -11,7 +11,7 @@ def main():
             baca.layout.System(36, y_offset=180, distances=(17,)),
             baca.layout.System(52, y_offset=220, distances=(17,)),
         ),
-        baca.layout.page(
+        baca.layout.Page(
             2,
             baca.layout.System(62, y_offset=20, distances=(17,)),
             baca.layout.System(73, y_offset=60, distances=(17,)),
@@ -20,7 +20,7 @@ def main():
             baca.layout.System(122, y_offset=180, distances=(17,)),
             baca.layout.System(130, y_offset=220, distances=(17,)),
         ),
-        baca.layout.page(
+        baca.layout.Page(
             3,
             baca.layout.System(132, y_offset=20, distances=(17,)),
             baca.layout.System(133, y_offset=60, distances=(17,)),
@@ -29,7 +29,7 @@ def main():
             baca.layout.System(185, y_offset=180, distances=(17,)),
             baca.layout.System(208, y_offset=220, distances=(17,)),
         ),
-        baca.layout.page(
+        baca.layout.Page(
             4,
             baca.layout.System(232, y_offset=20, distances=(17,)),
             baca.layout.System(259, y_offset=60, distances=(17,)),

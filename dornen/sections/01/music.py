@@ -282,8 +282,8 @@ def make_layout():
     Workaround leaves this page laid out on only two systems.
     LilyPond "already have slur" warnings are not the cause.
     """
-    layout = baca.layout.layout(
-        baca.layout.page(
+    layout = baca.layout.Layout(
+        baca.layout.Page(
             1,
             baca.layout.System(1, y_offset=80, distances=(20, 24)),
             baca.layout.System(11, y_offset=140, distances=(20, 24)),

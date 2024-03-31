@@ -40,7 +40,7 @@ def main():
         ),
         default_spacing=(1, 28),
     )
-    baca.section.write_layout_ly(layout)
+    baca.build.write_layout_ly(layout)
 
 
 if __name__ == "__main__":

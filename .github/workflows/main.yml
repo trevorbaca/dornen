@@ -99,16 +99,18 @@ jobs:
         ls /home/runner/work
         echo Listing /home/runner/work/dornen/dornen ...
         ls /home/runner/work/dornen/dornen
-        echo Listing /home/runner/work/dornen/dornen/sections ...
-        ls /home/runner/work/dornen/dornen/sections
-        echo Listing /home/runner/work/dornen/dornen/sections/01 ...
-        ls /home/runner/work/dornen/dornen/sections/01
+        echo Listing /home/runner/work/dornen/dornen/dornen ...
+        ls /home/runner/work/dornen/dornen/dornen
+        echo Listing /home/runner/work/dornen/dornen/dornen/sections ...
+        ls /home/runner/work/dornen/dornen/dornen/sections
+        echo Listing /home/runner/work/dornen/dornen/dornen/sections/01 ...
+        ls /home/runner/work/dornen/dornen/dornen/sections/01
 
     - name: Pratice using upload-artifact action
       uses: actions/upload-artifact@v4
       with:
         name: my-artifact
-        path: /home/runner/work/dornen/dornen/sections/01/music.py
+        path: /home/runner/work/dornen/dornen/dornen/sections/01/music.py
 
     - name: Test sections
       run: |

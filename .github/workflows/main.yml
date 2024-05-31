@@ -95,9 +95,13 @@ jobs:
 
     - name: Log directories for upload-artifact debugging
       run: |
+        echo Listing /home/runner/work ...
         ls /home/runner/work
+        echo Listing /home/runner/work/dornen/dornen ...
         ls /home/runner/work/dornen/dornen
+        echo Listing /home/runner/work/dornen/dornen/sections ...
         ls /home/runner/work/dornen/dornen/sections
+        echo Listing /home/runner/work/dornen/dornen/sections/01 ...
         ls /home/runner/work/dornen/dornen/sections/01
 
     - name: Pratice using upload-artifact action

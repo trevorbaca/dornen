@@ -100,6 +100,7 @@ jobs:
         /tmp/baca/scr/test-sections
 
     - uses: actions/upload-artifact@v4
+      if: ${{ failure() }}
       with:
         name: section-01-music-pdf
         path: /home/runner/work/dornen/dornen/dornen/sections/01/music.pdf

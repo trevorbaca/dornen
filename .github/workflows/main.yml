@@ -94,6 +94,10 @@ jobs:
         /tmp/baca/scr/doctest $GITHUB_WORKSPACE
 
     - name: Pratice using upload-artifact action
+      run: ls /home/runner/work
+      run: ls /home/runner/work/dornen/dornen
+      run: ls /home/runner/work/dornen/dornen/sections
+      run: ls /home/runner/work/dornen/dornen/sections/01
       uses: actions/upload-artifact@v4
       with:
         name: my-artifact

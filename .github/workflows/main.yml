@@ -88,6 +88,12 @@ jobs:
         make flake8
         make isort-check
 
+    - name: Set cores to get stored in /cores
+      run: |
+        sudo mkdir /cores
+        sudo chmod 777 /cores
+        sudo bash -c 'echo "/cores/%e.%p.%t" > /proc/sys/kernel/core_pattern'
+
     - name: Run doctest
       run: |
         export PATH=/home/runner/bin:$PATH
@@ -99,11 +105,11 @@ jobs:
         export PYTHONUNBUFFERED=TRUE
         /tmp/baca/scr/test-sections
 
-    - uses: actions/upload-artifact@v4
+    - uses: actions/upload-artifact@v3
       if: ${{ failure() }}
       with:
-        name: section-01-music-pdf
-        path: /home/runner/work/dornen/dornen/dornen/sections/01/music.pdf
+        name: cores
+        path: /cores
 
     - name: Test score builds
       run: |

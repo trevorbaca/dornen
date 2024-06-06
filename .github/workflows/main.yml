@@ -103,6 +103,7 @@ jobs:
       run: |
         export PATH=/tmp/lilypond-2.25.15/bin:/tmp/baca/scr:/home/runner/bin:$PATH
         export PYTHONUNBUFFERED=TRUE
+        export GC_FREE_SPACE_DIVISOR=10
         ulimit -c unlimited
         /tmp/baca/scr/test-sections
 
@@ -116,6 +117,7 @@ jobs:
       run: |
         export PATH=/tmp/lilypond-2.25.15/bin:/tmp/baca/scr:/home/runner/bin:$PATH
         export PYTHONUNBUFFERED=TRUE
+        export GC_FREE_SPACE_DIVISOR=10
         NAME=$(basename $GITHUB_WORKSPACE)
         BUILDS_DIRECTORY=$GITHUB_WORKSPACE/$NAME/builds
         if [ -d $BUILDS_DIRECTORY ]; then

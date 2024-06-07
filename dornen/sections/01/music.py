@@ -269,6 +269,7 @@ def persist_score(score, environment):
         environment.timing,
         lilypond_file,
         metadata,
+        lilypond_timeout=30,
     )
 
 

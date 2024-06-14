@@ -685,7 +685,7 @@ number.10.Guitar.Music.1 = {
     }
 
     \tweak edge-height #'(0.7 . 0)
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Guitar.Music.1 measure 2]
@@ -714,7 +714,7 @@ number.10.Guitar.Music.1 = {
     }
 
     \tweak edge-height #'(0.7 . 0)
-    \times 4/5
+    \tuplet 5/4
     {
 
         gf2
@@ -726,7 +726,7 @@ number.10.Guitar.Music.1 = {
     }
 
     \tweak edge-height #'(0.7 . 0)
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Guitar.Music.1 measure 3]
@@ -748,7 +748,7 @@ number.10.Guitar.Music.1 = {
     }
 
     \tweak edge-height #'(0.7 . 0)
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Guitar.Music.1 measure 4]
@@ -777,7 +777,7 @@ number.10.Guitar.Music.1 = {
     }
 
     \tweak edge-height #'(0.7 . 0)
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Guitar.Music.1 measure 5]
@@ -799,7 +799,7 @@ number.10.Guitar.Music.1 = {
     }
 
     \tweak edge-height #'(0.7 . 0)
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Guitar.Music.1 measure 6]
@@ -816,7 +816,7 @@ number.10.Guitar.Music.1 = {
     }
 
     \tweak edge-height #'(0.7 . 0)
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Guitar.Music.1 measure 7]
@@ -846,7 +846,7 @@ number.10.Guitar.Music.1 = {
     }
 
     \tweak edge-height #'(0.7 . 0)
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Guitar.Music.1 measure 8]
@@ -868,7 +868,7 @@ number.10.Guitar.Music.1 = {
     }
 
     \tweak edge-height #'(0.7 . 0)
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Guitar.Music.1 measure 9]
@@ -897,7 +897,7 @@ number.10.Guitar.Music.1 = {
     }
 
     \tweak edge-height #'(0.7 . 0)
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Guitar.Music.1 measure 10]
@@ -919,7 +919,7 @@ number.10.Guitar.Music.1 = {
     }
 
     \tweak edge-height #'(0.7 . 0)
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Guitar.Music.1 measure 11]
@@ -936,7 +936,7 @@ number.10.Guitar.Music.1 = {
     }
 
     \tweak edge-height #'(0.7 . 0)
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Guitar.Music.1 measure 12]
@@ -966,7 +966,7 @@ number.10.Guitar.Music.1 = {
     }
 
     \tweak edge-height #'(0.7 . 0)
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Guitar.Music.1 measure 13]
@@ -988,7 +988,7 @@ number.10.Guitar.Music.1 = {
     }
 
     \tweak edge-height #'(0.7 . 0)
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Guitar.Music.1 measure 14]
@@ -1017,7 +1017,7 @@ number.10.Guitar.Music.1 = {
     }
 
     \tweak edge-height #'(0.7 . 0)
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Guitar.Music.1 measure 15]
@@ -1039,7 +1039,7 @@ number.10.Guitar.Music.1 = {
     }
 
     \tweak edge-height #'(0.7 . 0)
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Guitar.Music.1 measure 16]
@@ -1068,7 +1068,7 @@ number.10.Guitar.Music.1 = {
     }
 
     \tweak edge-height #'(0.7 . 0)
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Guitar.Music.1 measure 17]
@@ -1090,7 +1090,7 @@ number.10.Guitar.Music.1 = {
     }
 
     \tweak edge-height #'(0.7 . 0)
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Guitar.Music.1 measure 18]
@@ -1119,7 +1119,7 @@ number.10.Guitar.Music.1 = {
     }
 
     \tweak edge-height #'(0.7 . 0)
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Guitar.Music.1 measure 19]
@@ -1136,7 +1136,7 @@ number.10.Guitar.Music.1 = {
     }
 
     \tweak edge-height #'(0.7 . 0)
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Guitar.Music.1 measure 20]
@@ -1153,7 +1153,7 @@ number.10.Guitar.Music.1 = {
     }
 
     \tweak edge-height #'(0.7 . 0)
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Guitar.Music.1 measure 21]
@@ -1171,7 +1171,7 @@ number.10.Guitar.Music.1 = {
     }
 
     \tweak edge-height #'(0.7 . 0)
-    \times 4/5
+    \tuplet 5/4
     {
 
         gf2
@@ -1183,7 +1183,7 @@ number.10.Guitar.Music.1 = {
     }
 
     \tweak edge-height #'(0.7 . 0)
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Guitar.Music.1 measure 22]
@@ -1206,7 +1206,7 @@ number.10.Guitar.Music.1 = {
     }
 
     \tweak edge-height #'(0.7 . 0)
-    \times 4/5
+    \tuplet 5/4
     {
 
         gf2

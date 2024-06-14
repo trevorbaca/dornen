@@ -1062,7 +1062,7 @@ number.3.Rests = {
 number.3.Guitar.Music.1 = {
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) { \rhythm { 8 } + \rhythm { 64 } }
-    \times 1/1
+    \tuplet 1/1
     {
 
         % [Guitar.Music.1 measure 1]
@@ -1134,7 +1134,7 @@ number.3.Guitar.Music.1 = {
     s1 * 1/14
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { 16.. }
-    \times 1/1
+    \tuplet 1/1
     {
 
         % [Guitar.Music.1 measure 5]
@@ -1178,7 +1178,7 @@ number.3.Guitar.Music.1 = {
     \revert TupletNumber.text
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { 16. }
-    \times 1/1
+    \tuplet 1/1
     {
 
         \once \override Beam.grow-direction = #right
@@ -1360,7 +1360,7 @@ number.3.Guitar.Music.1 = {
     s1 * 1/7
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) { \rhythm { 8. } + \rhythm { 64 } }
-    \times 1/1
+    \tuplet 1/1
     {
 
         % [Guitar.Music.1 measure 16]
@@ -1640,7 +1640,7 @@ number.3.Guitar.Music.1 = {
 
     }
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         {
@@ -1854,7 +1854,7 @@ number.3.Guitar.Music.1 = {
     s1 * 7/32
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) { \rhythm { 8. } + \rhythm { 64 } }
-    \times 1/1
+    \tuplet 1/1
     {
 
         % [Guitar.Music.1 measure 33]
@@ -2602,7 +2602,7 @@ number.3.Guitar.Music.4 = {
 
     \tweak text #tuplet-number::calc-fraction-text
     \tweak edge-height #'(0.7 . 0)
-    \times 8/7
+    \tuplet 7/8
     {
 
         % [Guitar.Music.4 measure 2]
@@ -2622,7 +2622,7 @@ number.3.Guitar.Music.4 = {
 
     \tweak text #tuplet-number::calc-fraction-text
     \tweak edge-height #'(0.7 . 0)
-    \times 8/7
+    \tuplet 7/8
     {
 
         % [Guitar.Music.4 measure 4]
@@ -2642,7 +2642,7 @@ number.3.Guitar.Music.4 = {
 
     \tweak text #tuplet-number::calc-fraction-text
     \tweak edge-height #'(0.7 . 0)
-    \times 8/7
+    \tuplet 7/8
     {
 
         % [Guitar.Music.4 measure 6]
@@ -2673,7 +2673,7 @@ number.3.Guitar.Music.4 = {
 
     \tweak text #tuplet-number::calc-fraction-text
     \tweak edge-height #'(0.7 . 0)
-    \times 8/7
+    \tuplet 7/8
     {
 
         % [Guitar.Music.4 measure 8]
@@ -2705,7 +2705,7 @@ number.3.Guitar.Music.4 = {
 
     \tweak text #tuplet-number::calc-fraction-text
     \tweak edge-height #'(0.7 . 0)
-    \times 8/7
+    \tuplet 7/8
     {
 
         % [Guitar.Music.4 measure 10]
@@ -2725,7 +2725,7 @@ number.3.Guitar.Music.4 = {
 
     \tweak text #tuplet-number::calc-fraction-text
     \tweak edge-height #'(0.7 . 0)
-    \times 8/7
+    \tuplet 7/8
     {
 
         % [Guitar.Music.4 measure 12]
@@ -2769,7 +2769,7 @@ number.3.Guitar.Music.4 = {
 
     \tweak text #tuplet-number::calc-fraction-text
     \tweak edge-height #'(0.7 . 0)
-    \times 8/7
+    \tuplet 7/8
     {
 
         % [Guitar.Music.4 measure 15]
@@ -2803,7 +2803,7 @@ number.3.Guitar.Music.4 = {
 
     \tweak text #tuplet-number::calc-fraction-text
     \tweak edge-height #'(0.7 . 0)
-    \times 8/7
+    \tuplet 7/8
     {
 
         % [Guitar.Music.4 measure 18]
@@ -2868,7 +2868,7 @@ number.3.Guitar.Music.4 = {
     s1 * 7/32
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 8/7
+    \tuplet 7/8
     {
 
         % [Guitar.Music.4 measure 21]
@@ -2939,7 +2939,7 @@ number.3.Guitar.Music.4 = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/7
+    \tuplet 7/5
     {
 
         \set stemLeftBeamCount = 1

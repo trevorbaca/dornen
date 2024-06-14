@@ -1353,7 +1353,7 @@ number.13.Rests = {
 number.13.Guitar.Music.1 = {
 
     \tweak edge-height #'(0.7 . 0)
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Guitar.Music.1 measure 1]
@@ -1388,7 +1388,7 @@ number.13.Guitar.Music.1 = {
     }
 
     \tweak edge-height #'(0.7 . 0)
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Guitar.Music.1 measure 2]
@@ -1429,7 +1429,7 @@ number.13.Guitar.Music.1 = {
     }
 
     \tweak edge-height #'(0.7 . 0)
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Guitar.Music.1 measure 3]
@@ -1453,7 +1453,7 @@ number.13.Guitar.Music.1 = {
     }
 
     \tweak edge-height #'(0.7 . 0)
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Guitar.Music.1 measure 4]
@@ -1494,7 +1494,7 @@ number.13.Guitar.Music.1 = {
     }
 
     \tweak edge-height #'(0.7 . 0)
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Guitar.Music.1 measure 5]
@@ -1518,7 +1518,7 @@ number.13.Guitar.Music.1 = {
     }
 
     \tweak edge-height #'(0.7 . 0)
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Guitar.Music.1 measure 6]
@@ -1536,7 +1536,7 @@ number.13.Guitar.Music.1 = {
     }
 
     \tweak edge-height #'(0.7 . 0)
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Guitar.Music.1 measure 7]
@@ -1577,7 +1577,7 @@ number.13.Guitar.Music.1 = {
     }
 
     \tweak edge-height #'(0.7 . 0)
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Guitar.Music.1 measure 8]
@@ -1601,7 +1601,7 @@ number.13.Guitar.Music.1 = {
     }
 
     \tweak edge-height #'(0.7 . 0)
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Guitar.Music.1 measure 9]
@@ -1642,7 +1642,7 @@ number.13.Guitar.Music.1 = {
     }
 
     \tweak edge-height #'(0.7 . 0)
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Guitar.Music.1 measure 10]
@@ -1666,7 +1666,7 @@ number.13.Guitar.Music.1 = {
     }
 
     \tweak edge-height #'(0.7 . 0)
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Guitar.Music.1 measure 11]
@@ -1684,7 +1684,7 @@ number.13.Guitar.Music.1 = {
     }
 
     \tweak edge-height #'(0.7 . 0)
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Guitar.Music.1 measure 12]
@@ -1725,7 +1725,7 @@ number.13.Guitar.Music.1 = {
     }
 
     \tweak edge-height #'(0.7 . 0)
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Guitar.Music.1 measure 13]
@@ -1749,7 +1749,7 @@ number.13.Guitar.Music.1 = {
     }
 
     \tweak edge-height #'(0.7 . 0)
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Guitar.Music.1 measure 14]
@@ -1778,7 +1778,7 @@ number.13.Guitar.Music.1 = {
     }
 
     \tweak edge-height #'(0.7 . 0)
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Guitar.Music.1 measure 15]
@@ -1800,7 +1800,7 @@ number.13.Guitar.Music.1 = {
     }
 
     \tweak edge-height #'(0.7 . 0)
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Guitar.Music.1 measure 16]
@@ -1841,7 +1841,7 @@ number.13.Guitar.Music.1 = {
     }
 
     \tweak edge-height #'(0.7 . 0)
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Guitar.Music.1 measure 17]
@@ -1871,7 +1871,7 @@ number.13.Guitar.Music.1 = {
     }
 
     \tweak edge-height #'(0.7 . 0)
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Guitar.Music.1 measure 18]
@@ -1912,7 +1912,7 @@ number.13.Guitar.Music.1 = {
     }
 
     \tweak edge-height #'(0.7 . 0)
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Guitar.Music.1 measure 19]
@@ -1936,7 +1936,7 @@ number.13.Guitar.Music.1 = {
     }
 
     \tweak edge-height #'(0.7 . 0)
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Guitar.Music.1 measure 20]
@@ -1976,7 +1976,7 @@ number.13.Guitar.Music.1 = {
 
     }
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Guitar.Music.1 measure 21]
@@ -2012,7 +2012,7 @@ number.13.Guitar.Music.1 = {
     }
 
     \tweak edge-height #'(0.7 . 0)
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Guitar.Music.1 measure 22]
@@ -2053,7 +2053,7 @@ number.13.Guitar.Music.1 = {
     }
 
     \tweak edge-height #'(0.7 . 0)
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Guitar.Music.1 measure 23]
@@ -2077,7 +2077,7 @@ number.13.Guitar.Music.1 = {
     }
 
     \tweak edge-height #'(0.7 . 0)
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Guitar.Music.1 measure 24]
@@ -2118,7 +2118,7 @@ number.13.Guitar.Music.1 = {
     }
 
     \tweak edge-height #'(0.7 . 0)
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Guitar.Music.1 measure 25]
@@ -2153,7 +2153,7 @@ number.13.Guitar.Music.1 = {
     }
 
     \tweak edge-height #'(0.7 . 0)
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Guitar.Music.1 measure 26]
@@ -2201,7 +2201,7 @@ number.13.Guitar.Music.1 = {
     }
 
     \tweak edge-height #'(0.7 . 0)
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Guitar.Music.1 measure 27]
@@ -2259,7 +2259,7 @@ number.13.Guitar.Music.1 = {
 
     }
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Guitar.Music.1 measure 28]
@@ -2300,7 +2300,7 @@ number.13.Guitar.Music.1 = {
     }
 
     \tweak edge-height #'(0.7 . 0)
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Guitar.Music.1 measure 29]
@@ -2335,7 +2335,7 @@ number.13.Guitar.Music.1 = {
     }
 
     \tweak edge-height #'(0.7 . 0)
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Guitar.Music.1 measure 30]
@@ -2364,7 +2364,7 @@ number.13.Guitar.Music.1 = {
     }
 
     \tweak edge-height #'(0.7 . 0)
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Guitar.Music.1 measure 31]
@@ -2398,7 +2398,7 @@ number.13.Guitar.Music.1 = {
 
     }
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Guitar.Music.1 measure 32]
@@ -2439,7 +2439,7 @@ number.13.Guitar.Music.1 = {
     }
 
     \tweak edge-height #'(0.7 . 0)
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Guitar.Music.1 measure 33]
@@ -2486,7 +2486,7 @@ number.13.Guitar.Music.1 = {
     }
 
     \tweak edge-height #'(0.7 . 0)
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Guitar.Music.1 measure 34]
@@ -2539,7 +2539,7 @@ number.13.Guitar.Music.1 = {
     }
 
     \tweak edge-height #'(0.7 . 0)
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Guitar.Music.1 measure 35]
@@ -2585,7 +2585,7 @@ number.13.Guitar.Music.1 = {
 
     }
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Guitar.Music.1 measure 36]
@@ -2626,7 +2626,7 @@ number.13.Guitar.Music.1 = {
     }
 
     \tweak edge-height #'(0.7 . 0)
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Guitar.Music.1 measure 37]
@@ -2663,7 +2663,7 @@ number.13.Guitar.Music.1 = {
     }
 
     \tweak edge-height #'(0.7 . 0)
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Guitar.Music.1 measure 38]
@@ -2692,7 +2692,7 @@ number.13.Guitar.Music.1 = {
     }
 
     \tweak edge-height #'(0.7 . 0)
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Guitar.Music.1 measure 39]
@@ -2726,7 +2726,7 @@ number.13.Guitar.Music.1 = {
 
     }
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Guitar.Music.1 measure 40]
@@ -2767,7 +2767,7 @@ number.13.Guitar.Music.1 = {
     }
 
     \tweak edge-height #'(0.7 . 0)
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Guitar.Music.1 measure 41]
@@ -2826,7 +2826,7 @@ number.13.Guitar.Music.1 = {
     }
 
     \tweak edge-height #'(0.7 . 0)
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Guitar.Music.1 measure 42]
@@ -2878,7 +2878,7 @@ number.13.Guitar.Music.1 = {
 
     }
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Guitar.Music.1 measure 43]
@@ -2919,7 +2919,7 @@ number.13.Guitar.Music.1 = {
     }
 
     \tweak edge-height #'(0.7 . 0)
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Guitar.Music.1 measure 44]
@@ -2954,7 +2954,7 @@ number.13.Guitar.Music.1 = {
     }
 
     \tweak edge-height #'(0.7 . 0)
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Guitar.Music.1 measure 45]

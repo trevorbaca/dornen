@@ -717,7 +717,7 @@ number.9.Guitar.Music.1 = {
 
     }
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Guitar.Music.1 measure 6]
@@ -857,7 +857,7 @@ number.9.Guitar.Music.1 = {
     % [Guitar.Music.1 measure 16]
     s1 * 39/112
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Guitar.Music.1 measure 17]
@@ -891,7 +891,7 @@ number.9.Guitar.Music.1 = {
 
     }
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         \set stemLeftBeamCount = 1
@@ -920,7 +920,7 @@ number.9.Guitar.Music.1 = {
 
     }
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         \set stemLeftBeamCount = 1
@@ -987,7 +987,7 @@ number.9.Guitar.Music.2 = {
     s1 * 5/32
 
     \tweak edge-height #'(0.7 . 0)
-    \times 4/7
+    \tuplet 7/4
     {
 
         % [Guitar.Music.2 measure 10]
@@ -1039,7 +1039,7 @@ number.9.Guitar.Music.2 = {
     s1 * 5/32
 
     \tweak edge-height #'(0.7 . 0)
-    \times 4/7
+    \tuplet 7/4
     {
 
         % [Guitar.Music.2 measure 13]
@@ -1095,7 +1095,7 @@ number.9.Guitar.Music.2 = {
 
     \tweak text #tuplet-number::calc-fraction-text
     \tweak edge-height #'(0.7 . 0)
-    \times 8/7
+    \tuplet 7/8
     {
 
         % [Guitar.Music.2 measure 16]
@@ -1125,7 +1125,7 @@ number.9.Guitar.Music.2 = {
 
     \tweak text #tuplet-number::calc-fraction-text
     \tweak edge-height #'(0.7 . 0)
-    \times 5/7
+    \tuplet 7/5
     {
 
         \set stemLeftBeamCount = 1
@@ -1158,7 +1158,7 @@ number.9.Guitar.Music.2 = {
     s1 * 3/16
 
     \tweak edge-height #'(0.7 . 0)
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Guitar.Music.2 measure 18]
@@ -1188,7 +1188,7 @@ number.9.Guitar.Music.3 = {
     s1 * 3/16
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { 8. }
-    \times 1/1
+    \tuplet 1/1
     {
 
         % [Guitar.Music.3 measure 3]
@@ -1236,7 +1236,7 @@ number.9.Guitar.Music.3 = {
     s1 * 1/8
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) { \rhythm { 2 } + \rhythm { 8. } }
-    \times 1/1
+    \tuplet 1/1
     {
 
         % [Guitar.Music.3 measure 7]
@@ -1339,7 +1339,7 @@ number.9.Guitar.Music.3 = {
     \revert TupletNumber.text
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) { \rhythm { 2 } + \rhythm { 8. } }
-    \times 1/1
+    \tuplet 1/1
     {
 
         % [Guitar.Music.3 measure 8]

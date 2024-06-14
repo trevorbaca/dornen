@@ -469,7 +469,7 @@ number.6.Guitar.Music.1 = {
     s1 * 1/16
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6
+    \tuplet 6/5
     {
 
         % [Guitar.Music.1 measure 3]
@@ -507,7 +507,7 @@ number.6.Guitar.Music.1 = {
 
     }
 
-    \times 4/5
+    \tuplet 5/4
     {
 
         \set stemLeftBeamCount = 1
@@ -537,7 +537,7 @@ number.6.Guitar.Music.1 = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/4
+    \tuplet 4/3
     {
 
         \set stemLeftBeamCount = 1
@@ -2467,7 +2467,7 @@ number.6.Guitar.Music.4 = {
     s1 * 3/16
 
     \tweak edge-height #'(0.7 . 0)
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Guitar.Music.4 measure 4]
@@ -2495,7 +2495,7 @@ number.6.Guitar.Music.4 = {
     s1 * 1/16
 
     \tweak edge-height #'(0.7 . 0)
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Guitar.Music.4 measure 7]

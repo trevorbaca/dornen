@@ -1051,7 +1051,7 @@ number.1.Guitar.Music.3 = {
     s1 * 9/64
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { 16.. }
-    \times 1/1
+    \tuplet 1/1
     {
 
         % [Guitar.Music.3 measure 18]
@@ -1096,7 +1096,7 @@ number.1.Guitar.Music.3 = {
     \revert TupletNumber.text
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { 8. }
-    \times 1/1
+    \tuplet 1/1
     {
 
         % [Guitar.Music.3 measure 19]
@@ -1190,7 +1190,7 @@ number.1.Guitar.Music.4 = {
     s1 * 1/32
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/4
+    \tuplet 4/3
     {
 
         % [Guitar.Music.4 measure 9]
@@ -1222,7 +1222,7 @@ number.1.Guitar.Music.4 = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/4
+    \tuplet 4/3
     {
 
         \set stemLeftBeamCount = 1
@@ -1251,7 +1251,7 @@ number.1.Guitar.Music.4 = {
     % [Guitar.Music.4 measure 10]
     s1 * 3/4
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Guitar.Music.4 measure 11]
@@ -1279,7 +1279,7 @@ number.1.Guitar.Music.4 = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 15/16
+    \tuplet 16/15
     {
 
         \set stemLeftBeamCount = 1
@@ -1369,7 +1369,7 @@ number.1.Guitar.Music.4 = {
     s1 * 1/32
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7
+    \tuplet 7/6
     {
 
         % [Guitar.Music.4 measure 17]
@@ -1413,7 +1413,7 @@ number.1.Guitar.Music.4 = {
     }
 
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/4
+    \tuplet 4/3
     {
 
         \set stemLeftBeamCount = 1

@@ -1287,7 +1287,7 @@ number.5.Guitar.Music.2 = {
     }
 
     \tweak edge-height #'(0.7 . 0)
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Guitar.Music.2 measure 24]
@@ -1524,7 +1524,7 @@ number.5.Guitar.Music.4 = {
     s1 * 3/32
 
     \tweak edge-height #'(0.7 . 0)
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Guitar.Music.4 measure 2]
@@ -1550,7 +1550,7 @@ number.5.Guitar.Music.4 = {
     s1 * 1/16
 
     \tweak edge-height #'(0.7 . 0)
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Guitar.Music.4 measure 4]
@@ -1583,7 +1583,7 @@ number.5.Guitar.Music.4 = {
     s1 * 3/32
 
     \tweak edge-height #'(0.7 . 0)
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Guitar.Music.4 measure 7]
@@ -1609,7 +1609,7 @@ number.5.Guitar.Music.4 = {
     s1 * 1/16
 
     \tweak edge-height #'(0.7 . 0)
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Guitar.Music.4 measure 9]
@@ -1638,7 +1638,7 @@ number.5.Guitar.Music.4 = {
     s1 * 3/32
 
     \tweak edge-height #'(0.7 . 0)
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Guitar.Music.4 measure 12]
@@ -1664,7 +1664,7 @@ number.5.Guitar.Music.4 = {
     s1 * 1/16
 
     \tweak edge-height #'(0.7 . 0)
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Guitar.Music.4 measure 14]
@@ -1690,7 +1690,7 @@ number.5.Guitar.Music.4 = {
     s1 * 3/32
 
     \tweak edge-height #'(0.7 . 0)
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Guitar.Music.4 measure 16]
@@ -1716,7 +1716,7 @@ number.5.Guitar.Music.4 = {
     s1 * 1/16
 
     \tweak edge-height #'(0.7 . 0)
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Guitar.Music.4 measure 18]
@@ -1749,7 +1749,7 @@ number.5.Guitar.Music.4 = {
     s1 * 3/32
 
     \tweak edge-height #'(0.7 . 0)
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Guitar.Music.4 measure 21]
@@ -1781,7 +1781,7 @@ number.5.Guitar.Music.4 = {
     s1 * 2/5
 
     \tweak edge-height #'(0.7 . 0)
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Guitar.Music.4 measure 25]
@@ -1810,7 +1810,7 @@ number.5.Guitar.Music.4 = {
     s1 * 3/32
 
     \tweak edge-height #'(0.7 . 0)
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Guitar.Music.4 measure 28]
@@ -1836,7 +1836,7 @@ number.5.Guitar.Music.4 = {
     s1 * 1/16
 
     \tweak edge-height #'(0.7 . 0)
-    \times 4/5
+    \tuplet 5/4
     {
 
         % [Guitar.Music.4 measure 30]

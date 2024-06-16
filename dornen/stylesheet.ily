@@ -1,3 +1,4 @@
+\version "2.25.13"
 #(set-default-paper-size "a3landscape")
 #(set-global-staff-size 12)
 
@@ -108,6 +109,7 @@
     \consists Staff_collecting_engraver
     \consists Time_signature_engraver
     \accepts GlobalSkips
+    \defaultchild GlobalSkips
     \accepts GlobalRests
     \accepts PageLayout
 
@@ -294,7 +296,7 @@
     autoBeaming = ##f
     % TODO: activate in score:
     %barNumberFormatter = #baca-oval-bar-numbers
-    proportionalNotationDuration = #(ly:make-moment 1 24)
+    proportionalNotationDuration = \musicLength 1*1/24
     tupletFullLength = ##t
   }
 }

@@ -1,8 +1,8 @@
 \version "2.25.16"
+\include "baca.ily"
+
 #(set-default-paper-size "a3landscape")
 #(set-global-staff-size 12)
-
-\include "baca.ily"
 
 \paper
 {
@@ -52,12 +52,8 @@
   ragged-right = ##t
 }
 
-% CONTEXTS
-
 \layout
 {
-
-  % GLOBAL SKIPS
   \context
   {
     \name GlobalSkips
@@ -65,38 +61,27 @@
     \consists Script_engraver
     \consists Text_engraver
     \consists \alternateTextSpannerEngraver
-
     \override TextScript.font-size = 6
-
     \override TextSpanner.font-size = 6
   }
-
-  % GLOBAL RESTS
   \context
   {
     \name GlobalRests
     \type Engraver_group
     \consists Multi_measure_rest_engraver
-
     \override MultiMeasureRest.transparent = ##t
-
     \override MultiMeasureRestText.font-size = 3
     \override MultiMeasureRestText.outside-staff-priority = 0
     \override MultiMeasureRestText.padding = 0
   }
-  
-  % PAGE LAYOUT
   \context
   {
     \name PageLayout
     \type Engraver_group
     \consists Text_engraver
     \consists \alternateTextSpannerEngraver
-
     \override TextSpanner.font-size = 6
   }
-
-  % GLOBAL CONTEXT
   \context
   {
     \name GlobalContext
@@ -112,11 +97,9 @@
     \defaultchild GlobalSkips
     \accepts GlobalRests
     \accepts PageLayout
-
     \override BarNumber.Y-extent = ##f
     \override BarNumber.extra-offset = #'(-4 . -4)
     \override BarNumber.font-size = 1
-
     \override TimeSignature.X-extent = ##f
     \override TimeSignature.break-align-symbol = #'left-edge
     \override TimeSignature.break-visibility = #end-of-line-invisible
@@ -124,15 +107,11 @@
     \override TimeSignature.space-alist.clef = #'(extra-space . 0.5)
     \override TimeSignature.style = #'numbered
   }
-
-  % VOICE
   \context
   {
     \Voice
     \remove Forbid_line_break_engraver
   }
-
-  % GUITAR MUSIC I
   \context
   {
     \Voice
@@ -143,8 +122,6 @@
     %\override TextScript.outside-staff-priority = 0
     \override TextScript.outside-staff-priority = 800
   }
-
-  % GUITAR MUSIC II
   \context
   {
     \Voice
@@ -170,8 +147,6 @@
     \override TupletBracket.color = #red
     \override TupletNumber.color = #red
   }
-
-  % GUITAR MUSIC III
   \context
   {
     \Voice
@@ -180,8 +155,6 @@
     \alias Voice
     \override Stem.direction = #down
   }
-
-  % GUITAR MUSIC IV
   \context
   {
     \Voice
@@ -208,16 +181,12 @@
     \override TupletBracket.color = #red
     \override TupletNumber.color = #red
   }
-
-  % GLOBAL RESTS
   \context
   {
     \Staff
     \accepts GlobalRests
     \remove Time_signature_engraver
   }
-
-  % STAFF
   \context
   {
     \Staff
@@ -226,15 +195,11 @@
     \accepts GuitarMusicIII
     \accepts GuitarMusicIV
   }
-
-  % PIANO STAFF
   \context
   {
     \PianoStaff
     \remove "Keep_alive_together_engraver" 
   }
-
-  % CHOIR STAFF
   \context
   {
     \ChoirStaff
@@ -242,8 +207,6 @@
     \type Engraver_group
     \alias ChoirStaff
   }
-
-  % SCORE
   \context
   {
     \Score
@@ -252,47 +215,33 @@
     \remove Bar_number_engraver
     \remove Metronome_mark_engraver
     \remove System_start_delimiter_engraver
-
     % necessary for uniform overlapping polyrhythms with accidentals
     % but commented out here to allow acciaccature to move bar lines:
     %\override Accidental.X-extent = ##f
-
     \override BarLine.X-extent = #'(0 . 0)
-
     \override Beam.damping = 99
-
     \override Glissando.thickness = 3
-
     \override Hairpin.to-barline = ##f
-
     \override NoteCollision.merge-differently-dotted = ##t
     \override NoteColumn.ignore-collision = ##t
     \shape #'((-2 . 0) (-1 . 0) (-0.5 . 0) (0 . 0)) RepeatTie         
-
     \override RepeatTie.X-extent = ##f
-
     %\override SpacingSpanner.strict-grace-spacing = ##t
     %\override SpacingSpanner.strict-note-spacing = ##t
     \override SpacingSpanner.uniform-stretching = ##t
-
     \override StemTremolo.beam-width = 1.5
     \override StemTremolo.flag-count = 4
     \override StemTremolo.slope = 0.5
-
     \override TextScript.font-name = #"Palatino"
-
     \override TextSpanner.to-barline = ##t
     % DISCOVERY: overriding textscript.x-extent = ##f
     %      makes lilypond ignore self-alignment-x tweaks;
     %      probably should never be done at stylesheet level.
     % NOTE:    may be best to override NO text script properties.
-
     \override TupletBracket.full-length-to-extent = ##f
     \override TupletBracket.padding = 2
-
     \override TupletNumber.font-size = 1
     \override TupletNumber.text = #tuplet-number::calc-fraction-text
-
     autoBeaming = ##f
     % TODO: activate in score:
     %barNumberFormatter = #baca-oval-bar-numbers

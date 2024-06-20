@@ -42,7 +42,7 @@ def main(environment):
     spacing = baca.layout.Spacing(
         default=(1, 28),
     )
-    return baca.build.write_layout_ily(
+    return baca.section.make_layout_score(
         breaks,
         environment.time_signatures,
         spacing=spacing,

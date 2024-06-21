@@ -489,233 +489,186 @@
         }   %*% PageLayout
 
         \context GlobalSkips = "Breaks"
-        {
+        {   %*% Breaks
 
             % [Breaks measure 1]
-              %! BREAK
             \autoPageBreaksOff
-              %! BREAK
             \baca-lbsd #20 #'(20)
-              %! BREAK
             \pageBreak
             s1 * 3/32
 
             % [Breaks measure 2]
-              %! BREAK
             \noBreak
             s1 * 3/20
 
             % [Breaks measure 3]
-              %! BREAK
             \noBreak
             s1 * 1/16
 
             % [Breaks measure 4]
-              %! BREAK
             \noBreak
             s1 * 3/20
 
             % [Breaks measure 5]
-              %! BREAK
             \noBreak
             s1 * 4/32
 
             % [Breaks measure 6]
-              %! BREAK
             \noBreak
             s1 * 3/32
 
             % [Breaks measure 7]
-              %! BREAK
             \noBreak
             s1 * 1/32
 
             % [Breaks measure 8]
-              %! BREAK
             \noBreak
             s1 * 3/32
 
             % [Breaks measure 9]
-              %! BREAK
             \noBreak
             s1 * 3/20
 
             % [Breaks measure 10]
-              %! BREAK
             \noBreak
             s1 * 1/16
 
             % [Breaks measure 11]
-              %! BREAK
             \noBreak
             s1 * 3/20
 
             % [Breaks measure 12]
-              %! BREAK
             \noBreak
             s1 * 4/32
 
             % [Breaks measure 13]
-              %! BREAK
             \noBreak
             s1 * 3/32
 
             % [Breaks measure 14]
-              %! BREAK
             \noBreak
             s1 * 1/32
 
             % [Breaks measure 15]
-              %! BREAK
             \noBreak
             s1 * 3/32
 
             % [Breaks measure 16]
-              %! BREAK
             \noBreak
             s1 * 3/20
 
             % [Breaks measure 17]
-              %! BREAK
             \noBreak
             s1 * 1/16
 
             % [Breaks measure 18]
-              %! BREAK
             \noBreak
             s1 * 3/20
 
             % [Breaks measure 19]
-              %! BREAK
             \noBreak
             s1 * 4/32
 
             % [Breaks measure 20]
-              %! BREAK
             \baca-lbsd #80 #'(20)
-              %! BREAK
             \break
             s1 * 3/32
 
             % [Breaks measure 21]
-              %! BREAK
             \noBreak
             s1 * 1/32
 
             % [Breaks measure 22]
-              %! BREAK
             \noBreak
             s1 * 3/32
 
             % [Breaks measure 23]
-              %! BREAK
             \noBreak
             s1 * 3/20
 
             % [Breaks measure 24]
-              %! BREAK
             \noBreak
             s1 * 1/16
 
             % [Breaks measure 25]
-              %! BREAK
             \noBreak
             s1 * 3/20
 
             % [Breaks measure 26]
-              %! BREAK
             \noBreak
             s1 * 4/32
 
             % [Breaks measure 27]
-              %! BREAK
             \noBreak
             s1 * 3/32
 
             % [Breaks measure 28]
-              %! BREAK
             \noBreak
             s1 * 1/32
 
             % [Breaks measure 29]
-              %! BREAK
             \noBreak
             s1 * 3/32
 
             % [Breaks measure 30]
-              %! BREAK
             \noBreak
             s1 * 3/20
 
             % [Breaks measure 31]
-              %! BREAK
             \noBreak
             s1 * 1/16
 
             % [Breaks measure 32]
-              %! BREAK
             \noBreak
             s1 * 3/20
 
             % [Breaks measure 33]
-              %! BREAK
             \noBreak
             s1 * 4/32
 
             % [Breaks measure 34]
-              %! BREAK
             \noBreak
             s1 * 3/32
 
             % [Breaks measure 35]
-              %! BREAK
             \noBreak
             s1 * 1/32
 
             % [Breaks measure 36]
-              %! BREAK
             \noBreak
             s1 * 3/32
 
             % [Breaks measure 37]
-              %! BREAK
             \noBreak
             s1 * 3/20
 
             % [Breaks measure 38]
-              %! BREAK
             \noBreak
             s1 * 1/16
 
             % [Breaks measure 39]
-              %! BREAK
             \noBreak
             s1 * 3/20
 
             % [Breaks measure 40]
-              %! BREAK
             \noBreak
             s1 * 4/32
 
             % [Breaks measure 41]
-              %! BREAK
             \baca-lbsd #140 #'(20)
-              %! BREAK
             \break
             s1 * 5/8
 
             % [Breaks measure 42]
-              %! BREAK
             \noBreak
             s1 * 13/3
 
             % [anchor skip]
-              %! BREAK
             \noBreak
               %! ANCHOR_SKIP
             s1 * 1/4
 
-        }
+        }   %*% Breaks
 
     >>
 

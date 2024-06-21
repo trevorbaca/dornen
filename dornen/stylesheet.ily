@@ -119,7 +119,6 @@
     \type Engraver_group
     \alias Voice
     \override Stem.direction = #up
-    %\override TextScript.outside-staff-priority = 0
     \override TextScript.outside-staff-priority = 800
   }
   \context
@@ -234,10 +233,6 @@
     \override StemTremolo.slope = 0.5
     \override TextScript.font-name = #"Palatino"
     \override TextSpanner.to-barline = ##t
-    % DISCOVERY: overriding textscript.x-extent = ##f
-    %      makes lilypond ignore self-alignment-x tweaks;
-    %      probably should never be done at stylesheet level.
-    % NOTE:    may be best to override NO text script properties.
     \override TupletBracket.full-length-to-extent = ##f
     \override TupletBracket.padding = 2
     \override TupletNumber.font-size = 1

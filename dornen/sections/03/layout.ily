@@ -5,7 +5,7 @@
 <<
 
     \context GlobalContext = "GlobalContext"
-    {
+    <<
 
         \context PageLayout = "PageLayout"
         {   %*% PageLayout
@@ -505,6 +505,123 @@
 
         }   %*% PageLayout
 
-    }
+        \context GlobalSkips = "Breaks"
+        {
+
+            % [Breaks measure 1]
+            s1 * 9/64
+
+            % [Breaks measure 2]
+            s1 * 1/14
+
+            % [Breaks measure 3]
+            s1 * 7/32
+
+            % [Breaks measure 4]
+            s1 * 1/14
+
+            % [Breaks measure 5]
+            s1 * 13/64
+
+            % [Breaks measure 6]
+            s1 * 2/14
+
+            % [Breaks measure 7]
+            s1 * 7/32
+
+            % [Breaks measure 8]
+            s1 * 2/14
+
+            % [Breaks measure 9]
+            s1 * 4/32
+
+            % [Breaks measure 10]
+            s1 * 1/14
+
+            % [Breaks measure 11]
+            s1 * 3/32
+
+            % [Breaks measure 12]
+            s1 * 3/14
+
+            % [Breaks measure 13]
+            s1 * 10/32
+
+            % [Breaks measure 14]
+            s1 * 7/32
+
+            % [Breaks measure 15]
+            s1 * 2/14
+
+            % [Breaks measure 16]
+            s1 * 13/64
+
+            % [Breaks measure 17]
+            s1 * 15/32
+
+            % [Breaks measure 18]
+            s1 * 5/14
+
+            % [Breaks measure 19]
+            s1 * 6/32
+
+            % [Breaks measure 20]
+            s1 * 7/32
+
+            % [Breaks measure 21]
+            s1 * 13/16
+
+            % [Breaks measure 22]
+            s1 * 7/32
+
+            % [Breaks measure 23]
+            s1 * 10/32
+
+            % [Breaks measure 24]
+            s1 * 10/32
+
+            % [Breaks measure 25]
+            s1 * 16/32
+
+            % [Breaks measure 26]
+            s1 * 7/32
+
+            % [Breaks measure 27]
+            s1 * 7/32
+
+            % [Breaks measure 28]
+            s1 * 7/32
+
+            % [Breaks measure 29]
+            s1 * 7/32
+
+            % [Breaks measure 30]
+            s1 * 7/32
+
+            % [Breaks measure 31]
+            s1 * 7/32
+
+            % [Breaks measure 32]
+            s1 * 7/32
+
+            % [Breaks measure 33]
+            s1 * 13/64
+
+            % [Breaks measure 34]
+            s1 * 16/32
+
+            % [Breaks measure 35]
+            s1 * 7/32
+
+            % [Breaks measure 36]
+            s1 * 3/16
+
+            % [anchor skip]
+              %! ANCHOR_SKIP
+            s1 * 1/4
+
+        }
+
+    >>
 
 >>

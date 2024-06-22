@@ -428,7 +428,7 @@ def make_dotted_eighths(collection):
 
 def make_empty_score():
     tag = baca.helpers.function_name(inspect.currentframe())
-    global_context = baca.score.make_global_context()
+    global_context = baca.score.make_global_context(make_time_signatures_context=True)
     guitar_music_voice_1 = abjad.Voice(
         lilypond_type="GuitarMusicI",
         name="Guitar.Music.1",

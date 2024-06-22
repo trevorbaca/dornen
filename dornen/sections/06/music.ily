@@ -5,10 +5,6 @@ number.6.Skips = {
     % [Skips measure 1]
       %! RED_START_BAR
     %@% \baca-thick-red-bar-line
-      %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #blue
-      %! EXPLICIT_TIME_SIGNATURE
-    \time 3/32
       %! RED_START_BAR
     %@% \tweak break-visibility ##(#t #t #f)
       %! RED_START_BAR
@@ -42,10 +38,6 @@ number.6.Skips = {
     %@% \bacaStartTextSpanMN
 
     % [Skips measure 2]
-      %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #blue
-      %! EXPLICIT_TIME_SIGNATURE
-    \time 1/16
     s1 * 1/16
       %! CLOCK_TIME
     %@% \bacaStopTextSpanCT
@@ -67,10 +59,6 @@ number.6.Skips = {
     %@% \bacaStartTextSpanMN
 
     % [Skips measure 3]
-      %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #blue
-      %! EXPLICIT_TIME_SIGNATURE
-    \time 3/16
     s1 * 3/16
       %! CLOCK_TIME
     %@% \bacaStopTextSpanCT
@@ -92,12 +80,6 @@ number.6.Skips = {
     %@% \bacaStartTextSpanMN
 
     % [Skips measure 4]
-      %! EXPLICIT_TIME_SIGNATURE
-    #(ly:expect-warning "strange time signature found")
-      %! EXPLICIT_TIME_SIGNATURE
-    \time 3/20
-      %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #blue
     s1 * 3/20
       %! CLOCK_TIME
     %@% \bacaStopTextSpanCT
@@ -119,10 +101,6 @@ number.6.Skips = {
     %@% \bacaStartTextSpanMN
 
     % [Skips measure 5]
-      %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #blue
-      %! EXPLICIT_TIME_SIGNATURE
-    \time 3/32
     s1 * 3/32
       %! CLOCK_TIME
     %@% \bacaStopTextSpanCT
@@ -144,10 +122,6 @@ number.6.Skips = {
     %@% \bacaStartTextSpanMN
 
     % [Skips measure 6]
-      %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #blue
-      %! EXPLICIT_TIME_SIGNATURE
-    \time 1/16
     s1 * 1/16
       %! CLOCK_TIME
     %@% \bacaStopTextSpanCT
@@ -169,12 +143,6 @@ number.6.Skips = {
     %@% \bacaStartTextSpanMN
 
     % [Skips measure 7]
-      %! EXPLICIT_TIME_SIGNATURE
-    #(ly:expect-warning "strange time signature found")
-      %! EXPLICIT_TIME_SIGNATURE
-    \time 3/20
-      %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #blue
     s1 * 3/20
       %! CLOCK_TIME
     %@% \bacaStopTextSpanCT
@@ -196,10 +164,6 @@ number.6.Skips = {
     %@% \bacaStartTextSpanMN
 
     % [Skips measure 8]
-      %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #blue
-      %! EXPLICIT_TIME_SIGNATURE
-    \time 3/8
     s1 * 3/8
       %! CLOCK_TIME
     %@% \bacaStopTextSpanCT
@@ -221,10 +185,6 @@ number.6.Skips = {
     %@% \bacaStartTextSpanMN
 
     % [Skips measure 9]
-      %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #blue
-      %! EXPLICIT_TIME_SIGNATURE
-    \time 30/64
     s1 * 30/64
       %! CLOCK_TIME
     %@% \bacaStopTextSpanCT
@@ -259,10 +219,6 @@ number.6.Skips = {
     %@% \bacaStartTextSpanMN
 
     % [Skips measure 10]
-      %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #blue
-      %! EXPLICIT_TIME_SIGNATURE
-    \time 40/64
     s1 * 40/64
       %! CLOCK_TIME
     %@% \bacaStopTextSpanCT
@@ -284,10 +240,6 @@ number.6.Skips = {
     %@% \bacaStartTextSpanMN
 
     % [Skips measure 11]
-      %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #blue
-      %! EXPLICIT_TIME_SIGNATURE
-    \time 50/64
     s1 * 50/64
       %! CLOCK_TIME
     %@% \bacaStopTextSpanCT
@@ -309,10 +261,6 @@ number.6.Skips = {
     %@% \bacaStartTextSpanMN
 
     % [Skips measure 12]
-      %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #blue
-      %! EXPLICIT_TIME_SIGNATURE
-    \time 60/64
     s1 * 60/64
       %! CLOCK_TIME
     %@% \bacaStopTextSpanCT
@@ -334,10 +282,6 @@ number.6.Skips = {
     %@% \bacaStartTextSpanMN
 
     % [Skips measure 13]
-      %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #blue
-      %! EXPLICIT_TIME_SIGNATURE
-    \time 125/64
     s1 * 125/64
       %! CLOCK_TIME
     %@% \bacaStopTextSpanCT
@@ -361,11 +305,6 @@ number.6.Skips = {
       %! ANCHOR_SKIP
     % [anchor skip]
       %! ANCHOR_SKIP
-    \baca-time-signature-transparent
-      %! ANCHOR_SKIP
-      %! EXPLICIT_TIME_SIGNATURE
-    \time 1/4
-      %! ANCHOR_SKIP
     s1 * 1/4
       %! ANCHOR_SKIP
       %! CLOCK_TIME
@@ -383,6 +322,270 @@ number.6.Skips = {
     \once \override Score.BarLine.transparent = ##t
       %! ANCHOR_SKIP
     \once \override Score.SpanBar.transparent = ##t
+
+}
+
+
+number.6.TimeSignatures = {
+
+    % [TimeSignatures measure 1]
+      %! EXPLICIT_TIME_SIGNATURE_COLOR
+    \baca-time-signature-color #blue
+      %! EXPLICIT_TIME_SIGNATURE
+    \time 3/32
+    s1 * 3/32
+      %! LOCAL_MEASURE_NUMBER
+    - \baca-start-lmn-left-only "1"
+      %! LOCAL_MEASURE_NUMBER
+    \bacaStartTextSpanLMN
+      %! MEASURE_NUMBER
+    %@% - \baca-start-mn-left-only "120"
+      %! MEASURE_NUMBER
+    %@% \bacaStartTextSpanMN
+
+    % [TimeSignatures measure 2]
+      %! EXPLICIT_TIME_SIGNATURE_COLOR
+    \baca-time-signature-color #blue
+      %! EXPLICIT_TIME_SIGNATURE
+    \time 1/16
+    s1 * 1/16
+      %! LOCAL_MEASURE_NUMBER
+    \bacaStopTextSpanLMN
+      %! MEASURE_NUMBER
+    %@% \bacaStopTextSpanMN
+      %! LOCAL_MEASURE_NUMBER
+    - \baca-start-lmn-left-only "2"
+      %! LOCAL_MEASURE_NUMBER
+    \bacaStartTextSpanLMN
+      %! MEASURE_NUMBER
+    %@% - \baca-start-mn-left-only "121"
+      %! MEASURE_NUMBER
+    %@% \bacaStartTextSpanMN
+
+    % [TimeSignatures measure 3]
+      %! EXPLICIT_TIME_SIGNATURE_COLOR
+    \baca-time-signature-color #blue
+      %! EXPLICIT_TIME_SIGNATURE
+    \time 3/16
+    s1 * 3/16
+      %! LOCAL_MEASURE_NUMBER
+    \bacaStopTextSpanLMN
+      %! MEASURE_NUMBER
+    %@% \bacaStopTextSpanMN
+      %! LOCAL_MEASURE_NUMBER
+    - \baca-start-lmn-left-only "3"
+      %! LOCAL_MEASURE_NUMBER
+    \bacaStartTextSpanLMN
+      %! MEASURE_NUMBER
+    %@% - \baca-start-mn-left-only "122"
+      %! MEASURE_NUMBER
+    %@% \bacaStartTextSpanMN
+
+    % [TimeSignatures measure 4]
+      %! EXPLICIT_TIME_SIGNATURE
+    #(ly:expect-warning "strange time signature found")
+      %! EXPLICIT_TIME_SIGNATURE
+    \time 3/20
+      %! EXPLICIT_TIME_SIGNATURE_COLOR
+    \baca-time-signature-color #blue
+    s1 * 3/20
+      %! LOCAL_MEASURE_NUMBER
+    \bacaStopTextSpanLMN
+      %! MEASURE_NUMBER
+    %@% \bacaStopTextSpanMN
+      %! LOCAL_MEASURE_NUMBER
+    - \baca-start-lmn-left-only "4"
+      %! LOCAL_MEASURE_NUMBER
+    \bacaStartTextSpanLMN
+      %! MEASURE_NUMBER
+    %@% - \baca-start-mn-left-only "123"
+      %! MEASURE_NUMBER
+    %@% \bacaStartTextSpanMN
+
+    % [TimeSignatures measure 5]
+      %! EXPLICIT_TIME_SIGNATURE_COLOR
+    \baca-time-signature-color #blue
+      %! EXPLICIT_TIME_SIGNATURE
+    \time 3/32
+    s1 * 3/32
+      %! LOCAL_MEASURE_NUMBER
+    \bacaStopTextSpanLMN
+      %! MEASURE_NUMBER
+    %@% \bacaStopTextSpanMN
+      %! LOCAL_MEASURE_NUMBER
+    - \baca-start-lmn-left-only "5"
+      %! LOCAL_MEASURE_NUMBER
+    \bacaStartTextSpanLMN
+      %! MEASURE_NUMBER
+    %@% - \baca-start-mn-left-only "124"
+      %! MEASURE_NUMBER
+    %@% \bacaStartTextSpanMN
+
+    % [TimeSignatures measure 6]
+      %! EXPLICIT_TIME_SIGNATURE_COLOR
+    \baca-time-signature-color #blue
+      %! EXPLICIT_TIME_SIGNATURE
+    \time 1/16
+    s1 * 1/16
+      %! LOCAL_MEASURE_NUMBER
+    \bacaStopTextSpanLMN
+      %! MEASURE_NUMBER
+    %@% \bacaStopTextSpanMN
+      %! LOCAL_MEASURE_NUMBER
+    - \baca-start-lmn-left-only "6"
+      %! LOCAL_MEASURE_NUMBER
+    \bacaStartTextSpanLMN
+      %! MEASURE_NUMBER
+    %@% - \baca-start-mn-left-only "125"
+      %! MEASURE_NUMBER
+    %@% \bacaStartTextSpanMN
+
+    % [TimeSignatures measure 7]
+      %! EXPLICIT_TIME_SIGNATURE
+    #(ly:expect-warning "strange time signature found")
+      %! EXPLICIT_TIME_SIGNATURE
+    \time 3/20
+      %! EXPLICIT_TIME_SIGNATURE_COLOR
+    \baca-time-signature-color #blue
+    s1 * 3/20
+      %! LOCAL_MEASURE_NUMBER
+    \bacaStopTextSpanLMN
+      %! MEASURE_NUMBER
+    %@% \bacaStopTextSpanMN
+      %! LOCAL_MEASURE_NUMBER
+    - \baca-start-lmn-left-only "7"
+      %! LOCAL_MEASURE_NUMBER
+    \bacaStartTextSpanLMN
+      %! MEASURE_NUMBER
+    %@% - \baca-start-mn-left-only "126"
+      %! MEASURE_NUMBER
+    %@% \bacaStartTextSpanMN
+
+    % [TimeSignatures measure 8]
+      %! EXPLICIT_TIME_SIGNATURE_COLOR
+    \baca-time-signature-color #blue
+      %! EXPLICIT_TIME_SIGNATURE
+    \time 3/8
+    s1 * 3/8
+      %! LOCAL_MEASURE_NUMBER
+    \bacaStopTextSpanLMN
+      %! MEASURE_NUMBER
+    %@% \bacaStopTextSpanMN
+      %! LOCAL_MEASURE_NUMBER
+    - \baca-start-lmn-left-only "8"
+      %! LOCAL_MEASURE_NUMBER
+    \bacaStartTextSpanLMN
+      %! MEASURE_NUMBER
+    %@% - \baca-start-mn-left-only "127"
+      %! MEASURE_NUMBER
+    %@% \bacaStartTextSpanMN
+
+    % [TimeSignatures measure 9]
+      %! EXPLICIT_TIME_SIGNATURE_COLOR
+    \baca-time-signature-color #blue
+      %! EXPLICIT_TIME_SIGNATURE
+    \time 30/64
+    s1 * 30/64
+      %! LOCAL_MEASURE_NUMBER
+    \bacaStopTextSpanLMN
+      %! MEASURE_NUMBER
+    %@% \bacaStopTextSpanMN
+      %! LOCAL_MEASURE_NUMBER
+    - \baca-start-lmn-left-only "9"
+      %! LOCAL_MEASURE_NUMBER
+    \bacaStartTextSpanLMN
+      %! MEASURE_NUMBER
+    %@% - \baca-start-mn-left-only "128"
+      %! MEASURE_NUMBER
+    %@% \bacaStartTextSpanMN
+
+    % [TimeSignatures measure 10]
+      %! EXPLICIT_TIME_SIGNATURE_COLOR
+    \baca-time-signature-color #blue
+      %! EXPLICIT_TIME_SIGNATURE
+    \time 40/64
+    s1 * 40/64
+      %! LOCAL_MEASURE_NUMBER
+    \bacaStopTextSpanLMN
+      %! MEASURE_NUMBER
+    %@% \bacaStopTextSpanMN
+      %! LOCAL_MEASURE_NUMBER
+    - \baca-start-lmn-left-only "10"
+      %! LOCAL_MEASURE_NUMBER
+    \bacaStartTextSpanLMN
+      %! MEASURE_NUMBER
+    %@% - \baca-start-mn-left-only "129"
+      %! MEASURE_NUMBER
+    %@% \bacaStartTextSpanMN
+
+    % [TimeSignatures measure 11]
+      %! EXPLICIT_TIME_SIGNATURE_COLOR
+    \baca-time-signature-color #blue
+      %! EXPLICIT_TIME_SIGNATURE
+    \time 50/64
+    s1 * 50/64
+      %! LOCAL_MEASURE_NUMBER
+    \bacaStopTextSpanLMN
+      %! MEASURE_NUMBER
+    %@% \bacaStopTextSpanMN
+      %! LOCAL_MEASURE_NUMBER
+    - \baca-start-lmn-left-only "11"
+      %! LOCAL_MEASURE_NUMBER
+    \bacaStartTextSpanLMN
+      %! MEASURE_NUMBER
+    %@% - \baca-start-mn-left-only "130"
+      %! MEASURE_NUMBER
+    %@% \bacaStartTextSpanMN
+
+    % [TimeSignatures measure 12]
+      %! EXPLICIT_TIME_SIGNATURE_COLOR
+    \baca-time-signature-color #blue
+      %! EXPLICIT_TIME_SIGNATURE
+    \time 60/64
+    s1 * 60/64
+      %! LOCAL_MEASURE_NUMBER
+    \bacaStopTextSpanLMN
+      %! MEASURE_NUMBER
+    %@% \bacaStopTextSpanMN
+      %! LOCAL_MEASURE_NUMBER
+    - \baca-start-lmn-left-only "12"
+      %! LOCAL_MEASURE_NUMBER
+    \bacaStartTextSpanLMN
+      %! MEASURE_NUMBER
+    %@% - \baca-start-mn-left-only "131"
+      %! MEASURE_NUMBER
+    %@% \bacaStartTextSpanMN
+
+    % [TimeSignatures measure 13]
+      %! EXPLICIT_TIME_SIGNATURE_COLOR
+    \baca-time-signature-color #blue
+      %! EXPLICIT_TIME_SIGNATURE
+    \time 125/64
+    s1 * 125/64
+      %! LOCAL_MEASURE_NUMBER
+    \bacaStopTextSpanLMN
+      %! MEASURE_NUMBER
+    %@% \bacaStopTextSpanMN
+      %! LOCAL_MEASURE_NUMBER
+    - \baca-start-lmn-left-only "13"
+      %! LOCAL_MEASURE_NUMBER
+    \bacaStartTextSpanLMN
+      %! MEASURE_NUMBER
+    %@% - \baca-start-mn-left-only "132"
+      %! MEASURE_NUMBER
+    %@% \bacaStartTextSpanMN
+
+    % [anchor skip]
+      %! EXPLICIT_TIME_SIGNATURE_COLOR
+    \baca-time-signature-color #blue
+      %! EXPLICIT_TIME_SIGNATURE
+    \time 1/4
+      %! ANCHOR_SKIP
+    s1 * 1/4
+      %! LOCAL_MEASURE_NUMBER
+    \bacaStopTextSpanLMN
+      %! MEASURE_NUMBER
+    %@% \bacaStopTextSpanMN
 
 }
 

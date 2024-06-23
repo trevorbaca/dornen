@@ -5,7 +5,7 @@ number.6.Skips = {
     % [Skips measure 1]
       %! RED_START_BAR
     %@% \baca-thick-red-bar-line
-      %! REAPPLIED_METRONOME_MARK
+      %! LILYPOND_TEMPO_COMMAND
     \tempo 8=66
       %! RED_START_BAR
     %@% \tweak break-visibility ##(#t #t #f)
@@ -187,7 +187,7 @@ number.6.Skips = {
     %@% \bacaStartTextSpanMN
 
     % [Skips measure 9]
-      %! EXPLICIT_METRONOME_MARK
+      %! LILYPOND_TEMPO_COMMAND
     \tempo 8=44
     s1 * 30/64
       %! CLOCK_TIME

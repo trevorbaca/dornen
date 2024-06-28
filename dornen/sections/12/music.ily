@@ -710,13 +710,19 @@ number.12.TimeSignatures = {
     % [TimeSignatures measure 25]
     s1 * 4/5
 
+      %! ANCHOR_SKIP
     % [anchor skip]
-      %! EXPLICIT_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #blue
+      %! ANCHOR_SKIP
+    \baca-time-signature-transparent
+      %! ANCHOR_SKIP
       %! EXPLICIT_TIME_SIGNATURE
     \time 1/4
       %! ANCHOR_SKIP
     s1 * 1/4
+      %! ANCHOR_SKIP
+    \once \override Score.BarLine.transparent = ##t
+      %! ANCHOR_SKIP
+    \once \override Score.SpanBar.transparent = ##t
 
 }
 

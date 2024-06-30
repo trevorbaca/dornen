@@ -229,8 +229,6 @@
     \override TupletNumber.font-size = 1
     \override TupletNumber.text = #tuplet-number::calc-fraction-text
     autoBeaming = ##f
-    % TODO: activate in score:
-    %barNumberFormatter = #baca-oval-bar-numbers
     proportionalNotationDuration = \musicLength 1*1/24
     tupletFullLength = ##t
   }

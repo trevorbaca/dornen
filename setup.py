@@ -16,7 +16,7 @@ if __name__ == "__main__":
         name="dornen",
         packages=["dornen"],
         platforms="Any",
-        python_requires=">=3.10",
+        python_requires=">=3.12",
         url="https://github.com/trevorbaca/dornen",
         version="3.19",
     )

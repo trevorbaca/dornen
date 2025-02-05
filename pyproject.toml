@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "dornen"
-version = "1.0.0"
+version = "3.21"
 description = "Spiel der Dornen (2016) for guitar"
 authors = [{ name = "Trevor Bača", email = "trevor.baca@gmail.com" }]
 license = { text = "MIT" }

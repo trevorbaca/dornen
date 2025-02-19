@@ -2,7 +2,7 @@ import inspect
 
 import abjad
 import baca
-from abjadext import rmakers
+import rmakers
 
 v1 = "Guitar.Music.1"
 v2 = "Guitar.Music.2"

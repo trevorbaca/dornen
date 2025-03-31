@@ -1,6 +1,7 @@
 \version "2.25.24"
 
-number.7.Skips = {
+number.7.Skips =
+{
 
     % [Skips measure 1]
       %! RED_START_BAR
@@ -504,7 +505,8 @@ number.7.Skips = {
 }
 
 
-number.7.TimeSignatures = {
+number.7.TimeSignatures =
+{
 
     % [TimeSignatures measure 1]
       %! EXPLICIT_TIME_SIGNATURE
@@ -703,7 +705,8 @@ number.7.TimeSignatures = {
 }
 
 
-number.7.Rests = {
+number.7.Rests =
+{
 
     % [Rests measure 1]
     R1 * 3/20
@@ -774,7 +777,8 @@ number.7.Rests = {
 }
 
 
-number.7.Guitar.Music.1 = {
+number.7.Guitar.Music.1 =
+{
 
     \tweak edge-height #'(0.7 . 0)
     \tuplet 5/4
@@ -1029,7 +1033,8 @@ number.7.Guitar.Music.1 = {
 }
 
 
-number.7.Guitar.Music.2 = {
+number.7.Guitar.Music.2 =
+{
 
     % [Guitar.Music.2 measure 1]
     \override Beam.positions = #'(-7 . -7)
@@ -1224,7 +1229,8 @@ number.7.Guitar.Music.2 = {
 }
 
 
-number.7.Guitar.Music.3 = {
+number.7.Guitar.Music.3 =
+{
 
     % [Guitar.Music.3 measure 1]
     \override Beam.positions = #'(4 . 4)
@@ -1387,7 +1393,8 @@ number.7.Guitar.Music.3 = {
 }
 
 
-number.7.Guitar.Music.4 = {
+number.7.Guitar.Music.4 =
+{
 
     % [Guitar.Music.4 measure 1]
     s1 * 3/20
@@ -1458,21 +1465,32 @@ number.7.Guitar.Music.4 = {
 }
 
 
-number.7.Guitar.Staff = <<
+number.7.Guitar.Staff =
+<<
 
     \context GlobalRests = "Rests"
-    { \number.7.Rests }
+    {
+        \number.7.Rests
+    }
 
     \context GuitarMusicI = "Guitar.Music.1"
-    { \number.7.Guitar.Music.1 }
+    {
+        \number.7.Guitar.Music.1
+    }
 
     \context GuitarMusicII = "Guitar.Music.2"
-    { \number.7.Guitar.Music.2 }
+    {
+        \number.7.Guitar.Music.2
+    }
 
     \context GuitarMusicIII = "Guitar.Music.3"
-    { \number.7.Guitar.Music.3 }
+    {
+        \number.7.Guitar.Music.3
+    }
 
     \context GuitarMusicIV = "Guitar.Music.4"
-    { \number.7.Guitar.Music.4 }
+    {
+        \number.7.Guitar.Music.4
+    }
 
 >>

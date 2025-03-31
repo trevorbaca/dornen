@@ -1,6 +1,7 @@
 \version "2.25.24"
 
-number.14.Skips = {
+number.14.Skips =
+{
 
     % [Skips measure 1]
       %! RED_START_BAR
@@ -925,7 +926,8 @@ number.14.Skips = {
 }
 
 
-number.14.TimeSignatures = {
+number.14.TimeSignatures =
+{
 
     % [TimeSignatures measure 1]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -1264,7 +1266,8 @@ number.14.TimeSignatures = {
 }
 
 
-number.14.Rests = {
+number.14.Rests =
+{
 
     % [Rests measure 1]
     R1 * 3/32
@@ -1395,7 +1398,8 @@ number.14.Rests = {
 }
 
 
-number.14.Guitar.Music.1 = {
+number.14.Guitar.Music.1 =
+{
 
     {
 
@@ -1856,7 +1860,8 @@ number.14.Guitar.Music.1 = {
 }
 
 
-number.14.Guitar.Music.2 = {
+number.14.Guitar.Music.2 =
+{
 
     % [Guitar.Music.2 measure 1]
     \override Beam.positions = #'(-5.5 . -5.5)
@@ -2157,7 +2162,8 @@ number.14.Guitar.Music.2 = {
 }
 
 
-number.14.Guitar.Music.3 = {
+number.14.Guitar.Music.3 =
+{
 
     % [Guitar.Music.3 measure 1]
     \override Script.direction = #down
@@ -2356,7 +2362,8 @@ number.14.Guitar.Music.3 = {
 }
 
 
-number.14.Guitar.Music.4 = {
+number.14.Guitar.Music.4 =
+{
 
     % [Guitar.Music.4 measure 1]
     \override Beam.positions = #'(5.5 . 5.5)
@@ -2753,21 +2760,32 @@ number.14.Guitar.Music.4 = {
 }
 
 
-number.14.Guitar.Staff = <<
+number.14.Guitar.Staff =
+<<
 
     \context GlobalRests = "Rests"
-    { \number.14.Rests }
+    {
+        \number.14.Rests
+    }
 
     \context GuitarMusicI = "Guitar.Music.1"
-    { \number.14.Guitar.Music.1 }
+    {
+        \number.14.Guitar.Music.1
+    }
 
     \context GuitarMusicII = "Guitar.Music.2"
-    { \number.14.Guitar.Music.2 }
+    {
+        \number.14.Guitar.Music.2
+    }
 
     \context GuitarMusicIII = "Guitar.Music.3"
-    { \number.14.Guitar.Music.3 }
+    {
+        \number.14.Guitar.Music.3
+    }
 
     \context GuitarMusicIV = "Guitar.Music.4"
-    { \number.14.Guitar.Music.4 }
+    {
+        \number.14.Guitar.Music.4
+    }
 
 >>

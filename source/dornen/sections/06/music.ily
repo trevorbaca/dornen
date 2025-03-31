@@ -1,6 +1,7 @@
 \version "2.25.24"
 
-number.6.Skips = {
+number.6.Skips =
+{
 
     % [Skips measure 1]
       %! RED_START_BAR
@@ -330,7 +331,8 @@ number.6.Skips = {
 }
 
 
-number.6.TimeSignatures = {
+number.6.TimeSignatures =
+{
 
     % [TimeSignatures measure 1]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -444,7 +446,8 @@ number.6.TimeSignatures = {
 }
 
 
-number.6.Rests = {
+number.6.Rests =
+{
 
     % [Rests measure 1]
     R1 * 3/32
@@ -488,7 +491,8 @@ number.6.Rests = {
 }
 
 
-number.6.Guitar.Music.1 = {
+number.6.Guitar.Music.1 =
+{
 
     {
 
@@ -2401,7 +2405,8 @@ number.6.Guitar.Music.1 = {
 }
 
 
-number.6.Guitar.Music.2 = {
+number.6.Guitar.Music.2 =
+{
 
     % [Guitar.Music.2 measure 1]
     s1 * 3/32
@@ -2445,7 +2450,8 @@ number.6.Guitar.Music.2 = {
 }
 
 
-number.6.Guitar.Music.3 = {
+number.6.Guitar.Music.3 =
+{
 
     % [Guitar.Music.3 measure 1]
     \override Script.direction = #down
@@ -2511,7 +2517,8 @@ number.6.Guitar.Music.3 = {
 }
 
 
-number.6.Guitar.Music.4 = {
+number.6.Guitar.Music.4 =
+{
 
     % [Guitar.Music.4 measure 1]
     \override Beam.positions = #'(5.5 . 5.5)
@@ -2595,21 +2602,32 @@ number.6.Guitar.Music.4 = {
 }
 
 
-number.6.Guitar.Staff = <<
+number.6.Guitar.Staff =
+<<
 
     \context GlobalRests = "Rests"
-    { \number.6.Rests }
+    {
+        \number.6.Rests
+    }
 
     \context GuitarMusicI = "Guitar.Music.1"
-    { \number.6.Guitar.Music.1 }
+    {
+        \number.6.Guitar.Music.1
+    }
 
     \context GuitarMusicII = "Guitar.Music.2"
-    { \number.6.Guitar.Music.2 }
+    {
+        \number.6.Guitar.Music.2
+    }
 
     \context GuitarMusicIII = "Guitar.Music.3"
-    { \number.6.Guitar.Music.3 }
+    {
+        \number.6.Guitar.Music.3
+    }
 
     \context GuitarMusicIV = "Guitar.Music.4"
-    { \number.6.Guitar.Music.4 }
+    {
+        \number.6.Guitar.Music.4
+    }
 
 >>

@@ -1,6 +1,7 @@
 \version "2.25.24"
 
-number.2.Skips = {
+number.2.Skips =
+{
 
     % [Skips measure 1]
       %! RED_START_BAR
@@ -357,7 +358,8 @@ number.2.Skips = {
 }
 
 
-number.2.TimeSignatures = {
+number.2.TimeSignatures =
+{
 
     % [TimeSignatures measure 1]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -495,7 +497,8 @@ number.2.TimeSignatures = {
 }
 
 
-number.2.Rests = {
+number.2.Rests =
+{
 
     % [Rests measure 1]
     R1 * 4/16
@@ -545,7 +548,8 @@ number.2.Rests = {
 }
 
 
-number.2.Guitar.Music.1 = {
+number.2.Guitar.Music.1 =
+{
 
     \override TupletNumber.text = \markup \scale #'(0.75 . 0.75) \rhythm { 16 }
     \tuplet 1/1
@@ -1477,7 +1481,8 @@ number.2.Guitar.Music.1 = {
 }
 
 
-number.2.Guitar.Music.2 = {
+number.2.Guitar.Music.2 =
+{
 
     % [Guitar.Music.2 measure 1]
     s1 * 1/4
@@ -1639,7 +1644,8 @@ number.2.Guitar.Music.2 = {
 }
 
 
-number.2.Guitar.Music.3 = {
+number.2.Guitar.Music.3 =
+{
 
     % [Guitar.Music.3 measure 1]
     s1 * 1/4
@@ -1689,7 +1695,8 @@ number.2.Guitar.Music.3 = {
 }
 
 
-number.2.Guitar.Music.4 = {
+number.2.Guitar.Music.4 =
+{
 
     % [Guitar.Music.4 measure 1]
     s1 * 1/4
@@ -1739,21 +1746,32 @@ number.2.Guitar.Music.4 = {
 }
 
 
-number.2.Guitar.Staff = <<
+number.2.Guitar.Staff =
+<<
 
     \context GlobalRests = "Rests"
-    { \number.2.Rests }
+    {
+        \number.2.Rests
+    }
 
     \context GuitarMusicI = "Guitar.Music.1"
-    { \number.2.Guitar.Music.1 }
+    {
+        \number.2.Guitar.Music.1
+    }
 
     \context GuitarMusicII = "Guitar.Music.2"
-    { \number.2.Guitar.Music.2 }
+    {
+        \number.2.Guitar.Music.2
+    }
 
     \context GuitarMusicIII = "Guitar.Music.3"
-    { \number.2.Guitar.Music.3 }
+    {
+        \number.2.Guitar.Music.3
+    }
 
     \context GuitarMusicIV = "Guitar.Music.4"
-    { \number.2.Guitar.Music.4 }
+    {
+        \number.2.Guitar.Music.4
+    }
 
 >>

@@ -1,6 +1,7 @@
 \version "2.25.24"
 
-number.10.Skips = {
+number.10.Skips =
+{
 
     % [Skips measure 1]
       %! RED_START_BAR
@@ -504,7 +505,8 @@ number.10.Skips = {
 }
 
 
-number.10.TimeSignatures = {
+number.10.TimeSignatures =
+{
 
     % [TimeSignatures measure 1]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -665,7 +667,8 @@ number.10.TimeSignatures = {
 }
 
 
-number.10.Rests = {
+number.10.Rests =
+{
 
     % [Rests measure 1]
     R1 * 3/8
@@ -736,7 +739,8 @@ number.10.Rests = {
 }
 
 
-number.10.Guitar.Music.1 = {
+number.10.Guitar.Music.1 =
+{
 
     {
 
@@ -1301,7 +1305,8 @@ number.10.Guitar.Music.1 = {
 }
 
 
-number.10.Guitar.Music.2 = {
+number.10.Guitar.Music.2 =
+{
 
     % [Guitar.Music.2 measure 1]
     s1 * 3/8
@@ -1372,7 +1377,8 @@ number.10.Guitar.Music.2 = {
 }
 
 
-number.10.Guitar.Music.3 = {
+number.10.Guitar.Music.3 =
+{
 
     % [Guitar.Music.3 measure 1]
     s1 * 3/8
@@ -1443,7 +1449,8 @@ number.10.Guitar.Music.3 = {
 }
 
 
-number.10.Guitar.Music.4 = {
+number.10.Guitar.Music.4 =
+{
 
     % [Guitar.Music.4 measure 1]
     s1 * 3/8
@@ -1514,21 +1521,32 @@ number.10.Guitar.Music.4 = {
 }
 
 
-number.10.Guitar.Staff = <<
+number.10.Guitar.Staff =
+<<
 
     \context GlobalRests = "Rests"
-    { \number.10.Rests }
+    {
+        \number.10.Rests
+    }
 
     \context GuitarMusicI = "Guitar.Music.1"
-    { \number.10.Guitar.Music.1 }
+    {
+        \number.10.Guitar.Music.1
+    }
 
     \context GuitarMusicII = "Guitar.Music.2"
-    { \number.10.Guitar.Music.2 }
+    {
+        \number.10.Guitar.Music.2
+    }
 
     \context GuitarMusicIII = "Guitar.Music.3"
-    { \number.10.Guitar.Music.3 }
+    {
+        \number.10.Guitar.Music.3
+    }
 
     \context GuitarMusicIV = "Guitar.Music.4"
-    { \number.10.Guitar.Music.4 }
+    {
+        \number.10.Guitar.Music.4
+    }
 
 >>

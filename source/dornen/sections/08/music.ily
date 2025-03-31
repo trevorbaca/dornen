@@ -1,6 +1,7 @@
 \version "2.25.24"
 
-number.8.Skips = {
+number.8.Skips =
+{
 
     % [Skips measure 1]
       %! RED_START_BAR
@@ -294,7 +295,8 @@ number.8.Skips = {
 }
 
 
-number.8.TimeSignatures = {
+number.8.TimeSignatures =
+{
 
     % [TimeSignatures measure 1]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -405,7 +407,8 @@ number.8.TimeSignatures = {
 }
 
 
-number.8.Rests = {
+number.8.Rests =
+{
 
     % [Rests measure 1]
     R1 * 7/32
@@ -446,7 +449,8 @@ number.8.Rests = {
 }
 
 
-number.8.Guitar.Music.1 = {
+number.8.Guitar.Music.1 =
+{
 
     % [Guitar.Music.1 measure 1]
       %! REAPPLIED_CLEF
@@ -586,7 +590,8 @@ number.8.Guitar.Music.1 = {
 }
 
 
-number.8.Guitar.Music.2 = {
+number.8.Guitar.Music.2 =
+{
 
     {
 
@@ -713,7 +718,8 @@ number.8.Guitar.Music.2 = {
 }
 
 
-number.8.Guitar.Music.3 = {
+number.8.Guitar.Music.3 =
+{
 
     % [Guitar.Music.3 measure 1]
     s1 * 7/32
@@ -914,7 +920,8 @@ number.8.Guitar.Music.3 = {
 }
 
 
-number.8.Guitar.Music.4 = {
+number.8.Guitar.Music.4 =
+{
 
     % [Guitar.Music.4 measure 1]
     \override Beam.positions = #'(8 . 8)
@@ -1155,21 +1162,32 @@ number.8.Guitar.Music.4 = {
 }
 
 
-number.8.Guitar.Staff = <<
+number.8.Guitar.Staff =
+<<
 
     \context GlobalRests = "Rests"
-    { \number.8.Rests }
+    {
+        \number.8.Rests
+    }
 
     \context GuitarMusicI = "Guitar.Music.1"
-    { \number.8.Guitar.Music.1 }
+    {
+        \number.8.Guitar.Music.1
+    }
 
     \context GuitarMusicII = "Guitar.Music.2"
-    { \number.8.Guitar.Music.2 }
+    {
+        \number.8.Guitar.Music.2
+    }
 
     \context GuitarMusicIII = "Guitar.Music.3"
-    { \number.8.Guitar.Music.3 }
+    {
+        \number.8.Guitar.Music.3
+    }
 
     \context GuitarMusicIV = "Guitar.Music.4"
-    { \number.8.Guitar.Music.4 }
+    {
+        \number.8.Guitar.Music.4
+    }
 
 >>

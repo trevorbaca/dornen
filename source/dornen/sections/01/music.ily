@@ -1,6 +1,7 @@
 \version "2.25.24"
 
-number.1.Skips = {
+number.1.Skips =
+{
 
     % [Skips measure 1]
       %! LILYPOND_TEMPO_COMMAND
@@ -433,7 +434,8 @@ number.1.Skips = {
 }
 
 
-number.1.TimeSignatures = {
+number.1.TimeSignatures =
+{
 
     % [TimeSignatures measure 1]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -581,7 +583,8 @@ number.1.TimeSignatures = {
 }
 
 
-number.1.Rests = {
+number.1.Rests =
+{
 
     % [Rests measure 1]
     R1 * 3/16
@@ -643,7 +646,8 @@ number.1.Rests = {
 }
 
 
-number.1.Guitar.Music.1 = {
+number.1.Guitar.Music.1 =
+{
 
     {
 
@@ -816,7 +820,8 @@ number.1.Guitar.Music.1 = {
 }
 
 
-number.1.Guitar.Music.2 = {
+number.1.Guitar.Music.2 =
+{
 
     % [Guitar.Music.2 measure 1]
     s1 * 3/16
@@ -1070,7 +1075,8 @@ number.1.Guitar.Music.2 = {
 }
 
 
-number.1.Guitar.Music.3 = {
+number.1.Guitar.Music.3 =
+{
 
     % [Guitar.Music.3 measure 1]
     s1 * 3/16
@@ -1236,7 +1242,8 @@ number.1.Guitar.Music.3 = {
 }
 
 
-number.1.Guitar.Music.4 = {
+number.1.Guitar.Music.4 =
+{
 
     % [Guitar.Music.4 measure 1]
     s1 * 3/16
@@ -1521,21 +1528,32 @@ number.1.Guitar.Music.4 = {
 }
 
 
-number.1.Guitar.Staff = <<
+number.1.Guitar.Staff =
+<<
 
     \context GlobalRests = "Rests"
-    { \number.1.Rests }
+    {
+        \number.1.Rests
+    }
 
     \context GuitarMusicI = "Guitar.Music.1"
-    { \number.1.Guitar.Music.1 }
+    {
+        \number.1.Guitar.Music.1
+    }
 
     \context GuitarMusicII = "Guitar.Music.2"
-    { \number.1.Guitar.Music.2 }
+    {
+        \number.1.Guitar.Music.2
+    }
 
     \context GuitarMusicIII = "Guitar.Music.3"
-    { \number.1.Guitar.Music.3 }
+    {
+        \number.1.Guitar.Music.3
+    }
 
     \context GuitarMusicIV = "Guitar.Music.4"
-    { \number.1.Guitar.Music.4 }
+    {
+        \number.1.Guitar.Music.4
+    }
 
 >>

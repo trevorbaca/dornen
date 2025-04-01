@@ -378,7 +378,7 @@ def postprocess(cache):
         baca.staccato(o.pheads())
     m = cache[library.v1]
     with baca.scope(m.leaves()) as o:
-        baca.mark(o.rleaf(-1), r"\dornen-colophon-markup")
+        baca.rehearsal_mark(o.rleaf(-1), r"\dornen-colophon-markup")
         baca.override.rehearsal_mark_direction_down(o.rleaf(-1))
         baca.override.rehearsal_mark_padding(o.rleaf(-1), 12)
         baca.override.rehearsal_mark_self_alignment_x(o.rleaf(-1), abjad.RIGHT)

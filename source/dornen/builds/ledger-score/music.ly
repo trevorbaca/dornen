@@ -1,6 +1,6 @@
 % Spiel der Dornen (2016) for guitar
 
-\version "2.25.25"
+\version "2.25.26"
 
 \include "stylesheet.ily"
 \include "layout.ily"

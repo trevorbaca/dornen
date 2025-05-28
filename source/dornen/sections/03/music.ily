@@ -2733,8 +2733,8 @@ number.3.Guitar.Music.4 =
     % [Guitar.Music.4 measure 1]
     s1 * 9/64
 
-    \tweak text #tuplet-number::calc-fraction-text
     \tweak edge-height #'(0.7 . 0)
+    \tweak text #tuplet-number::calc-fraction-text
     \tuplet 7/8
     {
 
@@ -2753,8 +2753,8 @@ number.3.Guitar.Music.4 =
     % [Guitar.Music.4 measure 3]
     s1 * 7/32
 
-    \tweak text #tuplet-number::calc-fraction-text
     \tweak edge-height #'(0.7 . 0)
+    \tweak text #tuplet-number::calc-fraction-text
     \tuplet 7/8
     {
 
@@ -2773,8 +2773,8 @@ number.3.Guitar.Music.4 =
     % [Guitar.Music.4 measure 5]
     s1 * 13/64
 
-    \tweak text #tuplet-number::calc-fraction-text
     \tweak edge-height #'(0.7 . 0)
+    \tweak text #tuplet-number::calc-fraction-text
     \tuplet 7/8
     {
 
@@ -2804,8 +2804,8 @@ number.3.Guitar.Music.4 =
     % [Guitar.Music.4 measure 7]
     s1 * 7/32
 
-    \tweak text #tuplet-number::calc-fraction-text
     \tweak edge-height #'(0.7 . 0)
+    \tweak text #tuplet-number::calc-fraction-text
     \tuplet 7/8
     {
 
@@ -2836,8 +2836,8 @@ number.3.Guitar.Music.4 =
     % [Guitar.Music.4 measure 9]
     s1 * 1/8
 
-    \tweak text #tuplet-number::calc-fraction-text
     \tweak edge-height #'(0.7 . 0)
+    \tweak text #tuplet-number::calc-fraction-text
     \tuplet 7/8
     {
 
@@ -2856,8 +2856,8 @@ number.3.Guitar.Music.4 =
     % [Guitar.Music.4 measure 11]
     s1 * 3/32
 
-    \tweak text #tuplet-number::calc-fraction-text
     \tweak edge-height #'(0.7 . 0)
+    \tweak text #tuplet-number::calc-fraction-text
     \tuplet 7/8
     {
 
@@ -2900,8 +2900,8 @@ number.3.Guitar.Music.4 =
     % [Guitar.Music.4 measure 14]
     s1 * 7/32
 
-    \tweak text #tuplet-number::calc-fraction-text
     \tweak edge-height #'(0.7 . 0)
+    \tweak text #tuplet-number::calc-fraction-text
     \tuplet 7/8
     {
 
@@ -2934,8 +2934,8 @@ number.3.Guitar.Music.4 =
     % [Guitar.Music.4 measure 17]
     s1 * 15/32
 
-    \tweak text #tuplet-number::calc-fraction-text
     \tweak edge-height #'(0.7 . 0)
+    \tweak text #tuplet-number::calc-fraction-text
     \tuplet 7/8
     {
 

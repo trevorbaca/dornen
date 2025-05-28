@@ -930,8 +930,8 @@ number.8.Guitar.Music.4 =
     % [Guitar.Music.4 measure 2]
     s1 * 1/8
 
-    \tweak text #tuplet-number::calc-fraction-text
     \tweak edge-height #'(0.7 . 0)
+    \tweak text #tuplet-number::calc-fraction-text
     \tuplet 7/8
     {
 
@@ -960,8 +960,8 @@ number.8.Guitar.Music.4 =
     % [Guitar.Music.4 measure 4]
     s1 * 11/16
 
-    \tweak text #tuplet-number::calc-fraction-text
     \tweak edge-height #'(0.7 . 0)
+    \tweak text #tuplet-number::calc-fraction-text
     \tuplet 7/8
     {
 
@@ -1087,8 +1087,8 @@ number.8.Guitar.Music.4 =
     % [Guitar.Music.4 measure 7]
     s1 * 9/32
 
-    \tweak text #tuplet-number::calc-fraction-text
     \tweak edge-height #'(0.7 . 0)
+    \tweak text #tuplet-number::calc-fraction-text
     \tuplet 7/8
     {
 
@@ -1111,8 +1111,8 @@ number.8.Guitar.Music.4 =
     % [Guitar.Music.4 measure 9]
     s1 * 3/16
 
-    \tweak text #tuplet-number::calc-fraction-text
     \tweak edge-height #'(0.7 . 0)
+    \tweak text #tuplet-number::calc-fraction-text
     \tuplet 7/8
     {
 

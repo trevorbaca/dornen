@@ -1168,8 +1168,8 @@ number.9.Guitar.Music.2 =
     % [Guitar.Music.2 measure 15]
     s1 * 3/16
 
-    \tweak text #tuplet-number::calc-fraction-text
     \tweak edge-height #'(0.7 . 0)
+    \tweak text #tuplet-number::calc-fraction-text
     \tuplet 7/8
     {
 
@@ -1198,8 +1198,8 @@ number.9.Guitar.Music.2 =
 
     }
 
-    \tweak text #tuplet-number::calc-fraction-text
     \tweak edge-height #'(0.7 . 0)
+    \tweak text #tuplet-number::calc-fraction-text
     \tuplet 7/5
     {
 

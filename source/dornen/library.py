@@ -306,7 +306,7 @@ class Accumulator:
         other_voice_names = {v1, v2, v3, v4} - {voice_name}
         for other_voice_name in sorted(other_voice_names):
             voice = self._score[other_voice_name]
-            skip = abjad.Skip("s1", multiplier=duration.pair())
+            skip = abjad.Skip("s1", multiplier=duration.get_pair())
             voice.append(skip)
 
 
@@ -600,7 +600,7 @@ def make_time_signature(tuplets, tsd):
     if tsd is not None:
         pair = abjad.duration.with_denominator(duration, tsd)
     else:
-        pair = duration.pair()
+        pair = duration.get_pair()
     time_signature = abjad.TimeSignature(pair)
     return time_signature
 

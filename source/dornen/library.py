@@ -26,7 +26,7 @@ def _apply_operator(numbers, operator):
         segment = baca.pcollections.alpha(segment)
     else:
         raise Exception(f"unrecognized operator: {operator!r}.")
-    numbers = [_.get_number() for _ in segment]
+    numbers = [_.number() for _ in segment]
     return numbers
 
 

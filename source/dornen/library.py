@@ -598,7 +598,7 @@ def make_thirty_seconds(collection):
 def make_time_signature(tuplets, tsd):
     duration = abjad.get.duration(tuplets)
     if tsd is not None:
-        pair = abjad.duration.pair_with_denominator(duration, tsd)
+        pair = abjad.duration.pair_with_denominator(duration.as_fraction(), tsd)
     else:
         pair = duration.pair()
     time_signature = abjad.TimeSignature(pair)
@@ -659,8 +659,8 @@ instruments = {"Guitar": abjad.Guitar(pitch_range=abjad.PitchRange("[E2, F5]"))}
 
 
 metronome_marks = {
-    "44": abjad.MetronomeMark(abjad.Duration(1, 8), 44),
-    "66": abjad.MetronomeMark(abjad.Duration(1, 8), 66),
+    "44": abjad.MetronomeMark(abjad.ValueDuration(1, 8), 44),
+    "66": abjad.MetronomeMark(abjad.ValueDuration(1, 8), 66),
 }
 
 

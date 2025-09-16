@@ -306,7 +306,7 @@ class Accumulator:
         other_voice_names = {v1, v2, v3, v4} - {voice_name}
         for other_voice_name in sorted(other_voice_names):
             voice = self._score[other_voice_name]
-            skip = abjad.Skip("s1", multiplier=duration.pair())
+            skip = abjad.Skip("s1", dmp=duration.pair())
             voice.append(skip)
 
 

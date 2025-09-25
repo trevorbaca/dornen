@@ -500,7 +500,10 @@ def make_graced_tuplets(collections):
     all_bgcs = []
     for i, collection in enumerate(collections):
         bgcs, collection = baca.make_bgcs(collection, lmr)
-        all_bgcs.extend(bgcs)
+        for item in bgcs:
+            if item is not None:
+                all_bgcs.append(item)
+        # all_bgcs.extend(bgcs)
         if i % 2 == 0:
             ratio = "7:8"
         else:
@@ -529,7 +532,7 @@ def make_ovoid(collection):
     baca.rhythm.attach_bgcs(bgcs, tuplet)
     group = abjad.select.leaves(tuplet, grace=False)
     rmakers.beam_groups([group])
-    rmakers.beam(bgcs)
+    rmakers.beam([_ for _ in bgcs if _ is not None])
     voice[:] = []
     return tuplet
 

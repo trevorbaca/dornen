@@ -204,7 +204,8 @@ def populate_score(score):
         baca.override.beam_positions(abjad.select.leaves(tuplets, grace=False), -6)
         accumulator(library.v3, tuplets, tsd, "W_2")
 
-    rmakers.swap_trivial(score)
+    tuplets = abjad.select.tuplets(score)
+    rmakers.swap_trivial_tuplets_for_containers(tuplets)
     return accumulator.time_signatures
 
 

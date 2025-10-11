@@ -119,7 +119,8 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
         baca.register(tuplets, 0)
         accumulator(library.v1, tuplets, tsd, "D5")
 
-    rmakers.swap_trivial(score)
+    tuplets = abjad.select.tuplets(score)
+    rmakers.swap_trivial_tuplets_for_containers(tuplets)
     return accumulator.time_signatures
 
 

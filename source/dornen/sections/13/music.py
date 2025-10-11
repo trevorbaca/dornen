@@ -112,7 +112,8 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
     tuplet, tsd = library.make_thirds(collection(1))
     accumulator(library.v1, tuplet, tsd, "4_35")
     accumulator(library.v1, abjad.Container("r8 r8 r8 r8 r8"), 8, "4_36")
-    rmakers.swap_trivial(score)
+    tuplets = abjad.select.tuplets(score)
+    rmakers.swap_trivial_tuplets_for_containers(tuplets)
     return accumulator.time_signatures
 
 

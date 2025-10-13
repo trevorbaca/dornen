@@ -410,7 +410,7 @@ def make_delicatissimo(collection):
     _assert_is_collection(collection)
     tuplet = baca.from_collection(collection, [1], 32)
     voice = abjad.Voice([tuplet], name="Temporary")
-    rmakers.beam_groups([abjad.select.leaves(tuplet)])
+    rmakers.beam_across_leaf_lists([abjad.select.leaves(tuplet)])
     pheads = baca.select.pheads(tuplet)
     baca.staccato(pheads)
     voice[:] = []
@@ -421,7 +421,7 @@ def make_dotted_eighths(collection):
     _assert_is_collection(collection)
     tuplet = baca.from_collection(collection, [3], 16)
     voice = abjad.Voice([tuplet], name="Temporary")
-    rmakers.beam([tuplet[:]], beam_lone_notes=True)
+    rmakers.beam_runs([tuplet[:]], beam_lone_notes=True)
     voice[:] = []
     return tuplet, 8
 
@@ -476,7 +476,7 @@ def make_forty_eighths(collection):
     _assert_is_collection(collection)
     tuplet = baca.from_collection(collection, [3], 64)
     voice = abjad.Voice([tuplet], name="Temporary")
-    rmakers.beam([tuplet[:]])
+    rmakers.beam_runs([tuplet[:]])
     voice[:] = []
     return tuplet, 32
 
@@ -485,7 +485,7 @@ def make_glissando_scatto(collection):
     _assert_is_collection(collection)
     tuplet = baca.from_collection(collection, [2, 2, 2, 1, 2, 2, 2], 32, -2)
     voice = abjad.Voice([tuplet])
-    rmakers.beam_groups([abjad.select.leaves(tuplet)])
+    rmakers.beam_across_leaf_lists([abjad.select.leaves(tuplet)])
     for ntrun in baca.select.ntruns(tuplet):
         baca.glissando(ntrun, do_not_hide_middle_note_heads=True)
     tuplets = abjad.mutate.eject_contents(voice)
@@ -512,9 +512,9 @@ def make_graced_tuplets(collections):
         baca.rhythm.attach_bgcs(bgcs, tuplet)
         tuplets.append(tuplet)
     leaf_lists = [_[:] for _ in all_bgcs]
-    rmakers.beam(leaf_lists)
+    rmakers.beam_runs(leaf_lists)
     groups = [abjad.select.leaves(_, grace=False) for _ in tuplets]
-    rmakers.beam_groups(groups, beam_lone_notes=True)
+    rmakers.beam_across_leaf_lists(groups, beam_lone_notes=True)
     tuplets = abjad.mutate.eject_contents(tuplets)
     return tuplets, 14
 
@@ -532,8 +532,8 @@ def make_ovoid(collection):
     voice = abjad.Voice([tuplet], name="Temporary")
     baca.rhythm.attach_bgcs(bgcs, tuplet)
     group = abjad.select.leaves(tuplet, grace=False)
-    rmakers.beam_groups([group])
-    rmakers.beam([_[:] for _ in bgcs if _ is not None])
+    rmakers.beam_across_leaf_lists([group])
+    rmakers.beam_runs([_[:] for _ in bgcs if _ is not None])
     voice[:] = []
     return tuplet
 
@@ -543,10 +543,10 @@ def make_passepied(collection):
     bgcs, collection = baca.make_bgcs(collection, baca.LMR())
     tuplet = baca.from_collection(collection, [1], 32)
     voice = abjad.Voice([tuplet], name="Temporary")
-    rmakers.beam_groups([abjad.select.leaves(tuplet)], beam_lone_notes=True)
+    rmakers.beam_across_leaf_lists([abjad.select.leaves(tuplet)], beam_lone_notes=True)
     baca.rhythm.attach_bgcs(bgcs, tuplet)
     leaf_lists = [_[:] for _ in bgcs]
-    rmakers.beam(leaf_lists)
+    rmakers.beam_runs(leaf_lists)
     voice[:] = []
     return tuplet, None
 
@@ -559,7 +559,7 @@ def make_running(collections):
         tuplets.append(tuplet)
     voice = abjad.Voice(tuplets, name="Temporary")
     leaf_lists = [abjad.select.leaves(_) for _ in tuplets]
-    rmakers.beam_groups(leaf_lists)
+    rmakers.beam_across_leaf_lists(leaf_lists)
     for tuplet in tuplets:
         if 1 < len(tuplet):
             baca.spanners.slur(tuplet)
@@ -571,7 +571,7 @@ def make_sixteenths(collection):
     _assert_is_collection(collection)
     tuplet = baca.from_collection(collection, [1], 16)
     voice = abjad.Voice([tuplet], name="Temporary")
-    rmakers.beam([tuplet[:]], beam_lone_notes=True)
+    rmakers.beam_runs([tuplet[:]], beam_lone_notes=True)
     voice[:] = []
     return tuplet, 16
 
@@ -581,7 +581,7 @@ def make_sixty_fourths(collections):
     tuplets = [baca.from_collection(_, [1], 64) for _ in collections]
     voice = abjad.Voice(tuplets, name="Temporary")
     leaf_lists = [abjad.select.leaves(_) for _ in tuplets]
-    rmakers.beam_groups(leaf_lists)
+    rmakers.beam_across_leaf_lists(leaf_lists)
     baca.staccato(baca.select.pheads(tuplets))
     voice[:] = []
     return tuplets, 64
@@ -597,7 +597,7 @@ def make_thirty_seconds(collection):
     _assert_is_collection(collection)
     tuplet = baca.from_collection(collection, [1], 32)
     voice = abjad.Voice([tuplet], name="Temporary")
-    rmakers.beam_groups([abjad.select.leaves(tuplet)])
+    rmakers.beam_across_leaf_lists([abjad.select.leaves(tuplet)])
     voice[:] = []
     return tuplet, 32
 
@@ -616,7 +616,7 @@ def make_twentieths(collection):
     _assert_is_collection(collection)
     tuplet = baca.from_collection(collection, [1], 16, "5:4")
     voice = abjad.Voice([tuplet], name="Temporary")
-    rmakers.beam([tuplet[:]], beam_lone_notes=True)
+    rmakers.beam_runs([tuplet[:]], beam_lone_notes=True)
     voice[:] = []
     return tuplet, 20
 
@@ -625,7 +625,7 @@ def make_twenty_eighths(collection):
     _assert_is_collection(collection)
     tuplet = baca.from_collection(collection, [1], 16, "7:4")
     voice = abjad.Voice([tuplet], name="Temporary")
-    rmakers.beam([tuplet[:]])
+    rmakers.beam_runs([tuplet[:]])
     voice[:] = []
     return tuplet, 28
 
@@ -634,7 +634,7 @@ def make_twenty_fourths(collection):
     _assert_is_collection(collection)
     tuplet = baca.from_collection(collection, [1], 16, "3:2")
     voice = abjad.Voice([tuplet], name="Temporary")
-    rmakers.beam([tuplet[:]], beam_lone_notes=True)
+    rmakers.beam_runs([tuplet[:]], beam_lone_notes=True)
     voice[:] = []
     return tuplet, 24
 
@@ -659,7 +659,7 @@ def make_waves(collections, denominator=64, *, inverted=False):
                 baca.style_ritardando(container)
     tuplets = abjad.select.tuplets(voice)
     leaf_lists = [_[:] for _ in tuplets]
-    rmakers.beam(leaf_lists)
+    rmakers.beam_runs(leaf_lists)
     tuplets = abjad.mutate.eject_contents(voice)
     return tuplets, denominator
 

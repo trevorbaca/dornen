@@ -68,7 +68,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
     def block():
         collection = ["C4"]
         tuplet, tsd = library.make_thirty_seconds(collection)
-        rmakers.force_rest(baca.select.lt(tuplet, 0))
+        rmakers.replace_leaves_with_rests(baca.select.lt(tuplet, 0))
         accumulator(library.v1, tuplet, tsd)
 
     @baca.call
@@ -125,7 +125,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
     def block():
         collection = ["C4"]
         tuplet, tsd = library.make_thirty_seconds(collection)
-        rmakers.force_rest(baca.select.lt(tuplet, 0))
+        rmakers.replace_leaves_with_rests(baca.select.lt(tuplet, 0))
         accumulator(library.v1, tuplet, tsd)
 
     @baca.call
@@ -182,7 +182,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
     def block():
         collection = ["C4"]
         tuplet, tsd = library.make_thirty_seconds(collection)
-        rmakers.force_rest(baca.select.lt(tuplet, 0))
+        rmakers.replace_leaves_with_rests(baca.select.lt(tuplet, 0))
         accumulator(library.v1, tuplet, tsd)
 
     @baca.call
@@ -236,7 +236,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
     def block():
         collection = ["C4"]
         tuplet, tsd = library.make_thirty_seconds(collection)
-        rmakers.force_rest(baca.select.lt(tuplet, 0))
+        rmakers.replace_leaves_with_rests(baca.select.lt(tuplet, 0))
         accumulator(library.v1, tuplet, tsd)
 
     @baca.call
@@ -290,7 +290,7 @@ def populate_score(score, first_measure_number, previous_persistent_indicators):
     def block():
         collection = ["C4"]
         tuplet, tsd = library.make_thirty_seconds(collection)
-        rmakers.force_rest(baca.select.lt(tuplet, 0))
+        rmakers.replace_leaves_with_rests(baca.select.lt(tuplet, 0))
         accumulator(library.v1, tuplet, tsd)
 
     @baca.call
